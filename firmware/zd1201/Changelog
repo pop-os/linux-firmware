@@ -1,0 +1,4 @@
+zd1201 Version 0.14 
+
+- Driver and firmware splited in different packages
+- Added id so MSI UB11B usb adapter is supported 

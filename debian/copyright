@@ -1,0 +1,12 @@
+This is the Ubuntu Linux firmware package:
+
+This package was put together by the Ubuntu Kernel Team, from
+sources retrieved from vendors.
+
+This package is currently maintained by the
+Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+
+FIRMWARE:
+
+Firmware files are checked to ensure distributability. Each firmware is
+owned and copyright by it's respective vendor.

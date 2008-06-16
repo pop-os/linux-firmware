@@ -1,0 +1,5 @@
+linux-firmware (1.0) intrepid; urgency=low
+
+  * Initial packaging
+
+ -- Ben Collins <ben.collins@canonical.com>  Mon, 16 Jun 2008 18:39:46 -0400
