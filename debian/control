@@ -19,4 +19,11 @@ XC-Package-Type: udeb
 Architecture: all
 Section: debian-installer
 Description: Firmware for NICs
- This package contains firmware for some network controllers.
+ This package contains firmware needed by some network controllers.
+
+Package: scsi-firmware
+XC-Package-Type: udeb
+Architecture: all
+Section: debian-installer
+Description: Firmware for SCSI controllers
+ This package contains firmware needed by some scsi controllers.

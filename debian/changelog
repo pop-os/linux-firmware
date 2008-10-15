@@ -1,3 +1,9 @@
+linux-firmware (1.1) intrepid; urgency=low
+
+  * Added scsi-firmware udeb with qla and aic firmware
+
+ -- Ben Collins <ben.collins@canonical.com>  Wed, 15 Oct 2008 10:45:39 -0400
+
 linux-firmware (1.0) intrepid; urgency=low
 
   * Initial packaging

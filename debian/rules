@@ -22,7 +22,8 @@ build-arch:
 build-indep:
 
 firm_dir = $(CURDIR)/debian/linux-firmware/lib/firmware
-u_firm_dir = $(CURDIR)/debian/nic-firmware/lib/firmware
+nic_firm_dir = $(CURDIR)/debian/nic-firmware/lib/firmware
+scsi_firm_dir = $(CURDIR)/debian/scsi-firmware/lib/firmware
 
 install-indep: build-indep
 	dh_testdir
@@ -40,9 +41,14 @@ install-indep: build-indep
 	  esac; \
 	done
 
-	for f in $$(cat debian/firmware.lst); do \
-		install -m644 -D $$(find firmware -name $$f) $(u_firm_dir)/$$f; \
+	for f in $$(cat debian/nic-firmware.lst); do \
+		install -m644 -D $$(find firmware -name $$f) $(nic_firm_dir)/$$f; \
 	done
+
+	for f in $$(cat debian/scsi-firmware.lst); do \
+		install -m644 -D $$(find firmware -name $$f) $(scsi_firm_dir)/$$f; \
+	done
+
 
 binary-indep: install-indep
 	dh_testdir
