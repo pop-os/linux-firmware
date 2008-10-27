@@ -1,3 +1,10 @@
+linux-firmware (1.2) intrepid; urgency=low
+
+  * Update copyright file with Intel and Adaptec licenses. Further updates
+    will occur in jaunty. LP: #284405
+
+ -- Ben Collins <ben.collins@canonical.com>  Mon, 27 Oct 2008 00:46:52 -0400
+
 linux-firmware (1.1) intrepid; urgency=low
 
   * Added scsi-firmware udeb with qla and aic firmware
