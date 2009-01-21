@@ -22,6 +22,7 @@ build-arch:
 build-indep:
 
 firm_dir = $(CURDIR)/debian/linux-firmware/lib/firmware
+license_dir = $(CURDIR)/debian/linux-firmware/usr/share/doc/linux-firmware/licenses
 nic_firm_dir = $(CURDIR)/debian/nic-firmware/lib/firmware
 scsi_firm_dir = $(CURDIR)/debian/scsi-firmware/lib/firmware
 
@@ -49,6 +50,14 @@ install-indep: build-indep
 		install -m644 -D $$(find firmware -name $$f) $(scsi_firm_dir)/$$f; \
 	done
 
+	#
+	# Assume that any file that isn't a firmware file is probably a license (or something)
+	#
+	install -d $(license_dir)
+	cp -a firmware/* $(license_dir)
+	find $(firm_dir) -type f | while read f; do \
+		find $(license_dir) -type f -name `basename $$f` | xargs rm -vf; \
+	done
 
 binary-indep: install-indep
 	dh_testdir
