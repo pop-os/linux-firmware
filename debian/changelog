@@ -1,3 +1,11 @@
+linux-firmware (1.5) jaunty; urgency=low
+
+  * Added firmware/dvb/dvb-usb-dib0700-1.20.fw 
+  * Added firmware/dvb/dvb-usb-af9015.fw
+  * Added firmware/libertas/lbtf_usb.bin and license.
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 22 Jan 2009 15:28:21 +0000
+
 linux-firmware (1.4) jaunty; urgency=low
 
   * Added firmware for RT 2860/2870
