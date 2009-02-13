@@ -1,3 +1,10 @@
+linux-firmware (1.6) jaunty; urgency=low
+
+  * Add ixp4xx microcode
+  * Added some notes to the rules file.
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Fri, 13 Feb 2009 21:53:28 +0000
+
 linux-firmware (1.5) jaunty; urgency=low
 
   * Added firmware/dvb/dvb-usb-dib0700-1.20.fw 

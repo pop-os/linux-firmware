@@ -35,10 +35,17 @@ install-indep: build-indep
 
 	cp -a firmware/zd1211 $(firm_dir)/
 	cp -a firmware/acx $(firm_dir)/
+	cp -a firmware/ixp4xx/NPE* $(firm_dir)/
+	#
+	# Copy all files that start with a lower case chracter. Make sure that changelogs
+	# and Copyrights start with an upper case character.
+	#
 	for i in firmware/*/[[:lower:]]*; do \
 	  case $${i##*/} in \
 	    zd121*) ;; \
-	    *) test -f "$$i" && cp $$i "$(firm_dir)/${i##*/}";; \
+	    acx) ;; \
+	    ixp4xx*) ;; \
+	    *) test -f "$$i" && cp -v $$i "$(firm_dir)/${i##*/}";; \
 	  esac; \
 	done
 
