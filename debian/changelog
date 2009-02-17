@@ -1,3 +1,11 @@
+linux-firmware (1.7) jaunty; urgency=low
+
+  * Make soft links for ixp4xx firmware file names. The driver wants to read
+    file names of the form NPE-B, not NPE-B.01020201.
+    LP: #330506
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Tue, 17 Feb 2009 13:23:11 +0000
+
 linux-firmware (1.6) jaunty; urgency=low
 
   * Add ixp4xx microcode
