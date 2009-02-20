@@ -1,3 +1,10 @@
+linux-firmware (1.9) jaunty; urgency=low
+
+  * Broadcom firmware file names must be upper case.
+    LP: #156133
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Fri, 20 Feb 2009 17:25:39 +0000
+
 linux-firmware (1.8) jaunty; urgency=low
 
   * Collapsed all firmware/at76 files into firmware/ateml
