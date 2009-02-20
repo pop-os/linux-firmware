@@ -65,6 +65,13 @@ install-indep: build-indep
 	find $(firm_dir) -type f | while read f; do \
 		find $(license_dir) -type f -name `basename $$f` | xargs rm -vf; \
 	done
+	#
+	# Clean up the exceptions.
+	#
+	rm -rf $(license_dir)/acx/default
+	rm -f  $(license_dir)/iwlwifi/NBE*
+	mv $(firm_dir)/acx/[ABR]* $(license_dir)/acx
+	mv $(firm_dir)/zd1211/[B]* $(license_dir)/zd1211
 
 binary-indep: install-indep
 	dh_testdir

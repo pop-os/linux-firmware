@@ -1,3 +1,11 @@
+linux-firmware (1.8) jaunty; urgency=low
+
+  * Collapsed all firmware/at76 files into firmware/ateml
+    Added licence and BOM files to iwlwifi, atmel, acx, aic94xx, zd1201
+    and zd1211.
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Fri, 20 Feb 2009 16:41:12 +0000
+
 linux-firmware (1.7) jaunty; urgency=low
 
   * Make soft links for ixp4xx firmware file names. The driver wants to read
