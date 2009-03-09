@@ -1,3 +1,12 @@
+linux-firmware (1.10) jaunty; urgency=low
+
+  [ Pete Graner ]
+
+  * Added firmware/ivtv BOM, v4l-cx23885-avcore-01.fw, and v4l-cx23885-enc.fw
+    LP: #321076
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Mon, 09 Mar 2009 16:18:37 -0700
+
 linux-firmware (1.9) jaunty; urgency=low
 
   * Broadcom firmware file names must be upper case.
