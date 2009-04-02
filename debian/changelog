@@ -1,3 +1,11 @@
+linux-firmware (1.11) jaunty; urgency=low
+
+  [ Pete Graner ]
+
+  * Added Hauppauge DVB-S2 PCI
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 02 Apr 2009 17:36:47 -0400
+
 linux-firmware (1.10) jaunty; urgency=low
 
   [ Pete Graner ]

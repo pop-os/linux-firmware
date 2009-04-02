@@ -1,2 +1,8 @@
 wget http://www.wi-bw.tfh-wildau.de/~pboettch/home/files/dvb-usb-dib0700-1.20.fw
 wget -NO dvb-usb-af9015.fw http://jusst.de/manu/fw/AFA/dvb-usb-af9015.fw_a-link
+
+Hauppauge DVB-S2 PCI
+wget -N http://www.hauppauge.de/software/mce/88x_2_122_26109_WHQL.zip
+unzip -oj 88x_2_122_26109_WHQL.zip Driver88/hcw88bda.sys
+dd if=hcw88bda.sys of=dvb-fe-cx24116.fw skip=81768 bs=1 count=32522
+echo "9950fe612d47217e6068f7141de225b0 *dvb-fe-cx24116.fw"|md5sum -c
