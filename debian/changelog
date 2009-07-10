@@ -1,3 +1,10 @@
+linux-firmware (1.14) karmic; urgency=low
+
+  * Updated firmware for ipw2200
+    - LP: #357968
+
+ -- Jamie Strandboge <jamie@ubuntu.com>  Fri, 10 Jul 2009 10:25:55 -0500
+
 linux-firmware (1.13) karmic; urgency=low
 
   [ Florian Reinhard ]
