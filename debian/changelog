@@ -1,3 +1,9 @@
+linux-firmware (1.15) karmic; urgency=low
+
+  * Updated iwlwifi 4965 ucode to 228.61.2.24
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Sun, 12 Jul 2009 15:19:45 -0600
+
 linux-firmware (1.14) karmic; urgency=low
 
   * Updated firmware for ipw2200
