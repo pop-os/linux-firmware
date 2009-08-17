@@ -1,3 +1,9 @@
+linux-firmware (1.16) karmic; urgency=low
+
+  * Added iwlwifi-1000-ucode-128.50.3.1
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Sun, 16 Aug 2009 20:26:34 -0600
+
 linux-firmware (1.15) karmic; urgency=low
 
   * Updated iwlwifi 4965 ucode to 228.61.2.24
