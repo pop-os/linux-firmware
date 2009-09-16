@@ -1,3 +1,10 @@
+linux-firmware (1.19) karmic; urgency=low
+
+  * Added xc5000 firmware
+    -LP: #403642
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Wed, 16 Sep 2009 13:32:41 -0600
+
 linux-firmware (1.18) karmic; urgency=low
 
   * Added ar9170 firmware.
