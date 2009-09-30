@@ -1,3 +1,10 @@
+linux-firmware (1.20) karmic; urgency=low
+
+  * p54: Use 2.13.1.0.arm.0 firmware version for isl3886 USB devices
+    -LP: #437515
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Wed, 30 Sep 2009 09:01:46 -0600
+
 linux-firmware (1.19) karmic; urgency=low
 
   * Added xc5000 firmware
