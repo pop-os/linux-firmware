@@ -1,3 +1,10 @@
+linux-firmware (1.21) karmic; urgency=low
+
+  * ar9170: Added one stage firmware
+    -LP: #386403
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Tue, 06 Oct 2009 09:21:52 -0600
+
 linux-firmware (1.20) karmic; urgency=low
 
   * p54: Use 2.13.1.0.arm.0 firmware version for isl3886 USB devices
