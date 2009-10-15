@@ -1,3 +1,10 @@
+linux-firmware (1.23) karmic; urgency=low
+
+  * Added Intel WiMAX firmware
+    -LP: #396554
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Wed, 14 Oct 2009 20:19:28 -0600
+
 linux-firmware (1.22) karmic; urgency=low
 
   * Added firmware for dib0700 USB bridge
