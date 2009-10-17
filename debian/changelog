@@ -1,3 +1,9 @@
+linux-firmware (1.24) karmic; urgency=low
+
+  * iwlwifi: Added iwlwifi-6000-4.ucode
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Sat, 17 Oct 2009 09:45:16 -0600
+
 linux-firmware (1.23) karmic; urgency=low
 
   * Added Intel WiMAX firmware
