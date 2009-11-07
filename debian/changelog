@@ -1,3 +1,10 @@
+linux-firmware (1.25) karmic-proposed; urgency=low
+
+  * Rename BCM2033 firmware files with lower case extension
+    -LP: #156133
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Sat, 07 Nov 2009 08:19:30 -0700
+
 linux-firmware (1.24) karmic; urgency=low
 
   * iwlwifi: Added iwlwifi-6000-4.ucode

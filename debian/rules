@@ -72,8 +72,8 @@ install-indep: build-indep
 	rm -f  $(license_dir)/iwlwifi/NBE*
 	mv $(firm_dir)/acx/[ABR]* $(license_dir)/acx
 	mv $(firm_dir)/zd1211/[B]* $(license_dir)/zd1211
-	mv $(firm_dir)/bcm2033-fw.bin $(firm_dir)/BCM2033-FW.BIN
-	mv $(firm_dir)/bcm2033-md.bin $(firm_dir)/BCM2033-MD.BIN
+	mv $(firm_dir)/bcm2033-fw.bin $(firm_dir)/BCM2033-FW.bin
+	mv $(firm_dir)/bcm2033-md.bin $(firm_dir)/BCM2033-MD.bin
 
 binary-indep: install-indep
 	dh_testdir
