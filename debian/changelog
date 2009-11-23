@@ -1,3 +1,10 @@
+linux-firmware (1.26) karmic-proposed; urgency=low
+
+  * Erroneously renamed BCM2033-MD.hex
+    -LP: #156133
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Mon, 23 Nov 2009 08:06:20 -0700
+
 linux-firmware (1.25) karmic-proposed; urgency=low
 
   * Rename BCM2033 firmware files with lower case extension

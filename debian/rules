@@ -73,7 +73,7 @@ install-indep: build-indep
 	mv $(firm_dir)/acx/[ABR]* $(license_dir)/acx
 	mv $(firm_dir)/zd1211/[B]* $(license_dir)/zd1211
 	mv $(firm_dir)/bcm2033-fw.bin $(firm_dir)/BCM2033-FW.bin
-	mv $(firm_dir)/bcm2033-md.bin $(firm_dir)/BCM2033-MD.bin
+	mv $(firm_dir)/bcm2033-md.hex $(firm_dir)/BCM2033-MD.hex
 
 binary-indep: install-indep
 	dh_testdir
