@@ -6,8 +6,6 @@
 #
 # Copyright (c) 2008 Ben Collins <bcollins@ubuntu.com>
 #
-# Example build for a specific arch:
-#	fakeroot debian/rules binary-arch arch=i386 flavours="generic"
 #
 
 # This is the debhelper compatability version to use.
@@ -22,7 +20,8 @@ build-arch:
 build-indep:
 
 firm_dir = $(CURDIR)/debian/linux-firmware/lib/firmware
-license_dir = $(CURDIR)/debian/linux-firmware/usr/share/doc/linux-firmware/licenses
+doc_dir = $(CURDIR)/debian/linux-firmware/usr/share/doc/linux-firmware
+license_dir = $(doc_dir)/licenses
 nic_firm_dir = $(CURDIR)/debian/nic-firmware/lib/firmware
 scsi_firm_dir = $(CURDIR)/debian/scsi-firmware/lib/firmware
 
@@ -33,47 +32,22 @@ install-indep: build-indep
 
 	install -d $(firm_dir)
 
-	cp -a firmware/zd1211 $(firm_dir)/
-	cp -a firmware/acx $(firm_dir)/
-	cp -a firmware/ixp4xx/NPE* $(firm_dir)/
-	#
-	# Copy all files that start with a lower case chracter. Make sure that changelogs
-	# and Copyrights start with an upper case character.
-	#
-	for i in firmware/*/[[:lower:]]*; do \
-	  case $${i##*/} in \
-	    zd121*) ;; \
-	    acx) ;; \
-	    ixp4xx*) ;; \
-	    *) test -f "$$i" && cp -v $$i "$(firm_dir)/${i##*/}";; \
-	  esac; \
-	done
+	rsync -a --exclude=WHENCE --exclude=.git * $(firm_dir)
+	find $(firm_dir) -type f -name "LICEN[CS]E*" |xargs rm
 
 	for f in $$(cat debian/nic-firmware.lst); do \
-		install -m644 -D $$(find firmware -name $$f) $(nic_firm_dir)/$$f; \
+		install -m644 -D $$f $(nic_firm_dir)/$$f; \
 	done
 
 	for f in $$(cat debian/scsi-firmware.lst); do \
-		install -m644 -D $$(find firmware -name $$f) $(scsi_firm_dir)/$$f; \
+		install -m644 -D $$f $(scsi_firm_dir)/$$f; \
 	done
 
-	#
-	# Assume that any file that isn't a firmware file is probably a license (or something)
-	#
+	install -d $(doc_dir)
+	cp WHENCE $(doc_dir)/README
+
 	install -d $(license_dir)
-	cp -a firmware/* $(license_dir)
-	find $(firm_dir) -type f | while read f; do \
-		find $(license_dir) -type f -name `basename $$f` | xargs rm -vf; \
-	done
-	#
-	# Clean up the exceptions.
-	#
-	rm -rf $(license_dir)/acx/default
-	rm -f  $(license_dir)/iwlwifi/NBE*
-	mv $(firm_dir)/acx/[ABR]* $(license_dir)/acx
-	mv $(firm_dir)/zd1211/[B]* $(license_dir)/zd1211
-	mv $(firm_dir)/bcm2033-fw.bin $(firm_dir)/BCM2033-FW.bin
-	mv $(firm_dir)/bcm2033-md.hex $(firm_dir)/BCM2033-MD.hex
+	cp LICEN[CS]E* $(license_dir)
 
 binary-indep: install-indep
 	dh_testdir

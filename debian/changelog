@@ -1,3 +1,9 @@
+linux-firmware (1.27) lucid; urgency=low
+
+  * Adopted git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Mon, 30 Nov 2009 14:37:34 -0700
+
 linux-firmware (1.26) karmic-proposed; urgency=low
 
   * Erroneously renamed BCM2033-MD.hex

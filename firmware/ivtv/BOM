@@ -1,4 +1,0 @@
-IVTV Firmware Location = http://www.ivtvdriver.org
-HVR1800 Firmware Location = http://www.ivtvdriver.org
-
-NOTES: The HVR1800 (cx23885) is internally a cx25840 which is in the IVTV firmware bundle.  The firmware for the cx23885 is a newer version of the standalone cx25840 and falls under the IVTV license.
