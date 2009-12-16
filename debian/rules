@@ -32,7 +32,7 @@ install-indep: build-indep
 
 	install -d $(firm_dir)
 
-	rsync -a --exclude=WHENCE --exclude=.git * $(firm_dir)
+	rsync -a --exclude=WHENCE --exclude=.git --exclude=debian * $(firm_dir)
 	find $(firm_dir) -type f -name "LICEN[CS]E*" |xargs rm
 
 	for f in $$(cat debian/nic-firmware.lst); do \
