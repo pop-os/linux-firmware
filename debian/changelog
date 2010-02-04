@@ -1,3 +1,10 @@
+linux-firmware (1.29) lucid; urgency=low
+
+  * Added firmware for prism54 kernel >=2.6.29
+    -LP: #509265
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 04 Feb 2010 13:18:25 -0700
+
 linux-firmware (1.28) lucid; urgency=low
 
   * Exclude the debian directory when copying firmware.
