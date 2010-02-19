@@ -1,3 +1,11 @@
+linux-firmware (1.30) lucid; urgency=low
+
+  * rebased against git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git d9076a54d74e371a11e1206b4a26e2e428045b9e
+  * Adds radeon firmware
+    -LP: #521737
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Fri, 19 Feb 2010 13:53:12 -0700
+
 linux-firmware (1.29) lucid; urgency=low
 
   * Added firmware for prism54 kernel >=2.6.29

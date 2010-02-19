@@ -429,7 +429,7 @@ File: ar9170.fw
 File: ar9170-1.fw
 File: ar9170-2.fw
 
-License: Redistributable. See LICENCE.atheros_firmware for details
+Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 --------------------------------------------------------------------------
 
@@ -502,7 +502,24 @@ File: cxgb3/t3fw-7.0.0.bin
 File: cxgb3/t3fw-7.1.0.bin
 file: cxgb3/t3fw-7.4.0.bin
 
-License: GPLv2 or OpenIB.org BSD license, no source visible
+Licence: GPLv2 or OpenIB.org BSD license, no source visible
+
+--------------------------------------------------------------------------
+
+Driver: cxgb3 - Chelsio Terminator 3 1G/10G Ethernet adapter
+
+File: cxgb3/ael2005_opt_edc.bin.ihex
+File: cxgb3/ael2005_twx_edc.bin.ihex
+File: cxgb3/ael2020_twx_edc.bin.ihex
+
+Licence:
+ *	Copyright (c) 2007-2009 NetLogic Microsystems, Inc.
+ *
+ *	Permission is hereby granted for the distribution of this firmware
+ *	data in hexadecimal or equivalent format, provided this copyright
+ *	notice is accompanying it.
+
+Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
@@ -573,7 +590,7 @@ Driver: i2400m-usb - Intel 2400 Wireless WiMAX Connection over USB
 File: i2400m-fw-usb-1.3.sbcf
 File: i2400m-fw-usb-1.4.sbcf
 
-License: Redistributable. See LICENCE.i2400m for details
+Licence: Redistributable. See LICENCE.i2400m for details
 
 Also available from http://linuxwimax.org/Download
 
@@ -603,7 +620,7 @@ File: usb8388_v5.bin
 File: usb8388_v9.bin
 File: usb8682.bin
 
-License: Redistributable. See LICENCE.libertas for details.  Extracted from
+Licence: Redistributable. See LICENCE.libertas for details.  Extracted from
 Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
 
 --------------------------------------------------------------------------
@@ -613,7 +630,7 @@ Driver: mwl8k - Marvell Libertas softmac-type 802.11b/g cards
 File: fmimage_8687.fw
 File: helper_8687.fw
 
-License: Redistributable. See LICENCE.mwl8k for details.  Downloaded from
+Licence: Redistributable. See LICENCE.mwl8k for details.  Downloaded from
 Marvell's "Extranet" with permission.
 
 --------------------------------------------------------------------------
@@ -652,7 +669,7 @@ Driver: cx231xx - Conexant Cx23100/101/102 USB broadcast A/V decoder
 
 File: v4l-cx231xx-avcore-01.fw
 
-License:
+Licence:
   Conexant grants permission to use and redistribute these firmware
   files for use with Conexant devices, but not as a part of the Linux
   kernel or in any other form which would require these files themselves
@@ -762,6 +779,11 @@ Found in hex form in kernel source.
 Driver: PCMCIA_PCNET - NE2000 compatible PCMCIA adapter
 
 File: cis/LA-PCM.cis
+      cis/PCMLM28.cis
+      cis/DP83903.cis
+      cis/NE2K.cis
+      cis/tamarack.cis
+      cis/PE-200.cis
 
 Licence: GPL
 
@@ -789,6 +811,22 @@ Originally developed by the pcmcia-cs project
 
 --------------------------------------------------------------------------
 
+Driver: SERIAL_8250_CS - Serial PCMCIA adapter
+
+File: cis/MT5634ZLX.cis
+      cis/RS-COM-2P.cis
+      cis/COMpad2.cis
+      cis/COMpad4.cis
+      cis/SW_555_SER.cis
+      cis/SW_7xx_SER.cis
+      cis/SW_8xx_SER.cis
+
+Licence: GPL
+
+Originally developed by the pcmcia-cs project
+
+--------------------------------------------------------------------------
+
 Driver: PCMCIA_SMC91C92 - SMC 91Cxx PCMCIA
 
 File: ositech/Xilinx7OD.bin
@@ -807,7 +845,7 @@ File: v4l-cx23418-apu.fw
 File: v4l-cx23418-cpu.fw
 File: v4l-cx23418-dig.fw
 
-License:
+Licence:
   Conexant grants permission to use and redistribute these firmware
   files for use with Conexant devices, but not as a part of the Linux
   kernel or in any other form which would require these files themselves
@@ -823,7 +861,7 @@ Driver: cx23885 - Conexant PCI Express Broadcast A/V decoder
 File: v4l-cx23885-avcore-01.fw
 File: v4l-cx23885-enc.fw
 
-License:
+Licence:
   Conexant grants permission to use and redistribute these firmware
   files for use with Conexant devices, but not as a part of the Linux
   kernel or in any other form which would require these files themselves
@@ -838,7 +876,7 @@ Driver: cx23840 - Conexant sideport Broadcast A/V decoder
 
 File: v4l-cx25840.fw
 
-License:
+Licence:
   Conexant grants permission to use and redistribute these firmware
   files for use with Conexant devices, but not as a part of the Linux
   kernel or in any other form which would require these files themselves
@@ -873,8 +911,10 @@ Driver: bnx2x: Broadcom Everest
 
 File: bnx2x-e1-4.8.53.0.fw
 File: bnx2x-e1h-4.8.53.0.fw
+File: bnx2x-e1-5.2.7.0.fw.ihex
+File: bnx2x-e1h-5.2.7.0.fw.ihex
 
-License:
+Licence:
   Copyright (c) 2007-2009 Broadcom Corporation
 
   This file contains firmware data derived from proprietary unpublished
@@ -892,9 +932,14 @@ Found in hex form in kernel source.
 Driver: BNX2 - Broadcom NetXtremeII
 
 File: bnx2/bnx2-mips-06-4.6.16.fw
-File: bnx2/bnx2-rv2p-06-4.6.16.fw
+File: bnx2/bnx2-mips-06-5.0.0.j3.fw
 File: bnx2/bnx2-mips-09-4.6.17.fw
+File: bnx2/bnx2-mips-09-5.0.0.j3.fw
+File: bnx2/bnx2-rv2p-06-4.6.16.fw
+File: bnx2/bnx2-rv2p-06-5.0.0.j3.fw
 File: bnx2/bnx2-rv2p-09-4.6.15.fw
+File: bnx2/bnx2-rv2p-09-5.0.0.j3.fw
+File: bnx2/bnx2-rv2p-09ax-5.0.0.j3.fw
 
 Licence:
 
@@ -989,7 +1034,7 @@ Driver: xc5000 - Xceive 5000 Tuner driver
 File: dvb-fe-xc5000-1.6.114.fw
 Info: v1.6.114
 
-License: Redistributable. See LICENCE.xc5000 for details
+Licence: Redistributable. See LICENCE.xc5000 for details
 
 --------------------------------------------------------------------------
 
@@ -998,7 +1043,146 @@ Driver: dib0700 - DiBcom dib0700 USB DVB bridge driver
 File: dvb-usb-dib0700-1.20.fw
 Info: v1.20
 
-License: Redistributable. See LICENCE.dib0700 for details
+Licence: Redistributable. See LICENCE.dib0700 for details
+
+--------------------------------------------------------------------------
+
+Driver: DFU Driver for Atheros bluetooth chipset AR3011
+
+File: ath3k-1.fw
+Info: v1.0
+
+Licence: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: mga - Matrox G200/G400/G550
+
+File: matrox/g200_warp.fw
+File: matrox/g400_warp.fw
+
+Licence:
+
+Copyright 1999 Matrox Graphics Inc.
+All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+MATROX GRAPHICS INC., OR ANY OTHER CONTRIBUTORS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
+OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Found in hex form in kernel source.
+
+--------------------------------------------------------------------------
+
+Driver: r128 - ATI Rage 128
+
+File: r128/r128_cce.bin
+
+Licence:
+
+Copyright 2000 Advanced Micro Devices, Inc.
+
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice (including the next
+ * paragraph) shall be included in all copies or substantial portions of the
+ * Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+ * PRECISION INSIGHT AND/OR ITS SUPPLIERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+ * OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+
+Found in decimal form in kernel source.
+
+--------------------------------------------------------------------------
+
+Driver: radeon - ATI Radeon
+
+File: radeon/R100_cp.bin
+File: radeon/R200_cp.bin
+File: radeon/R300_cp.bin
+File: radeon/R420_cp.bin
+File: radeon/RS600_cp.bin
+File: radeon/RS690_cp.bin
+File: radeon/R520_cp.bin
+File: radeon/R600_pfp.bin
+File: radeon/R600_me.bin
+File: radeon/RV610_pfp.bin
+File: radeon/RV610_me.bin
+File: radeon/RV630_pfp.bin
+File: radeon/RV630_me.bin
+File: radeon/RV620_pfp.bin
+File: radeon/RV620_me.bin
+File: radeon/RV635_pfp.bin
+File: radeon/RV635_me.bin
+File: radeon/RV670_pfp.bin
+File: radeon/RV670_me.bin
+File: radeon/RS780_pfp.bin
+File: radeon/RS780_me.bin
+File: radeon/RV770_pfp.bin
+File: radeon/RV770_me.bin
+File: radeon/RV730_pfp.bin
+File: radeon/RV730_me.bin
+File: radeon/RV710_pfp.bin
+File: radeon/RV710_me.bin
+
+Licence:
+
+ * Copyright 2007-2009 Advanced Micro Devices, Inc.
+ * All Rights Reserved.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice (including the next
+ * paragraph) shall be included in all copies or substantial portions of the
+ * Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+ * IN NO EVENT SHALL THE COPYRIGHT OWNER(S) AND/OR ITS SUPPLIERS BE
+ * LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Found in hex form in kernel source.
+
+--------------------------------------------------------------------------
+
+Driver: radeon - ATI Radeon
+
+File: radeon/R600_rlc.bin
+File: radeon/R700_rlc.bin
+
+Licence: Redistributable. See LICENCE.radeon_rlc for details.
 
 --------------------------------------------------------------------------
 
@@ -1064,4 +1248,4 @@ Driver: aic94xx-seq
 File: aic94xx-seq.fw
 Info: http://www.adaptec.com/en-US/speed/scsi/linux/aic94xx-seq-30-1_tar_gz
 
-License: Redistributable. See LICENSE.aic94xx-seq for details
+License: Redistributable. See LICENCE.aic94xx-seq for details
