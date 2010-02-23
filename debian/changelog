@@ -1,3 +1,14 @@
+linux-firmware (1.31) lucid; urgency=low
+
+  [ Chase Douglas ]
+
+  * Revert "firmware for prism54 kernel >=2.6.29"
+    The prism54 softmac firmware does not have a license statement, so the
+    firmware has been moved to linux-firmware-nonfree.
+    -LP: #524713
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Tue, 23 Feb 2010 11:31:46 -0700
+
 linux-firmware (1.30) lucid; urgency=low
 
   * rebased against git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git d9076a54d74e371a11e1206b4a26e2e428045b9e
