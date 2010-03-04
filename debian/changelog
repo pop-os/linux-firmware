@@ -1,3 +1,11 @@
+linux-firmware (1.32) lucid; urgency=low
+
+  [ Manoj Iyer ]
+
+  * Added firmware for RealTek RTL8191/2SE or RTL8171 wireless MACs
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 04 Mar 2010 10:22:44 -0700
+
 linux-firmware (1.31) lucid; urgency=low
 
   [ Chase Douglas ]

@@ -1249,3 +1249,17 @@ File: aic94xx-seq.fw
 Info: http://www.adaptec.com/en-US/speed/scsi/linux/aic94xx-seq-30-1_tar_gz
 
 License: Redistributable. See LICENCE.aic94xx-seq for details
+
+
+--------------------------------------------------------------------------
+
+Driver: rtl8192se - for RealTek RTL8191/2SE or RTL8171 wireless MACs
+
+File: rtl8192sfw492.bin  rtl8192sfw74.bin  rtl8192sfw.bin
+
+Info: The redistributable licence was transmitted electronically and contained 
+in a source package rtl8192se_linux_2.6.0015.0127.2010.tar.gz. This source 
+package was emailed by roger_liang <roger_liang@realtek.com> on Wed, 3 Mar 2010
+to 'Manoj Iyer' <manoj.iyer@canonical.com>
+
+License: Redistributable. See LICENCE.realtek-firmware.txt for details.
