@@ -1,3 +1,11 @@
+linux-firmware (1.33) lucid; urgency=low
+
+  [ Chase Douglas ]
+
+  * Added echoaudio firmware
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Wed, 17 Mar 2010 13:29:45 -0600
+
 linux-firmware (1.32) lucid; urgency=low
 
   [ Manoj Iyer ]

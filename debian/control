@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Standards-Version: 3.6.1
-Build-Depends: debhelper (>= 4.0.0), rsync
+Build-Depends: debhelper (>= 4.0.0), rsync, gcc
 Vcs-Git: git://kernel.ubuntu.com/ubuntu/linux-firmware.git
 
 Package: linux-firmware
