@@ -1,3 +1,9 @@
+linux-firmware (1.36) maverick; urgency=low
+
+  * Added iwlwifi-6050-4.ucode
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Fri, 04 Jun 2010 13:55:06 -0600
+
 linux-firmware (1.35) maverick; urgency=low
 
   [ Chase Douglas ]
@@ -7,6 +13,7 @@ linux-firmware (1.35) maverick; urgency=low
   [ Upstream ]
 
   * Add RealTek RTL8192E firmware
+  * rebased against git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git 25813c5c5ce0e8ce080de7a7fbf69b2c858798d2
 
  -- Tim Gardner <tim.gardner@canonical.com>  Tue, 25 May 2010 11:32:39 -0600
 
