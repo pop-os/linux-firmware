@@ -1,3 +1,15 @@
+linux-firmware (1.37) maverick; urgency=low
+
+  [ Upstream ]
+  * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git 370066f09b4cc399935b514cba0c1f3cb4f7b350
+  * Add firmware for Modems based on Eagle Chipset
+  * Add firmware for Intel Wireless WiFi Link 6250AGN Adapter
+
+  [ Tim Gardner ]
+  * Add iwlwifi-6000-4.ucode 9.221.4.1
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Mon, 21 Jun 2010 14:54:33 -0600
+
 linux-firmware (1.36) maverick; urgency=low
 
   * Added iwlwifi-6050-4.ucode
