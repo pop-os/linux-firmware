@@ -432,9 +432,11 @@ Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 --------------------------------------------------------------------------
 
-Driver: ar9271 - Atheros HTC device (USB)
+Driver: ath9k_htc - Atheros HTC devices (USB)
 
 File: ar9271.fw
+File: ar7010.fw
+File: ar7010_1_1.fw
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
 
@@ -594,8 +596,9 @@ Found in hex form in kernel source, with the following notice:
 
 Driver: i2400m-usb - Intel 2400 Wireless WiMAX Connection over USB
 
-File: i2400m-fw-usb-1.3.sbcf
 File: i2400m-fw-usb-1.4.sbcf
+File: i2400m-fw-usb-1.5.sbcf
+File: i6050-fw-usb-1.5.sbcf
 
 Licence: Redistributable. See LICENCE.i2400m for details
 
@@ -794,6 +797,7 @@ File: cis/DP83903.cis
 File: cis/NE2K.cis
 File: cis/tamarack.cis
 File: cis/PE-200.cis
+File: cis/PE520.cis
 
 Licence: GPL
 
@@ -932,9 +936,11 @@ File: bnx2x-e1-4.8.53.0.fw
 File: bnx2x-e1h-4.8.53.0.fw
 File: bnx2x-e1-5.2.7.0.fw
 File: bnx2x-e1h-5.2.7.0.fw
+File: bnx2x-e1-5.2.13.0.fw
+File: bnx2x-e1h-5.2.13.0.fw
 
-Licence:
-  Copyright (c) 2007-2009 Broadcom Corporation
+License:
+  Copyright (c) 2007-2010 Broadcom Corporation
 
   This file contains firmware data derived from proprietary unpublished
   source code, Copyright (c) 2007-2009 Broadcom Corporation.
@@ -952,24 +958,37 @@ Driver: bnx2 - Broadcom NetXtremeII
 
 File: bnx2/bnx2-mips-06-4.6.16.fw
 File: bnx2/bnx2-mips-06-5.0.0.j3.fw
+File: bnx2/bnx2-mips-06-5.0.0.j6.fw
 File: bnx2/bnx2-mips-09-4.6.17.fw
 File: bnx2/bnx2-mips-09-5.0.0.j3.fw
+File: bnx2/bnx2-mips-09-5.0.0.j9.fw
 File: bnx2/bnx2-rv2p-06-4.6.16.fw
 File: bnx2/bnx2-rv2p-06-5.0.0.j3.fw
 File: bnx2/bnx2-rv2p-09-4.6.15.fw
 File: bnx2/bnx2-rv2p-09-5.0.0.j3.fw
+File: bnx2/bnx2-rv2p-09-5.0.0.j10.fw
 File: bnx2/bnx2-rv2p-09ax-5.0.0.j3.fw
+File: bnx2/bnx2-rv2p-09ax-5.0.0.j10.fw
 
 Licence:
 
  This file contains firmware data derived from proprietary unpublished
- source code, Copyright (c) 2004 - 2009 Broadcom Corporation.
+ source code, Copyright (c) 2004 - 2010 Broadcom Corporation.
 
  Permission is hereby granted for the distribution of this firmware data
  in hexadecimal or equivalent format, provided this copyright notice is
  accompanying it.
 
 Found in hex form in kernel source.
+
+--------------------------------------------------------------------------
+
+Driver: netxen_nic - NetXen Multi port (1/10) Gigabit Ethernet NIC
+
+File: phanfw.bin
+Info: v4.0.517
+
+Licence: Redistributable. See LICENCE.phanfw for details.
 
 --------------------------------------------------------------------------
 
@@ -1269,6 +1288,44 @@ File: lgs8g75.fw
 
 Licence: Unknown
 
+--------------------------------------------------------------------------
+
+Driver: ib_qib - QLogic Infiniband
+
+File: qlogic/sd7220.fw
+
+Licence:
+
+ * Copyright (c) 2007, 2008 QLogic Corporation. All rights reserved.
+ *
+ * This software is available to you under a choice of one of two
+ * licenses.  You may choose to be licensed under the terms of the GNU
+ * General Public License (GPL) Version 2, available from the file
+ * COPYING in the main directory of this source tree, or the
+ * OpenIB.org BSD license below:
+ *
+ *     Redistribution and use in source and binary forms, with or
+ *     without modification, are permitted provided that the following
+ *     conditions are met:
+ *
+ *      - Redistributions of source code must retain the above
+ *        copyright notice, this list of conditions and the following
+ *        disclaimer.
+ *
+ *      - Redistributions in binary form must reproduce the above
+ *        copyright notice, this list of conditions and the following
+ *        disclaimer in the documentation and/or other materials
+ *        provided with the distribution.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+ * BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ * ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+
 Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
@@ -1285,7 +1342,6 @@ Licence: Redistributable. See LICENCE.ueagle-atm4-firmware for details
 --------------------------------------------------------------------------
 
 Driver: ueagle-atm - Driver for USB ADSL Modems based on Eagle I,II,III
-
 
 File: ueagle-atm/930-fpga.bin
 File: ueagle-atm/CMVeiWO.bin    
@@ -1312,6 +1368,40 @@ Info: v1.1
 
 Licence: Redistributable. Based on 
          https://mail.gna.org/public/eagleusb-dev/2004-11/msg00172.html
+
+--------------------------------------------------------------------------
+
+Driver: vxge - Exar X3100 Series 10GbE PCIe I/O Virtualized Server Adapter
+
+File: vxge/X3fw.ncf
+File: vxge/X3fw-pxe.ncf
+
+Licence:
+
+ This file contains firmware data derived from proprietary unpublished
+ source code, Copyright (c) 2010 Exar Corporation.
+
+ Permission is hereby granted for the distribution of this firmware data
+ in hexadecimal or equivalent format, provided this copyright notice is
+ accompanying it.
+
+--------------------------------------------------------------------------
+
+Driver: brcm80211 - Broadcom 802.11n wireless LAN driver.
+
+File: brcm/bcm43xx-0-610-809-0.fw
+File: brcm/bcm43xx_hdr-0-610-809-0.fw
+
+Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
+
+--------------------------------------------------------------------------
+
+Driver: brcm80211 - Broadcom 802.11n wireless LAN driver.
+
+File: bcm4329-fullmac-4-218-248-5.bin
+File: bcm4329-fullmac-4-218-248-5.txt
+
+Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 
 --------------------------------------------------------------------------
 

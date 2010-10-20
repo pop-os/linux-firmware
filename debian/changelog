@@ -1,3 +1,9 @@
+linux-firmware (1.39) natty; urgency=low
+
+  * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git e9f9e3a9b7d780e93ae869c1b8502c843bfd93a4
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Wed, 20 Oct 2010 12:38:08 -0600
+
 linux-firmware (1.38) maverick; urgency=low
 
   * rtl8192sfw.bin: Update to 0017.0507.2010
