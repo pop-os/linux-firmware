@@ -1,3 +1,13 @@
+linux-firmware (1.40) natty; urgency=low
+
+  * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git 0892c5ad053f226699cabbd1df42a352cf6f6fce
+    vxge: update firmware to version 1.8.1
+    linux-firmware: Add firmware files for Realtek RTL8712U and RTL8192CE
+    linux-firmware: wl12xx-Add Firmware and NVS files to support Texas Instruments WLAN driver
+    Add firmware for Telgent 2300 V4L/DVB driver
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 18 Nov 2010 14:16:09 -0700
+
 linux-firmware (1.39) natty; urgency=low
 
   * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git e9f9e3a9b7d780e93ae869c1b8502c843bfd93a4

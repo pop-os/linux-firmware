@@ -1375,6 +1375,7 @@ Driver: vxge - Exar X3100 Series 10GbE PCIe I/O Virtualized Server Adapter
 
 File: vxge/X3fw.ncf
 File: vxge/X3fw-pxe.ncf
+Version: 1.8.1
 
 Licence:
 
@@ -1402,6 +1403,52 @@ File: bcm4329-fullmac-4-218-248-5.bin
 File: bcm4329-fullmac-4-218-248-5.txt
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
+
+--------------------------------------------------------------------------
+
+Driver: wl12xx - Texas Instruments 802.11 wireless LAN driver
+
+File: wl1271-fw.bin
+File: wl1271-nvs.bin
+
+Licence: See LICENCE.ti-connectivity for details.
+
+	wl1271-fw.bin version 6.1.0.0.343.
+	wl1271-nvs.bin RM version 206.
+	The nvs file includes two parts: radio calibration and
+	ini setting parameters.
+
+--------------------------------------------------------------------------
+
+Driver: tlg2300 - Telgent 2300 V4L/DVB driver.
+
+File: tlg2300_firmware.bin
+
+Licence:
+  Telegent System grants permission to use and redistribute these
+  firmware files for use with devices containing the chip tlg2300, but
+  not as a part of the Linux kernel or in any other form which would
+  require these files themselves to be covered by the terms of the GNU
+  General Public License. These firmware files are distributed in the
+  hope that they will be useful, but WITHOUT ANY WARRANTY; without even
+  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+  PURPOSE.
+
+--------------------------------------------------------------------------
+
+Driver: r8712u - Reaktek 802.11n WLAN driver for RTL8712U
+
+File: rtlwifi/rtl8712u.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+
+--------------------------------------------------------------------------
+
+Driver: rtl8192ce - Reaktek 802.11n WLAN driver for RTL8192CE
+
+File: rtlwifi/rtl8192cefw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
 
 --------------------------------------------------------------------------
 
