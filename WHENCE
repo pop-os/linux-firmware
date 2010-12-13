@@ -986,7 +986,7 @@ Found in hex form in kernel source.
 Driver: netxen_nic - NetXen Multi port (1/10) Gigabit Ethernet NIC
 
 File: phanfw.bin
-Info: v4.0.517
+Info: v4.0.534
 
 Licence: Redistributable. See LICENCE.phanfw for details.
 
@@ -1243,6 +1243,9 @@ File: radeon/JUNIPER_rlc.bin
 File: radeon/REDWOOD_me.bin
 File: radeon/REDWOOD_pfp.bin
 File: radeon/REDWOOD_rlc.bin
+File: radeon/PALM_me.bin
+File: radeon/PALM_pfp.bin
+File: radeon/SUMO_rlc.bin
 
 Licence: Redistributable. See LICENCE.radeon_rlc for details.
 
@@ -1410,13 +1413,18 @@ Driver: wl12xx - Texas Instruments 802.11 wireless LAN driver
 
 File: wl1271-fw.bin
 File: wl1271-nvs.bin
+File: wl1271-fw-ap.bin
+File: wl1271-nvs-ap.bin
 
 Licence: See LICENCE.ti-connectivity for details.
 
-	wl1271-fw.bin version 6.1.0.0.343.
-	wl1271-nvs.bin RM version 206.
-	The nvs file includes two parts: radio calibration and
-	ini setting parameters.
+	Station:      wl1271-fw.bin version 6.1.0.0.343 (RM version 206)
+	Access Point: wl1271-fw-ap.bin version 6.2.0.0.30 (RM version 6.2.0.0.6)
+	The nvs file includes two parts:
+	 - radio calibration
+	 - ini setting parameters
+
+	In order to use that files copy them to target FS at /lib/firmware/.
 
 --------------------------------------------------------------------------
 
@@ -1446,7 +1454,15 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
 
 Driver: rtl8192ce - Reaktek 802.11n WLAN driver for RTL8192CE
 
-File: rtlwifi/rtl8192cefw.bin
+File: rtlwifi/rtl8192cfw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+
+--------------------------------------------------------------------------
+
+Driver: rtl8192cu - Realtek 802.11n WLAN driver for RTL8192CU
+
+File: rtlwifi/rtl8192cufw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
 

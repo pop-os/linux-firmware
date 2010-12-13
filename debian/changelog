@@ -1,3 +1,14 @@
+linux-firmware (1.41) natty; urgency=low
+
+  * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git 4844fa169c8d8562289243b54e822a00a0a01082
+    linux-firmware: Add firmware file for RTL8192CU
+    linux-firmware: wl12xx-Add Access Point Firmware & NVS to the wl12xx Driver
+    radeon: add support for PALM/SUMO firmwares.
+    mwl8335: add duplex firmware for 88w8335 PCI-based parts
+    Update QLogic phanfw.bin
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Mon, 13 Dec 2010 07:05:02 -0700
+
 linux-firmware (1.40) natty; urgency=low
 
   * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git 0892c5ad053f226699cabbd1df42a352cf6f6fce
