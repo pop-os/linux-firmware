@@ -1,3 +1,14 @@
+linux-firmware (1.44) natty; urgency=low
+
+  * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git eb0ad4ffc1e2fe02bccae2f7102e3ffc8101ac55
+    iwlwifi: add updated firmware for 6050 devices
+    iwlwifi: add new firmware for 6030 devices
+    iwlwifi: add new firmware for 6005 devices
+    vxge: update PXE firmware to version
+    ath3k-fw: Fix EEPROM radio table issue.
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Sun, 19 Dec 2010 16:27:16 -0700
+
 linux-firmware (1.43) natty; urgency=low
 
   * iwlwifi: New 17.168.5.1 iwlwifi-6000g2b-5.ucode 
