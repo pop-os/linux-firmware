@@ -1,3 +1,10 @@
+linux-firmware (1.45) natty; urgency=low
+
+  * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git 40c0f950be7040614dc45df54e25e54d00e3b73b
+    rtl_nic: Add firmware for RTL8111D(L)
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Mon, 03 Jan 2011 06:52:04 -0700
+
 linux-firmware (1.44) natty; urgency=low
 
   * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git eb0ad4ffc1e2fe02bccae2f7102e3ffc8101ac55
