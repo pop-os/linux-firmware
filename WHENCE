@@ -681,6 +681,9 @@ Info: v17.168.5.1
 File: iwlwifi-6000g2b-5.ucode
 Info: v17.168.5.1
 
+File: iwlwifi-100-5.ucode
+Info: v39.31.5.1
+
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
 Also available from http://intellinuxwireless.org/?n=Downloads
@@ -1257,6 +1260,16 @@ File: radeon/REDWOOD_rlc.bin
 File: radeon/PALM_me.bin
 File: radeon/PALM_pfp.bin
 File: radeon/SUMO_rlc.bin
+File: radeon/BARTS_mc.bin
+File: radeon/BARTS_me.bin
+File: radeon/BARTS_pfp.bin
+File: radeon/BTC_rlc.bin
+File: radeon/CAICOS_mc.bin
+File: radeon/CAICOS_me.bin
+File: radeon/CAICOS_pfp.bin
+File: radeon/TURKS_mc.bin
+File: radeon/TURKS_me.bin
+File: radeon/TURKS_pfp.bin
 
 Licence: Redistributable. See LICENCE.radeon_rlc for details.
 
@@ -1479,6 +1492,15 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
 
 --------------------------------------------------------------------------
 
+Driver: rtl8192se - Realtek 802.11n WLAN driver for RTL8192SE
+
+File: rtlwifi/rtl8192sefw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+
+--------------------------------------------------------------------------
+
+
 Driver: r8169 - RealTek 8169/8168/8101 ethernet driver.
 
 File: rtl_nic/rtl8168d-1.fw
@@ -1491,6 +1513,13 @@ Licence:
  * data in hexadecimal or equivalent format, provided this copyright
  * notice is accompanying it.
 
+--------------------------------------------------------------------------
+
+Driver: vt6656 - VIA VT6656 USB wireless driver
+
+File: vntwusb.fw
+
+Licence: Redistributable. See LICENCE.via_vt6656 for details.
 --------------------------------------------------------------------------
 
 Driver: ipw2200 - Intel ipw2200 wireless driver

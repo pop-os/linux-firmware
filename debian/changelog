@@ -1,3 +1,13 @@
+linux-firmware (1.46) natty; urgency=low
+
+  * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git 39cd7bc45fc9301422bbf19077fd2079283e8a52
+  * linux-firmware: Add firmware file for Realtek RTL8192SE
+  * iwlwifi: add new firmware to 100 devices
+  * radeon: add new NI firmwares.
+  * Add firmware for VIA VT6656
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Mon, 24 Jan 2011 13:40:49 -0700
+
 linux-firmware (1.45) natty; urgency=low
 
   * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git 40c0f950be7040614dc45df54e25e54d00e3b73b
