@@ -1,3 +1,16 @@
+linux-firmware (1.47) natty; urgency=low
+
+  * iwlwifi: Updated iwlwifi-6000g2a-5.ucode and iwlwifi-6000g2b-5.ucode to 17.168.5.2
+    17.168.5.2 fixes a showstopper issue that it can't connect to a 5G hidden SSID.
+    -LP: #716832
+
+  * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git 2fab48391fda8a914b55c8ac265eb3b6ee10ace8
+    linux-firmware: Add firmware file for Realtek RTL8192DE
+    linux-firmware: bnx2: Update firmware and version
+    linux-firmware: bnx2: Update firmware to 6.0.x.
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Fri, 11 Feb 2011 07:01:23 -0700
+
 linux-firmware (1.46) natty; urgency=low
 
   * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git 39cd7bc45fc9301422bbf19077fd2079283e8a52

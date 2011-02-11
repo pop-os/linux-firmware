@@ -676,10 +676,10 @@ File: iwlwifi-6050-5.ucode
 Info: v41.28.5.1
 
 File: iwlwifi-6000g2a-5.ucode
-Info: v17.168.5.1
+Info: v17.168.5.2
 
 File: iwlwifi-6000g2b-5.ucode
-Info: v17.168.5.1
+Info: v17.168.5.2
 
 File: iwlwifi-100-5.ucode
 Info: v39.31.5.1
@@ -971,16 +971,23 @@ Driver: bnx2 - Broadcom NetXtremeII
 File: bnx2/bnx2-mips-06-4.6.16.fw
 File: bnx2/bnx2-mips-06-5.0.0.j3.fw
 File: bnx2/bnx2-mips-06-5.0.0.j6.fw
+File: bnx2/bnx2-mips-06-6.0.15.fw
+File: bnx2/bnx2-mips-06-6.2.1.fw
 File: bnx2/bnx2-mips-09-4.6.17.fw
 File: bnx2/bnx2-mips-09-5.0.0.j3.fw
 File: bnx2/bnx2-mips-09-5.0.0.j9.fw
+File: bnx2/bnx2-mips-09-6.0.17.fw
+File: bnx2/bnx2-mips-09-6.2.1.fw
 File: bnx2/bnx2-rv2p-06-4.6.16.fw
 File: bnx2/bnx2-rv2p-06-5.0.0.j3.fw
+File: bnx2/bnx2-rv2p-06-6.0.15.fw
 File: bnx2/bnx2-rv2p-09-4.6.15.fw
 File: bnx2/bnx2-rv2p-09-5.0.0.j3.fw
 File: bnx2/bnx2-rv2p-09-5.0.0.j10.fw
+File: bnx2/bnx2-rv2p-09-6.0.17.fw
 File: bnx2/bnx2-rv2p-09ax-5.0.0.j3.fw
 File: bnx2/bnx2-rv2p-09ax-5.0.0.j10.fw
+File: bnx2/bnx2-rv2p-09ax-6.0.17.fw
 
 Licence:
 
@@ -1495,6 +1502,14 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
 Driver: rtl8192se - Realtek 802.11n WLAN driver for RTL8192SE
 
 File: rtlwifi/rtl8192sefw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+
+--------------------------------------------------------------------------
+
+Driver: rtl8192de - Realtek 802.11n WLAN driver for RTL8192DE
+
+File: rtlwifi/rtl8192defw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
 
