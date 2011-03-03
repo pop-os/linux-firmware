@@ -1,3 +1,21 @@
+linux-firmware (1.48) natty; urgency=low
+
+  * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git c2e530abf58116fbc4eb3baedeb5b3ed092b2c8a
+    linux-firmware: add cayman firmwares.
+    Update ar9271.fw
+    linux-firmware: wl12xx-Update AP Firmware
+    linux-firmware: Add patch and sysconfig files for AR3012.
+    linux-firmware: Remove ath3k-2.fw
+    linux-firmware: wl12xx-Update STA firmware
+    linux-firmware: wl12xx-update STA FW supports 11n BA sessions
+    iwlwifi: add updated firmware for 5000 devices
+    linux-firmware: add firmware files for Marvell 8366
+    linux-firmware: add Marvell SD8787 firmware image
+    linux-firmware: use single license file for Marvell firmwares
+    WHENCE: fix typos in "Realtek" and the filename containing its licence terms
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 03 Mar 2011 07:49:56 -0700
+
 linux-firmware (1.47) natty; urgency=low
 
   * iwlwifi: Updated iwlwifi-6000g2a-5.ucode and iwlwifi-6000g2b-5.ucode to 17.168.5.2
