@@ -147,3 +147,11 @@ Licence: Redistributable, provided by Realtek in their driver
          source download.
 
 --------------------------------------------------------------------------
+
+Driver carl9170 - Atheros ar9170 802.11n devices
+
+Files: carl9170-1.fw
+Licence: Redistributable, provided by Atheros
+
+Info: git://git.kernel.org/pub/scm/linux/kernel/git/chr/carl9170fw.git
+--------------------------------------------------------------------------
