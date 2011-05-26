@@ -436,6 +436,8 @@ Driver: ath9k_htc - Atheros HTC devices (USB)
 File: ar9271.fw
 File: ar7010.fw
 File: ar7010_1_1.fw
+File: htc_9271.fw
+File: htc_7010.fw
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
 
@@ -528,6 +530,14 @@ Licence:
  *	notice is accompanying it.
 
 Found in hex form in kernel source.
+
+--------------------------------------------------------------------------
+
+Driver: cxgb4 - Chelsio Terminator 4 1G/10G Ethernet adapter
+
+File: cxgb4/t4fw.bin
+
+Licence: Redistributable. See LICENCE.chelsio_firmware for details
 
 --------------------------------------------------------------------------
 
@@ -640,6 +650,7 @@ File: mwl8k/fmimage_8687.fw
 File: mwl8k/helper_8687.fw
 File: mwl8k/fmimage_8366.fw
 File: mwl8k/fmimage_8366_ap-1.fw
+File: mwl8k/fmimage_8366_ap-2.fw
 File: mwl8k/helper_8366.fw
 
 Licence: Redistributable. See LICENCE.Marvell for details.  8687 images
@@ -826,30 +837,42 @@ File: cis/NE2K.cis
 File: cis/tamarack.cis
 File: cis/PE-200.cis
 File: cis/PE520.cis
+Source: cis/src/LA-PCM.cis
+Source: cis/src/PCMLM28.cis
+Source: cis/src/DP83903.cis
+Source: cis/src/NE2K.cis
+Source: cis/src/tamarack.cis
+Source: cis/src/PE-200.cis
+Source: cis/src/PE520.cis
 
-Licence: GPL
+Licence: Dual GPLv2/MPL
 
 Originally developed by the pcmcia-cs project
+Copyright (C) 1998, 1999, 2000 David A. Hinds
 
 --------------------------------------------------------------------------
 
 Driver: 3c589_cs - 3Com PCMCIA adapter
 
 File: cis/3CXEM556.cis
+Source: cis/src/3CXEM556.cis
 
-Licence: GPL
+Licence: Dual GPLv2/MPL
 
 Originally developed by the pcmcia-cs project
+Copyright (C) 1998, 1999, 2000 David A. Hinds
 
 --------------------------------------------------------------------------
 
 Driver: 3c574_cs - 3Com PCMCIA adapter
 
 File: cis/3CCFEM556.cis
+Source: cis/src/3CCFEM556.cis
 
-Licence: GPL
+Licence: Dual GPLv2/MPL
 
 Originally developed by the pcmcia-cs project
+Copyright (C) 1998, 1999, 2000 David A. Hinds
 
 --------------------------------------------------------------------------
 
@@ -859,10 +882,15 @@ File: cis/MT5634ZLX.cis
 File: cis/RS-COM-2P.cis
 File: cis/COMpad2.cis
 File: cis/COMpad4.cis
+Source: cis/src/MT5634ZLX.cis
+Source: cis/src/RS-COM-2P.cis
+Source: cis/src/COMpad2.cis
+Source: cis/src/COMpad4.cis
 
-Licence: GPL
+Licence: Dual GPLv2/MPL
 
 Originally developed by the pcmcia-cs project
+Copyright (C) 1998, 1999, 2000 David A. Hinds
 
 --------------------------------------------------------------------------
 
@@ -994,6 +1022,7 @@ File: bnx2/bnx2-mips-09-5.0.0.j3.fw
 File: bnx2/bnx2-mips-09-5.0.0.j9.fw
 File: bnx2/bnx2-mips-09-6.0.17.fw
 File: bnx2/bnx2-mips-09-6.2.1.fw
+File: bnx2/bnx2-mips-09-6.2.1a.fw
 File: bnx2/bnx2-rv2p-06-4.6.16.fw
 File: bnx2/bnx2-rv2p-06-5.0.0.j3.fw
 File: bnx2/bnx2-rv2p-06-6.0.15.fw
@@ -1021,7 +1050,7 @@ Found in hex form in kernel source.
 Driver: netxen_nic - NetXen Multi port (1/10) Gigabit Ethernet NIC
 
 File: phanfw.bin
-Info: v4.0.534
+Info: v4.0.550
 
 Licence: Redistributable. See LICENCE.phanfw for details.
 
@@ -1068,13 +1097,13 @@ Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
 
 --------------------------------------------------------------------------
 
-Driver: rt2860sta - Ralink RT2860, RT2890 wireless MACs
+Driver: rt2800pci - Ralink RT2860, RT2890, RT3090, RT5390 wireless MACs
 
 File: rt2860.bin
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
-Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
+Binary file supplied by Shiang Tu <shiang_tu@ralinktech.com>. Firmware Version 34
 
 --------------------------------------------------------------------------
 
@@ -1084,19 +1113,29 @@ File: rt3090.bin
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
-Found in hex form in kernel source.
+This is a link to rt2860.bin for compatibility.
 
 --------------------------------------------------------------------------
 
-Driver: rt2870sta - Ralink RT2870, RT3070, RT3071, RT3072 wireless MACs
+Driver: rt2800usb - Ralink RT2870, RT3070, RT3071, RT3072, RT5370 wireless MACs
 
 File: rt2870.bin
+
+Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
+
+Binary file supplied by Shiang Tu <shiang_tu@ralinktech.com>. Firmware Version 29
+
+--------------------------------------------------------------------------
+
+Driver: rt2870sta - Ralink RT2870, RT3070, RT3071 wireless MACs
+
 File: rt3070.bin
 File: rt3071.bin
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
-Found in hex form in kernel source.
+rt3070.bin is a link to rt2870.bin for compatibility.
+rt3071.bin is a copy of bytes 4096-8191 of rt2870.bin for compatibility.
 
 --------------------------------------------------------------------------
 
@@ -1451,24 +1490,58 @@ Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 
 --------------------------------------------------------------------------
 
+Driver: tda7706 - FM radio Highly integrated tuner for AM/FM car-radio
+
+File: TDA7706_OM_v2.5.1_boot.txt
+File: TDA7706_OM_v3.0.2_boot.txt
+
+Licence: Redistributable. See LICENCE.tda7706-firmware.txt for details.
+        Copyright © 2010 STMicroelectronics
+
+--------------------------------------------------------------------------
+
 Driver: wl12xx - Texas Instruments 802.11 wireless LAN driver
 
 File: wl1271-fw.bin
 File: wl1271-fw-2.bin
+File: wl128x-fw.bin
 File: wl1271-fw-ap.bin
-File: wl1271-nvs.bin
+File: wl128x-fw-ap.bin
+File: wl1271-nvs-example-wl127x.bin
+File: wl1271-nvs-example-wl128x.bin
 
 Licence: See LICENCE.ti-connectivity for details.
 
-	Station:      wl1271-fw.bin version 6.1.0.50.350 (RM version 206)
-	Station:      wl1271-fw-2.bin version 6.1.3.50.55
-	Access Point: wl1271-fw-ap.bin version 6.2.0.0.36
+	Station:      wl1271-fw.bin version 6.1.0.50.350
+	Station:      wl1271-fw-2.bin version 6.1.3.50.58
+	Station:      wl128x-fw.bin version 7.1.3.50.58
+	Access Point: wl1271-fw-ap.bin version 6.2.0.0.47
+	Access Point: wl128x-fw-ap.bin version 7.2.0.0.47
 
-	The nvs file includes two parts:
+The nvs file includes two parts:
 	 - radio calibration
 	 - ini setting parameters
 
-	In order to use that files copy them to target FS at /lib/firmware/.
+In order to have correct NVS file for your device NVS tool should be use:
+http://linuxwireless.org/en/users/Drivers/wl12xx/calibrator
+
+Example NVS files (not optimal) for wl127x and wl128x includes.
+To use example NVS rename one of them to wl1271-nvs.bin
+
+In order to use that files copy ti-connectivity directory to target FS at
+/lib/firmware/.
+
+--------------------------------------------------------------------------
+
+Driver: TI_ST - Texas Instruments bluetooth driver
+
+File: TIInit_7.2.31.bts
+
+Licence: See LICENCE.ti-connectivity for details.
+
+	TIInit_7.2.31.bts version 7.2.31
+
+	In order to use that file copy it to /lib/firmware/ti-connectivity.
 
 --------------------------------------------------------------------------
 
@@ -1533,9 +1606,13 @@ Driver: r8169 - RealTek 8169/8168/8101 ethernet driver.
 
 File: rtl_nic/rtl8168d-1.fw
 File: rtl_nic/rtl8168d-2.fw
+File: rtl_nic/rtl8105e-1.fw
+File: rtl_nic/rtl8168e-1.fw
+File: rtl_nic/rtl8168e-2.fw
+File: rtl_nic/rtl8168e-3.fw
 
 Licence:
- * Copyright (c) 2010, Realtek Semiconductor Corporation 
+ * Copyright © 2011, Realtek Semiconductor Corporation
  *
  * Permission is hereby granted for the distribution of this firmware
  * data in hexadecimal or equivalent format, provided this copyright
@@ -1555,6 +1632,9 @@ Driver: DFU Driver for Atheros bluetooth chipset AR3012
 
 File: ar3k/AthrBT_0x01020001.dfu
 File: ar3k/ramps_0x01020001_26.dfu
+File: ar3k/AthrBT_0x01020200.dfu
+File: ar3k/ramps_0x01020200_26.dfu
+File: ar3k/ramps_0x01020200_40.dfu
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
 
@@ -1573,3 +1653,53 @@ File: ar3k/30000/PS_ASIC.pst
 File: ar3k/30000/RamPatch.txt
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: ath6kl - Atheros support for AR6003
+
+File: ath6k/
+File: ath6k/AR6003
+File: ath6k/AR6003/hw1.0
+File: ath6k/AR6003/hw1.0/otp.bin.z77
+File: ath6k/AR6003/hw1.0/bdata.SD31.bin
+File: ath6k/AR6003/hw1.0/bdata.SD32.bin
+File: ath6k/AR6003/hw1.0/data.patch.bin
+File: ath6k/AR6003/hw1.0/bdata.WB31.bin
+File: ath6k/AR6003/hw1.0/athwlan.bin.z77
+File: ath6k/AR6003/hw2.1.1
+File: ath6k/AR6003/hw2.1.1/otp.bin
+File: ath6k/AR6003/hw2.1.1/athwlan.bin
+File: ath6k/AR6003/hw2.1.1/endpointping.bin
+File: ath6k/AR6003/hw2.1.1/bdata.SD31.bin
+File: ath6k/AR6003/hw2.1.1/bdata.SD32.bin
+File: ath6k/AR6003/hw2.1.1/data.patch.bin
+File: ath6k/AR6003/hw2.1.1/bdata.WB31.bin
+File: ath6k/AR6003/hw2.0
+File: ath6k/AR6003/hw2.0/otp.bin.z77
+File: ath6k/AR6003/hw2.0/bdata.SD31.bin
+File: ath6k/AR6003/hw2.0/bdata.SD32.bin
+File: ath6k/AR6003/hw2.0/data.patch.bin
+File: ath6k/AR6003/hw2.0/bdata.WB31.bin
+File: ath6k/AR6003/hw2.0/athwlan.bin.z77
+File: ath6k/AR6002
+File: ath6k/AR6002/eeprom.data
+File: ath6k/AR6002/README.txt
+File: ath6k/AR6002/License.txt
+File: ath6k/AR6002/eeprom.bin
+File: ath6k/AR6002/athwlan.bin.z77
+File: ath6k/AR6002/data.patch.hw2_0.bin
+
+Licence: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: myri10ge - Myri10GE 10GbE NIC driver
+
+File: myri10ge_eth_z8e.dat
+File: myri10ge_ethp_z8e.dat
+File: myri10ge_rss_eth_z8e.dat
+File: myri10ge_rss_ethp_z8e.dat
+Info: v1.4.52
+
+License: Redistributable.  See LICENCE.myri10ge_firmware for details.
