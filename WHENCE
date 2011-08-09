@@ -619,6 +619,8 @@ Also available from http://linuxwimax.org/Download
 
 Driver: libertas - Marvell Libertas fullmac-type 802.11b/g cards
 
+File: libertas/cf8381.bin
+File: libertas/cf8381_helper.bin
 File: libertas/cf8385.bin
 File: libertas/cf8385_helper.bin
 File: libertas/gspi8682.bin
@@ -708,7 +710,7 @@ File: iwlwifi-6050-5.ucode
 Info: v41.28.5.1
 
 File: iwlwifi-6000g2a-5.ucode
-Info: v17.168.5.1
+Info: v17.168.5.3
 
 File: iwlwifi-6000g2b-5.ucode
 Info: v17.168.5.1
@@ -1718,3 +1720,63 @@ File: myri10ge_rss_ethp_z8e.dat
 Info: v1.4.52
 
 License: Redistributable.  See LICENCE.myri10ge_firmware for details.
+
+--------------------------------------------------------------------------
+
+Driver: ath6kl - Atheros support for AR6003 WiFi-Bluetooth combo module
+
+File: ath6k/AR6003.1
+File: ath6k/AR6003.1/hw2.1.1
+File: ath6k/AR6003.1/hw2.1.1/athwlan.bin
+File: ath6k/AR6003.1/hw2.1.1/bdata.SD31.bin
+File: ath6k/AR6003.1/hw2.1.1/bdata.SD32.bin
+File: ath6k/AR6003.1/hw2.1.1/bdata.WB31.bin
+File: ath6k/AR6003.1/hw2.1.1/data.patch.bin
+File: ath6k/AR6003.1/hw2.1.1/endpointping.bin
+File: ath6k/AR6003.1/hw2.1.1/otp.bin
+
+License: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: ath6kl - Atheros support for AR3001 WiFi-Bluetooth combo module
+
+File: ar3k/30101coex
+File: ar3k/30101coex/ar3kbdaddr.pst
+File: ar3k/30101coex/PS_ASIC_aclLowPri.pst
+File: ar3k/30101coex/PS_ASIC_aclHighPri.pst
+File: ar3k/30101coex/PS_ASIC.pst
+File: ar3k/30101coex/RamPatch.txt
+
+License: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: drxk - Micronas DRX-K demodulator driver
+
+File: dvb-usb-terratec-h5-drxk.fw
+
+Licence:
+TERRATEC grants permission to use and redistribute these firmware
+files for use with TERRATEC devices, but not as part of the Linux
+kernel or in any other form which would require these files themselves
+to be covered by the terms of the GNU General Public License.
+
+These firmware files are distributed in the hope that they will be
+useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+--------------------------------------------------------------------------
+
+Driver: ene-ub6250 -- ENE UB6250 SD card reader driver
+
+File: ene-ub6250/sd_init1.bin
+File: ene-ub6250/sd_init2.bin
+File: ene-ub6250/sd_rdwr.bin
+File: ene-ub6250/ms_init.bin
+File: ene-ub6250/msp_rdwr.bin
+File: ene-ub6250/ms_rdwr.bin
+
+Licence: Redistributable. See LICENCE.ene_firmware for details.
+
+--------------------------------------------------------------------------
