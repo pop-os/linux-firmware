@@ -653,7 +653,7 @@ Driver: libertas - Marvell Libertas 802.11b/g cards, OLPC firmware
 File: libertas/lbtf_sdio.bin
 Info: v9.0.7.p4
 
-File: libertas/lbtf_usb.bin
+File: lbtf_usb.bin
 Info: v5.132.3.p1
 
 File: libertas/usb8388_olpc.bin
@@ -1660,9 +1660,21 @@ File: rtl_nic/rtl8168d-2.fw
 File: rtl_nic/rtl8105e-1.fw
 File: rtl_nic/rtl8168e-1.fw
 File: rtl_nic/rtl8168e-2.fw
+
 File: rtl_nic/rtl8168e-3.fw
+Version: 0.0.3
+
 File: rtl_nic/rtl8168f-1.fw
+Version: 0.0.3
+
 File: rtl_nic/rtl8168f-2.fw
+Version: 0.0.3
+
+File: rtl_nic/rtl8411-1.fw
+Version: 0.0.1
+
+File: rtl_nic/rtl8402-1.fw
+Version: 0.0.1
 
 Licence:
  * Copyright © 2011, Realtek Semiconductor Corporation
