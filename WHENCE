@@ -173,6 +173,8 @@ Source: keyspan_pda/keyspan_pda.S
 File: keyspan_pda/xircom_pgs.fw
 Source: keyspan_pda/xircom_pgs.S
 
+Source: keyspan_pda/Makefile
+
 Licence: GPLv2+
 
 Compiled from original 8051 source into Intel HEX, used in our binary ihex form.
@@ -372,10 +374,12 @@ Driver: dsp56k - Atari DSP56k support
 
 File: dsp56k/bootstrap.bin
 Source: dsp56k/bootstrap.asm
+Source: dsp56k/Makefile
+Source: dsp56k/concat-bootstrap.pl
 
 Licence: GPLv2 or later
 
-DSP56001 assembler, possibly buildable with a56 from 
+DSP56001 assembler, buildable with a56 from
 http://www.zdomain.com/a56.html
 
 --------------------------------------------------------------------------
@@ -1018,6 +1022,15 @@ File: bnx2x-e1-5.2.7.0.fw
 File: bnx2x-e1h-5.2.7.0.fw
 File: bnx2x-e1-5.2.13.0.fw
 File: bnx2x-e1h-5.2.13.0.fw
+File: bnx2x/bnx2x-e1-6.0.34.0.fw
+File: bnx2x/bnx2x-e1h-6.0.34.0.fw
+File: bnx2x/bnx2x-e2-6.0.34.0.fw
+File: bnx2x/bnx2x-e1-6.2.5.0.fw
+File: bnx2x/bnx2x-e1h-6.2.5.0.fw
+File: bnx2x/bnx2x-e2-6.2.5.0.fw
+File: bnx2x/bnx2x-e1-6.2.9.0.fw
+File: bnx2x/bnx2x-e1h-6.2.9.0.fw
+File: bnx2x/bnx2x-e2-6.2.9.0.fw
 File: bnx2x/bnx2x-e2-7.0.20.0.fw
 File: bnx2x/bnx2x-e1-7.0.20.0.fw
 File: bnx2x/bnx2x-e1h-7.0.20.0.fw
@@ -1050,12 +1063,14 @@ File: bnx2/bnx2-mips-06-5.0.0.j3.fw
 File: bnx2/bnx2-mips-06-5.0.0.j6.fw
 File: bnx2/bnx2-mips-06-6.0.15.fw
 File: bnx2/bnx2-mips-06-6.2.1.fw
+File: bnx2/bnx2-mips-06-6.2.3.fw
 File: bnx2/bnx2-mips-09-4.6.17.fw
 File: bnx2/bnx2-mips-09-5.0.0.j3.fw
 File: bnx2/bnx2-mips-09-5.0.0.j9.fw
 File: bnx2/bnx2-mips-09-6.0.17.fw
 File: bnx2/bnx2-mips-09-6.2.1.fw
 File: bnx2/bnx2-mips-09-6.2.1a.fw
+File: bnx2/bnx2-mips-09-6.2.1b.fw
 File: bnx2/bnx2-rv2p-06-4.6.16.fw
 File: bnx2/bnx2-rv2p-06-5.0.0.j3.fw
 File: bnx2/bnx2-rv2p-06-6.0.15.fw
@@ -1092,10 +1107,12 @@ Licence: Redistributable. See LICENCE.phanfw for details.
 Driver: dvb-ttpci -- AV7110 cards
 
 File: av7110/bootcode.bin
+Source: av7110/Boot.S
+Source: av7110/Makefile
 
 Licence: GPLv2 or later
 
-ARM assembly source code available at http://www.linuxtv.org/downloads/firmware/Boot.S
+ARM assembly source code from http://www.linuxtv.org/downloads/firmware/Boot.S
 
 --------------------------------------------------------------------------
 
@@ -1827,5 +1844,17 @@ File: ene-ub6250/msp_rdwr.bin
 File: ene-ub6250/ms_rdwr.bin
 
 Licence: Redistributable. See LICENCE.ene_firmware for details.
+
+--------------------------------------------------------------------------
+
+Driver: isci -- Intel C600 SAS controller driver
+
+File: isci/isci_firmware.bin
+Source: isci/create_fw.c
+Source: isci/create_fw.h
+Source: isci/probe_roms.h
+Source: isci/Makefile
+
+Licence: GPLv2
 
 --------------------------------------------------------------------------
