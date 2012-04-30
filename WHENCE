@@ -267,6 +267,15 @@ Found in hex form in ftp://ftp.multitech.com/wireless/wireless_linux.zip
 
 --------------------------------------------------------------------------
 
+Driver: ti_usb_3410_5052 -- Multi-Tech USB fax modems
+
+File: mts_mt9234mu.fw
+File: mts_mt9234zba.fw
+
+Licence: Unknown
+
+--------------------------------------------------------------------------
+
 Driver: whiteheat -- USB ConnectTech WhiteHEAT serial device
 
 File: whiteheat.fw
@@ -517,6 +526,7 @@ File: cxgb3/t3c_psram-1.1.0.bin
 File: cxgb3/t3fw-7.0.0.bin
 File: cxgb3/t3fw-7.1.0.bin
 File: cxgb3/t3fw-7.4.0.bin
+File: cxgb3/t3fw-7.10.0.bin
 File: cxgb3/t3fw-7.12.0.bin
 
 Licence: GPLv2 or OpenIB.org BSD license, no source visible
@@ -1059,6 +1069,9 @@ File: bnx2x/bnx2x-e1h-7.0.29.0.fw
 File: bnx2x/bnx2x-e2-7.2.16.0.fw
 File: bnx2x/bnx2x-e1-7.2.16.0.fw
 File: bnx2x/bnx2x-e1h-7.2.16.0.fw
+File: bnx2x/bnx2x-e2-7.2.51.0.fw
+File: bnx2x/bnx2x-e1-7.2.51.0.fw
+File: bnx2x/bnx2x-e1h-7.2.51.0.fw
 
 License:
   Copyright (c) 2007-2011 Broadcom Corporation
@@ -1086,6 +1099,7 @@ File: bnx2/bnx2-mips-06-6.2.3.fw
 File: bnx2/bnx2-mips-09-4.6.17.fw
 File: bnx2/bnx2-mips-09-5.0.0.j3.fw
 File: bnx2/bnx2-mips-09-5.0.0.j9.fw
+File: bnx2/bnx2-mips-09-5.0.0.j15.fw
 File: bnx2/bnx2-mips-09-6.0.17.fw
 File: bnx2/bnx2-mips-09-6.2.1.fw
 File: bnx2/bnx2-mips-09-6.2.1a.fw
@@ -1148,7 +1162,9 @@ Found in hex form in kernel source, with the following comment:
 
 Driver: rt61pci - Ralink RT2561, RT2561S, RT2661 wireless MACs
 
-File: rt2561.bin rt2561s.bin rt2661.bin
+File: rt2561.bin
+File: rt2561s.bin
+File: rt2661.bin
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
@@ -1433,7 +1449,7 @@ Licence:
 
 --------------------------------------------------------------------------
 
-Driver rtl8192e - Realtek 8192 PCI wireless driver
+Driver: rtl8192e - Realtek 8192 PCI wireless driver
 
 File: RTL8192E/*
 Licence: Redistributable, provided by Realtek in their driver
@@ -1579,42 +1595,42 @@ Licence: Redistributable. See LICENCE.tda7706-firmware.txt for details.
 
 Driver: wl12xx - Texas Instruments 802.11 wireless LAN driver
 
-File: wl1271-fw.bin
+File: ti-connectivity/wl1271-fw.bin
 Version: 6.1.0.50.350 (STA-only)
-File: wl1271-fw-2.bin
+File: ti-connectivity/wl1271-fw-2.bin
 Version: 6.1.5.50.74 (STA-only)
-File: wl1271-fw-ap.bin
+File: ti-connectivity/wl1271-fw-ap.bin
 Version: 6.2.1.0.54 (AP-only)
-File: wl127x-fw-3.bin
+File: ti-connectivity/wl127x-fw-3.bin
 Version: 6.3.0.0.77
-File: wl127x-fw-plt-3.bin
+File: ti-connectivity/wl127x-fw-plt-3.bin
 Version: 6.3.0.0.77 (PLT-only)
-File: wl127x-fw-4-sr.bin
+File: ti-connectivity/wl127x-fw-4-sr.bin
 Version: 6.3.5.0.98 (Single-role)
-File: wl127x-fw-4-mr.bin
+File: ti-connectivity/wl127x-fw-4-mr.bin
 Version: 6.5.2.0.15 (Multi-role)
-File: wl127x-fw-4-plt.bin
+File: ti-connectivity/wl127x-fw-4-plt.bin
 Version: 6.3.5.0.98 (PLT-only)
 
-File: wl128x-fw.bin
+File: ti-connectivity/wl128x-fw.bin
 Version: 7.1.5.50.74 (STA-only)
-File: wl128x-fw-ap.bin
+File: ti-connectivity/wl128x-fw-ap.bin
 Version: 7.2.1.0.54 (AP-only)
-File: wl128x-fw-3.bin
+File: ti-connectivity/wl128x-fw-3.bin
 Version: 7.3.0.0.77
-File: wl128x-fw-plt-3.bin
+File: ti-connectivity/wl128x-fw-plt-3.bin
 Version: 7.3.0.0.77
-File: wl128x-fw-4-sr.bin
+File: ti-connectivity/wl128x-fw-4-sr.bin
 Version: 7.3.5.0.98 (Single-role)
-File: wl128x-fw-4-mr.bin
+File: ti-connectivity/wl128x-fw-4-mr.bin
 Version: 7.5.2.0.15 (Multi-role)
-File: wl128x-fw-4-plt.bin
+File: ti-connectivity/wl128x-fw-4-plt.bin
 Version: 7.3.5.0.98 (PLT)
 
-File: wl127x-nvs.bin
-File: wl128x-nvs.bin
-sl:   wl12xx-nvs.bin -> wl127x-nvs.bin
-sl:   wl1271-nvs.bin -> wl127x-nvs.bin
+File: ti-connectivity/wl127x-nvs.bin
+File: ti-connectivity/wl128x-nvs.bin
+sl:   ti-connectivity/wl12xx-nvs.bin -> wl127x-nvs.bin
+sl:   ti-connectivity/wl1271-nvs.bin -> wl127x-nvs.bin
 
 
 Licence: See LICENCE.ti-connectivity for details.
@@ -1642,7 +1658,7 @@ the firmwares for wl12xx chips must be located in
 
 Driver: TI_ST - Texas Instruments bluetooth driver
 
-File: TIInit_7.2.31.bts
+File: ti-connectivity/TIInit_7.2.31.bts
 
 Licence: See LICENCE.ti-connectivity for details.
 
@@ -1779,17 +1795,16 @@ Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 Driver: ath6kl - Atheros support for AR6003
 
-File: ath6k/
-File: ath6k/AR6003
-File: ath6k/AR6003/hw1.0
+File: ath6k/AR6004/hw1.2/fw-2.bin
+File: ath6k/AR6004/hw1.2/bdata.bin
 File: ath6k/AR6003/hw1.0/otp.bin.z77
 File: ath6k/AR6003/hw1.0/bdata.SD31.bin
 File: ath6k/AR6003/hw1.0/bdata.SD32.bin
 File: ath6k/AR6003/hw1.0/data.patch.bin
 File: ath6k/AR6003/hw1.0/bdata.WB31.bin
 File: ath6k/AR6003/hw1.0/athwlan.bin.z77
-File: ath6k/AR6003/hw2.1.1
 File: ath6k/AR6003/hw2.1.1/fw-2.bin
+File: ath6k/AR6003/hw2.1.1/fw-3.bin
 File: ath6k/AR6003/hw2.1.1/otp.bin
 File: ath6k/AR6003/hw2.1.1/athwlan.bin
 File: ath6k/AR6003/hw2.1.1/endpointping.bin
@@ -1797,17 +1812,13 @@ File: ath6k/AR6003/hw2.1.1/bdata.SD31.bin
 File: ath6k/AR6003/hw2.1.1/bdata.SD32.bin
 File: ath6k/AR6003/hw2.1.1/data.patch.bin
 File: ath6k/AR6003/hw2.1.1/bdata.WB31.bin
-File: ath6k/AR6003/hw2.0
 File: ath6k/AR6003/hw2.0/otp.bin.z77
 File: ath6k/AR6003/hw2.0/bdata.SD31.bin
 File: ath6k/AR6003/hw2.0/bdata.SD32.bin
 File: ath6k/AR6003/hw2.0/data.patch.bin
 File: ath6k/AR6003/hw2.0/bdata.WB31.bin
 File: ath6k/AR6003/hw2.0/athwlan.bin.z77
-File: ath6k/AR6002
 File: ath6k/AR6002/eeprom.data
-File: ath6k/AR6002/README.txt
-File: ath6k/AR6002/License.txt
 File: ath6k/AR6002/eeprom.bin
 File: ath6k/AR6002/athwlan.bin.z77
 File: ath6k/AR6002/data.patch.hw2_0.bin
@@ -1830,8 +1841,6 @@ License: Redistributable.  See LICENCE.myri10ge_firmware for details.
 
 Driver: ath6kl - Atheros support for AR6003 WiFi-Bluetooth combo module
 
-File: ath6k/AR6003.1
-File: ath6k/AR6003.1/hw2.1.1
 File: ath6k/AR6003.1/hw2.1.1/athwlan.bin
 File: ath6k/AR6003.1/hw2.1.1/bdata.SD31.bin
 File: ath6k/AR6003.1/hw2.1.1/bdata.SD32.bin
@@ -1846,7 +1855,6 @@ License: Redistributable. See LICENCE.atheros_firmware for details
 
 Driver: ath6kl - Atheros support for AR3001 WiFi-Bluetooth combo module
 
-File: ar3k/30101coex
 File: ar3k/30101coex/ar3kbdaddr.pst
 File: ar3k/30101coex/PS_ASIC_aclLowPri.pst
 File: ar3k/30101coex/PS_ASIC_aclHighPri.pst
