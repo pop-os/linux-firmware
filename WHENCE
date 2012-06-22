@@ -415,10 +415,10 @@ Driver: qla2xxx - QLogic QLA2XXX Fibre Channel
 
 File: ql2100_fw.bin -- 1.19.38 TP
 File: ql2200_fw.bin -- 2.02.08 TP
-File: ql2300_fw.bin -- 3.03.20 IPX
-File: ql2322_fw.bin -- 3.03.20 IPX
-File: ql2400_fw.bin -- 4.04.04 IP
-File: ql2500_fw.bin -- 4.04.04
+File: ql2300_fw.bin -- 3.03.28 IPX
+File: ql2322_fw.bin -- 3.03.28 IPX
+File: ql2400_fw.bin -- 5.06.05 MID 
+File: ql2500_fw.bin -- 5.06.05 MIDQ
 
 Licence: Redistributable. See LICENCE.qla2xxx for details
 
@@ -552,7 +552,7 @@ Found in hex form in kernel source.
 
 Driver: cxgb4 - Chelsio Terminator 4 1G/10G Ethernet adapter
 
-File: cxgb4/t4fw-1.4.16.0.bin
+File: cxgb4/t4fw-1.4.23.0.bin
 
 Licence: Redistributable. See LICENCE.chelsio_firmware for details
 
@@ -1182,13 +1182,15 @@ Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
 
 --------------------------------------------------------------------------
 
-Driver: rt2800pci - Ralink RT2860, RT2890, RT3090, RT5390 wireless MACs
+Driver: rt2800pci - Ralink RT2860, RT2890, RT3090, RT3290, RT5390 wireless MACs
 
 File: rt2860.bin
+File: rt3290.bin
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
 Binary file supplied by Shiang Tu <shiang_tu@ralinktech.com>. Firmware Version 34
+rt3290.bin is a specific firmware support the RT3290 chip. Firmware Version 37
 
 --------------------------------------------------------------------------
 
@@ -1427,8 +1429,26 @@ File: radeon/SUMO_pfp.bin
 File: radeon/SUMO_me.bin
 File: radeon/SUMO2_pfp.bin
 File: radeon/SUMO2_me.bin
+File: radeon/ARUBA_me.bin
+File: radeon/ARUBA_pfp.bin
+File: radeon/ARUBA_rlc.bin
+File: radeon/PITCAIRN_ce.bin
+File: radeon/PITCAIRN_mc.bin
+File: radeon/PITCAIRN_me.bin
+File: radeon/PITCAIRN_pfp.bin
+File: radeon/PITCAIRN_rlc.bin
+File: radeon/TAHITI_ce.bin
+File: radeon/TAHITI_mc.bin
+File: radeon/TAHITI_me.bin
+File: radeon/TAHITI_pfp.bin
+File: radeon/TAHITI_rlc.bin
+File: radeon/VERDE_ce.bin
+File: radeon/VERDE_mc.bin
+File: radeon/VERDE_me.bin
+File: radeon/VERDE_pfp.bin
+File: radeon/VERDE_rlc.bin
 
-Licence: Redistributable. See LICENSE.radeon_rlc for details.
+Licence: Redistributable. See LICENSE.radeon for details.
 
 --------------------------------------------------------------------------
 
@@ -1772,6 +1792,8 @@ File: ar3k/ramps_0x01020001_26.dfu
 File: ar3k/AthrBT_0x01020200.dfu
 File: ar3k/ramps_0x01020200_26.dfu
 File: ar3k/ramps_0x01020200_40.dfu
+File: ar3k/AthrBT_0x31010000.dfu
+File: ar3k/ramps_0x31010000_40.dfu
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
 
