@@ -1802,15 +1802,21 @@ File: rtl_nic/rtl8168e-3.fw
 Version: 0.0.4
 
 File: rtl_nic/rtl8168f-1.fw
-Version: 0.0.4
+Version: 0.0.5
 
 File: rtl_nic/rtl8168f-2.fw
 Version: 0.0.4
 
 File: rtl_nic/rtl8411-1.fw
-Version: 0.0.2
+Version: 0.0.3
 
 File: rtl_nic/rtl8402-1.fw
+Version: 0.0.1
+
+File: rtl_nic/rtl8106e-1.fw
+Version: 0.0.1
+
+File: rtl_nic/rtl8168g-1.fw
 Version: 0.0.1
 
 Licence:
@@ -1839,6 +1845,8 @@ File: ar3k/ramps_0x01020200_26.dfu
 File: ar3k/ramps_0x01020200_40.dfu
 File: ar3k/AthrBT_0x31010000.dfu
 File: ar3k/ramps_0x31010000_40.dfu
+File: ar3k/AthrBT_0x11020000.dfu
+File: ar3k/ramps_0x11020000_40.dfu
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
 
