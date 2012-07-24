@@ -1610,9 +1610,10 @@ Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 Driver: brcmfmac - Broadcom 802.11n fullmac wireless LAN driver.
 
 File: brcm/bcm4329-fullmac-4.bin
+File: brcm/brcmfmac43236b.bin
 File: brcm/brcmfmac4329.bin
 File: brcm/brcmfmac4330.bin
-File: brcm/brcmfmac43236b.bin
+File: brcm/brcmfmac4334.bin
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 
@@ -1747,7 +1748,7 @@ Licence:
 Driver: r8712u - Realtek 802.11n WLAN driver for RTL8712U
 
 File: rtlwifi/rtl8712u.bin
-Info: version found in the Vendor's V2.6.6
+Info: From Vendor's rtl8188C_8192C_8192D_usb_linux_v3.4.2_3727.20120404
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -1817,7 +1818,7 @@ File: rtl_nic/rtl8106e-1.fw
 Version: 0.0.1
 
 File: rtl_nic/rtl8168g-1.fw
-Version: 0.0.1
+Version: 0.0.2
 
 Licence:
  * Copyright © 2011, Realtek Semiconductor Corporation
@@ -1847,6 +1848,9 @@ File: ar3k/AthrBT_0x31010000.dfu
 File: ar3k/ramps_0x31010000_40.dfu
 File: ar3k/AthrBT_0x11020000.dfu
 File: ar3k/ramps_0x11020000_40.dfu
+File: ar3k/AthrBT_0x01020201.dfu
+File: ar3k/ramps_0x01020201_26.dfu
+File: ar3k/ramps_0x01020201_40.dfu
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
 
@@ -1854,6 +1858,8 @@ Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 Driver:Atheros AR300x UART HCI Bluetooth Chip driver
 
+File: ar3k/1020201/PS_ASIC.pst
+File: ar3k/1020201/RamPatch.txt
 File: ar3k/1020200/ar3kbdaddr.pst
 File: ar3k/1020200/PS_ASIC.pst
 File: ar3k/1020200/RamPatch.txt
