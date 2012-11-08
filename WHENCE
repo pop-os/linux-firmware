@@ -567,7 +567,7 @@ Found in hex form in kernel source.
 
 Driver: cxgb4 - Chelsio Terminator 4 1G/10G Ethernet adapter
 
-File: cxgb4/t4fw-1.4.23.0.bin
+File: cxgb4/t4fw-1.6.2.0.bin
 
 Licence: Redistributable. See LICENCE.chelsio_firmware for details
 
@@ -713,10 +713,10 @@ directly by Marvell.
 Driver: mwifiex - Marvell Wi-Fi fullmac-type 802.11n card
 
 File: mrvl/sd8787_uapsta.bin
-Version: 14.57.5.p44
+Version: 14.66.9.p96
 
-Licence: Redistributable. See LICENCE.Marvell for details.  Extracted from
-Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
+Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
+http://git.marvell.com/?p=mwifiex-firmware.git
 
 --------------------------------------------------------------------------
 
@@ -1090,6 +1090,9 @@ File: bnx2x/bnx2x-e1h-7.2.16.0.fw
 File: bnx2x/bnx2x-e2-7.2.51.0.fw
 File: bnx2x/bnx2x-e1-7.2.51.0.fw
 File: bnx2x/bnx2x-e1h-7.2.51.0.fw
+File: bnx2x/bnx2x-e1-7.8.2.0.fw
+File: bnx2x/bnx2x-e1h-7.8.2.0.fw
+File: bnx2x/bnx2x-e2-7.8.2.0.fw
 
 License:
   Copyright (c) 2007-2011 Broadcom Corporation
@@ -1149,7 +1152,7 @@ Found in hex form in kernel source.
 Driver: netxen_nic - NetXen Multi port (1/10) Gigabit Ethernet NIC
 
 File: phanfw.bin
-Version: 4.0.579
+Version: 4.0.588
 
 Licence: Redistributable. See LICENCE.phanfw for details.
 
@@ -1794,6 +1797,16 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
+Driver: rtl8723e - Realtek 802.11n WLAN driver for RTL8723E
+
+Info: Taken from Realtek version rtl_92ce_92se_92de_8723ae_linux_mac80211_0007.0809.2012
+File: rtlwifi/rtl8723fw.bin
+File: rtlwifi/rtl8723fw_B.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
 
 Driver: r8169 - RealTek 8169/8168/8101 ethernet driver.
 
@@ -1822,7 +1835,7 @@ File: rtl_nic/rtl8106e-1.fw
 Version: 0.0.1
 
 File: rtl_nic/rtl8168g-1.fw
-Version: 0.0.2
+Version: 0.0.3
 
 Licence:
  * Copyright © 2011, Realtek Semiconductor Corporation
@@ -1880,6 +1893,8 @@ Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 Driver: ath6kl - Atheros support for AR6003
 
+File: ath6k/AR6004/hw1.3/fw-3.bin
+File: ath6k/AR6004/hw1.3/bdata.bin
 File: ath6k/AR6004/hw1.2/fw-2.bin
 File: ath6k/AR6004/hw1.2/bdata.bin
 File: ath6k/AR6003/hw1.0/otp.bin.z77
