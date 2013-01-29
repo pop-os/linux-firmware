@@ -148,10 +148,10 @@ Licence: Redistributable, provided by Realtek in their driver
 
 --------------------------------------------------------------------------
 
-Driver carl9170 - Atheros ar9170 802.11n devices
+Driver amd-ucode - AMD micocode loaded by the kernel.
 
-Files: carl9170-1.fw
-Licence: Redistributable, provided by Atheros
+Files: amd-ucode/*
+Licence: Redistributable, provided by AMD in their copyright notice. See LICENCE.amd-ucode
 
-Info: git://git.kernel.org/pub/scm/linux/kernel/git/chr/carl9170fw.git
 --------------------------------------------------------------------------
+
