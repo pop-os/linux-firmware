@@ -602,11 +602,12 @@ Driver: tg3 -- Broadcom Tigon3 based gigabit Ethernet cards
 File: tigon/tg3.bin
 File: tigon/tg3_tso.bin
 File: tigon/tg3_tso5.bin
+File: tigon/tg357766.bin
 
 Licence:
  * Firmware is:
  *	Derived from proprietary unpublished source code,
- *	Copyright (C) 2000-2003 Broadcom Corporation.
+ *	Copyright (C) 2000-2013 Broadcom Corporation.
  *
  *	Permission is hereby granted for the distribution of this firmware
  *	data in hexadecimal or equivalent format, provided this copyright
@@ -705,6 +706,9 @@ File: mwl8k/fmimage_8366_ap-2.fw
 File: mwl8k/fmimage_8366_ap-3.fw
 Version: 5.2.8.16
 File: mwl8k/helper_8366.fw
+
+File: mwl8k/fmimage_8764_ap-1.fw
+Version: 7.4.0.9
 
 Licence: Redistributable. See LICENCE.Marvell for details.  8687 images
 downloaded from Marvell's "Extranet" with permission.  8366 images contributed
@@ -1101,6 +1105,9 @@ File: bnx2x/bnx2x-e1h-7.2.51.0.fw
 File: bnx2x/bnx2x-e1-7.8.2.0.fw
 File: bnx2x/bnx2x-e1h-7.8.2.0.fw
 File: bnx2x/bnx2x-e2-7.8.2.0.fw
+File: bnx2x/bnx2x-e1-7.8.17.0.fw
+File: bnx2x/bnx2x-e1h-7.8.17.0.fw
+File: bnx2x/bnx2x-e2-7.8.17.0.fw
 
 License:
   Copyright (c) 2007-2011 Broadcom Corporation
@@ -1160,9 +1167,11 @@ Found in hex form in kernel source.
 Driver: netxen_nic - NetXen Multi port (1/10) Gigabit Ethernet NIC
 
 File: phanfw.bin
-Version: 4.0.588
+Version: 4.0.590
 
 Licence: Redistributable. See LICENCE.phanfw for details.
+
+Available from http://ldriver.qlogic.com/firmware/netxen_nic/new/
 
 --------------------------------------------------------------------------
 
