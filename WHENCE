@@ -1434,12 +1434,14 @@ Driver: radeon - ATI Radeon
 
 File: radeon/R600_rlc.bin
 File: radeon/R700_rlc.bin
+File: radeon/RV710_uvd.bin
 File: radeon/CEDAR_me.bin
 File: radeon/CEDAR_pfp.bin
 File: radeon/CEDAR_rlc.bin
 File: radeon/CYPRESS_me.bin
 File: radeon/CYPRESS_pfp.bin
 File: radeon/CYPRESS_rlc.bin
+File: radeon/CYPRESS_uvd.bin
 File: radeon/JUNIPER_me.bin
 File: radeon/JUNIPER_pfp.bin
 File: radeon/JUNIPER_rlc.bin
@@ -1449,6 +1451,7 @@ File: radeon/REDWOOD_rlc.bin
 File: radeon/PALM_me.bin
 File: radeon/PALM_pfp.bin
 File: radeon/SUMO_rlc.bin
+File: radeon/SUMO_uvd.bin
 File: radeon/BARTS_mc.bin
 File: radeon/BARTS_me.bin
 File: radeon/BARTS_pfp.bin
@@ -1480,11 +1483,17 @@ File: radeon/TAHITI_mc.bin
 File: radeon/TAHITI_me.bin
 File: radeon/TAHITI_pfp.bin
 File: radeon/TAHITI_rlc.bin
+File: radeon/TAHITI_uvd.bin
 File: radeon/VERDE_ce.bin
 File: radeon/VERDE_mc.bin
 File: radeon/VERDE_me.bin
 File: radeon/VERDE_pfp.bin
 File: radeon/VERDE_rlc.bin
+File: radeon/OLAND_ce.bin
+File: radeon/OLAND_mc.bin
+File: radeon/OLAND_me.bin
+File: radeon/OLAND_pfp.bin
+File: radeon/OLAND_rlc.bin
 
 Licence: Redistributable. See LICENSE.radeon for details.
 
@@ -2069,5 +2078,25 @@ Source: carl9170fw/
 Downloaded from http://linuxwireless.org/en/users/Drivers/carl9170
 
 Licence: GPLv2. Some build scripts use the New BSD (3-clause) licence.
+
+--------------------------------------------------------------------------
+
+Driver: snd-hda-codec-ca0132 - Creative Sound Core3D codec
+
+File: ctefx.bin
+File: ctspeq.bin
+
+Licence: Redistributable. See LICENCE.ca0132 for details
+
+Found also in alsa-firmware package.
+
+--------------------------------------------------------------------------
+
+Driver: btusb - Bluetooth USB driver
+
+File: intel/ibt-default-37.7.bseq
+File: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
+
+Licence: Redistributable. See LICENCE.ibt_firmware for details
 
 --------------------------------------------------------------------------
