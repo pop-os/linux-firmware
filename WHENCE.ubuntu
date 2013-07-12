@@ -147,11 +147,3 @@ Licence: Redistributable, provided by Realtek in their driver
          source download.
 
 --------------------------------------------------------------------------
-
-Driver amd-ucode - AMD micocode loaded by the kernel.
-
-Files: amd-ucode/*
-Licence: Redistributable, provided by AMD in their copyright notice. See LICENCE.amd-ucode
-
---------------------------------------------------------------------------
-
