@@ -1533,12 +1533,19 @@ File: radeon/BONAIRE_pfp.bin
 File: radeon/BONAIRE_rlc.bin
 File: radeon/BONAIRE_sdma.bin
 File: radeon/BONAIRE_uvd.bin
+File: radeon/BONAIRE_smc.bin
 File: radeon/KABINI_ce.bin
 File: radeon/KABINI_me.bin
 File: radeon/KABINI_mec.bin
 File: radeon/KABINI_pfp.bin
 File: radeon/KABINI_rlc.bin
 File: radeon/KABINI_sdma.bin
+File: radeon/KAVERI_ce.bin
+File: radeon/KAVERI_me.bin
+File: radeon/KAVERI_mec.bin
+File: radeon/KAVERI_pfp.bin
+File: radeon/KAVERI_rlc.bin
+File: radeon/KAVERI_sdma.bin
 
 Licence: Redistributable. See LICENSE.radeon for details.
 
@@ -2153,7 +2160,11 @@ Found also in alsa-firmware package.
 Driver: btusb - Bluetooth USB driver
 
 File: intel/ibt-hw-37.7.bseq
+Version: 1316.02.00
 File: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
+Version: 1334.02.2E
+File: intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
+Version: 1334.02.2E
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -2225,15 +2236,15 @@ License: Redistributable. See LICENSE.amd-ucode for details
 
 Driver: mxuport - MOXA UPort USB Serial hub driver
 
-File: moxa/moxa-04e2.fw
-File: moxa/moxa-04e3.fw
-File: moxa/moxa-0582.fw
-File: moxa/moxa-05aa.fw
-File: moxa/moxa-05ab.fw
-File: moxa/moxa-064d.fw
-File: moxa/moxa-0652.fw
-File: moxa/moxa-0675.fw
-File: moxa/moxa-067a.fw
+File: moxa/moxa-1250.fw
+File: moxa/moxa-1251.fw
+File: moxa/moxa-1410.fw
+File: moxa/moxa-1450.fw
+File: moxa/moxa-1451.fw
+File: moxa/moxa-1613.fw
+File: moxa/moxa-1618.fw
+File: moxa/moxa-1653.fw
+File: moxa/moxa-1658.fw
 
 License:
 The software accompanying this license statement (the “Software”)
@@ -2254,3 +2265,52 @@ rights and obligations in its use are described as follows:
 5. Moxa(r) is worldwide registered trademark.
 
 --------------------------------------------------------------------------
+
+Driver: cw1200 - ST-E CW1100/CW1200 WLAN driver
+
+File: sdd_sagrad_1091_1098.bin
+
+License:
+  Copyright (c) 2011-2013 Sagrad, Inc.
+
+  This SDD ("Static Dynamic Data") file is licensed strictly for use with
+  the Sagrad WiFi modules (such as the SG901-1091/1098) that utilize the
+  cw1200 driver. There is no warranty expressed or implied about its 
+  fitness for any purpose.
+
+  Permission is hereby granted for the distribution of this SDD file as
+  part of Linux or other Open Source operating system kernel in text or
+  binary form as required.
+
+  (Please note that the actual device firmware is separately licensed by 
+   ST-E, who has not provided explicit permission for general redistibution)
+
+--------------------------------------------------------------------------
+
+Driver: BFA/BNA - Brocade Adapter FC/FCOE drivers
+
+File: cbfw-3.2.1.1.bin
+FIle: ctfw-3.2.1.1.bin
+FIle: ct2fw-3.2.1.1.bin
+
+Licence:
+
+This file contains firmware data derived from proprietary unpublished
+source code, Copyright (c) 2013 Brocade Communications Systems, Inc.
+
+Permission is hereby granted for the distribution of this firmware data
+in hexadecimal or equivalent format, provided this copyright notice is
+accompanying it.
+
+Found in hex form in kernel source.
+
+Brocade grants permission to use and redistribute these firmware files
+for use with Brocade devices, but not as a part of the Linux
+kernel or in any other form which would require these files themselves
+to be covered by the terms of the GNU General Public License.
+These firmware files are distributed in the hope that they will be
+useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+--------------------------------------------------------------------------
+
