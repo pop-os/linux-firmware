@@ -1694,9 +1694,12 @@ Driver: brcmfmac - Broadcom 802.11n fullmac wireless LAN driver.
 
 File: brcm/bcm4329-fullmac-4.bin
 File: brcm/brcmfmac43236b.bin
-File: brcm/brcmfmac4329.bin
-File: brcm/brcmfmac4330.bin
-File: brcm/brcmfmac4334.bin
+File: brcm/brcmfmac4329-sdio.bin
+File: brcm/brcmfmac4330-sdio.bin
+File: brcm/brcmfmac4334-sdio.bin
+File: brcm/brcmfmac4335-sdio.bin
+File: brcm/brcmfmac43241b0-sdio.bin
+File: brcm/brcmfmac43241b4-sdio.bin
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 
@@ -1709,6 +1712,24 @@ File: TDA7706_OM_v3.0.2_boot.txt
 
 Licence: Redistributable. See LICENCE.tda7706-firmware.txt for details.
         Copyright © 2010 STMicroelectronics
+
+--------------------------------------------------------------------------
+
+Driver: wl1251 - Texas Instruments 802.11 WLAN driver for WiLink4 chips
+
+File: ti-connectivity/wl1251-fw.bin
+Version: 4.0.4.3.7
+
+File: ti-connectivity/wl1251-nvs.bin
+
+Licence: See LICENCE.wl1251 for details.
+
+The published NVS files are for testing only.  Every device needs to
+have a unique NVS which is properly calibrated for best results.
+
+The driver expects to find the firmwares under a ti-connectivity subdirectory.
+So if your system looks for firmwares in /lib/firmware, the firmwares for
+wl12xx chips must be located in /lib/firmware/ti-connectivity/.
 
 --------------------------------------------------------------------------
 
@@ -1855,6 +1876,9 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 Driver: rtl8192cu - Realtek 802.11n WLAN driver for RTL8192CU
 
 File: rtlwifi/rtl8192cufw.bin
+FILE: rtlwifi/rtl8192cufw_A.bin
+FILE: rtlwifi/rtl8192cufw_B.bin
+FILE: rtlwifi/rtl8192cufw_TMSC.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -1892,6 +1916,15 @@ Driver: rtl8188ee - Realtek 802.11n WLAN driver for RTL8188EE
 
 Info: Taken from Realtek version rtl_92ce_92se_92de_8723ae_88ee_linux_mac80211_0010.0109.2013
 File: rtlwifi/rtl8188efw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
+Driver: rtl8188eu - Realtek 802.11n WLAN driver for RTL8188EU
+
+Info: Taken from Realtek version RTL8188EUS_linux_v4.1.4_6773.20130222
+File: rtlwifi/rtl8188eufw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
