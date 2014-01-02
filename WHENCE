@@ -429,9 +429,9 @@ Version: 3.03.28 IPX
 File: ql2322_fw.bin
 Version: 3.03.28 IPX
 File: ql2400_fw.bin
-Version: 5.08.00 MID
+Version: 7.01.00 MID
 File: ql2500_fw.bin
-Version: 5.08.00 MIDQ
+Version: 7.01.00 MIDQ
 
 Licence: Redistributable. See LICENCE.qla2xxx for details
 
@@ -565,10 +565,12 @@ Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
-Driver: cxgb4 - Chelsio Terminator 4 1G/10G Ethernet adapter
+Driver: cxgb4 - Chelsio Terminator 4/5 1G/10/40G Ethernet adapter
 
-File: cxgb4/t4fw-1.6.2.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.6.2.0.bin
+File: cxgb4/t4fw-1.9.23.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.9.23.0.bin
+File: cxgb4/t5fw-1.9.23.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.9.23.0.bin
 
 Licence: Redistributable. See LICENCE.chelsio_firmware for details
 
@@ -727,11 +729,14 @@ Version: 14.66.9.p96
 File: mrvl/sd8797_uapsta.bin
 Version: 14.66.11.p151
 
+File: mrvl/sd8897_uapsta.bin
+Version: 15.69.2.p11
+
 File: mrvl/usb8797_uapsta.bin
 Version: 14.69.11.p179
 
 File: mrvl/pcie8897_uapsta.bin
-Version: 15.69.201.p52
+Version: 15.69.2.p11
 
 Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
 http://git.marvell.com/?p=mwifiex-firmware.git
@@ -802,10 +807,10 @@ File: iwlwifi-2000-6.ucode
 Version: 18.168.6.1
 
 File: iwlwifi-7260-7.ucode
-Version: 22.0.7.0
+Version: 22.1.7.0
 
 File: iwlwifi-3160-7.ucode
-Version: 22.0.7.0
+Version: 22.1.7.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -2195,9 +2200,9 @@ Driver: btusb - Bluetooth USB driver
 File: intel/ibt-hw-37.7.bseq
 Version: 1316.02.00
 File: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
-Version: 1334.02.2E
+Version: 1344.01.33
 File: intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
-Version: 1334.02.2E
+Version: 1344.01.33
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -2301,6 +2306,10 @@ rights and obligations in its use are described as follows:
 
 Driver: cw1200 - ST-E CW1100/CW1200 WLAN driver
 
+File: wsm_22.bin
+Version: WSM395
+Licence: Redistributable. See LICENSE.cw1200 for details.
+
 File: sdd_sagrad_1091_1098.bin
 
 License:
@@ -2315,8 +2324,7 @@ License:
   part of Linux or other Open Source operating system kernel in text or
   binary form as required.
 
-  (Please note that the actual device firmware is separately licensed by 
-   ST-E, who has not provided explicit permission for general redistibution)
+  (Please note that the actual device firmware is separately licensed)
 
 --------------------------------------------------------------------------
 
@@ -2325,6 +2333,9 @@ Driver: BFA/BNA - Brocade Adapter FC/FCOE drivers
 File: cbfw-3.2.1.1.bin
 FIle: ctfw-3.2.1.1.bin
 FIle: ct2fw-3.2.1.1.bin
+File: cbfw-3.2.3.0.bin
+FIle: ctfw-3.2.3.0.bin
+FIle: ct2fw-3.2.3.0.bin
 
 Licence:
 
