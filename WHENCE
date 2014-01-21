@@ -1557,6 +1557,14 @@ File: radeon/KAVERI_mec.bin
 File: radeon/KAVERI_pfp.bin
 File: radeon/KAVERI_rlc.bin
 File: radeon/KAVERI_sdma.bin
+File: radeon/HAWAII_ce.bin
+File: radeon/HAWAII_mc.bin
+File: radeon/HAWAII_me.bin
+File: radeon/HAWAII_mec.bin
+File: radeon/HAWAII_pfp.bin
+File: radeon/HAWAII_rlc.bin
+File: radeon/HAWAII_sdma.bin
+File: radeon/HAWAII_smc.bin
 
 Licence: Redistributable. See LICENSE.radeon for details.
 
@@ -1918,6 +1926,19 @@ Driver: rtl8723e - Realtek 802.11n WLAN driver for RTL8723E
 Info: Taken from Realtek version rtl_92ce_92se_92de_8723ae_linux_mac80211_0007.0809.2012
 File: rtlwifi/rtl8723fw.bin
 File: rtlwifi/rtl8723fw_B.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
+Driver: r8723au - Realtek 802.11n WLAN driver for RTL8723AU
+
+Info: Taken from Realtek driver rtl8723A_WiFi_linux_v4.1.3_6044.20121224
+      Firmware is embedded in the driver as data statements. This info
+      has been extracted into a binary file.
+File: rtlwifi/rtl8723aufw_A.bin
+File: rtlwifi/rtl8723aufw_B.bin
+File: rtlwifi/rtl8723aufw_B_NoBT.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
