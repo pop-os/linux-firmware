@@ -1,3 +1,11 @@
+linux-firmware (1.123) trusty; urgency=medium
+
+  * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git d7f8a7c81a3aaf06e4166ff17f9ef7cae831916f
+    rtlwifi: Add firmware for rtl8821ae
+    Remove executable permissions from firmware file
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 30 Jan 2014 13:42:49 +0000
+
 linux-firmware (1.122) trusty; urgency=low
 
   * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git 418320bd8b4243e51fe1cae8fa05ba2bfe290111
