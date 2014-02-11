@@ -1131,6 +1131,9 @@ File: bnx2x/bnx2x-e2-7.8.2.0.fw
 File: bnx2x/bnx2x-e1-7.8.17.0.fw
 File: bnx2x/bnx2x-e1h-7.8.17.0.fw
 File: bnx2x/bnx2x-e2-7.8.17.0.fw
+File: bnx2x/bnx2x-e1-7.8.19.0.fw
+File: bnx2x/bnx2x-e1h-7.8.19.0.fw
+File: bnx2x/bnx2x-e2-7.8.19.0.fw
 
 License:
   Copyright (c) 2007-2011 Broadcom Corporation
@@ -1971,6 +1974,15 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
+Driver: rtl8192ee - Realtek 802.11n WLAN driver for RTL8192EE
+
+Info: Taken from Realtek version rtl_92ce_92se_92de_8723ae_88ee_8723be_92ee_linux_mac80211_0017.1224.2013
+File: rtlwifi/rtl8192eefw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
 Driver: r8169 - RealTek 8169/8168/8101 ethernet driver.
 
 File: rtl_nic/rtl8168d-1.fw
@@ -2110,7 +2122,11 @@ File: myri10ge_eth_z8e.dat
 File: myri10ge_ethp_z8e.dat
 File: myri10ge_rss_eth_z8e.dat
 File: myri10ge_rss_ethp_z8e.dat
-Version: 1.4.52
+File: myri10ge_eth_big_z8e.dat
+File: myri10ge_ethp_big_z8e.dat
+File: myri10ge_rss_eth_big_z8e.dat
+File: myri10ge_rss_ethp_big_z8e.dat
+Version: 1.4.57
 
 License: Redistributable.  See LICENCE.myri10ge_firmware for details.
 
