@@ -813,7 +813,7 @@ File: iwlwifi-7260-8.ucode
 Version: 22.24.8.0
 
 File: iwlwifi-7260-9.ucode
-Version: 22.212.9.0
+Version: 23.214.9.0
 
 File: iwlwifi-3160-7.ucode
 Version: 22.1.7.0
@@ -821,14 +821,8 @@ Version: 22.1.7.0
 File: iwlwifi-3160-8.ucode
 Version: 22.24.8.0
 
-File: iwlwifi-3160-9.ucode
-Version: 22.212.9.0
-
 File: iwlwifi-7265-8.ucode
 Version: 22.24.8.0
-
-File: iwlwifi-7265-9.ucode
-Version: 22.212.9.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -1560,6 +1554,7 @@ File: radeon/BONAIRE_rlc.bin
 File: radeon/BONAIRE_sdma.bin
 File: radeon/BONAIRE_uvd.bin
 File: radeon/BONAIRE_smc.bin
+File: radeon/BONAIRE_vce.bin
 File: radeon/KABINI_ce.bin
 File: radeon/KABINI_me.bin
 File: radeon/KABINI_mec.bin
@@ -2267,9 +2262,15 @@ Driver: btusb - Bluetooth USB driver
 File: intel/ibt-hw-37.7.bseq
 Version: 1316.02.00
 File: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
-Version: 1344.01.33
+Version: auto.WP_1303_02_patch_0.1.54.1 (0x36)
 File: intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
-Version: 1344.01.33
+Version: auto.WP_1303_02_patch_0.1.54.1 (0x36)
+File: intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq
+Version: WP_1345_01_patch_0.0.06.1
+File: intel/ibt-hw-37.8.bseq
+Version: 1339_02.00
+File: intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq
+Version: STP2_C0_1339_02_patch_13.1 (0x0D)
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -2425,3 +2426,17 @@ of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 --------------------------------------------------------------------------
 
+Driver: rsi -- Redpine Signals Inc 91x driver
+
+File: rsi_91x.fw
+
+Licence:
+ * Firmware is:
+ *	Derived from proprietary unpublished source code,
+ *	Copyright (C) 2014 Redpine Signals Inc.
+ *
+ *	Permission is hereby granted for the distribution of this firmware
+ *	as part of Linux or other Open Source operating system kernel
+ *	provided this copyright notice is accompanying it.
+
+--------------------------------------------------------------------------
