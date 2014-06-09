@@ -1516,12 +1516,14 @@ File: radeon/ARUBA_pfp.bin
 File: radeon/ARUBA_rlc.bin
 File: radeon/PITCAIRN_ce.bin
 File: radeon/PITCAIRN_mc.bin
+File: radeon/PITCAIRN_mc2.bin
 File: radeon/PITCAIRN_me.bin
 File: radeon/PITCAIRN_pfp.bin
 File: radeon/PITCAIRN_rlc.bin
 File: radeon/PITCAIRN_smc.bin
 File: radeon/TAHITI_ce.bin
 File: radeon/TAHITI_mc.bin
+File: radeon/TAHITI_mc2.bin
 File: radeon/TAHITI_me.bin
 File: radeon/TAHITI_pfp.bin
 File: radeon/TAHITI_rlc.bin
@@ -1529,24 +1531,28 @@ File: radeon/TAHITI_uvd.bin
 File: radeon/TAHITI_smc.bin
 File: radeon/VERDE_ce.bin
 File: radeon/VERDE_mc.bin
+File: radeon/VERDE_mc2.bin
 File: radeon/VERDE_me.bin
 File: radeon/VERDE_pfp.bin
 File: radeon/VERDE_rlc.bin
 File: radeon/VERDE_smc.bin
 File: radeon/OLAND_ce.bin
 File: radeon/OLAND_mc.bin
+File: radeon/OLAND_mc2.bin
 File: radeon/OLAND_me.bin
 File: radeon/OLAND_pfp.bin
 File: radeon/OLAND_rlc.bin
 File: radeon/OLAND_smc.bin
 File: radeon/HAINAN_ce.bin
 File: radeon/HAINAN_mc.bin
+File: radeon/HAINAN_mc2.bin
 File: radeon/HAINAN_me.bin
 File: radeon/HAINAN_pfp.bin
 File: radeon/HAINAN_rlc.bin
 File: radeon/HAINAN_smc.bin
 File: radeon/BONAIRE_ce.bin
 File: radeon/BONAIRE_mc.bin
+File: radeon/BONAIRE_mc2.bin
 File: radeon/BONAIRE_me.bin
 File: radeon/BONAIRE_mec.bin
 File: radeon/BONAIRE_pfp.bin
@@ -1569,12 +1575,19 @@ File: radeon/KAVERI_rlc.bin
 File: radeon/KAVERI_sdma.bin
 File: radeon/HAWAII_ce.bin
 File: radeon/HAWAII_mc.bin
+File: radeon/HAWAII_mc2.bin
 File: radeon/HAWAII_me.bin
 File: radeon/HAWAII_mec.bin
 File: radeon/HAWAII_pfp.bin
 File: radeon/HAWAII_rlc.bin
 File: radeon/HAWAII_sdma.bin
 File: radeon/HAWAII_smc.bin
+File: radeon/MULLINS_ce.bin
+File: radeon/MULLINS_me.bin
+File: radeon/MULLINS_mec.bin
+File: radeon/MULLINS_pfp.bin
+File: radeon/MULLINS_rlc.bin
+File: radeon/MULLINS_sdma.bin
 
 Licence: Redistributable. See LICENSE.radeon for details.
 
@@ -1730,6 +1743,9 @@ File: brcm/brcmfmac4335-sdio.bin
 File: brcm/brcmfmac43362-sdio.bin
 File: brcm/brcmfmac43241b0-sdio.bin
 File: brcm/brcmfmac43241b4-sdio.bin
+File: brcm/brcmfmac43143.bin
+File: brcm/brcmfmac43143-sdio.bin
+File: brcm/brcmfmac4354-sdio.bin
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 
@@ -1939,6 +1955,15 @@ Driver: rtl8723e - Realtek 802.11n WLAN driver for RTL8723E
 Info: Taken from Realtek version rtl_92ce_92se_92de_8723ae_linux_mac80211_0007.0809.2012
 File: rtlwifi/rtl8723fw.bin
 File: rtlwifi/rtl8723fw_B.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
+Driver: rtl8723be - Realtek 802.11n WLAN driver for RTL8723BE
+
+Info: Taken from driver sent to me from Realtek
+File: rtlwifi/rtl8723befw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -2221,11 +2246,14 @@ Driver: s5p-mfc - Samsung MFC video encoder/decoder driver
 
 File: s5p-mfc/s5p-mfc.fw
 File: s5p-mfc/s5p-mfc-v6.fw
+File: s5p-mfc/s5p-mfc-v6-v2.fw
+File: s5p-mfc/s5p-mfc-v7.fw
+File: s5p-mfc/s5p-mfc-v8.fw
 
 Licence:
-Samsung grants permission to use and redistribute these firmware
-files for use with Exynos series devices, but not as part of the Linux
-kernel or in any other form which would require these files themselves
+Samsung grants permission to use and redistribute aforementioned firmware
+files for the use with Exynos series devices, but not as part of the Linux
+kernel, or in any other form which would require these files themselves
 to be covered by the terms of the GNU General Public License.
 
 These firmware files are distributed in the hope that they will be
@@ -2262,9 +2290,9 @@ Driver: btusb - Bluetooth USB driver
 File: intel/ibt-hw-37.7.bseq
 Version: 1316.02.00
 File: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
-Version: auto.WP_1303_02_patch_0.1.54.1 (0x36)
+Version: auto.WP_1303_02_patch_0.1.55.1 (0x37)
 File: intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
-Version: auto.WP_1303_02_patch_0.1.54.1 (0x36)
+Version: auto.WP_1303_02_patch_0.1.55.1 (0x37)
 File: intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq
 Version: WP_1345_01_patch_0.0.06.1
 File: intel/ibt-hw-37.8.bseq
@@ -2424,6 +2452,12 @@ These firmware files are distributed in the hope that they will be
 useful, but WITHOUT ANY WARRANTY; without even the implied warranty
 of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
+--------------------------------------------------------------------------
+Driver: qat_dh895xxcc - Intel(R) QAT crypto accelerator
+
+File: qat_895xcc.bin
+
+Licence: Redistributable. See LICENCE.qat_dh895xcc_firmware for details
 --------------------------------------------------------------------------
 
 Driver: rsi -- Redpine Signals Inc 91x driver
