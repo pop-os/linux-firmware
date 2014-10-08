@@ -813,7 +813,7 @@ File: iwlwifi-7260-8.ucode
 Version: 22.24.8.0
 
 File: iwlwifi-7260-9.ucode
-Version: 23.214.9.0
+Version: 25.222.9.0
 
 File: iwlwifi-3160-7.ucode
 Version: 22.1.7.0
@@ -821,8 +821,14 @@ Version: 22.1.7.0
 File: iwlwifi-3160-8.ucode
 Version: 22.24.8.0
 
+File: iwlwifi-3160-9.ucode
+Version: 25.222.9.0
+
 File: iwlwifi-7265-8.ucode
 Version: 22.24.8.0
+
+File: iwlwifi-7265-9.ucode
+Version: 25.222.9.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -2000,6 +2006,7 @@ Driver: rtl8192ce - Realtek 802.11n WLAN driver for RTL8192CE
 File: rtlwifi/rtl8192cfw.bin
 File: rtlwifi/rtl8192cfwU.bin
 File: rtlwifi/rtl8192cfwU_B.bin
+Info: From Vendor's realtek/rtlwifi_linux_mac80211_0019.0320.2014V628 driver
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -2027,7 +2034,7 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 Driver: rtl8192de - Realtek 802.11n WLAN driver for RTL8192DE
 
-Info: updated from Realtek version rtl_92ce_92se_92de_linux_mac80211_0004.0816.2011
+Info: Updated from Realtek version rtl_92ce_92se_92de_8723ae_linux_mac80211_0007.0809.2012
 File: rtlwifi/rtl8192defw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
@@ -2046,7 +2053,7 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 Driver: rtl8723be - Realtek 802.11n WLAN driver for RTL8723BE
 
-Info: Taken from driver sent to me from Realtek
+Info: From Vendor's realtek/rtlwifi_linux_mac80211_0019.0320.2014V628 driver
 File: rtlwifi/rtl8723befw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
@@ -2086,8 +2093,9 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 Driver: rtl8821ae - Realtek 802.11n WLAN driver for RTL8821AE
 
-Info: Taken from Realtek version wifi_driver_8821ae_0018.1129.2013.tar.gz
+Info: From Vendor's realtek/rtlwifi_linux_mac80211_0019.0320.2014V628 driver
 File: rtlwifi/rtl8821aefw.bin
+File: rtlwifi/rtl8821aefw_wowlan.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -2141,6 +2149,18 @@ File: rtl_nic/rtl8168g-2.fw
 Version: 0.0.1
 
 File: rtl_nic/rtl8168g-3.fw
+Version: 0.0.1
+
+File: rtl_nic/rtl8168h-1.fw
+Version: 0.0.1
+
+File: rtl_nic/rtl8168h-2.fw
+Version: 0.0.1
+
+File: rtl_nic/rtl8107e-1.fw
+Version: 0.0.1
+
+File: rtl_nic/rtl8107e-2.fw
 Version: 0.0.1
 
 Licence:
@@ -2385,6 +2405,8 @@ File: intel/ibt-hw-37.8.bseq
 Version: 1339_02.00
 File: intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq
 Version: STP2_C0_1339_02_patch_31.1
+File: intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq
+Version: STP2_D0_1417_04_patch_04.1
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
