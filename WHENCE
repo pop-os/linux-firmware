@@ -813,7 +813,10 @@ File: iwlwifi-7260-8.ucode
 Version: 22.24.8.0
 
 File: iwlwifi-7260-9.ucode
-Version: 25.222.9.0
+Version: 25.228.9.0
+
+File: iwlwifi-7260-10.ucode
+Version: 23.10.10.0
 
 File: iwlwifi-3160-7.ucode
 Version: 22.1.7.0
@@ -822,13 +825,22 @@ File: iwlwifi-3160-8.ucode
 Version: 22.24.8.0
 
 File: iwlwifi-3160-9.ucode
-Version: 25.222.9.0
+Version: 25.228.9.0
+
+File: iwlwifi-3160-10.ucode
+Version: 23.10.10.0
 
 File: iwlwifi-7265-8.ucode
 Version: 22.24.8.0
 
 File: iwlwifi-7265-9.ucode
-Version: 25.222.9.0
+Version: 25.228.9.0
+
+File: iwlwifi-7265-10.ucode
+Version: 23.10.10.0
+
+File: iwlwifi-7265D-10.ucode
+Version: 23.10.10.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -2605,3 +2617,37 @@ File: dvb-usb-it9135-02.fw
 Licence: Redistributable. See LICENCE.it913x for details
 
 --------------------------------------------------------------------------
+
+Driver: snd_soc_sst_acpi
+
+File: intel/IntcSST2.bin
+
+License: Redistributable. See LICENCE.IntcSST2 for details
+
+--------------------------------------------------------------------------
+
+Driver: snd_intel_sst_core
+
+File: intel/fw_sst_0f28.bin
+
+License: Redistributable. See LICENCE.fw_sst_0f28 for details
+
+--------------------------------------------------------------------------
+
+Driver smsmdtv - Siano MDTV Core module
+
+File: cmmb_vega_12mhz.inp
+File: cmmb_venice_12mhz.inp
+File: dvb_nova_12mhz.inp
+File: dvb_nova_12mhz_b0.inp
+File: isdbt_nova_12mhz.inp
+File: isdbt_nova_12mhz_b0.inp
+File: isdbt_rio.inp
+File: sms1xxx-hcw-55xxx-dvbt-02.fw
+File: sms1xxx-hcw-55xxx-isdbt-02.fw
+File: sms1xxx-nova-a-dvbt-01.fw
+File: sms1xxx-nova-b-dvbt-01.fw
+File: sms1xxx-stellar-dvbt-01.fw
+File: tdmb_nova_12mhz.inp
+
+Licence: Redistributable. See LICENCE.siano for details
