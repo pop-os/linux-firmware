@@ -724,19 +724,28 @@ directly by Marvell.
 Driver: mwifiex - Marvell Wi-Fi fullmac-type 802.11n/ac cards
 
 File: mrvl/sd8787_uapsta.bin
-Version: 14.66.9.p96
+Version: 14.66.35.p52
+
+File: mrvl/usb8766_uapsta.bin
+Version: 14.68.22.p16
 
 File: mrvl/sd8797_uapsta.bin
 Version: 14.66.11.p151
 
-File: mrvl/sd8897_uapsta.bin
-Version: 15.69.2.p11
-
 File: mrvl/usb8797_uapsta.bin
-Version: 14.69.11.p179
+Version: 14.68.29.p38
+
+File: mrvl/sd8897_uapsta.bin
+Version: 15.68.4.p112
+
+File: mrvl/usb8897_uapsta.bin
+Version: 15.68.4.p103
 
 File: mrvl/pcie8897_uapsta.bin
-Version: 15.69.2.p11
+Version: 15.68.4.p112
+
+File: mrvl/sd8887_uapsta.bin
+Version: 15.68.7.p5
 
 Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
 http://git.marvell.com/?p=mwifiex-firmware.git
@@ -816,7 +825,10 @@ File: iwlwifi-7260-9.ucode
 Version: 25.228.9.0
 
 File: iwlwifi-7260-10.ucode
-Version: 23.11.10.0
+Version: 23.14.10.0
+
+File: iwlwifi-7260-12.ucode
+Version: 25.15.12.0
 
 File: iwlwifi-3160-7.ucode
 Version: 22.1.7.0
@@ -828,7 +840,10 @@ File: iwlwifi-3160-9.ucode
 Version: 25.228.9.0
 
 File: iwlwifi-3160-10.ucode
-Version: 23.11.10.0
+Version: 23.14.10.0
+
+File: iwlwifi-3160-12.ucode
+Version: 25.15.12.0
 
 File: iwlwifi-7265-8.ucode
 Version: 22.24.8.0
@@ -837,10 +852,16 @@ File: iwlwifi-7265-9.ucode
 Version: 25.228.9.0
 
 File: iwlwifi-7265-10.ucode
-Version: 23.11.10.0
+Version: 23.14.10.0
+
+File: iwlwifi-7265-12.ucode
+Version: 25.15.12.0
 
 File: iwlwifi-7265D-10.ucode
-Version: 23.11.10.0
+Version: 23.14.10.0
+
+File: iwlwifi-7265D-12.ucode
+Version: 25.15.12.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -2115,7 +2136,10 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 Driver: rtl8192ee - Realtek 802.11n WLAN driver for RTL8192EE
 
-Info: Taken from Realtek version rtl_92ce_92se_92de_8723ae_88ee_8723be_92ee_linux_mac80211_0017.1224.2013
+Info: Initial version taken from Realtek version
+      rtl_92ce_92se_92de_8723ae_88ee_8723be_92ee_linux_mac80211_0017.1224.2013
+      Updated Jan. 14, 2015 with file added by Realtek to
+      http://github.com/lwfinger/rtlwifi_new.git.
 File: rtlwifi/rtl8192eefw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
@@ -2164,16 +2188,16 @@ File: rtl_nic/rtl8168g-3.fw
 Version: 0.0.1
 
 File: rtl_nic/rtl8168h-1.fw
-Version: 0.0.1
+Version: 0.0.2
 
 File: rtl_nic/rtl8168h-2.fw
-Version: 0.0.1
+Version: 0.0.2
 
 File: rtl_nic/rtl8107e-1.fw
-Version: 0.0.1
+Version: 0.0.2
 
 File: rtl_nic/rtl8107e-2.fw
-Version: 0.0.1
+Version: 0.0.2
 
 Licence:
  * Copyright © 2011-2013, Realtek Semiconductor Corporation
@@ -2406,19 +2430,19 @@ Driver: btusb - Bluetooth USB driver
 File: intel/ibt-hw-37.7.bseq
 Version: 1316.02.00
 File: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
-Version: WP_1303_02_patch_0.0.65.1
+Version: WP_1303_02_patch_0.0.72.1
 File: intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
-Version: WP_1303_02_patch_0.0.65.1
+Version: WP_1303_02_patch_0.0.72.1
 File: intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq
-Version: WP_1345_01_patch_0.0.13.1
+Version: WP_1345_01_patch_0.0.24.1
 File: intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq
-Version: WP_1345_01_patch_0.0.10.1
+Version: WP_1345_01_patch_0.0.24.1
 File: intel/ibt-hw-37.8.bseq
 Version: 1339_02.00
 File: intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq
-Version: STP2_C0_1339_02_patch_31.1
+Version: STP2_C0_1339_02_patch_40.1
 File: intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq
-Version: STP2_D0_1417_04_patch_04.1
+Version: STP2_D0_1417_04_patch_09.1
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -2533,7 +2557,7 @@ License:
 
 --------------------------------------------------------------------------
 
-Driver: BFA/BNA - Brocade Adapter FC/FCOE drivers
+Driver: BFA/BNA - QLogic BR-series Adapter FC/FCOE drivers
 
 File: cbfw-3.2.1.1.bin
 File: ctfw-3.2.1.1.bin
@@ -2541,11 +2565,16 @@ File: ct2fw-3.2.1.1.bin
 File: cbfw-3.2.3.0.bin
 File: ctfw-3.2.3.0.bin
 File: ct2fw-3.2.3.0.bin
+File: cbfw-3.2.5.1.bin
+File: ctfw-3.2.5.1.bin
+File: ct2fw-3.2.5.1.bin
 
 Licence:
 
 This file contains firmware data derived from proprietary unpublished
-source code, Copyright (c) 2013 Brocade Communications Systems, Inc.
+source code.
+Copyright (c) 2013-2014 Brocade Communications Systems, Inc.
+Copyright (c) 2014-2015 QLogic Corporation.
 
 Permission is hereby granted for the distribution of this firmware data
 in hexadecimal or equivalent format, provided this copyright notice is
@@ -2553,8 +2582,8 @@ accompanying it.
 
 Found in hex form in kernel source.
 
-Brocade grants permission to use and redistribute these firmware files
-for use with Brocade devices, but not as a part of the Linux
+QLogic grants permission to use and redistribute these firmware files
+for use with QLogic BR-series devices, but not as a part of the Linux
 kernel or in any other form which would require these files themselves
 to be covered by the terms of the GNU General Public License.
 These firmware files are distributed in the hope that they will be
@@ -2621,6 +2650,7 @@ Licence: Redistributable. See LICENCE.it913x for details
 Driver: snd_soc_sst_acpi
 
 File: intel/IntcSST2.bin
+Version: 8.4.1.77
 
 License: Redistributable. See LICENCE.IntcSST2 for details
 
@@ -2633,3 +2663,9 @@ File: intel/fw_sst_0f28.bin
 License: Redistributable. See LICENCE.fw_sst_0f28 for details
 
 --------------------------------------------------------------------------
+
+Driver: snd_intel_sst_core
+
+File: intel/fw_sst_22a8.bin
+
+License: Redistributable. See LICENCE.fw_sst_0f28 for details
