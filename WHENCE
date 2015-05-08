@@ -465,9 +465,13 @@ File: ar9271.fw
 File: ar7010.fw
 File: ar7010_1_1.fw
 File: htc_9271.fw
-Version: 1.3
+Version: 1.3.1
 File: htc_7010.fw
-Version: 1.3
+Version: 1.3.1
+File: ath9k_htc/htc_7010-1.4.0.fw
+Version: 1.4.0
+File: ath9k_htc/htc_9271-1.4.0.fw
+Version: 1.4.0
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
 
@@ -567,10 +571,10 @@ Found in hex form in kernel source.
 
 Driver: cxgb4 - Chelsio Terminator 4/5 1G/10/40G Ethernet adapter
 
-File: cxgb4/t4fw-1.12.25.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.12.25.0.bin
-File: cxgb4/t5fw-1.12.25.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.12.25.0.bin
+File: cxgb4/t4fw-1.13.32.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.13.32.0.bin
+File: cxgb4/t5fw-1.13.32.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.13.32.0.bin
 
 Licence: Redistributable. See LICENCE.chelsio_firmware for details
 
@@ -825,10 +829,10 @@ File: iwlwifi-7260-9.ucode
 Version: 25.228.9.0
 
 File: iwlwifi-7260-10.ucode
-Version: 23.14.10.0
+Version: 23.15.10.0
 
 File: iwlwifi-7260-12.ucode
-Version: 25.15.12.0
+Version: 25.17.12.0
 
 File: iwlwifi-3160-7.ucode
 Version: 22.1.7.0
@@ -840,10 +844,10 @@ File: iwlwifi-3160-9.ucode
 Version: 25.228.9.0
 
 File: iwlwifi-3160-10.ucode
-Version: 23.14.10.0
+Version: 23.15.10.0
 
 File: iwlwifi-3160-12.ucode
-Version: 25.15.12.0
+Version: 25.17.12.0
 
 File: iwlwifi-7265-8.ucode
 Version: 22.24.8.0
@@ -852,16 +856,16 @@ File: iwlwifi-7265-9.ucode
 Version: 25.228.9.0
 
 File: iwlwifi-7265-10.ucode
-Version: 23.14.10.0
+Version: 23.15.10.0
 
 File: iwlwifi-7265-12.ucode
-Version: 25.15.12.0
+Version: 25.17.12.0
 
 File: iwlwifi-7265D-10.ucode
-Version: 23.14.10.0
+Version: 23.15.10.0
 
 File: iwlwifi-7265D-12.ucode
-Version: 25.15.12.0
+Version: 25.17.12.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -1860,13 +1864,23 @@ File: brcm/brcmfmac43236b.bin
 File: brcm/brcmfmac4329-sdio.bin
 File: brcm/brcmfmac4330-sdio.bin
 File: brcm/brcmfmac4334-sdio.bin
+File: brcm/brcmfmac43340-sdio.bin
 File: brcm/brcmfmac4335-sdio.bin
 File: brcm/brcmfmac43362-sdio.bin
+File: brcm/brcmfmac4339-sdio.bin
 File: brcm/brcmfmac43241b0-sdio.bin
 File: brcm/brcmfmac43241b4-sdio.bin
+File: brcm/brcmfmac43241b5-sdio.bin
+File: brcm/brcmfmac43242a.bin
 File: brcm/brcmfmac43143.bin
 File: brcm/brcmfmac43143-sdio.bin
+File: brcm/brcmfmac43455-sdio.bin
 File: brcm/brcmfmac4354-sdio.bin
+File: brcm/brcmfmac4356-pcie.bin
+File: brcm/brcmfmac43569.bin
+File: brcm/brcmfmac43570-pcie.bin
+File: brcm/brcmfmac43602-pcie.bin
+File: brcm/brcmfmac43602-pcie.ap.bin
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 
@@ -1983,9 +1997,7 @@ Version: 8.5.0.0.55
 File: ti-connectivity/wl18xx-fw-3.bin
 Version: 8.8.0.0.13
 File: ti-connectivity/wl18xx-fw-4.bin
-Version: 8.9.0.0.17
-File: ti-connectivity/wl18xx-conf.bin
-Version: 6/5
+Version: 8.9.0.0.39
 
 Licence: See LICENCE.ti-connectivity for details.
 
@@ -2227,13 +2239,21 @@ File: ar3k/AthrBT_0x31010000.dfu
 File: ar3k/ramps_0x31010000_40.dfu
 File: ar3k/AthrBT_0x11020000.dfu
 File: ar3k/ramps_0x11020000_40.dfu
-File: ar3k/AthrBT_0x01020201.dfu
 File: ar3k/ramps_0x01020201_26.dfu
 File: ar3k/ramps_0x01020201_40.dfu
 File: ar3k/AthrBT_0x41020000.dfu
 File: ar3k/ramps_0x41020000_40.dfu
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: DFU Driver for Atheros bluetooth chipset AR3012
+
+File: ar3k/AthrBT_0x01020201.dfu
+File: ar3k/1020201coex/ramps_0x01020201_26_HighPriority.dfu
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ar3k for details
 
 --------------------------------------------------------------------------
 
@@ -2288,6 +2308,15 @@ File: ath6k/AR6002/athwlan.bin.z77
 File: ath6k/AR6002/data.patch.hw2_0.bin
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: ath10k - Qualcomm Atheros support for QCA988x family of chips
+
+File: ath10k/QCA988X/hw2.0/board.bin
+File: ath10k/QCA988X/hw2.0/firmware-4.bin
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
 --------------------------------------------------------------------------
 
@@ -2430,21 +2459,34 @@ Driver: btusb - Bluetooth USB driver
 File: intel/ibt-hw-37.7.bseq
 Version: 1316.02.00
 File: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
-Version: WP_1303_02_patch_0.0.72.1
+Version: WP_1303_02_patch_0.0.79.1
 File: intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
-Version: WP_1303_02_patch_0.0.72.1
+Version: WP_1303_02_patch_0.0.79.1
 File: intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq
-Version: WP_1345_01_patch_0.0.24.1
+Version: WP_1345_01_patch_0.0.26.1
 File: intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq
-Version: WP_1345_01_patch_0.0.24.1
+Version: WP_1345_01_patch_0.0.26.1
 File: intel/ibt-hw-37.8.bseq
 Version: 1339_02.00
 File: intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq
-Version: STP2_C0_1339_02_patch_40.1
+Version: STP2_C0_1339_02_patch_43.1
 File: intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq
-Version: STP2_D0_1417_04_patch_09.1
+Version: STP2_D0_1417_04_patch_15.1
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
+
+File: rtl_bt/rtl8192ee_fw.bin
+File: rtl_bt/rtl8192eu_fw.bin
+File: rtl_bt/rtl8723a_fw.bin
+File: rtl_bt/rtl8723b_fw.bin
+File: rtl_bt/rtl8761a_fw.bin
+File: rtl_bt/rtl8812ae_fw.bin
+File: rtl_bt/rtl8821a_fw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+Found in vendor driver, linux_bt_usb_2.11.20140423_8723be.rar
+From https://github.com/troy-tan/driver_store
 
 --------------------------------------------------------------------------
 
@@ -2669,3 +2711,15 @@ Driver: snd_intel_sst_core
 File: intel/fw_sst_22a8.bin
 
 License: Redistributable. See LICENCE.fw_sst_0f28 for details
+
+--------------------------------------------------------------------------
+
+Driver: xhci-tegra -- NVIDIA Tegra XHCI driver
+
+File: nvidia/tegra124/xusb.bin
+Version: v45.46
+
+File: nvidia/tegra210/xusb.bin
+Version: v50.07
+
+Licence: Redistributable. See LICENCE.nvidia for details
