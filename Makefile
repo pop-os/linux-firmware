@@ -8,5 +8,6 @@ all:
 install:
 	mkdir -p $(DESTDIR)$(FIRMWAREDIR)
 	cp -r * $(DESTDIR)$(FIRMWAREDIR)
-	rm -f $(DESTDIR)/usbdux/*dux $(DESTDIR)/*/*.asm
-	rm $(DESTDIR)$(FIRMWAREDIR)/{WHENCE,LICENSE.*,LICENCE.*}
+	rm -rf $(DESTDIR)$(FIRMWAREDIR)/usbdux
+	find $(DESTDIR)$(FIRMWAREDIR) \( -name 'WHENCE' -or -name 'LICENSE.*' -or \
+		-name 'LICENCE.*' \) -exec rm -- {} \;

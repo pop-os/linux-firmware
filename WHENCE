@@ -575,6 +575,8 @@ File: cxgb4/t4fw-1.13.32.0.bin
 Link: cxgb4/t4fw.bin -> t4fw-1.13.32.0.bin
 File: cxgb4/t5fw-1.13.32.0.bin
 Link: cxgb4/t5fw.bin -> t5fw-1.13.32.0.bin
+File: cxgb4/aq1202_fw.cld
+File: cxgb4/bcm8483.bin
 
 Licence: Redistributable. See LICENCE.chelsio_firmware for details
 
@@ -1201,6 +1203,10 @@ File: bnx2x/bnx2x-e2-7.8.19.0.fw
 File: bnx2x/bnx2x-e1-7.10.51.0.fw
 File: bnx2x/bnx2x-e1h-7.10.51.0.fw
 File: bnx2x/bnx2x-e2-7.10.51.0.fw
+File: bnx2x/bnx2x-e1-7.12.30.0.fw
+File: bnx2x/bnx2x-e1h-7.12.30.0.fw
+File: bnx2x/bnx2x-e2-7.12.30.0.fw
+
 
 License:
   Copyright (c) 2007-2011 Broadcom Corporation
@@ -1604,6 +1610,7 @@ File: radeon/TAHITI_pfp.bin
 File: radeon/TAHITI_rlc.bin
 File: radeon/TAHITI_uvd.bin
 File: radeon/TAHITI_smc.bin
+File: radeon/TAHITI_vce.bin
 File: radeon/VERDE_ce.bin
 File: radeon/VERDE_mc.bin
 File: radeon/VERDE_mc2.bin
@@ -2487,6 +2494,10 @@ File: intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq
 Version: STP2_C0_1339_02_patch_43.1
 File: intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq
 Version: STP2_D0_1417_04_patch_15.1
+File: intel/ibt-11-5.ddc
+Version: LnP/SfP_REL0190
+File: intel/ibt-11-5.sfi
+Version: LnP/SfP_REL0190
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -2651,8 +2662,10 @@ of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Driver: qat_dh895xxcc - Intel(R) QAT crypto accelerator
 
 File: qat_895xcc.bin
+File: qat_mmp.bin
 
-Licence: Redistributable. See LICENCE.qat_dh895xcc_firmware for details
+Licence: Redistributable. See LICENCE.qat_dh895xcc_firmware and
+	 LICENCE.qat_mmp_firmware for details.
 --------------------------------------------------------------------------
 
 Driver: rsi -- Redpine Signals Inc 91x driver
@@ -2724,6 +2737,7 @@ License: Redistributable. See LICENCE.fw_sst_0f28 for details
 Driver: snd_intel_sst_core
 
 File: intel/fw_sst_22a8.bin
+Version: 01.0B.02.01
 
 License: Redistributable. See LICENCE.fw_sst_0f28 for details
 
@@ -2741,6 +2755,50 @@ Licence: Redistributable. See LICENCE.nvidia for details
 
 --------------------------------------------------------------------------
 
+Driver: atusb - ATUSB IEEE 802.15.4 transceiver driver
+
+File: atusb/atusb-0.2.dfu
+Version: 0.2
+Info: atusb/ChangeLog
+
+Licence: GPLv2+
+
+--------------------------------------------------------------------------
+
+Driver: qca - Qualcomm Atheros Bluetooth support for QCA61x4 chips
+
+File: qca/nvm_usb_00000201.bin
+File: qca/nvm_usb_00000200.bin
+File: qca/nvm_usb_00000300.bin
+File: qca/nvm_usb_00000302.bin
+File: qca/nvm_00130300.bin
+File: qca/nvm_00130302.bin
+File: qca/rampatch_usb_00000200.bin
+File: qca/rampatch_usb_00000201.bin
+File: qca/rampatch_usb_00000300.bin
+File: qca/rampatch_usb_00000302.bin
+File: qca/rampatch_00130300.bin
+File: qca/rampatch_00130302.bin
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
+
+--------------------------------------------------------------------------
+
+Driver: liquidio -- Cavium LiquidIO driver
+
+File: liquidio/lio_210nv_nic.bin
+Version: v1.1.9
+
+File: liquidio/lio_210sv_nic.bin
+Version: v1.1.9
+
+File: liquidio/lio_410nv_nic.bin
+Version: v1.1.9
+
+Licence: Redistributable. See LICENCE.cavium for details
+
+--------------------------------------------------------------------------
+
 Driver: i915 -- Intel Integrated Graphics driver
 
 File: i915/skl_dmc_ver1_04.bin
@@ -2751,4 +2809,30 @@ File: i915/skl_dmc_ver1_19.bin
 File: i915/skl_dmc_ver1.bin
 Version: DMC API/ABI ver 1 - release 19 for Skylake
 
+File: i915/bxt_dmc_ver1_04.bin
+
+File: i915/bxt_dmc_ver1.bin
+Version: DMC API/ABI ver 1 - release 04 for Broxton
+
+File: i915/skl_guc_ver1_1059.bin
+
+File: i915/skl_guc_ver1.bin
+Version: Guc API/ABI ver 1 - release 1059 for Skylake
+
 License: Redistributable. See LICENSE.i915 for details
+
+--------------------------------------------------------------------------
+
+Driver: nouveau - NVIDIA GK20A GPU driver
+
+File: nvidia/gk20a/fecs_data.bin
+File: nvidia/gk20a/fecs_inst.bin
+File: nvidia/gk20a/gpccs_data.bin
+File: nvidia/gk20a/gpccs_inst.bin
+File: nvidia/gk20a/sw_bundle_init.bin
+File: nvidia/gk20a/sw_ctx.bin
+File: nvidia/gk20a/sw_method_init.bin
+File: nvidia/gk20a/sw_nonctx.bin
+
+Licence: Redistributable. See LICENCE.nvidia for details
+
