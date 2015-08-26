@@ -138,3 +138,12 @@ Licence: Redistributable, provided by Realtek in their driver
          source download.
 
 --------------------------------------------------------------------------
+
+Driver: amdgpu - AMD amdgpu graphics driver
+
+Files: amdgpu/*
+Info: http://people.freedesktop.org/~agd5f/radeon_ucode/
+
+License: Redistributable. See LICENCE.radeon for details
+
+--------------------------------------------------------------------------
