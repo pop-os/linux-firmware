@@ -1297,7 +1297,7 @@ Source: av7110/Makefile
 
 Licence: GPLv2 or later
 
-ARM assembly source code from http://www.linuxtv.org/downloads/firmware/Boot.S
+ARM assembly source code from https://linuxtv.org/downloads/firmware/Boot.S
 
 --------------------------------------------------------------------------
 
@@ -1331,6 +1331,17 @@ File: rt73.bin
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
 Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
+
+---------------------------------------------------------------------------
+
+Driver: mt7601u - MediaTek MT7601U Wireless MACs
+
+File: mt7601u.bin
+Version: 34
+
+Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
+
+Downloaded from http://www.mediatek.com/en/downloads/
 
 --------------------------------------------------------------------------
 
