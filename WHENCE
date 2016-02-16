@@ -464,12 +464,16 @@ File: htc_9271.fw
 Version: 1.3.1
 File: htc_7010.fw
 Version: 1.3.1
+
+Licence: Redistributable. See LICENCE.atheros_firmware for details
+
 File: ath9k_htc/htc_7010-1.4.0.fw
 Version: 1.4.0
 File: ath9k_htc/htc_9271-1.4.0.fw
 Version: 1.4.0
 
-Licence: Redistributable. See LICENCE.atheros_firmware for details
+Licence: Redistributable (full source code is available under free
+software licences). See LICENCE.open-ath9k-htc-firmware for details
 
 --------------------------------------------------------------------------
 
@@ -733,19 +737,25 @@ File: mrvl/sd8797_uapsta.bin
 Version: 14.66.11.p151
 
 File: mrvl/usb8797_uapsta.bin
-Version: 14.68.29.p38
+Version: 14.68.29.p49
 
 File: mrvl/sd8897_uapsta.bin
-Version: 15.68.4.p112
+Version: 15.68.7.p53
 
 File: mrvl/usb8897_uapsta.bin
 Version: 15.68.4.p103
 
 File: mrvl/pcie8897_uapsta.bin
-Version: 15.68.4.p112
+Version: 15.68.7.p53
 
 File: mrvl/sd8887_uapsta.bin
 Version: 15.68.7.p5
+
+File: mrvl/sd8801_uapsta.bin
+Version: 14.68.36.p60
+
+File: mrvl/usb8801_uapsta.bin
+Version: 14.68.36.p60
 
 Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
 http://git.marvell.com/?p=mwifiex-firmware.git
@@ -1918,6 +1928,7 @@ Found in hex form in kernel source.
 Driver: qed - QLogic 4xxxx Ethernet Driver Core Module.
 
 File: qed/qed_init_values_zipped-8.4.2.0.bin
+File: qed/qed_init_values_zipped-8.7.3.0.bin
 
 Licence:
   This file contains firmware data derived from proprietary unpublished
@@ -2016,6 +2027,7 @@ File: brcm/brcmfmac43242a.bin
 File: brcm/brcmfmac43143.bin
 File: brcm/brcmfmac43143-sdio.bin
 File: brcm/brcmfmac43455-sdio.bin
+File: brcm/brcmfmac4350c2-pcie.bin
 File: brcm/brcmfmac4350-pcie.bin
 File: brcm/brcmfmac4354-sdio.bin
 File: brcm/brcmfmac4356-pcie.bin
@@ -2023,6 +2035,7 @@ File: brcm/brcmfmac43569.bin
 File: brcm/brcmfmac43570-pcie.bin
 File: brcm/brcmfmac43602-pcie.bin
 File: brcm/brcmfmac43602-pcie.ap.bin
+File: brcm/brcmfmac4366b-pcie.bin
 File: brcm/brcmfmac4371-pcie.bin
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
@@ -2302,6 +2315,36 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
+Driver: rtl8xxxu - Realtek 802.11n WLAN driver for RTL8XXX USB devices
+
+Info: rtl8723au taken from Realtek driver
+      rtl8723A_WiFi_linux_v4.1.3_6044.20121224
+      Firmware is embedded in the driver as data statements. This info
+      has been extracted into a binary file.
+File: rtlwifi/rtl8723aufw_A.bin
+File: rtlwifi/rtl8723aufw_B.bin
+File: rtlwifi/rtl8723aufw_B_NoBT.bin
+
+Info: rtl8723bu taken from Realtek driver
+      rtl8723BU_WiFi_linux_v4.3.16_14189.20150519_BTCOEX20150119-5844
+      Firmware is embedded in the driver as data statements. This info
+      has been extracted into a binary file.
+File: rtlwifi/rtl8723bu_nic.bin
+File: rtlwifi/rtl8723bu_wowlan.bin
+File: rtlwifi/rtl8723bu_ap_wowlan.bin
+
+Info: rtl8192eu taken from Realtek driver
+      rtl8192EU_linux_v4.3.1.1_11320.20140505
+      Firmware is embedded in the driver as data statements. This info
+      has been extracted into a binary file.
+File: rtlwifi/rtl8192eu_nic.bin
+File: rtlwifi/rtl8192eu_wowlan.bin
+File: rtlwifi/rtl8192eu_ap_wowlan.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
 Driver: r8169 - RealTek 8169/8168/8101 ethernet driver.
 
 File: rtl_nic/rtl8168d-1.fw
@@ -2389,6 +2432,8 @@ File: ar3k/AthrBT_0x41020000.dfu
 File: ar3k/ramps_0x41020000_40.dfu
 File: ar3k/AthrBT_0x11020100.dfu
 File: ar3k/ramps_0x11020100_40.dfu
+File: ar3k/AthrBT_0x31010100.dfu
+File: ar3k/ramps_0x31010100_40.dfu
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
 
@@ -2624,21 +2669,21 @@ Driver: btusb - Bluetooth USB driver
 File: intel/ibt-hw-37.7.bseq
 Version: 1316.02.00
 File: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
-Version: WP_1303_02_patch_0.0.83.1
+BT_WilkinsPeak_B3_REL_85_0001
 File: intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
-Version: WP_1303_02_patch_0.0.83.1
+BT_WilkinsPeak_B3_REL_85_0001
 File: intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq
-Version: WP_1345_01_patch_0.0.34.1
+Version: BT_WilkinsPeak_B5_REL_37_0001
 File: intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq
-Version: WP_1345_01_patch_0.0.34.1
+Version: BT_WilkinsPeak_B5_REL_37_0001
 File: intel/ibt-hw-37.8.bseq
 Version: 1339_02.00
 File: intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq
-Version: BT_StonePeak_C0_REL_55_0001
+Version: BT_StonePeak_C0_REL_57_0002
 File: intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq
-Version: BT_StonePeak_D0_REL_32_0002
+Version: BT_StonePeak_D0_REL_35_0002
 File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
-Version: STP_D1_REL_9
+Version: STP_D1_REL_13
 File: intel/ibt-11-5.ddc
 Version: LnP/SfP_REL0190
 File: intel/ibt-11-5.sfi
@@ -2715,6 +2760,18 @@ Licence: Redistributable. See LICENCE.go7007 for details
 
 --------------------------------------------------------------------------
 
+Driver: mxu11x0 - MOXA UPort 11x0 USB Serial hub driver
+
+File: moxa/moxa-1110.fw
+File: moxa/moxa-1130.fw
+File: moxa/moxa-1131.fw
+File: moxa/moxa-1150.fw
+File: moxa/moxa-1151.fw
+
+License: Redistributable. See LICENSE.moxa for details
+
+--------------------------------------------------------------------------
+
 Driver: mxuport - MOXA UPort USB Serial hub driver
 
 File: moxa/moxa-1250.fw
@@ -2727,24 +2784,7 @@ File: moxa/moxa-1618.fw
 File: moxa/moxa-1653.fw
 File: moxa/moxa-1658.fw
 
-License: Redistributable.
-
-The software accompanying this license statement (the “Software”)
-is the property of Moxa Inc. (the “Moxa”), and is protected by
-United States and International Copyright Laws and International
-treaty provisions. No ownership rights are granted by this
-Agreement or possession of the Software. Therefore, you must treat
-the Licensed Software like any other copyrighted material. Your
-rights and obligations in its use are described as follows:
-
-1. You may freely redistribute this software under this license.
-2. You may freely download and use this software on Moxa's device.
-3. You may not modify or attempt to reverse engineer the software, or
-   make any attempt to change or even examine the source code of the
-   software.
-4. You may not re-license or sub-license the software to any person or
-   business, using any other license.
-5. Moxa(r) is worldwide registered trademark.
+License: Redistributable. See LICENSE.moxa for details
 
 --------------------------------------------------------------------------
 
@@ -2804,13 +2844,16 @@ useful, but WITHOUT ANY WARRANTY; without even the implied warranty
 of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 --------------------------------------------------------------------------
-Driver: qat_dh895xxcc - Intel(R) QAT crypto accelerator
+Driver: qat - Intel(R) QAT crypto accelerator
 
 File: qat_895xcc.bin
-File: qat_mmp.bin
+File: qat_895xcc_mmp.bin
+File: qat_c3xxx.bin
+File: qat_c3xxx_mmp.bin
+File: qat_c62x.bin
+File: qat_c62x_mmp.bin
 
-Licence: Redistributable. See LICENCE.qat_dh895xcc_firmware and
-	 LICENCE.qat_mmp_firmware for details.
+Licence: Redistributable. See LICENCE.qat_firmware
 --------------------------------------------------------------------------
 
 Driver: rsi -- Redpine Signals Inc 91x driver
@@ -2892,8 +2935,8 @@ License: Redistributable. See LICENCE.fw_sst_0f28 for details
 Driver: snd-soc-skl
 
 File: intel/dsp_fw_release.bin
-Version: 8.20.00.669
-md5sum: 039c718077ea3c3a4253110a0554f422
+Version: 8.20.00.869
+md5sum: 146ab54050e720c35e03e8f264ac3459
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -2958,9 +3001,10 @@ Licence: Redistributable. See LICENCE.cavium for details
 Driver: i915 -- Intel Integrated Graphics driver
 
 File: i915/skl_dmc_ver1_23.bin
+File: i915/skl_dmc_ver1_26.bin
 
 File: i915/skl_dmc_ver1.bin
-Version: DMC API/ABI ver 1 - release 23 for Skylake
+Version: DMC API/ABI ver 1 - release 26 for Skylake
 
 File: i915/bxt_dmc_ver1_04.bin
 File: i915/bxt_dmc_ver1_05.bin
@@ -3010,6 +3054,7 @@ License: Redistributable. See LICENSE.atmel for details
 Driver: hfi1 - Intel OPA Gen 1 adapter
 
 File: hfi1_dc8051.fw
+Version: 0.25
 File: hfi1_fabric.fw
 File: hfi1_pcie.fw
 File: hfi1_sbus.fw
