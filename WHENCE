@@ -897,11 +897,23 @@ Version: 25.30.13.0
 File: iwlwifi-7265D-16.ucode
 Version 16.242414.0
 
+File: iwlwifi-7265D-21.ucode
+Version 21.302800.0
+
+File: iwlwifi-3168-21.ucode
+Version 21.302800.0
+
 File: iwlwifi-8000C-13.ucode
 Version: 25.30.13.0
 
 File: iwlwifi-8000C-16.ucode
 Version 16.242414.0
+
+File: iwlwifi-8000C-21.ucode
+Version 21.302800.0
+
+File: iwlwifi-8265-21.ucode
+Version 21.302800.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -1845,6 +1857,32 @@ File: amdgpu/stoney_rlc.bin
 File: amdgpu/stoney_sdma.bin
 File: amdgpu/stoney_uvd.bin
 File: amdgpu/stoney_vce.bin
+File: amdgpu/polaris10_ce.bin
+File: amdgpu/polaris10_mc.bin
+File: amdgpu/polaris10_me.bin
+File: amdgpu/polaris10_mec2.bin
+File: amdgpu/polaris10_mec.bin
+File: amdgpu/polaris10_pfp.bin
+File: amdgpu/polaris10_rlc.bin
+File: amdgpu/polaris10_sdma1.bin
+File: amdgpu/polaris10_sdma.bin
+File: amdgpu/polaris10_smc.bin
+File: amdgpu/polaris10_smc_sk.bin
+File: amdgpu/polaris10_uvd.bin
+File: amdgpu/polaris10_vce.bin
+File: amdgpu/polaris11_ce.bin
+File: amdgpu/polaris11_mc.bin
+File: amdgpu/polaris11_me.bin
+File: amdgpu/polaris11_mec2.bin
+File: amdgpu/polaris11_mec.bin
+File: amdgpu/polaris11_pfp.bin
+File: amdgpu/polaris11_rlc.bin
+File: amdgpu/polaris11_sdma1.bin
+File: amdgpu/polaris11_sdma.bin
+File: amdgpu/polaris11_smc.bin
+File: amdgpu/polaris11_smc_sk.bin
+File: amdgpu/polaris11_uvd.bin
+File: amdgpu/polaris11_vce.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -2153,7 +2191,7 @@ Version: 8.5.0.0.55
 File: ti-connectivity/wl18xx-fw-3.bin
 Version: 8.8.0.0.13
 File: ti-connectivity/wl18xx-fw-4.bin
-Version: 8.9.0.0.39
+Version: 8.9.0.1.55
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
 
@@ -2512,13 +2550,20 @@ File: ath10k/QCA988X/hw2.0/firmware-5.bin
 Version: 10.2.4.70.9-2
 Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA6174/hw2.1/board.bin
+File: ath10k/QCA6174/hw2.1/board-2.bin
 File: ath10k/QCA6174/hw2.1/firmware-5.bin
-Version: WLAN.RM.1.1-00141
+Version: SW_RM.1.1.1-00157-QCARMSWPZ-1
 Licence: ath10k/QCA6174/hw2.1/notice_ath10k_firmware-5.txt
 File: ath10k/QCA6174/hw3.0/board.bin
+File: ath10k/QCA6174/hw3.0/board-2.bin
 File: ath10k/QCA6174/hw3.0/firmware-4.bin
 Version: WLAN.RM.2.0-00180-QCARMSWPZ-1
 Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
+File: ath10k/QCA9377/hw1.0/board.bin
+File: ath10k/QCA9377/hw1.0/board-2.bin
+File: ath10k/QCA9377/hw1.0/firmware-5.bin
+Version: WLAN.TF.1.0-00267-1
+Licence: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA99X0/hw2.0/board.bin
 File: ath10k/QCA99X0/hw2.0/firmware-5.bin
 Version: 10.4.1.00030-1
@@ -2683,11 +2728,11 @@ Version: BT_StonePeak_C0_REL_57_0002
 File: intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq
 Version: BT_StonePeak_D0_REL_35_0002
 File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
-Version: STP_D1_REL_13
+Version: STP_D1_REL_18
 File: intel/ibt-11-5.ddc
-Version: LnP/SfP_REL0190
+Version: LnP/SfP_REL0257
 File: intel/ibt-11-5.sfi
-Version: LnP/SfP_REL0190
+Version: LnP/SfP_REL0257
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -2871,10 +2916,11 @@ Licence:
 
 --------------------------------------------------------------------------
 
-Driver: xhci-rcar -- Renesas R-Car H2/M2/H3 USB 3.0 host controller driver
+Driver: xhci-rcar -- Renesas R-Car Gen2/3 USB 3.0 host controller driver
 
 File: r8a779x_usb3_v1.dlmem
 File: r8a779x_usb3_v2.dlmem
+File: r8a779x_usb3_v3.dlmem
 
 Licence: Redistributable. See LICENCE.r8a779x_usb3 for details.
 
@@ -2935,8 +2981,8 @@ License: Redistributable. See LICENCE.fw_sst_0f28 for details
 Driver: snd-soc-skl
 
 File: intel/dsp_fw_release.bin
-Version: 8.20.00.869
-md5sum: 146ab54050e720c35e03e8f264ac3459
+Version: 8.20.00.896
+md5sum: f0e267c93aa64eab7c91d64f29dc273b
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3022,11 +3068,15 @@ Version: Guc API/ABI ver 1 - release 1059 for Skylake
 File: i915/skl_guc_ver4.bin
 Version: Guc API/ABI ver 4 - release 3 for Skylake
 
+File: i915/skl_guc_ver6_1.bin
+File: i915/skl_guc_ver6.bin
+Version: Guc API/ABI ver 6 - release 1 for Skylake
+
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
 
-Driver: nouveau - NVIDIA GK20A GPU driver
+Driver: nouveau - NVIDIA GPU driver
 
 File: nvidia/gk20a/fecs_data.bin
 File: nvidia/gk20a/fecs_inst.bin
@@ -3036,6 +3086,65 @@ File: nvidia/gk20a/sw_bundle_init.bin
 File: nvidia/gk20a/sw_ctx.bin
 File: nvidia/gk20a/sw_method_init.bin
 File: nvidia/gk20a/sw_nonctx.bin
+File: nvidia/gm200/acr/bl.bin
+File: nvidia/gm200/acr/ucode_load.bin
+File: nvidia/gm200/acr/ucode_unload.bin
+File: nvidia/gm200/gr/fecs_bl.bin
+File: nvidia/gm200/gr/fecs_data.bin
+File: nvidia/gm200/gr/fecs_inst.bin
+File: nvidia/gm200/gr/fecs_sig.bin
+File: nvidia/gm200/gr/gpccs_bl.bin
+File: nvidia/gm200/gr/gpccs_data.bin
+File: nvidia/gm200/gr/gpccs_inst.bin
+File: nvidia/gm200/gr/gpccs_sig.bin
+File: nvidia/gm200/gr/sw_bundle_init.bin
+File: nvidia/gm200/gr/sw_ctx.bin
+File: nvidia/gm200/gr/sw_method_init.bin
+File: nvidia/gm200/gr/sw_nonctx.bin
+File: nvidia/gm204/acr/bl.bin
+File: nvidia/gm204/acr/ucode_load.bin
+File: nvidia/gm204/acr/ucode_unload.bin
+File: nvidia/gm204/gr/fecs_bl.bin
+File: nvidia/gm204/gr/fecs_data.bin
+File: nvidia/gm204/gr/fecs_inst.bin
+File: nvidia/gm204/gr/fecs_sig.bin
+File: nvidia/gm204/gr/gpccs_bl.bin
+File: nvidia/gm204/gr/gpccs_data.bin
+File: nvidia/gm204/gr/gpccs_inst.bin
+File: nvidia/gm204/gr/gpccs_sig.bin
+File: nvidia/gm204/gr/sw_bundle_init.bin
+File: nvidia/gm204/gr/sw_ctx.bin
+File: nvidia/gm204/gr/sw_method_init.bin
+File: nvidia/gm204/gr/sw_nonctx.bin
+File: nvidia/gm206/acr/bl.bin
+File: nvidia/gm206/acr/ucode_load.bin
+File: nvidia/gm206/acr/ucode_unload.bin
+File: nvidia/gm206/gr/fecs_bl.bin
+File: nvidia/gm206/gr/fecs_data.bin
+File: nvidia/gm206/gr/fecs_inst.bin
+File: nvidia/gm206/gr/fecs_sig.bin
+File: nvidia/gm206/gr/gpccs_bl.bin
+File: nvidia/gm206/gr/gpccs_data.bin
+File: nvidia/gm206/gr/gpccs_inst.bin
+File: nvidia/gm206/gr/gpccs_sig.bin
+File: nvidia/gm206/gr/sw_bundle_init.bin
+File: nvidia/gm206/gr/sw_ctx.bin
+File: nvidia/gm206/gr/sw_method_init.bin
+File: nvidia/gm206/gr/sw_nonctx.bin
+File: nvidia/gm20b/acr/bl.bin
+File: nvidia/gm20b/acr/ucode_load.bin
+File: nvidia/gm20b/gr/fecs_bl.bin
+File: nvidia/gm20b/gr/fecs_data.bin
+File: nvidia/gm20b/gr/fecs_inst.bin
+File: nvidia/gm20b/gr/fecs_sig.bin
+File: nvidia/gm20b/gr/gpccs_bl.bin
+File: nvidia/gm20b/gr/gpccs_data.bin
+File: nvidia/gm20b/gr/gpccs_inst.bin
+File: nvidia/gm20b/gr/gpccs_sig.bin
+File: nvidia/gm20b/gr/sw_bundle_init.bin
+File: nvidia/gm20b/gr/sw_ctx.bin
+File: nvidia/gm20b/gr/sw_method_init.bin
+File: nvidia/gm20b/gr/sw_nonctx.bin
 
 Licence: Redistributable. See LICENCE.nvidia for details
 
@@ -3054,7 +3163,7 @@ License: Redistributable. See LICENSE.atmel for details
 Driver: hfi1 - Intel OPA Gen 1 adapter
 
 File: hfi1_dc8051.fw
-Version: 0.25
+Version: 0.35
 File: hfi1_fabric.fw
 File: hfi1_pcie.fw
 File: hfi1_sbus.fw
