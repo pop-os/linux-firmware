@@ -572,9 +572,11 @@ Found in hex form in kernel source.
 Driver: cxgb4 - Chelsio Terminator 4/5 1G/10/40G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.14.4.0.bin
+File: cxgb4/t4fw-1.15.37.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.15.37.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.14.4.0.bin
+File: cxgb4/t5fw-1.15.37.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.15.37.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 
@@ -846,6 +848,9 @@ Version: 25.30.13.0
 File: iwlwifi-7260-16.ucode
 Version 16.242414.0
 
+File: iwlwifi-7260-17.ucode
+Version 17.352738.0
+
 File: iwlwifi-3160-7.ucode
 Version: 22.1.7.0
 
@@ -867,6 +872,9 @@ Version: 25.30.13.0
 File: iwlwifi-3160-16.ucode
 Version 16.242414.0
 
+File: iwlwifi-3160-17.ucode
+Version 17.352738.0
+
 File: iwlwifi-7265-8.ucode
 Version: 22.24.8.0
 
@@ -885,6 +893,9 @@ Version: 25.30.13.0
 File: iwlwifi-7265-16.ucode
 Version 16.242414.0
 
+File: iwlwifi-7265-17.ucode
+Version 17.352738.0
+
 File: iwlwifi-7265D-10.ucode
 Version: 23.15.10.0
 
@@ -897,11 +908,20 @@ Version: 25.30.13.0
 File: iwlwifi-7265D-16.ucode
 Version 16.242414.0
 
+File: iwlwifi-7265D-17.ucode
+Version 17.352738.0
+
 File: iwlwifi-7265D-21.ucode
 Version 21.302800.0
 
+File: iwlwifi-7265D-22.ucode
+Version 22.361476.0
+
 File: iwlwifi-3168-21.ucode
 Version 21.302800.0
+
+File: iwlwifi-3168-22.ucode
+Version 22.361476.0
 
 File: iwlwifi-8000C-13.ucode
 Version: 25.30.13.0
@@ -912,8 +932,14 @@ Version 16.242414.0
 File: iwlwifi-8000C-21.ucode
 Version 21.302800.0
 
+File: iwlwifi-8000C-22.ucode
+Version 22.361476.0
+
 File: iwlwifi-8265-21.ucode
 Version 21.302800.0
+
+File: iwlwifi-8265-22.ucode
+Version 22.361476.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -1370,12 +1396,15 @@ Downloaded from http://www.mediatek.com/en/downloads/
 Driver: rt2800pci - Ralink RT2860, RT2890, RT3090, RT3290, RT5390 wireless MACs
 
 File: rt2860.bin
+Version: 40
+
 File: rt3290.bin
+Version: 37
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
-Binary file supplied by Shiang Tu <shiang_tu@ralinktech.com>. Firmware Version 34
-rt3290.bin is a specific firmware support the RT3290 chip. Firmware Version 37
+Binary file supplied originally by Shiang Tu <shiang_tu@ralinktech.com>, latest
+from http://www.mediatek.com/en/downloads1/downloads/
 
 --------------------------------------------------------------------------
 
@@ -1390,10 +1419,12 @@ Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 Driver: rt2800usb - Ralink RT2870, RT3070, RT3071, RT3072, RT5370 wireless MACs
 
 File: rt2870.bin
+Version: 36
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
-Binary file supplied by Shiang Tu <shiang_tu@ralinktech.com>. Firmware Version 29
+Binary file supplied originally by Shiang Tu <shiang_tu@ralinktech.com>, latest
+from http://www.mediatek.com/en/downloads1/downloads/
 
 --------------------------------------------------------------------------
 
@@ -1967,6 +1998,7 @@ Driver: qed - QLogic 4xxxx Ethernet Driver Core Module.
 
 File: qed/qed_init_values_zipped-8.4.2.0.bin
 File: qed/qed_init_values_zipped-8.7.3.0.bin
+File: qed/qed_init_values_zipped-8.10.5.0.bin
 
 Licence:
   This file contains firmware data derived from proprietary unpublished
@@ -2191,7 +2223,7 @@ Version: 8.5.0.0.55
 File: ti-connectivity/wl18xx-fw-3.bin
 Version: 8.8.0.0.13
 File: ti-connectivity/wl18xx-fw-4.bin
-Version: 8.9.0.1.55
+Version: 8.9.0.0.69
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
 
@@ -2714,25 +2746,29 @@ Driver: btusb - Bluetooth USB driver
 File: intel/ibt-hw-37.7.bseq
 Version: 1316.02.00
 File: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
-BT_WilkinsPeak_B3_REL_85_0001
+Version: BT_WilkinsPeak_B3_REL_86_0001
 File: intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
-BT_WilkinsPeak_B3_REL_85_0001
+Version: BT_WilkinsPeak_B3_REL_86_0001
 File: intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq
-Version: BT_WilkinsPeak_B5_REL_37_0001
+Version: BT_WilkinsPeak_B5_REL_38_0001
 File: intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq
-Version: BT_WilkinsPeak_B5_REL_37_0001
+Version: BT_WilkinsPeak_B5_REL_38_0001
 File: intel/ibt-hw-37.8.bseq
 Version: 1339_02.00
 File: intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq
-Version: BT_StonePeak_C0_REL_57_0002
+Version: BT_StonePeak_C0_REL_58_0001
 File: intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq
-Version: BT_StonePeak_D0_REL_35_0002
+Version: BT_StonePeak_D0_REL_37_0002
 File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
-Version: STP_D1_REL_18
+Version: BT_StonePeak_D1_REL_20_0001
 File: intel/ibt-11-5.ddc
 Version: LnP/SfP_REL0257
 File: intel/ibt-11-5.sfi
-Version: LnP/SfP_REL0257
+Version: BT_LightningPeak_REL0330
+File: intel/ibt-12-16.ddc
+Version: BT_WindStormPeak_REL0060
+File: intel/ibt-12-16.sfi
+Version: BT_WindStormPeak_REL0060
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -2972,7 +3008,7 @@ License: Redistributable. See LICENCE.fw_sst_0f28 for details
 Driver: snd_intel_sst_core
 
 File: intel/fw_sst_22a8.bin
-Version: 01.0B.02.01
+Version: 01.0B.02.02
 
 License: Redistributable. See LICENCE.fw_sst_0f28 for details
 
@@ -2981,8 +3017,20 @@ License: Redistributable. See LICENCE.fw_sst_0f28 for details
 Driver: snd-soc-skl
 
 File: intel/dsp_fw_release.bin
-Version: 8.20.00.896
-md5sum: f0e267c93aa64eab7c91d64f29dc273b
+Version: 8.20.00.951
+md5sum: b9eb803923ea32f68599d20a5793d13a
+
+License: Redistributable. See LICENCE.adsp_sst for details
+
+File: intel/dsp_fw_bxt.bin
+Version: 9.00.00.702
+md5sum: 15cf66d804f8d275a607108bb4b57c42
+
+License: Redistributable. See LICENCE.adsp_sst for details
+
+File: intel/dsp_fw_kbl.bin
+Version: 09.21.00.701
+md5sum: 7d937bb2919031a8a4ed5427b5e6a108
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3046,21 +3094,17 @@ Licence: Redistributable. See LICENCE.cavium for details
 
 Driver: i915 -- Intel Integrated Graphics driver
 
-File: i915/skl_dmc_ver1_23.bin
 File: i915/skl_dmc_ver1_26.bin
-
 File: i915/skl_dmc_ver1.bin
 Version: DMC API/ABI ver 1 - release 26 for Skylake
 
-File: i915/bxt_dmc_ver1_04.bin
-File: i915/bxt_dmc_ver1_05.bin
-File: i915/bxt_dmc_ver1_06.bin
-
+File: i915/bxt_dmc_ver1_07.bin
 File: i915/bxt_dmc_ver1.bin
-Version: DMC API/ABI ver 1 - release 06 for Broxton
+Version: DMC API/ABI ver 1 - release 07 for Broxton
 
-File: i915/skl_guc_ver1_1059.bin
-File: i915/skl_guc_ver4_3.bin
+File: i915/kbl_dmc_ver1_01.bin
+File: i915/kbl_dmc_ver1.bin
+Version: DMC API/ABI ver 1 - release 01 for Kabylake
 
 File: i915/skl_guc_ver1.bin
 Version: Guc API/ABI ver 1 - release 1059 for Skylake
@@ -3145,6 +3189,21 @@ File: nvidia/gm20b/gr/sw_bundle_init.bin
 File: nvidia/gm20b/gr/sw_ctx.bin
 File: nvidia/gm20b/gr/sw_method_init.bin
 File: nvidia/gm20b/gr/sw_nonctx.bin
+File: nvidia/gp100/acr/bl.bin
+File: nvidia/gp100/acr/ucode_load.bin
+File: nvidia/gp100/acr/ucode_unload.bin
+File: nvidia/gp100/gr/fecs_bl.bin
+File: nvidia/gp100/gr/fecs_data.bin
+File: nvidia/gp100/gr/fecs_inst.bin
+File: nvidia/gp100/gr/fecs_sig.bin
+File: nvidia/gp100/gr/gpccs_bl.bin
+File: nvidia/gp100/gr/gpccs_data.bin
+File: nvidia/gp100/gr/gpccs_inst.bin
+File: nvidia/gp100/gr/gpccs_sig.bin
+File: nvidia/gp100/gr/sw_bundle_init.bin
+File: nvidia/gp100/gr/sw_ctx.bin
+File: nvidia/gp100/gr/sw_method_init.bin
+File: nvidia/gp100/gr/sw_nonctx.bin
 
 Licence: Redistributable. See LICENCE.nvidia for details
 
@@ -3189,3 +3248,40 @@ File: mwlwifi/88W8897.bin
 Version: 8.2.0.10
 
 Licence: Redistributable. See LICENCE.Marvell for details.
+
+--------------------------------------------------------------------------
+
+Driver: mtk-vpu - Mediatek VPU video processing unit driver
+
+File: vpu_d.bin
+File: vpu_p.bin
+
+Licence: Redistributable.
+
+MediaTek Inc. grants permission to use and redistribute aforementioned firmware
+files for the use with devices containing MediaTek chipsets, but not as part of
+the Linux kernel or in any other form which would require these files themselves
+to be covered by the terms of the GNU General Public License or the GNU Lesser
+General Public License.
+
+These firmware files are distributed in the hope that they will be useful, but
+are provided WITHOUT ANY WARRANTY, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTY
+OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+--------------------------------------------------------------------------
+
+Driver: rk3399-dptx - ROCKCHIP rk3399 dptx firmware
+
+File: rockchip/dptx.bin
+
+Licence: Redistributable.
+
+Rockchip Inc. grants permission to use and redistribute aforementioned firmware
+files for the use with devices containing Rockchip chipsets, but not as part of
+the Linux kernel or in any other form which would require these files themselves
+to be covered by the terms of the GNU General Public License or the GNU Lesser
+General Public License.
+
+These firmware files are distributed in the hope that they will be useful, but
+are provided WITHOUT ANY WARRANTY, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTY
+OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
