@@ -172,7 +172,7 @@ Source: keyspan_pda/xircom_pgs.S
 
 Source: keyspan_pda/Makefile
 
-Licence: GPLv2+
+Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
 
 Compiled from original 8051 source into Intel HEX, used in our binary ihex form.
 
@@ -221,17 +221,14 @@ Version: 1.0.0.191
 Info: DATE= 2002oct28
 
 File: emi62/loader.fw
-Source: EMILOAD.HEX
 Version: 1.0.2.002
 Info: DATE=10.01.2002
 
 File: emi62/midi.fw
-Source: EMI62MFW.HEX
 Version: 1.04.062
 Info: DATE=16.10.2002
 
 File: emi62/spdif.fw
-Source: EMI62SFW.HEX
 Version: 1.04.062
 Info: DATE=16.10.2002
 
@@ -389,7 +386,7 @@ Source: dsp56k/bootstrap.asm
 Source: dsp56k/Makefile
 Source: dsp56k/concat-bootstrap.pl
 
-Licence: GPLv2 or later
+Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
 
 DSP56001 assembler, buildable with a56 from
 http://www.zdomain.com/a56.html
@@ -472,8 +469,7 @@ Version: 1.4.0
 File: ath9k_htc/htc_9271-1.4.0.fw
 Version: 1.4.0
 
-Licence: Redistributable (full source code is available under free
-software licences). See LICENCE.open-ath9k-htc-firmware for details
+Licence: Free software. See LICENCE.open-ath9k-htc-firmware for details
 
 --------------------------------------------------------------------------
 
@@ -1074,13 +1070,7 @@ File: cis/NE2K.cis
 File: cis/tamarack.cis
 File: cis/PE-200.cis
 File: cis/PE520.cis
-Source: cis/src/LA-PCM.cis
-Source: cis/src/PCMLM28.cis
-Source: cis/src/DP83903.cis
-Source: cis/src/NE2K.cis
-Source: cis/src/tamarack.cis
-Source: cis/src/PE-200.cis
-Source: cis/src/PE520.cis
+Source: cis/
 
 Licence: Dual GPLv2/MPL
 
@@ -1137,7 +1127,7 @@ File: cis/SW_555_SER.cis
 File: cis/SW_7xx_SER.cis
 File: cis/SW_8xx_SER.cis
 
-Licence: GPLv3
+Licence: GPLv3. See GPL-3 for details.
 
 Copyright Sierra Wireless
 
@@ -1349,7 +1339,7 @@ File: av7110/bootcode.bin
 Source: av7110/Boot.S
 Source: av7110/Makefile
 
-Licence: GPLv2 or later
+Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
 
 ARM assembly source code from https://linuxtv.org/downloads/firmware/Boot.S
 
@@ -1450,12 +1440,9 @@ Driver: usbdux/usbduxfast/usbduxsigma - usbdux data acquisition cards
 File: usbdux_firmware.bin
 File: usbduxfast_firmware.bin
 File: usbduxsigma_firmware.bin
-Source: usbdux/fx2-include.asm
-Source: usbdux/usbduxfast_firmware.asm
-Source: usbdux/usbdux_firmware.asm
-Source: usbdux/usbduxsigma_firmware.asm
+Source: usbdux/
 
-Licence: GPLv2. See source code in usbdux/ subdirectory.
+Licence: GPLv2. See GPL-2 for details.
 
 Provided from the author, Bernd Porr <BerndPorr@f2s.com>
 
@@ -1756,36 +1743,42 @@ File: radeon/MULLINS_pfp.bin
 File: radeon/MULLINS_rlc.bin
 File: radeon/MULLINS_sdma.bin
 File: radeon/pitcairn_ce.bin
+File: radeon/pitcairn_k_smc.bin
 File: radeon/pitcairn_mc.bin
 File: radeon/pitcairn_me.bin
 File: radeon/pitcairn_pfp.bin
 File: radeon/pitcairn_rlc.bin
 File: radeon/pitcairn_smc.bin
 File: radeon/tahiti_ce.bin
+File: radeon/tahiti_k_smc.bin
 File: radeon/tahiti_mc.bin
 File: radeon/tahiti_me.bin
 File: radeon/tahiti_pfp.bin
 File: radeon/tahiti_rlc.bin
 File: radeon/tahiti_smc.bin
 File: radeon/verde_ce.bin
+File: radeon/verde_k_smc.bin
 File: radeon/verde_mc.bin
 File: radeon/verde_me.bin
 File: radeon/verde_pfp.bin
 File: radeon/verde_rlc.bin
 File: radeon/verde_smc.bin
 File: radeon/oland_ce.bin
+File: radeon/oland_k_smc.bin
 File: radeon/oland_mc.bin
 File: radeon/oland_me.bin
 File: radeon/oland_pfp.bin
 File: radeon/oland_rlc.bin
 File: radeon/oland_smc.bin
 File: radeon/hainan_ce.bin
+File: radeon/hainan_k_smc.bin
 File: radeon/hainan_mc.bin
 File: radeon/hainan_me.bin
 File: radeon/hainan_pfp.bin
 File: radeon/hainan_rlc.bin
 File: radeon/hainan_smc.bin
 File: radeon/bonaire_ce.bin
+File: radeon/bonaire_k_smc.bin
 File: radeon/bonaire_mc.bin
 File: radeon/bonaire_me.bin
 File: radeon/bonaire_mec.bin
@@ -1816,6 +1809,7 @@ File: radeon/kaveri_sdma1.bin
 File: radeon/kaveri_uvd.bin
 File: radeon/kaveri_vce.bin
 File: radeon/hawaii_ce.bin
+File: radeon/hawaii_k_smc.bin
 File: radeon/hawaii_mc.bin
 File: radeon/hawaii_me.bin
 File: radeon/hawaii_mec.bin
@@ -2103,6 +2097,7 @@ File: brcm/brcmfmac43241b5-sdio.bin
 File: brcm/brcmfmac43242a.bin
 File: brcm/brcmfmac43143.bin
 File: brcm/brcmfmac43143-sdio.bin
+File: brcm/brcmfmac43430-sdio.bin
 File: brcm/brcmfmac43455-sdio.bin
 File: brcm/brcmfmac4350c2-pcie.bin
 File: brcm/brcmfmac4350-pcie.bin
@@ -2334,6 +2329,8 @@ Driver: rtl8723be - Realtek 802.11n WLAN driver for RTL8723BE
 
 Info: From Vendor's realtek/rtlwifi_linux_mac80211_0019.0320.2014V628 driver
 File: rtlwifi/rtl8723befw.bin
+Info: Update to version 36 - Sent by Realtek
+File: rtlwifi/rtl8723befw_36.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -2375,6 +2372,8 @@ Driver: rtl8821ae - Realtek 802.11n WLAN driver for RTL8821AE
 Info: From Vendor's realtek/rtlwifi_linux_mac80211_0019.0320.2014V628 driver
 File: rtlwifi/rtl8821aefw.bin
 File: rtlwifi/rtl8821aefw_wowlan.bin
+Info: Update to version 29 - Sent by Realtek
+File: rtlwifi/rtl8821aefw_29.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -2703,12 +2702,9 @@ Licence: Redistributable. See LICENCE.ene_firmware for details.
 Driver: isci -- Intel C600 SAS controller driver
 
 File: isci/isci_firmware.bin
-Source: isci/create_fw.c
-Source: isci/create_fw.h
-Source: isci/probe_roms.h
-Source: isci/Makefile
+Source: isci/
 
-Licence: GPLv2
+Licence: GPLv2. See GPL-2 for details.
 
 --------------------------------------------------------------------------
 
@@ -2749,7 +2745,7 @@ Source: carl9170fw/
 
 Downloaded from http://linuxwireless.org/en/users/Drivers/carl9170
 
-Licence: GPLv2. Some build scripts use the New BSD (3-clause) licence.
+Licence: GPLv2. Some build scripts use the New BSD (3-clause) licence.. See GPL-2 for details.
 
 --------------------------------------------------------------------------
 
@@ -2773,25 +2769,25 @@ Version: BT_WilkinsPeak_B3_REL_86_0001
 File: intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
 Version: BT_WilkinsPeak_B3_REL_86_0001
 File: intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq
-Version: BT_WilkinsPeak_B5_REL_38_0001
+Version: BT_WilkinsPeak_B5_REL_39_0001
 File: intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq
-Version: BT_WilkinsPeak_B5_REL_38_0001
+Version: BT_WilkinsPeak_B5_REL_39_0001
 File: intel/ibt-hw-37.8.bseq
 Version: 1339_02.00
 File: intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq
-Version: BT_StonePeak_C0_REL_58_0001
+Version: BT_StonePeak_C0_REL_59_0001
 File: intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq
 Version: BT_StonePeak_D0_REL_37_0002
 File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
-Version: BT_StonePeak_D1_REL_20_0001
+Version: BT_StonePeak_D1_REL_25_0001
 File: intel/ibt-11-5.ddc
-Version: LnP/SfP_REL0257
+Version: LnP/SfP_REL0351
 File: intel/ibt-11-5.sfi
-Version: BT_LightningPeak_REL0330
+Version: BT_LightningPeak_REL0351
 File: intel/ibt-12-16.ddc
-Version: BT_WindStormPeak_REL0060
+Version: BT_WindStormPeak_REL0082
 File: intel/ibt-12-16.sfi
-Version: BT_WindStormPeak_REL0060
+Version: BT_WindStormPeak_REL0082
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -2875,7 +2871,7 @@ File: moxa/moxa-1131.fw
 File: moxa/moxa-1150.fw
 File: moxa/moxa-1151.fw
 
-License: Redistributable. See LICENSE.moxa for details
+License: Redistributable. See LICENCE.moxa for details
 
 --------------------------------------------------------------------------
 
@@ -2891,7 +2887,7 @@ File: moxa/moxa-1618.fw
 File: moxa/moxa-1653.fw
 File: moxa/moxa-1658.fw
 
-License: Redistributable. See LICENSE.moxa for details
+License: Redistributable. See LICENCE.moxa for details
 
 --------------------------------------------------------------------------
 
@@ -2959,8 +2955,10 @@ File: qat_c3xxx.bin
 File: qat_c3xxx_mmp.bin
 File: qat_c62x.bin
 File: qat_c62x_mmp.bin
+Link: qat_mmp.bin -> qat_895xcc_mmp.bin
 
-Licence: Redistributable. See LICENCE.qat_firmware
+Licence: Redistributable. See LICENCE.qat_firmware for details
+
 --------------------------------------------------------------------------
 
 Driver: rsi -- Redpine Signals Inc 91x driver
@@ -3042,21 +3040,39 @@ License: Redistributable. See LICENCE.fw_sst_0f28 for details
 
 Driver: snd-soc-skl
 
-File: intel/dsp_fw_release.bin
+File: intel/dsp_fw_release_v827.bin
+Version: 8.20.00.927
+File: intel/dsp_fw_release_v869.bin
+Version; 8.20.00.869
+File: intel/dsp_fw_release_v896.bin
+Version: 8.20.00.896
+File: intel/dsp_fw_release_v927.bin
+Version: 8.20.00.927
+File: intel/dsp_fw_release_v948.bin
+Version: 8.20.00.948
+File: intel/dsp_fw_release_v951.bin
+Version: 8.20.00.951
+File: intel/dsp_fw_release_v958.bin
 Version: 8.20.00.958
-md5sum: 02bd300f5ef85ae04afffd7c0ef50c46
+Link: intel/dsp_fw_release.bin -> dsp_fw_release_v958.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
-File: intel/dsp_fw_bxt.bin
+File: intel/dsp_fw_bxtn_v430.bin
+Version: 9.00.00.430
+File: intel/dsp_fw_bxtn_v702.bin
+Version: 9.00.00.702
+File: intel/dsp_fw_bxtn_v1118.bin
 Version: 9.22.00.1118
-md5sum: 469dfcf5b2ebbc58505a0cca23303723
+Link: intel/dsp_fw_bxtn.bin -> dsp_fw_bxtn_v1118.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
-File: intel/dsp_fw_kbl.bin
+File: intel/dsp_fw_kbl_v701.bin
+Version: 9.21.00.701
+File: intel/dsp_fw_kbl_v1037.bin
 Version: 09.21.00.1037
-md5sum: e71a2421565fadae228b3924d9510bcb
+Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v1037.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3080,7 +3096,7 @@ File: atusb/atusb-0.2.dfu
 Version: 0.2
 Info: atusb/ChangeLog
 
-Licence: GPLv2+
+Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
 
 --------------------------------------------------------------------------
 
@@ -3099,7 +3115,7 @@ File: qca/rampatch_usb_00000302.bin
 File: qca/rampatch_00130300.bin
 File: qca/rampatch_00130302.bin
 
-Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
 --------------------------------------------------------------------------
 
@@ -3208,10 +3224,8 @@ File: nvidia/gm20b/gr/fecs_bl.bin
 File: nvidia/gm20b/gr/fecs_data.bin
 File: nvidia/gm20b/gr/fecs_inst.bin
 File: nvidia/gm20b/gr/fecs_sig.bin
-File: nvidia/gm20b/gr/gpccs_bl.bin
 File: nvidia/gm20b/gr/gpccs_data.bin
 File: nvidia/gm20b/gr/gpccs_inst.bin
-File: nvidia/gm20b/gr/gpccs_sig.bin
 File: nvidia/gm20b/gr/sw_bundle_init.bin
 File: nvidia/gm20b/gr/sw_ctx.bin
 File: nvidia/gm20b/gr/sw_method_init.bin
@@ -3253,6 +3267,7 @@ Version: 0.35
 File: hfi1_fabric.fw
 File: hfi1_pcie.fw
 File: hfi1_sbus.fw
+File: hfi1_platform.dat
 
 Licence: Redistributable. See LICENSE.hfi1_firmware for details
 
@@ -3300,6 +3315,6 @@ OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 Driver: rk3399-dptx - ROCKCHIP rk3399 dptx firmware
 
 File: rockchip/dptx.bin
-Version: 2.9
+Version: 3.1
 
 Licence: Redistributable. See LICENCE.rockchip for details.
