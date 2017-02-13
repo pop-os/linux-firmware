@@ -565,14 +565,18 @@ Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
-Driver: cxgb4 - Chelsio Terminator 4/5 1G/10/40G Ethernet adapter
+Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.15.37.0.bin
+File: cxgb4/t4fw-1.16.26.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.16.26.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.15.37.0.bin
+File: cxgb4/t5fw-1.16.26.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.16.26.0.bin
+File: cxgb4/t6fw-1.16.26.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.16.26.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 
@@ -933,9 +937,6 @@ Version 16.242414.0
 
 File: iwlwifi-8000C-21.ucode
 Version 21.302800.0
-
-File: iwlwifi-8000C-22.ucode
-Version 22.361476.0
 
 File: iwlwifi-8265-21.ucode
 Version 21.302800.0
@@ -1837,6 +1838,7 @@ Licence: Redistributable. See LICENSE.radeon for details.
 Driver: amdgpu - AMD Radeon
 
 File: amdgpu/topaz_ce.bin
+File: amdgpu/topaz_k_smc.bin
 File: amdgpu/topaz_mc.bin
 File: amdgpu/topaz_me.bin
 File: amdgpu/topaz_mec2.bin
@@ -1847,6 +1849,7 @@ File: amdgpu/topaz_sdma1.bin
 File: amdgpu/topaz_sdma.bin
 File: amdgpu/topaz_smc.bin
 File: amdgpu/tonga_ce.bin
+File: amdgpu/tonga_k_smc.bin
 File: amdgpu/tonga_mc.bin
 File: amdgpu/tonga_me.bin
 File: amdgpu/tonga_mec2.bin
@@ -2103,8 +2106,10 @@ File: brcm/brcmfmac4350c2-pcie.bin
 File: brcm/brcmfmac4350-pcie.bin
 File: brcm/brcmfmac4354-sdio.bin
 File: brcm/brcmfmac4356-pcie.bin
+File: brcm/brcmfmac4356-sdio.bin
 File: brcm/brcmfmac43569.bin
 File: brcm/brcmfmac43570-pcie.bin
+File: brcm/brcmfmac4358-pcie.bin
 File: brcm/brcmfmac43602-pcie.bin
 File: brcm/brcmfmac43602-pcie.ap.bin
 File: brcm/brcmfmac4366b-pcie.bin
@@ -2161,11 +2166,11 @@ Version: 6.5.2.0.15 (Multi-role)
 File: ti-connectivity/wl127x-fw-4-plt.bin
 Version: 6.3.5.0.98 (PLT-only)
 File: ti-connectivity/wl127x-fw-5-sr.bin
-Version: 6.3.10.0.133 (Single-role)
+Version: 6.3.10.0.141 (Single-role)
 File: ti-connectivity/wl127x-fw-5-mr.bin
-Version: 6.5.7.0.42 (Multi-role)
+Version: 6.5.7.0.49 (Multi-role)
 File: ti-connectivity/wl127x-fw-5-plt.bin
-Version: 6.3.10.0.133 (PLT-only)
+Version: 6.3.10.0.141 (PLT-only)
 
 File: ti-connectivity/wl128x-fw.bin
 Version: 7.1.5.50.74 (STA-only)
@@ -2182,11 +2187,11 @@ Version: 7.5.2.0.15 (Multi-role)
 File: ti-connectivity/wl128x-fw-4-plt.bin
 Version: 7.3.5.0.98 (PLT)
 File: ti-connectivity/wl128x-fw-5-sr.bin
-Version: 7.3.10.0.133 (Single-role)
+Version: 7.3.10.0.141 (Single-role)
 File: ti-connectivity/wl128x-fw-5-mr.bin
-Version: 7.5.7.0.42 (Multi-role)
+Version: 7.5.7.0.49 (Multi-role)
 File: ti-connectivity/wl128x-fw-5-plt.bin
-Version: 7.3.10.2.133 (PLT-only)
+Version: 7.3.10.2.141 (PLT-only)
 
 File: ti-connectivity/wl127x-nvs.bin
 File: ti-connectivity/wl128x-nvs.bin
@@ -3024,6 +3029,7 @@ License: Redistributable. See LICENCE.IntcSST2 for details
 Driver: snd_intel_sst_core
 
 File: intel/fw_sst_0f28.bin
+File: intel/fw_sst_0f28_ssp0.bin
 
 License: Redistributable. See LICENCE.fw_sst_0f28 for details
 
@@ -3054,7 +3060,9 @@ File: intel/dsp_fw_release_v951.bin
 Version: 8.20.00.951
 File: intel/dsp_fw_release_v958.bin
 Version: 8.20.00.958
-Link: intel/dsp_fw_release.bin -> dsp_fw_release_v958.bin
+File: intel/dsp_fw_release_v969.bin
+Version: 8.20.00.969
+Link: intel/dsp_fw_release.bin -> intel/dsp_fw_release_v969.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3064,7 +3072,9 @@ File: intel/dsp_fw_bxtn_v702.bin
 Version: 9.00.00.702
 File: intel/dsp_fw_bxtn_v1118.bin
 Version: 9.22.00.1118
-Link: intel/dsp_fw_bxtn.bin -> dsp_fw_bxtn_v1118.bin
+File: intel/dsp_fw_bxtn_v2010.bin
+Version: 9.22.01.2010_44
+Link: intel/dsp_fw_bxtn.bin -> intel/dsp_fw_bxtn_v2010.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3094,6 +3104,10 @@ Driver: atusb - ATUSB IEEE 802.15.4 transceiver driver
 
 File: atusb/atusb-0.2.dfu
 Version: 0.2
+File: atusb/atusb-0.3.dfu
+Version: 0.3
+File: atusb/rzusb-0.3.bin
+Version: 0.3
 Info: atusb/ChangeLog
 
 Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
@@ -3263,10 +3277,13 @@ License: Redistributable. See LICENSE.atmel for details
 Driver: hfi1 - Intel OPA Gen 1 adapter
 
 File: hfi1_dc8051.fw
-Version: 0.35
+Version: 0.47
 File: hfi1_fabric.fw
+Version: 0x1055
 File: hfi1_pcie.fw
+Version: 0x4755
 File: hfi1_sbus.fw
+Version: 0x10130001
 File: hfi1_platform.dat
 
 Licence: Redistributable. See LICENSE.hfi1_firmware for details
