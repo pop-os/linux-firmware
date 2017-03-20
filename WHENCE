@@ -422,9 +422,9 @@ Version: 3.03.28 IPX
 File: ql2322_fw.bin
 Version: 3.03.28 IPX
 File: ql2400_fw.bin
-Version: 8.03.00 MID
+Version: 8.06.00 MID
 File: ql2500_fw.bin
-Version: 8.03.00 MIDQ
+Version: 8.06.00 MIDQ
 
 Licence: Redistributable. See LICENCE.qla2xxx for details
 
@@ -569,14 +569,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.16.26.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.16.26.0.bin
+File: cxgb4/t4fw-1.16.33.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.16.33.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.16.26.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.16.26.0.bin
-File: cxgb4/t6fw-1.16.26.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.16.26.0.bin
+File: cxgb4/t5fw-1.16.33.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.16.33.0.bin
+File: cxgb4/t6fw-1.16.33.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.16.33.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 
@@ -742,7 +742,7 @@ File: mrvl/usb8797_uapsta.bin
 Version: 14.68.29.p49
 
 File: mrvl/sd8897_uapsta.bin
-Version: 15.68.7.p77
+Version: 15.68.7.p87
 
 File: mrvl/usb8897_uapsta.bin
 Version: 15.68.4.p103
@@ -763,7 +763,7 @@ File: mrvl/pcieuart8997_combo_v4.bin
 Version: 16.68.1.p70
 
 File: mrvl/pcieusb8997_combo_v4.bin
-Version: 16.68.1.p70
+Version: 16.68.1.p97
 
 Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
 http://git.marvell.com/?p=mwifiex-firmware.git
@@ -855,7 +855,7 @@ File: iwlwifi-7260-16.ucode
 Version 16.242414.0
 
 File: iwlwifi-7260-17.ucode
-Version 17.352738.0
+Version 17.459231.0
 
 File: iwlwifi-3160-7.ucode
 Version: 22.1.7.0
@@ -879,7 +879,7 @@ File: iwlwifi-3160-16.ucode
 Version 16.242414.0
 
 File: iwlwifi-3160-17.ucode
-Version 17.352738.0
+Version 17.459231.0
 
 File: iwlwifi-7265-8.ucode
 Version: 22.24.8.0
@@ -900,7 +900,7 @@ File: iwlwifi-7265-16.ucode
 Version 16.242414.0
 
 File: iwlwifi-7265-17.ucode
-Version 17.352738.0
+Version 17.459231.0
 
 File: iwlwifi-7265D-10.ucode
 Version: 23.15.10.0
@@ -921,7 +921,7 @@ File: iwlwifi-7265D-21.ucode
 Version 21.302800.0
 
 File: iwlwifi-7265D-22.ucode
-Version 22.361476.0
+Version 22.391740.0
 
 File: iwlwifi-3168-21.ucode
 Version 21.302800.0
@@ -938,11 +938,14 @@ Version 16.242414.0
 File: iwlwifi-8000C-21.ucode
 Version 21.302800.0
 
+File: iwlwifi-8000C-22.ucode
+Version 22.391740.0
+
 File: iwlwifi-8265-21.ucode
 Version 21.302800.0
 
 File: iwlwifi-8265-22.ucode
-Version 22.361476.0
+Version 22.391740.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -1901,6 +1904,7 @@ File: amdgpu/polaris10_rlc.bin
 File: amdgpu/polaris10_sdma1.bin
 File: amdgpu/polaris10_sdma.bin
 File: amdgpu/polaris10_smc.bin
+File: amdgpu/polaris10_k_smc.bin
 File: amdgpu/polaris10_smc_sk.bin
 File: amdgpu/polaris10_uvd.bin
 File: amdgpu/polaris10_vce.bin
@@ -1914,9 +1918,22 @@ File: amdgpu/polaris11_rlc.bin
 File: amdgpu/polaris11_sdma1.bin
 File: amdgpu/polaris11_sdma.bin
 File: amdgpu/polaris11_smc.bin
+File: amdgpu/polaris11_k_smc.bin
 File: amdgpu/polaris11_smc_sk.bin
 File: amdgpu/polaris11_uvd.bin
 File: amdgpu/polaris11_vce.bin
+File: amdgpu/polaris12_ce.bin
+File: amdgpu/polaris12_mc.bin
+File: amdgpu/polaris12_me.bin
+File: amdgpu/polaris12_mec.bin
+File: amdgpu/polaris12_mec2.bin
+File: amdgpu/polaris12_pfp.bin
+File: amdgpu/polaris12_rlc.bin
+File: amdgpu/polaris12_sdma.bin
+File: amdgpu/polaris12_sdma1.bin
+File: amdgpu/polaris12_smc.bin
+File: amdgpu/polaris12_uvd.bin
+File: amdgpu/polaris12_vce.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -2784,15 +2801,15 @@ Version: BT_StonePeak_C0_REL_59_0001
 File: intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq
 Version: BT_StonePeak_D0_REL_37_0002
 File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
-Version: BT_StonePeak_D1_REL_25_0001
+Version: BT_StonePeak_D1_REL_28_0001
 File: intel/ibt-11-5.ddc
-Version: LnP/SfP_REL0351
+Version: LnP/SfP_REL0370
 File: intel/ibt-11-5.sfi
-Version: BT_LightningPeak_REL0351
+Version: BT_LightningPeak_REL0370
 File: intel/ibt-12-16.ddc
-Version: BT_WindStormPeak_REL0082
+Version: BT_WindStormPeak_REL0101
 File: intel/ibt-12-16.sfi
-Version: BT_WindStormPeak_REL0082
+Version: BT_WindStormPeak_REL0101
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -3135,14 +3152,17 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 
 Driver: liquidio -- Cavium LiquidIO driver
 
+File: liquidio/lio_23xx_nic.bin
+Version: v1.4.2
+
 File: liquidio/lio_210nv_nic.bin
-Version: v1.1.9
+Version: v1.4.2
 
 File: liquidio/lio_210sv_nic.bin
-Version: v1.1.9
+Version: v1.4.2
 
 File: liquidio/lio_410nv_nic.bin
-Version: v1.1.9
+Version: v1.4.2
 
 Licence: Redistributable. See LICENCE.cavium for details
 
@@ -3172,6 +3192,12 @@ Version: Guc API/ABI ver 4 - release 3 for Skylake
 File: i915/skl_guc_ver6_1.bin
 File: i915/skl_guc_ver6.bin
 Version: Guc API/ABI ver 6 - release 1 for Skylake
+
+File: i915/bxt_guc_ver8_7.bin
+Version: Guc API/APB ver 8 - release 7 for Broxton
+
+File: i915/kbl_guc_ver9_14.bin
+Version: Guc API/APB ver 9 release 14 for Kabylake
 
 License: Redistributable. See LICENSE.i915 for details
 
