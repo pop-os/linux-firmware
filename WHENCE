@@ -751,7 +751,7 @@ File: mrvl/pcie8897_uapsta.bin
 Version: 15.68.7.p77
 
 File: mrvl/sd8887_uapsta.bin
-Version: 15.68.7.p5
+Version: 15.68.7.p112
 
 File: mrvl/sd8801_uapsta.bin
 Version: 14.68.36.p60
@@ -763,6 +763,9 @@ File: mrvl/pcieuart8997_combo_v4.bin
 Version: 16.68.1.p70
 
 File: mrvl/pcieusb8997_combo_v4.bin
+Version: 16.68.1.p97
+
+File: mrvl/pcie8997_wlan_v4.bin
 Version: 16.68.1.p97
 
 Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
@@ -923,11 +926,17 @@ Version 21.302800.0
 File: iwlwifi-7265D-22.ucode
 Version 22.391740.0
 
+File: iwlwifi-7265D-27.ucode
+Version 27.455470.0
+
 File: iwlwifi-3168-21.ucode
 Version 21.302800.0
 
 File: iwlwifi-3168-22.ucode
 Version 22.361476.0
+
+File: iwlwifi-3168-27.ucode
+Version 27.455470.0
 
 File: iwlwifi-8000C-13.ucode
 Version: 25.30.13.0
@@ -938,14 +947,17 @@ Version 16.242414.0
 File: iwlwifi-8000C-21.ucode
 Version 21.302800.0
 
-File: iwlwifi-8000C-22.ucode
-Version 22.391740.0
+File: iwlwifi-8000C-27.ucode
+Version 27.455470.0
 
 File: iwlwifi-8265-21.ucode
 Version 21.302800.0
 
 File: iwlwifi-8265-22.ucode
 Version 22.391740.0
+
+File: iwlwifi-8265-27.ucode
+Version 27.455470.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -2020,6 +2032,7 @@ File: qed/qed_init_values_zipped-8.4.2.0.bin
 File: qed/qed_init_values_zipped-8.7.3.0.bin
 File: qed/qed_init_values_zipped-8.10.5.0.bin
 File: qed/qed_init_values_zipped-8.10.10.0.bin
+File: qed/qed_init_values_zipped-8.15.3.0.bin
 
 Licence:
   This file contains firmware data derived from proprietary unpublished
@@ -2408,6 +2421,19 @@ Info: Initial version taken from Realtek version
       Updated Jan. 14, 2015 with file added by Realtek to
       http://github.com/lwfinger/rtlwifi_new.git.
 File: rtlwifi/rtl8192eefw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
+Driver: rtl8723bs - Realtek 802.11n WLAN driver for RTL8723BS
+
+Info: Firmware files extracted from data statements in Realtek driver
+      v4.3.5.5_12290.20140916_BTCOEX20140507-4E40.
+File: rtlwifi/rtl8723bs_bt.bin
+File: rtlwifi/rtl8723bs_nic.bin
+File: rtlwifi/rtl8723bs_ap_wowlan.bin
+File: rtlwifi/rtl8723bs_wowlan.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -2827,7 +2853,8 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 Found in vendor driver, linux_bt_usb_2.11.20140423_8723be.rar
 From https://github.com/troy-tan/driver_store
-Files rtl_bt/rtl8822b_* came directly from Realtek.
+Files rtl_bt/rtl8822b_* came directly from Realtek. These files are
+updated on April 14, 2017.
 
 --------------------------------------------------------------------------
 
@@ -3091,7 +3118,9 @@ File: intel/dsp_fw_bxtn_v1118.bin
 Version: 9.22.00.1118
 File: intel/dsp_fw_bxtn_v2010.bin
 Version: 9.22.01.2010_44
-Link: intel/dsp_fw_bxtn.bin -> intel/dsp_fw_bxtn_v2010.bin
+File: intel/dsp_fw_bxtn_v2219.bin
+Version: 9.22.01.2219_64
+Link: intel/dsp_fw_bxtn.bin -> intel/dsp_fw_bxtn_v2219.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3100,6 +3129,12 @@ Version: 9.21.00.701
 File: intel/dsp_fw_kbl_v1037.bin
 Version: 09.21.00.1037
 Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v1037.bin
+
+License: Redistributable. See LICENCE.adsp_sst for details
+
+File: intel/dsp_fw_glk_v1814.bin
+Version: 9.92.01.1814
+Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v1814.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3153,16 +3188,16 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 Driver: liquidio -- Cavium LiquidIO driver
 
 File: liquidio/lio_23xx_nic.bin
-Version: v1.4.2
+Version: v1.5.1
 
 File: liquidio/lio_210nv_nic.bin
-Version: v1.4.2
+Version: v1.5.1
 
 File: liquidio/lio_210sv_nic.bin
-Version: v1.4.2
+Version: v1.5.1
 
 File: liquidio/lio_410nv_nic.bin
-Version: v1.4.2
+Version: v1.5.1
 
 Licence: Redistributable. See LICENCE.cavium for details
 
@@ -3192,6 +3227,15 @@ Version: Guc API/ABI ver 4 - release 3 for Skylake
 File: i915/skl_guc_ver6_1.bin
 File: i915/skl_guc_ver6.bin
 Version: Guc API/ABI ver 6 - release 1 for Skylake
+
+File: i915/skl_huc_ver01_07_1398.bin
+Version: HuC API/ABI ver 1 - release 7 for Skylake
+
+File: i915/bxt_huc_ver01_07_1398.bin
+Version: HuC API/APB ver 1 - release 7 for Broxton
+
+File: i915/kbl_huc_ver02_00_1810.bin
+Version: HuC API/APB ver 2 - for Kabylake
 
 File: i915/bxt_guc_ver8_7.bin
 Version: Guc API/APB ver 8 - release 7 for Broxton
@@ -3270,6 +3314,9 @@ File: nvidia/gm20b/gr/sw_bundle_init.bin
 File: nvidia/gm20b/gr/sw_ctx.bin
 File: nvidia/gm20b/gr/sw_method_init.bin
 File: nvidia/gm20b/gr/sw_nonctx.bin
+File: nvidia/gm20b/pmu/desc.bin
+File: nvidia/gm20b/pmu/image.bin
+File: nvidia/gm20b/pmu/sig.bin
 File: nvidia/gp100/acr/bl.bin
 File: nvidia/gp100/acr/ucode_load.bin
 File: nvidia/gp100/acr/ucode_unload.bin
@@ -3285,6 +3332,104 @@ File: nvidia/gp100/gr/sw_bundle_init.bin
 File: nvidia/gp100/gr/sw_ctx.bin
 File: nvidia/gp100/gr/sw_method_init.bin
 File: nvidia/gp100/gr/sw_nonctx.bin
+File: nvidia/gp102/acr/bl.bin
+File: nvidia/gp102/acr/ucode_load.bin
+File: nvidia/gp102/acr/ucode_unload.bin
+File: nvidia/gp102/acr/unload_bl.bin
+File: nvidia/gp102/gr/fecs_bl.bin
+File: nvidia/gp102/gr/fecs_data.bin
+File: nvidia/gp102/gr/fecs_inst.bin
+File: nvidia/gp102/gr/fecs_sig.bin
+File: nvidia/gp102/gr/gpccs_bl.bin
+File: nvidia/gp102/gr/gpccs_data.bin
+File: nvidia/gp102/gr/gpccs_inst.bin
+File: nvidia/gp102/gr/gpccs_sig.bin
+File: nvidia/gp102/gr/sw_bundle_init.bin
+File: nvidia/gp102/gr/sw_ctx.bin
+File: nvidia/gp102/gr/sw_method_init.bin
+File: nvidia/gp102/gr/sw_nonctx.bin
+File: nvidia/gp102/nvdec/scrubber.bin
+File: nvidia/gp102/sec2/desc.bin
+File: nvidia/gp102/sec2/image.bin
+File: nvidia/gp102/sec2/sig.bin
+File: nvidia/gp104/acr/bl.bin
+File: nvidia/gp104/acr/ucode_load.bin
+File: nvidia/gp104/acr/ucode_unload.bin
+File: nvidia/gp104/acr/unload_bl.bin
+File: nvidia/gp104/gr/fecs_bl.bin
+File: nvidia/gp104/gr/fecs_data.bin
+File: nvidia/gp104/gr/fecs_inst.bin
+File: nvidia/gp104/gr/fecs_sig.bin
+File: nvidia/gp104/gr/gpccs_bl.bin
+File: nvidia/gp104/gr/gpccs_data.bin
+File: nvidia/gp104/gr/gpccs_inst.bin
+File: nvidia/gp104/gr/gpccs_sig.bin
+File: nvidia/gp104/gr/sw_bundle_init.bin
+File: nvidia/gp104/gr/sw_ctx.bin
+File: nvidia/gp104/gr/sw_method_init.bin
+File: nvidia/gp104/gr/sw_nonctx.bin
+File: nvidia/gp104/nvdec/scrubber.bin
+File: nvidia/gp104/sec2/desc.bin
+File: nvidia/gp104/sec2/image.bin
+File: nvidia/gp104/sec2/sig.bin
+File: nvidia/gp106/acr/bl.bin
+File: nvidia/gp106/acr/ucode_load.bin
+File: nvidia/gp106/acr/ucode_unload.bin
+File: nvidia/gp106/acr/unload_bl.bin
+File: nvidia/gp106/gr/fecs_bl.bin
+File: nvidia/gp106/gr/fecs_data.bin
+File: nvidia/gp106/gr/fecs_inst.bin
+File: nvidia/gp106/gr/fecs_sig.bin
+File: nvidia/gp106/gr/gpccs_bl.bin
+File: nvidia/gp106/gr/gpccs_data.bin
+File: nvidia/gp106/gr/gpccs_inst.bin
+File: nvidia/gp106/gr/gpccs_sig.bin
+File: nvidia/gp106/gr/sw_bundle_init.bin
+File: nvidia/gp106/gr/sw_ctx.bin
+File: nvidia/gp106/gr/sw_method_init.bin
+File: nvidia/gp106/gr/sw_nonctx.bin
+File: nvidia/gp106/nvdec/scrubber.bin
+File: nvidia/gp106/sec2/desc.bin
+File: nvidia/gp106/sec2/image.bin
+File: nvidia/gp106/sec2/sig.bin
+File: nvidia/gp107/acr/bl.bin
+File: nvidia/gp107/acr/ucode_load.bin
+File: nvidia/gp107/acr/ucode_unload.bin
+File: nvidia/gp107/acr/unload_bl.bin
+File: nvidia/gp107/gr/fecs_bl.bin
+File: nvidia/gp107/gr/fecs_data.bin
+File: nvidia/gp107/gr/fecs_inst.bin
+File: nvidia/gp107/gr/fecs_sig.bin
+File: nvidia/gp107/gr/gpccs_bl.bin
+File: nvidia/gp107/gr/gpccs_data.bin
+File: nvidia/gp107/gr/gpccs_inst.bin
+File: nvidia/gp107/gr/gpccs_sig.bin
+File: nvidia/gp107/gr/sw_bundle_init.bin
+File: nvidia/gp107/gr/sw_ctx.bin
+File: nvidia/gp107/gr/sw_method_init.bin
+File: nvidia/gp107/gr/sw_nonctx.bin
+File: nvidia/gp107/nvdec/scrubber.bin
+File: nvidia/gp107/sec2/desc.bin
+File: nvidia/gp107/sec2/image.bin
+File: nvidia/gp107/sec2/sig.bin
+File: nvidia/gp10b/acr/bl.bin
+File: nvidia/gp10b/acr/ucode_load.bin
+File: nvidia/gp10b/gr/fecs_bl.bin
+File: nvidia/gp10b/gr/fecs_data.bin
+File: nvidia/gp10b/gr/fecs_inst.bin
+File: nvidia/gp10b/gr/fecs_sig.bin
+File: nvidia/gp10b/gr/gpccs_bl.bin
+File: nvidia/gp10b/gr/gpccs_data.bin
+File: nvidia/gp10b/gr/gpccs_inst.bin
+File: nvidia/gp10b/gr/gpccs_sig.bin
+File: nvidia/gp10b/gr/sw_bundle_init.bin
+File: nvidia/gp10b/gr/sw_ctx.bin
+File: nvidia/gp10b/gr/sw_method_init.bin
+File: nvidia/gp10b/gr/sw_nonctx.bin
+File: nvidia/gp10b/pmu/desc.bin
+File: nvidia/gp10b/pmu/image.bin
+File: nvidia/gp10b/pmu/sig.bin
+
 
 Licence: Redistributable. See LICENCE.nvidia for details
 
@@ -3361,3 +3506,32 @@ File: rockchip/dptx.bin
 Version: 3.1
 
 Licence: Redistributable. See LICENCE.rockchip for details.
+
+---------------------------------------------------------------------------
+
+Driver: mt76x2e - MediaTek MT76x2 Wireless MACs
+
+File: mt7662.bin
+Version: 1.9
+
+File: mt7662_rom_patch.bin
+Version: 0.0.2_P69
+
+Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: nfp - Netronome Flow Processor
+
+File: netronome/nic_AMDA0081-0001_1x40.nffw
+File: netronome/nic_AMDA0097-0001_2x40.nffw
+File: netronome/nic_AMDA0099-0001_2x10.nffw
+File: netronome/nic_AMDA0081-0001_4x10.nffw
+File: netronome/nic_AMDA0097-0001_4x10_1x40.nffw
+File: netronome/nic_AMDA0099-0001_2x25.nffw
+File: netronome/nic_AMDA0096-0001_2x10.nffw
+File: netronome/nic_AMDA0097-0001_8x10.nffw
+
+Version: v0.6.1
+
+Licence: Redistributable. See LICENCE.Netronome for details
