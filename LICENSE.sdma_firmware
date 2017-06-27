@@ -1,34 +1,34 @@
-Copyright (c) 2015-2017, Qualcomm Atheros, Inc.
+Copyright 2017, NXP
 All rights reserved.
 
 Redistribution. Reproduction and redistribution in binary form, without
-modification, for use solely in conjunction with a Qualcomm Atheros, Inc.
+modification, for use solely in conjunction with a NXP
 chipset, is permitted provided that the following conditions are met:
 
-  • Redistributions must reproduce the above copyright notice and the following
+  . Redistributions must reproduce the above copyright notice and the following
     disclaimer in the documentation and/or other materials provided with the
     distribution.
 
-  • Neither the name of Qualcomm Atheros, Inc. nor the names of its suppliers
+  . Neither the name of NXP nor the names of its suppliers
     may be used to endorse or promote products derived from this Software
     without specific prior written permission.
 
-  • No reverse engineering, decompilation, or disassembly of this Software is
+  . No reverse engineering, decompilation, or disassembly of this Software is
     permitted.
 
-Limited patent license. Qualcomm Atheros, Inc. (“Licensor”) grants you
-(“Licensee”) a limited, worldwide, royalty-free, non-exclusive license under
+Limited patent license. NXP (.Licensor.) grants you
+(.Licensee.) a limited, worldwide, royalty-free, non-exclusive license under
 the Patents to make, have made, use, import, offer to sell and sell the
 Software. No hardware per se is licensed hereunder.
-The term “Patents” as used in this agreement means only those patents or patent
+The term .Patents. as used in this agreement means only those patents or patent
 applications owned solely and exclusively by Licensor as of the date of
-Licensor’s submission of the Software and any patents deriving priority (i.e.,
-having a first effective filing date) therefrom. The term “Software” as used in
+Licensor.s submission of the Software and any patents deriving priority (i.e.,
+having a first effective filing date) therefrom. The term .Software. as used in
 this agreement means the firmware image submitted by Licensor, under the terms
 of this license, to git://git.kernel.org/pub/scm/linux/kernel/git/firmware/
 linux-firmware.git.
 Notwithstanding anything to the contrary herein, Licensor does not grant and
-Licensee does not receive, by virtue of this agreement or the Licensor’s
+Licensee does not receive, by virtue of this agreement or the Licensor's
 submission of any Software, any license or other rights under any patent or
 patent application owned by any affiliate of Licensor or any other entity
 (other than Licensor), whether expressly, impliedly, by virtue of estoppel or
