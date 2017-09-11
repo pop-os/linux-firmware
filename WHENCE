@@ -930,7 +930,10 @@ File: iwlwifi-7265D-22.ucode
 Version 22.391740.0
 
 File: iwlwifi-7265D-27.ucode
-Version 27.455470.0
+Version 27.541033.0
+
+File: iwlwifi-7265D-29.ucode
+Version 29.541020.0
 
 File: iwlwifi-3168-21.ucode
 Version 21.302800.0
@@ -939,7 +942,10 @@ File: iwlwifi-3168-22.ucode
 Version 22.391740.0
 
 File: iwlwifi-3168-27.ucode
-Version 27.455470.0
+Version 27.541033.0
+
+File: iwlwifi-3168-29.ucode
+Version 29.541020.0
 
 File: iwlwifi-8000C-13.ucode
 Version: 25.30.13.0
@@ -951,7 +957,10 @@ File: iwlwifi-8000C-21.ucode
 Version 21.302800.0
 
 File: iwlwifi-8000C-27.ucode
-Version 27.455470.0
+Version 27.541033.0
+
+File: iwlwifi-8000C-31.ucode
+Version 31.532993.0
 
 File: iwlwifi-8265-21.ucode
 Version 21.302800.0
@@ -960,11 +969,25 @@ File: iwlwifi-8265-22.ucode
 Version 22.391740.0
 
 File: iwlwifi-8265-27.ucode
-Version 27.455470.0
+Version 27.541033.0
+
+File iwlwifi-8265-31.ucode
+Version 31.532993.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
 Also available from http://wireless.kernel.org/en/users/Drivers/iwlwifi#Firmware
+
+--------------------------------------------------------------------------
+
+Driver: ipu3-imgu - Intel IPU3 (3rd Gen Image Processing Unit) driver
+
+File: intel/irci_irci_ecr-master_20161208_0213_20170112_1500.bin
+Version: irci_irci_ecr-master_20161208_0213_20170112_1500
+md5sum: 59abc311fce49c5a180b5a8a3917912d
+Link: intel/ipu3-fw.bin -> irci_irci_ecr-master_20161208_0213_20170112_1500.bin
+
+Licence: Redistributable. See LICENSE.ipu3_firmware for details
 
 --------------------------------------------------------------------------
 
@@ -1949,6 +1972,21 @@ File: amdgpu/polaris12_sdma1.bin
 File: amdgpu/polaris12_smc.bin
 File: amdgpu/polaris12_uvd.bin
 File: amdgpu/polaris12_vce.bin
+File: amdgpu/vega10_acg_smc.bin
+File: amdgpu/vega10_asd.bin
+File: amdgpu/vega10_ce.bin
+File: amdgpu/vega10_gpu_info.bin
+File: amdgpu/vega10_me.bin
+File: amdgpu/vega10_mec.bin
+File: amdgpu/vega10_mec2.bin
+File: amdgpu/vega10_pfp.bin
+File: amdgpu/vega10_rlc.bin
+File: amdgpu/vega10_sdma.bin
+File: amdgpu/vega10_sdma1.bin
+File: amdgpu/vega10_smc.bin
+File: amdgpu/vega10_sos.bin
+File: amdgpu/vega10_uvd.bin
+File: amdgpu/vega10_vce.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -2412,6 +2450,15 @@ File: rtlwifi/rtl8821aefw.bin
 File: rtlwifi/rtl8821aefw_wowlan.bin
 Info: Update to version 29 - Sent by Realtek
 File: rtlwifi/rtl8821aefw_29.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
+Driver: rtl8822be - Realtek 802.11n WLAN driver for RTL8822BE
+
+Info: Sent to Larry Finger by Realtek engineer Ping-Ke Shih <pkshih@realtek.com>
+File: rtlwifi/rtl8822befw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3099,34 +3146,12 @@ License: Redistributable. See LICENCE.fw_sst_0f28 for details
 
 Driver: snd-soc-skl
 
-File: intel/dsp_fw_release_v827.bin
-Version: 8.20.00.927
-File: intel/dsp_fw_release_v869.bin
-Version; 8.20.00.869
-File: intel/dsp_fw_release_v896.bin
-Version: 8.20.00.896
-File: intel/dsp_fw_release_v927.bin
-Version: 8.20.00.927
-File: intel/dsp_fw_release_v948.bin
-Version: 8.20.00.948
-File: intel/dsp_fw_release_v951.bin
-Version: 8.20.00.951
-File: intel/dsp_fw_release_v958.bin
-Version: 8.20.00.958
 File: intel/dsp_fw_release_v969.bin
 Version: 8.20.00.969
 Link: intel/dsp_fw_release.bin -> intel/dsp_fw_release_v969.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
-File: intel/dsp_fw_bxtn_v430.bin
-Version: 9.00.00.430
-File: intel/dsp_fw_bxtn_v702.bin
-Version: 9.00.00.702
-File: intel/dsp_fw_bxtn_v1118.bin
-Version: 9.22.00.1118
-File: intel/dsp_fw_bxtn_v2010.bin
-Version: 9.22.01.2010_44
 File: intel/dsp_fw_bxtn_v2219.bin
 Version: 9.22.01.2219_64
 Link: intel/dsp_fw_bxtn.bin -> intel/dsp_fw_bxtn_v2219.bin
@@ -3139,7 +3164,9 @@ File: intel/dsp_fw_kbl_v1037.bin
 Version: 09.21.00.1037
 File: intel/dsp_fw_kbl_v2042.bin
 Version: 9.21.00.2042_46
-Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v2042.bin
+File: intel/dsp_fw_kbl_v2630.bin
+Version: 9.21.00.2630_97
+Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v2630.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3209,16 +3236,25 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 Driver: liquidio -- Cavium LiquidIO driver
 
 File: liquidio/lio_23xx_nic.bin
-Version: v1.6.0
+Version: v1.6.1
 
 File: liquidio/lio_210nv_nic.bin
-Version: v1.6.0
+Version: v1.6.1
 
 File: liquidio/lio_210sv_nic.bin
-Version: v1.6.0
+Version: v1.6.1
 
 File: liquidio/lio_410nv_nic.bin
-Version: v1.6.0
+Version: v1.6.1
+
+Licence: Redistributable. See LICENCE.cavium for details
+
+--------------------------------------------------------------------------
+
+Driver: nitrox -- Cavium CNN55XX crypto driver
+
+File: cavium/cnn55xx_se.fw
+Version: v07
 
 Licence: Redistributable. See LICENCE.cavium for details
 
@@ -3470,14 +3506,13 @@ License: Redistributable. See LICENSE.atmel for details
 Driver: hfi1 - Intel OPA Gen 1 adapter
 
 File: hfi1_dc8051.fw
-Version: 0.47
+Version: 1.24.0
 File: hfi1_fabric.fw
 Version: 0x1055
 File: hfi1_pcie.fw
 Version: 0x4755
 File: hfi1_sbus.fw
 Version: 0x10130001
-File: hfi1_platform.dat
 
 Licence: Redistributable. See LICENSE.hfi1_firmware for details
 
@@ -3596,3 +3631,17 @@ File: imx/sdma/sdma-imx7d.bin
 Version: 4.2
 
 Licence: Redistributable. See LICENSE.sdma_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: adreno - Qualcomm Adreno GPU firmware
+
+File: qcom/a300_pfp.fw
+Link: a300_pfp.fw -> qcom/a300_pfp.fw
+File: qcom/a300_pm4.fw
+Link: a300_pm4.fw -> qcom/a300_pm4.fw
+
+Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+
+Binary files supplied originally from
+https://developer.qualcomm.com/hardware/dragonboard-410c/tools
