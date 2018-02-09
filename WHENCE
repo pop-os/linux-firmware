@@ -569,14 +569,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.16.63.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.16.63.0.bin
+File: cxgb4/t4fw-1.17.14.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.17.14.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.16.63.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.16.63.0.bin
-File: cxgb4/t6fw-1.16.63.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.16.63.0.bin
+File: cxgb4/t5fw-1.17.14.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.17.14.0.bin
+File: cxgb4/t6fw-1.17.14.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.17.14.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 
@@ -748,7 +748,7 @@ File: mrvl/usb8897_uapsta.bin
 Version: 15.68.4.p103
 
 File: mrvl/pcie8897_uapsta.bin
-Version: 15.68.7.p77
+Version: V15.68.7.p154
 
 File: mrvl/sd8887_uapsta.bin
 Version: 15.68.7.p112
@@ -763,7 +763,7 @@ File: mrvl/pcieuart8997_combo_v4.bin
 Version: 16.68.1.p70
 
 File: mrvl/pcieusb8997_combo_v4.bin
-Version: 16.68.1.p97
+Version: 16.68.1.p145
 
 File: mrvl/pcie8997_wlan_v4.bin
 Version: 16.68.1.p97
@@ -965,6 +965,9 @@ Version 27.541033.0
 File: iwlwifi-8000C-31.ucode
 Version 31.560484.0
 
+File: iwlwifi-8000C-34.ucode
+Version 34.610288.0
+
 File: iwlwifi-8265-21.ucode
 Version 21.302800.0
 
@@ -976,6 +979,21 @@ Version 27.541033.0
 
 File: iwlwifi-8265-31.ucode
 Version 31.560484.0
+
+File: iwlwifi-8265-34.ucode
+Version 34.610288.0
+
+File: iwlwifi-9260-th-b0-jf-b0-33.ucode
+Version: 33.610294.0
+
+File: iwlwifi-9000-pu-b0-jf-b0-33.ucode
+Version: 33.610294.0
+
+File: iwlwifi-9000-pu-b0-jf-b0-34.ucode
+Version: 34.618819.0
+
+File: iwlwifi-9260-th-b0-jf-b0-34.ucode
+Version: 34.618819.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -1938,11 +1956,16 @@ File: amdgpu/stoney_sdma.bin
 File: amdgpu/stoney_uvd.bin
 File: amdgpu/stoney_vce.bin
 File: amdgpu/polaris10_ce.bin
+File: amdgpu/polaris10_ce_2.bin
 File: amdgpu/polaris10_mc.bin
 File: amdgpu/polaris10_me.bin
+File: amdgpu/polaris10_me_2.bin
 File: amdgpu/polaris10_mec2.bin
+File: amdgpu/polaris10_mec2_2.bin
 File: amdgpu/polaris10_mec.bin
+File: amdgpu/polaris10_mec_2.bin
 File: amdgpu/polaris10_pfp.bin
+File: amdgpu/polaris10_pfp_2.bin
 File: amdgpu/polaris10_rlc.bin
 File: amdgpu/polaris10_sdma1.bin
 File: amdgpu/polaris10_sdma.bin
@@ -1952,11 +1975,16 @@ File: amdgpu/polaris10_smc_sk.bin
 File: amdgpu/polaris10_uvd.bin
 File: amdgpu/polaris10_vce.bin
 File: amdgpu/polaris11_ce.bin
+File: amdgpu/polaris11_ce_2.bin
 File: amdgpu/polaris11_mc.bin
 File: amdgpu/polaris11_me.bin
+File: amdgpu/polaris11_me_2.bin
 File: amdgpu/polaris11_mec2.bin
+File: amdgpu/polaris11_mec2_2.bin
 File: amdgpu/polaris11_mec.bin
+File: amdgpu/polaris11_mec_2.bin
 File: amdgpu/polaris11_pfp.bin
+File: amdgpu/polaris11_pfp_2.bin
 File: amdgpu/polaris11_rlc.bin
 File: amdgpu/polaris11_sdma1.bin
 File: amdgpu/polaris11_sdma.bin
@@ -1966,11 +1994,16 @@ File: amdgpu/polaris11_smc_sk.bin
 File: amdgpu/polaris11_uvd.bin
 File: amdgpu/polaris11_vce.bin
 File: amdgpu/polaris12_ce.bin
+File: amdgpu/polaris12_ce_2.bin
 File: amdgpu/polaris12_mc.bin
 File: amdgpu/polaris12_me.bin
+File: amdgpu/polaris12_me_2.bin
 File: amdgpu/polaris12_mec.bin
+File: amdgpu/polaris12_mec_2.bin
 File: amdgpu/polaris12_mec2.bin
+File: amdgpu/polaris12_mec2_2.bin
 File: amdgpu/polaris12_pfp.bin
+File: amdgpu/polaris12_pfp_2.bin
 File: amdgpu/polaris12_rlc.bin
 File: amdgpu/polaris12_sdma.bin
 File: amdgpu/polaris12_sdma1.bin
@@ -1992,6 +2025,16 @@ File: amdgpu/vega10_smc.bin
 File: amdgpu/vega10_sos.bin
 File: amdgpu/vega10_uvd.bin
 File: amdgpu/vega10_vce.bin
+File: amdgpu/raven_asd.bin
+File: amdgpu/raven_ce.bin
+File: amdgpu/raven_gpu_info.bin
+File: amdgpu/raven_me.bin
+File: amdgpu/raven_mec.bin
+File: amdgpu/raven_mec2.bin
+File: amdgpu/raven_pfp.bin
+File: amdgpu/raven_rlc.bin
+File: amdgpu/raven_sdma.bin
+File: amdgpu/raven_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -2000,6 +2043,7 @@ Licence: Redistributable. See LICENSE.amdgpu for details.
 Driver: s2255drv
 
 File: f2255usb.bin
+Version: 1.2.8
 
 Licence: Redistributable.
 
@@ -2080,6 +2124,7 @@ File: qed/qed_init_values_zipped-8.10.5.0.bin
 File: qed/qed_init_values_zipped-8.10.10.0.bin
 File: qed/qed_init_values_zipped-8.15.3.0.bin
 File: qed/qed_init_values_zipped-8.20.0.0.bin
+File: qed/qed_init_values_zipped-8.33.1.0.bin
 
 Licence:
   This file contains firmware data derived from proprietary unpublished
@@ -2178,6 +2223,7 @@ File: brcm/brcmfmac43242a.bin
 File: brcm/brcmfmac43143.bin
 File: brcm/brcmfmac43143-sdio.bin
 File: brcm/brcmfmac43430-sdio.bin
+File: brcm/brcmfmac43430a0-sdio.bin
 File: brcm/brcmfmac43455-sdio.bin
 File: brcm/brcmfmac4350c2-pcie.bin
 File: brcm/brcmfmac4350-pcie.bin
@@ -2193,6 +2239,11 @@ File: brcm/brcmfmac4366b-pcie.bin
 File: brcm/brcmfmac4371-pcie.bin
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
+
+File: brcm/brcmfmac4373-sdio.bin
+File: brcm/brcmfmac4373.bin
+
+Licence: Redistributable. See LICENCE.cypress for details.
 
 --------------------------------------------------------------------------
 
@@ -2243,11 +2294,11 @@ Version: 6.5.2.0.15 (Multi-role)
 File: ti-connectivity/wl127x-fw-4-plt.bin
 Version: 6.3.5.0.98 (PLT-only)
 File: ti-connectivity/wl127x-fw-5-sr.bin
-Version: 6.3.10.0.141 (Single-role)
+Version: 6.3.10.0.142 (Single-role)
 File: ti-connectivity/wl127x-fw-5-mr.bin
-Version: 6.5.7.0.49 (Multi-role)
+Version: 6.5.7.0.50 (Multi-role)
 File: ti-connectivity/wl127x-fw-5-plt.bin
-Version: 6.3.10.0.141 (PLT-only)
+Version: 6.3.10.0.142 (PLT-only)
 
 File: ti-connectivity/wl128x-fw.bin
 Version: 7.1.5.50.74 (STA-only)
@@ -2264,11 +2315,11 @@ Version: 7.5.2.0.15 (Multi-role)
 File: ti-connectivity/wl128x-fw-4-plt.bin
 Version: 7.3.5.0.98 (PLT)
 File: ti-connectivity/wl128x-fw-5-sr.bin
-Version: 7.3.10.0.141 (Single-role)
+Version: 7.3.10.0.142 (Single-role)
 File: ti-connectivity/wl128x-fw-5-mr.bin
-Version: 7.5.7.0.49 (Multi-role)
+Version: 7.5.7.0.50 (Multi-role)
 File: ti-connectivity/wl128x-fw-5-plt.bin
-Version: 7.3.10.2.141 (PLT-only)
+Version: 7.3.10.2.142 (PLT-only)
 
 File: ti-connectivity/wl127x-nvs.bin
 File: ti-connectivity/wl128x-nvs.bin
@@ -2307,7 +2358,7 @@ Version: 8.5.0.0.55
 File: ti-connectivity/wl18xx-fw-3.bin
 Version: 8.8.0.0.13
 File: ti-connectivity/wl18xx-fw-4.bin
-Version: 8.9.0.0.69
+Version: 8.9.0.0.76
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
 
@@ -2413,6 +2464,15 @@ Info: From Vendor's realtek/rtlwifi_linux_mac80211_0019.0320.2014V628 driver
 File: rtlwifi/rtl8723befw.bin
 Info: Update to version 36 - Sent by Realtek
 File: rtlwifi/rtl8723befw_36.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
+Driver: rtl8723de - Realtek 802.11ac WLAN driver for RTL8723DE
+
+Info: Supplied by Vendor at https://github.com/pkshih/rtlwifi_rtl8723de
+File: rtlwifi/rtl8723defw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -2888,13 +2948,45 @@ Version: BT_StonePeak_D0_REL_37_0002
 File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
 Version: BT_StonePeak_D1_REL_28_0001
 File: intel/ibt-11-5.ddc
-Version: LnP/SfP_REL0370
+Version: LnP/SfP_REL0432
 File: intel/ibt-11-5.sfi
-Version: BT_LightningPeak_REL0370
+Version: BT_LightningPeak_REL0432
 File: intel/ibt-12-16.ddc
-Version: BT_WindStormPeak_REL0101
+Version: BT_WindStormPeak_REL0185
 File: intel/ibt-12-16.sfi
-Version: BT_WindStormPeak_REL0101
+Version: BT_WindStormPeak_REL0185
+File: intel/ibt-17-16-1.sfi
+Version: BT_JeffersonPeak_B0_B0_REL0201
+File: intel/ibt-17-16-1.ddc
+Version: BT_JeffersonPeak_B0_B0_REL0201
+File: intel/ibt-17-2.sfi
+Version: BT_JeffersonPeak_B0_B0_REL0201
+File: intel/ibt-17-2.ddc
+Version: BT_JeffersonPeak_B0_B0_REL0201
+File: intel/ibt-17-0-1.sfi
+Version: BT_JeffersonPeak_A0_B0_REL0201
+File: intel/ibt-17-0-1.ddc
+Version: BT_JeffersonPeak_A0_B0_REL0201
+File: intel/ibt-17-1.sfi
+Version: BT_JeffersonPeak_A0_B0_REL0201
+File: intel/ibt-17-1.ddc
+Version: BT_JeffersonPeak_A0_B0_REL0201
+File: intel/ibt-18-16-1.sfi
+Version: BT_ThunderPeak_B0_B0_REL0201
+File: intel/ibt-18-16-1.ddc
+Version: BT_ThunderPeak_B0_B0_REL0201
+File: intel/ibt-18-2.sfi
+Version: BT_ThunderPeak_B0_B0_REL0201
+File: intel/ibt-18-2.ddc
+Version: BT_ThunderPeak_B0_B0_REL0201
+File: intel/ibt-18-0-1.sfi
+Version: BT_ThunderPeak_A0_B0_REL0201
+File: intel/ibt-18-0-1.ddc
+Version: BT_ThunderPeak_A0_B0_REL0201
+File: intel/ibt-18-1.sfi
+Version: BT_ThunderPeak_A0_B0_REL0201
+File: intel/ibt-18-1.ddc
+Version: BT_ThunderPeak_A0_B0_REL0201
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -3172,13 +3264,24 @@ File: intel/dsp_fw_kbl_v2042.bin
 Version: 9.21.00.2042_46
 File: intel/dsp_fw_kbl_v2630.bin
 Version: 9.21.00.2630_97
-Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v2630.bin
+File: intel/dsp_fw_kbl_v3266.bin
+Version: 9.21.00.3266_144
+Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v3266.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
 File: intel/dsp_fw_glk_v1814.bin
 Version: 9.92.01.1814
-Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v1814.bin
+File: intel/dsp_fw_glk_v2880.bin
+Version: 9.22.00.2880
+File: intel/dsp_fw_glk_v2768.bin
+Version: 9.22.01.2768
+Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v2768.bin
+
+File: intel/dsp_fw_cnl_v1191.bin
+Version: 10.00.00.1191
+File: intel/dsp_fw_cnl.bin
+Link: intel/dsp_fw_cnl.bin -> intel/dsp_fw_cnl_v1191.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3242,16 +3345,19 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 Driver: liquidio -- Cavium LiquidIO driver
 
 File: liquidio/lio_23xx_nic.bin
-Version: v1.6.1
+Version: v1.7.0
+
+File: liquidio/lio_23xx_vsw.bin
+Version: v1.7.0
 
 File: liquidio/lio_210nv_nic.bin
-Version: v1.6.1
+Version: v1.7.0
 
 File: liquidio/lio_210sv_nic.bin
-Version: v1.6.1
+Version: v1.7.0
 
 File: liquidio/lio_410nv_nic.bin
-Version: v1.6.1
+Version: v1.7.0
 
 Licence: Redistributable. See LICENCE.cavium for details
 
@@ -3270,8 +3376,9 @@ Driver: i915 -- Intel Integrated Graphics driver
 
 File: i915/skl_dmc_ver1_23.bin
 File: i915/skl_dmc_ver1_26.bin
+File: i915/skl_dmc_ver1_27.bin
 File: i915/skl_dmc_ver1.bin
-Version: DMC API/ABI ver 1 - release 26 for Skylake
+Version: DMC API/ABI ver 1 - release 27 for Skylake
 
 File: i915/bxt_dmc_ver1_07.bin
 File: i915/bxt_dmc_ver1.bin
@@ -3280,6 +3387,10 @@ Version: DMC API/ABI ver 1 - release 07 for Broxton
 File: i915/kbl_dmc_ver1_01.bin
 File: i915/kbl_dmc_ver1.bin
 Version: DMC API/ABI ver 1 - release 01 for Kabylake
+
+File: i915/kbl_dmc_ver1_04.bin
+File: i915/kbl_dmc_ver1_04.bin
+Version: DMC API/ABI ver 1 - release 04 for Kabylake
 
 File: i915/skl_guc_ver1.bin
 Version: Guc API/ABI ver 1 - release 1059 for Skylake
@@ -3290,6 +3401,9 @@ Version: Guc API/ABI ver 4 - release 3 for Skylake
 File: i915/skl_guc_ver6_1.bin
 File: i915/skl_guc_ver6.bin
 Version: Guc API/ABI ver 6 - release 1 for Skylake
+
+File: i915/skl_guc_ver9_33.bin
+Version: Guc API/ABI ver 9 - release 33 for Skylake
 
 File: i915/skl_huc_ver01_07_1398.bin
 Version: HuC API/ABI ver 1 - release 7 for Skylake
@@ -3303,9 +3417,23 @@ Version: HuC API/APB ver 2 - for Kabylake
 File: i915/bxt_guc_ver8_7.bin
 Version: Guc API/APB ver 8 - release 7 for Broxton
 
+File: i915/bxt_guc_ver9_29.bin
+Version: Guc API/APB ver 9 - release 29 for Broxton
+
 File: i915/kbl_guc_ver9_14.bin
 Version: Guc API/APB ver 9 release 14 for Kabylake
 
+File: i915/kbl_guc_ver9_39.bin
+Version: Guc API/APB ver 9 release 39 for Kabylake
+
+File: i915/glk_dmc_ver1_04.bin
+Version: DMC API/ABI ver 1 - release 04 for Geminilake
+
+File: i915/cnl_dmc_ver1_06.bin
+Version: DMC API/ABI ver 1 - release 06 for Cannonlake
+
+File: i915/cnl_dmc_ver1_07.bin
+Version: DMC API/ABI ver 1 - release 07 for Cannonlake
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
@@ -3492,6 +3620,26 @@ File: nvidia/gp10b/gr/sw_nonctx.bin
 File: nvidia/gp10b/pmu/desc.bin
 File: nvidia/gp10b/pmu/image.bin
 File: nvidia/gp10b/pmu/sig.bin
+File: nvidia/gp108/acr/bl.bin
+File: nvidia/gp108/acr/ucode_load.bin
+File: nvidia/gp108/acr/ucode_unload.bin
+File: nvidia/gp108/acr/unload_bl.bin
+File: nvidia/gp108/gr/fecs_bl.bin
+File: nvidia/gp108/gr/fecs_data.bin
+File: nvidia/gp108/gr/fecs_inst.bin
+File: nvidia/gp108/gr/fecs_sig.bin
+File: nvidia/gp108/gr/gpccs_bl.bin
+File: nvidia/gp108/gr/gpccs_data.bin
+File: nvidia/gp108/gr/gpccs_inst.bin
+File: nvidia/gp108/gr/gpccs_sig.bin
+File: nvidia/gp108/gr/sw_bundle_init.bin
+File: nvidia/gp108/gr/sw_ctx.bin
+File: nvidia/gp108/gr/sw_method_init.bin
+File: nvidia/gp108/gr/sw_nonctx.bin
+File: nvidia/gp108/nvdec/scrubber.bin
+File: nvidia/gp108/sec2/desc.bin
+File: nvidia/gp108/sec2/image.bin
+File: nvidia/gp108/sec2/sig.bin
 
 
 Licence: Redistributable. See LICENCE.nvidia for details
@@ -3594,8 +3742,30 @@ File: netronome/nic_AMDA0097-0001_4x10_1x40.nffw
 File: netronome/nic_AMDA0099-0001_2x25.nffw
 File: netronome/nic_AMDA0096-0001_2x10.nffw
 File: netronome/nic_AMDA0097-0001_8x10.nffw
+File: netronome/nic/nic_AMDA0081-0001_1x40.nffw
+File: netronome/nic/nic_AMDA0097-0001_2x40.nffw
+File: netronome/nic/nic_AMDA0099-0001_2x10.nffw
+File: netronome/nic/nic_AMDA0081-0001_4x10.nffw
+File: netronome/nic/nic_AMDA0097-0001_4x10_1x40.nffw
+File: netronome/nic/nic_AMDA0099-0001_2x25.nffw
+File: netronome/nic/nic_AMDA0096-0001_2x10.nffw
+File: netronome/nic/nic_AMDA0097-0001_8x10.nffw
 
-Version: v0.6.1
+Version: v2.0.0
+
+File: netronome/flower/nic_AMDA0099.nffw
+File: netronome/flower/nic_AMDA0096.nffw
+File: netronome/flower/nic_AMDA0097.nffw
+File: netronome/flower/nic_AMDA0081-0001_1x40.nffw
+File: netronome/flower/nic_AMDA0097-0001_2x40.nffw
+File: netronome/flower/nic_AMDA0099-0001_2x10.nffw
+File: netronome/flower/nic_AMDA0081-0001_4x10.nffw
+File: netronome/flower/nic_AMDA0097-0001_4x10_1x40.nffw
+File: netronome/flower/nic_AMDA0099-0001_2x25.nffw
+File: netronome/flower/nic_AMDA0096-0001_2x10.nffw
+File: netronome/flower/nic_AMDA0097-0001_8x10.nffw
+
+Version: r5642
 
 Licence: Redistributable. See LICENCE.Netronome for details
 
@@ -3622,6 +3792,15 @@ File: qcom/venus-1.8/venus.b04
 
 Version: 1.8-00109
 
+File: qcom/venus-4.2/venus.mdt
+File: qcom/venus-4.2/venus.b00
+File: qcom/venus-4.2/venus.b01
+File: qcom/venus-4.2/venus.b02
+File: qcom/venus-4.2/venus.b03
+File: qcom/venus-4.2/venus.b04
+
+Version: 4.2
+
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
@@ -3646,8 +3825,53 @@ File: qcom/a300_pfp.fw
 Link: a300_pfp.fw -> qcom/a300_pfp.fw
 File: qcom/a300_pm4.fw
 Link: a300_pm4.fw -> qcom/a300_pm4.fw
+File: qcom/a530_pfp.fw
+File: qcom/a530_pm4.fw
+File: qcom/a530v3_gpmu.fw2
+File: qcom/a530_zap.b00
+File: qcom/a530_zap.b01
+File: qcom/a530_zap.b02
+File: qcom/a530_zap.mdt
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
 https://developer.qualcomm.com/hardware/dragonboard-410c/tools
+
+--------------------------------------------------------------------------
+
+Driver: mlxsw_spectrum - Mellanox Spectrum switch
+
+File: mellanox/mlxsw_spectrum-13.1420.122.mfa2
+File: mellanox/mlxsw_spectrum-13.1530.152.mfa2
+
+Licence:
+ Copyright (c) 2017 Mellanox Technologies, Ltd. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. Neither the names of the copyright holders nor the names of its
+    contributors may be used to endorse or promote products derived from
+    this software without specific prior written permission.
+
+ Alternatively, this software may be distributed under the terms of the
+ GNU General Public License ("GPL") version 2 as published by the Free
+ Software Foundation.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
