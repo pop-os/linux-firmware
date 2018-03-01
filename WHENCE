@@ -2121,15 +2121,17 @@ Driver: qed - QLogic 4xxxx Ethernet Driver Core Module.
 File: qed/qed_init_values_zipped-8.4.2.0.bin
 File: qed/qed_init_values_zipped-8.7.3.0.bin
 File: qed/qed_init_values_zipped-8.10.5.0.bin
+File: qed/qed_init_values-8.10.9.0.bin
 File: qed/qed_init_values_zipped-8.10.10.0.bin
 File: qed/qed_init_values_zipped-8.15.3.0.bin
 File: qed/qed_init_values_zipped-8.20.0.0.bin
+File: qed/qed_init_values-8.30.12.0.bin
 File: qed/qed_init_values_zipped-8.33.1.0.bin
 
 Licence:
   This file contains firmware data derived from proprietary unpublished
   source code.
-  Copyright (c) 2015-2017 QLogic Corporation.
+  Copyright (c) 2015-2018 QLogic Corporation.
 
   Permission is hereby granted for the distribution of this firmware data
   in hexadecimal or equivalent format, provided this copyright notice is
@@ -2749,7 +2751,7 @@ File: ath10k/QCA988X/hw2.0/firmware-4.bin
 Version: 10.2.4.45
 Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA988X/hw2.0/firmware-5.bin
-Version: 10.2.4.70.54
+Version: 10.2.4-1.0-00037
 Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA6174/hw2.1/board.bin
 File: ath10k/QCA6174/hw2.1/board-2.bin
@@ -2762,12 +2764,12 @@ File: ath10k/QCA6174/hw3.0/firmware-4.bin
 Version: WLAN.RM.2.0-00180-QCARMSWPZ-1
 Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA6174/hw3.0/firmware-6.bin
-Version: WLAN.RM.4.4.1-00051-QCARMSWP-1
+Version: WLAN.RM.4.4.1-00079-QCARMSWPZ-1
 Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
 File: ath10k/QCA9377/hw1.0/board.bin
 File: ath10k/QCA9377/hw1.0/board-2.bin
 File: ath10k/QCA9377/hw1.0/firmware-5.bin
-Version: WLAN.TF.1.0-00267-1
+Version: WLAN.TF.1.0-00002-QCATFSWPZ-5
 Licence: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA99X0/hw2.0/board.bin
 File: ath10k/QCA99X0/hw2.0/firmware-5.bin
@@ -2775,19 +2777,19 @@ Version: 10.4.1.00030-1
 Licence: ath10k/QCA99X0/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA4019/hw1.0/board-2.bin
 File: ath10k/QCA4019/hw1.0/firmware-5.bin
-Version: 10.4-3.4-00082
+Version: 10.4-3.5.3-00053
 Licence: ath10k/QCA4019/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9887/hw1.0/board.bin
 File: ath10k/QCA9887/hw1.0/firmware-5.bin
-Version: 10.2.4-1.0-00029
+Version: 10.2.4-1.0-00037
 Licence: ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9888/hw2.0/board-2.bin
 File: ath10k/QCA9888/hw2.0/firmware-5.bin
-Version: 10.4-3.5.1-00014
+Version: 10.4-3.5.3-00053
 Licence: ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9984/hw1.0/board-2.bin
 File: ath10k/QCA9984/hw1.0/firmware-5.bin
-Version: 10.4-3.4-00082
+Version: 10.4-3.5.3-00053
 Licence: ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
@@ -2999,6 +3001,10 @@ File: rtl_bt/rtl8812ae_fw.bin
 File: rtl_bt/rtl8821a_fw.bin
 File: rtl_bt/rtl8822b_fw.bin
 File: rtl_bt/rtl8822b_config.bin
+File: rtl_bt/rtl8723d_fw.bin
+File: rtl_bt/rtl8723d_config.bin
+File: rtl_bt/rtl8821c_fw.bin
+File: rtl_bt/rtl8821c_config.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3006,6 +3012,7 @@ Found in vendor driver, linux_bt_usb_2.11.20140423_8723be.rar
 From https://github.com/troy-tan/driver_store
 Files rtl_bt/rtl8822b_* came directly from Realtek. These files are
 updated on April 14, 2017.
+Files rtl_bt/rtl8821c_* and rtl_bt/rtl8723d_* came directly from Realtek.
 
 --------------------------------------------------------------------------
 
@@ -3739,6 +3746,7 @@ File: netronome/nic_AMDA0097-0001_2x40.nffw
 File: netronome/nic_AMDA0099-0001_2x10.nffw
 File: netronome/nic_AMDA0081-0001_4x10.nffw
 File: netronome/nic_AMDA0097-0001_4x10_1x40.nffw
+File: netronome/nic_AMDA0099-0001_1x10_1x25.nffw
 File: netronome/nic_AMDA0099-0001_2x25.nffw
 File: netronome/nic_AMDA0096-0001_2x10.nffw
 File: netronome/nic_AMDA0097-0001_8x10.nffw
@@ -3747,11 +3755,12 @@ File: netronome/nic/nic_AMDA0097-0001_2x40.nffw
 File: netronome/nic/nic_AMDA0099-0001_2x10.nffw
 File: netronome/nic/nic_AMDA0081-0001_4x10.nffw
 File: netronome/nic/nic_AMDA0097-0001_4x10_1x40.nffw
+File: netronome/nic/nic_AMDA0099-0001_1x10_1x25.nffw
 File: netronome/nic/nic_AMDA0099-0001_2x25.nffw
 File: netronome/nic/nic_AMDA0096-0001_2x10.nffw
 File: netronome/nic/nic_AMDA0097-0001_8x10.nffw
 
-Version: v2.0.0
+Version: v2.0.4
 
 File: netronome/flower/nic_AMDA0099.nffw
 File: netronome/flower/nic_AMDA0096.nffw
