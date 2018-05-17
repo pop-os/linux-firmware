@@ -8,6 +8,14 @@ kernel.
 
 --------------------------------------------------------------------------
 
+Driver: BCM-0bb4-0306 Cypress Bluetooth firmware for HTC Vive
+
+File: brcm/BCM-0bb4-0306.hcd
+
+Licence: Redistributable. See LICENCE.cypress for details.
+
+--------------------------------------------------------------------------
+
 Driver: ambassador -- Madge Ambassador (Collage PCI 155 Server) ATM NIC.
 
 File: atmsar11.fw
@@ -569,14 +577,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.17.14.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.17.14.0.bin
+File: cxgb4/t4fw-1.19.1.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.19.1.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.17.14.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.17.14.0.bin
-File: cxgb4/t6fw-1.17.14.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.17.14.0.bin
+File: cxgb4/t5fw-1.19.1.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.19.1.0.bin
+File: cxgb4/t6fw-1.19.1.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.19.1.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 
@@ -742,7 +750,7 @@ File: mrvl/usb8797_uapsta.bin
 Version: 14.68.29.p49
 
 File: mrvl/sd8897_uapsta.bin
-Version: 15.68.7.p87
+Version: V15.68.7.154
 
 File: mrvl/usb8897_uapsta.bin
 Version: 15.68.4.p103
@@ -769,7 +777,7 @@ File: mrvl/pcie8997_wlan_v4.bin
 Version: 16.68.1.p97
 
 File: mrvl/usbusb8997_combo_v4.bin
-Version: 16.68.1.p113
+Version: V16.68.1.p162
 
 Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
 http://git.marvell.com/?p=mwifiex-firmware.git
@@ -861,7 +869,7 @@ File: iwlwifi-7260-16.ucode
 Version 16.242414.0
 
 File: iwlwifi-7260-17.ucode
-Version 17.608620.0
+Version 17.388f111f.0
 
 File: iwlwifi-3160-7.ucode
 Version: 22.1.7.0
@@ -885,7 +893,7 @@ File: iwlwifi-3160-16.ucode
 Version 16.242414.0
 
 File: iwlwifi-3160-17.ucode
-Version 17.608620.0
+Version 17.388f111f.0
 
 File: iwlwifi-7265-8.ucode
 Version: 22.24.8.0
@@ -906,7 +914,7 @@ File: iwlwifi-7265-16.ucode
 Version 16.242414.0
 
 File: iwlwifi-7265-17.ucode
-Version 17.608620.0
+Version 17.388f111f.0
 
 File: iwlwifi-7265D-10.ucode
 Version: 23.15.10.0
@@ -933,7 +941,7 @@ File: iwlwifi-7265D-27.ucode
 Version 27.541033.0
 
 File: iwlwifi-7265D-29.ucode
-Version 29.610311.0
+Version 29.3e3b4de5.0
 
 File: iwlwifi-3168-21.ucode
 Version 21.302800.0
@@ -945,7 +953,7 @@ File: iwlwifi-3168-27.ucode
 Version 27.541033.0
 
 File: iwlwifi-3168-29.ucode
-Version 29.610311.0
+Version 29.3e3b4de5.0
 
 File: iwlwifi-8000C-13.ucode
 Version: 25.30.13.0
@@ -968,6 +976,9 @@ Version 31.560484.0
 File: iwlwifi-8000C-34.ucode
 Version 34.610288.0
 
+File: iwlwifi-8000C-36.ucode
+Version 36.e91976c0.0
+
 File: iwlwifi-8265-21.ucode
 Version 21.302800.0
 
@@ -983,17 +994,26 @@ Version 31.560484.0
 File: iwlwifi-8265-34.ucode
 Version 34.610288.0
 
-File: iwlwifi-9260-th-b0-jf-b0-33.ucode
-Version: 33.610294.0
+File: iwlwifi-8265-36.ucode
+Version 36.e91976c0.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-33.ucode
 Version: 33.610294.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-34.ucode
-Version: 34.618819.0
+Version: 34.ba501b11.0
+
+File: iwlwifi-9000-pu-b0-jf-b0-38.ucode
+Version: 38.c0e03d94.0
+
+File: iwlwifi-9260-th-b0-jf-b0-33.ucode
+Version: 33.610294.0
 
 File: iwlwifi-9260-th-b0-jf-b0-34.ucode
-Version: 34.618819.0
+Version: 34.ba501b11.0
+
+File: iwlwifi-9260-th-b0-jf-b0-38.ucode
+Version: 38.c0e03d94.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -2123,10 +2143,15 @@ File: qed/qed_init_values_zipped-8.7.3.0.bin
 File: qed/qed_init_values_zipped-8.10.5.0.bin
 File: qed/qed_init_values-8.10.9.0.bin
 File: qed/qed_init_values_zipped-8.10.10.0.bin
+File: qed/qed_init_values-8.14.6.0.bin
 File: qed/qed_init_values_zipped-8.15.3.0.bin
+File: qed/qed_init_values-8.18.9.0.bin
 File: qed/qed_init_values_zipped-8.20.0.0.bin
+File: qed/qed_init_values-8.20.0.0.bin
 File: qed/qed_init_values-8.30.12.0.bin
 File: qed/qed_init_values_zipped-8.33.1.0.bin
+File: qed/qed_init_values_zipped-8.33.11.0.bin
+File: qed/qed_init_values-8.33.12.0.bin
 
 Licence:
   This file contains firmware data derived from proprietary unpublished
@@ -2948,23 +2973,23 @@ Version: BT_StonePeak_C0_REL_59_0001
 File: intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq
 Version: BT_StonePeak_D0_REL_37_0002
 File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
-Version: BT_StonePeak_D1_REL_28_0001
+Version: BT_StonePeak_D1_REL_51_00001
 File: intel/ibt-11-5.ddc
-Version: LnP/SfP_REL0432
+Version: LnP/SfP_REL0458
 File: intel/ibt-11-5.sfi
-Version: BT_LightningPeak_REL0432
+Version: BT_LightningPeak_REL0458
 File: intel/ibt-12-16.ddc
-Version: BT_WindStormPeak_REL0185
+Version: BT_WindStormPeak_REL0203
 File: intel/ibt-12-16.sfi
-Version: BT_WindStormPeak_REL0185
+Version: BT_WindStormPeak_REL0203
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0201
+Version: BT_JeffersonPeak_B0_B0_REL0219
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0201
+Version: BT_JeffersonPeak_B0_B0_REL0219
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0201
+Version: BT_JeffersonPeak_B0_B0_REL0219
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0201
+Version: BT_JeffersonPeak_B0_B0_REL0219
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -2974,13 +2999,13 @@ Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL0201
+Version: BT_ThunderPeak_B0_B0_REL0230
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL0201
+Version: BT_ThunderPeak_B0_B0_REL0230
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL0201
+Version: BT_ThunderPeak_B0_B0_REL0230
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL0201
+Version: BT_ThunderPeak_B0_B0_REL0230
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -3173,7 +3198,13 @@ Driver: rsi -- Redpine Signals Inc 91x driver
 File: rsi_91x.fw
 
 File: rsi/rs9113_wlan_qspi.rps
-Version: 1.5.3
+Version: 1.6.1
+
+File: rsi/rs9113_wlan_bt_dual_mode.rps
+Version: 1.6.1
+
+File: rsi/rs9113_ap_bt_dual_mode.rps
+Version: 1.6.1
 
 Licence:
  * Firmware is:
@@ -3253,13 +3284,17 @@ Driver: snd-soc-skl
 
 File: intel/dsp_fw_release_v969.bin
 Version: 8.20.00.969
-Link: intel/dsp_fw_release.bin -> intel/dsp_fw_release_v969.bin
+File: intel/dsp_fw_release_v3402.bin
+Version: 9.21.00.3402_161
+Link: intel/dsp_fw_release.bin -> intel/dsp_fw_release_v3402.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
 File: intel/dsp_fw_bxtn_v2219.bin
 Version: 9.22.01.2219_64
-Link: intel/dsp_fw_bxtn.bin -> intel/dsp_fw_bxtn_v2219.bin
+File: intel/dsp_fw_bxtn_v3366.bin
+Version: 9.22.01.3366_157
+Link: intel/dsp_fw_bxtn.bin -> intel/dsp_fw_bxtn_v3366.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3273,7 +3308,11 @@ File: intel/dsp_fw_kbl_v2630.bin
 Version: 9.21.00.2630_97
 File: intel/dsp_fw_kbl_v3266.bin
 Version: 9.21.00.3266_144
-Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v3266.bin
+File: intel/dsp_fw_kbl_v3420.bin
+Version: 9.21.00.3420_163
+File: intel/dsp_fw_kbl_v3402.bin
+Version: 9.21.00.3402_161
+Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v3402.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3283,7 +3322,9 @@ File: intel/dsp_fw_glk_v2880.bin
 Version: 9.22.00.2880
 File: intel/dsp_fw_glk_v2768.bin
 Version: 9.22.01.2768
-Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v2768.bin
+File: intel/dsp_fw_glk_v3366.bin
+Version: 9.22.01.3366_157
+Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v3366.bin
 
 File: intel/dsp_fw_cnl_v1191.bin
 Version: 10.00.00.1191
@@ -3667,7 +3708,7 @@ License: Redistributable. See LICENSE.atmel for details
 Driver: hfi1 - Intel OPA Gen 1 adapter
 
 File: hfi1_dc8051.fw
-Version: 1.24.0
+Version: 1.26.1
 File: hfi1_fabric.fw
 Version: 0x1055
 File: hfi1_pcie.fw
@@ -3741,15 +3782,18 @@ Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for det
 
 Driver: nfp - Netronome Flow Processor
 
-File: netronome/nic_AMDA0081-0001_1x40.nffw
-File: netronome/nic_AMDA0097-0001_2x40.nffw
-File: netronome/nic_AMDA0099-0001_2x10.nffw
-File: netronome/nic_AMDA0081-0001_4x10.nffw
-File: netronome/nic_AMDA0097-0001_4x10_1x40.nffw
-File: netronome/nic_AMDA0099-0001_1x10_1x25.nffw
-File: netronome/nic_AMDA0099-0001_2x25.nffw
-File: netronome/nic_AMDA0096-0001_2x10.nffw
-File: netronome/nic_AMDA0097-0001_8x10.nffw
+Link: netronome/nic_AMDA0081-0001_1x40.nffw -> nic/nic_AMDA0081-0001_1x40.nffw
+Link: netronome/nic_AMDA0097-0001_2x40.nffw -> nic/nic_AMDA0097-0001_2x40.nffw
+Link: netronome/nic_AMDA0099-0001_2x10.nffw -> nic/nic_AMDA0099-0001_2x10.nffw
+Link: netronome/nic_AMDA0081-0001_4x10.nffw -> nic/nic_AMDA0081-0001_4x10.nffw
+Link: netronome/nic_AMDA0097-0001_4x10_1x40.nffw -> nic/nic_AMDA0097-0001_4x10_1x40.nffw
+Link: netronome/nic_AMDA0099-0001_1x10_1x25.nffw -> nic/nic_AMDA0099-0001_1x10_1x25.nffw
+Link: netronome/nic_AMDA0099-0001_2x25.nffw -> nic/nic_AMDA0099-0001_2x25.nffw
+Link: netronome/nic_AMDA0096-0001_2x10.nffw -> nic/nic_AMDA0096-0001_2x10.nffw
+Link: netronome/nic_AMDA0097-0001_8x10.nffw -> nic/nic_AMDA0097-0001_8x10.nffw
+Link: netronome/nic_AMDA0058-0011_2x40.nffw -> nic/nic_AMDA0058-0011_2x40.nffw
+Link: netronome/nic_AMDA0058-0012_2x40.nffw -> nic/nic_AMDA0058-0012_2x40.nffw
+Link: netronome/nic_AMDA0078-0011_1x100.nffw -> nic/nic_AMDA0078-0011_1x100.nffw
 File: netronome/nic/nic_AMDA0081-0001_1x40.nffw
 File: netronome/nic/nic_AMDA0097-0001_2x40.nffw
 File: netronome/nic/nic_AMDA0099-0001_2x10.nffw
@@ -3759,22 +3803,26 @@ File: netronome/nic/nic_AMDA0099-0001_1x10_1x25.nffw
 File: netronome/nic/nic_AMDA0099-0001_2x25.nffw
 File: netronome/nic/nic_AMDA0096-0001_2x10.nffw
 File: netronome/nic/nic_AMDA0097-0001_8x10.nffw
+File: netronome/nic/nic_AMDA0058-0011_2x40.nffw
+File: netronome/nic/nic_AMDA0058-0012_2x40.nffw
+File: netronome/nic/nic_AMDA0078-0011_1x100.nffw
 
-Version: v2.0.4
+Version: v2.0.7
 
 File: netronome/flower/nic_AMDA0099.nffw
 File: netronome/flower/nic_AMDA0096.nffw
 File: netronome/flower/nic_AMDA0097.nffw
-File: netronome/flower/nic_AMDA0081-0001_1x40.nffw
-File: netronome/flower/nic_AMDA0097-0001_2x40.nffw
-File: netronome/flower/nic_AMDA0099-0001_2x10.nffw
-File: netronome/flower/nic_AMDA0081-0001_4x10.nffw
-File: netronome/flower/nic_AMDA0097-0001_4x10_1x40.nffw
-File: netronome/flower/nic_AMDA0099-0001_2x25.nffw
-File: netronome/flower/nic_AMDA0096-0001_2x10.nffw
-File: netronome/flower/nic_AMDA0097-0001_8x10.nffw
+Link: netronome/flower/nic_AMDA0081-0001_1x40.nffw -> netronome/flower/nic_AMDA0097.nffw
+Link: netronome/flower/nic_AMDA0097-0001_2x40.nffw -> netronome/flower/nic_AMDA0097.nffw
+Link: netronome/flower/nic_AMDA0099-0001_2x10.nffw -> netronome/flower/nic_AMDA0099.nffw
+Link: netronome/flower/nic_AMDA0081-0001_4x10.nffw -> netronome/flower/nic_AMDA0097.nffw
+Link: netronome/flower/nic_AMDA0097-0001_4x10_1x40.nffw -> netronome/flower/nic_AMDA0097.nffw
+Link: netronome/flower/nic_AMDA0099-0001_2x25.nffw -> netronome/flower/nic_AMDA0099.nffw
+Link: netronome/flower/nic_AMDA0096-0001_2x10.nffw -> netronome/flower/nic_AMDA0096.nffw
+Link: netronome/flower/nic_AMDA0097-0001_8x10.nffw -> netronome/flower/nic_AMDA0097.nffw
+Link: netronome/flower/nic_AMDA0099-0001_1x10_1x25.nffw -> netronome/flower/nic_AMDA0099.nffw
 
-Version: r5642
+Version: r5701
 
 Licence: Redistributable. See LICENCE.Netronome for details
 
@@ -3784,7 +3832,7 @@ Driver: wil6210 - Qualcomm Atheros support for 11ad family of chips
 
 File: wil6210.fw
 File: wil6210.brd
-Version: 4.1.0.55
+Version: 5.2.0.18
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
@@ -3853,6 +3901,7 @@ Driver: mlxsw_spectrum - Mellanox Spectrum switch
 
 File: mellanox/mlxsw_spectrum-13.1420.122.mfa2
 File: mellanox/mlxsw_spectrum-13.1530.152.mfa2
+File: mellanox/mlxsw_spectrum-13.1620.192.mfa2
 
 Licence:
  Copyright (c) 2017 Mellanox Technologies, Ltd. All rights reserved.
