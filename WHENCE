@@ -779,6 +779,9 @@ Version: 16.68.1.p97
 File: mrvl/usbusb8997_combo_v4.bin
 Version: V16.68.1.p162
 
+File: mrvl/sdsd8997_combo_v4.bin
+Version: W16.68.1.p179
+
 Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
 http://git.marvell.com/?p=mwifiex-firmware.git
 
@@ -869,7 +872,7 @@ File: iwlwifi-7260-16.ucode
 Version: 16.242414.0
 
 File: iwlwifi-7260-17.ucode
-Version: 17.388f111f.0
+Version: 17.bfb58538.0
 
 File: iwlwifi-3160-7.ucode
 Version: 22.1.7.0
@@ -893,7 +896,7 @@ File: iwlwifi-3160-16.ucode
 Version: 16.242414.0
 
 File: iwlwifi-3160-17.ucode
-Version: 17.388f111f.0
+Version: 17.bfb58538.0
 
 File: iwlwifi-7265-8.ucode
 Version: 22.24.8.0
@@ -914,7 +917,7 @@ File: iwlwifi-7265-16.ucode
 Version: 16.242414.0
 
 File: iwlwifi-7265-17.ucode
-Version: 17.388f111f.0
+Version: 17.bfb58538.0
 
 File: iwlwifi-7265D-10.ucode
 Version: 23.15.10.0
@@ -977,7 +980,7 @@ File: iwlwifi-8000C-34.ucode
 Version: 34.610288.0
 
 File: iwlwifi-8000C-36.ucode
-Version: 36.e91976c0.0
+Version: 36.7596afd4.0
 
 File: iwlwifi-8265-21.ucode
 Version: 21.302800.0
@@ -995,7 +998,7 @@ File: iwlwifi-8265-34.ucode
 Version: 34.610288.0
 
 File: iwlwifi-8265-36.ucode
-Version: 36.e91976c0.0
+Version: 36.7596afd4.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-33.ucode
 Version: 33.610294.0
@@ -1004,7 +1007,10 @@ File: iwlwifi-9000-pu-b0-jf-b0-34.ucode
 Version: 34.ba501b11.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-38.ucode
-Version: 38.c0e03d94.0
+Version: 38.755cfdd8.0
+
+File: iwlwifi-9000-pu-b0-jf-b0-41.ucode
+Version: 38.1f1e8d4a.0
 
 File: iwlwifi-9260-th-b0-jf-b0-33.ucode
 Version: 33.610294.0
@@ -1013,7 +1019,10 @@ File: iwlwifi-9260-th-b0-jf-b0-34.ucode
 Version: 34.ba501b11.0
 
 File: iwlwifi-9260-th-b0-jf-b0-38.ucode
-Version: 38.c0e03d94.0
+Version: 38.755cfdd8.0
+
+File: iwlwifi-9260-th-b0-jf-b0-41.ucode
+Version: 41.1f1e8d4a.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -2155,6 +2164,7 @@ File: amdgpu/raven_pfp.bin
 File: amdgpu/raven_rlc.bin
 File: amdgpu/raven_sdma.bin
 File: amdgpu/raven_vcn.bin
+File: amdgpu/raven_dmcu.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -2254,6 +2264,7 @@ File: qed/qed_init_values_zipped-8.33.11.0.bin
 File: qed/qed_init_values-8.33.12.0.bin
 File: qed/qed_init_values_zipped-8.37.2.0.bin
 File: qed/qed_init_values_zipped-8.37.7.0.bin
+File: qed/qed_init_values-8.37.7.0.bin
 
 Licence:
   This file contains firmware data derived from proprietary unpublished
@@ -2505,6 +2516,10 @@ the firmwares for wl18xx chips must be located in
 
 Driver: TI_ST - Texas Instruments bluetooth driver
 
+File: ti-connectivity/TIInit_6.2.31.bts
+Version: 2.44 (TI_P31.123)
+File: ti-connectivity/TIInit_6.6.15.bts
+Version: 2.14 (TI_P6_15.93)
 File: ti-connectivity/TIInit_7.2.31.bts
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
@@ -2659,6 +2674,16 @@ Driver: rtl8822be - Realtek 802.11n WLAN driver for RTL8822BE
 
 Info: Sent to Larry Finger by Realtek engineer Ping-Ke Shih <pkshih@realtek.com>
 File: rtlwifi/rtl8822befw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
+Driver: rtw88 - Realtek 802.11ac WLAN driver for RTL8822BE and RTL8822CE
+
+Info: Sent to Larry Finger by Realtek engineer Yan-Hsuan Chuang <yhchuang@realtek.com>
+File: rtw88/rtw8822b_fw.bin
+File: rtw88/rtw8822c_fw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -2883,7 +2908,7 @@ File: ath10k/QCA988X/hw2.0/firmware-4.bin
 Version: 10.2.4.45
 Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA988X/hw2.0/firmware-5.bin
-Version: 10.2.4-1.0-00037
+Version: 10.2.4-1.0-00041
 Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA6174/hw2.1/board.bin
 File: ath10k/QCA6174/hw2.1/board-2.bin
@@ -2896,7 +2921,7 @@ File: ath10k/QCA6174/hw3.0/firmware-4.bin
 Version: WLAN.RM.2.0-00180-QCARMSWPZ-1
 Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA6174/hw3.0/firmware-6.bin
-Version: WLAN.RM.4.4.1-00079-QCARMSWPZ-1
+Version: RM.4.4.1.c2-00057-QCARMSWP-1
 Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
 File: ath10k/QCA9377/hw1.0/board.bin
 File: ath10k/QCA9377/hw1.0/board-2.bin
@@ -2909,20 +2934,23 @@ Version: 10.4.1.00030-1
 Licence: ath10k/QCA99X0/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA4019/hw1.0/board-2.bin
 File: ath10k/QCA4019/hw1.0/firmware-5.bin
-Version: 10.4-3.5.3-00053
+Version: 10.4-3.6-00140
 Licence: ath10k/QCA4019/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9887/hw1.0/board.bin
 File: ath10k/QCA9887/hw1.0/firmware-5.bin
-Version: 10.2.4-1.0-00037
+Version: 10.2.4-1.0-00041
 Licence: ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9888/hw2.0/board-2.bin
 File: ath10k/QCA9888/hw2.0/firmware-5.bin
-Version: 10.4-3.5.3-00053
+Version: 10.4-3.6-00140
 Licence: ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9984/hw1.0/board-2.bin
 File: ath10k/QCA9984/hw1.0/firmware-5.bin
-Version: 10.4-3.5.3-00053
+Version: 10.4-3.6.0.1-00003
 Licence: ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
+File: ath10k/QCA9377/hw1.0/firmware-6.bin
+Version: WLAN.TF.2.1-00021-QCARMSWP-1
+Licence: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-6.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
@@ -3082,21 +3110,21 @@ Version: BT_StonePeak_D0_REL_50_0002
 File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
 Version: BT_StonePeak_D1_REL_52_00005
 File: intel/ibt-11-5.ddc
-Version: LnP/SfP_REL0487
+Version: LnP/SfP_REL0516
 File: intel/ibt-11-5.sfi
 Version: BT_LightningPeak_REL0487
 File: intel/ibt-12-16.ddc
-Version: BT_WindStormPeak_REL0244
+Version: BT_WindStormPeak_REL0285
 File: intel/ibt-12-16.sfi
-Version: BT_WindStormPeak_REL0244
+Version: BT_WindStormPeak_REL0285
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0329
+Version: BT_JeffersonPeak_B0_B0_REL0369
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0329
+Version: BT_JeffersonPeak_B0_B0_REL0369
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0329
+Version: BT_JeffersonPeak_B0_B0_REL0369
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0329
+Version: BT_JeffersonPeak_B0_B0_REL0369
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3106,13 +3134,13 @@ Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL0329
+Version: BT_ThunderPeak_B0_B0_REL0369
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL0329
+Version: BT_ThunderPeak_B0_B0_REL0369
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL0329
+Version: BT_ThunderPeak_B0_B0_REL0369
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL0329
+Version: BT_ThunderPeak_B0_B0_REL0369
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -3137,6 +3165,7 @@ File: rtl_bt/rtl8723d_fw.bin
 File: rtl_bt/rtl8723d_config.bin
 File: rtl_bt/rtl8821c_fw.bin
 File: rtl_bt/rtl8821c_config.bin
+File: rtl_bt/rtl8822cu_fw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3145,6 +3174,7 @@ From https://github.com/troy-tan/driver_store
 Files rtl_bt/rtl8822b_* came directly from Realtek. These files are
 updated on April 14, 2017.
 Files rtl_bt/rtl8821c_* and rtl_bt/rtl8723d_* came directly from Realtek.
+File rtl_bt/rtl8822cu_fw.bin came directly from Realtek.
 
 --------------------------------------------------------------------------
 
@@ -3514,7 +3544,7 @@ Version: v1.7.2
 File: liquidio/lio_410nv_nic.bin
 Version: v1.7.2
 
-Licence: Redistributable. See LICENCE.cavium for details
+Licence: Redistributable. See LICENCE.cavium_liquidio for details
 
 --------------------------------------------------------------------------
 
@@ -3589,6 +3619,9 @@ Version: DMC API/ABI ver 1 - release 06 for Cannonlake
 
 File: i915/cnl_dmc_ver1_07.bin
 Version: DMC API/ABI ver 1 - release 07 for Cannonlake
+
+File: i915/icl_dmc_ver1_07.bin
+Version: DMC API/ABI ver 1 - release 07 for icelake
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
@@ -3795,7 +3828,26 @@ File: nvidia/gp108/nvdec/scrubber.bin
 File: nvidia/gp108/sec2/desc.bin
 File: nvidia/gp108/sec2/image.bin
 File: nvidia/gp108/sec2/sig.bin
-
+File: nvidia/gv100/acr/bl.bin
+File: nvidia/gv100/acr/ucode_load.bin
+File: nvidia/gv100/acr/ucode_unload.bin
+File: nvidia/gv100/acr/unload_bl.bin
+File: nvidia/gv100/gr/fecs_bl.bin
+File: nvidia/gv100/gr/fecs_data.bin
+File: nvidia/gv100/gr/fecs_inst.bin
+File: nvidia/gv100/gr/fecs_sig.bin
+File: nvidia/gv100/gr/gpccs_bl.bin
+File: nvidia/gv100/gr/gpccs_data.bin
+File: nvidia/gv100/gr/gpccs_inst.bin
+File: nvidia/gv100/gr/gpccs_sig.bin
+File: nvidia/gv100/gr/sw_bundle_init.bin
+File: nvidia/gv100/gr/sw_ctx.bin
+File: nvidia/gv100/gr/sw_method_init.bin
+File: nvidia/gv100/gr/sw_nonctx.bin
+File: nvidia/gv100/nvdec/scrubber.bin
+File: nvidia/gv100/sec2/desc.bin
+File: nvidia/gv100/sec2/image.bin
+File: nvidia/gv100/sec2/sig.bin
 
 Licence: Redistributable. See LICENCE.nvidia for details
 
@@ -3815,7 +3867,7 @@ License: Redistributable. See LICENSE.atmel for details
 Driver: hfi1 - Intel OPA Gen 1 adapter
 
 File: hfi1_dc8051.fw
-Version: 1.26.1
+Version: 1.27.0
 File: hfi1_fabric.fw
 Version: 0x1055
 File: hfi1_pcie.fw
@@ -3870,6 +3922,8 @@ Driver: btmtk - MediaTek Bluetooth Driver
 
 File: mediatek/mt7622pr2h.bin
 Version: 20180621204904
+File: mediatek/mt7668pr2h.bin
+Version: 20180517181834
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -3884,10 +3938,13 @@ Licence: Redistributable. See LICENCE.rockchip for details.
 
 --------------------------------------------------------------------------
 
-Driver: mt76x0 - MediaTek MT76x0u Wireless MACs
+Driver: mt76x0 - MediaTek MT76x0 Wireless MACs
 
 File: mediatek/mt7610u.bin
+File: mediatek/mt7610e.bin
 Version: 2.6
+File: mediatek/mt7650e.bin
+Version: 1.0.07-b370
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -3943,8 +4000,20 @@ File: netronome/nic/nic_AMDA0097-0001_8x10.nffw
 File: netronome/nic/nic_AMDA0058-0011_2x40.nffw
 File: netronome/nic/nic_AMDA0058-0012_2x40.nffw
 File: netronome/nic/nic_AMDA0078-0011_1x100.nffw
+File: netronome/nic-sriov/nic_AMDA0081-0001_1x40.nffw
+File: netronome/nic-sriov/nic_AMDA0097-0001_2x40.nffw
+File: netronome/nic-sriov/nic_AMDA0099-0001_2x10.nffw
+File: netronome/nic-sriov/nic_AMDA0081-0001_4x10.nffw
+File: netronome/nic-sriov/nic_AMDA0097-0001_4x10_1x40.nffw
+File: netronome/nic-sriov/nic_AMDA0099-0001_1x10_1x25.nffw
+File: netronome/nic-sriov/nic_AMDA0099-0001_2x25.nffw
+File: netronome/nic-sriov/nic_AMDA0096-0001_2x10.nffw
+File: netronome/nic-sriov/nic_AMDA0097-0001_8x10.nffw
+File: netronome/nic-sriov/nic_AMDA0058-0011_2x40.nffw
+File: netronome/nic-sriov/nic_AMDA0058-0012_2x40.nffw
+File: netronome/nic-sriov/nic_AMDA0078-0011_1x100.nffw
 
-Version: v2.0.7
+Version: v2.1.13
 
 File: netronome/flower/nic_AMDA0099.nffw
 File: netronome/flower/nic_AMDA0096.nffw
@@ -3960,7 +4029,23 @@ Link: netronome/flower/nic_AMDA0096-0001_2x10.nffw -> netronome/flower/nic_AMDA0
 Link: netronome/flower/nic_AMDA0097-0001_8x10.nffw -> netronome/flower/nic_AMDA0097.nffw
 Link: netronome/flower/nic_AMDA0099-0001_1x10_1x25.nffw -> netronome/flower/nic_AMDA0099.nffw
 
-Version: AOTC-2.9.A.31
+Version: AOTC-2.9.A.37
+
+File: netronome/bpf/nic_AMDA0081-0001_1x40.nffw
+File: netronome/bpf/nic_AMDA0097-0001_2x40.nffw
+File: netronome/bpf/nic_AMDA0099-0001_2x10.nffw
+File: netronome/bpf/nic_AMDA0081-0001_4x10.nffw
+File: netronome/bpf/nic_AMDA0097-0001_4x10_1x40.nffw
+File: netronome/bpf/nic_AMDA0099-0001_1x10_1x25.nffw
+File: netronome/bpf/nic_AMDA0099-0001_2x25.nffw
+File: netronome/bpf/nic_AMDA0096-0001_2x10.nffw
+File: netronome/bpf/nic_AMDA0097-0001_8x10.nffw
+File: netronome/bpf/nic_AMDA0058-0011_2x40.nffw
+File: netronome/bpf/nic_AMDA0058-0012_2x40.nffw
+File: netronome/bpf/nic_AMDA0078-0011_1x100.nffw
+
+Version: v2.0.6.124
+
 
 Licence: Redistributable. See LICENCE.Netronome for details
 
@@ -4051,6 +4136,7 @@ File: mellanox/mlxsw_spectrum-13.1420.122.mfa2
 File: mellanox/mlxsw_spectrum-13.1530.152.mfa2
 File: mellanox/mlxsw_spectrum-13.1620.192.mfa2
 File: mellanox/mlxsw_spectrum-13.1702.6.mfa2
+File: mellanox/mlxsw_spectrum-13.1703.4.mfa2
 
 Licence:
  Copyright (c) 2017-2018 Mellanox Technologies, Ltd. All rights reserved.
@@ -4091,3 +4177,13 @@ File: cadence/mhdp8546.bin
 Version: 1.2.12
 
 Licence: Redistributable. See LICENCE.cadence for details
+
+--------------------------------------------------------------------------
+
+Driver: fsl-mc bus - NXP Management Complex Bus Driver
+
+File: dpaa2/mc/mc_10.10.0_ls1088a.itb
+File: dpaa2/mc/mc_10.10.0_ls2088a.itb
+File: dpaa2/mc/mc_10.10.0_lx2160a.itb
+
+Licence: Redistributable. See LICENSE.nxp_mc_firmware for details
