@@ -577,14 +577,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.20.8.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.20.8.0.bin
+File: cxgb4/t4fw-1.22.9.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.22.9.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.20.8.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.20.8.0.bin
-File: cxgb4/t6fw-1.20.8.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.20.8.0.bin
+File: cxgb4/t5fw-1.22.9.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.22.9.0.bin
+File: cxgb4/t6fw-1.22.9.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.22.9.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 
@@ -765,7 +765,7 @@ File: mrvl/sd8801_uapsta.bin
 Version: 14.68.36.p60
 
 File: mrvl/usb8801_uapsta.bin
-Version: W14.68.36.p131
+Version: W14.68.36.p138
 
 File: mrvl/pcieuart8997_combo_v4.bin
 Version: 16.68.1.p70
@@ -980,7 +980,7 @@ File: iwlwifi-8000C-34.ucode
 Version: 34.610288.0
 
 File: iwlwifi-8000C-36.ucode
-Version: 36.7596afd4.0
+Version: 36.9f0a2d68.0
 
 File: iwlwifi-8265-21.ucode
 Version: 21.302800.0
@@ -998,7 +998,7 @@ File: iwlwifi-8265-34.ucode
 Version: 34.610288.0
 
 File: iwlwifi-8265-36.ucode
-Version: 36.7596afd4.0
+Version: 36.9f0a2d68.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-33.ucode
 Version: 33.610294.0
@@ -1010,7 +1010,10 @@ File: iwlwifi-9000-pu-b0-jf-b0-38.ucode
 Version: 38.755cfdd8.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-41.ucode
-Version: 38.1f1e8d4a.0
+Version: 41.fc1a7aea.0
+
+File: iwlwifi-9000-pu-b0-jf-b0-43.ucode
+Version: 43.95eb4e97.0
 
 File: iwlwifi-9260-th-b0-jf-b0-33.ucode
 Version: 33.610294.0
@@ -1022,7 +1025,10 @@ File: iwlwifi-9260-th-b0-jf-b0-38.ucode
 Version: 38.755cfdd8.0
 
 File: iwlwifi-9260-th-b0-jf-b0-41.ucode
-Version: 41.1f1e8d4a.0
+Version: 41.fc1a7aea.0
+
+File: iwlwifi-9260-th-b0-jf-b0-43.ucode
+Version: 43.95eb4e97.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -2076,6 +2082,7 @@ File: amdgpu/stoney_vce.bin
 File: amdgpu/polaris10_ce.bin
 File: amdgpu/polaris10_ce_2.bin
 File: amdgpu/polaris10_mc.bin
+File: amdgpu/polaris10_k_mc.bin
 File: amdgpu/polaris10_me.bin
 File: amdgpu/polaris10_me_2.bin
 File: amdgpu/polaris10_mec2.bin
@@ -2089,12 +2096,14 @@ File: amdgpu/polaris10_sdma1.bin
 File: amdgpu/polaris10_sdma.bin
 File: amdgpu/polaris10_smc.bin
 File: amdgpu/polaris10_k_smc.bin
+File: amdgpu/polaris10_k2_smc.bin
 File: amdgpu/polaris10_smc_sk.bin
 File: amdgpu/polaris10_uvd.bin
 File: amdgpu/polaris10_vce.bin
 File: amdgpu/polaris11_ce.bin
 File: amdgpu/polaris11_ce_2.bin
 File: amdgpu/polaris11_mc.bin
+File: amdgpu/polaris11_k_mc.bin
 File: amdgpu/polaris11_me.bin
 File: amdgpu/polaris11_me_2.bin
 File: amdgpu/polaris11_mec2.bin
@@ -2108,12 +2117,14 @@ File: amdgpu/polaris11_sdma1.bin
 File: amdgpu/polaris11_sdma.bin
 File: amdgpu/polaris11_smc.bin
 File: amdgpu/polaris11_k_smc.bin
+File: amdgpu/polaris11_k2_smc.bin
 File: amdgpu/polaris11_smc_sk.bin
 File: amdgpu/polaris11_uvd.bin
 File: amdgpu/polaris11_vce.bin
 File: amdgpu/polaris12_ce.bin
 File: amdgpu/polaris12_ce_2.bin
 File: amdgpu/polaris12_mc.bin
+File: amdgpu/polaris12_k_mc.bin
 File: amdgpu/polaris12_me.bin
 File: amdgpu/polaris12_me_2.bin
 File: amdgpu/polaris12_mec.bin
@@ -2126,6 +2137,7 @@ File: amdgpu/polaris12_rlc.bin
 File: amdgpu/polaris12_sdma.bin
 File: amdgpu/polaris12_sdma1.bin
 File: amdgpu/polaris12_smc.bin
+File: amdgpu/polaris12_k_smc.bin
 File: amdgpu/polaris12_uvd.bin
 File: amdgpu/polaris12_vce.bin
 File: amdgpu/vegam_ce.bin
@@ -2154,6 +2166,20 @@ File: amdgpu/vega10_smc.bin
 File: amdgpu/vega10_sos.bin
 File: amdgpu/vega10_uvd.bin
 File: amdgpu/vega10_vce.bin
+File: amdgpu/vega12_asd.bin
+File: amdgpu/vega12_ce.bin
+File: amdgpu/vega12_gpu_info.bin
+File: amdgpu/vega12_me.bin
+File: amdgpu/vega12_mec.bin
+File: amdgpu/vega12_mec2.bin
+File: amdgpu/vega12_pfp.bin
+File: amdgpu/vega12_rlc.bin
+File: amdgpu/vega12_sdma.bin
+File: amdgpu/vega12_sdma1.bin
+File: amdgpu/vega12_smc.bin
+File: amdgpu/vega12_sos.bin
+File: amdgpu/vega12_uvd.bin
+File: amdgpu/vega12_vce.bin
 File: amdgpu/raven_asd.bin
 File: amdgpu/raven_ce.bin
 File: amdgpu/raven_gpu_info.bin
@@ -2165,6 +2191,28 @@ File: amdgpu/raven_rlc.bin
 File: amdgpu/raven_sdma.bin
 File: amdgpu/raven_vcn.bin
 File: amdgpu/raven_dmcu.bin
+File: amdgpu/picasso_asd.bin
+File: amdgpu/picasso_ce.bin
+File: amdgpu/picasso_gpu_info.bin
+File: amdgpu/picasso_me.bin
+File: amdgpu/picasso_mec.bin
+File: amdgpu/picasso_mec2.bin
+File: amdgpu/picasso_pfp.bin
+File: amdgpu/picasso_rlc.bin
+File: amdgpu/picasso_rlc_am4.bin
+File: amdgpu/picasso_sdma.bin
+File: amdgpu/picasso_vcn.bin
+File: amdgpu/raven2_asd.bin
+File: amdgpu/raven2_ce.bin
+File: amdgpu/raven2_gpu_info.bin
+File: amdgpu/raven2_me.bin
+File: amdgpu/raven2_mec.bin
+File: amdgpu/raven2_mec2.bin
+File: amdgpu/raven2_pfp.bin
+File: amdgpu/raven2_rlc.bin
+File: amdgpu/raven2_sdma.bin
+File: amdgpu/raven2_sdma1.bin
+File: amdgpu/raven2_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -2371,6 +2419,7 @@ File: brcm/brcmfmac4358-pcie.bin
 File: brcm/brcmfmac43602-pcie.bin
 File: brcm/brcmfmac43602-pcie.ap.bin
 File: brcm/brcmfmac4366b-pcie.bin
+File: brcm/brcmfmac4366c-pcie.bin
 File: brcm/brcmfmac4371-pcie.bin
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
@@ -2385,8 +2434,18 @@ File: brcm/brcmfmac4373.bin
 
 Licence: Redistributable. See LICENCE.cypress for details.
 
-File: brcm/brcmfmac43430-sdio.AP6212.txt
-File: brcm/brcmfmac43430-sdio.MUR1DX.txt
+File: "brcm/brcmfmac4330-sdio.Prowise-PT301.txt"
+File: "brcm/brcmfmac43340-sdio.meegopad-t08.txt"
+File: "brcm/brcmfmac43362-sdio.cubietech,cubietruck.txt"
+File: "brcm/brcmfmac43362-sdio.lemaker,bananapro.txt"
+File: "brcm/brcmfmac43430a0-sdio.jumper-ezpad-mini3.txt"
+File: "brcm/brcmfmac43430a0-sdio.ONDA-V80 PLUS.txt"
+File: "brcm/brcmfmac43430-sdio.AP6212.txt"
+File: "brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt"
+File: "brcm/brcmfmac43430-sdio.MUR1DX.txt"
+File: "brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt"
+File: "brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt
+File: "brcm/brcmfmac4356-pcie.gpd-win-pocket.txt"
 
 Licence: GPLv2. See GPL-2 for details.
 
@@ -3110,21 +3169,21 @@ Version: BT_StonePeak_D0_REL_50_0002
 File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
 Version: BT_StonePeak_D1_REL_52_00005
 File: intel/ibt-11-5.ddc
-Version: LnP/SfP_REL0516
+Version: LnP/SfP_REL0522
 File: intel/ibt-11-5.sfi
 Version: BT_LightningPeak_REL0487
 File: intel/ibt-12-16.ddc
-Version: BT_WindStormPeak_REL0285
+Version: BT_WindStormPeak_REL0295
 File: intel/ibt-12-16.sfi
-Version: BT_WindStormPeak_REL0285
+Version: BT_WindStormPeak_REL0295
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0369
+Version: BT_JeffersonPeak_B0_B0_REL0386
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0369
+Version: BT_JeffersonPeak_B0_B0_REL0386
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0369
+Version: BT_JeffersonPeak_B0_B0_REL0386
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0369
+Version: BT_JeffersonPeak_B0_B0_REL0386
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3134,13 +3193,13 @@ Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL0369
+Version: BT_ThunderPeak_B0_B0_REL0386
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL0369
+Version: BT_ThunderPeak_B0_B0_REL0386
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL0369
+Version: BT_ThunderPeak_B0_B0_REL0386
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL0369
+Version: BT_ThunderPeak_B0_B0_REL0386
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -3156,6 +3215,8 @@ File: rtl_bt/rtl8192ee_fw.bin
 File: rtl_bt/rtl8192eu_fw.bin
 File: rtl_bt/rtl8723a_fw.bin
 File: rtl_bt/rtl8723b_fw.bin
+File: rtl_bt/rtl8723bs_fw.bin
+File: rtl_bt/rtl8723bs_config-OBDA8723.bin
 File: rtl_bt/rtl8761a_fw.bin
 File: rtl_bt/rtl8812ae_fw.bin
 File: rtl_bt/rtl8821a_fw.bin
@@ -3465,8 +3526,10 @@ Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v3366.bin
 
 File: intel/dsp_fw_cnl_v1191.bin
 Version: 10.00.00.1191
+File: intel/dsp_fw_cnl_v1858.bin
+Version: 10.23.00.1858
 File: intel/dsp_fw_cnl.bin
-Link: intel/dsp_fw_cnl.bin -> intel/dsp_fw_cnl_v1191.bin
+Link: intel/dsp_fw_cnl.bin -> intel/dsp_fw_cnl_v1858.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3551,7 +3614,7 @@ Licence: Redistributable. See LICENCE.cavium_liquidio for details
 Driver: nitrox -- Cavium CNN55XX crypto driver
 
 File: cavium/cnn55xx_se.fw
-Version: v07
+Version: v10
 
 Licence: Redistributable. See LICENCE.cavium for details
 
@@ -3595,6 +3658,9 @@ Version: HuC API/ABI ver 1 - release 7 for Skylake
 
 File: i915/bxt_huc_ver01_07_1398.bin
 Version: HuC API/APB ver 1 - release 7 for Broxton
+
+File: i915/bxt_huc_ver01_8_2893.bin
+Version: HuC API/APB ver 1 - release 8 for Broxton
 
 File: i915/kbl_huc_ver02_00_1810.bin
 Version: HuC API/APB ver 2 - for Kabylake
@@ -4013,7 +4079,7 @@ File: netronome/nic-sriov/nic_AMDA0058-0011_2x40.nffw
 File: netronome/nic-sriov/nic_AMDA0058-0012_2x40.nffw
 File: netronome/nic-sriov/nic_AMDA0078-0011_1x100.nffw
 
-Version: v2.1.13
+Version: v2.1.16
 
 File: netronome/flower/nic_AMDA0099.nffw
 File: netronome/flower/nic_AMDA0096.nffw
@@ -4029,7 +4095,7 @@ Link: netronome/flower/nic_AMDA0096-0001_2x10.nffw -> netronome/flower/nic_AMDA0
 Link: netronome/flower/nic_AMDA0097-0001_8x10.nffw -> netronome/flower/nic_AMDA0097.nffw
 Link: netronome/flower/nic_AMDA0099-0001_1x10_1x25.nffw -> netronome/flower/nic_AMDA0099.nffw
 
-Version: AOTC-2.9.A.37
+Version: AOTC-2.10.A.13
 
 File: netronome/bpf/nic_AMDA0081-0001_1x40.nffw
 File: netronome/bpf/nic_AMDA0097-0001_2x40.nffw
@@ -4137,6 +4203,7 @@ File: mellanox/mlxsw_spectrum-13.1530.152.mfa2
 File: mellanox/mlxsw_spectrum-13.1620.192.mfa2
 File: mellanox/mlxsw_spectrum-13.1702.6.mfa2
 File: mellanox/mlxsw_spectrum-13.1703.4.mfa2
+File: mellanox/mlxsw_spectrum-13.1910.622.mfa2
 
 Licence:
  Copyright (c) 2017-2018 Mellanox Technologies, Ltd. All rights reserved.
@@ -4187,3 +4254,12 @@ File: dpaa2/mc/mc_10.10.0_ls2088a.itb
 File: dpaa2/mc/mc_10.10.0_lx2160a.itb
 
 Licence: Redistributable. See LICENSE.nxp_mc_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: mscc-phy - Microchip PHY drivers
+
+File: microchip/mscc_vsc8574_revb_int8051_29e8.bin
+File: microchip/mscc_vsc8584_revb_int8051_fb48.bin
+
+Licence: Redistributable. See LICENCE.microchip for details
