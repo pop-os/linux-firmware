@@ -577,14 +577,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.22.9.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.22.9.0.bin
+File: cxgb4/t4fw-1.23.3.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.23.3.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.22.9.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.22.9.0.bin
-File: cxgb4/t6fw-1.22.9.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.22.9.0.bin
+File: cxgb4/t5fw-1.23.3.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.23.3.0.bin
+File: cxgb4/t6fw-1.23.3.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.23.3.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 
@@ -738,7 +738,7 @@ directly by Marvell.
 Driver: mwifiex - Marvell Wi-Fi fullmac-type 802.11n/ac cards
 
 File: mrvl/sd8787_uapsta.bin
-Version: 14.66.35.p52
+Version: W14.68.35.p66
 
 File: mrvl/usb8766_uapsta.bin
 Version: 14.68.22.p16
@@ -750,19 +750,19 @@ File: mrvl/usb8797_uapsta.bin
 Version: 14.68.29.p49
 
 File: mrvl/sd8897_uapsta.bin
-Version: V15.68.7.154
+Version: W15.68.19.17
 
 File: mrvl/usb8897_uapsta.bin
 Version: 15.68.4.p103
 
 File: mrvl/pcie8897_uapsta.bin
-Version: V15.68.7.p154
+Version: W15.68.19.p21
 
 File: mrvl/sd8887_uapsta.bin
-Version: 15.68.7.p112
+Version: W15.68.7.p189
 
 File: mrvl/sd8801_uapsta.bin
-Version: 14.68.36.p60
+Version: W14.68.36.p204
 
 File: mrvl/usb8801_uapsta.bin
 Version: W14.68.36.p138
@@ -771,16 +771,19 @@ File: mrvl/pcieuart8997_combo_v4.bin
 Version: 16.68.1.p70
 
 File: mrvl/pcieusb8997_combo_v4.bin
-Version: 16.68.1.p145
+Version: W16.68.1.p195
 
 File: mrvl/pcie8997_wlan_v4.bin
-Version: 16.68.1.p97
+Version: W16.68.1.p195
 
 File: mrvl/usbusb8997_combo_v4.bin
-Version: V16.68.1.p162
+Version: W16.68.1.p183
 
 File: mrvl/sdsd8997_combo_v4.bin
 Version: W16.68.1.p179
+
+File: mrvl/sdsd8977_combo_v2.bin
+Version: W16.68.1.p195
 
 Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
 http://git.marvell.com/?p=mwifiex-firmware.git
@@ -1363,6 +1366,9 @@ File: bnx2x/bnx2x-e2-7.12.30.0.fw
 File: bnx2x/bnx2x-e1-7.13.1.0.fw
 File: bnx2x/bnx2x-e1h-7.13.1.0.fw
 File: bnx2x/bnx2x-e2-7.13.1.0.fw
+File: bnx2x/bnx2x-e1-7.13.11.0.fw
+File: bnx2x/bnx2x-e1h-7.13.11.0.fw
+File: bnx2x/bnx2x-e2-7.13.11.0.fw
 
 
 License:
@@ -2180,6 +2186,19 @@ File: amdgpu/vega12_smc.bin
 File: amdgpu/vega12_sos.bin
 File: amdgpu/vega12_uvd.bin
 File: amdgpu/vega12_vce.bin
+File: amdgpu/vega20_asd.bin
+File: amdgpu/vega20_ce.bin
+File: amdgpu/vega20_me.bin
+File: amdgpu/vega20_mec.bin
+File: amdgpu/vega20_mec2.bin
+File: amdgpu/vega20_pfp.bin
+File: amdgpu/vega20_rlc.bin
+File: amdgpu/vega20_sdma.bin
+File: amdgpu/vega20_sdma1.bin
+File: amdgpu/vega20_smc.bin
+File: amdgpu/vega20_sos.bin
+File: amdgpu/vega20_uvd.bin
+File: amdgpu/vega20_vce.bin
 File: amdgpu/raven_asd.bin
 File: amdgpu/raven_ce.bin
 File: amdgpu/raven_gpu_info.bin
@@ -2211,7 +2230,6 @@ File: amdgpu/raven2_mec2.bin
 File: amdgpu/raven2_pfp.bin
 File: amdgpu/raven2_rlc.bin
 File: amdgpu/raven2_sdma.bin
-File: amdgpu/raven2_sdma1.bin
 File: amdgpu/raven2_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
@@ -2444,7 +2462,7 @@ File: "brcm/brcmfmac43430-sdio.AP6212.txt"
 File: "brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt"
 File: "brcm/brcmfmac43430-sdio.MUR1DX.txt"
 File: "brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt"
-File: "brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt
+File: "brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt"
 File: "brcm/brcmfmac4356-pcie.gpd-win-pocket.txt"
 
 Licence: GPLv2. See GPL-2 for details.
@@ -2967,7 +2985,7 @@ File: ath10k/QCA988X/hw2.0/firmware-4.bin
 Version: 10.2.4.45
 Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA988X/hw2.0/firmware-5.bin
-Version: 10.2.4-1.0-00041
+Version: 10.2.4-1.0-00043
 Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA6174/hw2.1/board.bin
 File: ath10k/QCA6174/hw2.1/board-2.bin
@@ -3001,11 +3019,11 @@ Version: 10.2.4-1.0-00041
 Licence: ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9888/hw2.0/board-2.bin
 File: ath10k/QCA9888/hw2.0/firmware-5.bin
-Version: 10.4-3.6-00140
+Version: 10.4-3.9.0.2-00024
 Licence: ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9984/hw1.0/board-2.bin
 File: ath10k/QCA9984/hw1.0/firmware-5.bin
-Version: 10.4-3.6.0.1-00003
+Version: 10.4-3.9.0.2-00021
 Licence: ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9377/hw1.0/firmware-6.bin
 Version: WLAN.TF.2.1-00021-QCARMSWP-1
@@ -3173,17 +3191,17 @@ Version: LnP/SfP_REL0522
 File: intel/ibt-11-5.sfi
 Version: BT_LightningPeak_REL0487
 File: intel/ibt-12-16.ddc
-Version: BT_WindStormPeak_REL0295
+Version: BT_WindStormPeak_REL0299
 File: intel/ibt-12-16.sfi
-Version: BT_WindStormPeak_REL0295
+Version: BT_WindStormPeak_REL0299
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0386
+Version: BT_JeffersonPeak_B0_B0_REL0420
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0386
+Version: BT_JeffersonPeak_B0_B0_REL0420
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0386
+Version: BT_JeffersonPeak_B0_B0_REL0420
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0386
+Version: BT_JeffersonPeak_B0_B0_REL0420
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3193,13 +3211,13 @@ Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL0386
+Version: BT_ThunderPeak_B0_B0_REL0420
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL0386
+Version: BT_ThunderPeak_B0_B0_REL0420
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL0386
+Version: BT_ThunderPeak_B0_B0_REL0420
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL0386
+Version: BT_ThunderPeak_B0_B0_REL0420
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -3235,6 +3253,8 @@ From https://github.com/troy-tan/driver_store
 Files rtl_bt/rtl8822b_* came directly from Realtek. These files are
 updated on April 14, 2017.
 Files rtl_bt/rtl8821c_* and rtl_bt/rtl8723d_* came directly from Realtek.
+File rtl_bt/rtl8822cu_fw.bin came directly from Realtek.
+updated on February 24, 2019
 File rtl_bt/rtl8822cu_fw.bin came directly from Realtek.
 
 --------------------------------------------------------------------------
@@ -3290,6 +3310,15 @@ File: go7007/px-tv402u.fw
 File: go7007/wis-startrek.fw
 
 Licence: Redistributable. See LICENCE.go7007 for details
+
+--------------------------------------------------------------------------
+
+Driver: ccp - Platform Security Processor (PSP) device
+
+File: amd/amd_sev_fam17h_model0xh.sbin
+Version: 2019-02-13
+
+License: Redistributable. See LICENSE.amd-sev for details
 
 --------------------------------------------------------------------------
 
@@ -3585,6 +3614,10 @@ File: qca/rampatch_usb_00000300.bin
 File: qca/rampatch_usb_00000302.bin
 File: qca/rampatch_00130300.bin
 File: qca/rampatch_00130302.bin
+File: qca/crbtfw21.tlv
+File: qca/crnv21.bin
+File: qca/nvm_00440302.bin
+File: qca/rampatch_00440302.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
@@ -3915,6 +3948,10 @@ File: nvidia/gv100/sec2/desc.bin
 File: nvidia/gv100/sec2/image.bin
 File: nvidia/gv100/sec2/sig.bin
 
+File: nvidia/tu10x/typec/ccg_primary.cyacd
+File: nvidia/tu10x/typec/ccg_secondary.cyacd
+File: nvidia/tu10x/typec/ccg_boot.cyacd
+
 Licence: Redistributable. See LICENCE.nvidia for details
 
 --------------------------------------------------------------------------
@@ -4079,7 +4116,7 @@ File: netronome/nic-sriov/nic_AMDA0058-0011_2x40.nffw
 File: netronome/nic-sriov/nic_AMDA0058-0012_2x40.nffw
 File: netronome/nic-sriov/nic_AMDA0078-0011_1x100.nffw
 
-Version: v2.1.16
+Version: v2.1.16.1
 
 File: netronome/flower/nic_AMDA0099.nffw
 File: netronome/flower/nic_AMDA0096.nffw
