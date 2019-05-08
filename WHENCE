@@ -577,14 +577,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.23.3.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.23.3.0.bin
+File: cxgb4/t4fw-1.23.4.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.23.4.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.23.3.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.23.3.0.bin
-File: cxgb4/t6fw-1.23.3.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.23.3.0.bin
+File: cxgb4/t5fw-1.23.4.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.23.4.0.bin
+File: cxgb4/t6fw-1.23.4.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.23.4.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 
@@ -744,10 +744,10 @@ File: mrvl/usb8766_uapsta.bin
 Version: 14.68.22.p16
 
 File: mrvl/sd8797_uapsta.bin
-Version: 14.66.11.p151
+Version: W14.68.29.p59
 
 File: mrvl/usb8797_uapsta.bin
-Version: 14.68.29.p49
+Version: W14.68.29.p60
 
 File: mrvl/sd8897_uapsta.bin
 Version: W15.68.19.17
@@ -768,7 +768,7 @@ File: mrvl/usb8801_uapsta.bin
 Version: W14.68.36.p138
 
 File: mrvl/pcieuart8997_combo_v4.bin
-Version: 16.68.1.p70
+Version: W16.68.1.p179
 
 File: mrvl/pcieusb8997_combo_v4.bin
 Version: W16.68.1.p195
@@ -3226,6 +3226,15 @@ File: intel/ibt-18-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
+File:intel/ibt-20-0-3.sfi
+Version: BT_CyclonePeak_A0_REL0246
+File:intel/ibt-20-0-3.ddc
+Version: BT_CyclonePeak_A0_REL0246
+File:intel/ibt-20-1-3.sfi
+Version: BT_CyclonePeak_A0_REL0246
+File:intel/ibt-20-1-3.ddc
+Version: BT_CyclonePeak_A0_REL_0246
+
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -3686,6 +3695,9 @@ Version: Guc API/ABI ver 6 - release 1 for Skylake
 File: i915/skl_guc_ver9_33.bin
 Version: Guc API/ABI ver 9 - release 33 for Skylake
 
+File: i915/skl_guc_32.0.3.bin
+Version: Guc API/ABI ver 32 - release 0 for Skylake
+
 File: i915/skl_huc_ver01_07_1398.bin
 Version: HuC API/ABI ver 1 - release 7 for Skylake
 
@@ -3704,11 +3716,23 @@ Version: Guc API/APB ver 8 - release 7 for Broxton
 File: i915/bxt_guc_ver9_29.bin
 Version: Guc API/APB ver 9 - release 29 for Broxton
 
+File: i915/bxt_guc_32.0.3.bin
+Version: Guc API/APB ver 32 - release 0 for Broxton
+
 File: i915/kbl_guc_ver9_14.bin
 Version: Guc API/APB ver 9 release 14 for Kabylake
 
 File: i915/kbl_guc_ver9_39.bin
 Version: Guc API/APB ver 9 release 39 for Kabylake
+
+File: i915/kbl_guc_32.0.3.bin
+Version: Guc API/APB ver 32 release 0 for Kabylake
+
+File: i915/glk_guc_32.0.3.bin
+Version: Guc API/APB ver 32 release 0 for Geminilake
+
+File: i915/glk_huc_ver03_01_2893.bin
+Version: Huc API/APB ver 3 release 1 for Geminilake
 
 File: i915/glk_dmc_ver1_04.bin
 Version: DMC API/ABI ver 1 - release 04 for Geminilake
@@ -3721,6 +3745,12 @@ Version: DMC API/ABI ver 1 - release 07 for Cannonlake
 
 File: i915/icl_dmc_ver1_07.bin
 Version: DMC API/ABI ver 1 - release 07 for icelake
+
+File: i915/icl_guc_32.0.3.bin
+Version: Guc API/APB ver 32 release 0 for Icelake
+
+File: i915/icl_huc_ver8_4_3238.bin
+Version: Huc API/APB ver 8 release 4 for Icelake
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
@@ -4077,6 +4107,19 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
+Driver: mt7615e - MediaTek MT7615e Wireless MACs
+
+File: mediatek/mt7615_n9.bin
+Version: 20190114
+File: mediatek/mt7615_cr4.bin
+Version: 20190114
+File: mediatek/mt7615_rom_patch.bin
+Version: 20190114
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
+
 Driver: nfp - Netronome Flow Processor
 
 Link: netronome/nic_AMDA0081-0001_1x40.nffw -> nic/nic_AMDA0081-0001_1x40.nffw
@@ -4121,6 +4164,7 @@ Version: v2.1.16.1
 File: netronome/flower/nic_AMDA0099.nffw
 File: netronome/flower/nic_AMDA0096.nffw
 File: netronome/flower/nic_AMDA0097.nffw
+File: netronome/flower/nic_AMDA0058.nffw
 Link: netronome/flower/nic_AMDA0081.nffw -> netronome/flower/nic_AMDA0097.nffw
 Link: netronome/flower/nic_AMDA0081-0001_1x40.nffw -> netronome/flower/nic_AMDA0081.nffw
 Link: netronome/flower/nic_AMDA0097-0001_2x40.nffw -> netronome/flower/nic_AMDA0097.nffw
@@ -4131,8 +4175,24 @@ Link: netronome/flower/nic_AMDA0099-0001_2x25.nffw -> netronome/flower/nic_AMDA0
 Link: netronome/flower/nic_AMDA0096-0001_2x10.nffw -> netronome/flower/nic_AMDA0096.nffw
 Link: netronome/flower/nic_AMDA0097-0001_8x10.nffw -> netronome/flower/nic_AMDA0097.nffw
 Link: netronome/flower/nic_AMDA0099-0001_1x10_1x25.nffw -> netronome/flower/nic_AMDA0099.nffw
+Link: netronome/flower/nic_AMDA0058-0011_1x100.nffw -> netronome/flower/nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0058-0011_2x40.nffw -> netronome/flower/nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0058-0011_4x10_1x40.nffw -> netronome/flower/nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0058-0011_8x10.nffw -> netronome/flower/nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0058-0012_1x100.nffw -> netronome/flower/nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0058-0012_2x40.nffw -> netronome/flower/nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0058-0012_4x10_1x40.nffw -> netronome/flower/nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0058-0012_8x10.nffw -> netronome/flower/nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0078-0011_1x100.nffw -> netronome/flower/nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0078-0011_2x40.nffw -> netronome/flower/nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0078-0011_4x10_1x40.nffw -> netronome/flower/nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0078-0011_8x10.nffw -> netronome/flower/nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0078-0012_1x100.nffw -> netronome/flower/nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0078-0012_2x40.nffw -> netronome/flower/nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0078-0012_4x10_1x40.nffw -> netronome/flower/nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0078-0012_8x10.nffw -> netronome/flower/nic_AMDA0058.nffw
 
-Version: AOTC-2.10.A.13
+Version: AOTC-2.10.A.23
 
 File: netronome/bpf/nic_AMDA0081-0001_1x40.nffw
 File: netronome/bpf/nic_AMDA0097-0001_2x40.nffw
@@ -4241,9 +4301,10 @@ File: mellanox/mlxsw_spectrum-13.1620.192.mfa2
 File: mellanox/mlxsw_spectrum-13.1702.6.mfa2
 File: mellanox/mlxsw_spectrum-13.1703.4.mfa2
 File: mellanox/mlxsw_spectrum-13.1910.622.mfa2
+File: mellanox/mlxsw_spectrum-13.2000.1122.mfa2
 
 Licence:
- Copyright (c) 2017-2018 Mellanox Technologies, Ltd. All rights reserved.
+ Copyright (c) 2017-2019 Mellanox Technologies, Ltd. All rights reserved.
 
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
@@ -4289,6 +4350,9 @@ Driver: fsl-mc bus - NXP Management Complex Bus Driver
 File: dpaa2/mc/mc_10.10.0_ls1088a.itb
 File: dpaa2/mc/mc_10.10.0_ls2088a.itb
 File: dpaa2/mc/mc_10.10.0_lx2160a.itb
+File: dpaa2/mc/mc_10.14.3_ls1088a.itb
+File: dpaa2/mc/mc_10.14.3_ls2088a.itb
+File: dpaa2/mc/mc_10.14.3_lx2160a.itb
 
 Licence: Redistributable. See LICENSE.nxp_mc_firmware for details
 
