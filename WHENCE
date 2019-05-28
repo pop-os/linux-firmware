@@ -3703,6 +3703,9 @@ Licence: Redistributable. See LICENCE.cavium_liquidio for details
 
 Driver: nitrox -- Cavium CNN55XX crypto driver
 
+File: cavium/cnn55xx_ae.fw
+Version: v01
+
 File: cavium/cnn55xx_se.fw
 Version: v10
 
