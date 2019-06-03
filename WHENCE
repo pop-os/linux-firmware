@@ -4383,7 +4383,7 @@ Licence:
 Driver: cdns-mhdp - Cadence MHDP DP bridge
 
 File: cadence/mhdp8546.bin
-Version: 1.2.12
+Version: 1.2.15
 
 Licence: Redistributable. See LICENCE.cadence for details
 
