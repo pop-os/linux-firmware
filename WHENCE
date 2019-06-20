@@ -3831,6 +3831,9 @@ Version: Guc API/APB ver 9 release 39 for Kabylake
 File: i915/kbl_guc_32.0.3.bin
 Version: Guc API/APB ver 32 release 0 for Kabylake
 
+File: i915/kbl_guc_33.0.0.bin
+Version: Guc API/APB ver 33 release 0 for Kabylake
+
 File: i915/glk_guc_32.0.3.bin
 Version: Guc API/APB ver 32 release 0 for Geminilake
 
