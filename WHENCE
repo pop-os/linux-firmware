@@ -1045,6 +1045,24 @@ Version: 46.3cfab8da.0
 File: iwlwifi-cc-a0-48.ucode
 Version: 48.13675109.0
 
+File: iwlwifi-Qu-b0-hr-b0-48.ucode
+Version: 48.13675109.0
+
+File: iwlwifi-Qu-b0-jf-b0-48.ucode
+Version: 48.13675109.0
+
+File: iwlwifi-Qu-c0-hr-b0-48.ucode
+Version: 48.13675109.0
+
+File: iwlwifi-Qu-c0-jf-b0-48.ucode
+Version: 48.13675109.0
+
+File: iwlwifi-QuZ-a0-hr-b0-48.ucode
+Version: 48.13675109.0
+
+File: iwlwifi-QuZ-a0-jf-b0-48.ucode
+Version: 48.13675109.0
+
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
 Also available from http://wireless.kernel.org/en/users/Drivers/iwlwifi#Firmware
