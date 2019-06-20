@@ -3795,6 +3795,9 @@ Version: Guc API/ABI ver 9 - release 33 for Skylake
 File: i915/skl_guc_32.0.3.bin
 Version: Guc API/ABI ver 32 - release 0 for Skylake
 
+File: i915/skl_guc_33.0.0.bin
+Version: Guc API/ABI ver 33 - release 0 for Skylake
+
 File: i915/skl_huc_ver01_07_1398.bin
 Version: HuC API/ABI ver 1 - release 7 for Skylake
 
