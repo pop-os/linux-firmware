@@ -3510,10 +3510,16 @@ Version: 1.6.1
 File: rsi/rs9113_ap_bt_dual_mode.rps
 Version: 1.6.1
 
+File: rsi/rs9116_wlan.rps
+Version: 1.0.5b
+
+File: rsi/rs9116_wlan_bt_classic.rps
+Version: 1.0.5b
+
 Licence:
  * Firmware is:
  *	Derived from proprietary unpublished source code,
- *	Copyright (C) 2014 Redpine Signals Inc.
+ *	Copyright (C) 2019 Redpine Signals Inc.
  *
  *	Permission is hereby granted for the distribution of this firmware
  *	as part of Linux or other Open Source operating system kernel
