@@ -3269,25 +3269,30 @@ Version: BT_CyclonePeak_A0_REL0310
 File:intel/ibt-20-1-4.ddc
 Version: BT_CyclonePeak_A0_REL0310
 File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL0282
+Version: BT_Quasar_REL0310
 File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL0282
+Version: BT_Quasar_REL0310
 File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL0282
+Version: BT_Quasar_REL0310
 File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL0282
+Version: BT_Quasar_REL0310
 File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL0282
+Version: BT_HarrisonPeak_REL0310
 File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL0282
+Version: BT_HarrisonPeak_REL0310
 File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL0282
+Version: BT_HarrisonPeak_REL0310
 File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL0282
+Version: BT_HarrisonPeak_REL0310
 File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL0282
+Version: BT_HarrisonPeak_REL0310
 File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL0282
+Version: BT_HarrisonPeak_REL0310
+File:intel/ibt-19-32-0.sfi
+Version: BT_HarrisonPeak_REL0310
+File:intel/ibt-19-32-0.ddc
+Version: BT_HarrisonPeak_REL0310
+
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
