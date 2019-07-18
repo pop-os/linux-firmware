@@ -1,3 +1,36 @@
+linux-firmware (1.181) eoan; urgency=medium
+
+  * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
+    bf13a71b18af229b4c900b321ef1f8443028ded8
+    - linux-firmware: Add firmware file for Intel Bluetooth AX201
+    - linux-firmware: rsi: add firmware image for redpine 9116 chipset
+    - drm/i915/firmware: Add v33 of GuC for BXT
+    - drm/i915/firmware: Add v33 of GuC for GLK
+    - drm/i915/firmware: Add v33 of GuC for SKL
+    - drm/i915/firmware: Add v33 of GuC for KBL
+    - drm/i915/firmware: Add v33 of GuC for ICL
+    - amdgpu: update picasso to latest 19.20 firmware
+    - amdgpu: update raven to latest 19.20 firmware
+    - amdgpu: update raven2 to latest 19.20 firmware
+    - amdgpu: update polaris12 to latest 19.20 firmware
+    - amdgpu: update vega10 to latest 19.20 firmware
+    - amdgpu: partially revert 2579167548be33afb1fe2a9a5c141561ee5a8bbe
+    - amdgpu: update vega12 to latest 19.20 firmware
+    - amdgpu: update tonga to latest 19.20 firmware
+    - amdgpu: update raven vcn firmware
+    - amdgpu: update picasso vcn firmware
+    - amdgpu: update vega10 VCE firmware
+    - linux-firmware: Update firmware file for Intel Bluetooth 9260
+    - linux-firmware: Update firmware file for Intel Bluetooth 9560
+    - linux-firmware: Update firmware file for Intel Bluetooth 22161
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+
+  * Update udebs for Linux 5.2
+    - update list-udeb-updates for the linux-lts -> linux-hwe change
+    - update nic-firmware.lst for Linux 5.2
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Thu, 18 Jul 2019 15:39:40 -0500
+
 linux-firmware (1.180) eoan; urgency=medium
 
   * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
