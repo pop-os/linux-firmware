@@ -3977,6 +3977,9 @@ File: nvidia/gp102/nvdec/scrubber.bin
 File: nvidia/gp102/sec2/desc.bin
 File: nvidia/gp102/sec2/image.bin
 File: nvidia/gp102/sec2/sig.bin
+File: nvidia/gp102/sec2/desc-1.bin
+File: nvidia/gp102/sec2/image-1.bin
+File: nvidia/gp102/sec2/sig-1.bin
 File: nvidia/gp104/acr/bl.bin
 File: nvidia/gp104/acr/ucode_load.bin
 File: nvidia/gp104/acr/ucode_unload.bin
@@ -3997,6 +4000,9 @@ File: nvidia/gp104/nvdec/scrubber.bin
 File: nvidia/gp104/sec2/desc.bin
 File: nvidia/gp104/sec2/image.bin
 File: nvidia/gp104/sec2/sig.bin
+File: nvidia/gp104/sec2/desc-1.bin
+File: nvidia/gp104/sec2/image-1.bin
+File: nvidia/gp104/sec2/sig-1.bin
 File: nvidia/gp106/acr/bl.bin
 File: nvidia/gp106/acr/ucode_load.bin
 File: nvidia/gp106/acr/ucode_unload.bin
@@ -4017,6 +4023,9 @@ File: nvidia/gp106/nvdec/scrubber.bin
 File: nvidia/gp106/sec2/desc.bin
 File: nvidia/gp106/sec2/image.bin
 File: nvidia/gp106/sec2/sig.bin
+File: nvidia/gp106/sec2/desc-1.bin
+File: nvidia/gp106/sec2/image-1.bin
+File: nvidia/gp106/sec2/sig-1.bin
 File: nvidia/gp107/acr/bl.bin
 File: nvidia/gp107/acr/ucode_load.bin
 File: nvidia/gp107/acr/ucode_unload.bin
@@ -4037,6 +4046,9 @@ File: nvidia/gp107/nvdec/scrubber.bin
 File: nvidia/gp107/sec2/desc.bin
 File: nvidia/gp107/sec2/image.bin
 File: nvidia/gp107/sec2/sig.bin
+File: nvidia/gp107/sec2/desc-1.bin
+File: nvidia/gp107/sec2/image-1.bin
+File: nvidia/gp107/sec2/sig-1.bin
 File: nvidia/gp10b/acr/bl.bin
 File: nvidia/gp10b/acr/ucode_load.bin
 File: nvidia/gp10b/gr/fecs_bl.bin
