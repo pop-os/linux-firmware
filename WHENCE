@@ -2792,6 +2792,7 @@ Info: Sent to Larry Finger by Realtek engineer Yan-Hsuan Chuang <yhchuang@realte
 File: rtw88/rtw8822b_fw.bin
 File: rtw88/rtw8822c_fw.bin
 File: rtw88/rtw8822c_wow_fw.bin
+File: rtw88/README
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
