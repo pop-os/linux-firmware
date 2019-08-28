@@ -3296,6 +3296,10 @@ File:intel/ibt-19-32-0.sfi
 Version: BT_HarrisonPeak_REL0318
 File:intel/ibt-19-32-0.ddc
 Version: BT_HarrisonPeak_REL0318
+File:intel/ibt-19-32-4.sfi
+Version: BT_HarrisonPeak_REL0318
+File:intel/ibt-19-32-4.ddc
+Version: BT_HarrisonPeak_REL0318
 
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
