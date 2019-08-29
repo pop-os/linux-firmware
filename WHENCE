@@ -587,6 +587,14 @@ File: cxgb4/t6fw-1.24.3.0.bin
 Link: cxgb4/t6fw.bin -> t6fw-1.24.3.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
+File: cxgb4/configs/t4-config-default.txt
+File: cxgb4/configs/t5-config-default.txt
+File: cxgb4/configs/t6-config-default.txt
+File: cxgb4/configs/t5-config-hashfilter.txt
+File: cxgb4/configs/t6-config-hashfilter.txt
+Link: cxgb4/t4-config.txt -> cxgb4/configs/t4-config-default.txt
+Link: cxgb4/t5-config.txt -> cxgb4/configs/t5-config-default.txt
+Link: cxgb4/t6-config.txt -> cxgb4/configs/t6-config-default.txt
 
 Licence: Redistributable. See LICENCE.chelsio_firmware for details
 
