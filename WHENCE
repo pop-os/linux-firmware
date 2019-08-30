@@ -3698,8 +3698,13 @@ Licence: Redistributable. See LICENCE.nvidia for details
 Driver: tegra-vic -- NVIDIA Tegra VIC driver
 
 File: nvidia/tegra124/vic03_ucode.bin
+Link: nvidia/tegra124/vic.bin -> vic03_ucode.bin
+
 File: nvidia/tegra210/vic04_ucode.bin
+Link: nvidia/tegra210/vic.bin -> vic03_ucode.bin
+
 File: nvidia/tegra186/vic04_ucode.bin
+Link: nvidia/tegra186/vic.bin -> vic04_ucode.bin
 
 Licence: Redistributable. See LICENCE.nvidia for details
 
