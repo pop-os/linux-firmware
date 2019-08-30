@@ -3691,6 +3691,9 @@ Version: v45.46
 File: nvidia/tegra210/xusb.bin
 Version: v50.10
 
+File: nvidia/tegra186/xusb.bin
+Version: v55.15
+
 Licence: Redistributable. See LICENCE.nvidia for details
 
 --------------------------------------------------------------------------
