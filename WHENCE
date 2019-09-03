@@ -3919,6 +3919,10 @@ Version: Huc API/APB ver 8 release 4 for Icelake
 
 File: i915/tgl_dmc_ver2_04.bin
 Version: DMC API/APB ver 2 release 4 for Tigerlake
+
+File: i915/icl_huc_9.0.0.bin
+Version: Huc API/APB ver 9 release 0 for Icelake
+
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
