@@ -36,7 +36,7 @@ def main():
     whence_list = list(list_whence())
     known_files = set(name for name in whence_list if not name.endswith('/')) | \
                   set(['check_whence.py', 'configure', 'Makefile',
-                       'README', 'WHENCE'])
+                       'README', 'copy-firmware.sh', 'WHENCE'])
     known_prefixes = set(name for name in whence_list if name.endswith('/'))
     git_files = set(list_git())
 
