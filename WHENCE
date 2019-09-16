@@ -2269,6 +2269,19 @@ File: amdgpu/raven2_pfp.bin
 File: amdgpu/raven2_rlc.bin
 File: amdgpu/raven2_sdma.bin
 File: amdgpu/raven2_vcn.bin
+File: amdgpu/navi10_asd.bin
+File: amdgpu/navi10_ce.bin
+File: amdgpu/navi10_gpu_info.bin
+File: amdgpu/navi10_me.bin
+File: amdgpu/navi10_mec.bin
+File: amdgpu/navi10_mec2.bin
+File: amdgpu/navi10_pfp.bin
+File: amdgpu/navi10_rlc.bin
+File: amdgpu/navi10_sdma.bin
+File: amdgpu/navi10_sdma1.bin
+File: amdgpu/navi10_smc.bin
+File: amdgpu/navi10_sos.bin
+File: amdgpu/navi10_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
