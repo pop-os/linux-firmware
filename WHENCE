@@ -3678,7 +3678,6 @@ File: intel/dsp_fw_cnl_v1191.bin
 Version: 10.00.00.1191
 File: intel/dsp_fw_cnl_v1858.bin
 Version: 10.23.00.1858
-File: intel/dsp_fw_cnl.bin
 Link: intel/dsp_fw_cnl.bin -> dsp_fw_cnl_v1858.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
