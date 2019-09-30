@@ -3710,7 +3710,7 @@ File: nvidia/tegra124/xusb.bin
 Version: v45.46
 
 File: nvidia/tegra210/xusb.bin
-Version: v50.10
+Version: v50.24
 
 File: nvidia/tegra186/xusb.bin
 Version: v55.15
