@@ -2283,6 +2283,19 @@ File: amdgpu/navi10_sdma1.bin
 File: amdgpu/navi10_smc.bin
 File: amdgpu/navi10_sos.bin
 File: amdgpu/navi10_vcn.bin
+File: amdgpu/navi14_asd.bin
+File: amdgpu/navi14_ce.bin
+File: amdgpu/navi14_gpu_info.bin
+File: amdgpu/navi14_me.bin
+File: amdgpu/navi14_mec.bin
+File: amdgpu/navi14_mec2.bin
+File: amdgpu/navi14_pfp.bin
+File: amdgpu/navi14_rlc.bin
+File: amdgpu/navi14_sdma.bin
+File: amdgpu/navi14_sdma1.bin
+File: amdgpu/navi14_smc.bin
+File: amdgpu/navi14_sos.bin
+File: amdgpu/navi14_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
