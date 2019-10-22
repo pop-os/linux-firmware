@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Standards-Version: 4.5.0
-Build-Depends: debhelper-compat (= 13), dh-exec
+Build-Depends: debhelper-compat (= 12)
 Vcs-Git: git://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux-firmware
 
 Package: linux-firmware
@@ -15,6 +15,6 @@ Recommends: firmware-sof-signed
 Provides: atmel-firmware
 Conflicts: atmel-firmware
 Replaces: atmel-firmware, linux-restricted-common, linux-firmware-snapdragon (<= 1.2-0ubuntu1)
-Breaks: linux-firmware-snapdragon (<= 1.2-0ubuntu1), linux-firmware-raspi2 (<= 1.20190819-0ubuntu2), amd64-microcode (<= 3.20220411.1ubuntu1)
+Breaks: linux-firmware-snapdragon (<= 1.2-0ubuntu1), linux-firmware-raspi2 (<= 1.20190819-0ubuntu2)
 Description: Firmware for Linux kernel drivers
  This package provides firmware used by Linux kernel drivers.
