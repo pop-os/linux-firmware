@@ -64,7 +64,7 @@ def main():
     whence_files = list(list_whence_files('WHENCE')) + list(list_whence_files('WHENCE.ubuntu'))
     links_list = list(list_links_list('WHENCE')) + list(list_links_list('WHENCE.ubuntu'))
     known_files = set(name for name in whence_list if not name.endswith('/')) | \
-                  set(['check_whence.py', 'configure', 'Makefile',
+                  set(['check_whence.py', 'configure', 'Makefile', 'system76.sh',
                        'README', 'copy-firmware.sh', 'WHENCE', 'WHENCE.ubuntu'])
     known_prefixes = set(name for name in whence_list if name.endswith('/'))
     git_files = set(list_git())
