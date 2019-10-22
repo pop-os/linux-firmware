@@ -15,12 +15,6 @@ clean:
 		fi ; \
 	done
 
-	# Run sanity checks if in a git repo
-	if [ -d .git ] && [ -x /usr/bin/python3 ] && \
-	   ! [ -d debian/git-build-recipe ] ; then \
-		$(MAKE) check ; \
-	fi
-
 export DH_OPTIONS
 
 install-linux-%: PACKAGE = linux-$*

@@ -95,6 +95,7 @@ def main():
             "contrib/templates/rpm.spec",
             "copy-firmware.sh",
             "dedup-firmware.sh",
+            "system76.sh",
         ]
     )
     known_prefixes = set(name for name in whence_list if name.endswith("/"))
