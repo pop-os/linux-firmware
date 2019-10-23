@@ -3371,6 +3371,7 @@ File: rtl_bt/rtl8723d_config.bin
 File: rtl_bt/rtl8821c_fw.bin
 File: rtl_bt/rtl8821c_config.bin
 File: rtl_bt/rtl8822cu_fw.bin
+File: rtl_bt/rtl8822cu_config.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3382,6 +3383,8 @@ Files rtl_bt/rtl8821c_* and rtl_bt/rtl8723d_* came directly from Realtek.
 File rtl_bt/rtl8822cu_fw.bin came directly from Realtek.
 updated on February 24, 2019
 File rtl_bt/rtl8822cu_fw.bin came directly from Realtek.
+updated on October 23, 2019
+File rtl_bt/rtl8822cu_config.bin came directly from Realtek.
 
 --------------------------------------------------------------------------
 
