@@ -4000,6 +4000,9 @@ Version: Guc API/APB ver 33 release 0 for Elkhartlake
 File: i915/ehl_huc_9.0.0.bin
 Version: Huc API/APB ver 9 release 0 for Elkhartlake
 
+File: i915/tgl_guc_35.2.0.bin
+Version: Guc API/APB ver 35 release 2 for Tigerlake
+
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
