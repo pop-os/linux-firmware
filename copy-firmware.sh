@@ -83,7 +83,7 @@ if ! command -v rdfind >/dev/null; then
 fi
 
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
-grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g' | while read k f; do
+grep -h -E '^(RawFile|File):' WHENCE WHENCE.ubuntu | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g' | while read k f; do
     test -f "$f" || continue
     install -d "$destdir/$(dirname "$f")"
     $verbose "copying/compressing file $f$compext"
@@ -106,7 +106,7 @@ if [ "$skip_dedup" != 1 ] ; then
 fi
 
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
-grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do
+grep -h -E '^Link:' WHENCE WHENCE.ubuntu | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do
     if test -L "$f$compext"; then
         test -f "$destdir/$f$compext" && continue
         $verbose "copying link $f$compext"
