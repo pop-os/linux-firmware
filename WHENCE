@@ -4628,6 +4628,9 @@ File: dpaa2/mc/mc_10.14.3_lx2160a.itb
 File: dpaa2/mc/mc_10.16.2_ls1088a.itb
 File: dpaa2/mc/mc_10.16.2_ls2088a.itb
 File: dpaa2/mc/mc_10.16.2_lx2160a.itb
+File: dpaa2/mc/mc_10.18.0_ls1088a.itb
+File: dpaa2/mc/mc_10.18.0_ls2088a.itb
+File: dpaa2/mc/mc_10.18.0_lx2160a.itb
 
 Licence: Redistributable. See LICENSE.nxp_mc_firmware for details
 
