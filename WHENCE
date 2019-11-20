@@ -4565,6 +4565,22 @@ https://developer.qualcomm.com/hardware/dragonboard-410c/tools
 
 --------------------------------------------------------------------------
 
+Driver: qcom_q6v5_pas - Qualcomm remoteproc firmware
+
+File: qcom/sdm845/adsp.mbn
+File: qcom/sdm845/adspr.jsn
+File: qcom/sdm845/adspua.jsn
+
+Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+
+Binary files supplied originally from
+http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v4.zip
+
+adsp.mbn has been converted from 20-adsp_split/firmware/adsp.* using
+https://github.com/andersson/pil-squasher
+
+--------------------------------------------------------------------------
+
 Driver: qcom_q6v5_mss - Qualcomm modem subsystem firmware
 
 File: qcom/sdm845/mba.mbn
