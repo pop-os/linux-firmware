@@ -4570,6 +4570,8 @@ Driver: qcom_q6v5_pas - Qualcomm remoteproc firmware
 File: qcom/sdm845/adsp.mbn
 File: qcom/sdm845/adspr.jsn
 File: qcom/sdm845/adspua.jsn
+File: qcom/sdm845/cdsp.mbn
+File: qcom/sdm845/cdspr.jsn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -4577,6 +4579,9 @@ Binary files supplied originally from
 http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v4.zip
 
 adsp.mbn has been converted from 20-adsp_split/firmware/adsp.* using
+https://github.com/andersson/pil-squasher
+
+cdsp.mbn has been converted from 21-cdsp_split/firmware/cdsp.* using
 https://github.com/andersson/pil-squasher
 
 --------------------------------------------------------------------------
