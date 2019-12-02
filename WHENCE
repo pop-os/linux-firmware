@@ -4721,3 +4721,18 @@ File: intel/ice/ddp/ice-1.3.4.0.pkg
 Link: intel/ice/ddp/ice.pkg -> ice-1.3.4.0.pkg
 
 License: Redistributable. See LICENSE.ice for details
+
+--------------------------------------------------------------------------
+
+Driver: inside-secure -- Inside Secure EIP197 crypto driver
+
+File: inside-secure/eip197_minifw/ipue.bin
+File: inside-secure/eip197_minifw/ifpp.bin
+
+Licence: Redistributable.
+Copyright (c) 2019 Verimatrix, Inc.
+
+Derived from proprietary unpublished source code.
+Permission is hereby granted for the distribution of this firmware
+as part of Linux or other Open Source operating system kernel,
+provided this copyright notice is accompanying it.
