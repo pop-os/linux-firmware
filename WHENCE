@@ -3137,6 +3137,7 @@ Version: WLAN.TF.2.1-00021-QCARMSWP-1
 Licence: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-6.txt
 File: ath10k/WCN3990/hw1.0/firmware-5.bin
 File: ath10k/WCN3990/hw1.0/wlanmdsp.mbn
+Link: qcom/sdm845/wlanmdsp.mbn -> ../../ath10k/WCN3990/hw1.0/wlanmdsp.mbn
 Version: WLAN.HL.2.0-01387-QCAHLSWMTPLZ-1
 Licence: ath10k/WCN3990/hw1.0/notice.txt_wlanmdsp
 
@@ -4606,7 +4607,6 @@ Driver: qcom_q6v5_mss - Qualcomm modem subsystem firmware
 File: qcom/sdm845/mba.mbn
 File: qcom/sdm845/modem.mbn
 File: qcom/sdm845/modemuw.jsn
-File: qcom/sdm845/wlanmdsp.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
