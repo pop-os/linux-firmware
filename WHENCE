@@ -2252,6 +2252,7 @@ File: amdgpu/raven_sdma.bin
 File: amdgpu/raven_vcn.bin
 File: amdgpu/raven_dmcu.bin
 File: amdgpu/raven_kicker_rlc.bin
+File: amdgpu/raven_ta.bin
 File: amdgpu/picasso_asd.bin
 File: amdgpu/picasso_ce.bin
 File: amdgpu/picasso_gpu_info.bin
@@ -2263,6 +2264,7 @@ File: amdgpu/picasso_rlc.bin
 File: amdgpu/picasso_rlc_am4.bin
 File: amdgpu/picasso_sdma.bin
 File: amdgpu/picasso_vcn.bin
+File: amdgpu/picasso_ta.bin
 File: amdgpu/raven2_asd.bin
 File: amdgpu/raven2_ce.bin
 File: amdgpu/raven2_gpu_info.bin
@@ -2273,6 +2275,7 @@ File: amdgpu/raven2_pfp.bin
 File: amdgpu/raven2_rlc.bin
 File: amdgpu/raven2_sdma.bin
 File: amdgpu/raven2_vcn.bin
+File: amdgpu/raven2_ta.bin
 File: amdgpu/navi10_asd.bin
 File: amdgpu/navi10_ce.bin
 File: amdgpu/navi10_gpu_info.bin
