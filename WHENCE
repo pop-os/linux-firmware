@@ -793,8 +793,8 @@ Version: W16.68.1.p179
 File: mrvl/sdsd8977_combo_v2.bin
 Version: W16.68.1.p195
 
-Licence: Redistributable. See LICENCE.NXP for details.  Originates from
-https://github.com/NXP/mwifiex-firmware.git
+Licence: Redistributable. See LICENCE.NXP for details.
+Originates from https://github.com/NXP/mwifiex-firmware.git
 
 --------------------------------------------------------------------------
 
