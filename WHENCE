@@ -2289,6 +2289,7 @@ File: amdgpu/navi10_sdma1.bin
 File: amdgpu/navi10_smc.bin
 File: amdgpu/navi10_sos.bin
 File: amdgpu/navi10_vcn.bin
+File: amdgpu/navi10_ta.bin
 File: amdgpu/navi14_asd.bin
 File: amdgpu/navi14_ce.bin
 File: amdgpu/navi14_ce_wks.bin
