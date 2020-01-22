@@ -3820,7 +3820,7 @@ Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
 
 --------------------------------------------------------------------------
 
-Driver: qca - Qualcomm Atheros Bluetooth support for QCA61x4 chips
+Driver: btqca - Qualcomm Atheros Bluetooth support for QCA61x4 chips
 
 File: qca/nvm_usb_00000201.bin
 File: qca/nvm_usb_00000200.bin
@@ -3838,6 +3838,11 @@ File: qca/crbtfw21.tlv
 File: qca/crnv21.bin
 File: qca/nvm_00440302.bin
 File: qca/rampatch_00440302.bin
+File: qca/nvm_00440302_eu.bin
+File: qca/nvm_00440302_i2s_eu.bin
+File: qca/nvm_usb_00000302_eu.bin
+File: qca/rampatch_00440302.tlv
+File: qca/rampatch_usb_00000302.tlv
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
