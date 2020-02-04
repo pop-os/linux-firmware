@@ -4473,7 +4473,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7615e - MediaTek MT7615e Wireless MACs
 
 File: mediatek/mt7615_n9.bin
-Version: 20190114
+Version: 20200131
 File: mediatek/mt7615_cr4.bin
 Version: 20190114
 File: mediatek/mt7615_rom_patch.bin
