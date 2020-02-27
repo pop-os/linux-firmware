@@ -4043,6 +4043,9 @@ Version: Guc API/APB ver 35 release 2 for Tigerlake
 File: i915/tgl_huc_7.0.3.bin
 Version: Huc API/APB ver 7 release 0 for Tigerlake
 
+File: i915/tgl_huc_7.0.12.bin
+Version: Huc API/APB ver 7 release 0 for Tigerlake
+
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
