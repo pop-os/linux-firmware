@@ -1,9 +1,10 @@
 #!/usr/bin/python
 
 import os, re, sys
+from io import open
 
 def list_whence():
-    with open('WHENCE') as whence:
+    with open('WHENCE', encoding='utf-8') as whence:
         for line in whence:
             match = re.match(r'(?:File|Source):\s*"(.*)"', line)
             if match:
