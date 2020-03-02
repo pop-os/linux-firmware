@@ -3850,8 +3850,6 @@ File: qca/rampatch_00440302.bin
 File: qca/nvm_00440302_eu.bin
 File: qca/nvm_00440302_i2s_eu.bin
 File: qca/nvm_usb_00000302_eu.bin
-File: qca/rampatch_00440302.tlv
-File: qca/rampatch_usb_00000302.tlv
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
