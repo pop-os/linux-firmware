@@ -1,9 +1,10 @@
 #!/usr/bin/python
 
 import os, re, sys
+from io import open
 
 def list_whence():
-    with open('WHENCE') as whence:
+    with open('WHENCE', encoding='utf-8') as whence:
         for line in whence:
             match = re.match(r'(?:File|Source):\s*"(.*)"', line)
             if match:
@@ -33,6 +34,7 @@ def list_git():
             yield line.rstrip('\n')
 
 def main():
+    ret = 0
     whence_list = list(list_whence())
     known_files = set(name for name in whence_list if not name.endswith('/')) | \
                   set(['check_whence.py', 'configure', 'Makefile',
@@ -42,6 +44,7 @@ def main():
 
     for name in sorted(list(known_files - git_files)):
         sys.stderr.write('E: %s listed in WHENCE does not exist\n' % name)
+        ret = 1
 
     for name in sorted(list(git_files - known_files)):
         # Ignore subdirectory changelogs and GPG detached signatures
@@ -55,6 +58,8 @@ def main():
                 break
         else:
             sys.stderr.write('E: %s not listed in WHENCE\n' % name)
+            ret = 1
+    return ret
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())

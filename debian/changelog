@@ -1,3 +1,44 @@
+linux-firmware (1.187) focal; urgency=medium
+
+  * Sound doesn't work on Lenovo X1 Carbon 7th with 20.04 (LP: #1860697)
+    - SAUCE: update sof firmwares to v1.4.2
+
+  * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
+    8eb0b281511d6455ca9151e52f694dc982193251 (LP: #1865130)
+    - check_whence: python3/utf-8 support
+    - Makefile: improve `make check` usefulness
+    - mediatek: Remove in-tree symlinks
+    - qca: Fix blueooth firmware name for QCA6174
+    - mediatek: move MT8173 VPU FW to subfolder
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+    - qca: Add firmware files for BT chip wcn3991.
+    - nvidia: add TU116/117 signed firmware
+    - drm/amdgpu: update to latest 19.50 firmware for raven
+    - mediatek: update MT8173 VPU firmware to v1.1.4
+    - rtl_nic: update firmware for RTL8153A
+    - rtl_bt: Update RTL8822C BT FW to V0x0998_C2B4
+    - linux-firmware: add firmware for MT7622
+    - linux-firmware: add version 2 for MT7615E
+    - amdgpu: update to latest navi10 firmware from 19.50
+    - Revert "radeon: update oland rlc microcode from amdgpu"
+    - amlogic: update video decoder firmwares
+    - amdgpu: add renoir firmware for 19.50
+    - amdgpu: update raven2 firmware for 19.50
+    - nfp: update Agilio SmartNIC flower firmware to rev AOTC-2.12.A.13
+    - qca: update bluetooth firmware for QCA6174
+    - i915: add HuC firmware v7.0.12 for TGL
+    - i915: Add DMC firmware v2.06 for TGL
+    - rtl_bt: Add firmware and configuration files for RTL8822C BT UART chip
+    - amdgpu: update vega10 firmware from 19.50
+    - amdgpu: update vega12 firmware from 19.50
+    - amdgpu: update vega20 firmware from 19.50
+    - linux-firmware: Update firmware file for Intel Bluetooth 9260
+    - linux-firmware: Update firmware file for Intel Bluetooth 9560
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+    - linux-firmware: Update firmware file for Intel Bluetooth AX200
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Thu, 19 Mar 2020 11:37:49 -0500
+
 linux-firmware (1.186) focal; urgency=medium
 
   * Add Breaks: on linux-firmware-raspi2 <= 1.20190819-0ubuntu2
