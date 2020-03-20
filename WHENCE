@@ -4475,6 +4475,24 @@ OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 
 --------------------------------------------------------------------------
 
+Driver: mtk_scp - Mediatek SCP System Control Processing Driver
+
+File: mediatek/mt8183/scp.img
+
+Licence: Redistributable.
+
+MediaTek Inc. grants permission to use and redistribute aforementioned firmware
+files for the use with devices containing MediaTek chipsets, but not as part of
+the Linux kernel or in any other form which would require these files themselves
+to be covered by the terms of the GNU General Public License or the GNU Lesser
+General Public License.
+
+These firmware files are distributed in the hope that they will be useful, but
+are provided WITHOUT ANY WARRANTY, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTY
+OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+--------------------------------------------------------------------------
+
 Driver: btmtk - MediaTek Bluetooth Driver
 
 File: mediatek/mt7622pr2h.bin
