@@ -4501,6 +4501,8 @@ File: mediatek/mt7622pr2h.bin
 Version: 20180621204904
 File: mediatek/mt7668pr2h.bin
 Version: 20180517181834
+File: mediatek/mt7663pr2h.bin
+Version: 7663mp1802-2003211229
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -4570,6 +4572,17 @@ File: mediatek/mt7622_n9.bin
 Version: 20200131
 File: mediatek/mt7622_rom_patch.bin
 Version: 20190114
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
+
+Driver: mt7663 - MediaTek MT7663 Wireless MACs
+
+File: mediatek/mt7663pr2h.bin
+Version: 7663mp1802-2003211229
+File: mediatek/mt7663_n9_v3.bin
+Version: 7663mp1827-20200326130317
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
