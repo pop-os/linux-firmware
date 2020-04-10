@@ -4750,6 +4750,7 @@ File: qcom/a530_zap.b02
 File: qcom/a530_zap.mdt
 File: qcom/a630_gmu.bin
 File: qcom/a630_sqe.fw
+File: qcom/sdm845/a630_zap.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
