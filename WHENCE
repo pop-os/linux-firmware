@@ -2308,6 +2308,7 @@ File: amdgpu/navi14_sdma1.bin
 File: amdgpu/navi14_smc.bin
 File: amdgpu/navi14_sos.bin
 File: amdgpu/navi14_vcn.bin
+File: amdgpu/navi14_ta.bin
 File: amdgpu/renoir_asd.bin
 File: amdgpu/renoir_ce.bin
 File: amdgpu/renoir_gpu_info.bin
