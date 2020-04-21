@@ -11,6 +11,7 @@ kernel.
 Driver: BCM-0bb4-0306 Cypress Bluetooth firmware for HTC Vive
 
 File: brcm/BCM-0bb4-0306.hcd
+Link: brcm/BCM-0a5c-6410.hcd -> BCM-0bb4-0306.hcd
 
 Licence: Redistributable. See LICENCE.cypress for details.
 
