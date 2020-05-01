@@ -4586,6 +4586,11 @@ Version: 7663mp1802-2003211229
 File: mediatek/mt7663_n9_v3.bin
 Version: 7663mp1827-20200326130317
 
+File: mediatek/mt7663pr2h_rebb.bin
+Version: 7663e2-1802-19091404338b809
+File: mediatek/mt7663_n9_rebb.bin
+Version: 7663mp1827-20190914043434
+
 Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
