@@ -2872,6 +2872,14 @@ File: rtw88/rtw8723d_fw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
+    These firmware should be put under /lib/firmware/rtw88/
+    And note that the rtw88 driver is able to support wake-on-wireless LAN
+    for RTL8822C devices, after kernel v5.6+. So, make sure the firmware
+    rtw88/rtw8822c_wow_fw.bin is also packed, otherwise the firmware load
+    fail could be a problem.
+    Although RTL8723D devices are 802.11n device, they are also supported
+    by rtw88 because the hardware arch is similar.
+
 --------------------------------------------------------------------------
 
 Driver: rtl8192ee - Realtek 802.11n WLAN driver for RTL8192EE
