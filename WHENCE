@@ -4597,6 +4597,18 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
+Driver: mt7915e - MediaTek MT7915e Wireless MACs
+
+File: mediatek/mt7915_wm.bin
+Version: 19530513
+File: mediatek/mt7915_wa.bin
+Version: 19530513
+File: mediatek/mt7915_rom_patch.bin
+Version: 19530513
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
 Driver: nfp - Netronome Flow Processor
 
 Link: netronome/nic_AMDA0081-0001_1x40.nffw -> nic/nic_AMDA0081-0001_1x40.nffw
