@@ -2304,6 +2304,7 @@ File: amdgpu/vega20_smc.bin
 File: amdgpu/vega20_sos.bin
 File: amdgpu/vega20_uvd.bin
 File: amdgpu/vega20_vce.bin
+File: amdgpu/vega20_ta.bin
 File: amdgpu/raven_asd.bin
 File: amdgpu/raven_ce.bin
 File: amdgpu/raven_gpu_info.bin
