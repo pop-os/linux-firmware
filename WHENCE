@@ -4591,7 +4591,7 @@ Version: 20180621204904
 File: mediatek/mt7668pr2h.bin
 Version: 20180517181834
 File: mediatek/mt7663pr2h.bin
-Version: 7663mp1802-2003211229
+Version: 7663e2ccn04-2006030247
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -4669,9 +4669,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7663 - MediaTek MT7663 Wireless MACs
 
 File: mediatek/mt7663pr2h.bin
-Version: 7663mp1802-2003211229
+Version: 7663e2ccn04-2006030247
 File: mediatek/mt7663_n9_v3.bin
-Version: 7663mp1827-20200326130317
+Version: v3.1.1
 
 File: mediatek/mt7663pr2h_rebb.bin
 Version: 7663e2-1802-19091404338b809
