@@ -4142,6 +4142,9 @@ Version: Huc API/APB ver 7 release 0 for Tigerlake
 File: i915/tgl_huc_7.0.12.bin
 Version: Huc API/APB ver 7 release 0 for Tigerlake
 
+File: i915/tgl_huc_7.5.0.bin
+Version: Huc API/APB ver 7 release 5 for Tigerlake
+
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
