@@ -2624,6 +2624,7 @@ File: "brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt"
 File: "brcm/brcmfmac43430-sdio.MUR1DX.txt"
 File: "brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt"
 File: "brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt"
+Link: brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt -> brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt
 File: "brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.txt"
 File: "brcm/brcmfmac43455-sdio.MINIX-NEO Z83-4.txt"
 File: "brcm/brcmfmac4356-pcie.gpd-win-pocket.txt"
@@ -3066,10 +3067,10 @@ File: rtl_nic/rtl8125a-3.fw
 Version: 0.0.1
 
 File: rtl_nic/rtl8125b-1.fw
-Version: 0.0.1
+Version: 0.0.2
 
 File: rtl_nic/rtl8125b-2.fw
-Version: 0.0.1
+Version: 0.0.2
 
 Licence:
  * Copyright © 2011-2013, Realtek Semiconductor Corporation
@@ -3583,7 +3584,9 @@ Licence: Redistributable. See LICENCE.go7007 for details
 Driver: ccp - Platform Security Processor (PSP) device
 
 File: amd/amd_sev_fam17h_model0xh.sbin
-Version: 2019-02-13
+Version: 2020-07-21
+File: amd/amd_sev_fam17h_model3xh.sbin
+Version: 2020-07-21
 
 License: Redistributable. See LICENSE.amd-sev for details
 
@@ -4087,6 +4090,9 @@ Version: DMC API/APB ver 2 release 4 for Tigerlake
 File: i915/tgl_dmc_ver2_06.bin
 Version: DMC API/APB ver 2 release 6 for Tigerlake
 
+File: i915/tgl_dmc_ver2_08.bin
+Version: DMC API/APB ver 2 release 8 for Tigerlake
+
 File: i915/icl_huc_9.0.0.bin
 Version: Huc API/APB ver 9 release 0 for Icelake
 
@@ -4104,6 +4110,12 @@ Version: Huc API/APB ver 7 release 0 for Tigerlake
 
 File: i915/tgl_huc_7.0.12.bin
 Version: Huc API/APB ver 7 release 0 for Tigerlake
+
+File: i915/tgl_huc_7.5.0.bin
+Version: Huc API/APB ver 7 release 5 for Tigerlake
+
+File: i915/rkl_dmc_ver2_02.bin
+Version: DMC API/APB ver 2 release 2 for Rocketlake
 
 License: Redistributable. See LICENSE.i915 for details
 
@@ -4610,7 +4622,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7615e - MediaTek MT7615e Wireless MACs
 
 File: mediatek/mt7615_n9.bin
-Version: 20200131
+Version: 20200629
 File: mediatek/mt7615_cr4.bin
 Version: 20190114
 File: mediatek/mt7615_rom_patch.bin
@@ -4899,6 +4911,9 @@ File: mellanox/mlxsw_spectrum2-29.2000.2714.mfa2
 File: mellanox/mlxsw_spectrum-13.2007.1168.mfa2
 File: mellanox/mlxsw_spectrum2-29.2007.1168.mfa2
 File: mellanox/mlxsw_spectrum3-30.2007.1168.mfa2
+File: mellanox/mlxsw_spectrum-13.2008.1036.mfa2
+File: mellanox/mlxsw_spectrum2-29.2008.1036.mfa2
+File: mellanox/mlxsw_spectrum3-30.2008.1036.mfa2
 
 Licence:
  Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
