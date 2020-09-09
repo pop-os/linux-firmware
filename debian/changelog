@@ -1,5 +1,6 @@
-linux-firmware (1.190) groovy; urgency=medium
+linux-firmware (1.190+system76) groovy; urgency=medium
 
+  [ Seth Forshee ]
   * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
     7a30af16115959cf5a817ae51429e72c0084fc0c
     - QCA: Add correct bin file for WCN3991
@@ -26,7 +27,7 @@ linux-firmware (1.190) groovy; urgency=medium
   * alsa/sof: support 1 and 3 dmics (LP: #1891585)
     - SAUCE: sof-firmware: add 1ch and 3ch topology files
 
- -- Seth Forshee <seth.forshee@canonical.com>  Wed, 19 Aug 2020 13:07:19 -0500
+ -- Jeremy Soller <jeremy@system76.com>  Wed, 09 Sep 2020 09:58:56 -0600
 
 linux-firmware (1.189) groovy; urgency=medium
 
