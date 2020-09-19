@@ -931,8 +931,7 @@ Version: 16.242414.0
 File: iwlwifi-7265-17.ucode
 Version: 17.bfb58538.0
 
-File: iwlwifi-7265D-10.ucode
-Version: 23.15.10.0
+Link: iwlwifi-7265D-10.ucode -> iwlwifi-7265-10.ucode
 
 File: iwlwifi-7265D-12.ucode
 Version: 25.17.12.0
