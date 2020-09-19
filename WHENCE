@@ -4012,15 +4012,15 @@ Driver: i915 -- Intel Integrated Graphics driver
 File: i915/skl_dmc_ver1_23.bin
 File: i915/skl_dmc_ver1_26.bin
 File: i915/skl_dmc_ver1_27.bin
-File: i915/skl_dmc_ver1.bin
+Link: i915/skl_dmc_ver1.bin -> skl_dmc_ver1_26.bin
 Version: DMC API/ABI ver 1 - release 27 for Skylake
 
 File: i915/bxt_dmc_ver1_07.bin
-File: i915/bxt_dmc_ver1.bin
+Link: i915/bxt_dmc_ver1.bin -> bxt_dmc_ver1_07.bin
 Version: DMC API/ABI ver 1 - release 07 for Broxton
 
 File: i915/kbl_dmc_ver1_01.bin
-File: i915/kbl_dmc_ver1.bin
+Link: i915/kbl_dmc_ver1.bin -> kbl_dmc_ver1_01.bin
 Version: DMC API/ABI ver 1 - release 01 for Kabylake
 
 File: i915/kbl_dmc_ver1_04.bin
@@ -4034,7 +4034,7 @@ File: i915/skl_guc_ver4.bin
 Version: Guc API/ABI ver 4 - release 3 for Skylake
 
 File: i915/skl_guc_ver6_1.bin
-File: i915/skl_guc_ver6.bin
+Link: i915/skl_guc_ver6.bin -> skl_guc_ver6_1.bin
 Version: Guc API/ABI ver 6 - release 1 for Skylake
 
 File: i915/skl_guc_ver9_33.bin
