@@ -62,7 +62,6 @@ grep -E '^Link:' WHENCE | sed -e's/^Link: *//g' -e's/-> //g' | while read f d; d
             $verbose "WARNING: missing target for symlink $f"
         fi
     else
-        test -f "$destdir/$f" && continue
         $verbose "creating link $f -> $d"
         mkdir -p $destdir/$(dirname "$f")
         ln -sf "$d" "$destdir/$f"
