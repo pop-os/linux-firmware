@@ -3969,6 +3969,7 @@ File: qca/crbtfw21.tlv
 File: qca/crnv21.bin
 File: qca/crbtfw32.tlv
 File: qca/crnv32.bin
+File: qca/crnv32u.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
