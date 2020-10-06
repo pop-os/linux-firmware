@@ -5074,8 +5074,8 @@ Licence: Redistributable. See LICENSE.amlogic_vdec for details.
 
 Driver: ice - Intel(R) Ethernet Connection E800 Series
 
-File: intel/ice/ddp/ice-1.3.4.0.pkg
-Link: intel/ice/ddp/ice.pkg -> ice-1.3.4.0.pkg
+File: intel/ice/ddp/ice-1.3.16.0.pkg
+Link: intel/ice/ddp/ice.pkg -> ice-1.3.16.0.pkg
 
 License: Redistributable. See LICENSE.ice for details
 
