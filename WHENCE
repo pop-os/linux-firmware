@@ -3237,6 +3237,9 @@ File: ath10k/QCA9377/hw1.0/board-2.bin
 File: ath10k/QCA9377/hw1.0/firmware-5.bin
 Version: WLAN.TF.1.0-00002-QCATFSWPZ-5
 Licence: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-5.txt
+File: ath10k/QCA9377/hw1.0/firmware-sdio-5.bin
+Version: WLAN.TF.1.1.1-00061-QCATFSWPZ-1
+Licence: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-sdio-5.txt
 File: ath10k/QCA99X0/hw2.0/board.bin
 File: ath10k/QCA99X0/hw2.0/firmware-5.bin
 Version: 10.4.1.00030-1
