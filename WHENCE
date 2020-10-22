@@ -3273,6 +3273,14 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
 --------------------------------------------------------------------------
 
+Driver: ath11k - Qualcomm Technologies 802.11ax chipset support
+
+File: ath11k/IPQ6018/hw1.0/board-2.bin
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
+
+--------------------------------------------------------------------------
+
 Driver: myri10ge - Myri10GE 10GbE NIC driver
 
 File: myri10ge_eth_z8e.dat
