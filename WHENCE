@@ -3312,6 +3312,10 @@ File: ath11k/IPQ8074/hw2.0/q6_fw.mdt
 Version: WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
 Licence: ath11k/IPQ8074/hw2.0/Notice.txt
 File: ath11k/QCA6390/hw2.0/board-2.bin
+File: ath11k/QCA6390/hw2.0/amss.bin
+File: ath11k/QCA6390/hw2.0/m3.bin
+Version: WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
+Licence: ath11k/QCA6390/hw2.0/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
