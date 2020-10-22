@@ -3276,6 +3276,23 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 Driver: ath11k - Qualcomm Technologies 802.11ax chipset support
 
 File: ath11k/IPQ6018/hw1.0/board-2.bin
+File: ath11k/IPQ6018/hw1.0/m3_fw.b00
+File: ath11k/IPQ6018/hw1.0/m3_fw.b01
+File: ath11k/IPQ6018/hw1.0/m3_fw.b02
+File: ath11k/IPQ6018/hw1.0/m3_fw.flist
+File: ath11k/IPQ6018/hw1.0/m3_fw.mdt
+File: ath11k/IPQ6018/hw1.0/q6_fw.b00
+File: ath11k/IPQ6018/hw1.0/q6_fw.b01
+File: ath11k/IPQ6018/hw1.0/q6_fw.b02
+File: ath11k/IPQ6018/hw1.0/q6_fw.b03
+File: ath11k/IPQ6018/hw1.0/q6_fw.b04
+File: ath11k/IPQ6018/hw1.0/q6_fw.b05
+File: ath11k/IPQ6018/hw1.0/q6_fw.b07
+File: ath11k/IPQ6018/hw1.0/q6_fw.b08
+File: ath11k/IPQ6018/hw1.0/q6_fw.flist
+File: ath11k/IPQ6018/hw1.0/q6_fw.mdt
+Version: WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+Licence: ath11k/IPQ6018/hw1.0/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
