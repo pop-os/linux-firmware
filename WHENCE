@@ -2648,6 +2648,27 @@ File: brcm/brcmfmac4354-sdio.bin
 File: brcm/brcmfmac4356-pcie.bin
 File: brcm/brcmfmac4373-sdio.bin
 File: brcm/brcmfmac4373.bin
+File: cypress/cyfmac43012-sdio.bin
+File: cypress/cyfmac43012-sdio.clm_blob
+File: cypress/cyfmac43340-sdio.bin
+File: cypress/cyfmac43362-sdio.bin
+File: cypress/cyfmac4339-sdio.bin
+File: cypress/cyfmac43430-sdio.bin
+File: cypress/cyfmac43430-sdio.clm_blob
+File: cypress/cyfmac43455-sdio.bin
+File: cypress/cyfmac43455-sdio.clm_blob
+File: cypress/cyfmac4354-sdio.bin
+File: cypress/cyfmac4354-sdio.clm_blob
+File: cypress/cyfmac4356-pcie.bin
+File: cypress/cyfmac4356-pcie.clm_blob
+File: cypress/cyfmac4356-sdio.bin
+File: cypress/cyfmac4356-sdio.clm_blob
+File: cypress/cyfmac43570-pcie.bin
+File: cypress/cyfmac43570-pcie.clm_blob
+File: cypress/cyfmac4373-sdio.bin
+File: cypress/cyfmac4373-sdio.clm_blob
+File: cypress/cyfmac54591-pcie.bin
+File: cypress/cyfmac54591-pcie.clm_blob
 
 Licence: Redistributable. See LICENCE.cypress for details.
 
