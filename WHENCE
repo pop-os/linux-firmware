@@ -4176,6 +4176,8 @@ Version: Huc API/APB ver 7 release 5 for Tigerlake
 File: i915/rkl_dmc_ver2_02.bin
 Version: DMC API/APB ver 2 release 2 for Rocketlake
 
+File: i915/dg1_dmc_ver2_02.bin
+Version: DMC API/APB ver 2 release 2 for DG1
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
