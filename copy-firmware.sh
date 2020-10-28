@@ -62,7 +62,6 @@ grep -h -E '^Link:' WHENCE WHENCE.ubuntu | sed -e's/^Link: *//g' -e's/-> //g' | 
             $verbose "WARNING: missing target for symlink $f"
         fi
     else
-        test -f "$destdir/$f" && continue
         $verbose "creating link $f -> $d"
         mkdir -p $destdir/$(dirname "$f")
         ln -sf "$d" "$destdir/$f"
