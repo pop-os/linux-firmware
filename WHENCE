@@ -2883,6 +2883,12 @@ File: rtlwifi/rtl8192cufw.bin
 File: rtlwifi/rtl8192cufw_A.bin
 File: rtlwifi/rtl8192cufw_B.bin
 File: rtlwifi/rtl8192cufw_TMSC.bin
+Info: From Vendor's rtl8188C_8192C_usb_linux_v4.0.1_6911.20130308 driver
+      All files extracted from driver/hal/rtl8192c/usb/Hal8192CUHWImg.c
+      Relevant variables (CONFIG_BT_COEXISTENCE not set):
+        - rtlwifi/rtl8192cufw_A.bin: Rtl8192CUFwUMCACutImgArray
+        - rtlwifi/rtl8192cufw_B.bin: Rtl8192CUFwUMCBCutImgArray
+        - rtlwifi/rtl8192cufw_TMSC.bin: Rtl8192CUFwTSMCImgArray
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
