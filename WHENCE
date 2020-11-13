@@ -3275,8 +3275,11 @@ File: ath10k/QCA6174/hw3.0/firmware-4.bin
 Version: WLAN.RM.2.0-00180-QCARMSWPZ-1
 Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA6174/hw3.0/firmware-6.bin
-Version: WLAN.RM.4.4.1-00140-QCARMSWPZ-1
+Version: WLAN.RM.4.4.1-00157-QCARMSWPZ-1
 Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
+File: ath10k/QCA6174/hw3.0/firmware-sdio-6.bin
+Version: WLAN.RMH.4.4.1-00077
+Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-sdio-6.txt
 File: ath10k/QCA9377/hw1.0/board.bin
 File: ath10k/QCA9377/hw1.0/board-2.bin
 File: ath10k/QCA9377/hw1.0/firmware-5.bin
@@ -3299,11 +3302,11 @@ Version: 10.2.4-1.0-00047
 Licence: ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9888/hw2.0/board-2.bin
 File: ath10k/QCA9888/hw2.0/firmware-5.bin
-Version: 10.4-3.9.0.2-00070
+Version: 10.4-3.9.0.2-00131
 Licence: ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9984/hw1.0/board-2.bin
 File: ath10k/QCA9984/hw1.0/firmware-5.bin
-Version: 10.4-3.9.0.2-00070
+Version: 10.4-3.9.0.2-00131
 Licence: ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9377/hw1.0/firmware-6.bin
 Version: WLAN.TF.2.1-00021-QCARMSWP-1
@@ -3313,6 +3316,54 @@ File: ath10k/WCN3990/hw1.0/wlanmdsp.mbn
 Link: qcom/sdm845/wlanmdsp.mbn -> ../../ath10k/WCN3990/hw1.0/wlanmdsp.mbn
 Version: WLAN.HL.2.0-01387-QCAHLSWMTPLZ-1
 Licence: ath10k/WCN3990/hw1.0/notice.txt_wlanmdsp
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
+
+--------------------------------------------------------------------------
+
+Driver: ath11k - Qualcomm Technologies 802.11ax chipset support
+
+File: ath11k/IPQ6018/hw1.0/board-2.bin
+File: ath11k/IPQ6018/hw1.0/m3_fw.b00
+File: ath11k/IPQ6018/hw1.0/m3_fw.b01
+File: ath11k/IPQ6018/hw1.0/m3_fw.b02
+File: ath11k/IPQ6018/hw1.0/m3_fw.flist
+File: ath11k/IPQ6018/hw1.0/m3_fw.mdt
+File: ath11k/IPQ6018/hw1.0/q6_fw.b00
+File: ath11k/IPQ6018/hw1.0/q6_fw.b01
+File: ath11k/IPQ6018/hw1.0/q6_fw.b02
+File: ath11k/IPQ6018/hw1.0/q6_fw.b03
+File: ath11k/IPQ6018/hw1.0/q6_fw.b04
+File: ath11k/IPQ6018/hw1.0/q6_fw.b05
+File: ath11k/IPQ6018/hw1.0/q6_fw.b07
+File: ath11k/IPQ6018/hw1.0/q6_fw.b08
+File: ath11k/IPQ6018/hw1.0/q6_fw.flist
+File: ath11k/IPQ6018/hw1.0/q6_fw.mdt
+Version: WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+Licence: ath11k/IPQ6018/hw1.0/Notice.txt
+File: ath11k/IPQ8074/hw2.0/board-2.bin
+File: ath11k/IPQ8074/hw2.0/m3_fw.b00
+File: ath11k/IPQ8074/hw2.0/m3_fw.b01
+File: ath11k/IPQ8074/hw2.0/m3_fw.b02
+File: ath11k/IPQ8074/hw2.0/m3_fw.flist
+File: ath11k/IPQ8074/hw2.0/m3_fw.mdt
+File: ath11k/IPQ8074/hw2.0/q6_fw.b00
+File: ath11k/IPQ8074/hw2.0/q6_fw.b01
+File: ath11k/IPQ8074/hw2.0/q6_fw.b02
+File: ath11k/IPQ8074/hw2.0/q6_fw.b03
+File: ath11k/IPQ8074/hw2.0/q6_fw.b04
+File: ath11k/IPQ8074/hw2.0/q6_fw.b05
+File: ath11k/IPQ8074/hw2.0/q6_fw.b07
+File: ath11k/IPQ8074/hw2.0/q6_fw.b08
+File: ath11k/IPQ8074/hw2.0/q6_fw.flist
+File: ath11k/IPQ8074/hw2.0/q6_fw.mdt
+Version: WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+Licence: ath11k/IPQ8074/hw2.0/Notice.txt
+File: ath11k/QCA6390/hw2.0/board-2.bin
+File: ath11k/QCA6390/hw2.0/amss.bin
+File: ath11k/QCA6390/hw2.0/m3.bin
+Version: WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
+Licence: ath11k/QCA6390/hw2.0/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
