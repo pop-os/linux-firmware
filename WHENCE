@@ -2428,6 +2428,18 @@ File: amdgpu/renoir_sdma.bin
 File: amdgpu/renoir_vcn.bin
 File: amdgpu/renoir_dmcub.bin
 File: amdgpu/renoir_ta.bin
+File: amdgpu/sienna_cichlid_ce.bin
+File: amdgpu/sienna_cichlid_dmcub.bin
+File: amdgpu/sienna_cichlid_me.bin
+File: amdgpu/sienna_cichlid_mec.bin
+File: amdgpu/sienna_cichlid_mec2.bin
+File: amdgpu/sienna_cichlid_pfp.bin
+File: amdgpu/sienna_cichlid_rlc.bin
+File: amdgpu/sienna_cichlid_sdma.bin
+File: amdgpu/sienna_cichlid_smc.bin
+File: amdgpu/sienna_cichlid_sos.bin
+File: amdgpu/sienna_cichlid_ta.bin
+File: amdgpu/sienna_cichlid_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
