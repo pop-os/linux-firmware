@@ -1,3 +1,17 @@
+linux-firmware (1.190.2) groovy; urgency=medium
+
+  * linux-firmware: intel AX200 (8087:0029) and AX201(8087:0026) bluetooth
+    firmware update (LP: #1905214)
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+    - linux-firmware: Update firmware file for Intel Bluetooth AX200
+
+  * [SRU]sof-firmware: update the sof-firmware from version v1.4.2 to
+    stable-v1.6 (LP: #1900809)
+    - UBUNTU: SAUCE: sof-firmware: update the sof-firmware to stable-v1.6
+    - UBUNTU: SAUCE: sof-firmware: Replace duplicates with symbolic links
+
+ -- Juerg Haefliger <juergh@canonical.com>  Thu, 26 Nov 2020 17:16:23 +0100
+
 linux-firmware (1.190.1) groovy; urgency=medium
 
   * Fix broken Realtek 8821C BT after S3 (LP: #1901129)
