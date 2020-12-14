@@ -2428,6 +2428,18 @@ File: amdgpu/renoir_sdma.bin
 File: amdgpu/renoir_vcn.bin
 File: amdgpu/renoir_dmcub.bin
 File: amdgpu/renoir_ta.bin
+File: amdgpu/sienna_cichlid_ce.bin
+File: amdgpu/sienna_cichlid_dmcub.bin
+File: amdgpu/sienna_cichlid_me.bin
+File: amdgpu/sienna_cichlid_mec.bin
+File: amdgpu/sienna_cichlid_mec2.bin
+File: amdgpu/sienna_cichlid_pfp.bin
+File: amdgpu/sienna_cichlid_rlc.bin
+File: amdgpu/sienna_cichlid_sdma.bin
+File: amdgpu/sienna_cichlid_smc.bin
+File: amdgpu/sienna_cichlid_sos.bin
+File: amdgpu/sienna_cichlid_ta.bin
+File: amdgpu/sienna_cichlid_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -2705,7 +2717,7 @@ Licence: Redistributable. See LICENCE.tda7706-firmware.txt for details.
 
 Driver: ti-vpe - Texas Instruments V4L2 driver for Video Processing Engine
 
-File: ti-connectivity/vpdma-1b8.bin
+File: ti/vpdma-1b8.bin
 
 Licence: Redistributable. See LICENCE.ti-tspa for details.
 
@@ -2883,6 +2895,12 @@ File: rtlwifi/rtl8192cufw.bin
 File: rtlwifi/rtl8192cufw_A.bin
 File: rtlwifi/rtl8192cufw_B.bin
 File: rtlwifi/rtl8192cufw_TMSC.bin
+Info: From Vendor's rtl8188C_8192C_usb_linux_v4.0.1_6911.20130308 driver
+      All files extracted from driver/hal/rtl8192c/usb/Hal8192CUHWImg.c
+      Relevant variables (CONFIG_BT_COEXISTENCE not set):
+        - rtlwifi/rtl8192cufw_A.bin: Rtl8192CUFwUMCACutImgArray
+        - rtlwifi/rtl8192cufw_B.bin: Rtl8192CUFwUMCBCutImgArray
+        - rtlwifi/rtl8192cufw_TMSC.bin: Rtl8192CUFwTSMCImgArray
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3275,8 +3293,11 @@ File: ath10k/QCA6174/hw3.0/firmware-4.bin
 Version: WLAN.RM.2.0-00180-QCARMSWPZ-1
 Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA6174/hw3.0/firmware-6.bin
-Version: WLAN.RM.4.4.1-00140-QCARMSWPZ-1
+Version: WLAN.RM.4.4.1-00157-QCARMSWPZ-1
 Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
+File: ath10k/QCA6174/hw3.0/firmware-sdio-6.bin
+Version: WLAN.RMH.4.4.1-00077
+Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-sdio-6.txt
 File: ath10k/QCA9377/hw1.0/board.bin
 File: ath10k/QCA9377/hw1.0/board-2.bin
 File: ath10k/QCA9377/hw1.0/firmware-5.bin
@@ -3299,11 +3320,11 @@ Version: 10.2.4-1.0-00047
 Licence: ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9888/hw2.0/board-2.bin
 File: ath10k/QCA9888/hw2.0/firmware-5.bin
-Version: 10.4-3.9.0.2-00070
+Version: 10.4-3.9.0.2-00131
 Licence: ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9984/hw1.0/board-2.bin
 File: ath10k/QCA9984/hw1.0/firmware-5.bin
-Version: 10.4-3.9.0.2-00070
+Version: 10.4-3.9.0.2-00131
 Licence: ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9377/hw1.0/firmware-6.bin
 Version: WLAN.TF.2.1-00021-QCARMSWP-1
@@ -3313,6 +3334,54 @@ File: ath10k/WCN3990/hw1.0/wlanmdsp.mbn
 Link: qcom/sdm845/wlanmdsp.mbn -> ../../ath10k/WCN3990/hw1.0/wlanmdsp.mbn
 Version: WLAN.HL.2.0-01387-QCAHLSWMTPLZ-1
 Licence: ath10k/WCN3990/hw1.0/notice.txt_wlanmdsp
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
+
+--------------------------------------------------------------------------
+
+Driver: ath11k - Qualcomm Technologies 802.11ax chipset support
+
+File: ath11k/IPQ6018/hw1.0/board-2.bin
+File: ath11k/IPQ6018/hw1.0/m3_fw.b00
+File: ath11k/IPQ6018/hw1.0/m3_fw.b01
+File: ath11k/IPQ6018/hw1.0/m3_fw.b02
+File: ath11k/IPQ6018/hw1.0/m3_fw.flist
+File: ath11k/IPQ6018/hw1.0/m3_fw.mdt
+File: ath11k/IPQ6018/hw1.0/q6_fw.b00
+File: ath11k/IPQ6018/hw1.0/q6_fw.b01
+File: ath11k/IPQ6018/hw1.0/q6_fw.b02
+File: ath11k/IPQ6018/hw1.0/q6_fw.b03
+File: ath11k/IPQ6018/hw1.0/q6_fw.b04
+File: ath11k/IPQ6018/hw1.0/q6_fw.b05
+File: ath11k/IPQ6018/hw1.0/q6_fw.b07
+File: ath11k/IPQ6018/hw1.0/q6_fw.b08
+File: ath11k/IPQ6018/hw1.0/q6_fw.flist
+File: ath11k/IPQ6018/hw1.0/q6_fw.mdt
+Version: WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+Licence: ath11k/IPQ6018/hw1.0/Notice.txt
+File: ath11k/IPQ8074/hw2.0/board-2.bin
+File: ath11k/IPQ8074/hw2.0/m3_fw.b00
+File: ath11k/IPQ8074/hw2.0/m3_fw.b01
+File: ath11k/IPQ8074/hw2.0/m3_fw.b02
+File: ath11k/IPQ8074/hw2.0/m3_fw.flist
+File: ath11k/IPQ8074/hw2.0/m3_fw.mdt
+File: ath11k/IPQ8074/hw2.0/q6_fw.b00
+File: ath11k/IPQ8074/hw2.0/q6_fw.b01
+File: ath11k/IPQ8074/hw2.0/q6_fw.b02
+File: ath11k/IPQ8074/hw2.0/q6_fw.b03
+File: ath11k/IPQ8074/hw2.0/q6_fw.b04
+File: ath11k/IPQ8074/hw2.0/q6_fw.b05
+File: ath11k/IPQ8074/hw2.0/q6_fw.b07
+File: ath11k/IPQ8074/hw2.0/q6_fw.b08
+File: ath11k/IPQ8074/hw2.0/q6_fw.flist
+File: ath11k/IPQ8074/hw2.0/q6_fw.mdt
+Version: WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+Licence: ath11k/IPQ8074/hw2.0/Notice.txt
+File: ath11k/QCA6390/hw2.0/board-2.bin
+File: ath11k/QCA6390/hw2.0/amss.bin
+File: ath11k/QCA6390/hw2.0/m3.bin
+Version: WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
+Licence: ath11k/QCA6390/hw2.0/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
@@ -3559,7 +3628,10 @@ File:intel/ibt-19-240-4.sfi
 Version: BT_HarrisonPeak_REL13705
 File:intel/ibt-19-240-4.ddc
 Version: BT_HarrisonPeak_REL13705
-
+File:intel/ibt-0041-0041.sfi
+Version: BT_TyphoonPeak_REL15791
+File:intel/ibt-0041-0041.ddc
+Version: BT_TyphoonPeak_REL15791
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -3655,9 +3727,9 @@ Licence: Redistributable. See LICENCE.go7007 for details
 Driver: ccp - Platform Security Processor (PSP) device
 
 File: amd/amd_sev_fam17h_model0xh.sbin
-Version: 2020-09-15
+Version: 2020-11-20
 File: amd/amd_sev_fam17h_model3xh.sbin
-Version: 2020-09-15
+Version: 2020-11-20
 
 License: Redistributable. See LICENSE.amd-sev for details
 
@@ -4047,7 +4119,6 @@ Link: i915/kbl_dmc_ver1.bin -> kbl_dmc_ver1_01.bin
 Version: DMC API/ABI ver 1 - release 01 for Kabylake
 
 File: i915/kbl_dmc_ver1_04.bin
-File: i915/kbl_dmc_ver1_04.bin
 Version: DMC API/ABI ver 1 - release 04 for Kabylake
 
 File: i915/skl_guc_ver1.bin
@@ -4068,6 +4139,9 @@ Version: Guc API/ABI ver 32 - release 0 for Skylake
 
 File: i915/skl_guc_33.0.0.bin
 Version: Guc API/ABI ver 33 - release 0 for Skylake
+
+File: i915/skl_guc_49.0.1.bin
+Version: Guc API/ABI ver 49 - release 0 for Skylake
 
 File: i915/skl_huc_ver01_07_1398.bin
 Version: HuC API/ABI ver 1 - release 7 for Skylake
@@ -4102,11 +4176,17 @@ Version: Guc API/APB ver 32 - release 0 for Broxton
 File: i915/bxt_guc_33.0.0.bin
 Version: Guc API/APB ver 33 - release 0 for Broxton
 
+File: i915/bxt_guc_49.0.1.bin
+Version: Guc API/APB ver 49 - release 0 for Broxton
+
 File: i915/kbl_guc_ver9_14.bin
 Version: Guc API/APB ver 9 release 14 for Kabylake
 
 File: i915/cml_guc_33.0.0.bin
 Version: Guc API/APB ver 33 release 0 for Comet Lake
+
+File: i915/cml_guc_49.0.1.bin
+Version: Guc API/APB ver 49 release 0 for Comet Lake
 
 File: i915/kbl_guc_ver9_39.bin
 Version: Guc API/APB ver 9 release 39 for Kabylake
@@ -4117,11 +4197,17 @@ Version: Guc API/APB ver 32 release 0 for Kabylake
 File: i915/kbl_guc_33.0.0.bin
 Version: Guc API/APB ver 33 release 0 for Kabylake
 
+File: i915/kbl_guc_49.0.1.bin
+Version: Guc API/APB ver 49 release 0 for Kabylake
+
 File: i915/glk_guc_32.0.3.bin
 Version: Guc API/APB ver 32 release 0 for Geminilake
 
 File: i915/glk_guc_33.0.0.bin
 Version: Guc API/APB ver 33 release 0 for Geminilake
+
+File: i915/glk_guc_49.0.1.bin
+Version: Guc API/APB ver 49 release 0 for Geminilake
 
 File: i915/glk_huc_ver03_01_2893.bin
 Version: Huc API/APB ver 3 release 1 for Geminilake
@@ -4153,6 +4239,9 @@ Version: Guc API/APB ver 32 release 0 for Icelake
 File: i915/icl_guc_33.0.0.bin
 Version: Guc API/APB ver 33 release 0 for Icelake
 
+File: i915/icl_guc_49.0.1.bin
+Version: Guc API/APB ver 49 release 0 for Icelake
+
 File: i915/icl_huc_ver8_4_3238.bin
 Version: Huc API/APB ver 8 release 4 for Icelake
 
@@ -4171,11 +4260,17 @@ Version: Huc API/APB ver 9 release 0 for Icelake
 File: i915/ehl_guc_33.0.4.bin
 Version: Guc API/APB ver 33 release 0 for Elkhartlake
 
+File: i915/ehl_guc_49.0.1.bin
+Version: Guc API/APB ver 49 release 0 for Elkhartlake
+
 File: i915/ehl_huc_9.0.0.bin
 Version: Huc API/APB ver 9 release 0 for Elkhartlake
 
 File: i915/tgl_guc_35.2.0.bin
 Version: Guc API/APB ver 35 release 2 for Tigerlake
+
+File: i915/tgl_guc_49.0.1.bin
+Version: Guc API/APB ver 49 release 0 for Tigerlake
 
 File: i915/tgl_huc_7.0.3.bin
 Version: Huc API/APB ver 7 release 0 for Tigerlake
@@ -4994,6 +5089,9 @@ File: mellanox/mlxsw_spectrum3-30.2008.1310.mfa2
 File: mellanox/mlxsw_spectrum-13.2008.1312.mfa2
 File: mellanox/mlxsw_spectrum2-29.2008.1312.mfa2
 File: mellanox/mlxsw_spectrum3-30.2008.1312.mfa2
+File: mellanox/mlxsw_spectrum-13.2008.2018.mfa2
+File: mellanox/mlxsw_spectrum2-29.2008.2018.mfa2
+File: mellanox/mlxsw_spectrum3-30.2008.2018.mfa2
 
 Licence:
  Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
