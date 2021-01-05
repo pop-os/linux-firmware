@@ -2630,7 +2630,6 @@ File: brcm/brcmfmac4329-sdio.bin
 File: brcm/brcmfmac4330-sdio.bin
 File: brcm/brcmfmac4334-sdio.bin
 File: brcm/brcmfmac4335-sdio.bin
-File: brcm/brcmfmac4339-sdio.bin
 File: brcm/brcmfmac43241b0-sdio.bin
 File: brcm/brcmfmac43241b4-sdio.bin
 File: brcm/brcmfmac43241b5-sdio.bin
@@ -2638,12 +2637,9 @@ File: brcm/brcmfmac43242a.bin
 File: brcm/brcmfmac43143.bin
 File: brcm/brcmfmac43143-sdio.bin
 File: brcm/brcmfmac43430a0-sdio.bin
-File: brcm/brcmfmac43455-sdio.bin
 File: brcm/brcmfmac4350c2-pcie.bin
 File: brcm/brcmfmac4350-pcie.bin
-File: brcm/brcmfmac4356-sdio.bin
 File: brcm/brcmfmac43569.bin
-File: brcm/brcmfmac43570-pcie.bin
 File: brcm/brcmfmac4358-pcie.bin
 File: brcm/brcmfmac43602-pcie.bin
 File: brcm/brcmfmac43602-pcie.ap.bin
@@ -2653,12 +2649,6 @@ File: brcm/brcmfmac4371-pcie.bin
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 
-File: brcm/brcmfmac43340-sdio.bin
-File: brcm/brcmfmac43362-sdio.bin
-File: brcm/brcmfmac43430-sdio.bin
-File: brcm/brcmfmac4354-sdio.bin
-File: brcm/brcmfmac4356-pcie.bin
-File: brcm/brcmfmac4373-sdio.bin
 File: brcm/brcmfmac4373.bin
 File: cypress/cyfmac43012-sdio.bin
 File: cypress/cyfmac43012-sdio.clm_blob
