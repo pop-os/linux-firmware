@@ -1,3 +1,11 @@
+linux-firmware (1.190.3) groovy; urgency=medium
+
+  * Fix Realtek 8821c bluetooth fails reconnect BLE devices after suspend
+    (LP: #1909705)
+    - rtl_bt: Update RTL8821C BT(USB I/F) FW to 0x829a_7644
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Thu, 07 Jan 2021 09:40:21 -0600
+
 linux-firmware (1.190.2) groovy; urgency=medium
 
   * linux-firmware: intel AX200 (8087:0029) and AX201(8087:0026) bluetooth
