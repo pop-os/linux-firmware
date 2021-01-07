@@ -2692,6 +2692,8 @@ Link: brcm/brcmfmac43362-sdio.lemaker,bananapro.txt -> brcmfmac43362-sdio.cubiet
 File: "brcm/brcmfmac43430a0-sdio.jumper-ezpad-mini3.txt"
 File: "brcm/brcmfmac43430a0-sdio.ONDA-V80 PLUS.txt"
 File: "brcm/brcmfmac43430-sdio.AP6212.txt"
+Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-plus.txt -> brcmfmac43430-sdio.AP6212.txt
+Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-zero.txt -> brcmfmac43430-sdio.AP6212.txt
 File: "brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt"
 File: "brcm/brcmfmac43430-sdio.MUR1DX.txt"
 File: "brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt"
@@ -3549,13 +3551,13 @@ Version: BT_WindStormPeak_REL0306
 File: intel/ibt-12-16.sfi
 Version: BT_WindStormPeak_REL0306
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL13313
+Version: BT_JeffersonPeak_B0_B0_REL17064
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL13313
+Version: BT_JeffersonPeak_B0_B0_REL17064
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL13313
+Version: BT_JeffersonPeak_B0_B0_REL17064
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL13313
+Version: BT_JeffersonPeak_B0_B0_REL17064
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3565,13 +3567,13 @@ Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL13313
+Version: BT_ThunderPeak_B0_B0_REL17064
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL13313
+Version: BT_ThunderPeak_B0_B0_REL17064
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL13313
+Version: BT_ThunderPeak_B0_B0_REL17064
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL13313
+Version: BT_ThunderPeak_B0_B0_REL17064
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -3581,57 +3583,57 @@ Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL13705
+Version: BT_CyclonePeak_A0_REL17535
 File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL13705
+Version: BT_CyclonePeak_A0_REL17535
 File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL13705
+Version: BT_CyclonePeak_A0_REL17535
 File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL13705
+Version: BT_CyclonePeak_A0_REL17535
 File:intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL13705
+Version: BT_CyclonePeak_A0_REL17535
 File:intel/ibt-20-1-4.ddc
-Version: BT_CyclonePeak_A0_REL13705
+Version: BT_CyclonePeak_A0_REL17535
 File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL13705
+Version: BT_Quasar_REL17535
 File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL13705
+Version: BT_Quasar_REL17535
 File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL13705
+Version: BT_Quasar_REL17535
 File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL13705
+Version: BT_Quasar_REL17535
 File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL13705
+Version: BT_HarrisonPeak_REL17535
 File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL13705
+Version: BT_HarrisonPeak_REL17535
 File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL13705
+Version: BT_HarrisonPeak_REL17535
 File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL13705
+Version: BT_HarrisonPeak_REL17535
 File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL13705
+Version: BT_HarrisonPeak_REL17535
 File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL13705
+Version: BT_HarrisonPeak_REL17535
 File:intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL13705
+Version: BT_HarrisonPeak_REL17535
 File:intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL13705
+Version: BT_HarrisonPeak_REL17535
 File:intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL13705
+Version: BT_HarrisonPeak_REL17535
 File:intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL13705
+Version: BT_HarrisonPeak_REL17535
 File:intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL13705
+Version: BT_HarrisonPeak_REL17535
 File:intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL13705
+Version: BT_HarrisonPeak_REL17535
 File:intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL13705
+Version: BT_HarrisonPeak_REL17535
 File:intel/ibt-19-240-4.ddc
-Version: BT_HarrisonPeak_REL13705
+Version: BT_HarrisonPeak_REL17535
 File:intel/ibt-0041-0041.sfi
-Version: BT_TyphoonPeak_REL15791
+Version: BT_TyphoonPeak_REL17510
 File:intel/ibt-0041-0041.ddc
-Version: BT_TyphoonPeak_REL15791
+Version: BT_TyphoonPeak_REL17510
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -3654,6 +3656,8 @@ File: rtl_bt/rtl8822cu_fw.bin
 File: rtl_bt/rtl8822cu_config.bin
 File: rtl_bt/rtl8822cs_fw.bin
 File: rtl_bt/rtl8822cs_config.bin
+File: rtl_bt/rtl8852au_fw.bin
+File: rtl_bt/rtl8852au_config.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -5218,3 +5222,11 @@ Driver: prestera - Marvell driver for Prestera family ASIC devices
 File: mrvl/prestera/mvsw_prestera_fw-v2.0.img
 
 Licence: Redistributable. See LICENCE.Marvell for details.
+
+------------------------------------------------
+
+Driver: lt9611uxc - Lontium DSI to HDMI bridge
+
+File: lt9611uxc_fw.bin
+
+License: Redistributable. See LICENSE.Lontium for details.
