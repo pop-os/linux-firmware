@@ -5090,6 +5090,8 @@ File: qcom/sdm845/cdspr.jsn
 File: qcom/sm8250/adsp.mbn
 File: qcom/sm8250/adspr.jsn
 File: qcom/sm8250/adspua.jsn
+File: qcom/sm8250/cdsp.mbn
+File: qcom/sm8250/cdspr.jsn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
