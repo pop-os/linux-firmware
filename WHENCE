@@ -4338,6 +4338,9 @@ Version: DMC API/APB ver 2 release 2 for Rocketlake
 
 File: i915/dg1_dmc_ver2_02.bin
 Version: DMC API/APB ver 2 release 2 for DG1
+
+File: i915/dg1_guc_49.0.1.bin
+Version: Guc API/APB ver 49 release 0 for DG1
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
