@@ -4344,6 +4344,9 @@ Version: Guc API/APB ver 49 release 0 for DG1
 
 File: i915/dg1_huc_7.7.1.bin
 Version: Huc API/APB ver 7 release 1 for DG1
+
+File: i915/adls_dmc_ver2_01.bin
+Version: DMC API/APB ver 2 release 1 for Alderlake S
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
