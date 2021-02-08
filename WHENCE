@@ -5047,6 +5047,23 @@ File: qcom/venus-5.4/venus.mbn
 
 Version: 5.4-00024
 
+File: qcom/vpu-1.0/venus.mdt
+File: qcom/vpu-1.0/venus.b00
+File: qcom/vpu-1.0/venus.b01
+File: qcom/vpu-1.0/venus.b02
+File: qcom/vpu-1.0/venus.b03
+File: qcom/vpu-1.0/venus.b04
+File: qcom/vpu-1.0/venus.b05
+File: qcom/vpu-1.0/venus.b06
+File: qcom/vpu-1.0/venus.b07
+File: qcom/vpu-1.0/venus.b08
+File: qcom/vpu-1.0/venus.b09
+File: qcom/vpu-1.0/venus.b10
+File: qcom/vpu-1.0/venus.b19
+File: qcom/vpu-1.0/venus.mbn
+
+Version: VIDEO.VPU.1.0-00087-PROD-1
+
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
@@ -5081,6 +5098,9 @@ File: qcom/a530_zap.mdt
 File: qcom/a630_gmu.bin
 File: qcom/a630_sqe.fw
 File: qcom/sdm845/a630_zap.mbn
+File: qcom/a650_gmu.bin
+File: qcom/a650_sqe.fw
+File: qcom/sm8250/a650_zap.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -5096,11 +5116,17 @@ File: qcom/sdm845/adspr.jsn
 File: qcom/sdm845/adspua.jsn
 File: qcom/sdm845/cdsp.mbn
 File: qcom/sdm845/cdspr.jsn
+File: qcom/sm8250/adsp.mbn
+File: qcom/sm8250/adspr.jsn
+File: qcom/sm8250/adspua.jsn
+File: qcom/sm8250/cdsp.mbn
+File: qcom/sm8250/cdspr.jsn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
 http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v4.zip
+http://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210118133815-v2.zip
 
 adsp.mbn has been converted from 20-adsp_split/firmware/adsp.* using
 https://github.com/andersson/pil-squasher
