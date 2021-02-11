@@ -2440,6 +2440,17 @@ File: amdgpu/sienna_cichlid_smc.bin
 File: amdgpu/sienna_cichlid_sos.bin
 File: amdgpu/sienna_cichlid_ta.bin
 File: amdgpu/sienna_cichlid_vcn.bin
+File: amdgpu/green_sardine_asd.bin
+File: amdgpu/green_sardine_ce.bin
+File: amdgpu/green_sardine_dmcub.bin
+File: amdgpu/green_sardine_me.bin
+File: amdgpu/green_sardine_mec2.bin
+File: amdgpu/green_sardine_mec.bin
+File: amdgpu/green_sardine_pfp.bin
+File: amdgpu/green_sardine_rlc.bin
+File: amdgpu/green_sardine_sdma.bin
+File: amdgpu/green_sardine_ta.bin
+File: amdgpu/green_sardine_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
