@@ -4933,6 +4933,15 @@ Version: 20210122002730
 Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
+
+Driver: mt7921 - MediaTek MT7921 bluetooth chipset
+
+File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
+Version: 20210223142901
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
 Driver: nfp - Netronome Flow Processor
 
 Link: netronome/nic_AMDA0081-0001_1x40.nffw -> nic/nic_AMDA0081-0001_1x40.nffw
