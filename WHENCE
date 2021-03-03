@@ -2440,6 +2440,17 @@ File: amdgpu/sienna_cichlid_smc.bin
 File: amdgpu/sienna_cichlid_sos.bin
 File: amdgpu/sienna_cichlid_ta.bin
 File: amdgpu/sienna_cichlid_vcn.bin
+File: amdgpu/green_sardine_asd.bin
+File: amdgpu/green_sardine_ce.bin
+File: amdgpu/green_sardine_dmcub.bin
+File: amdgpu/green_sardine_me.bin
+File: amdgpu/green_sardine_mec2.bin
+File: amdgpu/green_sardine_mec.bin
+File: amdgpu/green_sardine_pfp.bin
+File: amdgpu/green_sardine_rlc.bin
+File: amdgpu/green_sardine_sdma.bin
+File: amdgpu/green_sardine_ta.bin
+File: amdgpu/green_sardine_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -2630,7 +2641,6 @@ File: brcm/brcmfmac4329-sdio.bin
 File: brcm/brcmfmac4330-sdio.bin
 File: brcm/brcmfmac4334-sdio.bin
 File: brcm/brcmfmac4335-sdio.bin
-File: brcm/brcmfmac4339-sdio.bin
 File: brcm/brcmfmac43241b0-sdio.bin
 File: brcm/brcmfmac43241b4-sdio.bin
 File: brcm/brcmfmac43241b5-sdio.bin
@@ -2638,12 +2648,9 @@ File: brcm/brcmfmac43242a.bin
 File: brcm/brcmfmac43143.bin
 File: brcm/brcmfmac43143-sdio.bin
 File: brcm/brcmfmac43430a0-sdio.bin
-File: brcm/brcmfmac43455-sdio.bin
 File: brcm/brcmfmac4350c2-pcie.bin
 File: brcm/brcmfmac4350-pcie.bin
-File: brcm/brcmfmac4356-sdio.bin
 File: brcm/brcmfmac43569.bin
-File: brcm/brcmfmac43570-pcie.bin
 File: brcm/brcmfmac4358-pcie.bin
 File: brcm/brcmfmac43602-pcie.bin
 File: brcm/brcmfmac43602-pcie.ap.bin
@@ -2653,34 +2660,49 @@ File: brcm/brcmfmac4371-pcie.bin
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 
-File: brcm/brcmfmac43340-sdio.bin
-File: brcm/brcmfmac43362-sdio.bin
-File: brcm/brcmfmac43430-sdio.bin
-File: brcm/brcmfmac4354-sdio.bin
-File: brcm/brcmfmac4356-pcie.bin
-File: brcm/brcmfmac4373-sdio.bin
 File: brcm/brcmfmac4373.bin
 File: cypress/cyfmac43012-sdio.bin
+Link: brcm/brcmfmac43012-sdio.bin -> ../cypress/cyfmac43012-sdio.bin
 File: cypress/cyfmac43012-sdio.clm_blob
+Link: brcm/brcmfmac43012-sdio.clm_blob -> ../cypress/cyfmac43012-sdio.clm_blob
 File: cypress/cyfmac43340-sdio.bin
+Link: brcm/brcmfmac43340-sdio.bin -> ../cypress/cyfmac43340-sdio.bin
 File: cypress/cyfmac43362-sdio.bin
+Link: brcm/brcmfmac43362-sdio.bin -> ../cypress/cyfmac43362-sdio.bin
 File: cypress/cyfmac4339-sdio.bin
+Link: brcm/brcmfmac4339-sdio.bin -> ../cypress/cyfmac4339-sdio.bin
 File: cypress/cyfmac43430-sdio.bin
+Link: brcm/brcmfmac43430-sdio.bin -> ../cypress/cyfmac43430-sdio.bin
 File: cypress/cyfmac43430-sdio.clm_blob
+Link: brcm/brcmfmac43430-sdio.clm_blob -> ../cypress/cyfmac43430-sdio.clm_blob
 File: cypress/cyfmac43455-sdio.bin
+Link: brcm/brcmfmac43455-sdio.bin -> ../cypress/cyfmac43455-sdio.bin
 File: cypress/cyfmac43455-sdio.clm_blob
+Link: brcm/brcmfmac43455-sdio.clm_blob -> ../cypress/cyfmac43455-sdio.clm_blob
 File: cypress/cyfmac4354-sdio.bin
+Link: brcm/brcmfmac4354-sdio.bin -> ../cypress/cyfmac4354-sdio.bin
 File: cypress/cyfmac4354-sdio.clm_blob
+Link: brcm/brcmfmac4354-sdio.clm_blob -> ../cypress/cyfmac4354-sdio.clm_blob
 File: cypress/cyfmac4356-pcie.bin
+Link: brcm/brcmfmac4356-pcie.bin -> ../cypress/cyfmac4356-pcie.bin
 File: cypress/cyfmac4356-pcie.clm_blob
+Link: brcm/brcmfmac4356-pcie.clm_blob -> ../cypress/cyfmac4356-pcie.clm_blob
 File: cypress/cyfmac4356-sdio.bin
+Link: brcm/brcmfmac4356-sdio.bin -> ../cypress/cyfmac4356-sdio.bin
 File: cypress/cyfmac4356-sdio.clm_blob
+Link: brcm/brcmfmac4356-sdio.clm_blob -> ../cypress/cyfmac4356-sdio.clm_blob
 File: cypress/cyfmac43570-pcie.bin
+Link: brcm/brcmfmac43570-pcie.bin -> ../cypress/cyfmac43570-pcie.bin
 File: cypress/cyfmac43570-pcie.clm_blob
+Link: brcm/brcmfmac43570-pcie.clm_blob -> ../cypress/cyfmac43570-pcie.clm_blob
 File: cypress/cyfmac4373-sdio.bin
+Link: brcm/brcmfmac4373-sdio.bin -> ../cypress/cyfmac4373-sdio.bin
 File: cypress/cyfmac4373-sdio.clm_blob
+Link: brcm/brcmfmac4373-sdio.clm_blob -> ../cypress/cyfmac4373-sdio.clm_blob
 File: cypress/cyfmac54591-pcie.bin
+Link: brcm/brcmfmac54591-pcie.bin -> ../cypress/cyfmac54591-pcie.bin
 File: cypress/cyfmac54591-pcie.clm_blob
+Link: brcm/brcmfmac54591-pcie.clm_blob -> ../cypress/cyfmac54591-pcie.clm_blob
 
 Licence: Redistributable. See LICENCE.cypress for details.
 
@@ -2700,8 +2722,10 @@ File: "brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt"
 File: "brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt"
 Link: brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt -> brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt
 File: "brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.txt"
+Link: brcm/brcmfmac43455-sdio.Raspberry\ Pi\ Foundation-Raspberry\ Pi\ 4\ Model\ B.txt -> brcmfmac43455-sdio.raspberrypi,4-model-b.txt
 File: "brcm/brcmfmac43455-sdio.MINIX-NEO Z83-4.txt"
 File: "brcm/brcmfmac4356-pcie.gpd-win-pocket.txt"
+File: brcm/brcmfmac4356-sdio.vamrs,rock960.txt
 
 Licence: GPLv2. See GPL-2 for details.
 
@@ -3583,57 +3607,57 @@ Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL17535
+Version: BT_CyclonePeak_A0_REL19994
 File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL17535
+Version: BT_CyclonePeak_A0_REL19994
 File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL17535
+Version: BT_CyclonePeak_A0_REL19994
 File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL17535
+Version: BT_CyclonePeak_A0_REL19994
 File:intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL17535
+Version: BT_CyclonePeak_A0_REL19994
 File:intel/ibt-20-1-4.ddc
-Version: BT_CyclonePeak_A0_REL17535
+Version: BT_CyclonePeak_A0_REL19994
 File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL17535
+Version: BT_Quasar_REL19994
 File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL17535
+Version: BT_Quasar_REL19994
 File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL17535
+Version: BT_Quasar_REL19994
 File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL17535
+Version: BT_Quasar_REL19994
 File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL17535
+Version: BT_HarrisonPeak_REL19994
 File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL17535
+Version: BT_HarrisonPeak_REL19994
 File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL17535
+Version: BT_HarrisonPeak_REL19994
 File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL17535
+Version: BT_HarrisonPeak_REL19994
 File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL17535
+Version: BT_HarrisonPeak_REL19994
 File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL17535
+Version: BT_HarrisonPeak_REL19994
 File:intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL17535
+Version: BT_HarrisonPeak_REL19994
 File:intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL17535
+Version: BT_HarrisonPeak_REL19994
 File:intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL17535
+Version: BT_HarrisonPeak_REL19994
 File:intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL17535
+Version: BT_HarrisonPeak_REL19994
 File:intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL17535
+Version: BT_HarrisonPeak_REL19994
 File:intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL17535
+Version: BT_HarrisonPeak_REL19994
 File:intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL17535
+Version: BT_HarrisonPeak_REL19994
 File:intel/ibt-19-240-4.ddc
-Version: BT_HarrisonPeak_REL17535
+Version: BT_HarrisonPeak_REL19994
 File:intel/ibt-0041-0041.sfi
-Version: BT_TyphoonPeak_REL17510
+Version: BT_TyphoonPeak_REL19922
 File:intel/ibt-0041-0041.ddc
-Version: BT_TyphoonPeak_REL17510
+Version: BT_TyphoonPeak_REL19922
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -4290,6 +4314,15 @@ Version: DMC API/APB ver 2 release 2 for Rocketlake
 
 File: i915/dg1_dmc_ver2_02.bin
 Version: DMC API/APB ver 2 release 2 for DG1
+
+File: i915/dg1_guc_49.0.1.bin
+Version: Guc API/APB ver 49 release 0 for DG1
+
+File: i915/dg1_huc_7.7.1.bin
+Version: Huc API/APB ver 7 release 1 for DG1
+
+File: i915/adls_dmc_ver2_01.bin
+Version: DMC API/APB ver 2 release 1 for Alderlake S
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
@@ -4844,6 +4877,17 @@ Version: 20200819
 Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
+
+Driver: mt7921 - MediaTek MT7921 Wireless MACs
+
+File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
+Version: 20210122002654a
+File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
+Version: 20210122002730
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
 Driver: nfp - Netronome Flow Processor
 
 Link: netronome/nic_AMDA0081-0001_1x40.nffw -> nic/nic_AMDA0081-0001_1x40.nffw
@@ -4988,6 +5032,23 @@ File: qcom/venus-5.4/venus.mbn
 
 Version: 5.4-00024
 
+File: qcom/vpu-1.0/venus.mdt
+File: qcom/vpu-1.0/venus.b00
+File: qcom/vpu-1.0/venus.b01
+File: qcom/vpu-1.0/venus.b02
+File: qcom/vpu-1.0/venus.b03
+File: qcom/vpu-1.0/venus.b04
+File: qcom/vpu-1.0/venus.b05
+File: qcom/vpu-1.0/venus.b06
+File: qcom/vpu-1.0/venus.b07
+File: qcom/vpu-1.0/venus.b08
+File: qcom/vpu-1.0/venus.b09
+File: qcom/vpu-1.0/venus.b10
+File: qcom/vpu-1.0/venus.b19
+File: qcom/vpu-1.0/venus.mbn
+
+Version: VIDEO.VPU.1.0-00087-PROD-1
+
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
@@ -5022,6 +5083,9 @@ File: qcom/a530_zap.mdt
 File: qcom/a630_gmu.bin
 File: qcom/a630_sqe.fw
 File: qcom/sdm845/a630_zap.mbn
+File: qcom/a650_gmu.bin
+File: qcom/a650_sqe.fw
+File: qcom/sm8250/a650_zap.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -5037,11 +5101,17 @@ File: qcom/sdm845/adspr.jsn
 File: qcom/sdm845/adspua.jsn
 File: qcom/sdm845/cdsp.mbn
 File: qcom/sdm845/cdspr.jsn
+File: qcom/sm8250/adsp.mbn
+File: qcom/sm8250/adspr.jsn
+File: qcom/sm8250/adspua.jsn
+File: qcom/sm8250/cdsp.mbn
+File: qcom/sm8250/cdspr.jsn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
 http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v4.zip
+http://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210118133815-v2.zip
 
 adsp.mbn has been converted from 20-adsp_split/firmware/adsp.* using
 https://github.com/andersson/pil-squasher
@@ -5096,6 +5166,9 @@ File: mellanox/mlxsw_spectrum3-30.2008.1312.mfa2
 File: mellanox/mlxsw_spectrum-13.2008.2018.mfa2
 File: mellanox/mlxsw_spectrum2-29.2008.2018.mfa2
 File: mellanox/mlxsw_spectrum3-30.2008.2018.mfa2
+File: mellanox/mlxsw_spectrum-13.2008.2304.mfa2
+File: mellanox/mlxsw_spectrum2-29.2008.2304.mfa2
+File: mellanox/mlxsw_spectrum3-30.2008.2304.mfa2
 
 Licence:
  Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.

@@ -13,6 +13,7 @@ boardtype=0x6e4
 btc_mode=1
 btc_params1=0x7530
 btc_params8=0x4e20
+btc_params50=0x972c
 cbfilttype=1
 cckPwrIdxCorr=3
 cckTssiDelay=150
