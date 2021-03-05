@@ -5360,3 +5360,13 @@ Driver: lt9611uxc - Lontium DSI to HDMI bridge
 File: lt9611uxc_fw.bin
 
 License: Redistributable. See LICENSE.Lontium for details.
+
+--------------------------------------------------------------------------
+
+Driver: wfx - Silicon Labs Wi-Fi Transceiver
+
+File: silabs/wfm_wf200_C0.sec
+Version: 3.12.1
+
+Licence: Redistributable. See silabs/LICENCE.wf200 for details.
+Originates from https://github.com/SiliconLabs/wfx-firmware
