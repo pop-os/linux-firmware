@@ -1182,6 +1182,30 @@ Version: 62.49eeb572.0
 File: iwlwifi-ty-a0-gf-a0-62.ucode
 Version: 62.49eeb572.0
 
+File: iwlwifi-cc-a0-63.ucode
+Version: 63.c04f3485.0
+
+File: iwlwifi-Qu-b0-hr-b0-63.ucode
+Version: 63.c04f3485.0
+
+File: iwlwifi-Qu-b0-jf-b0-63.ucode
+Version: 63.c04f3485.0
+
+File: iwlwifi-Qu-c0-hr-b0-63.ucode
+Version: 63.c04f3485.0
+
+File: iwlwifi-Qu-c0-jf-b0-63.ucode
+Version: 63.c04f3485.0
+
+File: iwlwifi-QuZ-a0-hr-b0-63.ucode
+Version: 63.c04f3485.0
+
+File: iwlwifi-QuZ-a0-jf-b0-63.ucode
+Version: 63.c04f3485.0
+
+File: iwlwifi-ty-a0-gf-a0-63.ucode
+Version: 63.c04f3485.0
+
 File: iwlwifi-ty-a0-gf-a0.pnvm
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
