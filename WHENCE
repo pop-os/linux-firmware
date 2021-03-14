@@ -3731,6 +3731,7 @@ Link: rtl_bt/rtl8723bs_config-OBDA0623.bin -> rtl8723bs_config-OBDA8723.bin
 File: rtl_bt/rtl8761a_fw.bin
 File: rtl_bt/rtl8812ae_fw.bin
 File: rtl_bt/rtl8821a_fw.bin
+Link: rtl_bt/rtl8821a_config.bin -> rtl8821c_config.bin
 File: rtl_bt/rtl8822b_fw.bin
 File: rtl_bt/rtl8822b_config.bin
 File: rtl_bt/rtl8723d_fw.bin
