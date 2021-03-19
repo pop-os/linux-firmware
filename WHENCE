@@ -2489,6 +2489,16 @@ File: amdgpu/navy_flounder_smc.bin
 File: amdgpu/navy_flounder_sos.bin
 File: amdgpu/navy_flounder_ta.bin
 File: amdgpu/navy_flounder_vcn.bin
+File: amdgpu/arcturus_asd.bin
+File: amdgpu/arcturus_gpu_info.bin
+File: amdgpu/arcturus_mec2.bin
+File: amdgpu/arcturus_mec.bin
+File: amdgpu/arcturus_rlc.bin
+File: amdgpu/arcturus_sdma.bin
+File: amdgpu/arcturus_smc.bin
+File: amdgpu/arcturus_sos.bin
+File: amdgpu/arcturus_ta.bin
+File: amdgpu/arcturus_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
