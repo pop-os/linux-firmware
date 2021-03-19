@@ -2451,6 +2451,18 @@ File: amdgpu/green_sardine_rlc.bin
 File: amdgpu/green_sardine_sdma.bin
 File: amdgpu/green_sardine_ta.bin
 File: amdgpu/green_sardine_vcn.bin
+File: amdgpu/navy_flounder_ce.bin
+File: amdgpu/navy_flounder_dmcub.bin
+File: amdgpu/navy_flounder_me.bin
+File: amdgpu/navy_flounder_mec2.bin
+File: amdgpu/navy_flounder_mec.bin
+File: amdgpu/navy_flounder_pfp.bin
+File: amdgpu/navy_flounder_rlc.bin
+File: amdgpu/navy_flounder_sdma.bin
+File: amdgpu/navy_flounder_smc.bin
+File: amdgpu/navy_flounder_sos.bin
+File: amdgpu/navy_flounder_ta.bin
+File: amdgpu/navy_flounder_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
