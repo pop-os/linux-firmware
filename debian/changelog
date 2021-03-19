@@ -1,5 +1,6 @@
-linux-firmware (1.195) hirsute; urgency=medium
+linux-firmware (1.195+system76) hirsute; urgency=medium
 
+  [ Seth Forshee ]
   * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
     f7915a0c29fee27a310cebd7155b9e3a6eb71a1d
     - brcm: remove old brcm firmwares that have newer cypress variants
@@ -25,7 +26,7 @@ linux-firmware (1.195) hirsute; urgency=medium
     - amdgpu: add initial firmware for green sardine
   * Add support for noudeb build profile
 
- -- Seth Forshee <seth.forshee@canonical.com>  Wed, 03 Mar 2021 07:24:55 -0600
+ -- Jeremy Soller <jeremy@system76.com>  Fri, 19 Mar 2021 14:55:02 -0600
 
 linux-firmware (1.194) hirsute; urgency=medium
 
