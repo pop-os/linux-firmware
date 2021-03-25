@@ -2750,6 +2750,7 @@ File: "brcm/brcmfmac43340-sdio.pov-tab-p1006w-data.txt"
 File: "brcm/brcmfmac43340-sdio.predia-basic.txt"
 File: "brcm/brcmfmac43362-sdio.cubietech,cubietruck.txt"
 Link: brcm/brcmfmac43362-sdio.lemaker,bananapro.txt -> brcmfmac43362-sdio.cubietech,cubietruck.txt
+File: "brcm/brcmfmac43430a0-sdio.ilife-S806.txt"
 File: "brcm/brcmfmac43430a0-sdio.jumper-ezpad-mini3.txt"
 File: "brcm/brcmfmac43430a0-sdio.ONDA-V80 PLUS.txt"
 File: "brcm/brcmfmac43430-sdio.AP6212.txt"
