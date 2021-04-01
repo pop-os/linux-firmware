@@ -5203,7 +5203,7 @@ Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
 http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v4.zip
-http://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210118133815-v2.zip
+http://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210331-v4.zip
 
 adsp.mbn has been converted from 20-adsp_split/firmware/adsp.* using
 https://github.com/andersson/pil-squasher
