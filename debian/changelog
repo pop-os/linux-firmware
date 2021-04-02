@@ -1,5 +1,6 @@
-linux-firmware (1.196) hirsute; urgency=medium
+linux-firmware (1.196+system76) hirsute; urgency=medium
 
+  [ Seth Forshee ]
   * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
     3f026a2f13a8f130cde849168a111ec80f12e27b
     - silabs: add new firmware for WF200
@@ -32,7 +33,7 @@ linux-firmware (1.196) hirsute; urgency=medium
   * alsa/sdw: support soundwire audio for TGL-H machines (LP: #1911830)
     - SAUCE: sof-firmware: add TGL-H firmware from sof-bin v1.6.1
 
- -- Seth Forshee <seth.forshee@canonical.com>  Wed, 31 Mar 2021 13:49:18 -0500
+ -- Jeremy Soller <jeremy@system76.com>  Fri, 02 Apr 2021 09:07:38 -0600
 
 linux-firmware (1.195) hirsute; urgency=medium
 
