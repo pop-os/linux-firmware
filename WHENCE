@@ -4142,6 +4142,8 @@ Link: nvidia/tegra210/vic.bin -> vic04_ucode.bin
 File: nvidia/tegra186/vic04_ucode.bin
 Link: nvidia/tegra186/vic.bin -> vic04_ucode.bin
 
+File: nvidia/tegra194/vic.bin
+
 Licence: Redistributable. See LICENCE.nvidia for details
 
 --------------------------------------------------------------------------
