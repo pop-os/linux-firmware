@@ -5198,6 +5198,8 @@ File: qcom/sdm845/a630_zap.mbn
 File: qcom/a650_gmu.bin
 File: qcom/a650_sqe.fw
 File: qcom/sm8250/a650_zap.mbn
+File: qcom/a660_gmu.bin
+File: qcom/a660_sqe.fw
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
