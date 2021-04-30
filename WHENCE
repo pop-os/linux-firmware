@@ -2289,6 +2289,7 @@ File: amdgpu/polaris12_ce.bin
 File: amdgpu/polaris12_ce_2.bin
 File: amdgpu/polaris12_mc.bin
 File: amdgpu/polaris12_k_mc.bin
+File: amdgpu/polaris12_32_mc.bin
 File: amdgpu/polaris12_me.bin
 File: amdgpu/polaris12_me_2.bin
 File: amdgpu/polaris12_mec.bin
