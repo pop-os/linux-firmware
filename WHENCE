@@ -5145,7 +5145,7 @@ File: qcom/venus-5.4/venus.b03
 File: qcom/venus-5.4/venus.b04
 File: qcom/venus-5.4/venus.mbn
 
-Version: 5.4-00024
+Version: 5.4-00038
 
 File: qcom/vpu-1.0/venus.mdt
 File: qcom/vpu-1.0/venus.b00
@@ -5163,6 +5163,23 @@ File: qcom/vpu-1.0/venus.b19
 File: qcom/vpu-1.0/venus.mbn
 
 Version: VIDEO.VPU.1.0-00087-PROD-1
+
+File: qcom/vpu-2.0/venus.mdt
+File: qcom/vpu-2.0/venus.b00
+File: qcom/vpu-2.0/venus.b01
+File: qcom/vpu-2.0/venus.b02
+File: qcom/vpu-2.0/venus.b03
+File: qcom/vpu-2.0/venus.b04
+File: qcom/vpu-2.0/venus.b05
+File: qcom/vpu-2.0/venus.b06
+File: qcom/vpu-2.0/venus.b07
+File: qcom/vpu-2.0/venus.b08
+File: qcom/vpu-2.0/venus.b09
+File: qcom/vpu-2.0/venus.b10
+File: qcom/vpu-2.0/venus.b19
+File: qcom/vpu-2.0/venus.mbn
+
+Version: VIDEO.VPU.2.0-00038-PROD-1
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
