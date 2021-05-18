@@ -4722,8 +4722,8 @@ File: nvidia/tu102/sec2/sig.bin
 Link: nvidia/tu104/acr/bl.bin -> ../../tu102/acr/bl.bin
 Link: nvidia/tu104/acr/ucode_ahesasc.bin -> ../../tu102/acr/ucode_ahesasc.bin
 Link: nvidia/tu104/acr/ucode_asb.bin -> ../../tu102/acr/ucode_asb.bin
-Link: nvidia/tu104/acr/unload_bl.bin -> ../../tu102/acr/ucode_unload.bin
-Link: nvidia/tu104/acr/ucode_unload.bin -> ../../tu102/acr/unload_bl.bin
+Link: nvidia/tu104/acr/unload_bl.bin -> ../../tu102/acr/unload_bl.bin
+Link: nvidia/tu104/acr/ucode_unload.bin -> ../../tu102/acr/ucode_unload.bin
 Link: nvidia/tu104/gr/fecs_bl.bin -> ../../tu102/gr/fecs_bl.bin
 File: nvidia/tu104/gr/fecs_data.bin
 File: nvidia/tu104/gr/fecs_inst.bin
@@ -4744,8 +4744,8 @@ Link: nvidia/tu104/sec2/sig.bin -> ../../tu102/sec2/sig.bin
 Link: nvidia/tu106/acr/bl.bin -> ../../tu102/acr/bl.bin
 Link: nvidia/tu106/acr/ucode_ahesasc.bin -> ../../tu102/acr/ucode_ahesasc.bin
 Link: nvidia/tu106/acr/ucode_asb.bin -> ../../tu102/acr/ucode_asb.bin
-Link: nvidia/tu106/acr/unload_bl.bin -> ../../tu102/acr/ucode_unload.bin
-Link: nvidia/tu106/acr/ucode_unload.bin -> ../../tu102/acr/unload_bl.bin
+Link: nvidia/tu106/acr/unload_bl.bin -> ../../tu102/acr/unload_bl.bin
+Link: nvidia/tu106/acr/ucode_unload.bin -> ../../tu102/acr/ucode_unload.bin
 Link: nvidia/tu106/gr/fecs_bl.bin -> ../../tu102/gr/fecs_bl.bin
 File: nvidia/tu106/gr/fecs_data.bin
 File: nvidia/tu106/gr/fecs_inst.bin
