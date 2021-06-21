@@ -4462,6 +4462,9 @@ Version: DMC API/APB ver 2 release 6 for Tigerlake
 File: i915/tgl_dmc_ver2_08.bin
 Version: DMC API/APB ver 2 release 8 for Tigerlake
 
+File: i915/tgl_dmc_ver2_12.bin
+Version: DMC API/APB ver 2 release 12 for Tigerlake
+
 File: i915/icl_huc_9.0.0.bin
 Version: Huc API/APB ver 9 release 0 for Icelake
 
