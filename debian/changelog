@@ -1,9 +1,10 @@
-linux-firmware (1.197.1) hirsute; urgency=medium
+linux-firmware (1.197.1+system76) hirsute; urgency=medium
 
+  [ Seth Forshee ]
   * Fix system hang with 5.10 kernel + RX540 on RKL platform (LP: #1929147)
     - amdgpu: add new polaris 12 MC firmware
 
- -- Seth Forshee <seth.forshee@canonical.com>  Fri, 28 May 2021 09:38:38 -0500
+ -- Jeremy Soller <jeremy@system76.com>  Thu, 24 Jun 2021 14:35:53 -0600
 
 linux-firmware (1.197) hirsute; urgency=medium
 
