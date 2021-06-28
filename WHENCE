@@ -2524,6 +2524,18 @@ File: amdgpu/arcturus_smc.bin
 File: amdgpu/arcturus_sos.bin
 File: amdgpu/arcturus_ta.bin
 File: amdgpu/arcturus_vcn.bin
+File: amdgpu/dimgrey_cavefish_ce.bin
+File: amdgpu/dimgrey_cavefish_dmcub.bin
+File: amdgpu/dimgrey_cavefish_me.bin
+File: amdgpu/dimgrey_cavefish_mec.bin
+File: amdgpu/dimgrey_cavefish_mec2.bin
+File: amdgpu/dimgrey_cavefish_pfp.bin
+File: amdgpu/dimgrey_cavefish_rlc.bin
+File: amdgpu/dimgrey_cavefish_sdma.bin
+File: amdgpu/dimgrey_cavefish_smc.bin
+File: amdgpu/dimgrey_cavefish_sos.bin
+File: amdgpu/dimgrey_cavefish_ta.bin
+File: amdgpu/dimgrey_cavefish_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
