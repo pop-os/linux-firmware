@@ -1206,6 +1206,9 @@ Version: 63.c04f3485.0
 File: iwlwifi-ty-a0-gf-a0-63.ucode
 Version: 63.c04f3485.0
 
+File: iwlwifi-ty-a0-gf-a0-66.ucode
+Version: 66.55c64978.0
+
 File: iwlwifi-ty-a0-gf-a0.pnvm
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
