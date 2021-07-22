@@ -578,14 +578,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.25.4.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.25.4.0.bin
+File: cxgb4/t4fw-1.26.0.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.26.0.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.25.4.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.25.4.0.bin
-File: cxgb4/t6fw-1.25.4.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.25.4.0.bin
+File: cxgb4/t5fw-1.26.0.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.26.0.0.bin
+File: cxgb4/t6fw-1.26.0.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.26.0.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 File: cxgb4/configs/t4-config-default.txt
@@ -1205,6 +1205,9 @@ Version: 63.c04f3485.0
 
 File: iwlwifi-ty-a0-gf-a0-63.ucode
 Version: 63.c04f3485.0
+
+File: iwlwifi-ty-a0-gf-a0-66.ucode
+Version: 66.55c64978.0
 
 File: iwlwifi-ty-a0-gf-a0.pnvm
 
@@ -2524,6 +2527,18 @@ File: amdgpu/arcturus_smc.bin
 File: amdgpu/arcturus_sos.bin
 File: amdgpu/arcturus_ta.bin
 File: amdgpu/arcturus_vcn.bin
+File: amdgpu/dimgrey_cavefish_ce.bin
+File: amdgpu/dimgrey_cavefish_dmcub.bin
+File: amdgpu/dimgrey_cavefish_me.bin
+File: amdgpu/dimgrey_cavefish_mec.bin
+File: amdgpu/dimgrey_cavefish_mec2.bin
+File: amdgpu/dimgrey_cavefish_pfp.bin
+File: amdgpu/dimgrey_cavefish_rlc.bin
+File: amdgpu/dimgrey_cavefish_sdma.bin
+File: amdgpu/dimgrey_cavefish_smc.bin
+File: amdgpu/dimgrey_cavefish_sos.bin
+File: amdgpu/dimgrey_cavefish_ta.bin
+File: amdgpu/dimgrey_cavefish_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -3158,7 +3173,8 @@ Info: Initial version taken from Realtek version
       rtl_92ce_92se_92de_8723ae_88ee_8723be_92ee_linux_mac80211_0017.1224.2013
       Updated Jan. 14, 2015 with file added by Realtek to
       http://github.com/lwfinger/rtlwifi_new.git.
-File: rtlwifi/rtl8192eefw.bin
+      Same firmware rtl8192eu_nic.bin so just link them
+Link: rtlwifi/rtl8192eefw.bin -> rtl8192eu_nic.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3169,9 +3185,9 @@ Driver: rtl8723bs - Realtek 802.11n WLAN driver for RTL8723BS
 Info: Firmware files extracted from data statements in Realtek driver
       v4.3.5.5_12290.20140916_BTCOEX20140507-4E40.
 File: rtlwifi/rtl8723bs_bt.bin
-File: rtlwifi/rtl8723bs_nic.bin
-File: rtlwifi/rtl8723bs_ap_wowlan.bin
-File: rtlwifi/rtl8723bs_wowlan.bin
+Link: rtlwifi/rtl8723bs_nic.bin -> rtl8723bu_nic.bin
+Link: rtlwifi/rtl8723bs_ap_wowlan.bin -> rtl8723bu_ap_wowlan.bin
+Link: rtlwifi/rtl8723bs_wowlan.bin -> rtl8723bu_wowlan.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3698,53 +3714,53 @@ Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL23926
+Version: BT_CyclonePeak_A0_REL25791
 File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL23926
+Version: BT_CyclonePeak_A0_REL25791
 File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL23926
+Version: BT_CyclonePeak_A0_REL25791
 File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL23926
+Version: BT_CyclonePeak_A0_REL25791
 File:intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL23926
+Version: BT_CyclonePeak_A0_REL25791
 File:intel/ibt-20-1-4.ddc
-Version: BT_CyclonePeak_A0_REL23926
+Version: BT_CyclonePeak_A0_REL25791
 File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL23926
+Version: BT_Quasar_REL25791
 File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL23926
+Version: BT_Quasar_REL25791
 File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL23926
+Version: BT_Quasar_REL25791
 File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL23926
+Version: BT_Quasar_REL25791
 File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL23926
+Version: BT_HarrisonPeak_REL25791
 File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL23926
+Version: BT_HarrisonPeak_REL25791
 File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL23926
+Version: BT_HarrisonPeak_REL25791
 File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL23926
+Version: BT_HarrisonPeak_REL25791
 File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL23926
+Version: BT_HarrisonPeak_REL25791
 File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL23926
+Version: BT_HarrisonPeak_REL25791
 File:intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL23926
+Version: BT_HarrisonPeak_REL25791
 File:intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL23926
+Version: BT_HarrisonPeak_REL25791
 File:intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL23926
+Version: BT_HarrisonPeak_REL25791
 File:intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL23926
+Version: BT_HarrisonPeak_REL25791
 File:intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL23926
+Version: BT_HarrisonPeak_REL25791
 File:intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL23926
+Version: BT_HarrisonPeak_REL25791
 File:intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL23926
+Version: BT_HarrisonPeak_REL25791
 File:intel/ibt-19-240-4.ddc
-Version: BT_HarrisonPeak_REL23926
+Version: BT_HarrisonPeak_REL25791
 File:intel/ibt-0041-0041.sfi
 Version: BT_TyphoonPeak_REL23884
 File:intel/ibt-0041-0041.ddc
@@ -3760,6 +3776,10 @@ File: rtl_bt/rtl8723bs_fw.bin
 File: rtl_bt/rtl8723bs_config-OBDA8723.bin
 Link: rtl_bt/rtl8723bs_config-OBDA0623.bin -> rtl8723bs_config-OBDA8723.bin
 File: rtl_bt/rtl8761a_fw.bin
+File: rtl_bt/rtl8761b_fw.bin
+File: rtl_bt/rtl8761b_config.bin
+File: rtl_bt/rtl8761bu_fw.bin
+File: rtl_bt/rtl8761bu_config.bin
 File: rtl_bt/rtl8812ae_fw.bin
 File: rtl_bt/rtl8821a_fw.bin
 Link: rtl_bt/rtl8821a_config.bin -> rtl8821c_config.bin
@@ -3789,6 +3809,11 @@ File rtl_bt/rtl8822cu_fw.bin came directly from Realtek.
 updated on October 23, 2019
 File rtl_bt/rtl8822cu_config.bin came directly from Realtek.
 
+Found in vendor driver, 20200806_LINUX_BT_DRIVER_RTL8761B_COEX_v0202.zip
+File rtl_bt/rtl8761b_fw.bin
+File rtl_bt/rtl8761b_config.bin
+File rtl_bt/rtl8761bu_fw.bin
+File rtl_bt/rtl8761bu_config.bin
 --------------------------------------------------------------------------
 
 Driver: btmtk_usb - Bluetooth USB driver
@@ -4175,6 +4200,13 @@ File: qca/nvm_00440302_i2s_eu.bin
 File: qca/nvm_usb_00000302_eu.bin
 File: qca/htbtfw20.tlv
 File: qca/htnv20.bin
+File: qca/rampatch_usb_00130200.bin
+File: qca/nvm_usb_00130200.bin
+File: qca/nvm_usb_00130200_0104.bin
+File: qca/nvm_usb_00130200_0105.bin
+File: qca/nvm_usb_00130200_0106.bin
+File: qca/nvm_usb_00130200_0107.bin
+File: qca/nvm_usb_00130200_0110.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
@@ -4266,6 +4298,9 @@ Version: Guc API/ABI ver 33 - release 0 for Skylake
 File: i915/skl_guc_49.0.1.bin
 Version: Guc API/ABI ver 49 - release 0 for Skylake
 
+File: i915/skl_guc_62.0.0.bin
+Version: GuC API/APB ver 62.0.0 for Skylake
+
 File: i915/skl_huc_ver01_07_1398.bin
 Version: HuC API/ABI ver 1 - release 7 for Skylake
 
@@ -4302,6 +4337,9 @@ Version: Guc API/APB ver 33 - release 0 for Broxton
 File: i915/bxt_guc_49.0.1.bin
 Version: Guc API/APB ver 49 - release 0 for Broxton
 
+File: i915/bxt_guc_62.0.0.bin
+Version: GuC API/APB ver 62.0.0 for Broxton
+
 File: i915/kbl_guc_ver9_14.bin
 Version: Guc API/APB ver 9 release 14 for Kabylake
 
@@ -4310,6 +4348,9 @@ Version: Guc API/APB ver 33 release 0 for Comet Lake
 
 File: i915/cml_guc_49.0.1.bin
 Version: Guc API/APB ver 49 release 0 for Comet Lake
+
+File: i915/cml_guc_62.0.0.bin
+Version: GuC API/APB ver 62.0.0 for Comet Lake
 
 File: i915/kbl_guc_ver9_39.bin
 Version: Guc API/APB ver 9 release 39 for Kabylake
@@ -4323,6 +4364,9 @@ Version: Guc API/APB ver 33 release 0 for Kabylake
 File: i915/kbl_guc_49.0.1.bin
 Version: Guc API/APB ver 49 release 0 for Kabylake
 
+File: i915/kbl_guc_62.0.0.bin
+Version: GuC API/APB ver 62.0.0 for Kabylake
+
 File: i915/glk_guc_32.0.3.bin
 Version: Guc API/APB ver 32 release 0 for Geminilake
 
@@ -4331,6 +4375,9 @@ Version: Guc API/APB ver 33 release 0 for Geminilake
 
 File: i915/glk_guc_49.0.1.bin
 Version: Guc API/APB ver 49 release 0 for Geminilake
+
+File: i915/glk_guc_62.0.0.bin
+Version: GuC API/APB ver 62.0.0 for Geminilake
 
 File: i915/glk_huc_ver03_01_2893.bin
 Version: Huc API/APB ver 3 release 1 for Geminilake
@@ -4365,6 +4412,9 @@ Version: Guc API/APB ver 33 release 0 for Icelake
 File: i915/icl_guc_49.0.1.bin
 Version: Guc API/APB ver 49 release 0 for Icelake
 
+File: i915/icl_guc_62.0.0.bin
+Version: GuC API/APB ver 62.0.0 for Icelake
+
 File: i915/icl_huc_ver8_4_3238.bin
 Version: Huc API/APB ver 8 release 4 for Icelake
 
@@ -4386,6 +4436,9 @@ Version: Guc API/APB ver 33 release 0 for Elkhartlake
 File: i915/ehl_guc_49.0.1.bin
 Version: Guc API/APB ver 49 release 0 for Elkhartlake
 
+File: i915/ehl_guc_62.0.0.bin
+Version: GuC API/APB ver 62.0.0 for Elkhartlake
+
 File: i915/ehl_huc_9.0.0.bin
 Version: Huc API/APB ver 9 release 0 for Elkhartlake
 
@@ -4394,6 +4447,9 @@ Version: Guc API/APB ver 35 release 2 for Tigerlake
 
 File: i915/tgl_guc_49.0.1.bin
 Version: Guc API/APB ver 49 release 0 for Tigerlake
+
+File: i915/tgl_guc_62.0.0.bin
+Version: GuC API/APB ver 62.0.0 for Tigerlake
 
 File: i915/tgl_huc_7.0.3.bin
 Version: Huc API/APB ver 7 release 0 for Tigerlake
@@ -4404,6 +4460,9 @@ Version: Huc API/APB ver 7 release 0 for Tigerlake
 File: i915/tgl_huc_7.5.0.bin
 Version: Huc API/APB ver 7 release 5 for Tigerlake
 
+File: i915/tgl_huc_7.9.3.bin
+Version: HuC API/APB ver 7.9.3 for Tigerlake
+
 File: i915/rkl_dmc_ver2_02.bin
 Version: DMC API/APB ver 2 release 2 for Rocketlake
 
@@ -4413,8 +4472,14 @@ Version: DMC API/APB ver 2 release 2 for DG1
 File: i915/dg1_guc_49.0.1.bin
 Version: Guc API/APB ver 49 release 0 for DG1
 
+File: i915/dg1_guc_62.0.0.bin
+Version: GuC API/APB ver 62.0.0 for DG1
+
 File: i915/dg1_huc_7.7.1.bin
 Version: Huc API/APB ver 7 release 1 for DG1
+
+File: i915/dg1_huc_7.9.3.bin
+Version: HuC API/APB ver 7.9.3 for DG1
 
 File: i915/adls_dmc_ver2_01.bin
 Version: DMC API/APB ver 2 release 1 for Alderlake S
@@ -4424,8 +4489,11 @@ Version: DMC API/APB ver 2 release 9 for Alderlake P
 
 File: i915/adlp_dmc_ver2_10.bin
 Version: DMC API/APB ver 2 release 10 for Alderlake P
-License: Redistributable. See LICENSE.i915 for details
 
+File: i915/adlp_guc_62.0.3.bin
+Version: GuC API/APB ver 62.0.3 for Alderlake P
+
+License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
 
 Driver: nouveau - NVIDIA GPU driver
@@ -4969,11 +5037,11 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7915e - MediaTek MT7915e Wireless MACs
 
 File: mediatek/mt7915_wm.bin
-Version: 20200819
+Version: 20201105
 File: mediatek/mt7915_wa.bin
-Version: 20200819
+Version: 20201105
 File: mediatek/mt7915_rom_patch.bin
-Version: 20200819
+Version: 20201105
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -4982,9 +5050,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20210122002654a
+Version: 20210612122717a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20210122002730
+Version: 20210612122753
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5304,6 +5372,9 @@ File: mellanox/mlxsw_spectrum3-30.2008.2406.mfa2
 File: mellanox/mlxsw_spectrum-13.2008.2438.mfa2
 File: mellanox/mlxsw_spectrum2-29.2008.2438.mfa2
 File: mellanox/mlxsw_spectrum3-30.2008.2438.mfa2
+File: mellanox/mlxsw_spectrum-13.2008.2946.mfa2
+File: mellanox/mlxsw_spectrum2-29.2008.2946.mfa2
+File: mellanox/mlxsw_spectrum3-30.2008.2946.mfa2
 
 Licence:
  Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
