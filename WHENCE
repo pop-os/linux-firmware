@@ -5101,6 +5101,17 @@ Version: 20210223142901
 Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
+
+Driver: mt7922 - MediaTek MT7922 Wireless MACs
+
+File: mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
+Version: 20210727184234a
+File: mediatek/WIFI_RAM_CODE_MT7922_1.bin
+Version: 20210727184325
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
 Driver: nfp - Netronome Flow Processor
 
 Link: netronome/nic_AMDA0081-0001_1x40.nffw -> nic/nic_AMDA0081-0001_1x40.nffw
