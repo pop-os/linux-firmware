@@ -1,5 +1,6 @@
-linux-firmware (1.199) impish; urgency=medium
+linux-firmware (1.199+system76) impish; urgency=medium
 
+  [ Seth Forshee ]
   * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
     168452ee695b5edb9deb641059bc110b9c5e8fc7
     - cxgb4: Update firmware to revision 1.25.6.0
@@ -59,7 +60,7 @@ linux-firmware (1.199) impish; urgency=medium
     - linux-firmware: update NXP 8897/8997 firmware images
     - iwlwifi: add ty firmware from Core63-43
 
- -- Seth Forshee <seth.forshee@canonical.com>  Thu, 22 Jul 2021 07:59:01 -0500
+ -- Jeremy Soller <jeremy@system76.com>  Mon, 02 Aug 2021 08:03:54 -0600
 
 linux-firmware (1.198) impish; urgency=medium
 
