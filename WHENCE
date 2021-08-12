@@ -4266,6 +4266,12 @@ File: qca/crbtfw32.tlv
 File: qca/crnv32.bin
 File: qca/crnv32u.bin
 
+Driver: qca - Qualcomm Atheros Bluetooth support for WCN6750 chips
+
+File: qca/msbtfw11.mbn
+File: qca/msbtfw11.tlv
+File: qca/msnv11.bin
+
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
 --------------------------------------------------------------------------
