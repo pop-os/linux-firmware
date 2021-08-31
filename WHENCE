@@ -1203,6 +1203,11 @@ Version: 63.c04f3485.0
 File: iwlwifi-QuZ-a0-jf-b0-63.ucode
 Version: 63.c04f3485.0
 
+File: iwlwifi-so-a0-gf-a0-64.ucode
+Version: 64.97bbee0a.0
+
+File: iwlwifi-so-a0-gf-a0.pnvm
+
 File: iwlwifi-ty-a0-gf-a0-63.ucode
 Version: 63.c04f3485.0
 
