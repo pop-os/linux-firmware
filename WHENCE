@@ -1155,6 +1155,17 @@ Version: 59.601f3a66.0
 File: iwlwifi-QuZ-a0-jf-b0-59.ucode
 Version: 59.601f3a66.0
 
+File: iwlwifi-so-a0-gf-a0-64.ucode
+Version: 64.97bbee0a.0
+
+File: iwlwifi-so-a0-gf-a0.pnvm
+
+File: iwlwifi-so-a0-hr-b0-64.ucode
+Version: 64.97bbee0a.0
+
+File: iwlwifi-so-a0-jf-b0-64.ucode
+Version: 64.97bbee0a.0
+
 File: iwlwifi-ty-a0-gf-a0-59.ucode
 Version: 59.601f3a66.0
 
