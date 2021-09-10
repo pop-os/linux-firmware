@@ -3884,9 +3884,11 @@ Licence: Redistributable. See LICENCE.go7007 for details
 Driver: ccp - Platform Security Processor (PSP) device
 
 File: amd/amd_sev_fam17h_model0xh.sbin
-Version: 2020-11-20
+Version: 2021-9-10
 File: amd/amd_sev_fam17h_model3xh.sbin
-Version: 2020-11-20
+Version: 2021-9-10
+File: amd/amd_sev_fam19h_model0xh.sbin
+Version: 2021-9-10
 
 License: Redistributable. See LICENSE.amd-sev for details
 
