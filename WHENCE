@@ -3799,6 +3799,10 @@ File:intel/ibt-0041-0041.sfi
 Version: BT_TyphoonPeak_REL31586
 File:intel/ibt-0041-0041.ddc
 Version: BT_TyphoonPeak_REL31586
+File:intel/ibt-0040-0041.sfi
+Version: BT_GarfieldPeak_REL31586
+File:intel/ibt-0040-0041.ddc
+Version: BT_GarfieldPeak_REL31586
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
