@@ -2573,6 +2573,18 @@ File: amdgpu/yellow_carp_sdma.bin
 File: amdgpu/yellow_carp_ta.bin
 File: amdgpu/yellow_carp_toc.bin
 File: amdgpu/yellow_carp_vcn.bin
+File: amdgpu/beige_goby_ce.bin
+File: amdgpu/beige_goby_dmcub.bin
+File: amdgpu/beige_goby_me.bin
+File: amdgpu/beige_goby_mec.bin
+File: amdgpu/beige_goby_mec2.bin
+File: amdgpu/beige_goby_pfp.bin
+File: amdgpu/beige_goby_rlc.bin
+File: amdgpu/beige_goby_sdma.bin
+File: amdgpu/beige_goby_smc.bin
+File: amdgpu/beige_goby_sos.bin
+File: amdgpu/beige_goby_ta.bin
+File: amdgpu/beige_goby_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
