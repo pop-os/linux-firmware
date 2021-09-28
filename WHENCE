@@ -3820,6 +3820,16 @@ File:intel/ibt-1040-0041.sfi
 Version: BT_Solar_GfP2_REL31586
 File:intel/ibt-1040-0041.ddc
 Version: BT_Solar_GfP2_REL31586
+
+File:intel/ibt-0040-1020.sfi
+Version: BT_Solar_JfP1_REL31586
+File:intel/ibt-0040-1020.ddc
+Version: BT_Solar_JfP1_REL31586
+File:intel/ibt-1040-1020.sfi
+Version: BT_Solar_JfP1_REL31586
+File:intel/ibt-1040-1020.ddc
+Version: BT_Solar_JfP1_REL31586
+
 File:intel/ibt-0040-2120.sfi
 Version: BT_Solar_JfP2_REL31586
 File:intel/ibt-0040-2120.ddc
@@ -3828,6 +3838,7 @@ File:intel/ibt-1040-2120.sfi
 Version: BT_Solar_JfP2_REL31586
 File:intel/ibt-1040-2120.ddc
 Version: BT_Solar_JfP2_REL31586
+
 File:intel/ibt-0040-4150.sfi
 Version: BT_Solar_HrP2_REL31586
 File:intel/ibt-0040-4150.ddc
