@@ -3845,9 +3845,9 @@ Version: BT_Solar_HrP2_REL31878
 File:intel/ibt-0040-4150.ddc
 Version: BT_Solar_HrP2_REL31878
 File:intel/ibt-1040-4150.sfi
-Version: BT_Solar_HrP2_REL31586
+Version: BT_SolarF_HrP2_REL31878
 File:intel/ibt-1040-4150.ddc
-Version: BT_Solar_HrP2_REL31586
+Version: BT_SolarF_HrP2_REL31878
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
