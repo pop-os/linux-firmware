@@ -5185,9 +5185,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20210612122717a
+Version: 20211014150838a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20210612122753
+Version: 20211014150922
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
