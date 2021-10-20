@@ -1,3 +1,11 @@
+linux-firmware (1.201.1) impish; urgency=medium
+
+  * [Packaging] rebase-upstream: Add a bug reference if env variable LP is set
+  * Update firmware for MT7921 WiFi/Bluetooth (LP: #1947829)
+    - linux-firmware: update firmware for MT7921 WiFi device
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 20 Oct 2021 15:22:57 +0300
+
 linux-firmware (1.201) impish; urgency=medium
 
   * Rebase to upstream commit 7a30050592e20f494ad331b90737913d59167c3f
