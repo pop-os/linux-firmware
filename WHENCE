@@ -3979,6 +3979,8 @@ File: amd-ucode/microcode_amd_fam16h.bin
 Version: 2014-10-28
 File: amd-ucode/microcode_amd_fam17h.bin
 Version: 2019-12-18
+File: amd-ucode/microcode_amd_fam19h.bin
+Version: 2021-10-25
 
 License: Redistributable. See LICENSE.amd-ucode for details
 
