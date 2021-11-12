@@ -2605,6 +2605,14 @@ File: amdgpu/beige_goby_smc.bin
 File: amdgpu/beige_goby_sos.bin
 File: amdgpu/beige_goby_ta.bin
 File: amdgpu/beige_goby_vcn.bin
+File: amdgpu/cyan_skillfish2_ce.bin
+File: amdgpu/cyan_skillfish2_me.bin
+File: amdgpu/cyan_skillfish2_mec.bin
+File: amdgpu/cyan_skillfish2_mec2.bin
+File: amdgpu/cyan_skillfish2_pfp.bin
+File: amdgpu/cyan_skillfish2_rlc.bin
+File: amdgpu/cyan_skillfish2_sdma.bin
+File: amdgpu/cyan_skillfish2_sdma1.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
