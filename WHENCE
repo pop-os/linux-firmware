@@ -2889,16 +2889,6 @@ wl12xx chips must be located in /lib/firmware/ti-connectivity/.
 
 Driver: wl12xx - Texas Instruments 802.11 WLAN driver for WiLink6/7 chips
 
-File: ti-connectivity/wl1271-fw.bin
-Version: 6.1.0.50.350 (STA-only)
-File: ti-connectivity/wl1271-fw-2.bin
-Version: 6.1.5.50.74 (STA-only)
-File: ti-connectivity/wl1271-fw-ap.bin
-Version: 6.2.1.0.54 (AP-only)
-File: ti-connectivity/wl127x-fw-3.bin
-Version: 6.3.0.0.77
-File: ti-connectivity/wl127x-fw-plt-3.bin
-Version: 6.3.0.0.77 (PLT-only)
 File: ti-connectivity/wl127x-fw-4-sr.bin
 Version: 6.3.5.0.98 (Single-role)
 File: ti-connectivity/wl127x-fw-4-mr.bin
@@ -2912,14 +2902,6 @@ Version: 6.5.7.0.50 (Multi-role)
 File: ti-connectivity/wl127x-fw-5-plt.bin
 Version: 6.3.10.0.142 (PLT-only)
 
-File: ti-connectivity/wl128x-fw.bin
-Version: 7.1.5.50.74 (STA-only)
-File: ti-connectivity/wl128x-fw-ap.bin
-Version: 7.2.1.0.54 (AP-only)
-File: ti-connectivity/wl128x-fw-3.bin
-Version: 7.3.0.0.77
-File: ti-connectivity/wl128x-fw-plt-3.bin
-Version: 7.3.0.0.77
 File: ti-connectivity/wl128x-fw-4-sr.bin
 Version: 7.3.5.0.98 (Single-role)
 File: ti-connectivity/wl128x-fw-4-mr.bin
@@ -2963,8 +2945,6 @@ the firmwares for wl12xx chips must be located in
 
 Driver: wl18xx - Texas Instruments 802.11 WLAN driver for WiLink8 chips
 
-File: ti-connectivity/wl18xx-fw.bin
-Version: 8.2.0.0.100
 File: ti-connectivity/wl18xx-fw-2.bin
 Version: 8.5.0.0.55
 File: ti-connectivity/wl18xx-fw-3.bin
@@ -2987,7 +2967,6 @@ File: ti-connectivity/TIInit_6.2.31.bts
 Version: 2.44 (TI_P31.123)
 File: ti-connectivity/TIInit_6.6.15.bts
 Version: 2.14 (TI_P6_15.93)
-File: ti-connectivity/TIInit_7.2.31.bts
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
 
