@@ -719,29 +719,17 @@ Version: 15.32.2.9
 File: iwlwifi-4965-2.ucode
 Version: 228.61.2.24
 
-File: iwlwifi-5000-1.ucode
-Version: 5.4.A.11 (aka 5.4.1.16)
-
-File: iwlwifi-5000-2.ucode
-Version: 8.24.2.12
-
 File: iwlwifi-5000-5.ucode
 Version: 8.83.5.1
 
 File: iwlwifi-5150-2.ucode
 Version: 8.24.2.2
 
-File: iwlwifi-1000-3.ucode
-Version: 128.50.3.1
-
 File: iwlwifi-1000-5.ucode
 Version: 39.31.5.1
 
 File: iwlwifi-6000-4.ucode
 Version: 9.221.4.1
-
-File: iwlwifi-6050-4.ucode
-Version: 9.201.4.1
 
 File: iwlwifi-6050-5.ucode
 Version: 41.28.5.1
@@ -751,9 +739,6 @@ Version: 17.168.5.3
 
 File: iwlwifi-6000g2a-6.ucode
 Version: 18.168.6.1
-
-File: iwlwifi-6000g2b-5.ucode
-Version: 17.168.5.1
 
 File: iwlwifi-6000g2b-6.ucode
 Version: 18.168.6.1
