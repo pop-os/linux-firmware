@@ -3229,22 +3229,6 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ar3k for details
 
 --------------------------------------------------------------------------
 
-Driver:Atheros AR300x UART HCI Bluetooth Chip driver
-
-File: ar3k/1020200/ar3kbdaddr.pst
-File: ar3k/1020200/PS_ASIC.pst
-File: ar3k/1020200/RamPatch.txt
-File: ar3k/30101/ar3kbdaddr.pst
-File: ar3k/30101/PS_ASIC.pst
-File: ar3k/30101/RamPatch.txt
-File: ar3k/30000/ar3kbdaddr.pst
-File: ar3k/30000/PS_ASIC.pst
-File: ar3k/30000/RamPatch.txt
-
-Licence: Redistributable. See LICENCE.atheros_firmware for details
-
---------------------------------------------------------------------------
-
 Driver: ath6kl - Atheros support for AR6003
 
 File: ath6k/AR6004/hw1.3/fw-3.bin
@@ -3393,18 +3377,6 @@ File: myri10ge_rss_ethp_big_z8e.dat
 Version: 1.4.57
 
 License: Redistributable.  See LICENCE.myri10ge_firmware for details.
-
---------------------------------------------------------------------------
-
-Driver: ath6kl - Atheros support for AR3001 WiFi-Bluetooth combo module
-
-File: ar3k/30101coex/ar3kbdaddr.pst
-File: ar3k/30101coex/PS_ASIC_aclLowPri.pst
-File: ar3k/30101coex/PS_ASIC_aclHighPri.pst
-File: ar3k/30101coex/PS_ASIC.pst
-File: ar3k/30101coex/RamPatch.txt
-
-License: Redistributable. See LICENCE.atheros_firmware for details
 
 --------------------------------------------------------------------------
 
