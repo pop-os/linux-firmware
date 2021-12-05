@@ -445,7 +445,6 @@ Driver: slicoss - Alacritech IS-NIC products
 
 File: slicoss/gbdownload.sys
 File: slicoss/gbrcvucode.sys
-File: slicoss/oasisdbgdownload.sys
 File: slicoss/oasisdownload.sys
 File: slicoss/oasisrcvucode.sys
 
