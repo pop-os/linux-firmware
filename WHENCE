@@ -95,20 +95,6 @@ Licence: Redistributable. See LICENCE.qla1280 for details
 
 --------------------------------------------------------------------------
 
-Driver: smctr -- SMC ISA/MCA Token Ring adapter
-
-File: tr_smctr.bin
-Version: 6.3C1
-Info: MCT.BIN v6.3C1 03/01/95
-
-Original licence info:
-
- * This firmware is licensed to you strictly for use in conjunction
- * with the use of SMC TokenRing adapters. There is no waranty
- * expressed or implied about its fitness for any purpose.
-
---------------------------------------------------------------------------
-
 Driver: kaweth -- USB KLSI KL5USB101-based Ethernet device
 
 File: kaweth/new_code.bin
