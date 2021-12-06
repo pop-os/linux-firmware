@@ -1,0 +1,20 @@
+#!/bin/bash -eu
+
+subject=$(git log --format=%s "${1}" -1)
+fw=${subject% firmware*}
+fw=${fw##* }
+
+while read -r name ; do
+	sed -i "/${name//\//\\/}/d" WHENCE
+done < <(git log --format="FOO %s" --name-status "${1}" -1 | \
+			 awk '$1 == "D" { print $2 }')
+
+git add WHENCE
+git commit -s -m "UBUNTU: SAUCE: Remove obsolete ${fw} from WHENCE
+
+An old Ubuntu commit removed obsolete firmware binaries but didn't update
+the WHENCE file. Fix that.
+
+Flagged by check_whence.py.
+
+Fixes: (\"${subject}\")"

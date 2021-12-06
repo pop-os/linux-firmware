@@ -1,0 +1,104 @@
+From 0b2254809ad88e2ada0e6b4d7c1c19dbbf9f0cb6 Mon Sep 17 00:00:00 2001
+From: Juerg Haefliger <juergh@canonical.com>
+Date: Mon, 06 Dec 2021 08:54:58 +0100
+Subject: [SRU][F][linux-firmware][PULL] UVD firmware for AMD Southern Islands (GCN 1) GPUs is missing (LP: #1953249)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+BugLink: https://bugs.launchpad.net/bugs/1953249
+
+[ Impact ]
+
+AMD GPU not functional on Focal with HWE kernel.
+
+[ Test Case ]
+
+See original description below.
+
+[ Fix ]
+
+Cherry-pick relevant commit from upstream linux-firmware.
+
+[ Where Problems Could Occur ]
+
+Broken graphics with AMD GPUs.
+
+[ Original Description ]
+
+Release: up-to-date Focal LTS (20.04.3)
+Package-version: linux-firmware 1.187.20
+Hardware model: [AMD/ATI] Chelsea LP [Radeon HD 7730M]
+
+With the latest kernel upgrade (5.4 --> 5.11, if I recall correctly), my laptop's discrete graphics stopped working. Looking at the logs, I found these messages:
+
+-- snippet --
+kernel: [    1.492908] [drm] amdgpu: dpm initialized
+kernel: [    1.492932] [drm] AMDGPU Display Connectors
+kernel: [    1.492951] amdgpu 0000:01:00.0: Direct firmware load for amdgpu/verde_uvd.bin failed with error -2
+kernel: [    1.492954] amdgpu 0000:01:00.0: amdgpu: amdgpu_uvd: Can't load firmware "amdgpu/verde_uvd.bin"
+kernel: [    1.492957] [drm:amdgpu_device_ip_init [amdgpu]] *ERROR* sw_init of IP block <uvd_v3_1> failed -2
+kernel: [    1.493196] amdgpu 0000:01:00.0: amdgpu: amdgpu_device_ip_init failed
+kernel: [    1.493198] amdgpu 0000:01:00.0: amdgpu: Fatal error during GPU init
+kernel: [    1.493200] amdgpu 0000:01:00.0: amdgpu: amdgpu: finishing device.
+-- snippet --
+
+In fact, file '/lib/firmware/amdgpu/verde_uvd.bin' was missing. Running '$ dpkg -L linux-firmware | sort' gives this:
+
+-- snippet --
+/lib/firmware/amdgpu/vegam_uvd.bin
+/lib/firmware/amdgpu/vegam_vce.bin
+/lib/firmware/amdgpu/verde_ce.bin
+/lib/firmware/amdgpu/verde_k_smc.bin
+/lib/firmware/amdgpu/verde_mc.bin
+/lib/firmware/amdgpu/verde_me.bin
+/lib/firmware/amdgpu/verde_pfp.bin
+/lib/firmware/amdgpu/verde_rlc.bin
+/lib/firmware/amdgpu/verde_smc.bin
+/lib/firmware/amdgpu/yellow_carp_asd.bin
+/lib/firmware/amdgpu/yellow_carp_ce.bin
+-- snippet --
+
+Copying the file from upstream (https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/amdgpu/verde_uvd.bin) didn't work on my system, probably because I use UEFI and the module wasn't signed (error below):
+
+-- snippet --
+kernel: [  502.174932] amdgpu 0000:01:00.0: amdgpu: amdgpu_uvd: Can't validate firmware "amdgpu/verde_uvd.bin"
+kernel: [  502.174992] [drm:amdgpu_device_ip_init [amdgpu]] *ERROR* sw_init of IP block <uvd_v3_1> failed -22
+kernel: [  502.175285] amdgpu 0000:01:00.0: amdgpu: amdgpu_device_ip_init failed
+kernel: [  502.175289] amdgpu 0000:01:00.0: amdgpu: Fatal error during GPU init
+kernel: [  502.175293] amdgpu 0000:01:00.0: amdgpu: amdgpu: finishing device.
+-- snippet --
+
+I can confirm that reverting kernel driver to 'radeonsi' makes the device usable again, but at the expense of Vulkan APIs (not supported by this driver).
+
+Could you, please, fix this?
+
+Signed-off-by: Juerg Haefliger <juergh@canonical.com>
+
+--------
+
+The following changes since commit ea3494be1a2c08867bc1b5fed69d12f9f7f33233:
+
+  amdgpu: update yellow carp dmcub firmware (2021-12-03 08:10:28 +0100)
+
+are available in the Git repository at:
+
+  https://git.launchpad.net/~juergh/+git/linux-firmware lp1953249
+
+for you to fetch changes up to 0b2254809ad88e2ada0e6b4d7c1c19dbbf9f0cb6:
+
+  amdgpu: add UVD firmware for SI asics (2021-12-06 08:50:20 +0100)
+
+----------------------------------------------------------------
+Alex Deucher (1):
+      amdgpu: add UVD firmware for SI asics
+
+ WHENCE                  |   4 ++++
+ amdgpu/oland_uvd.bin    | Bin 0 -> 219928 bytes
+ amdgpu/pitcairn_uvd.bin | Bin 0 -> 219928 bytes
+ amdgpu/tahiti_uvd.bin   | Bin 0 -> 219928 bytes
+ amdgpu/verde_uvd.bin    | Bin 0 -> 219928 bytes
+ 5 files changed, 4 insertions(+)
+ create mode 100644 amdgpu/oland_uvd.bin
+ create mode 100644 amdgpu/pitcairn_uvd.bin
+ create mode 100644 amdgpu/tahiti_uvd.bin
+ create mode 100644 amdgpu/verde_uvd.bin
