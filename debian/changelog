@@ -1,3 +1,44 @@
+linux-firmware (1.201.2) impish; urgency=medium
+
+  * SAUCE: check_whence.py: Add python3 shebang
+  * SAUCE: check_whence.py: Also process WHENCE.ubuntu
+  * SAUCE: check_whence.py: Ignore debian/ and fw_source/ directories
+  * SAUCE: check_whence.py: Ignore ea/ directory
+  * SAUCE: Remove obsolete bnx2x from WHENCE
+  * SAUCE: Remove obsolete tr_smctr from WHENCE
+  * SAUCE: Remove obsolete ti-connectivity from WHENCE
+  * SAUCE: Remove obsolete tda7706 from WHENCE
+  * SAUCE: Remove obsolete sxg from WHENCE
+  * SAUCE: Remove obsolete myricom from WHENCE
+  * SAUCE: Remove obsolete mwl8k from WHENCE
+  * SAUCE: Remove obsolete libertas from WHENCE
+  * SAUCE: Remove obsolete Computone from WHENCE
+  * SAUCE: Remove obsolete dabusb from WHENCE
+  * SAUCE: Remove obsolete cxgb from WHENCE
+  * SAUCE: Remove obsolete bnx2x from WHENCE
+  * SAUCE: Remove obsolete ar9170 from WHENCE
+  * SAUCE: Remove obsolete ar7010 from WHENCE
+  * SAUCE: Remove obsolete ath3k from WHENCE
+  * SAUCE: Remove obsolete 3com from WHENCE
+  * SAUCE: Remove obsolete ath6k from WHENCE
+  * SAUCE: Remove obsolete slicoss from WHENCE
+  * SAUCE: Remove obsolete ath9k from WHENCE
+  * SAUCE: Remove obsolete ar3k from WHENCE
+  * SAUCE: Remove obsolete bnx2x from WHENCE
+  * SAUCE: Remove obsolete files from WHENCE
+  * SAUCE: Remove obsolete cxgb3 from WHENCE
+  * SAUCE: Remove obsolete ueagle-atm from WHENCE
+  * Add LICENCE.realtek-firmware.txt to WHENCE.ubuntu
+  * Rename LICENCE.dib0700 to LICENSE.dib0700
+  * Move Ubuntu check_firmware script to debian/scripts/
+  * Remove unnecessary symbolic links
+  * intel/sof: Remove symbolic links and add license to WHENCE.ubuntu
+  * [Packaging] Add check rule and call it in clean stage
+  * [Packaging] Add WHENCE.ubuntu as README.ubuntu to the package
+  * linux-firmware: add firmware for adl machines from sof-firmware-v1.9.2
+
+ -- Juerg Haefliger <juergh@canonical.com>  Tue, 07 Dec 2021 09:40:38 +0100
+
 linux-firmware (1.201.1) impish; urgency=medium
 
   * [Packaging] rebase-upstream: Add a bug reference if env variable LP is set
