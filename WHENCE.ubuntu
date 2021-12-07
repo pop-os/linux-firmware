@@ -346,7 +346,7 @@ Link: intel/sof-tplg/sof-icl-rt711-rt1308-rt715-hdmi.tplg -> v1.4.2/sof-cml-rt71
 Link: intel/sof-tplg/sof-tgl-rt711-rt1308-nohdmi.tplg -> v1.4.2/sof-tgl-rt711-rt1308-nohdmi.tplg
 Link: intel/sof-tplg/sof-tgl-rt711-rt1308.tplg -> v1.4.2/sof-tgl-rt711-rt1308.tplg
 
-Licence: Redistributable. See LICENSE.sof
+Licence: Redistributable. See LICENSE.sof for details.
 
 Also available from https://github.com/thesofproject/sof/blob/master/LICENCE
 
