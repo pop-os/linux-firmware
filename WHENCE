@@ -5726,3 +5726,11 @@ Version: 3.12.1
 
 Licence: Redistributable. See silabs/LICENCE.wf200 for details.
 Originates from https://github.com/SiliconLabs/wfx-firmware
+
+--------------------------------------------------------------------------
+
+Driver: wave5 - Chips&Media, Inc. video codec driver
+
+File: cnm/wave521c_j721s2_codec_fw.bin
+
+Licence: Redistributable. See LICENCE.cnm for details.
