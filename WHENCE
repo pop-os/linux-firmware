@@ -1231,8 +1231,29 @@ Version: 63.c04f3485.0
 File: iwlwifi-ty-a0-gf-a0-63.ucode
 Version: 63.c04f3485.0
 
+File: iwlwifi-cc-a0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-Qu-b0-hr-b0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-Qu-b0-jf-b0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-Qu-c0-hr-b0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-Qu-c0-jf-b0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-QuZ-a0-hr-b0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-QuZ-a0-jf-b0-66.ucode
+Version: 66.f1c864e0.0
+
 File: iwlwifi-ty-a0-gf-a0-66.ucode
-Version: 66.55c64978.0
+Version: 66.f1c864e0.0
 
 File: iwlwifi-ty-a0-gf-a0-67.ucode
 Version: 67.8f59b80b.0
