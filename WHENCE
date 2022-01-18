@@ -4424,9 +4424,11 @@ File: qca/rampatch_usb_00130201.bin
 File: qca/nvm_usb_00130201.bin
 File: qca/nvm_usb_00130201_010a.bin
 File: qca/nvm_usb_00130201_010b.bin
+File: qca/nvm_usb_00130201_0303.bin
 File: qca/nvm_usb_00130201_gf.bin
 File: qca/nvm_usb_00130201_gf_010a.bin
 File: qca/nvm_usb_00130201_gf_010b.bin
+File: qca/nvm_usb_00130201_gf_0303.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
