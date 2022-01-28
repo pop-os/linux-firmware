@@ -1,3 +1,16 @@
+linux-firmware (1.201.4) impish; urgency=medium
+
+  * mt7921e: Failed to start WM firmware (LP: #1954300)
+    - linux-firmware: update frimware for mediatek bluetooth chip (MT7921)
+  * mt7921e 0000:02:00.0: PM: failed to resume async: error -110 (LP: #1958286)
+    - linux-firmware: update frimware for mediatek bluetooth chip (MT7921)
+    - linux-firmware: update firmware for mediatek bluetooth chip (MT7921)
+    - linux-firmware: update firmware for MT7921 WiFi device
+    - linux-firmware: update firmware for MT7921 WiFi device
+    - linux-firmware: update firmware for mediatek bluetooth chip(MT7921)
+
+ -- Juerg Haefliger <juergh@canonical.com>  Fri, 28 Jan 2022 11:12:51 +0100
+
 linux-firmware (1.201.3) impish; urgency=medium
 
   * linux-firmware: add firmware for adl machines from sof-firmware-v1.9.2 (LP: #1952011)
