@@ -31,14 +31,14 @@ while test $# -gt 0; do
     esac
 done
 
-grep -h '^File:' WHENCE WHENCE.ubuntu | sed -e's/^File: *//g' -e's/"//g' | while read f; do
+grep '^File:' WHENCE | sed -e's/^File: *//g' -e's/"//g' | while read f; do
     test -f "$f" || continue
     $verbose "copying file $f"
     mkdir -p $destdir/$(dirname "$f")
     cp -d "$f" $destdir/"$f"
 done
 
-grep -h -E '^Link:' WHENCE WHENCE.ubuntu | sed -e's/^Link: *//g' -e's/-> //g' | while read f d; do
+grep -E '^Link:' WHENCE | sed -e's/^Link: *//g' -e's/-> //g' | while read f d; do
     if test -L "$f"; then
         test -f "$destdir/$f" && continue
         $verbose "copying link $f"

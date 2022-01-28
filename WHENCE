@@ -95,6 +95,20 @@ Licence: Redistributable. See LICENCE.qla1280 for details
 
 --------------------------------------------------------------------------
 
+Driver: smctr -- SMC ISA/MCA Token Ring adapter
+
+File: tr_smctr.bin
+Version: 6.3C1
+Info: MCT.BIN v6.3C1 03/01/95
+
+Original licence info:
+
+ * This firmware is licensed to you strictly for use in conjunction
+ * with the use of SMC TokenRing adapters. There is no waranty
+ * expressed or implied about its fitness for any purpose.
+
+--------------------------------------------------------------------------
+
 Driver: kaweth -- USB KLSI KL5USB101-based Ethernet device
 
 File: kaweth/new_code.bin
@@ -291,6 +305,16 @@ Converted from Intel HEX files, used in our binary representation of ihex.
 
 --------------------------------------------------------------------------
 
+Driver: ip2 -- Computone IntelliPort Plus serial device
+
+File: intelliport2.bin
+
+Licence: Unknown
+
+Found in hex form in kernel source.
+
+--------------------------------------------------------------------------
+
 Driver: cpia2 -- cameras based on Vision's CPiA2
 
 File: cpia2/stv0672_vp4.bin
@@ -301,6 +325,22 @@ Licence: Allegedly GPLv2+, but no source visible. Marked:
 	Description: This file contains patch data for the CPiA2 (stv0672) VP4.
 
 Found in hex form in kernel source.
+
+--------------------------------------------------------------------------
+
+Driver: dabusb -- Digital Audio Broadcasting (DAB) Receiver for USB and Linux
+
+File: dabusb/firmware.fw
+File: dabusb/bitstream.bin
+
+Licence: Distributable
+
+ * Copyright (C) 1999 BayCom GmbH
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that redistributions of source
+ * code retain the above copyright notice and this comment without
+ * modification.
 
 --------------------------------------------------------------------------
 
@@ -412,8 +452,20 @@ Licence: Redistributable. See LICENCE.agere for details
 
 --------------------------------------------------------------------------
 
+Driver: ar9170 - Atheros 802.11n "otus" USB
+
+File: ar9170-1.fw
+File: ar9170-2.fw
+
+Licence: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
 Driver: ath9k_htc - Atheros HTC devices (USB)
 
+File: ar9271.fw
+File: ar7010.fw
+File: ar7010_1_1.fw
 File: htc_9271.fw
 Version: 1.3.1
 File: htc_7010.fw
@@ -444,8 +496,33 @@ Driver: slicoss - Alacritech IS-NIC products
 
 File: slicoss/gbdownload.sys
 File: slicoss/gbrcvucode.sys
+File: slicoss/oasisdbgdownload.sys
 File: slicoss/oasisdownload.sys
 File: slicoss/oasisrcvucode.sys
+
+Licence:
+		Copyright (C) 1999-2009 Alacritech, Inc.
+
+	as an unpublished work. This notice does not imply unrestricted or
+	public access to the source code from which this firmware image is
+	derived.  Except as noted below this firmware image may not be
+	reproduced, used, sold or transferred to any third party without
+	Alacritech's prior written consent.  All Rights Reserved.
+
+	Permission is hereby granted for the distribution of this firmware
+	image as part of a Linux or other Open Source operating system kernel
+	in text or binary form as required.
+
+	This firmware may not be modified.
+
+Found in hex form in kernel source.
+
+--------------------------------------------------------------------------
+
+Driver: sxg - Alacritech IS-NIC products
+
+File: sxg/saharadownloadB.sys
+File: sxg/saharadbgdownloadB.sys
 
 Licence:
 		Copyright (C) 1999-2009 Alacritech, Inc.
@@ -470,6 +547,10 @@ Driver: cxgb3 - Chelsio Terminator 3 1G/10G Ethernet adapter
 
 File: cxgb3/t3b_psram-1.1.0.bin
 File: cxgb3/t3c_psram-1.1.0.bin
+File: cxgb3/t3fw-7.0.0.bin
+File: cxgb3/t3fw-7.1.0.bin
+File: cxgb3/t3fw-7.4.0.bin
+File: cxgb3/t3fw-7.10.0.bin
 File: cxgb3/t3fw-7.12.0.bin
 
 Licence: GPLv2 or OpenIB.org BSD license, no source visible
@@ -497,14 +578,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.26.2.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.26.2.0.bin
+File: cxgb4/t4fw-1.26.6.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.26.6.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.26.2.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.26.2.0.bin
-File: cxgb4/t6fw-1.26.2.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.26.2.0.bin
+File: cxgb4/t5fw-1.26.6.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.26.6.0.bin
+File: cxgb4/t6fw-1.26.6.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.26.6.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 File: cxgb4/configs/t4-config-default.txt
@@ -599,12 +680,16 @@ File: libertas/cf8381.bin
 File: libertas/cf8381_helper.bin
 File: libertas/cf8385.bin
 File: libertas/cf8385_helper.bin
+File: libertas/gspi8682.bin
+File: libertas/gspi8682_helper.bin
 File: libertas/gspi8686_v9.bin
 File: libertas/gspi8686_v9_helper.bin
 File: libertas/gspi8688.bin
 File: libertas/gspi8688_helper.bin
 File: libertas/sd8385.bin
 File: libertas/sd8385_helper.bin
+File: libertas/sd8682.bin
+File: libertas/sd8682_helper.bin
 File: libertas/sd8686_v8.bin
 File: libertas/sd8686_v8_helper.bin
 File: libertas/sd8686_v9.bin
@@ -624,8 +709,14 @@ Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
 
 Driver: libertas - Marvell Libertas 802.11b/g cards, OLPC firmware
 
+File: libertas/lbtf_sdio.bin
+Version: 9.0.7.p4
+
 File: lbtf_usb.bin
 Version: 5.132.3.p1
+
+File: libertas/usb8388_olpc.bin
+Version: 5.110.22.p23
 
 Licence: Redistributable. See LICENCE.OLPC for details.
 
@@ -638,6 +729,7 @@ Driver: mwl8k - Marvell Libertas softmac-type 802.11b/g/n cards
 File: mwl8k/fmimage_8687.fw
 File: mwl8k/helper_8687.fw
 File: mwl8k/fmimage_8366.fw
+File: mwl8k/fmimage_8366_ap-1.fw
 File: mwl8k/fmimage_8366_ap-2.fw
 File: mwl8k/fmimage_8366_ap-3.fw
 Version: 5.2.8.16
@@ -716,17 +808,29 @@ Version: 15.32.2.9
 File: iwlwifi-4965-2.ucode
 Version: 228.61.2.24
 
+File: iwlwifi-5000-1.ucode
+Version: 5.4.A.11 (aka 5.4.1.16)
+
+File: iwlwifi-5000-2.ucode
+Version: 8.24.2.12
+
 File: iwlwifi-5000-5.ucode
 Version: 8.83.5.1
 
 File: iwlwifi-5150-2.ucode
 Version: 8.24.2.2
 
+File: iwlwifi-1000-3.ucode
+Version: 128.50.3.1
+
 File: iwlwifi-1000-5.ucode
 Version: 39.31.5.1
 
 File: iwlwifi-6000-4.ucode
 Version: 9.221.4.1
+
+File: iwlwifi-6050-4.ucode
+Version: 9.201.4.1
 
 File: iwlwifi-6050-5.ucode
 Version: 41.28.5.1
@@ -736,6 +840,9 @@ Version: 17.168.5.3
 
 File: iwlwifi-6000g2a-6.ucode
 Version: 18.168.6.1
+
+File: iwlwifi-6000g2b-5.ucode
+Version: 17.168.5.1
 
 File: iwlwifi-6000g2b-6.ucode
 Version: 18.168.6.1
@@ -920,7 +1027,7 @@ File: iwlwifi-9000-pu-b0-jf-b0-43.ucode
 Version: 43.95eb4e97.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-46.ucode
-Version: 46.5e069cbd.0
+Version: 46.4e1ceb39.0
 
 File: iwlwifi-9260-th-b0-jf-b0-33.ucode
 Version: 33.610294.0
@@ -938,7 +1045,7 @@ File: iwlwifi-9260-th-b0-jf-b0-43.ucode
 Version: 43.95eb4e97.0
 
 File: iwlwifi-9260-th-b0-jf-b0-46.ucode
-Version: 46.5e069cbd.0
+Version: 46.4e1ceb39.0
 
 File: iwlwifi-cc-a0-46.ucode
 Version: 46.3cfab8da.0
@@ -1124,11 +1231,72 @@ Version: 63.c04f3485.0
 File: iwlwifi-ty-a0-gf-a0-63.ucode
 Version: 63.c04f3485.0
 
+File: iwlwifi-cc-a0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-Qu-b0-hr-b0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-Qu-b0-jf-b0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-Qu-c0-hr-b0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-Qu-c0-jf-b0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-QuZ-a0-hr-b0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-QuZ-a0-jf-b0-66.ucode
+Version: 66.f1c864e0.0
+
 File: iwlwifi-ty-a0-gf-a0-66.ucode
-Version: 66.55c64978.0
+Version: 66.f1c864e0.0
 
 File: iwlwifi-ty-a0-gf-a0-67.ucode
 Version: 67.8f59b80b.0
+
+File: iwlwifi-cc-a0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-Qu-b0-hr-b0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-Qu-b0-jf-b0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-Qu-c0-hr-b0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-Qu-c0-jf-b0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-QuZ-a0-hr-b0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-QuZ-a0-jf-b0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-ty-a0-gf-a0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-so-a0-gf4-a0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-so-a0-gf-a0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-so-a0-hr-b0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-so-a0-jf-b0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-so-a0-gf-a0.pnvm
+
+File: iwlwifi-so-a0-gf4-a0.pnvm
 
 File: iwlwifi-ty-a0-gf-a0.pnvm
 
@@ -1230,6 +1398,32 @@ File: yam/9600.bin
 
 Licence:
  * (C) F6FBB 1998
+
+Found in hex form in kernel source.
+
+--------------------------------------------------------------------------
+
+Driver: 3c359 - 3Com 3C359 Token Link Velocity XL adapter
+
+File: 3com/3C359.bin
+
+Licence:
+/*
+ * The firmware this driver downloads into the tokenring card is a
+ * separate program and is not GPL'd source code, even though the Linux
+ * side driver and the routine that loads this data into the card are.
+ *
+ * This firmware is licensed to you strictly for use in conjunction
+ * with the use of 3Com 3C359 TokenRing adapters. There is no
+ * waranty expressed or implied about its fitness for any purpose.
+ */
+/* 3c359_microcode.mac: 3Com 3C359 Tokenring microcode.
+ *
+ * Notes:
+ *  - Loaded from xl_init upon adapter initialization.
+ *
+ * Available from 3Com as part of their standard 3C359 driver.
+ */
 
 Found in hex form in kernel source.
 
@@ -1379,14 +1573,60 @@ Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
+Driver: myri_sbus - MyriCOM Gigabit Ethernet
+
+File: myricom/lanai.bin
+
+Licence: Unknown
+
+Found in hex form in kernel source.
+
+--------------------------------------------------------------------------
+
 Driver: bnx2x: Broadcom Everest
 
+File: bnx2x-e1-4.8.53.0.fw
+File: bnx2x-e1h-4.8.53.0.fw
+File: bnx2x-e1-5.2.7.0.fw
+File: bnx2x-e1h-5.2.7.0.fw
+File: bnx2x-e1-5.2.13.0.fw
+File: bnx2x-e1h-5.2.13.0.fw
+File: bnx2x/bnx2x-e1-6.0.34.0.fw
+File: bnx2x/bnx2x-e1h-6.0.34.0.fw
+File: bnx2x/bnx2x-e2-6.0.34.0.fw
+File: bnx2x/bnx2x-e1-6.2.5.0.fw
+File: bnx2x/bnx2x-e1h-6.2.5.0.fw
+File: bnx2x/bnx2x-e2-6.2.5.0.fw
+File: bnx2x/bnx2x-e1-6.2.9.0.fw
+File: bnx2x/bnx2x-e1h-6.2.9.0.fw
+File: bnx2x/bnx2x-e2-6.2.9.0.fw
+File: bnx2x/bnx2x-e2-7.0.20.0.fw
+File: bnx2x/bnx2x-e1-7.0.20.0.fw
+File: bnx2x/bnx2x-e1h-7.0.20.0.fw
+File: bnx2x/bnx2x-e2-7.0.23.0.fw
+File: bnx2x/bnx2x-e1-7.0.23.0.fw
+File: bnx2x/bnx2x-e1h-7.0.23.0.fw
+File: bnx2x/bnx2x-e2-7.0.29.0.fw
+File: bnx2x/bnx2x-e1-7.0.29.0.fw
+File: bnx2x/bnx2x-e1h-7.0.29.0.fw
+File: bnx2x/bnx2x-e2-7.2.16.0.fw
+File: bnx2x/bnx2x-e1-7.2.16.0.fw
+File: bnx2x/bnx2x-e1h-7.2.16.0.fw
 File: bnx2x/bnx2x-e2-7.2.51.0.fw
 File: bnx2x/bnx2x-e1-7.2.51.0.fw
 File: bnx2x/bnx2x-e1h-7.2.51.0.fw
 File: bnx2x/bnx2x-e1-7.8.2.0.fw
 File: bnx2x/bnx2x-e1h-7.8.2.0.fw
 File: bnx2x/bnx2x-e2-7.8.2.0.fw
+File: bnx2x/bnx2x-e1-7.8.17.0.fw
+File: bnx2x/bnx2x-e1h-7.8.17.0.fw
+File: bnx2x/bnx2x-e2-7.8.17.0.fw
+File: bnx2x/bnx2x-e1-7.8.19.0.fw
+File: bnx2x/bnx2x-e1h-7.8.19.0.fw
+File: bnx2x/bnx2x-e2-7.8.19.0.fw
+File: bnx2x/bnx2x-e1-7.10.51.0.fw
+File: bnx2x/bnx2x-e1h-7.10.51.0.fw
+File: bnx2x/bnx2x-e2-7.10.51.0.fw
 File: bnx2x/bnx2x-e1-7.12.30.0.fw
 File: bnx2x/bnx2x-e1h-7.12.30.0.fw
 File: bnx2x/bnx2x-e2-7.12.30.0.fw
@@ -1399,9 +1639,9 @@ File: bnx2x/bnx2x-e2-7.13.11.0.fw
 File: bnx2x/bnx2x-e1-7.13.15.0.fw
 File: bnx2x/bnx2x-e1h-7.13.15.0.fw
 File: bnx2x/bnx2x-e2-7.13.15.0.fw
-File: bnx2x/bnx2x-e1-7.13.20.0.fw
-File: bnx2x/bnx2x-e1h-7.13.20.0.fw
-File: bnx2x/bnx2x-e2-7.13.20.0.fw
+File: bnx2x/bnx2x-e1-7.13.21.0.fw
+File: bnx2x/bnx2x-e1h-7.13.21.0.fw
+File: bnx2x/bnx2x-e2-7.13.21.0.fw
 
 
 License:
@@ -2563,16 +2803,24 @@ Licence: Redistributable. See LICENCE.ueagle-atm4-firmware for details
 Driver: ueagle-atm - Driver for USB ADSL Modems based on Eagle I,II,III
 
 File: ueagle-atm/930-fpga.bin
+File: ueagle-atm/CMVeiWO.bin    
+File: ueagle-atm/CMVepFR10.bin  
 File: ueagle-atm/DSP9p.bin	
 File: ueagle-atm/eagleIII.fw
 File: ueagle-atm/adi930.fw     
 File: ueagle-atm/CMVep.bin      
+File: ueagle-atm/CMVepFR.bin    
 File: ueagle-atm/DSPei.bin
 File: ueagle-atm/CMV9i.bin     
+File: ueagle-atm/CMVepES03.bin  
+File: ueagle-atm/CMVepIT.bin    
 File: ueagle-atm/DSPep.bin
 File: ueagle-atm/CMV9p.bin     
+File: ueagle-atm/CMVepES.bin    
+File: ueagle-atm/CMVepWO.bin    
 File: ueagle-atm/eagleI.fw
 File: ueagle-atm/CMVei.bin     
+File: ueagle-atm/CMVepFR04.bin  
 File: ueagle-atm/DSP9i.bin	    
 File: ueagle-atm/eagleII.fw
 Version: 1.1
@@ -2696,6 +2944,7 @@ Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-plus.txt -> brcmfmac43430-sdio.AP6
 Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-zero.txt -> brcmfmac43430-sdio.AP6212.txt
 Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-ultra.txt -> brcmfmac43430-sdio.AP6212.txt
 Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m3.txt -> brcmfmac43430-sdio.AP6212.txt
+Link: brcm/brcmfmac43430-sdio.friendlyarm,nanopi-r1.txt -> brcmfmac43430-sdio.AP6212.txt
 File: "brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt"
 File: "brcm/brcmfmac43430-sdio.MUR1DX.txt"
 File: "brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt"
@@ -2714,6 +2963,16 @@ Link: brcm/brcmfmac4356-sdio.khadas,vim2.txt -> brcmfmac4356-sdio.vamrs,rock960.
 Licence: GPLv2. See GPL-2 for details.
 
 --------------------------------------------------------------------------
+
+Driver: tda7706 - FM radio Highly integrated tuner for AM/FM car-radio
+
+File: TDA7706_OM_v2.5.1_boot.txt
+File: TDA7706_OM_v3.0.2_boot.txt
+
+Licence: Redistributable. See LICENCE.tda7706-firmware.txt for details.
+        Copyright © 2010 STMicroelectronics
+
+------------------------------------------------
 
 Driver: ti-vpe - Texas Instruments V4L2 driver for Video Processing Engine
 
@@ -2743,6 +3002,16 @@ wl12xx chips must be located in /lib/firmware/ti-connectivity/.
 
 Driver: wl12xx - Texas Instruments 802.11 WLAN driver for WiLink6/7 chips
 
+File: ti-connectivity/wl1271-fw.bin
+Version: 6.1.0.50.350 (STA-only)
+File: ti-connectivity/wl1271-fw-2.bin
+Version: 6.1.5.50.74 (STA-only)
+File: ti-connectivity/wl1271-fw-ap.bin
+Version: 6.2.1.0.54 (AP-only)
+File: ti-connectivity/wl127x-fw-3.bin
+Version: 6.3.0.0.77
+File: ti-connectivity/wl127x-fw-plt-3.bin
+Version: 6.3.0.0.77 (PLT-only)
 File: ti-connectivity/wl127x-fw-4-sr.bin
 Version: 6.3.5.0.98 (Single-role)
 File: ti-connectivity/wl127x-fw-4-mr.bin
@@ -2756,6 +3025,14 @@ Version: 6.5.7.0.50 (Multi-role)
 File: ti-connectivity/wl127x-fw-5-plt.bin
 Version: 6.3.10.0.142 (PLT-only)
 
+File: ti-connectivity/wl128x-fw.bin
+Version: 7.1.5.50.74 (STA-only)
+File: ti-connectivity/wl128x-fw-ap.bin
+Version: 7.2.1.0.54 (AP-only)
+File: ti-connectivity/wl128x-fw-3.bin
+Version: 7.3.0.0.77
+File: ti-connectivity/wl128x-fw-plt-3.bin
+Version: 7.3.0.0.77
 File: ti-connectivity/wl128x-fw-4-sr.bin
 Version: 7.3.5.0.98 (Single-role)
 File: ti-connectivity/wl128x-fw-4-mr.bin
@@ -2799,6 +3076,8 @@ the firmwares for wl12xx chips must be located in
 
 Driver: wl18xx - Texas Instruments 802.11 WLAN driver for WiLink8 chips
 
+File: ti-connectivity/wl18xx-fw.bin
+Version: 8.2.0.0.100
 File: ti-connectivity/wl18xx-fw-2.bin
 Version: 8.5.0.0.55
 File: ti-connectivity/wl18xx-fw-3.bin
@@ -2821,6 +3100,7 @@ File: ti-connectivity/TIInit_6.2.31.bts
 Version: 2.44 (TI_P31.123)
 File: ti-connectivity/TIInit_6.6.15.bts
 Version: 2.14 (TI_P6_15.93)
+File: ti-connectivity/TIInit_7.2.31.bts
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
 
@@ -3210,22 +3490,55 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ar3k for details
 
 --------------------------------------------------------------------------
 
+Driver:Atheros AR300x UART HCI Bluetooth Chip driver
+
+File: ar3k/1020201/PS_ASIC.pst
+File: ar3k/1020201/RamPatch.txt
+File: ar3k/1020200/ar3kbdaddr.pst
+File: ar3k/1020200/PS_ASIC.pst
+File: ar3k/1020200/RamPatch.txt
+File: ar3k/30101/ar3kbdaddr.pst
+File: ar3k/30101/PS_ASIC.pst
+File: ar3k/30101/RamPatch.txt
+File: ar3k/30000/ar3kbdaddr.pst
+File: ar3k/30000/PS_ASIC.pst
+File: ar3k/30000/RamPatch.txt
+
+Licence: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
 Driver: ath6kl - Atheros support for AR6003
 
 File: ath6k/AR6004/hw1.3/fw-3.bin
 File: ath6k/AR6004/hw1.3/bdata.bin
 File: ath6k/AR6004/hw1.2/fw-2.bin
 File: ath6k/AR6004/hw1.2/bdata.bin
+File: ath6k/AR6003/hw1.0/otp.bin.z77
+File: ath6k/AR6003/hw1.0/bdata.SD31.bin
+File: ath6k/AR6003/hw1.0/bdata.SD32.bin
+File: ath6k/AR6003/hw1.0/data.patch.bin
+File: ath6k/AR6003/hw1.0/bdata.WB31.bin
+File: ath6k/AR6003/hw1.0/athwlan.bin.z77
 File: ath6k/AR6003/hw2.1.1/fw-2.bin
 File: ath6k/AR6003/hw2.1.1/fw-3.bin
 File: ath6k/AR6003/hw2.1.1/otp.bin
 File: ath6k/AR6003/hw2.1.1/athwlan.bin
+File: ath6k/AR6003/hw2.1.1/endpointping.bin
 File: ath6k/AR6003/hw2.1.1/bdata.SD31.bin
+File: ath6k/AR6003/hw2.1.1/bdata.SD32.bin
 File: ath6k/AR6003/hw2.1.1/data.patch.bin
+File: ath6k/AR6003/hw2.1.1/bdata.WB31.bin
 File: ath6k/AR6003/hw2.0/otp.bin.z77
 File: ath6k/AR6003/hw2.0/bdata.SD31.bin
+File: ath6k/AR6003/hw2.0/bdata.SD32.bin
 File: ath6k/AR6003/hw2.0/data.patch.bin
+File: ath6k/AR6003/hw2.0/bdata.WB31.bin
 File: ath6k/AR6003/hw2.0/athwlan.bin.z77
+File: ath6k/AR6002/eeprom.data
+File: ath6k/AR6002/eeprom.bin
+File: ath6k/AR6002/athwlan.bin.z77
+File: ath6k/AR6002/data.patch.hw2_0.bin
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
 
@@ -3361,6 +3674,32 @@ License: Redistributable.  See LICENCE.myri10ge_firmware for details.
 
 --------------------------------------------------------------------------
 
+Driver: ath6kl - Atheros support for AR6003 WiFi-Bluetooth combo module
+
+File: ath6k/AR6003.1/hw2.1.1/athwlan.bin
+File: ath6k/AR6003.1/hw2.1.1/bdata.SD31.bin
+File: ath6k/AR6003.1/hw2.1.1/bdata.SD32.bin
+File: ath6k/AR6003.1/hw2.1.1/bdata.WB31.bin
+File: ath6k/AR6003.1/hw2.1.1/data.patch.bin
+File: ath6k/AR6003.1/hw2.1.1/endpointping.bin
+File: ath6k/AR6003.1/hw2.1.1/otp.bin
+
+License: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: ath6kl - Atheros support for AR3001 WiFi-Bluetooth combo module
+
+File: ar3k/30101coex/ar3kbdaddr.pst
+File: ar3k/30101coex/PS_ASIC_aclLowPri.pst
+File: ar3k/30101coex/PS_ASIC_aclHighPri.pst
+File: ar3k/30101coex/PS_ASIC.pst
+File: ar3k/30101coex/RamPatch.txt
+
+License: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
 Driver: drxk - Micronas DRX-K demodulator driver
 
 File: dvb-usb-terratec-h5-drxk.fw
@@ -3481,13 +3820,13 @@ Version: BT_WindStormPeak_REL1236
 File: intel/ibt-12-16.sfi
 Version: BT_WindStormPeak_REL1236
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20028
+Version: BT_JeffersonPeak_B0_B0_REL20054
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20028
+Version: BT_JeffersonPeak_B0_B0_REL20054
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20028
+Version: BT_JeffersonPeak_B0_B0_REL20054
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20028
+Version: BT_JeffersonPeak_B0_B0_REL20054
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3497,13 +3836,13 @@ Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL20028
+Version: BT_ThunderPeak_B0_B0_REL20054
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL20028
+Version: BT_ThunderPeak_B0_B0_REL20054
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL20028
+Version: BT_ThunderPeak_B0_B0_REL20054
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL20028
+Version: BT_ThunderPeak_B0_B0_REL20054
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -3513,92 +3852,92 @@ Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL34713
+Version: BT_CyclonePeak_A0_REL35819
 File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL34713
+Version: BT_CyclonePeak_A0_REL35819
 File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL34713
+Version: BT_CyclonePeak_A0_REL35819
 File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL34713
+Version: BT_CyclonePeak_A0_REL35819
 File:intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL34713
+Version: BT_CyclonePeak_A0_REL35819
 File:intel/ibt-20-1-4.ddc
-Version: BT_CyclonePeak_A0_REL34713
+Version: BT_CyclonePeak_A0_REL35819
 File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL34173
+Version: BT_Quasar_REL35819
 File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL34173
+Version: BT_Quasar_REL35819
 File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL34173
+Version: BT_Quasar_REL35819
 File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL34173
+Version: BT_Quasar_REL35819
 File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-240-4.ddc
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-0041-0041.sfi
-Version: BT_TyphoonPeak_REL34345
+Version: BT_TyphoonPeak_REL36030
 File:intel/ibt-0041-0041.ddc
-Version: BT_TyphoonPeak_REL34345
+Version: BT_TyphoonPeak_REL36030
 File:intel/ibt-0040-0041.sfi
-Version: BT_Solar_GfP2_REL34345
+Version: BT_Solar_GfP2_REL36030
 File:intel/ibt-0040-0041.ddc
-Version: BT_Solar_GfP2_REL34345
+Version: BT_Solar_GfP2_REL36030
 File:intel/ibt-1040-0041.sfi
-Version: BT_SolarF_GfP2_REL34345
+Version: BT_SolarF_GfP2_REL36030
 File:intel/ibt-1040-0041.ddc
-Version: BT_SolarF_GfP2_REL34345
+Version: BT_SolarF_GfP2_REL36030
 
 File:intel/ibt-0040-1020.sfi
-Version: BT_Solar_JfP1_REL34345
+Version: BT_Solar_JfP1_REL36030
 File:intel/ibt-0040-1020.ddc
-Version: BT_Solar_JfP1_REL34345
+Version: BT_Solar_JfP1_REL36030
 File:intel/ibt-1040-1020.sfi
-Version: BT_SolarF_JfP1_REL34345
+Version: BT_SolarF_JfP1_REL36030
 File:intel/ibt-1040-1020.ddc
-Version: BT_SolarF_JfP1_REL34345
+Version: BT_SolarF_JfP1_REL36030
 
 File:intel/ibt-0040-2120.sfi
-Version: BT_Solar_JfP2_REL34345
+Version: BT_Solar_JfP2_REL36030
 File:intel/ibt-0040-2120.ddc
-Version: BT_Solar_JfP2_REL34345
+Version: BT_Solar_JfP2_REL36030
 File:intel/ibt-1040-2120.sfi
-Version: BT_SolarF_JfP2_REL34345
+Version: BT_SolarF_JfP2_REL36030
 File:intel/ibt-1040-2120.ddc
-Version: BT_SolarF_JfP2_REL34345
+Version: BT_SolarF_JfP2_REL36030
 
 File:intel/ibt-0040-4150.sfi
-Version: BT_Solar_HrP2_REL34345
+Version: BT_Solar_HrP2_REL36030
 File:intel/ibt-0040-4150.ddc
-Version: BT_Solar_HrP2_REL34345
+Version: BT_Solar_HrP2_REL36030
 File:intel/ibt-1040-4150.sfi
-Version: BT_SolarF_HrP2_REL34345
+Version: BT_SolarF_HrP2_REL36030
 File:intel/ibt-1040-4150.ddc
-Version: BT_SolarF_HrP2_REL34345
+Version: BT_SolarF_HrP2_REL36030
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -3714,6 +4053,23 @@ File: amd/amd_sev_fam19h_model0xh.sbin
 Version: 2021-9-10
 
 License: Redistributable. See LICENSE.amd-sev for details
+
+--------------------------------------------------------------------------
+
+Driver: microcode_amd - AMD CPU Microcode Update Driver for Linux
+
+File: amd-ucode/microcode_amd.bin
+Version: 2013-07-10
+File: amd-ucode/microcode_amd_fam15h.bin
+Version: 2018-05-24
+File: amd-ucode/microcode_amd_fam16h.bin
+Version: 2014-10-28
+File: amd-ucode/microcode_amd_fam17h.bin
+Version: 2019-12-18
+File: amd-ucode/microcode_amd_fam19h.bin
+Version: 2021-11-15
+
+License: Redistributable. See LICENSE.amd-ucode for details
 
 --------------------------------------------------------------------------
 
@@ -3964,6 +4320,26 @@ License: Redistributable. See LICENCE.adsp_sst for details
 
 --------------------------------------------------------------------------
 
+Driver: smsmdtv - Siano MDTV Core module
+
+File: cmmb_vega_12mhz.inp
+File: cmmb_venice_12mhz.inp
+File: dvb_nova_12mhz.inp
+File: dvb_nova_12mhz_b0.inp
+File: isdbt_nova_12mhz.inp
+File: isdbt_nova_12mhz_b0.inp
+File: isdbt_rio.inp
+File: sms1xxx-hcw-55xxx-dvbt-02.fw
+File: sms1xxx-hcw-55xxx-isdbt-02.fw
+File: sms1xxx-nova-a-dvbt-01.fw
+File: sms1xxx-nova-b-dvbt-01.fw
+File: sms1xxx-stellar-dvbt-01.fw
+File: tdmb_nova_12mhz.inp
+
+Licence: Redistributable. See LICENCE.siano for details
+
+--------------------------------------------------------------------------
+
 Driver: xhci-tegra -- NVIDIA Tegra XHCI driver
 
 File: nvidia/tegra124/xusb.bin
@@ -4047,6 +4423,12 @@ File: qca/nvm_usb_00130200_0110.bin
 File: qca/rampatch_usb_00130201.bin
 File: qca/nvm_usb_00130201.bin
 File: qca/nvm_usb_00130201_010a.bin
+File: qca/nvm_usb_00130201_010b.bin
+File: qca/nvm_usb_00130201_0303.bin
+File: qca/nvm_usb_00130201_gf.bin
+File: qca/nvm_usb_00130201_gf_010a.bin
+File: qca/nvm_usb_00130201_gf_010b.bin
+File: qca/nvm_usb_00130201_gf_0303.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
@@ -4147,6 +4529,9 @@ Version: Guc API/ABI ver 49 - release 0 for Skylake
 File: i915/skl_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for Skylake
 
+File: i915/skl_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Skylake
+
 File: i915/skl_huc_ver01_07_1398.bin
 Version: HuC API/ABI ver 1 - release 7 for Skylake
 
@@ -4186,6 +4571,9 @@ Version: Guc API/APB ver 49 - release 0 for Broxton
 File: i915/bxt_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for Broxton
 
+File: i915/bxt_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Broxton
+
 File: i915/kbl_guc_ver9_14.bin
 Version: Guc API/APB ver 9 release 14 for Kabylake
 
@@ -4197,6 +4585,9 @@ Version: Guc API/APB ver 49 release 0 for Comet Lake
 
 File: i915/cml_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for Comet Lake
+
+File: i915/cml_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Comet Lake
 
 File: i915/kbl_guc_ver9_39.bin
 Version: Guc API/APB ver 9 release 39 for Kabylake
@@ -4213,6 +4604,9 @@ Version: Guc API/APB ver 49 release 0 for Kabylake
 File: i915/kbl_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for Kabylake
 
+File: i915/kbl_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Kabylake
+
 File: i915/glk_guc_32.0.3.bin
 Version: Guc API/APB ver 32 release 0 for Geminilake
 
@@ -4224,6 +4618,9 @@ Version: Guc API/APB ver 49 release 0 for Geminilake
 
 File: i915/glk_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for Geminilake
+
+File: i915/glk_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Geminilake
 
 File: i915/glk_huc_ver03_01_2893.bin
 Version: Huc API/APB ver 3 release 1 for Geminilake
@@ -4261,6 +4658,9 @@ Version: Guc API/APB ver 49 release 0 for Icelake
 File: i915/icl_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for Icelake
 
+File: i915/icl_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Icelake
+
 File: i915/icl_huc_ver8_4_3238.bin
 Version: Huc API/APB ver 8 release 4 for Icelake
 
@@ -4288,6 +4688,9 @@ Version: Guc API/APB ver 49 release 0 for Elkhartlake
 File: i915/ehl_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for Elkhartlake
 
+File: i915/ehl_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Elkhartlake
+
 File: i915/ehl_huc_9.0.0.bin
 Version: Huc API/APB ver 9 release 0 for Elkhartlake
 
@@ -4299,6 +4702,9 @@ Version: Guc API/APB ver 49 release 0 for Tigerlake
 
 File: i915/tgl_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for Tigerlake
+
+File: i915/tgl_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Tigerlake
 
 File: i915/tgl_huc_7.0.3.bin
 Version: Huc API/APB ver 7 release 0 for Tigerlake
@@ -4327,6 +4733,9 @@ Version: Guc API/APB ver 49 release 0 for DG1
 File: i915/dg1_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for DG1
 
+File: i915/dg1_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for DG1
+
 File: i915/dg1_huc_7.7.1.bin
 Version: Huc API/APB ver 7 release 1 for DG1
 
@@ -4345,8 +4754,14 @@ Version: DMC API/APB ver 2 release 10 for Alderlake P
 File: i915/adlp_dmc_ver2_12.bin
 Version: DMC API/APB ver 2 release 12 for Alderlake P
 
+File: i915/adlp_dmc_ver2_14.bin
+Version: DMC API/APB ver 2 release 14 for Alderlake P
+
 File: i915/adlp_guc_62.0.3.bin
 Version: GuC API/APB ver 62.0.3 for Alderlake P
+
+File: i915/adlp_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Alderlake P
 
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
@@ -4889,14 +5304,27 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
-Driver: mt7915e - MediaTek MT7915e Wireless MACs
+Driver: mt7915e - MediaTek Wireless MACs for MT7915/MT7916
 
 File: mediatek/mt7915_wm.bin
-Version: 20201105
+Version: 20211222184052
 File: mediatek/mt7915_wa.bin
-Version: 20201105
+Version: 20211222184111
 File: mediatek/mt7915_rom_patch.bin
-Version: 20201105
+Version: 20211222184017a
+File: mediatek/mt7915_eeprom.bin
+Version: 20200821
+File: mediatek/mt7915_eeprom_dbdc.bin
+Version: 20200821
+
+File: mediatek/mt7916_wm.bin
+Version: 20211230135720
+File: mediatek/mt7916_wa.bin
+Version: 20211230135808
+File: mediatek/mt7916_rom_patch.bin
+Version: 20211230135620a
+File: mediatek/mt7916_eeprom.bin
+Version: 20211130
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -4905,9 +5333,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20211014150838a
+Version: 20220110230855a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20211014150922
+Version: 20220110230951
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -4916,7 +5344,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20211018131102
+Version: 20220110231230
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5256,6 +5684,9 @@ File: mellanox/mlxsw_spectrum3-30.2008.3326.mfa2
 File: mellanox/mlxsw_spectrum-13.2010.1006.mfa2
 File: mellanox/mlxsw_spectrum2-29.2010.1006.mfa2
 File: mellanox/mlxsw_spectrum3-30.2010.1006.mfa2
+File: mellanox/mlxsw_spectrum-13.2010.1232.mfa2
+File: mellanox/mlxsw_spectrum2-29.2010.1232.mfa2
+File: mellanox/mlxsw_spectrum3-30.2010.1232.mfa2
 
 Licence:
  Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
@@ -5405,3 +5836,31 @@ Version: 3.12.1
 
 Licence: Redistributable. See silabs/LICENCE.wf200 for details.
 Originates from https://github.com/SiliconLabs/wfx-firmware
+
+--------------------------------------------------------------------------
+
+Driver: wave5 - Chips&Media, Inc. video codec driver
+
+File: cnm/wave521c_j721s2_codec_fw.bin
+
+Licence: Redistributable. See LICENCE.cnm for details.
+
+---------------------------------------------------------------------------
+
+Driver: rvu_cptpf - Marvell CPT driver
+
+File: mrvl/cpt01/ae.out
+File: mrvl/cpt01/se.out
+File: mrvl/cpt01/ie.out
+File: mrvl/cpt02/ae.out
+File: mrvl/cpt02/se.out
+File: mrvl/cpt02/ie.out
+File: mrvl/cpt03/ae.out
+File: mrvl/cpt03/se.out
+File: mrvl/cpt03/ie.out
+File: mrvl/cpt04/ae.out
+File: mrvl/cpt04/se.out
+File: mrvl/cpt04/ie.out
+Version: v1.21
+
+Licence: Redistributable. See LICENCE.Marvell for details.
