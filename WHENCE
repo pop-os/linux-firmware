@@ -2674,6 +2674,14 @@ File: amdgpu/cyan_skillfish2_pfp.bin
 File: amdgpu/cyan_skillfish2_rlc.bin
 File: amdgpu/cyan_skillfish2_sdma.bin
 File: amdgpu/cyan_skillfish2_sdma1.bin
+File: amdgpu/aldebaran_mec2.bin
+File: amdgpu/aldebaran_mec.bin
+File: amdgpu/aldebaran_rlc.bin
+File: amdgpu/aldebaran_sdma.bin
+File: amdgpu/aldebaran_smc.bin
+File: amdgpu/aldebaran_sos.bin
+File: amdgpu/aldebaran_ta.bin
+File: amdgpu/aldebaran_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
