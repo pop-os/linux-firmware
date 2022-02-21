@@ -5842,10 +5842,10 @@ License: Redistributable. See LICENSE.Lontium for details.
 
 Driver: wfx - Silicon Labs Wi-Fi Transceiver
 
-File: silabs/wfm_wf200_C0.sec
+File: wfx/wfm_wf200_C0.sec
 Version: 3.12.1
 
-Licence: Redistributable. See silabs/LICENCE.wf200 for details.
+Licence: Redistributable. See wfx/LICENCE.wf200 for details.
 Originates from https://github.com/SiliconLabs/wfx-firmware
 
 --------------------------------------------------------------------------
