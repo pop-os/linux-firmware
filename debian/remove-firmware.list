@@ -1,0 +1,196 @@
+# This file contains a list of firmware files and/or directories that need to
+# be removed from the final package.
+
+# Replaces commit 6a312e01f665 ("UBUNTU: Remove obsolete ueagle-atm firmware")
+ueagle-atm/CMVeiWO.bin
+ueagle-atm/CMVepES.bin
+ueagle-atm/CMVepES03.bin
+ueagle-atm/CMVepFR.bin
+ueagle-atm/CMVepFR04.bin
+ueagle-atm/CMVepFR10.bin
+ueagle-atm/CMVepIT.bin
+ueagle-atm/CMVepWO.bin
+
+# Replaces commit ee2de66a5c8e ("UBUNTU: Drop obsolete cxgb3 firmware")
+cxgb3/t3fw-7.0.0.bin
+cxgb3/t3fw-7.1.0.bin
+cxgb3/t3fw-7.4.0.bin
+
+# Replaces commit 634d7ba9a08a ("UBUNTU: Remove obsolete iwlwifi ucode files")
+iwlwifi-1000-3.ucode
+iwlwifi-5000-1.ucode
+iwlwifi-5000-2.ucode
+iwlwifi-6000g2b-5.ucode
+iwlwifi-6050-4.ucode
+
+# Replaces commit 4f7cf7c3ecd1 ("UBUNTU: Remove obsolete bnx2x firmware files")
+bnx2x-e1-4.8.53.0.fw
+bnx2x-e1-5.2.13.0.fw
+bnx2x-e1-5.2.7.0.fw
+bnx2x-e1h-4.8.53.0.fw
+bnx2x-e1h-5.2.13.0.fw
+bnx2x-e1h-5.2.7.0.fw
+bnx2x/bnx2x-e1-6.0.34.0.fw
+bnx2x/bnx2x-e1-6.2.5.0.fw
+bnx2x/bnx2x-e1-6.2.9.0.fw
+bnx2x/bnx2x-e1-7.0.20.0.fw
+bnx2x/bnx2x-e1-7.0.23.0.fw
+bnx2x/bnx2x-e1h-6.0.34.0.fw
+bnx2x/bnx2x-e1h-6.2.5.0.fw
+bnx2x/bnx2x-e1h-6.2.9.0.fw
+bnx2x/bnx2x-e1h-7.0.20.0.fw
+bnx2x/bnx2x-e1h-7.0.23.0.fw
+bnx2x/bnx2x-e2-6.0.34.0.fw
+bnx2x/bnx2x-e2-6.2.5.0.fw
+bnx2x/bnx2x-e2-6.2.9.0.fw
+bnx2x/bnx2x-e2-7.0.20.0.fw
+bnx2x/bnx2x-e2-7.0.23.0.fw
+
+# Replaces commit 85ee46eb9136 ("UBUNTU: Remove obsolete ar3k firmware")
+ar3k/1020200/PS_ASIC.pst
+ar3k/1020200/RamPatch.txt
+ar3k/1020200/ar3kbdaddr.pst
+ar3k/30000/PS_ASIC.pst
+ar3k/30000/RamPatch.txt
+ar3k/30000/ar3kbdaddr.pst
+ar3k/30101/PS_ASIC.pst
+ar3k/30101/RamPatch.txt
+ar3k/30101/ar3kbdaddr.pst
+ar3k/30101coex/PS_ASIC.pst
+ar3k/30101coex/PS_ASIC_aclHighPri.pst
+ar3k/30101coex/PS_ASIC_aclLowPri.pst
+ar3k/30101coex/RamPatch.txt
+ar3k/30101coex/ar3kbdaddr.pst
+
+# Replaces commit 0563995d173f ("UBUNTU: Remove obsolete ath9k firmware")
+ar9271.fw
+
+# Replaces commit e55ef4edc755 ("UBUNTU: Remove obsolete slicoss firmware")
+slicoss/oasisdbgdownload.sys
+
+# Replaces commit 0470cfcec635 ("UBUNT: Remove obsolete ath6k firmware")
+ath6k/AR6002/athwlan.bin.z77
+ath6k/AR6002/data.patch.hw2_0.bin
+ath6k/AR6002/eeprom.bin
+ath6k/AR6002/eeprom.data
+ath6k/AR6003.1/hw2.1.1/athwlan.bin
+ath6k/AR6003.1/hw2.1.1/bdata.SD31.bin
+ath6k/AR6003.1/hw2.1.1/bdata.SD32.bin
+ath6k/AR6003.1/hw2.1.1/bdata.WB31.bin
+ath6k/AR6003.1/hw2.1.1/data.patch.bin
+ath6k/AR6003.1/hw2.1.1/endpointping.bin
+ath6k/AR6003.1/hw2.1.1/otp.bin
+ath6k/AR6003/hw1.0/athwlan.bin.z77
+ath6k/AR6003/hw1.0/bdata.SD31.bin
+ath6k/AR6003/hw1.0/bdata.SD32.bin
+ath6k/AR6003/hw1.0/bdata.WB31.bin
+ath6k/AR6003/hw1.0/data.patch.bin
+ath6k/AR6003/hw1.0/otp.bin.z77
+ath6k/AR6003/hw2.0/bdata.SD32.bin
+ath6k/AR6003/hw2.0/bdata.WB31.bin
+ath6k/AR6003/hw2.1.1/bdata.SD32.bin
+ath6k/AR6003/hw2.1.1/bdata.WB31.bin
+ath6k/AR6003/hw2.1.1/endpointping.bin
+
+# Replaces commit 2188b4baf819 ("UBUNTU: Remove obsolete 3com firmware")
+3com/3C359.bin
+
+# Replaces commit f11a59536386 ("UBUNTU: Remove obsolete ath3k firmware")
+ar3k/1020201/PS_ASIC.pst
+ar3k/1020201/RamPatch.txt
+
+# Replaces commit c5a7aadccbfd ("UBUNTU: Remove obsolete ar7010 firmware")
+ar7010.fw
+ar7010_1_1.fw
+
+# Replaces commit 4ce08856dee0 ("UBUNTU: Remove obsolete ar9170 firmware")
+ar9170-1.fw
+ar9170-2.fw
+
+# Replaces commit 064c4d3944e4 ("UBUNTU: Remove obsolete bnx2x firmware")
+bnx2x/bnx2x-e1-7.0.29.0.fw
+bnx2x/bnx2x-e1-7.2.16.0.fw
+bnx2x/bnx2x-e1h-7.0.29.0.fw
+bnx2x/bnx2x-e1h-7.2.16.0.fw
+bnx2x/bnx2x-e2-7.0.29.0.fw
+bnx2x/bnx2x-e2-7.2.16.0.fw
+
+# Replaces commit 03310ea1e1e7 ("UBUNTU: Remove obsolete cxgb firmware")
+cxgb3/t3fw-7.10.0.bin
+
+# Replaces commit 22f2239919d9 ("UBUNTU: Remove obsolete dabusb firmware")
+dabusb/bitstream.bin
+dabusb/firmware.fw
+
+# Replaces commit 1faeeb10de57 ("UBUNTU: Remove obsolete Computone firmware")
+intelliport2.bin
+
+# Replaces commit a46068ae4580 ("UBUNTU: Remove obsolete libertas firmware")
+libertas/gspi8682.bin
+libertas/gspi8682_helper.bin
+libertas/lbtf_sdio.bin
+libertas/sd8682.bin
+libertas/sd8682_helper.bin
+libertas/usb8388_olpc.bin
+
+# Replaces commit bfa2ac04ade6 ("UBUNTU: Remove obsolete mwl8k firmware")
+mwl8k/fmimage_8366_ap-1.fw
+
+# Replaces commit 9b6d6bbcbc18 ("UBUNTU: Remove obsolete myricom firmware")
+myricom/lanai.bin
+
+# Replaces commit 09e02976b05b ("UBUNTU: Remove obsolete sxg firmware")
+sxg/saharadbgdownloadB.sys
+sxg/saharadownloadB.sys
+
+# Replaces commit 3d183a325fec ("UBUNTU: Remove obsolete tda1004x firmware")
+LICENCE.tda7706-firmware.txt
+TDA7706_OM_v2.5.1_boot.txt
+TDA7706_OM_v3.0.2_boot.txt
+
+# Replaces commit 1be4f28f91fb ("UBUNTU: Remove obsolete ti-connectivity firmware")
+ti-connectivity/TIInit_7.2.31.bts
+ti-connectivity/wl1271-fw-2.bin
+ti-connectivity/wl1271-fw-ap.bin
+ti-connectivity/wl1271-fw.bin
+ti-connectivity/wl127x-fw-3.bin
+ti-connectivity/wl127x-fw-plt-3.bin
+ti-connectivity/wl128x-fw-3.bin
+ti-connectivity/wl128x-fw-ap.bin
+ti-connectivity/wl128x-fw-plt-3.bin
+ti-connectivity/wl128x-fw.bin
+ti-connectivity/wl18xx-fw.bin
+
+# Replaces commit 935dc770957e ("UBUNTU: Remove obsolete tr_smctr firmware")
+tr_smctr.bin
+
+# Replaces commit 513a97a03fba ("UBUNTU: Remove obsolete bnx2x firmware files")
+bnx2x/bnx2x-e1-7.10.51.0.fw
+bnx2x/bnx2x-e1-7.8.17.0.fw
+bnx2x/bnx2x-e1-7.8.19.0.fw
+bnx2x/bnx2x-e1h-7.10.51.0.fw
+bnx2x/bnx2x-e1h-7.8.17.0.fw
+bnx2x/bnx2x-e1h-7.8.19.0.fw
+bnx2x/bnx2x-e2-7.10.51.0.fw
+bnx2x/bnx2x-e2-7.8.17.0.fw
+bnx2x/bnx2x-e2-7.8.19.0.fw
+
+# Replaces commit 251237583bdd ("UBUNTU: Revert "linux-firmware: Add firmware files for Siano DTV devices"")
+LICENCE.siano
+cmmb_vega_12mhz.inp
+cmmb_venice_12mhz.inp
+dvb_nova_12mhz.inp
+dvb_nova_12mhz_b0.inp
+isdbt_nova_12mhz.inp
+isdbt_nova_12mhz_b0.inp
+isdbt_rio.inp
+sms1xxx-hcw-55xxx-dvbt-02.fw
+sms1xxx-hcw-55xxx-isdbt-02.fw
+sms1xxx-nova-a-dvbt-01.fw
+sms1xxx-nova-b-dvbt-01.fw
+sms1xxx-stellar-dvbt-01.fw
+tdmb_nova_12mhz.inp
+
+# Replaces commit 563bb48ed143 ("UBUNTU: Remove amd64-microcode")
+LICENSE.amd-ucode
+amd-ucode
