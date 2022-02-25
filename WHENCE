@@ -3939,9 +3939,9 @@ File:intel/ibt-1040-2120.ddc
 Version: BT_SolarF_JfP2_REL36030
 
 File:intel/ibt-0040-4150.sfi
-Version: BT_Solar_HrP2_REL36030
+Version: BT_Solar_HrP2_REL38020
 File:intel/ibt-0040-4150.ddc
-Version: BT_Solar_HrP2_REL36030
+Version: BT_Solar_HrP2_REL38020
 File:intel/ibt-1040-4150.sfi
 Version: BT_SolarF_HrP2_REL36030
 File:intel/ibt-1040-4150.ddc
