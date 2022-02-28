@@ -1,10 +1,11 @@
-linux-firmware (1.201.5) impish; urgency=medium
+linux-firmware (1.201.5+system76) impish; urgency=medium
 
+  [ Juerg Haefliger ]
   * rtw89_pci constantly drops connection with old firmware (LP: #1960933)
     - rtw89: 8852a: update fw to v0.13.30.0
     - rtw89: 8852a: update fw to v0.13.33.0
 
- -- Juerg Haefliger <juergh@canonical.com>  Fri, 18 Feb 2022 15:22:53 +0100
+ -- Jeremy Soller <jeremy@system76.com>  Mon, 28 Feb 2022 08:28:51 -0700
 
 linux-firmware (1.201.4) impish; urgency=medium
 
