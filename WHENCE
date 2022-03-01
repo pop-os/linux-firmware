@@ -2692,6 +2692,7 @@ File: amdgpu/dcn_3_1_6_dmcub.bin
 File: amdgpu/psp_13_0_8_asd.bin
 File: amdgpu/psp_13_0_8_ta.bin
 File: amdgpu/psp_13_0_8_toc.bin
+File: amdgpu/sdma_5_2_7.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
