@@ -2688,6 +2688,7 @@ File: amdgpu/gc_10_3_7_mec.bin
 File: amdgpu/gc_10_3_7_mec2.bin
 File: amdgpu/gc_10_3_7_pfp.bin
 File: amdgpu/gc_10_3_7_rlc.bin
+File: amdgpu/dcn_3_1_6_dmcub.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
