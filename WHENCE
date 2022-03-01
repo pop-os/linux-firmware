@@ -2682,6 +2682,12 @@ File: amdgpu/aldebaran_smc.bin
 File: amdgpu/aldebaran_sos.bin
 File: amdgpu/aldebaran_ta.bin
 File: amdgpu/aldebaran_vcn.bin
+File: amdgpu/gc_10_3_7_ce.bin
+File: amdgpu/gc_10_3_7_me.bin
+File: amdgpu/gc_10_3_7_mec.bin
+File: amdgpu/gc_10_3_7_mec2.bin
+File: amdgpu/gc_10_3_7_pfp.bin
+File: amdgpu/gc_10_3_7_rlc.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
