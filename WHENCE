@@ -2674,6 +2674,14 @@ File: amdgpu/cyan_skillfish2_pfp.bin
 File: amdgpu/cyan_skillfish2_rlc.bin
 File: amdgpu/cyan_skillfish2_sdma.bin
 File: amdgpu/cyan_skillfish2_sdma1.bin
+File: amdgpu/aldebaran_mec2.bin
+File: amdgpu/aldebaran_mec.bin
+File: amdgpu/aldebaran_rlc.bin
+File: amdgpu/aldebaran_sdma.bin
+File: amdgpu/aldebaran_smc.bin
+File: amdgpu/aldebaran_sos.bin
+File: amdgpu/aldebaran_ta.bin
+File: amdgpu/aldebaran_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -3810,23 +3818,23 @@ Version: BT_StonePeak_C0_REL_59_0001
 File: intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq
 Version: BT_StonePeak_D0_REL_50_0002
 File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
-Version: BT_StonePeak_D1_REL_66_1167
+Version: BT_StonePeak_D1_REL_67_1278
 File: intel/ibt-11-5.ddc
-Version: LnP/SfP_REL0522
+Version: LnP/SfP_REL1294
 File: intel/ibt-11-5.sfi
 Version: BT_LightningPeak_REL0487
 File: intel/ibt-12-16.ddc
-Version: BT_WindStormPeak_REL1236
+Version: BT_WindStormPeak_REL1299
 File: intel/ibt-12-16.sfi
-Version: BT_WindStormPeak_REL1236
+Version: BT_WindStormPeak_REL1299
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20054
+Version: BT_JeffersonPeak_B0_B0_REL20142
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20054
+Version: BT_JeffersonPeak_B0_B0_REL20142
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20054
+Version: BT_JeffersonPeak_B0_B0_REL20142
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20054
+Version: BT_JeffersonPeak_B0_B0_REL20142
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3836,13 +3844,13 @@ Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL20054
+Version: BT_ThunderPeak_B0_B0_REL20142
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL20054
+Version: BT_ThunderPeak_B0_B0_REL20142
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL20054
+Version: BT_ThunderPeak_B0_B0_REL20142
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL20054
+Version: BT_ThunderPeak_B0_B0_REL20142
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -3852,92 +3860,92 @@ Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL35819
+Version: BT_CyclonePeak_A0_REL37758
 File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL35819
+Version: BT_CyclonePeak_A0_REL37758
 File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL35819
+Version: BT_CyclonePeak_A0_REL37758
 File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL35819
+Version: BT_CyclonePeak_A0_REL37758
 File:intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL35819
+Version: BT_CyclonePeak_A0_REL37758
 File:intel/ibt-20-1-4.ddc
-Version: BT_CyclonePeak_A0_REL35819
+Version: BT_CyclonePeak_A0_REL37758
 File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL35819
+Version: BT_Quasar_REL37758
 File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL35819
+Version: BT_Quasar_REL37758
 File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL35819
+Version: BT_Quasar_REL37758
 File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL35819
+Version: BT_Quasar_REL37758
 File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL35819
+Version: BT_HarrisonPeak_REL37758
 File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL35819
+Version: BT_HarrisonPeak_REL37758
 File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL35819
+Version: BT_HarrisonPeak_REL37758
 File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL35819
+Version: BT_HarrisonPeak_REL37758
 File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL35819
+Version: BT_HarrisonPeak_REL37758
 File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL35819
+Version: BT_HarrisonPeak_REL37758
 File:intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL35819
+Version: BT_HarrisonPeak_REL37758
 File:intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL35819
+Version: BT_HarrisonPeak_REL37758
 File:intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL35819
+Version: BT_HarrisonPeak_REL37758
 File:intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL35819
+Version: BT_HarrisonPeak_REL37758
 File:intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL35819
+Version: BT_HarrisonPeak_REL37758
 File:intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL35819
+Version: BT_HarrisonPeak_REL37758
 File:intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL35819
+Version: BT_HarrisonPeak_REL37758
 File:intel/ibt-19-240-4.ddc
-Version: BT_HarrisonPeak_REL35819
+Version: BT_HarrisonPeak_REL37758
 File:intel/ibt-0041-0041.sfi
-Version: BT_TyphoonPeak_REL36030
+Version: BT_TyphoonPeak_REL38020
 File:intel/ibt-0041-0041.ddc
-Version: BT_TyphoonPeak_REL36030
+Version: BT_TyphoonPeak_REL38020
 File:intel/ibt-0040-0041.sfi
-Version: BT_Solar_GfP2_REL36030
+Version: BT_Solar_GfP2_REL38020
 File:intel/ibt-0040-0041.ddc
-Version: BT_Solar_GfP2_REL36030
+Version: BT_Solar_GfP2_REL38020
 File:intel/ibt-1040-0041.sfi
-Version: BT_SolarF_GfP2_REL36030
+Version: BT_SolarF_GfP2_REL38020
 File:intel/ibt-1040-0041.ddc
-Version: BT_SolarF_GfP2_REL36030
+Version: BT_SolarF_GfP2_REL38020
 
 File:intel/ibt-0040-1020.sfi
-Version: BT_Solar_JfP1_REL36030
+Version: BT_Solar_JfP1_REL38020
 File:intel/ibt-0040-1020.ddc
-Version: BT_Solar_JfP1_REL36030
+Version: BT_Solar_JfP1_REL38020
 File:intel/ibt-1040-1020.sfi
-Version: BT_SolarF_JfP1_REL36030
+Version: BT_SolarF_JfP1_REL38020
 File:intel/ibt-1040-1020.ddc
-Version: BT_SolarF_JfP1_REL36030
+Version: BT_SolarF_JfP1_REL38020
 
 File:intel/ibt-0040-2120.sfi
-Version: BT_Solar_JfP2_REL36030
+Version: BT_Solar_JfP2_REL38020
 File:intel/ibt-0040-2120.ddc
-Version: BT_Solar_JfP2_REL36030
+Version: BT_Solar_JfP2_REL38020
 File:intel/ibt-1040-2120.sfi
-Version: BT_SolarF_JfP2_REL36030
+Version: BT_SolarF_JfP2_REL38020
 File:intel/ibt-1040-2120.ddc
-Version: BT_SolarF_JfP2_REL36030
+Version: BT_SolarF_JfP2_REL38020
 
 File:intel/ibt-0040-4150.sfi
-Version: BT_Solar_HrP2_REL36030
+Version: BT_Solar_HrP2_REL38020
 File:intel/ibt-0040-4150.ddc
-Version: BT_Solar_HrP2_REL36030
+Version: BT_Solar_HrP2_REL38020
 File:intel/ibt-1040-4150.sfi
-Version: BT_SolarF_HrP2_REL36030
+Version: BT_SolarF_HrP2_REL38020
 File:intel/ibt-1040-4150.ddc
-Version: BT_SolarF_HrP2_REL36030
+Version: BT_SolarF_HrP2_REL38020
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -4046,11 +4054,11 @@ Licence: Redistributable. See LICENCE.go7007 for details
 Driver: ccp - Platform Security Processor (PSP) device
 
 File: amd/amd_sev_fam17h_model0xh.sbin
-Version: 2021-9-10
+Version: 2022-2-25
 File: amd/amd_sev_fam17h_model3xh.sbin
-Version: 2021-9-10
+Version: 2022-2-25
 File: amd/amd_sev_fam19h_model0xh.sbin
-Version: 2021-9-10
+Version: 2022-2-25
 
 License: Redistributable. See LICENSE.amd-sev for details
 
@@ -4067,7 +4075,7 @@ Version: 2014-10-28
 File: amd-ucode/microcode_amd_fam17h.bin
 Version: 2019-12-18
 File: amd-ucode/microcode_amd_fam19h.bin
-Version: 2021-11-15
+Version: 2022-02-14
 
 License: Redistributable. See LICENSE.amd-ucode for details
 
@@ -5336,9 +5344,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20220110230855a
+Version: 20220209150832a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20220110230951
+Version: 20220209150915
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5347,7 +5355,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20220110231230
+Version: 20220209151054
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5690,6 +5698,9 @@ File: mellanox/mlxsw_spectrum3-30.2010.1006.mfa2
 File: mellanox/mlxsw_spectrum-13.2010.1232.mfa2
 File: mellanox/mlxsw_spectrum2-29.2010.1232.mfa2
 File: mellanox/mlxsw_spectrum3-30.2010.1232.mfa2
+File: mellanox/mlxsw_spectrum-13.2010.1406.mfa2
+File: mellanox/mlxsw_spectrum2-29.2010.1406.mfa2
+File: mellanox/mlxsw_spectrum3-30.2010.1406.mfa2
 
 Licence:
  Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
@@ -5834,11 +5845,21 @@ License: Redistributable. See LICENSE.Lontium for details.
 
 Driver: wfx - Silicon Labs Wi-Fi Transceiver
 
-File: silabs/wfm_wf200_C0.sec
-Version: 3.12.1
+File: wfx/wfm_wf200_C0.sec
+Version: 3.14
 
-Licence: Redistributable. See silabs/LICENCE.wf200 for details.
-Originates from https://github.com/SiliconLabs/wfx-firmware
+File: wfx/brd4001a.pds not listed in WHENCE
+File: wfx/brd8022a.pds not listed in WHENCE
+File: wfx/brd8023a.pds not listed in WHENCE
+
+Licence: Redistributable. See wfx/LICENCE.wf200 for details.
+
+The firmware itself originates from https://github.com/SiliconLabs/wfx-firmware
+
+The *.pds files come from https://github.com/SiliconLabs/wfx-pds
+
+They have been processed with the tool "pds_compress" available on
+https://github.com/SiliconLabs/wfx-linux-tools
 
 --------------------------------------------------------------------------
 

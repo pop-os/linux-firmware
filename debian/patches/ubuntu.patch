@@ -998,10 +998,10 @@ index 000000000000..9296d82e8305
 +DAMAGE.
 diff --git a/WHENCE.ubuntu b/WHENCE.ubuntu
 new file mode 100644
-index 000000000000..3398388bad6d
+index 000000000000..df2e9eb975c5
 --- /dev/null
 +++ b/WHENCE.ubuntu
-@@ -0,0 +1,223 @@
+@@ -0,0 +1,233 @@
 +             **********
 +             * WHENCE *
 +             **********
@@ -1011,6 +1011,12 @@ index 000000000000..3398388bad6d
 +kernel.
 +
 +--------------------------------------------------------------------------
++
++# Make check-whence.py ignore the packaging files.
++Source: debian/
++
++--------------------------------------------------------------------------
++
 +Driver: ipw2200 - Intel ipw2200 wireless driver
 +
 +File: ipw2200-bss.fw
@@ -1030,6 +1036,7 @@ index 000000000000..3398388bad6d
 +Info: v1.3
 +
 +License: Redistributable. See LICENCE.ipw2100 for details
++
 +--------------------------------------------------------------------------
 +
 +Driver: zd1211rw - ZD1211 USB-WLAN driver for Linux
@@ -1043,6 +1050,7 @@ index 000000000000..3398388bad6d
 +Info: http://linux-lc100020.sourceforge.net/
 +
 +License: Redistributable. See LICENCE.zd1211 for details
++
 +--------------------------------------------------------------------------
 +
 +Driver: zd1201 - Driver for ZyDAS zd1201 based wireless USB devices.
@@ -1052,6 +1060,7 @@ index 000000000000..3398388bad6d
 +Info: http://linux-lc100020.sourceforge.net/
 +
 +License: Redistributable. See LICENCE.zd1201 for details
++
 +--------------------------------------------------------------------------
 +
 +Driver: pvrusb2, v4l-cx2341x - Hauppauge cx2341x based models
@@ -1108,6 +1117,7 @@ index 000000000000..3398388bad6d
 +File: ea/mona_361_1_asic_48.fw
 +File: ea/mona_361_1_asic_96.fw
 +File: ea/mona_361_dsp.fw
++Source: fw_source/
 +
 +Info: http://www.alsa-project.org/main/index.php/Main_Page
 +
@@ -2736,7 +2746,7 @@ index 000000000000..c13fe9a3f264
 + =============================================================================
 +
 diff --git a/check_whence.py b/check_whence.py
-index 2d31f3839106..44509d75d3c9 100755
+index 2d31f3839106..f3bcb2b791ae 100755
 --- a/check_whence.py
 +++ b/check_whence.py
 @@ -1,10 +1,10 @@
@@ -2753,7 +2763,7 @@ index 2d31f3839106..44509d75d3c9 100755
          for line in whence:
              match = re.match(r'(?:File|Source):\s*"(.*)"', line)
              if match:
-@@ -35,15 +35,18 @@ def list_git():
+@@ -35,15 +35,17 @@ def list_git():
  
  def main():
      ret = 0
@@ -2762,10 +2772,8 @@ index 2d31f3839106..44509d75d3c9 100755
      known_files = set(name for name in whence_list if not name.endswith('/')) | \
                    set(['check_whence.py', 'configure', 'Makefile',
 -                       'README', 'copy-firmware.sh', 'WHENCE'])
--    known_prefixes = set(name for name in whence_list if name.endswith('/'))
 +                       'README', 'copy-firmware.sh', 'WHENCE', 'WHENCE.ubuntu'])
-+    known_prefixes = set(name for name in whence_list if name.endswith('/')) | \
-+                     set(['debian/', 'fw_source/'])
+     known_prefixes = set(name for name in whence_list if name.endswith('/'))
      git_files = set(list_git())
  
      for name in sorted(list(known_files - git_files)):
@@ -2776,7 +2784,7 @@ index 2d31f3839106..44509d75d3c9 100755
          ret = 1
  
      for name in sorted(list(git_files - known_files)):
-@@ -57,7 +60,7 @@ def main():
+@@ -57,7 +59,7 @@ def main():
              if name.startswith(prefix):
                  break
          else:
