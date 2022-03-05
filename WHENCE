@@ -4867,6 +4867,9 @@ Version: GuC API/APB ver 69.0.3 for Alderlake P
 File: i915/adlp_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for Alderlake P
 
+File: i915/dg2_guc_70.1.2.bin
+Version: GuC API/APB ver 70.1.2 for DG2
+
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
 
