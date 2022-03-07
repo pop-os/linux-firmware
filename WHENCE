@@ -3674,6 +3674,10 @@ Version: WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
 File: ath11k/QCA6390/hw2.0/Notice.txt
 File: ath11k/WCN6855/hw2.0/board-2.bin
 File: ath11k/WCN6855/hw2.0/regdb.bin
+File: ath11k/WCN6855/hw2.0/amss.bin
+File: ath11k/WCN6855/hw2.0/m3.bin
+Version: WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3
+File: ath11k/WCN6855/hw2.0/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
