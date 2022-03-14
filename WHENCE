@@ -5882,7 +5882,7 @@ Link: intel/ice/ddp/ice.pkg -> ice-1.3.26.0.pkg
 
 License: Redistributable. See LICENSE.ice for details
 
-File: intel/ice/ddp-comms/ice_comms-1.3.20.0.pkg
+File: intel/ice/ddp-comms/ice_comms-1.3.31.0.pkg
 
 License: Redistributable. See LICENSE.ice_enhanced for details
 
