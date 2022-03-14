@@ -1027,7 +1027,7 @@ File: iwlwifi-9000-pu-b0-jf-b0-43.ucode
 Version: 43.95eb4e97.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-46.ucode
-Version: 46.4e1ceb39.0
+Version: 46.fae53a8b.0
 
 File: iwlwifi-9260-th-b0-jf-b0-33.ucode
 Version: 33.610294.0
@@ -1045,7 +1045,7 @@ File: iwlwifi-9260-th-b0-jf-b0-43.ucode
 Version: 43.95eb4e97.0
 
 File: iwlwifi-9260-th-b0-jf-b0-46.ucode
-Version: 46.4e1ceb39.0
+Version: 46.fae53a8b.0
 
 File: iwlwifi-cc-a0-46.ucode
 Version: 46.3cfab8da.0
@@ -1293,6 +1293,42 @@ Version: 68.01d30b0c.0
 
 File: iwlwifi-so-a0-jf-b0-68.ucode
 Version: 68.01d30b0c.0
+
+File: iwlwifi-cc-a0-71.ucode
+Version: 71.058653f6.0
+
+File: iwlwifi-Qu-b0-hr-b0-71.ucode
+Version: 71.058653f6.0
+
+File: iwlwifi-Qu-b0-jf-b0-71.ucode
+Version: 71.058653f6.0
+
+File: iwlwifi-Qu-c0-hr-b0-71.ucode
+Version: 71.058653f6.0
+
+File: iwlwifi-Qu-c0-jf-b0-71.ucode
+Version: 71.058653f6.0
+
+File: iwlwifi-QuZ-a0-hr-b0-71.ucode
+Version: 71.058653f6.0
+
+File: iwlwifi-QuZ-a0-jf-b0-71.ucode
+Version: 71.058653f6.0
+
+File: iwlwifi-ty-a0-gf-a0-71.ucode
+Version: 71.058653f6.0
+
+File: iwlwifi-so-a0-gf4-a0-71.ucode
+Version: 71.058653f6.0
+
+File: iwlwifi-so-a0-gf-a0-71.ucode
+Version: 71.058653f6.0
+
+File: iwlwifi-so-a0-hr-b0-71.ucode
+Version: 71.058653f6.0
+
+File: iwlwifi-so-a0-jf-b0-71.ucode
+Version: 71.058653f6.0
 
 File: iwlwifi-so-a0-gf-a0.pnvm
 
@@ -2682,6 +2718,17 @@ File: amdgpu/aldebaran_smc.bin
 File: amdgpu/aldebaran_sos.bin
 File: amdgpu/aldebaran_ta.bin
 File: amdgpu/aldebaran_vcn.bin
+File: amdgpu/gc_10_3_7_ce.bin
+File: amdgpu/gc_10_3_7_me.bin
+File: amdgpu/gc_10_3_7_mec.bin
+File: amdgpu/gc_10_3_7_mec2.bin
+File: amdgpu/gc_10_3_7_pfp.bin
+File: amdgpu/gc_10_3_7_rlc.bin
+File: amdgpu/dcn_3_1_6_dmcub.bin
+File: amdgpu/psp_13_0_8_asd.bin
+File: amdgpu/psp_13_0_8_ta.bin
+File: amdgpu/psp_13_0_8_toc.bin
+File: amdgpu/sdma_5_2_7.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -3557,62 +3604,62 @@ Driver: ath10k - Qualcomm Atheros support for QCA988x family of chips
 File: ath10k/QCA988X/hw2.0/board.bin
 File: ath10k/QCA988X/hw2.0/firmware-4.bin
 Version: 10.2.4.45
-Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-4.txt
+File: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA988X/hw2.0/firmware-5.bin
 Version: 10.2.4-1.0-00047
-Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-5.txt
+File: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA6174/hw2.1/board.bin
 File: ath10k/QCA6174/hw2.1/board-2.bin
 File: ath10k/QCA6174/hw2.1/firmware-5.bin
 Version: SW_RM.1.1.1-00157-QCARMSWPZ-1
-Licence: ath10k/QCA6174/hw2.1/notice_ath10k_firmware-5.txt
+File: ath10k/QCA6174/hw2.1/notice_ath10k_firmware-5.txt
 File: ath10k/QCA6174/hw3.0/board.bin
 File: ath10k/QCA6174/hw3.0/board-2.bin
 File: ath10k/QCA6174/hw3.0/firmware-4.bin
 Version: WLAN.RM.2.0-00180-QCARMSWPZ-1
-Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
+File: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA6174/hw3.0/firmware-6.bin
 Version: WLAN.RM.4.4.1-00157-QCARMSWPZ-1
-Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
+File: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
 File: ath10k/QCA6174/hw3.0/firmware-sdio-6.bin
 Version: WLAN.RMH.4.4.1-00077
-Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-sdio-6.txt
+File: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-sdio-6.txt
 File: ath10k/QCA9377/hw1.0/board.bin
 File: ath10k/QCA9377/hw1.0/board-2.bin
 File: ath10k/QCA9377/hw1.0/firmware-5.bin
 Version: WLAN.TF.1.0-00002-QCATFSWPZ-5
-Licence: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-5.txt
+File: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9377/hw1.0/firmware-sdio-5.bin
 Version: WLAN.TF.1.1.1-00061-QCATFSWPZ-1
-Licence: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-sdio-5.txt
+File: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-sdio-5.txt
 File: ath10k/QCA99X0/hw2.0/board.bin
 File: ath10k/QCA99X0/hw2.0/firmware-5.bin
 Version: 10.4.1.00030-1
-Licence: ath10k/QCA99X0/hw2.0/notice_ath10k_firmware-5.txt
+File: ath10k/QCA99X0/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA4019/hw1.0/board-2.bin
 File: ath10k/QCA4019/hw1.0/firmware-5.bin
 Version: 10.4-3.6-00140
-Licence: ath10k/QCA4019/hw1.0/notice_ath10k_firmware-5.txt
+File: ath10k/QCA4019/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9887/hw1.0/board.bin
 File: ath10k/QCA9887/hw1.0/firmware-5.bin
 Version: 10.2.4-1.0-00047
-Licence: ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
+File: ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9888/hw2.0/board-2.bin
 File: ath10k/QCA9888/hw2.0/firmware-5.bin
 Version: 10.4-3.9.0.2-00131
-Licence: ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
+File: ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9984/hw1.0/board-2.bin
 File: ath10k/QCA9984/hw1.0/firmware-5.bin
 Version: 10.4-3.9.0.2-00131
-Licence: ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
+File: ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9377/hw1.0/firmware-6.bin
 Version: WLAN.TF.2.1-00021-QCARMSWP-1
-Licence: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-6.txt
+File: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-6.txt
 File: ath10k/WCN3990/hw1.0/firmware-5.bin
 File: ath10k/WCN3990/hw1.0/wlanmdsp.mbn
 Link: qcom/sdm845/wlanmdsp.mbn -> ../../ath10k/WCN3990/hw1.0/wlanmdsp.mbn
 Version: WLAN.HL.2.0-01387-QCAHLSWMTPLZ-1
-Licence: ath10k/WCN3990/hw1.0/notice.txt_wlanmdsp
+File: ath10k/WCN3990/hw1.0/notice.txt_wlanmdsp
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
@@ -3637,7 +3684,7 @@ File: ath11k/IPQ6018/hw1.0/q6_fw.b08
 File: ath11k/IPQ6018/hw1.0/q6_fw.flist
 File: ath11k/IPQ6018/hw1.0/q6_fw.mdt
 Version: WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
-Licence: ath11k/IPQ6018/hw1.0/Notice.txt
+File: ath11k/IPQ6018/hw1.0/Notice.txt
 File: ath11k/IPQ8074/hw2.0/board-2.bin
 File: ath11k/IPQ8074/hw2.0/m3_fw.b00
 File: ath11k/IPQ8074/hw2.0/m3_fw.b01
@@ -3655,12 +3702,22 @@ File: ath11k/IPQ8074/hw2.0/q6_fw.b08
 File: ath11k/IPQ8074/hw2.0/q6_fw.flist
 File: ath11k/IPQ8074/hw2.0/q6_fw.mdt
 Version: WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
-Licence: ath11k/IPQ8074/hw2.0/Notice.txt
+File: ath11k/IPQ8074/hw2.0/Notice.txt
 File: ath11k/QCA6390/hw2.0/board-2.bin
 File: ath11k/QCA6390/hw2.0/amss.bin
 File: ath11k/QCA6390/hw2.0/m3.bin
 Version: WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
-Licence: ath11k/QCA6390/hw2.0/Notice.txt
+File: ath11k/QCA6390/hw2.0/Notice.txt
+File: ath11k/WCN6855/hw2.0/board-2.bin
+File: ath11k/WCN6855/hw2.0/regdb.bin
+File: ath11k/WCN6855/hw2.0/amss.bin
+File: ath11k/WCN6855/hw2.0/m3.bin
+Version: WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3
+File: ath11k/WCN6855/hw2.0/Notice.txt
+Link: ath11k/WCN6855/hw2.1/board-2.bin -> ../hw2.0/board-2.bin
+Link: ath11k/WCN6855/hw2.1/regdb.bin -> ../hw2.0/regdb.bin
+Link: ath11k/WCN6855/hw2.1/amss.bin -> ../hw2.0/amss.bin
+Link: ath11k/WCN6855/hw2.1/m3.bin -> ../hw2.0/m3.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
@@ -5315,7 +5372,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
-Driver: mt7915e - MediaTek Wireless MACs for MT7915/MT7916
+Driver: mt7915e - MediaTek Wireless MACs for MT7915/MT7916/MT7986
 
 File: mediatek/mt7915_wm.bin
 Version: 20211222184052
@@ -5336,6 +5393,25 @@ File: mediatek/mt7916_rom_patch.bin
 Version: 20211230135620a
 File: mediatek/mt7916_eeprom.bin
 Version: 20211130
+
+File: mediatek/mt7986_wm.bin
+Version: 20220113162641
+File: mediatek/mt7986_wm_mt7975.bin
+Version: 20220113162756
+File: mediatek/mt7986_wa.bin
+Version: 20220113163034
+File: mediatek/mt7986_rom_patch.bin
+Version: 20220113162543a
+File: mediatek/mt7986_rom_patch_mt7975.bin
+Version: 20220113162701a
+File: mediatek/mt7986_eeprom_mt7976.bin
+Version: 20211105
+File: mediatek/mt7986_eeprom_mt7976_dbdc.bin
+Version: 20220223
+File: mediatek/mt7986_eeprom_mt7976_dual.bin
+Version: 20211115
+File: mediatek/mt7986_eeprom_mt7975_dual.bin
+Version: 20220208
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
