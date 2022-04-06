@@ -5182,6 +5182,71 @@ Link: nvidia/tu117/nvdec/scrubber.bin -> ../../tu116/nvdec/scrubber.bin
 Link: nvidia/tu117/sec2/desc.bin -> ../../tu116/sec2/desc.bin
 Link: nvidia/tu117/sec2/image.bin -> ../../tu116/sec2/image.bin
 Link: nvidia/tu117/sec2/sig.bin -> ../../tu116/sec2/sig.bin
+File: nvidia/ga102/acr/ucode_ahesasc.bin
+File: nvidia/ga102/acr/ucode_asb.bin
+File: nvidia/ga102/acr/ucode_unload.bin
+File: nvidia/ga102/gr/fecs_bl.bin
+File: nvidia/ga102/gr/fecs_sig.bin
+File: nvidia/ga102/gr/gpccs_bl.bin
+File: nvidia/ga102/gr/gpccs_sig.bin
+File: nvidia/ga102/gr/NET_img.bin
+File: nvidia/ga102/nvdec/scrubber.bin
+File: nvidia/ga102/sec2/desc.bin
+File: nvidia/ga102/sec2/hs_bl_sig.bin
+File: nvidia/ga102/sec2/image.bin
+File: nvidia/ga102/sec2/sig.bin
+Link: nvidia/ga103/acr/ucode_ahesasc.bin -> ../../ga102/acr/ucode_ahesasc.bin
+Link: nvidia/ga103/acr/ucode_asb.bin -> ../../ga102/acr/ucode_asb.bin
+Link: nvidia/ga103/acr/ucode_unload.bin -> ../../ga102/acr/ucode_unload.bin
+File: nvidia/ga103/gr/fecs_bl.bin
+File: nvidia/ga103/gr/fecs_sig.bin
+File: nvidia/ga103/gr/gpccs_bl.bin
+File: nvidia/ga103/gr/gpccs_sig.bin
+File: nvidia/ga103/gr/NET_img.bin
+Link: nvidia/ga103/nvdec/scrubber.bin -> ../../ga102/nvdec/scrubber.bin
+Link: nvidia/ga103/sec2/desc.bin -> ../../ga102/sec2/desc.bin
+Link: nvidia/ga103/sec2/hs_bl_sig.bin -> ../../ga102/sec2/hs_bl_sig.bin
+Link: nvidia/ga103/sec2/image.bin -> ../../ga102/sec2/image.bin
+Link: nvidia/ga103/sec2/sig.bin -> ../../ga102/sec2/sig.bin
+Link: nvidia/ga104/acr/ucode_ahesasc.bin -> ../../ga102/acr/ucode_ahesasc.bin
+Link: nvidia/ga104/acr/ucode_asb.bin -> ../../ga102/acr/ucode_asb.bin
+Link: nvidia/ga104/acr/ucode_unload.bin -> ../../ga102/acr/ucode_unload.bin
+File: nvidia/ga104/gr/fecs_bl.bin
+File: nvidia/ga104/gr/fecs_sig.bin
+File: nvidia/ga104/gr/gpccs_bl.bin
+File: nvidia/ga104/gr/gpccs_sig.bin
+File: nvidia/ga104/gr/NET_img.bin
+Link: nvidia/ga104/nvdec/scrubber.bin -> ../../ga102/nvdec/scrubber.bin
+Link: nvidia/ga104/sec2/desc.bin -> ../../ga102/sec2/desc.bin
+Link: nvidia/ga104/sec2/hs_bl_sig.bin -> ../../ga102/sec2/hs_bl_sig.bin
+Link: nvidia/ga104/sec2/image.bin -> ../../ga102/sec2/image.bin
+Link: nvidia/ga104/sec2/sig.bin -> ../../ga102/sec2/sig.bin
+Link: nvidia/ga106/acr/ucode_ahesasc.bin -> ../../ga102/acr/ucode_ahesasc.bin
+Link: nvidia/ga106/acr/ucode_asb.bin -> ../../ga102/acr/ucode_asb.bin
+Link: nvidia/ga106/acr/ucode_unload.bin -> ../../ga102/acr/ucode_unload.bin
+File: nvidia/ga106/gr/fecs_bl.bin
+File: nvidia/ga106/gr/fecs_sig.bin
+File: nvidia/ga106/gr/gpccs_bl.bin
+File: nvidia/ga106/gr/gpccs_sig.bin
+File: nvidia/ga106/gr/NET_img.bin
+Link: nvidia/ga106/nvdec/scrubber.bin -> ../../ga102/nvdec/scrubber.bin
+Link: nvidia/ga106/sec2/desc.bin -> ../../ga102/sec2/desc.bin
+Link: nvidia/ga106/sec2/hs_bl_sig.bin -> ../../ga102/sec2/hs_bl_sig.bin
+Link: nvidia/ga106/sec2/image.bin -> ../../ga102/sec2/image.bin
+Link: nvidia/ga106/sec2/sig.bin -> ../../ga102/sec2/sig.bin
+Link: nvidia/ga107/acr/ucode_ahesasc.bin -> ../../ga102/acr/ucode_ahesasc.bin
+Link: nvidia/ga107/acr/ucode_asb.bin -> ../../ga102/acr/ucode_asb.bin
+Link: nvidia/ga107/acr/ucode_unload.bin -> ../../ga102/acr/ucode_unload.bin
+File: nvidia/ga107/gr/fecs_bl.bin
+File: nvidia/ga107/gr/fecs_sig.bin
+File: nvidia/ga107/gr/gpccs_bl.bin
+File: nvidia/ga107/gr/gpccs_sig.bin
+File: nvidia/ga107/gr/NET_img.bin
+Link: nvidia/ga107/nvdec/scrubber.bin -> ../../ga102/nvdec/scrubber.bin
+Link: nvidia/ga107/sec2/desc.bin -> ../../ga102/sec2/desc.bin
+Link: nvidia/ga107/sec2/hs_bl_sig.bin -> ../../ga102/sec2/hs_bl_sig.bin
+Link: nvidia/ga107/sec2/image.bin -> ../../ga102/sec2/image.bin
+Link: nvidia/ga107/sec2/sig.bin -> ../../ga102/sec2/sig.bin
 
 File: nvidia/tu10x/typec/ccg_primary.cyacd
 File: nvidia/tu10x/typec/ccg_secondary.cyacd
