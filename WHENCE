@@ -5328,6 +5328,9 @@ OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 Driver: mtk_scp - Mediatek SCP System Control Processing Driver
 
 File: mediatek/mt8183/scp.img
+Version: v12573.77
+File: mediatek/mt8192/scp.img
+Version: v1
 
 Licence: Redistributable.
 
