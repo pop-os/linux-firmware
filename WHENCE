@@ -5333,6 +5333,8 @@ File: mediatek/mt8183/scp.img
 Version: v12573.77
 File: mediatek/mt8192/scp.img
 Version: v1
+File: mediatek/mt8195/scp.img
+Version: v14454.8.0
 
 Licence: Redistributable.
 
