@@ -3720,6 +3720,7 @@ Link: ath11k/WCN6855/hw2.1/board-2.bin -> ../hw2.0/board-2.bin
 Link: ath11k/WCN6855/hw2.1/regdb.bin -> ../hw2.0/regdb.bin
 Link: ath11k/WCN6855/hw2.1/amss.bin -> ../hw2.0/amss.bin
 Link: ath11k/WCN6855/hw2.1/m3.bin -> ../hw2.0/m3.bin
+File: ath11k/QCN9074/hw1.0/board-2.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
