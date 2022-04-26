@@ -5764,6 +5764,8 @@ File: qcom/a300_pfp.fw
 Link: a300_pfp.fw -> qcom/a300_pfp.fw
 File: qcom/a300_pm4.fw
 Link: a300_pm4.fw -> qcom/a300_pm4.fw
+File: qcom/a330_pfp.fw
+File: qcom/a330_pm4.fw
 File: qcom/a530_pfp.fw
 File: qcom/a530_pm4.fw
 File: qcom/a530v3_gpmu.fw2
