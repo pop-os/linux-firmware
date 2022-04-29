@@ -1,3 +1,18 @@
+linux-firmware (20220329.git681281e4-0ubuntu1.1) jammy; urgency=medium
+
+  * Miscellaneous Ubuntu changes
+    - [Packaging] Drop rsync from Build-Depends
+    - [Packaging] Move obsolete scripts
+    - [Packaging] Put symlink checking into its own script
+  * Add missing inside-secure firmware (LP: #1970543)
+    - [Packaging] Include inside-secure firmware
+  * The system hangs when HDMI external monitor involved on AMD Yellow Carp platforms (LP: #1970293)
+    - amdgpu: update yellow carp DMCUB firmware
+  * No Bluetooth Found on QCA9565 (but replacing the ar3k firmware works) (LP: #1969853)
+    - [Packaging] Include ar3k firmware
+
+ -- Juerg Haefliger <juergh@canonical.com>  Fri, 29 Apr 2022 07:30:37 +0200
+
 linux-firmware (20220329.git681281e4-0ubuntu1) jammy; urgency=medium
 
   * Miscellaneous Ubuntu changes
