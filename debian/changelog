@@ -1,4 +1,4 @@
-linux-firmware (20220329.git681281e4-0ubuntu1.1) jammy; urgency=medium
+linux-firmware (20220329.git681281e4-0ubuntu3) jammy; urgency=medium
 
   * Miscellaneous Ubuntu changes
     - [Packaging] Drop rsync from Build-Depends
