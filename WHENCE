@@ -5765,6 +5765,10 @@ File: qcom/a300_pfp.fw
 Link: a300_pfp.fw -> qcom/a300_pfp.fw
 File: qcom/a300_pm4.fw
 Link: a300_pm4.fw -> qcom/a300_pm4.fw
+File: qcom/a330_pfp.fw
+File: qcom/a330_pm4.fw
+File: qcom/a420_pfp.fw
+File: qcom/a420_pm4.fw
 File: qcom/a530_pfp.fw
 File: qcom/a530_pm4.fw
 File: qcom/a530v3_gpmu.fw2
@@ -5780,6 +5784,8 @@ File: qcom/a650_sqe.fw
 File: qcom/sm8250/a650_zap.mbn
 File: qcom/a660_gmu.bin
 File: qcom/a660_sqe.fw
+File: qcom/leia_pfp_470.fw
+File: qcom/leia_pm4_470.fw
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
