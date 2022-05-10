@@ -110,8 +110,6 @@ def main():
         ret = 1
 
     for name in sorted(list(known_files - git_files)):
-        if name.startswith('ea/'):
-            continue
         sys.stderr.write("E: %s listed in WHENCE does not exist\n" % name)
         ret = 1
 
