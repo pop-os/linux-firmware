@@ -1,3 +1,14 @@
+linux-firmware (20220329.git681281e4-0ubuntu3.2) jammy; urgency=medium
+
+  * [SRU][F/J] Update firmware of MT7922 (LP: #1970923)
+    - linux-firmware: update firmware for MT7922 WiFi device
+    - linux-firmware: update firmware for mediatek bluetooth chip (MT7922)
+  * Add firmware for i915/DG2 (LP: #1971539)
+    - i915: Add GuC v70.1.2 for DG2
+    - i915: Add DMC v2.06 for DG2
+
+ -- Juerg Haefliger <juergh@canonical.com>  Fri, 13 May 2022 13:44:55 +0200
+
 linux-firmware (20220329.git681281e4-0ubuntu3) jammy; urgency=medium
 
   * Miscellaneous Ubuntu changes
