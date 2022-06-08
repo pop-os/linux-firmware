@@ -5230,7 +5230,7 @@ File: atmel/wilc1000_ap_fw.bin
 File: atmel/wilc1000_p2p_fw.bin
 File: atmel/wilc1000_wifi_firmware.bin
 File: atmel/wilc1000_wifi_firmware-1.bin
-Version: 15.4
+Version: 15.6
 
 License: Redistributable. See LICENSE.atmel for details
 
