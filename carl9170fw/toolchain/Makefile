@@ -46,14 +46,14 @@ src/gcc-$(GCC_VER): src/$(GCC_TAR) src/newlib-$(NEWLIB_VER)
 	ln -s $(BASEDIR)/src/newlib-$(NEWLIB_VER)/libgloss $@
 
 binutils: src/binutils-$(BINUTILS_VER)
-	mkdir -p build/binutils
+	install -d build/binutils
 	cd build/binutils; \
 	$(BASEDIR)/$</configure --target=sh-elf --prefix=$(BASEDIR)/inst; \
 	$(MAKE) -j3; \
 	$(MAKE) install
 
 gcc: src/gcc-$(GCC_VER) binutils
-	mkdir -p build/gcc
+	install -d build/gcc
 	cd build/gcc; \
 	$(BASEDIR)/$</configure --target=sh-elf --prefix=$(BASEDIR)/inst -enable-languages=c --without-pkgversion --with-newlib; \
 	$(MAKE) -j3; \

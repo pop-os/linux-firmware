@@ -998,10 +998,10 @@ index 000000000000..9296d82e8305
 +DAMAGE.
 diff --git a/WHENCE.ubuntu b/WHENCE.ubuntu
 new file mode 100644
-index 000000000000..c8245b6c0c01
+index 000000000000..a34155f063a1
 --- /dev/null
 +++ b/WHENCE.ubuntu
-@@ -0,0 +1,220 @@
+@@ -0,0 +1,221 @@
 +             **********
 +             * WHENCE *
 +             **********
@@ -1084,6 +1084,8 @@ index 000000000000..c8245b6c0c01
 +
 +License: Redistributable. See LICENCE.atmel for details
 +
++--------------------------------------------------------------------------
++
 +Driver: Echo Audio sound cards: snd-{echo3g,darla20,darla24,gina20,gina24,
 +                                     indigo,indigodj,indigodjx,indigoio,
 +                                     indigoiox,layla20,layla24,mia,mona}
@@ -1149,7 +1151,6 @@ index 000000000000..c8245b6c0c01
 +Info: License provided by Realtek in their driver source download.
 +
 +Licence: Redistributable. See LICENCE.realtek-firmware.txt for details.
-+
 +
 +--------------------------------------------------------------------------
 +
@@ -1271,7 +1272,7 @@ index 2d31f3839106..f3bcb2b791ae 100755
      return ret
  
 diff --git a/copy-firmware.sh b/copy-firmware.sh
-index 9b46b63913ab..f58ffad6ce51 100755
+index bbacb925a03f..b70b38ab9414 100755
 --- a/copy-firmware.sh
 +++ b/copy-firmware.sh
 @@ -31,14 +31,14 @@ while test $# -gt 0; do
@@ -1282,7 +1283,7 @@ index 9b46b63913ab..f58ffad6ce51 100755
 +grep -h '^File:' WHENCE WHENCE.ubuntu | sed -e's/^File: *//g' -e's/"//g' | while read f; do
      test -f "$f" || continue
      $verbose "copying file $f"
-     mkdir -p $destdir/$(dirname "$f")
+     install -d $destdir/$(dirname "$f")
      cp -d "$f" $destdir/"$f"
  done
  

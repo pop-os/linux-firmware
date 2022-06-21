@@ -862,91 +862,14 @@ Version: 18.168.6.1
 File: iwlwifi-2000-6.ucode
 Version: 18.168.6.1
 
-File: iwlwifi-7260-7.ucode
-Version: 22.1.7.0
-
-File: iwlwifi-7260-8.ucode
-Version: 22.24.8.0
-
-File: iwlwifi-7260-9.ucode
-Version: 25.228.9.0
-
-File: iwlwifi-7260-10.ucode
-Version: 23.15.10.0
-
-File: iwlwifi-7260-12.ucode
-Version: 25.17.12.0
-
-File: iwlwifi-7260-13.ucode
-Version: 25.30.13.0
-
-File: iwlwifi-7260-16.ucode
-Version: 16.242414.0
-
 File: iwlwifi-7260-17.ucode
 Version: 17.bfb58538.0
-
-File: iwlwifi-3160-7.ucode
-Version: 22.1.7.0
-
-File: iwlwifi-3160-8.ucode
-Version: 22.24.8.0
-
-File: iwlwifi-3160-9.ucode
-Version: 25.228.9.0
-
-File: iwlwifi-3160-10.ucode
-Version: 23.15.10.0
-
-File: iwlwifi-3160-12.ucode
-Version: 25.17.12.0
-
-File: iwlwifi-3160-13.ucode
-Version: 25.30.13.0
-
-File: iwlwifi-3160-16.ucode
-Version: 16.242414.0
 
 File: iwlwifi-3160-17.ucode
 Version: 17.bfb58538.0
 
-File: iwlwifi-7265-8.ucode
-Version: 22.24.8.0
-
-File: iwlwifi-7265-9.ucode
-Version: 25.228.9.0
-
-File: iwlwifi-7265-10.ucode
-Version: 23.15.10.0
-
-File: iwlwifi-7265-12.ucode
-Version: 25.17.12.0
-
-File: iwlwifi-7265-13.ucode
-Version: 25.30.13.0
-
-File: iwlwifi-7265-16.ucode
-Version: 16.242414.0
-
 File: iwlwifi-7265-17.ucode
 Version: 17.bfb58538.0
-
-Link: iwlwifi-7265D-10.ucode -> iwlwifi-7265-10.ucode
-
-File: iwlwifi-7265D-12.ucode
-Version: 25.17.12.0
-
-File: iwlwifi-7265D-13.ucode
-Version: 25.30.13.0
-
-File: iwlwifi-7265D-16.ucode
-Version: 16.242414.0
-
-File: iwlwifi-7265D-17.ucode
-Version: 17.352738.0
-
-File: iwlwifi-7265D-21.ucode
-Version: 21.302800.0
 
 File: iwlwifi-7265D-22.ucode
 Version: 22.391740.0
@@ -957,9 +880,6 @@ Version: 27.541033.0
 File: iwlwifi-7265D-29.ucode
 Version: 29.f2390aa8.0
 
-File: iwlwifi-3168-21.ucode
-Version: 21.302800.0
-
 File: iwlwifi-3168-22.ucode
 Version: 22.391740.0
 
@@ -968,15 +888,6 @@ Version: 27.541033.0
 
 File: iwlwifi-3168-29.ucode
 Version: 29.0bd893f3.0
-
-File: iwlwifi-8000C-13.ucode
-Version: 25.30.13.0
-
-File: iwlwifi-8000C-16.ucode
-Version: 16.242414.0
-
-File: iwlwifi-8000C-21.ucode
-Version: 21.302800.0
 
 File: iwlwifi-8000C-22.ucode
 Version: 22.391740.0
@@ -992,9 +903,6 @@ Version: 34.610288.0
 
 File: iwlwifi-8000C-36.ucode
 Version: 36.ca7b901d.0
-
-File: iwlwifi-8265-21.ucode
-Version: 21.302800.0
 
 File: iwlwifi-8265-22.ucode
 Version: 22.391740.0
@@ -1027,7 +935,7 @@ File: iwlwifi-9000-pu-b0-jf-b0-43.ucode
 Version: 43.95eb4e97.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-46.ucode
-Version: 46.fae53a8b.0
+Version: 46.9d0122c0.0
 
 File: iwlwifi-9260-th-b0-jf-b0-33.ucode
 Version: 33.610294.0
@@ -1045,7 +953,7 @@ File: iwlwifi-9260-th-b0-jf-b0-43.ucode
 Version: 43.95eb4e97.0
 
 File: iwlwifi-9260-th-b0-jf-b0-46.ucode
-Version: 46.fae53a8b.0
+Version: 46.9d0122c0.0
 
 File: iwlwifi-cc-a0-46.ucode
 Version: 46.3cfab8da.0
@@ -1329,6 +1237,42 @@ Version: 71.058653f6.0
 
 File: iwlwifi-so-a0-jf-b0-71.ucode
 Version: 71.058653f6.0
+
+File: iwlwifi-cc-a0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-Qu-b0-hr-b0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-Qu-b0-jf-b0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-Qu-c0-hr-b0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-Qu-c0-jf-b0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-QuZ-a0-hr-b0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-QuZ-a0-jf-b0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-ty-a0-gf-a0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-so-a0-gf4-a0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-so-a0-gf-a0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-so-a0-hr-b0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-so-a0-jf-b0-73.ucode
+Version: 73.35c0a2c6.0
 
 File: iwlwifi-so-a0-gf-a0.pnvm
 
@@ -3000,11 +2944,15 @@ Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-zero.txt -> brcmfmac43430-sdio.AP6
 Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-ultra.txt -> brcmfmac43430-sdio.AP6212.txt
 Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m3.txt -> brcmfmac43430-sdio.AP6212.txt
 Link: brcm/brcmfmac43430-sdio.friendlyarm,nanopi-r1.txt -> brcmfmac43430-sdio.AP6212.txt
+Link: brcm/brcmfmac43430-sdio.starfive,visionfive-v1.txt -> brcmfmac43430-sdio.AP6212.txt
+Link: brcm/brcmfmac43430-sdio.beagle,beaglev-starlight-jh7100-a1.txt -> brcmfmac43430-sdio.AP6212.txt
+Link: brcm/brcmfmac43430-sdio.beagle,beaglev-starlight-jh7100-r0.txt -> brcmfmac43430-sdio.AP6212.txt
 File: "brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt"
 File: "brcm/brcmfmac43430-sdio.MUR1DX.txt"
 File: "brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt"
 Link: brcm/brcmfmac43430-sdio.raspberrypi,model-zero-w.txt -> brcmfmac43430-sdio.raspberrypi,3-model-b.txt
 File: "brcm/brcmfmac43455-sdio.acepc-t8.txt"
+File: "brcm/brcmfmac43455-sdio.pine64,quartz64-b.txt"
 File: "brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt"
 Link: brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt -> brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt
 File: "brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.txt"
@@ -3357,6 +3305,7 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 Driver: rtw89 - Realtek 802.11ax WLAN driver for RTL8852A
 
 File: rtw89/rtw8852a_fw.bin
+File: rtw89/rtw8852c_fw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3621,7 +3570,7 @@ File: ath10k/QCA6174/hw3.0/firmware-4.bin
 Version: WLAN.RM.2.0-00180-QCARMSWPZ-1
 File: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA6174/hw3.0/firmware-6.bin
-Version: WLAN.RM.4.4.1-00157-QCARMSWPZ-1
+Version: WLAN.RM.4.4.1-00288-QCARMSWPZ-1
 File: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
 File: ath10k/QCA6174/hw3.0/firmware-sdio-6.bin
 Version: WLAN.RMH.4.4.1-00077
@@ -3634,7 +3583,7 @@ File: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9377/hw1.0/firmware-sdio-5.bin
 Version: WLAN.TF.1.1.1-00061-QCATFSWPZ-1
 File: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-sdio-5.txt
-File: ath10k/QCA99X0/hw2.0/board.bin
+File: ath10k/QCA99X0/hw2.0/board-2.bin
 File: ath10k/QCA99X0/hw2.0/firmware-5.bin
 Version: 10.4.1.00030-1
 File: ath10k/QCA99X0/hw2.0/notice_ath10k_firmware-5.txt
@@ -3648,15 +3597,16 @@ Version: 10.2.4-1.0-00047
 File: ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9888/hw2.0/board-2.bin
 File: ath10k/QCA9888/hw2.0/firmware-5.bin
-Version: 10.4-3.9.0.2-00131
+Version: 10.4-3.9.0.2-00157
 File: ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9984/hw1.0/board-2.bin
 File: ath10k/QCA9984/hw1.0/firmware-5.bin
-Version: 10.4-3.9.0.2-00131
+Version: 10.4-3.9.0.2-00157
 File: ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9377/hw1.0/firmware-6.bin
 Version: WLAN.TF.2.1-00021-QCARMSWP-1
 File: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-6.txt
+File: ath10k/WCN3990/hw1.0/board-2.bin
 File: ath10k/WCN3990/hw1.0/firmware-5.bin
 File: ath10k/WCN3990/hw1.0/wlanmdsp.mbn
 Link: qcom/sdm845/wlanmdsp.mbn -> ../../ath10k/WCN3990/hw1.0/wlanmdsp.mbn
@@ -3685,7 +3635,7 @@ File: ath11k/IPQ6018/hw1.0/q6_fw.b07
 File: ath11k/IPQ6018/hw1.0/q6_fw.b08
 File: ath11k/IPQ6018/hw1.0/q6_fw.flist
 File: ath11k/IPQ6018/hw1.0/q6_fw.mdt
-Version: WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+Version: WLAN.HK.2.5.0.1-01208-QCAHKSWPL_SILICONZ-1
 File: ath11k/IPQ6018/hw1.0/Notice.txt
 File: ath11k/IPQ8074/hw2.0/board-2.bin
 File: ath11k/IPQ8074/hw2.0/m3_fw.b00
@@ -3703,23 +3653,41 @@ File: ath11k/IPQ8074/hw2.0/q6_fw.b07
 File: ath11k/IPQ8074/hw2.0/q6_fw.b08
 File: ath11k/IPQ8074/hw2.0/q6_fw.flist
 File: ath11k/IPQ8074/hw2.0/q6_fw.mdt
-Version: WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+Version: WLAN.HK.2.5.0.1-01208-QCAHKSWPL_SILICONZ-1
 File: ath11k/IPQ8074/hw2.0/Notice.txt
 File: ath11k/QCA6390/hw2.0/board-2.bin
 File: ath11k/QCA6390/hw2.0/amss.bin
 File: ath11k/QCA6390/hw2.0/m3.bin
-Version: WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
+Version: WLAN.HST.1.0.1-05266-QCAHSTSWPLZ_V2_TO_X86-1
 File: ath11k/QCA6390/hw2.0/Notice.txt
-File: ath11k/WCN6855/hw2.0/board-2.bin
 File: ath11k/WCN6855/hw2.0/regdb.bin
+File: ath11k/WCN6855/hw2.0/board-2.bin
 File: ath11k/WCN6855/hw2.0/amss.bin
 File: ath11k/WCN6855/hw2.0/m3.bin
-Version: WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3
+Version: WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.9
 File: ath11k/WCN6855/hw2.0/Notice.txt
-Link: ath11k/WCN6855/hw2.1/board-2.bin -> ../hw2.0/board-2.bin
 Link: ath11k/WCN6855/hw2.1/regdb.bin -> ../hw2.0/regdb.bin
+Link: ath11k/WCN6855/hw2.1/board-2.bin -> ../hw2.0/board-2.bin
 Link: ath11k/WCN6855/hw2.1/amss.bin -> ../hw2.0/amss.bin
 Link: ath11k/WCN6855/hw2.1/m3.bin -> ../hw2.0/m3.bin
+File: ath11k/QCN9074/hw1.0/board-2.bin
+File: ath11k/QCN9074/hw1.0/amss.bin
+File: ath11k/QCN9074/hw1.0/m3.bin
+Version: WLAN.HK.2.5.0.1-01208-QCAHKSWPL_SILICONZ-1
+File: ath11k/QCN9074/hw1.0/Notice.txt
+File: ath11k/WCN6750/hw1.0/board-2.bin
+File: ath11k/WCN6750/hw1.0/wpss.b00
+File: ath11k/WCN6750/hw1.0/wpss.b01
+File: ath11k/WCN6750/hw1.0/wpss.b02
+File: ath11k/WCN6750/hw1.0/wpss.b03
+File: ath11k/WCN6750/hw1.0/wpss.b04
+File: ath11k/WCN6750/hw1.0/wpss.b05
+File: ath11k/WCN6750/hw1.0/wpss.b06
+File: ath11k/WCN6750/hw1.0/wpss.b07
+File: ath11k/WCN6750/hw1.0/wpss.b08
+File: ath11k/WCN6750/hw1.0/wpss.mdt
+Version: WLAN.MSL.1.0.1-00887-QCAMSLSWPLZ-1
+File: ath11k/WCN6750/hw1.0/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
@@ -3919,92 +3887,92 @@ Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL41522
+Version: BT_CyclonePeak_A0_REL43126
 File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL41522
+Version: BT_CyclonePeak_A0_REL43126
 File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL41522
+Version: BT_CyclonePeak_A0_REL43126
 File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL41522
+Version: BT_CyclonePeak_A0_REL43126
 File:intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL41522
+Version: BT_CyclonePeak_A0_REL43126
 File:intel/ibt-20-1-4.ddc
-Version: BT_CyclonePeak_A0_REL41522
+Version: BT_CyclonePeak_A0_REL43126
 File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL41522
+Version: BT_Quasar_REL43126
 File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL41522
+Version: BT_Quasar_REL43126
 File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL41522
+Version: BT_Quasar_REL43126
 File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL41522
+Version: BT_Quasar_REL43126
 File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL41522
+Version: BT_HarrisonPeak_REL43126
 File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL41522
+Version: BT_HarrisonPeak_REL43126
 File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL41522
+Version: BT_HarrisonPeak_REL43126
 File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL41522
+Version: BT_HarrisonPeak_REL43126
 File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL41522
+Version: BT_HarrisonPeak_REL43126
 File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL41522
+Version: BT_HarrisonPeak_REL43126
 File:intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL41522
+Version: BT_HarrisonPeak_REL43126
 File:intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL41522
+Version: BT_HarrisonPeak_REL43126
 File:intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL41522
+Version: BT_HarrisonPeak_REL43126
 File:intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL41522
+Version: BT_HarrisonPeak_REL43126
 File:intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL41522
+Version: BT_HarrisonPeak_REL43126
 File:intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL41522
+Version: BT_HarrisonPeak_REL43126
 File:intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL41522
+Version: BT_HarrisonPeak_REL43126
 File:intel/ibt-19-240-4.ddc
-Version: BT_HarrisonPeak_REL41522
+Version: BT_HarrisonPeak_REL43126
 File:intel/ibt-0041-0041.sfi
-Version: BT_TyphoonPeak_REL41819
+Version: BT_TyphoonPeak_REL43435
 File:intel/ibt-0041-0041.ddc
-Version: BT_TyphoonPeak_REL41819
+Version: BT_TyphoonPeak_REL43435
 File:intel/ibt-0040-0041.sfi
-Version: BT_Solar_GfP2_REL41819
+Version: BT_Solar_GfP2_REL43435
 File:intel/ibt-0040-0041.ddc
-Version: BT_Solar_GfP2_REL41819
+Version: BT_Solar_GfP2_REL43435
 File:intel/ibt-1040-0041.sfi
-Version: BT_SolarF_GfP2_REL41819
+Version: BT_SolarF_GfP2_REL43435
 File:intel/ibt-1040-0041.ddc
-Version: BT_SolarF_GfP2_REL41819
+Version: BT_SolarF_GfP2_REL43435
 
 File:intel/ibt-0040-1020.sfi
-Version: BT_Solar_JfP1_REL41819
+Version: BT_Solar_JfP1_REL43435
 File:intel/ibt-0040-1020.ddc
-Version: BT_Solar_JfP1_REL41819
+Version: BT_Solar_JfP1_REL43435
 File:intel/ibt-1040-1020.sfi
-Version: BT_SolarF_JfP1_REL41819
+Version: BT_SolarF_JfP1_REL43435
 File:intel/ibt-1040-1020.ddc
-Version: BT_SolarF_JfP1_REL41819
+Version: BT_SolarF_JfP1_REL43435
 
 File:intel/ibt-0040-2120.sfi
-Version: BT_Solar_JfP2_REL41819
+Version: BT_Solar_JfP2_REL43435
 File:intel/ibt-0040-2120.ddc
-Version: BT_Solar_JfP2_REL41819
+Version: BT_Solar_JfP2_REL43435
 File:intel/ibt-1040-2120.sfi
-Version: BT_SolarF_JfP2_REL41819
+Version: BT_SolarF_JfP2_REL43435
 File:intel/ibt-1040-2120.ddc
-Version: BT_SolarF_JfP2_REL41819
+Version: BT_SolarF_JfP2_REL43435
 
 File:intel/ibt-0040-4150.sfi
-Version: BT_Solar_HrP2_REL41819
+Version: BT_Solar_HrP2_REL43435
 File:intel/ibt-0040-4150.ddc
-Version: BT_Solar_HrP2_REL41819
+Version: BT_Solar_HrP2_REL43435
 File:intel/ibt-1040-4150.sfi
-Version: BT_SolarF_HrP2_REL41819
+Version: BT_SolarF_HrP2_REL43435
 File:intel/ibt-1040-4150.ddc
-Version: BT_SolarF_HrP2_REL41819
+Version: BT_SolarF_HrP2_REL43435
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -4867,6 +4835,12 @@ Version: GuC API/APB ver 69.0.3 for Alderlake P
 File: i915/adlp_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for Alderlake P
 
+File: i915/dg2_guc_70.1.2.bin
+Version: GuC API/APB ver 70.1.2 for DG2
+
+File: i915/dg2_dmc_ver2_06.bin
+Version: DMC API/APB ver 2 release 6 for DG2
+
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
 
@@ -5295,7 +5269,7 @@ File: atmel/wilc1000_ap_fw.bin
 File: atmel/wilc1000_p2p_fw.bin
 File: atmel/wilc1000_wifi_firmware.bin
 File: atmel/wilc1000_wifi_firmware-1.bin
-Version: 15.4
+Version: 15.6
 
 License: Redistributable. See LICENSE.atmel for details
 
@@ -5360,9 +5334,9 @@ OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 Driver: mtk_scp - Mediatek SCP System Control Processing Driver
 
 File: mediatek/mt8183/scp.img
-Version: v12573.77
+Version: v2.0.2745
 File: mediatek/mt8192/scp.img
-Version: v1
+Version: v2.0.8537
 File: mediatek/mt8195/scp.img
 Version: v14454.8.0
 
@@ -5764,6 +5738,10 @@ File: qcom/a300_pfp.fw
 Link: a300_pfp.fw -> qcom/a300_pfp.fw
 File: qcom/a300_pm4.fw
 Link: a300_pm4.fw -> qcom/a300_pm4.fw
+File: qcom/a330_pfp.fw
+File: qcom/a330_pm4.fw
+File: qcom/a420_pfp.fw
+File: qcom/a420_pm4.fw
 File: qcom/a530_pfp.fw
 File: qcom/a530_pm4.fw
 File: qcom/a530v3_gpmu.fw2
@@ -5779,6 +5757,8 @@ File: qcom/a650_sqe.fw
 File: qcom/sm8250/a650_zap.mbn
 File: qcom/a660_gmu.bin
 File: qcom/a660_sqe.fw
+File: qcom/leia_pfp_470.fw
+File: qcom/leia_pm4_470.fw
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -5992,8 +5972,8 @@ Licence: Redistributable. See LICENSE.amlogic_vdec for details.
 
 Driver: ice - Intel(R) Ethernet Connection E800 Series
 
-File: intel/ice/ddp/ice-1.3.26.0.pkg
-Link: intel/ice/ddp/ice.pkg -> ice-1.3.26.0.pkg
+File: intel/ice/ddp/ice-1.3.28.0.pkg
+Link: intel/ice/ddp/ice.pkg -> ice-1.3.28.0.pkg
 
 License: Redistributable. See LICENSE.ice for details
 
