@@ -5339,6 +5339,8 @@ Driver: mtk_scp - Mediatek SCP System Control Processing Driver
 
 File: mediatek/mt8183/scp.img
 Version: v2.0.2745
+File: mediatek/mt8186/scp.img
+Version: v0.0.6
 File: mediatek/mt8192/scp.img
 Version: v2.0.8537
 File: mediatek/mt8195/scp.img
