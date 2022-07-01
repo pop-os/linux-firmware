@@ -5432,7 +5432,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7622 - MediaTek MT7622 Wireless MACs
 
 File: mediatek/mt7622_n9.bin
-Version: 20200131
+Version: 20200630
 File: mediatek/mt7622_rom_patch.bin
 Version: 20190114
 
