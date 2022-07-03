@@ -634,18 +634,6 @@ Found in hex form in kernel source, with the following notice:
 
 --------------------------------------------------------------------------
 
-Driver: i2400m-usb - Intel 2400 Wireless WiMAX Connection over USB
-
-File: i2400m-fw-usb-1.4.sbcf
-File: i2400m-fw-usb-1.5.sbcf
-File: i6050-fw-usb-1.5.sbcf
-
-Licence: Redistributable. See LICENCE.i2400m for details
-
-Also available from http://linuxwimax.org/Download
-
---------------------------------------------------------------------------
-
 Driver: libertas - Marvell Libertas fullmac-type 802.11b/g cards
 
 File: libertas/cf8381.bin
