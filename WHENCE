@@ -5919,3 +5919,20 @@ File: amphion/vpu/vpu_fw_imx8_enc.bin
 Version: 1.3.1
 
 Licence: Redistributable. See LICENSE.amphion_vpu for details
+
+---------------------------------------------------------------------------
+
+Driver: cs35l41_hda - CS35l41 ALSA HDA audio driver
+
+File: cirrus/cs35l41-dsp1-spk-prot.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot.bin
+
+License: Redistributable. See LICENSE.cirrus for details.
+
+Use of Cirrus Logic drivers, firmware and other materials is permitted
+only in connection with Cirrus Logic hardware products.
+
+Copyright © 2022 Cirrus Logic, Inc. and Cirrus Logic International
+Semiconductor Ltd. All Rights Reserved.
+
+---------------------------------------------------------------------------
