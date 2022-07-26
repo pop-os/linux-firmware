@@ -6077,6 +6077,42 @@ File: cirrus/cs35l41-dsp1-spk-cali-103c8981-r0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-103c8981-r1.bin
 File: cirrus/cs35l41-dsp1-spk-cali-103c8981-l0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-103c8981-l1.bin
+File: cirrus/cs35l41/v6.39.0/halo_cspl_RAM_revB2_29.41.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa3847.wmfw -> cs35l41/v6.39.0/halo_cspl_RAM_revB2_29.41.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa3847.wmfw -> cs35l41/v6.39.0/halo_cspl_RAM_revB2_29.41.0.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-17aa3847-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa3847-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa3847-spkid0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa3847-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa3847-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa3847-spkid1.bin
+File: cirrus/cs35l41/v6.47.0/halo_cspl_RAM_revB2_29.49.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa3855.wmfw -> cs35l41/v6.47.0/halo_cspl_RAM_revB2_29.49.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa3855.wmfw -> cs35l41/v6.47.0/halo_cspl_RAM_revB2_29.49.0.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-17aa3855-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa3855-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa3855-spkid0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa3855-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa3855-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa3855-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa22f1.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa22f1.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa22f2.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa22f2.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa22f3.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa22f3.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-17aa22f1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa22f1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa22f1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa22f1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa22f2-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa22f2-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa22f2-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa22f2-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa22f3-l0.bin -> cs35l41-dsp1-spk-prot-17aa22f2-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa22f3-r0.bin -> cs35l41-dsp1-spk-prot-17aa22f2-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa22f3-l0.bin -> cs35l41-dsp1-spk-cali-17aa22f2-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa22f3-r0.bin -> cs35l41-dsp1-spk-cali-17aa22f2-r0.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
 
