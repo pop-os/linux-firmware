@@ -6113,6 +6113,37 @@ Link: cirrus/cs35l41-dsp1-spk-prot-17aa22f3-l0.bin -> cs35l41-dsp1-spk-prot-17aa
 Link: cirrus/cs35l41-dsp1-spk-prot-17aa22f3-r0.bin -> cs35l41-dsp1-spk-prot-17aa22f2-r0.bin
 Link: cirrus/cs35l41-dsp1-spk-cali-17aa22f3-l0.bin -> cs35l41-dsp1-spk-cali-17aa22f2-l0.bin
 Link: cirrus/cs35l41-dsp1-spk-cali-17aa22f3-r0.bin -> cs35l41-dsp1-spk-cali-17aa22f2-r0.bin
+File: cirrus/cs35l41/v6.63.0/halo_cspl_RAM_revB2_29.65.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-104312af.wmfw -> cs35l41/v6.63.0/halo_cspl_RAM_revB2_29.65.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-104312af.wmfw -> cs35l41/v6.63.0/halo_cspl_RAM_revB2_29.65.0.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-104312af-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-104312af-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-104312af-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-104312af-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-104312af-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-104312af-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-104312af-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-104312af-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431a8f.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431a8f.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-10431a8f-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431a8f-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431a8f-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431a8f-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431a8f-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431a8f-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431a8f-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431a8f-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431e02.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431e02.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-10431e02-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e02-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431e02-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431e02-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e02-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e02-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431e02-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431e02-spkid1-r0.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
 
