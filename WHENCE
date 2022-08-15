@@ -5950,3 +5950,24 @@ Copyright © 2022 Cirrus Logic, Inc. and Cirrus Logic International
 Semiconductor Ltd. All Rights Reserved.
 
 ---------------------------------------------------------------------------
+
+Driver: mtk-sof - Mediatek Sound Open Firmware driver
+
+File: mediatek/sof/sof-mt8186.ri
+File: mediatek/sof/sof-mt8186-mt6366-da7219-max98357.tplg
+File: mediatek/sof/sof-mt8186-mt6366-rt1019-rt5682s.tplg
+Version: v0.2.0
+
+Licence: Redistributable.
+
+MediaTek Inc. grants permission to use and redistribute aforementioned firmware
+files for the use with devices containing MediaTek chipsets, but not as part of
+the Linux kernel or in any other form which would require these files themselves
+to be covered by the terms of the GNU General Public License or the GNU Lesser
+General Public License.
+
+These firmware files are distributed in the hope that they will be useful, but
+are provided WITHOUT ANY WARRANTY, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTY
+OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+--------------------------------------------------------------------------
