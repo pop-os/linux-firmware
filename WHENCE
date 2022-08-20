@@ -2785,7 +2785,9 @@ Link: brcm/brcmfmac54591-pcie.clm_blob -> ../cypress/cyfmac54591-pcie.clm_blob
 
 Licence: Redistributable. See LICENCE.cypress for details.
 
+File: "brcm/brcmfmac43241b4-sdio.Intel Corp.-VALLEYVIEW C0 PLATFORM.txt"
 File: "brcm/brcmfmac4330-sdio.Prowise-PT301.txt"
+File: "brcm/brcmfmac43340-sdio.ASUSTeK COMPUTER INC.-TF103CE.txt"
 File: "brcm/brcmfmac43340-sdio.meegopad-t08.txt"
 File: "brcm/brcmfmac43340-sdio.pov-tab-p1006w-data.txt"
 File: "brcm/brcmfmac43340-sdio.predia-basic.txt"
@@ -2815,15 +2817,16 @@ Link: brcm/brcmfmac43455-sdio.Raspberry\ Pi\ Foundation-Raspberry\ Pi\ 4\ Model\
 Link: brcm/brcmfmac43455-sdio.Raspberry\ Pi\ Foundation-Raspberry\ Pi\ Compute\ Module\ 4.txt -> brcmfmac43455-sdio.raspberrypi,4-model-b.txt
 File: "brcm/brcmfmac43455-sdio.MINIX-NEO Z83-4.txt"
 File: "brcm/brcmfmac4356-pcie.gpd-win-pocket.txt"
+File: "brcm/brcmfmac4356-pcie.Xiaomi Inc-Mipad2.txt"
 File: brcm/brcmfmac4356-sdio.AP6356S.txt
 Link: brcm/brcmfmac4356-sdio.firefly,firefly-rk3399.txt -> brcmfmac4356-sdio.AP6356S.txt
 Link: brcm/brcmfmac4356-sdio.khadas,vim2.txt -> brcmfmac4356-sdio.AP6356S.txt
 Link: brcm/brcmfmac4356-sdio.vamrs,rock960.txt -> brcmfmac4356-sdio.AP6356S.txt
 File: brcm/brcmfmac43455-sdio.AW-CM256SM.txt
-Link: brcmfmac43455-sdio.beagle,am5729-beagleboneai.txt -> brcm/brcmfmac43455-sdio.AW-CM256SM.txt
-Link: brcmfmac43455-sdio.pine64,pinebook-pro.txt -> brcm/brcmfmac43455-sdio.AW-CM256SM.txt
-Link: brcmfmac43455-sdio.pine64,pinephone-pro.txt -> brcm/brcmfmac43455-sdio.AW-CM256SM.txt
-Link: brcmfmac43455-sdio.pine64,quartz64-b.txt -> brcm/brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.beagle,am5729-beagleboneai.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.pine64,pinebook-pro.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.pine64,pinephone-pro.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.pine64,quartz64-b.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
 
 Licence: GPLv2. See GPL-2 for details.
 
@@ -3737,92 +3740,92 @@ Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL44565
+Version: BT_CyclonePeak_A0_REL47124
 File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL44565
+Version: BT_CyclonePeak_A0_REL47124
 File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL44565
+Version: BT_CyclonePeak_A0_REL47124
 File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL44565
+Version: BT_CyclonePeak_A0_REL47124
 File:intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL44565
+Version: BT_CyclonePeak_A0_REL47124
 File:intel/ibt-20-1-4.ddc
-Version: BT_CyclonePeak_A0_REL44565
+Version: BT_CyclonePeak_A0_REL47124
 File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL44565
+Version: BT_Quasar_REL47124
 File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL44565
+Version: BT_Quasar_REL47124
 File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL44565
+Version: BT_Quasar_REL47124
 File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL44565
+Version: BT_Quasar_REL47124
 File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL44565
+Version: BT_HarrisonPeak_REL47124
 File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL44565
+Version: BT_HarrisonPeak_REL47124
 File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL44565
+Version: BT_HarrisonPeak_REL47124
 File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL44565
+Version: BT_HarrisonPeak_REL47124
 File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL44565
+Version: BT_HarrisonPeak_REL47124
 File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL44565
+Version: BT_HarrisonPeak_REL47124
 File:intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL44565
+Version: BT_HarrisonPeak_REL47124
 File:intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL44565
+Version: BT_HarrisonPeak_REL47124
 File:intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL44565
+Version: BT_HarrisonPeak_REL47124
 File:intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL44565
+Version: BT_HarrisonPeak_REL47124
 File:intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL44565
+Version: BT_HarrisonPeak_REL47124
 File:intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL44565
+Version: BT_HarrisonPeak_REL47124
 File:intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL44565
+Version: BT_HarrisonPeak_REL47124
 File:intel/ibt-19-240-4.ddc
-Version: BT_HarrisonPeak_REL44565
+Version: BT_HarrisonPeak_REL47124
 File:intel/ibt-0041-0041.sfi
-Version: BT_TyphoonPeak_REL44918
+Version: BT_TyphoonPeak_REL47489
 File:intel/ibt-0041-0041.ddc
-Version: BT_TyphoonPeak_REL44918
+Version: BT_TyphoonPeak_REL47489
 File:intel/ibt-0040-0041.sfi
-Version: BT_Solar_GfP2_REL44918
+Version: BT_Solar_GfP2_REL47489
 File:intel/ibt-0040-0041.ddc
-Version: BT_Solar_GfP2_REL44918
+Version: BT_Solar_GfP2_REL47489
 File:intel/ibt-1040-0041.sfi
-Version: BT_SolarF_GfP2_REL44918
+Version: BT_SolarF_GfP2_REL47489
 File:intel/ibt-1040-0041.ddc
-Version: BT_SolarF_GfP2_REL44918
+Version: BT_SolarF_GfP2_REL47489
 
 File:intel/ibt-0040-1020.sfi
-Version: BT_Solar_JfP1_REL44918
+Version: BT_Solar_JfP1_REL47489
 File:intel/ibt-0040-1020.ddc
-Version: BT_Solar_JfP1_REL44918
+Version: BT_Solar_JfP1_REL47489
 File:intel/ibt-1040-1020.sfi
-Version: BT_SolarF_JfP1_REL44918
+Version: BT_SolarF_JfP1_REL47489
 File:intel/ibt-1040-1020.ddc
-Version: BT_SolarF_JfP1_REL44918
+Version: BT_SolarF_JfP1_REL47489
 
 File:intel/ibt-0040-2120.sfi
-Version: BT_Solar_JfP2_REL44918
+Version: BT_Solar_JfP2_REL47489
 File:intel/ibt-0040-2120.ddc
-Version: BT_Solar_JfP2_REL44918
+Version: BT_Solar_JfP2_REL47489
 File:intel/ibt-1040-2120.sfi
-Version: BT_SolarF_JfP2_REL44918
+Version: BT_SolarF_JfP2_REL47489
 File:intel/ibt-1040-2120.ddc
-Version: BT_SolarF_JfP2_REL44918
+Version: BT_SolarF_JfP2_REL47489
 
 File:intel/ibt-0040-4150.sfi
-Version: BT_Solar_HrP2_REL44918
+Version: BT_Solar_HrP2_REL47489
 File:intel/ibt-0040-4150.ddc
-Version: BT_Solar_HrP2_REL44918
+Version: BT_Solar_HrP2_REL47489
 File:intel/ibt-1040-4150.sfi
-Version: BT_SolarF_HrP2_REL44918
+Version: BT_SolarF_HrP2_REL47489
 File:intel/ibt-1040-4150.ddc
-Version: BT_SolarF_HrP2_REL44918
+Version: BT_SolarF_HrP2_REL47489
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -3957,6 +3960,7 @@ File: amd-ucode/microcode_amd_fam17h.bin
 Version: 2022-04-08
 File: amd-ucode/microcode_amd_fam19h.bin
 Version: 2022-04-08
+File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
 
@@ -4682,8 +4686,14 @@ Version: GuC API/APB ver 70.1.1 for Alderlake P
 File: i915/dg2_guc_70.1.2.bin
 Version: GuC API/APB ver 70.1.2 for DG2
 
+File: i915/dg2_guc_70.4.1.bin
+Version: GuC API/APB ver 70.4.1 for DG2
+
 File: i915/dg2_dmc_ver2_06.bin
 Version: DMC API/APB ver 2 release 6 for DG2
+
+File: i915/dg2_dmc_ver2_07.bin
+Version: DMC API/APB ver 2 release 7 for DG2
 
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
@@ -5178,13 +5188,13 @@ OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 Driver: mtk_scp - Mediatek SCP System Control Processing Driver
 
 File: mediatek/mt8183/scp.img
-Version: v2.0.2745
+Version: v2.0.13324
 File: mediatek/mt8186/scp.img
 Version: v0.0.6
 File: mediatek/mt8192/scp.img
-Version: v2.0.8537
+Version: v2.0.8548
 File: mediatek/mt8195/scp.img
-Version: v14454.8.0
+Version: v2.0.13324
 
 Licence: Redistributable.
 
@@ -5605,6 +5615,7 @@ File: qcom/a660_gmu.bin
 File: qcom/a660_sqe.fw
 File: qcom/leia_pfp_470.fw
 File: qcom/leia_pm4_470.fw
+File: qcom/LENOVO/21BX/qcdxkmsuc8280.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -5631,6 +5642,13 @@ File: qcom/sm8250/adspr.jsn
 File: qcom/sm8250/adspua.jsn
 File: qcom/sm8250/cdsp.mbn
 File: qcom/sm8250/cdspr.jsn
+File: qcom/LENOVO/21BX/adspr.jsn
+File: qcom/LENOVO/21BX/adspua.jsn
+File: qcom/LENOVO/21BX/battmgr.jsn
+File: qcom/LENOVO/21BX/cdspr.jsn
+File: qcom/LENOVO/21BX/qcadsp8280.mbn
+File: qcom/LENOVO/21BX/qccdsp8280.mbn
+File: qcom/LENOVO/21BX/qcslpi8280.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -5720,6 +5738,10 @@ File: mellanox/mlxsw_spectrum-13.2010.1502.mfa2
 File: mellanox/mlxsw_spectrum2-29.2010.1502.mfa2
 File: mellanox/mlxsw_spectrum3-30.2010.1502.mfa2
 File: mellanox/lc_ini_bundle_2010_1502.bin
+File: mellanox/mlxsw_spectrum-13.2010.3020.mfa2
+File: mellanox/mlxsw_spectrum2-29.2010.3020.mfa2
+File: mellanox/mlxsw_spectrum3-30.2010.3020.mfa2
+File: mellanox/lc_ini_bundle_2010_3020.bin
 
 Licence:
  Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
@@ -5818,8 +5840,8 @@ Licence: Redistributable. See LICENSE.amlogic_vdec for details.
 
 Driver: ice - Intel(R) Ethernet Connection E800 Series
 
-File: intel/ice/ddp/ice-1.3.28.0.pkg
-Link: intel/ice/ddp/ice.pkg -> ice-1.3.28.0.pkg
+File: intel/ice/ddp/ice-1.3.30.0.pkg
+Link: intel/ice/ddp/ice.pkg -> ice-1.3.30.0.pkg
 
 License: Redistributable. See LICENSE.ice for details
 
@@ -5919,3 +5941,41 @@ File: amphion/vpu/vpu_fw_imx8_enc.bin
 Version: 1.3.1
 
 Licence: Redistributable. See LICENSE.amphion_vpu for details
+
+---------------------------------------------------------------------------
+
+Driver: cs35l41_hda - CS35l41 ALSA HDA audio driver
+
+File: cirrus/cs35l41-dsp1-spk-prot.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot.bin
+
+License: Redistributable. See LICENSE.cirrus for details.
+
+Use of Cirrus Logic drivers, firmware and other materials is permitted
+only in connection with Cirrus Logic hardware products.
+
+Copyright © 2022 Cirrus Logic, Inc. and Cirrus Logic International
+Semiconductor Ltd. All Rights Reserved.
+
+---------------------------------------------------------------------------
+
+Driver: mtk-sof - Mediatek Sound Open Firmware driver
+
+File: mediatek/sof/sof-mt8186.ri
+File: mediatek/sof/sof-mt8186-mt6366-da7219-max98357.tplg
+File: mediatek/sof/sof-mt8186-mt6366-rt1019-rt5682s.tplg
+Version: v0.2.0
+
+Licence: Redistributable.
+
+MediaTek Inc. grants permission to use and redistribute aforementioned firmware
+files for the use with devices containing MediaTek chipsets, but not as part of
+the Linux kernel or in any other form which would require these files themselves
+to be covered by the terms of the GNU General Public License or the GNU Lesser
+General Public License.
+
+These firmware files are distributed in the hope that they will be useful, but
+are provided WITHOUT ANY WARRANTY, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTY
+OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+--------------------------------------------------------------------------
