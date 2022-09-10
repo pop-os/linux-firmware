@@ -4629,6 +4629,9 @@ Version: GuC API/APB ver 69.0.3 for Tigerlake
 File: i915/tgl_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for Tigerlake
 
+File: i915/tgl_guc_70.bin
+Version: GuC API/APB ver 70.5.1 for Tigerlake
+
 File: i915/tgl_huc_7.0.3.bin
 Version: Huc API/APB ver 7 release 0 for Tigerlake
 
@@ -4661,6 +4664,9 @@ Version: GuC API/APB ver 69.0.3 for DG1
 
 File: i915/dg1_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for DG1
+
+File: i915/dg1_guc_70.bin
+Version: GuC API/APB ver 70.5.1 for DG1
 
 File: i915/dg1_huc_7.7.1.bin
 Version: Huc API/APB ver 7 release 1 for DG1
@@ -4695,11 +4701,17 @@ Version: GuC API/APB ver 69.0.3 for Alderlake P
 File: i915/adlp_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for Alderlake P
 
+File: i915/adlp_guc_70.bin
+Version: GuC API/APB ver 70.5.1 for Alderlake P
+
 File: i915/dg2_guc_70.1.2.bin
 Version: GuC API/APB ver 70.1.2 for DG2
 
 File: i915/dg2_guc_70.4.1.bin
 Version: GuC API/APB ver 70.4.1 for DG2
+
+File: i915/dg2_guc_70.bin
+Version: GuC API/APB ver 70.5.1 for DG2
 
 File: i915/dg2_dmc_ver2_06.bin
 Version: DMC API/APB ver 2 release 6 for DG2
