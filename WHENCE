@@ -2518,6 +2518,12 @@ File: amdgpu/aldebaran_smc.bin
 File: amdgpu/aldebaran_sos.bin
 File: amdgpu/aldebaran_ta.bin
 File: amdgpu/aldebaran_vcn.bin
+File: amdgpu/gc_10_3_6_ce.bin
+File: amdgpu/gc_10_3_6_me.bin
+File: amdgpu/gc_10_3_6_mec.bin
+File: amdgpu/gc_10_3_6_mec2.bin
+File: amdgpu/gc_10_3_6_pfp.bin
+File: amdgpu/gc_10_3_6_rlc.bin
 File: amdgpu/gc_10_3_7_ce.bin
 File: amdgpu/gc_10_3_7_me.bin
 File: amdgpu/gc_10_3_7_mec.bin
