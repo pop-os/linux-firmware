@@ -2518,17 +2518,29 @@ File: amdgpu/aldebaran_smc.bin
 File: amdgpu/aldebaran_sos.bin
 File: amdgpu/aldebaran_ta.bin
 File: amdgpu/aldebaran_vcn.bin
+File: amdgpu/gc_10_3_6_ce.bin
+File: amdgpu/gc_10_3_6_me.bin
+File: amdgpu/gc_10_3_6_mec.bin
+File: amdgpu/gc_10_3_6_mec2.bin
+File: amdgpu/gc_10_3_6_pfp.bin
+File: amdgpu/gc_10_3_6_rlc.bin
 File: amdgpu/gc_10_3_7_ce.bin
 File: amdgpu/gc_10_3_7_me.bin
 File: amdgpu/gc_10_3_7_mec.bin
 File: amdgpu/gc_10_3_7_mec2.bin
 File: amdgpu/gc_10_3_7_pfp.bin
 File: amdgpu/gc_10_3_7_rlc.bin
+File: amdgpu/dcn_3_1_5_dmcub.bin
 File: amdgpu/dcn_3_1_6_dmcub.bin
+File: amdgpu/psp_13_0_5_asd.bin
+File: amdgpu/psp_13_0_5_ta.bin
+File: amdgpu/psp_13_0_5_toc.bin
 File: amdgpu/psp_13_0_8_asd.bin
 File: amdgpu/psp_13_0_8_ta.bin
 File: amdgpu/psp_13_0_8_toc.bin
+File: amdgpu/sdma_5_2_6.bin
 File: amdgpu/sdma_5_2_7.bin
+File: amdgpu/vcn_3_1_2.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -5595,7 +5607,7 @@ File: qcom/a660_gmu.bin
 File: qcom/a660_sqe.fw
 File: qcom/leia_pfp_470.fw
 File: qcom/leia_pm4_470.fw
-File: qcom/LENOVO/21BX/qcdxkmsuc8280.mbn
+File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -5622,13 +5634,14 @@ File: qcom/sm8250/adspr.jsn
 File: qcom/sm8250/adspua.jsn
 File: qcom/sm8250/cdsp.mbn
 File: qcom/sm8250/cdspr.jsn
-File: qcom/LENOVO/21BX/adspr.jsn
-File: qcom/LENOVO/21BX/adspua.jsn
-File: qcom/LENOVO/21BX/battmgr.jsn
-File: qcom/LENOVO/21BX/cdspr.jsn
-File: qcom/LENOVO/21BX/qcadsp8280.mbn
-File: qcom/LENOVO/21BX/qccdsp8280.mbn
-File: qcom/LENOVO/21BX/qcslpi8280.mbn
+File: qcom/sc8280xp/LENOVO/21BX/adspr.jsn
+File: qcom/sc8280xp/LENOVO/21BX/adspua.jsn
+File: qcom/sc8280xp/LENOVO/21BX/battmgr.jsn
+File: qcom/sc8280xp/LENOVO/21BX/cdspr.jsn
+File: qcom/sc8280xp/LENOVO/21BX/qcadsp8280.mbn
+File: qcom/sc8280xp/LENOVO/21BX/qccdsp8280.mbn
+File: qcom/sc8280xp/LENOVO/21BX/qcslpi8280.mbn
+Link: qcom/LENOVO/21BX -> ../sc8280xp/LENOVO/21BX
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -5722,6 +5735,10 @@ File: mellanox/mlxsw_spectrum-13.2010.3020.mfa2
 File: mellanox/mlxsw_spectrum2-29.2010.3020.mfa2
 File: mellanox/mlxsw_spectrum3-30.2010.3020.mfa2
 File: mellanox/lc_ini_bundle_2010_3020.bin
+File: mellanox/mlxsw_spectrum-13.2010.3146.mfa2
+File: mellanox/mlxsw_spectrum2-29.2010.3146.mfa2
+File: mellanox/mlxsw_spectrum3-30.2010.3146.mfa2
+File: mellanox/lc_ini_bundle_2010_3146.bin
 
 Licence:
  Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
