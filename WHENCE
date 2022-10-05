@@ -5210,7 +5210,7 @@ Driver: mtk_scp - MediaTek SCP System Control Processing Driver
 File: mediatek/mt8183/scp.img
 Version: v2.0.13324
 File: mediatek/mt8186/scp.img
-Version: v0.0.6
+Version: v0.0.9
 File: mediatek/mt8192/scp.img
 Version: v2.0.8548
 File: mediatek/mt8195/scp.img
