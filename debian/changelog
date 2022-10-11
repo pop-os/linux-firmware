@@ -1,5 +1,6 @@
-linux-firmware (20220923.gitf09bebf3-0ubuntu1) kinetic; urgency=medium
+linux-firmware (20220923.gitf09bebf3-0ubuntu1+system76) kinetic; urgency=medium
 
+  [ Juerg Haefliger ]
   * Miscellaneous Ubuntu changes
     - [Packaging] scripts: Add update-firmware helper script
     - [Packaging] scripts: Drop obsolete scripts
@@ -26,7 +27,7 @@ linux-firmware (20220923.gitf09bebf3-0ubuntu1) kinetic; urgency=medium
       - amdgpu: add firmware for VCN 3.1.2 IP block
       - amdgpu: update yellow carp DMCUB firmware
 
- -- Juerg Haefliger <juerg.haefliger@canonical.com>  Fri, 23 Sep 2022 11:39:55 +0200
+ -- Jeremy Soller <jeremy@system76.com>  Tue, 11 Oct 2022 08:48:15 -0600
 
 linux-firmware (20220831.gitd3c92280-0ubuntu1) kinetic; urgency=medium
 
