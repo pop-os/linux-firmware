@@ -3266,6 +3266,12 @@ File: rtlwifi/rtl8192eu_nic.bin
 File: rtlwifi/rtl8192eu_wowlan.bin
 File: rtlwifi/rtl8192eu_ap_wowlan.bin
 
+Info: rtl8188fu taken from Realtek driver
+      RTL8188FU_Linux_v4.3.23.6_20964.20170110
+      Firmware was embedded in the driver as data statements. This info
+      has been extracted into a binary file.
+File: rtlwifi/rtl8188fufw.bin
+
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
