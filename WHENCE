@@ -5599,12 +5599,8 @@ Link: qcom/venus-1.8/venus.mdt -> venus.mbn
 
 Version: 1.8-00109
 
-File: qcom/venus-4.2/venus.mdt
-File: qcom/venus-4.2/venus.b00
-File: qcom/venus-4.2/venus.b01
-File: qcom/venus-4.2/venus.b02
-File: qcom/venus-4.2/venus.b03
-File: qcom/venus-4.2/venus.b04
+File: qcom/venus-4.2/venus.mbn
+Link: qcom/venus-4.2/venus.mdt -> venus.mbn
 
 Version: 4.2
 
