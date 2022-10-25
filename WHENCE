@@ -5594,12 +5594,8 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
 Driver: venus - Qualcomm Venus video codec accelerator
 
-File: qcom/venus-1.8/venus.mdt
-File: qcom/venus-1.8/venus.b00
-File: qcom/venus-1.8/venus.b01
-File: qcom/venus-1.8/venus.b02
-File: qcom/venus-1.8/venus.b03
-File: qcom/venus-1.8/venus.b04
+File: qcom/venus-1.8/venus.mbn
+Link: qcom/venus-1.8/venus.mdt -> venus.mbn
 
 Version: 1.8-00109
 
