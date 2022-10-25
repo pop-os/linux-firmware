@@ -5574,13 +5574,8 @@ File: qcom/venus-5.2/venus.mbn
 
 Version: 5.2-00023
 
-File: qcom/venus-5.4/venus.mdt
-File: qcom/venus-5.4/venus.b00
-File: qcom/venus-5.4/venus.b01
-File: qcom/venus-5.4/venus.b02
-File: qcom/venus-5.4/venus.b03
-File: qcom/venus-5.4/venus.b04
 File: qcom/venus-5.4/venus.mbn
+Link: qcom/venus-5.4/venus.mdt -> venus.mbn
 
 Version: 5.4-00038
 
