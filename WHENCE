@@ -5679,11 +5679,8 @@ File: qcom/a420_pm4.fw
 File: qcom/a530_pfp.fw
 File: qcom/a530_pm4.fw
 File: qcom/a530v3_gpmu.fw2
-File: qcom/a530_zap.b00
-File: qcom/a530_zap.b01
-File: qcom/a530_zap.b02
-File: qcom/a530_zap.mdt
 File: qcom/apq8096/a530_zap.mbn
+Link: qcom/a530_zap.mdt -> apq8096/a530_zap.mbn
 File: qcom/a630_gmu.bin
 File: qcom/a630_sqe.fw
 File: qcom/sdm845/a630_zap.mbn
