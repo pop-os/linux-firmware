@@ -5594,31 +5594,18 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
 Driver: venus - Qualcomm Venus video codec accelerator
 
-File: qcom/venus-1.8/venus.mdt
-File: qcom/venus-1.8/venus.b00
-File: qcom/venus-1.8/venus.b01
-File: qcom/venus-1.8/venus.b02
-File: qcom/venus-1.8/venus.b03
-File: qcom/venus-1.8/venus.b04
+File: qcom/venus-1.8/venus.mbn
+Link: qcom/venus-1.8/venus.mdt -> venus.mbn
 
 Version: 1.8-00109
 
-File: qcom/venus-4.2/venus.mdt
-File: qcom/venus-4.2/venus.b00
-File: qcom/venus-4.2/venus.b01
-File: qcom/venus-4.2/venus.b02
-File: qcom/venus-4.2/venus.b03
-File: qcom/venus-4.2/venus.b04
+File: qcom/venus-4.2/venus.mbn
+Link: qcom/venus-4.2/venus.mdt -> venus.mbn
 
 Version: 4.2
 
-File: qcom/venus-5.2/venus.mdt
-File: qcom/venus-5.2/venus.b00
-File: qcom/venus-5.2/venus.b01
-File: qcom/venus-5.2/venus.b02
-File: qcom/venus-5.2/venus.b03
-File: qcom/venus-5.2/venus.b04
 File: qcom/venus-5.2/venus.mbn
+Link: qcom/venus-5.2/venus.mdt -> venus.mbn
 
 Version: 5.2-00023
 
@@ -5627,20 +5614,8 @@ Link: qcom/venus-5.4/venus.mdt -> venus.mbn
 
 Version: 5.4-00053
 
-File: qcom/vpu-1.0/venus.mdt
-File: qcom/vpu-1.0/venus.b00
-File: qcom/vpu-1.0/venus.b01
-File: qcom/vpu-1.0/venus.b02
-File: qcom/vpu-1.0/venus.b03
-File: qcom/vpu-1.0/venus.b04
-File: qcom/vpu-1.0/venus.b05
-File: qcom/vpu-1.0/venus.b06
-File: qcom/vpu-1.0/venus.b07
-File: qcom/vpu-1.0/venus.b08
-File: qcom/vpu-1.0/venus.b09
-File: qcom/vpu-1.0/venus.b10
-File: qcom/vpu-1.0/venus.b19
 File: qcom/vpu-1.0/venus.mbn
+Link: qcom/vpu-1.0/venus.mdt -> venus.mbn
 
 Version: VIDEO.VPU.1.0-00087-PROD-1
 
