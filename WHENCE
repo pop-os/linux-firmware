@@ -5463,15 +5463,19 @@ File: mediatek/mt7916_eeprom.bin
 Version: 20211130
 
 File: mediatek/mt7986_wm.bin
-Version: 20220113162641
+Version: 20221012174725
 File: mediatek/mt7986_wm_mt7975.bin
-Version: 20220113162756
+Version: 20221012174805
 File: mediatek/mt7986_wa.bin
-Version: 20220113163034
+Version: 20221012174937
 File: mediatek/mt7986_rom_patch.bin
-Version: 20220113162543a
+Version: 20221012174648a
 File: mediatek/mt7986_rom_patch_mt7975.bin
-Version: 20220113162701a
+Version: 20221012174743a
+File: mediatek/mt7986_wo_0.bin
+Version: 20221012175005
+File: mediatek/mt7986_wo_1.bin
+Version: 20221012175032
 File: mediatek/mt7986_eeprom_mt7976.bin
 Version: 20211105
 File: mediatek/mt7986_eeprom_mt7976_dbdc.bin
