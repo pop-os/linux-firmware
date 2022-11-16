@@ -998,10 +998,10 @@ index 000000000000..9296d82e8305
 +DAMAGE.
 diff --git a/WHENCE.ubuntu b/WHENCE.ubuntu
 new file mode 100644
-index 000000000000..a34155f063a1
+index 000000000000..2dd85b555330
 --- /dev/null
 +++ b/WHENCE.ubuntu
-@@ -0,0 +1,221 @@
+@@ -0,0 +1,229 @@
 +             **********
 +             * WHENCE *
 +             **********
@@ -1182,6 +1182,10 @@ index 000000000000..a34155f063a1
 +Link: vsc/soc_a1_prod/ivsc_pkg_hi556_0_a1_prod.bin -> ivsc_pkg_hi556_0.bin
 +File: vsc/soc_a1_prod/ivsc_pkg_himx11b1_0.bin
 +Link: vsc/soc_a1_prod/ivsc_pkg_himx11b1_0_a1_prod.bin -> ivsc_pkg_himx11b1_0.bin
++File: vsc/soc_a1_prod/ivsc_pkg_himx2170_0.bin
++Link: vsc/soc_a1_prod/ivsc_pkg_himx2170_0_a1_prod.bin -> ivsc_pkg_himx2170_0.bin
++File: vsc/soc_a1_prod/ivsc_pkg_int3537_0.bin
++Link: vsc/soc_a1_prod/ivsc_pkg_int3537_0_a1_prod.bin -> ivsc_pkg_int3537_0.bin
 +File: vsc/soc_a1_prod/ivsc_pkg_ovti01a0_0.bin
 +Link: vsc/soc_a1_prod/ivsc_pkg_ovti01a0_0_a1_prod.bin -> ivsc_pkg_ovti01a0_0.bin
 +File: vsc/soc_a1_prod/ivsc_pkg_ovti01af_0.bin
@@ -1202,6 +1206,10 @@ index 000000000000..a34155f063a1
 +Link: vsc/soc_a1_prod/ivsc_skucfg_hi556_0_1_a1_prod.bin -> ivsc_skucfg_hi556_0_1.bin
 +File: vsc/soc_a1_prod/ivsc_skucfg_himx11b1_0_1.bin
 +Link: vsc/soc_a1_prod/ivsc_skucfg_himx11b1_0_1_a1_prod.bin -> ivsc_skucfg_himx11b1_0_1.bin
++File: vsc/soc_a1_prod/ivsc_skucfg_himx2170_0_1.bin
++Link: vsc/soc_a1_prod/ivsc_skucfg_himx2170_0_1_a1_prod.bin -> ivsc_skucfg_himx2170_0_1.bin
++File: vsc/soc_a1_prod/ivsc_skucfg_int3537_0_1.bin
++Link: vsc/soc_a1_prod/ivsc_skucfg_int3537_0_1_a1_prod.bin -> ivsc_skucfg_int3537_0_1.bin
 +File: vsc/soc_a1_prod/ivsc_skucfg_ovti01a0_0_1.bin
 +Link: vsc/soc_a1_prod/ivsc_skucfg_ovti01a0_0_1_a1_prod.bin -> ivsc_skucfg_ovti01a0_0_1.bin
 +File: vsc/soc_a1_prod/ivsc_skucfg_ovti01af_0_1.bin

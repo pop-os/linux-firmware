@@ -46,6 +46,8 @@ v4l-pvrusb2-29xxx-01.fw
 vsc/soc_a1_prod/ivsc_fw.bin
 vsc/soc_a1_prod/ivsc_pkg_hi556_0.bin
 vsc/soc_a1_prod/ivsc_pkg_himx11b1_0.bin
+vsc/soc_a1_prod/ivsc_pkg_himx2170_0.bin
+vsc/soc_a1_prod/ivsc_pkg_int3537_0.bin
 vsc/soc_a1_prod/ivsc_pkg_ovti01a0_0.bin
 vsc/soc_a1_prod/ivsc_pkg_ovti01af_0.bin
 vsc/soc_a1_prod/ivsc_pkg_ovti01as_0.bin
@@ -56,6 +58,8 @@ vsc/soc_a1_prod/ivsc_pkg_ovti9734_0.bin
 vsc/soc_a1_prod/ivsc_pkg_ovti9738_0.bin
 vsc/soc_a1_prod/ivsc_skucfg_hi556_0_1.bin
 vsc/soc_a1_prod/ivsc_skucfg_himx11b1_0_1.bin
+vsc/soc_a1_prod/ivsc_skucfg_himx2170_0_1.bin
+vsc/soc_a1_prod/ivsc_skucfg_int3537_0_1.bin
 vsc/soc_a1_prod/ivsc_skucfg_ovti01a0_0_1.bin
 vsc/soc_a1_prod/ivsc_skucfg_ovti01af_0_1.bin
 vsc/soc_a1_prod/ivsc_skucfg_ovti01as_0_1.bin
