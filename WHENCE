@@ -4847,6 +4847,9 @@ Version: DMC API/APB ver 2 release 6 for DG2
 File: i915/dg2_dmc_ver2_07.bin
 Version: DMC API/APB ver 2 release 7 for DG2
 
+File: i915/dg2_dmc_ver2_08.bin
+Version: DMC API/APB ver 2 release 8 for DG2
+
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
 
