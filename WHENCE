@@ -5457,11 +5457,11 @@ File: mediatek/mt7915_eeprom_dbdc.bin
 Version: 20200821
 
 File: mediatek/mt7916_wm.bin
-Version: 20211230135720
+Version: 20221031154713
 File: mediatek/mt7916_wa.bin
-Version: 20211230135808
+Version: 20221031154757
 File: mediatek/mt7916_rom_patch.bin
-Version: 20211230135620a
+Version: 20221031154652a
 File: mediatek/mt7916_eeprom.bin
 Version: 20211130
 
