@@ -5446,11 +5446,11 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7915e - MediaTek Wireless MACs for MT7915/MT7916/MT7986
 
 File: mediatek/mt7915_wm.bin
-Version: 20211222184052
+Version: 20220929104145
 File: mediatek/mt7915_wa.bin
-Version: 20211222184111
+Version: 20220929104205
 File: mediatek/mt7915_rom_patch.bin
-Version: 20211222184017a
+Version: 20220929104113a
 File: mediatek/mt7915_eeprom.bin
 Version: 20200821
 File: mediatek/mt7915_eeprom_dbdc.bin
