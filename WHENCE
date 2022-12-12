@@ -6239,3 +6239,11 @@ Version: v0.4.1
 Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
+
+Driver: nxp-sr1xx - NXP Ultra Wide Band driver
+File: nxp/sr150_fw.bin
+Version: 35.00.03
+
+Licence: Redistributable. See LICENSE.nxp for details
+Originates from https://github.com/NXP/uwb-NXPUWB-FW.git
+--------------------------------------------------------------------------
