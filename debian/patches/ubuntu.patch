@@ -1232,13 +1232,10 @@ index 000000000000..2dd85b555330
 +
 +--------------------------------------------------------------------------
 diff --git a/check_whence.py b/check_whence.py
-index 2d31f3839106..545c5db0b75f 100755
+index 8805e99c0b3a..e6fb3e920d67 100755
 --- a/check_whence.py
 +++ b/check_whence.py
-@@ -1,10 +1,10 @@
--#!/usr/bin/python
-+#!/usr/bin/env python3
- 
+@@ -3,8 +3,8 @@
  import os, re, sys
  from io import open
  

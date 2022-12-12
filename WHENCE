@@ -2840,6 +2840,7 @@ File: brcm/brcmfmac4329-sdio.bin
 File: brcm/brcmfmac4330-sdio.bin
 File: brcm/brcmfmac4334-sdio.bin
 File: brcm/brcmfmac4335-sdio.bin
+File: brcm/brcmfmac4339-sdio.bin
 File: brcm/brcmfmac43241b0-sdio.bin
 File: brcm/brcmfmac43241b4-sdio.bin
 File: brcm/brcmfmac43241b5-sdio.bin
@@ -2849,7 +2850,10 @@ File: brcm/brcmfmac43143-sdio.bin
 File: brcm/brcmfmac43430a0-sdio.bin
 File: brcm/brcmfmac4350c2-pcie.bin
 File: brcm/brcmfmac4350-pcie.bin
+File: brcm/brcmfmac4354-sdio.bin
 File: brcm/brcmfmac43569.bin
+File: brcm/brcmfmac4356-pcie.bin
+File: brcm/brcmfmac4356-sdio.bin
 File: brcm/brcmfmac4358-pcie.bin
 File: brcm/brcmfmac43602-pcie.bin
 File: brcm/brcmfmac43602-pcie.ap.bin
@@ -4447,6 +4451,8 @@ File: qca/nvm_usb_00130201_gf.bin
 File: qca/nvm_usb_00130201_gf_010a.bin
 File: qca/nvm_usb_00130201_gf_010b.bin
 File: qca/nvm_usb_00130201_gf_0303.bin
+File: qca/rampatch_usb_00190200.bin
+File: qca/nvm_usb_00190200.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
@@ -4846,6 +4852,12 @@ Version: DMC API/APB ver 2 release 6 for DG2
 
 File: i915/dg2_dmc_ver2_07.bin
 Version: DMC API/APB ver 2 release 7 for DG2
+
+File: i915/dg2_dmc_ver2_08.bin
+Version: DMC API/APB ver 2 release 8 for DG2
+
+File: i915/mtl_dmc_ver2_10.bin
+Version: DMC API/APB ver 2 release 10 for Meteorlake
 
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
@@ -5443,35 +5455,39 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7915e - MediaTek Wireless MACs for MT7915/MT7916/MT7986
 
 File: mediatek/mt7915_wm.bin
-Version: 20211222184052
+Version: 20220929104145
 File: mediatek/mt7915_wa.bin
-Version: 20211222184111
+Version: 20220929104205
 File: mediatek/mt7915_rom_patch.bin
-Version: 20211222184017a
+Version: 20220929104113a
 File: mediatek/mt7915_eeprom.bin
 Version: 20200821
 File: mediatek/mt7915_eeprom_dbdc.bin
 Version: 20200821
 
 File: mediatek/mt7916_wm.bin
-Version: 20211230135720
+Version: 20221031154713
 File: mediatek/mt7916_wa.bin
-Version: 20211230135808
+Version: 20221031154757
 File: mediatek/mt7916_rom_patch.bin
-Version: 20211230135620a
+Version: 20221031154652a
 File: mediatek/mt7916_eeprom.bin
 Version: 20211130
 
 File: mediatek/mt7986_wm.bin
-Version: 20220113162641
+Version: 20221012174725
 File: mediatek/mt7986_wm_mt7975.bin
-Version: 20220113162756
+Version: 20221012174805
 File: mediatek/mt7986_wa.bin
-Version: 20220113163034
+Version: 20221012174937
 File: mediatek/mt7986_rom_patch.bin
-Version: 20220113162543a
+Version: 20221012174648a
 File: mediatek/mt7986_rom_patch_mt7975.bin
-Version: 20220113162701a
+Version: 20221012174743a
+File: mediatek/mt7986_wo_0.bin
+Version: 20221012175005
+File: mediatek/mt7986_wo_1.bin
+Version: 20221012175032
 File: mediatek/mt7986_eeprom_mt7976.bin
 Version: 20211105
 File: mediatek/mt7986_eeprom_mt7976_dbdc.bin
@@ -5488,9 +5504,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20220908210919a
+Version: 20221109110918a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20220908211021
+Version: 20221109111005
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5499,7 +5515,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20220908211234
+Version: 20221109111213
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
