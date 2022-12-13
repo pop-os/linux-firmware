@@ -2622,6 +2622,8 @@ File: amdgpu/aldebaran_mec2.bin
 File: amdgpu/aldebaran_mec.bin
 File: amdgpu/aldebaran_rlc.bin
 File: amdgpu/aldebaran_sdma.bin
+File: amdgpu/aldebaran_sjt_mec2.bin
+File: amdgpu/aldebaran_sjt_mec.bin
 File: amdgpu/aldebaran_smc.bin
 File: amdgpu/aldebaran_sos.bin
 File: amdgpu/aldebaran_ta.bin
