@@ -5776,6 +5776,19 @@ https://developer.qualcomm.com/hardware/dragonboard-410c/tools
 
 --------------------------------------------------------------------------
 
+Driver: adreno - Qualcomm Adreno GPU firmware
+
+File: qcom/yamato_pfp.fw
+File: qcom/yamato_pm4.fw
+
+Licence: Redistributable, BSD-3-Clause licence, See LICENSE.qcom_yamato for details
+
+Binary files generated from header files in EfikaMX kernel sources. A prefix of
+four zero bytes was prepended to make them work with the DRM MSM driver. See
+https://github.com/genesi/linux-legacy/tree/master/drivers/mxc/amd-gpu
+
+--------------------------------------------------------------------------
+
 Driver: qcom_q6v5_pas - Qualcomm remoteproc firmware
 
 File: qcom/apq8096/adsp.mbn
