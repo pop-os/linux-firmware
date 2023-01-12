@@ -4660,6 +4660,9 @@ Version: DMC API/APB ver 2 release 8 for DG2
 File: i915/mtl_dmc_ver2_10.bin
 Version: DMC API/APB ver 2 release 10 for Meteorlake
 
+File: i915/mtl_dmc.bin
+Version: DMC API/APB ver 2 release 11 for Meteorlake
+
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
 
