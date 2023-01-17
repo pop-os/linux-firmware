@@ -4523,6 +4523,19 @@ File: qca/msnv11.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
+Driver: qca - Qualcomm Atheros Bluetooth support for QCA2066 chips
+
+File: qca/hpbtfw21.tlv
+File: qca/hpnv21.bin
+File: qca/hpnv21g.bin
+File: qca/hpnv21.301
+File: qca/hpnv21.302
+File: qca/hpnv21g.301
+File: qca/hpnv21g.302
+
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
+
 --------------------------------------------------------------------------
 
 Driver: liquidio -- Cavium LiquidIO driver
