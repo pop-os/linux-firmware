@@ -754,20 +754,11 @@ Version: 15.32.2.9
 File: iwlwifi-4965-2.ucode
 Version: 228.61.2.24
 
-File: iwlwifi-5000-1.ucode
-Version: 5.4.A.11 (aka 5.4.1.16)
-
-File: iwlwifi-5000-2.ucode
-Version: 8.24.2.12
-
 File: iwlwifi-5000-5.ucode
 Version: 8.83.5.1
 
 File: iwlwifi-5150-2.ucode
 Version: 8.24.2.2
-
-File: iwlwifi-1000-3.ucode
-Version: 128.50.3.1
 
 File: iwlwifi-1000-5.ucode
 Version: 39.31.5.1
@@ -775,20 +766,11 @@ Version: 39.31.5.1
 File: iwlwifi-6000-4.ucode
 Version: 9.221.4.1
 
-File: iwlwifi-6050-4.ucode
-Version: 9.201.4.1
-
 File: iwlwifi-6050-5.ucode
 Version: 41.28.5.1
 
-File: iwlwifi-6000g2a-5.ucode
-Version: 17.168.5.3
-
 File: iwlwifi-6000g2a-6.ucode
 Version: 18.168.6.1
-
-File: iwlwifi-6000g2b-5.ucode
-Version: 17.168.5.1
 
 File: iwlwifi-6000g2b-6.ucode
 Version: 18.168.6.1
@@ -817,32 +799,11 @@ Version: 17.bfb58538.0
 File: iwlwifi-7265-17.ucode
 Version: 17.bfb58538.0
 
-File: iwlwifi-7265D-22.ucode
-Version: 22.391740.0
-
-File: iwlwifi-7265D-27.ucode
-Version: 27.541033.0
-
 File: iwlwifi-7265D-29.ucode
 Version: 29.f2390aa8.0
 
-File: iwlwifi-3168-22.ucode
-Version: 22.391740.0
-
-File: iwlwifi-3168-27.ucode
-Version: 27.541033.0
-
 File: iwlwifi-3168-29.ucode
 Version: 29.0bd893f3.0
-
-File: iwlwifi-8000C-22.ucode
-Version: 22.391740.0
-
-File: iwlwifi-8000C-27.ucode
-Version: 27.541033.0
-
-File: iwlwifi-8000C-31.ucode
-Version: 31.560484.0
 
 File: iwlwifi-8000C-34.ucode
 Version: 34.610288.0
@@ -850,23 +811,11 @@ Version: 34.610288.0
 File: iwlwifi-8000C-36.ucode
 Version: 36.ca7b901d.0
 
-File: iwlwifi-8265-22.ucode
-Version: 22.391740.0
-
-File: iwlwifi-8265-27.ucode
-Version: 27.541033.0
-
-File: iwlwifi-8265-31.ucode
-Version: 31.560484.0
-
 File: iwlwifi-8265-34.ucode
 Version: 34.610288.0
 
 File: iwlwifi-8265-36.ucode
 Version: 36.ca7b901d.0
-
-File: iwlwifi-9000-pu-b0-jf-b0-33.ucode
-Version: 33.610294.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-34.ucode
 Version: 34.ba501b11.0
@@ -882,9 +831,6 @@ Version: 43.95eb4e97.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-46.ucode
 Version: 46.ea3728ee.0
-
-File: iwlwifi-9260-th-b0-jf-b0-33.ucode
-Version: 33.610294.0
 
 File: iwlwifi-9260-th-b0-jf-b0-34.ucode
 Version: 34.ba501b11.0
