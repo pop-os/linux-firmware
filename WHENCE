@@ -877,24 +877,12 @@ Version: 59.601f3a66.0
 File: iwlwifi-QuZ-a0-jf-b0-59.ucode
 Version: 59.601f3a66.0
 
-File: iwlwifi-so-a0-gf-a0-67.ucode
-Version: 67.8f59b80b.0
-
-File: iwlwifi-so-a0-gf4-a0-67.ucode
-Version: 67.8f59b80b.0
-
 File: iwlwifi-so-a0-gf-a0.pnvm
 
 File: iwlwifi-so-a0-gf4-a0.pnvm
 
 File: iwlwifi-ty-a0-gf-a0-59.ucode
 Version: 59.601f3a66.0
-
-File: iwlwifi-cc-a0-67.ucode
-Version: 67.8f59b80b.0
-
-File: iwlwifi-QuZ-a0-hr-b0-67.ucode
-Version: 67.8f59b80b.0
 
 File: iwlwifi-cc-a0-66.ucode
 Version: 66.f1c864e0.0
@@ -919,81 +907,6 @@ Version: 66.f1c864e0.0
 
 File: iwlwifi-ty-a0-gf-a0-66.ucode
 Version: 66.f1c864e0.0
-
-File: iwlwifi-ty-a0-gf-a0-67.ucode
-Version: 67.8f59b80b.0
-
-File: iwlwifi-cc-a0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-Qu-b0-hr-b0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-Qu-b0-jf-b0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-Qu-c0-hr-b0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-Qu-c0-jf-b0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-QuZ-a0-hr-b0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-QuZ-a0-jf-b0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-ty-a0-gf-a0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-so-a0-gf4-a0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-so-a0-gf-a0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-so-a0-hr-b0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-so-a0-jf-b0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-cc-a0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-Qu-b0-hr-b0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-Qu-b0-jf-b0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-Qu-c0-hr-b0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-Qu-c0-jf-b0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-QuZ-a0-hr-b0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-QuZ-a0-jf-b0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-ty-a0-gf-a0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-so-a0-gf4-a0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-so-a0-gf-a0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-so-a0-hr-b0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-so-a0-jf-b0-71.ucode
-Version: 71.058653f6.0
 
 File: iwlwifi-cc-a0-72.ucode
 Version: 72.daa05125.0
