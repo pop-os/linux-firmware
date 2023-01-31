@@ -36,6 +36,6 @@ Microcode patches in microcode_amd_fam17h.bin:
   Family=0x17 Model=0x31 Stepping=0x00: Patch=0x08301055 Length=3200 bytes
 
 Microcode patches in microcode_amd_fam19h.bin:
-  Family=0x19 Model=0x01 Stepping=0x00: Patch=0x0a001075 Length=5568 bytes
-  Family=0x19 Model=0x01 Stepping=0x01: Patch=0x0a0011a8 Length=5568 bytes
-  Family=0x19 Model=0x01 Stepping=0x02: Patch=0x0a00122e Length=5568 bytes
+  Family=0x19 Model=0x01 Stepping=0x00: Patch=0x0a001078 Length=5568 bytes
+  Family=0x19 Model=0x01 Stepping=0x01: Patch=0x0a0011ce Length=5568 bytes
+  Family=0x19 Model=0x01 Stepping=0x02: Patch=0x0a001231 Length=5568 bytes
