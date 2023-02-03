@@ -5929,6 +5929,10 @@ Link: cirrus/cs35l41-dsp1-spk-prot-103c8991.bin -> cs35l41-dsp1-spk-prot-103c897
 Link: cirrus/cs35l41-dsp1-spk-cali-103c8991.bin -> cs35l41-dsp1-spk-cali-103c8972.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8992.bin -> cs35l41-dsp1-spk-prot-103c8972.bin
 Link: cirrus/cs35l41-dsp1-spk-cali-103c8992.bin -> cs35l41-dsp1-spk-cali-103c8972.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8994.bin -> cs35l41-dsp1-spk-prot-103c8973.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8994.bin -> cs35l41-dsp1-spk-cali-103c8973.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8995.bin -> cs35l41-dsp1-spk-prot-103c8973.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8995.bin -> cs35l41-dsp1-spk-cali-103c8973.bin
 File: cirrus/cs35l41-dsp1-spk-prot-103c89c6-r0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-103c89c6-r0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-103c89c6-l0.bin
