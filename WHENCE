@@ -4043,10 +4043,11 @@ Licence: Redistributable. See LICENCE.it913x for details
 
 --------------------------------------------------------------------------
 
-Driver: snd_soc_sst_acpi
+Driver: snd_soc_catpt -- Intel AudioDSP driver for HSW/BDW platforms
 
-File: intel/IntcSST2.bin
-Version: 8.4.1.77
+File: intel/catpt/bdw/dsp_basefw.bin
+Version: 44b81c4d5397a63108356f58f036953d9b288c4e
+Link: intel/IntcSST2.bin -> intel/catpt/bdw/dsp_basefw.bin
 
 License: Redistributable. See LICENCE.IntcSST2 for details
 
