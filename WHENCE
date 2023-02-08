@@ -4064,6 +4064,9 @@ File: intel/avs/apl/dsp_basefw.bin
 Version: 9.22.01.4908
 Link: intel/dsp_fw_bxtn.bin -> intel/avs/apl/dsp_basefw.bin
 Link: intel/dsp_fw_glk.bin -> intel/avs/apl/dsp_basefw.bin
+File: intel/avs/cnl/dsp_basefw.bin
+Version: 10.23.00.8551
+Link: intel/dsp_fw_cnl.bin -> intel/avs/cnl/dsp_basefw.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -4133,7 +4136,6 @@ File: intel/dsp_fw_cnl_v1191.bin
 Version: 10.00.00.1191
 File: intel/dsp_fw_cnl_v1858.bin
 Version: 10.23.00.1858
-Link: intel/dsp_fw_cnl.bin -> dsp_fw_cnl_v1858.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
