@@ -4060,6 +4060,10 @@ File: intel/avs/skl/dsp_mod_7CAD0808-AB10-CD23-EF45-12AB34CD56EF.bin
 Version: 9.21.00.4899
 Link: intel/dsp_fw_release.bin -> intel/avs/skl/dsp_basefw.bin
 Link: intel/dsp_fw_kbl.bin -> intel/avs/skl/dsp_basefw.bin
+File: intel/avs/apl/dsp_basefw.bin
+Version: 9.22.01.4908
+Link: intel/dsp_fw_bxtn.bin -> intel/avs/apl/dsp_basefw.bin
+Link: intel/dsp_fw_glk.bin -> intel/avs/apl/dsp_basefw.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -4096,7 +4100,6 @@ File: intel/dsp_fw_bxtn_v2219.bin
 Version: 9.22.01.2219_64
 File: intel/dsp_fw_bxtn_v3366.bin
 Version: 9.22.01.3366_157
-Link: intel/dsp_fw_bxtn.bin -> dsp_fw_bxtn_v3366.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -4125,7 +4128,6 @@ File: intel/dsp_fw_glk_v2768.bin
 Version: 9.22.01.2768
 File: intel/dsp_fw_glk_v3366.bin
 Version: 9.22.01.3366_157
-Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v3366.bin
 
 File: intel/dsp_fw_cnl_v1191.bin
 Version: 10.00.00.1191
