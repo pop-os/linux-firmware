@@ -754,20 +754,11 @@ Version: 15.32.2.9
 File: iwlwifi-4965-2.ucode
 Version: 228.61.2.24
 
-File: iwlwifi-5000-1.ucode
-Version: 5.4.A.11 (aka 5.4.1.16)
-
-File: iwlwifi-5000-2.ucode
-Version: 8.24.2.12
-
 File: iwlwifi-5000-5.ucode
 Version: 8.83.5.1
 
 File: iwlwifi-5150-2.ucode
 Version: 8.24.2.2
-
-File: iwlwifi-1000-3.ucode
-Version: 128.50.3.1
 
 File: iwlwifi-1000-5.ucode
 Version: 39.31.5.1
@@ -775,20 +766,11 @@ Version: 39.31.5.1
 File: iwlwifi-6000-4.ucode
 Version: 9.221.4.1
 
-File: iwlwifi-6050-4.ucode
-Version: 9.201.4.1
-
 File: iwlwifi-6050-5.ucode
 Version: 41.28.5.1
 
-File: iwlwifi-6000g2a-5.ucode
-Version: 17.168.5.3
-
 File: iwlwifi-6000g2a-6.ucode
 Version: 18.168.6.1
-
-File: iwlwifi-6000g2b-5.ucode
-Version: 17.168.5.1
 
 File: iwlwifi-6000g2b-6.ucode
 Version: 18.168.6.1
@@ -817,32 +799,11 @@ Version: 17.bfb58538.0
 File: iwlwifi-7265-17.ucode
 Version: 17.bfb58538.0
 
-File: iwlwifi-7265D-22.ucode
-Version: 22.391740.0
-
-File: iwlwifi-7265D-27.ucode
-Version: 27.541033.0
-
 File: iwlwifi-7265D-29.ucode
 Version: 29.f2390aa8.0
 
-File: iwlwifi-3168-22.ucode
-Version: 22.391740.0
-
-File: iwlwifi-3168-27.ucode
-Version: 27.541033.0
-
 File: iwlwifi-3168-29.ucode
 Version: 29.0bd893f3.0
-
-File: iwlwifi-8000C-22.ucode
-Version: 22.391740.0
-
-File: iwlwifi-8000C-27.ucode
-Version: 27.541033.0
-
-File: iwlwifi-8000C-31.ucode
-Version: 31.560484.0
 
 File: iwlwifi-8000C-34.ucode
 Version: 34.610288.0
@@ -850,23 +811,11 @@ Version: 34.610288.0
 File: iwlwifi-8000C-36.ucode
 Version: 36.ca7b901d.0
 
-File: iwlwifi-8265-22.ucode
-Version: 22.391740.0
-
-File: iwlwifi-8265-27.ucode
-Version: 27.541033.0
-
-File: iwlwifi-8265-31.ucode
-Version: 31.560484.0
-
 File: iwlwifi-8265-34.ucode
 Version: 34.610288.0
 
 File: iwlwifi-8265-36.ucode
 Version: 36.ca7b901d.0
-
-File: iwlwifi-9000-pu-b0-jf-b0-33.ucode
-Version: 33.610294.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-34.ucode
 Version: 34.ba501b11.0
@@ -874,17 +823,8 @@ Version: 34.ba501b11.0
 File: iwlwifi-9000-pu-b0-jf-b0-38.ucode
 Version: 38.755cfdd8.0
 
-File: iwlwifi-9000-pu-b0-jf-b0-41.ucode
-Version: 41.fc1a7aea.0
-
-File: iwlwifi-9000-pu-b0-jf-b0-43.ucode
-Version: 43.95eb4e97.0
-
 File: iwlwifi-9000-pu-b0-jf-b0-46.ucode
 Version: 46.ea3728ee.0
-
-File: iwlwifi-9260-th-b0-jf-b0-33.ucode
-Version: 33.610294.0
 
 File: iwlwifi-9260-th-b0-jf-b0-34.ucode
 Version: 34.ba501b11.0
@@ -892,38 +832,8 @@ Version: 34.ba501b11.0
 File: iwlwifi-9260-th-b0-jf-b0-38.ucode
 Version: 38.755cfdd8.0
 
-File: iwlwifi-9260-th-b0-jf-b0-41.ucode
-Version: 41.fc1a7aea.0
-
-File: iwlwifi-9260-th-b0-jf-b0-43.ucode
-Version: 43.95eb4e97.0
-
 File: iwlwifi-9260-th-b0-jf-b0-46.ucode
 Version: 46.ea3728ee.0
-
-File: iwlwifi-cc-a0-46.ucode
-Version: 46.3cfab8da.0
-
-File: iwlwifi-cc-a0-48.ucode
-Version: 48.4fa0041f.0
-
-File: iwlwifi-Qu-b0-hr-b0-48.ucode
-Version: 48.4fa0041f.0
-
-File: iwlwifi-Qu-b0-jf-b0-48.ucode
-Version: 48.4fa0041f.0
-
-File: iwlwifi-Qu-c0-hr-b0-48.ucode
-Version: 48.4fa0041f.0
-
-File: iwlwifi-Qu-c0-jf-b0-48.ucode
-Version: 48.4fa0041f.0
-
-File: iwlwifi-QuZ-a0-hr-b0-48.ucode
-Version: 48.4fa0041f.0
-
-File: iwlwifi-QuZ-a0-jf-b0-48.ucode
-Version: 48.4fa0041f.0
 
 File: iwlwifi-cc-a0-50.ucode
 Version: 50.3e391d3e.0
@@ -946,48 +856,6 @@ Version: 50.3e391d3e.0
 File: iwlwifi-QuZ-a0-jf-b0-50.ucode
 Version: 50.3e391d3e.0
 
-File: iwlwifi-cc-a0-53.ucode
-Version: 53.c31ac674.0
-
-File: iwlwifi-Qu-b0-hr-b0-53.ucode
-Version: 53.c31ac674.0
-
-File: iwlwifi-Qu-b0-jf-b0-53.ucode
-Version: 53.c31ac674.0
-
-File: iwlwifi-Qu-c0-hr-b0-53.ucode
-Version: 53.c31ac674.0
-
-File: iwlwifi-Qu-c0-jf-b0-53.ucode
-Version: 53.c31ac674.0
-
-File: iwlwifi-QuZ-a0-hr-b0-53.ucode
-Version: 53.c31ac674.0
-
-File: iwlwifi-QuZ-a0-jf-b0-53.ucode
-Version: 53.c31ac674.0
-
-File: iwlwifi-cc-a0-55.ucode
-Version: 55.d9698065.0
-
-File: iwlwifi-Qu-b0-hr-b0-55.ucode
-Version: 55.d9698065.0
-
-File: iwlwifi-Qu-b0-jf-b0-55.ucode
-Version: 55.d9698065.0
-
-File: iwlwifi-Qu-c0-hr-b0-55.ucode
-Version: 55.d9698065.0
-
-File: iwlwifi-Qu-c0-jf-b0-55.ucode
-Version: 55.d9698065.0
-
-File: iwlwifi-QuZ-a0-hr-b0-55.ucode
-Version: 55.d9698065.0
-
-File: iwlwifi-QuZ-a0-jf-b0-55.ucode
-Version: 55.d9698065.0
-
 File: iwlwifi-cc-a0-59.ucode
 Version: 59.601f3a66.0
 
@@ -1009,81 +877,12 @@ Version: 59.601f3a66.0
 File: iwlwifi-QuZ-a0-jf-b0-59.ucode
 Version: 59.601f3a66.0
 
-File: iwlwifi-so-a0-gf-a0-64.ucode
-Version: 64.97bbee0a.0
-
-File: iwlwifi-so-a0-gf-a0-67.ucode
-Version: 67.8f59b80b.0
-
-File: iwlwifi-so-a0-gf4-a0-67.ucode
-Version: 67.8f59b80b.0
-
 File: iwlwifi-so-a0-gf-a0.pnvm
 
 File: iwlwifi-so-a0-gf4-a0.pnvm
 
-File: iwlwifi-so-a0-hr-b0-64.ucode
-Version: 64.97bbee0a.0
-
-File: iwlwifi-so-a0-jf-b0-64.ucode
-Version: 64.97bbee0a.0
-
 File: iwlwifi-ty-a0-gf-a0-59.ucode
 Version: 59.601f3a66.0
-
-File: iwlwifi-cc-a0-62.ucode
-Version: 62.49eeb572.0
-
-File: iwlwifi-Qu-b0-hr-b0-62.ucode
-Version: 62.49eeb572.0
-
-File: iwlwifi-Qu-b0-jf-b0-62.ucode
-Version: 62.49eeb572.0
-
-File: iwlwifi-Qu-c0-hr-b0-62.ucode
-Version: 62.49eeb572.0
-
-File: iwlwifi-Qu-c0-jf-b0-62.ucode
-Version: 62.49eeb572.0
-
-File: iwlwifi-QuZ-a0-hr-b0-62.ucode
-Version: 62.49eeb572.0
-
-File: iwlwifi-QuZ-a0-jf-b0-62.ucode
-Version: 62.49eeb572.0
-
-File: iwlwifi-ty-a0-gf-a0-62.ucode
-Version: 62.49eeb572.0
-
-File: iwlwifi-cc-a0-63.ucode
-Version: 63.c04f3485.0
-
-File: iwlwifi-cc-a0-67.ucode
-Version: 67.8f59b80b.0
-
-File: iwlwifi-Qu-b0-hr-b0-63.ucode
-Version: 63.c04f3485.0
-
-File: iwlwifi-Qu-b0-jf-b0-63.ucode
-Version: 63.c04f3485.0
-
-File: iwlwifi-Qu-c0-hr-b0-63.ucode
-Version: 63.c04f3485.0
-
-File: iwlwifi-Qu-c0-jf-b0-63.ucode
-Version: 63.c04f3485.0
-
-File: iwlwifi-QuZ-a0-hr-b0-63.ucode
-Version: 63.c04f3485.0
-
-File: iwlwifi-QuZ-a0-hr-b0-67.ucode
-Version: 67.8f59b80b.0
-
-File: iwlwifi-QuZ-a0-jf-b0-63.ucode
-Version: 63.c04f3485.0
-
-File: iwlwifi-ty-a0-gf-a0-63.ucode
-Version: 63.c04f3485.0
 
 File: iwlwifi-cc-a0-66.ucode
 Version: 66.f1c864e0.0
@@ -1108,81 +907,6 @@ Version: 66.f1c864e0.0
 
 File: iwlwifi-ty-a0-gf-a0-66.ucode
 Version: 66.f1c864e0.0
-
-File: iwlwifi-ty-a0-gf-a0-67.ucode
-Version: 67.8f59b80b.0
-
-File: iwlwifi-cc-a0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-Qu-b0-hr-b0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-Qu-b0-jf-b0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-Qu-c0-hr-b0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-Qu-c0-jf-b0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-QuZ-a0-hr-b0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-QuZ-a0-jf-b0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-ty-a0-gf-a0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-so-a0-gf4-a0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-so-a0-gf-a0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-so-a0-hr-b0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-so-a0-jf-b0-68.ucode
-Version: 68.01d30b0c.0
-
-File: iwlwifi-cc-a0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-Qu-b0-hr-b0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-Qu-b0-jf-b0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-Qu-c0-hr-b0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-Qu-c0-jf-b0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-QuZ-a0-hr-b0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-QuZ-a0-jf-b0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-ty-a0-gf-a0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-so-a0-gf4-a0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-so-a0-gf-a0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-so-a0-hr-b0-71.ucode
-Version: 71.058653f6.0
-
-File: iwlwifi-so-a0-jf-b0-71.ucode
-Version: 71.058653f6.0
 
 File: iwlwifi-cc-a0-72.ucode
 Version: 72.daa05125.0
@@ -2668,6 +2392,13 @@ File: amdgpu/gc_11_0_0_mes1.bin
 File: amdgpu/gc_11_0_0_mes.bin
 File: amdgpu/gc_11_0_0_pfp.bin
 File: amdgpu/gc_11_0_0_rlc.bin
+File: amdgpu/gc_11_0_1_imu.bin
+File: amdgpu/gc_11_0_1_me.bin
+File: amdgpu/gc_11_0_1_mec.bin
+File: amdgpu/gc_11_0_1_mes.bin
+File: amdgpu/gc_11_0_1_mes1.bin
+File: amdgpu/gc_11_0_1_pfp.bin
+File: amdgpu/gc_11_0_1_rlc.bin
 File: amdgpu/gc_11_0_2_imu.bin
 File: amdgpu/gc_11_0_2_me.bin
 File: amdgpu/gc_11_0_2_mec.bin
@@ -2675,12 +2406,15 @@ File: amdgpu/gc_11_0_2_mes1.bin
 File: amdgpu/gc_11_0_2_mes.bin
 File: amdgpu/gc_11_0_2_pfp.bin
 File: amdgpu/gc_11_0_2_rlc.bin
+File: amdgpu/dcn_3_1_4_dmcub.bin
 File: amdgpu/dcn_3_1_5_dmcub.bin
 File: amdgpu/dcn_3_1_6_dmcub.bin
 File: amdgpu/dcn_3_2_0_dmcub.bin
 File: amdgpu/dcn_3_2_1_dmcub.bin
 File: amdgpu/psp_13_0_0_sos.bin
 File: amdgpu/psp_13_0_0_ta.bin
+File: amdgpu/psp_13_0_4_ta.bin
+File: amdgpu/psp_13_0_4_toc.bin
 File: amdgpu/psp_13_0_5_asd.bin
 File: amdgpu/psp_13_0_5_ta.bin
 File: amdgpu/psp_13_0_5_toc.bin
@@ -2692,11 +2426,13 @@ File: amdgpu/psp_13_0_8_toc.bin
 File: amdgpu/sdma_5_2_6.bin
 File: amdgpu/sdma_5_2_7.bin
 File: amdgpu/sdma_6_0_0.bin
+File: amdgpu/sdma_6_0_1.bin
 File: amdgpu/sdma_6_0_2.bin
 File: amdgpu/smu_13_0_0.bin
 File: amdgpu/smu_13_0_7.bin
 File: amdgpu/vcn_3_1_2.bin
 File: amdgpu/vcn_4_0_0.bin
+File: amdgpu/vcn_4_0_2.bin
 File: amdgpu/vcn_4_0_4.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
@@ -2889,7 +2625,6 @@ File: brcm/brcmfmac4329-sdio.bin
 File: brcm/brcmfmac4330-sdio.bin
 File: brcm/brcmfmac4334-sdio.bin
 File: brcm/brcmfmac4335-sdio.bin
-File: brcm/brcmfmac4339-sdio.bin
 File: brcm/brcmfmac43241b0-sdio.bin
 File: brcm/brcmfmac43241b4-sdio.bin
 File: brcm/brcmfmac43241b5-sdio.bin
@@ -2899,10 +2634,7 @@ File: brcm/brcmfmac43143-sdio.bin
 File: brcm/brcmfmac43430a0-sdio.bin
 File: brcm/brcmfmac4350c2-pcie.bin
 File: brcm/brcmfmac4350-pcie.bin
-File: brcm/brcmfmac4354-sdio.bin
 File: brcm/brcmfmac43569.bin
-File: brcm/brcmfmac4356-pcie.bin
-File: brcm/brcmfmac4356-sdio.bin
 File: brcm/brcmfmac4358-pcie.bin
 File: brcm/brcmfmac43602-pcie.bin
 File: brcm/brcmfmac43602-pcie.ap.bin
@@ -4146,7 +3878,7 @@ Version: 2014-10-28
 File: amd-ucode/microcode_amd_fam17h.bin
 Version: 2022-04-08
 File: amd-ucode/microcode_amd_fam19h.bin
-Version: 2022-09-30
+Version: 2023-01-31
 File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
@@ -4888,6 +4620,9 @@ Version: DMC API/APB ver 2 release 14 for Alderlake P
 File: i915/adlp_dmc_ver2_16.bin
 Version: DMC API/APB ver 2 release 16 for Alderlake P
 
+File: i915/adlp_dmc.bin
+Version: DMC API/APB ver 2 release 18 for Alderlake P
+
 File: i915/adlp_guc_62.0.3.bin
 Version: GuC API/APB ver 62.0.3 for Alderlake P
 
@@ -4923,6 +4658,9 @@ Version: DMC API/APB ver 2 release 8 for DG2
 
 File: i915/mtl_dmc_ver2_10.bin
 Version: DMC API/APB ver 2 release 10 for Meteorlake
+
+File: i915/mtl_dmc.bin
+Version: DMC API/APB ver 2 release 11 for Meteorlake
 
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
@@ -6193,6 +5931,10 @@ Link: cirrus/cs35l41-dsp1-spk-prot-103c8991.bin -> cs35l41-dsp1-spk-prot-103c897
 Link: cirrus/cs35l41-dsp1-spk-cali-103c8991.bin -> cs35l41-dsp1-spk-cali-103c8972.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8992.bin -> cs35l41-dsp1-spk-prot-103c8972.bin
 Link: cirrus/cs35l41-dsp1-spk-cali-103c8992.bin -> cs35l41-dsp1-spk-cali-103c8972.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8994.bin -> cs35l41-dsp1-spk-prot-103c8973.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8994.bin -> cs35l41-dsp1-spk-cali-103c8973.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8995.bin -> cs35l41-dsp1-spk-prot-103c8973.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8995.bin -> cs35l41-dsp1-spk-cali-103c8973.bin
 File: cirrus/cs35l41-dsp1-spk-prot-103c89c6-r0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-103c89c6-r0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-103c89c6-l0.bin
@@ -6290,6 +6032,16 @@ File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid0-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid0-r0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431e12.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431e12.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-cali-10431e12-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431e12-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431e12-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431e12-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid1-r0.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
 
