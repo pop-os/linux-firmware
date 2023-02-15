@@ -3460,6 +3460,7 @@ File: ath11k/WCN6750/hw1.0/wpss.b08
 File: ath11k/WCN6750/hw1.0/wpss.mdt
 Version: WLAN.MSL.1.0.1-00887-QCAMSLSWPLZ-1
 File: ath11k/WCN6750/hw1.0/Notice.txt
+File: ath11k/IPQ5018/hw1.0/board-2.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
