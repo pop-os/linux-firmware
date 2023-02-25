@@ -3135,6 +3135,11 @@ Info: rtl8188fu taken from Realtek driver
       has been extracted into a binary file.
 File: rtlwifi/rtl8188fufw.bin
 
+File: rtlwifi/rtl8710bufw_SMIC.bin
+Version: 16.0
+File: rtlwifi/rtl8710bufw_UMC.bin
+Version: 16.0
+
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
