@@ -3345,7 +3345,7 @@ File: ath10k/QCA6174/hw3.0/firmware-6.bin
 Version: WLAN.RM.4.4.1-00288-QCARMSWPZ-1
 File: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
 File: ath10k/QCA6174/hw3.0/firmware-sdio-6.bin
-Version: WLAN.RMH.4.4.1-00077
+Version: WLAN.RMH.4.4.1-00174
 File: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-sdio-6.txt
 File: ath10k/QCA9377/hw1.0/board.bin
 File: ath10k/QCA9377/hw1.0/board-2.bin
@@ -3436,7 +3436,7 @@ File: ath11k/WCN6855/hw2.0/regdb.bin
 File: ath11k/WCN6855/hw2.0/board-2.bin
 File: ath11k/WCN6855/hw2.0/amss.bin
 File: ath11k/WCN6855/hw2.0/m3.bin
-Version: WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.9
+Version: WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.23
 File: ath11k/WCN6855/hw2.0/Notice.txt
 Link: ath11k/WCN6855/hw2.1/regdb.bin -> ../hw2.0/regdb.bin
 Link: ath11k/WCN6855/hw2.1/board-2.bin -> ../hw2.0/board-2.bin
@@ -3460,6 +3460,29 @@ File: ath11k/WCN6750/hw1.0/wpss.b08
 File: ath11k/WCN6750/hw1.0/wpss.mdt
 Version: WLAN.MSL.1.0.1-00887-QCAMSLSWPLZ-1
 File: ath11k/WCN6750/hw1.0/Notice.txt
+File: ath11k/IPQ5018/hw1.0/board-2.bin
+File: ath11k/IPQ5018/hw1.0/m3_fw.b00
+File: ath11k/IPQ5018/hw1.0/m3_fw.b01
+File: ath11k/IPQ5018/hw1.0/m3_fw.b02
+File: ath11k/IPQ5018/hw1.0/m3_fw.flist
+File: ath11k/IPQ5018/hw1.0/m3_fw.mdt
+File: ath11k/IPQ5018/hw1.0/q6_fw.b00
+File: ath11k/IPQ5018/hw1.0/q6_fw.b01
+File: ath11k/IPQ5018/hw1.0/q6_fw.b02
+File: ath11k/IPQ5018/hw1.0/q6_fw.b03
+File: ath11k/IPQ5018/hw1.0/q6_fw.b04
+File: ath11k/IPQ5018/hw1.0/q6_fw.b05
+File: ath11k/IPQ5018/hw1.0/q6_fw.b07
+File: ath11k/IPQ5018/hw1.0/q6_fw.b08
+File: ath11k/IPQ5018/hw1.0/q6_fw.b09
+File: ath11k/IPQ5018/hw1.0/q6_fw.b10
+File: ath11k/IPQ5018/hw1.0/q6_fw.b11
+File: ath11k/IPQ5018/hw1.0/q6_fw.b13
+File: ath11k/IPQ5018/hw1.0/q6_fw.b14
+File: ath11k/IPQ5018/hw1.0/q6_fw.flist
+File: ath11k/IPQ5018/hw1.0/q6_fw.mdt
+Version: WLAN.HK.2.6.0.1-00861-QCAHKSWPL_SILICONZ-1
+File: ath11k/IPQ5018/hw1.0/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
@@ -4043,12 +4066,32 @@ Licence: Redistributable. See LICENCE.it913x for details
 
 --------------------------------------------------------------------------
 
-Driver: snd_soc_sst_acpi
+Driver: snd_soc_catpt -- Intel AudioDSP driver for HSW/BDW platforms
 
-File: intel/IntcSST2.bin
-Version: 8.4.1.77
+File: intel/catpt/bdw/dsp_basefw.bin
+Version: 44b81c4d5397a63108356f58f036953d9b288c4e
+Link: intel/IntcSST2.bin -> intel/catpt/bdw/dsp_basefw.bin
 
 License: Redistributable. See LICENCE.IntcSST2 for details
+
+--------------------------------------------------------------------------
+
+Driver: snd_soc_avs -- Intel AudioDSP driver for cAVS platforms
+
+File: intel/avs/skl/dsp_basefw.bin
+File: intel/avs/skl/dsp_mod_7CAD0808-AB10-CD23-EF45-12AB34CD56EF.bin
+Version: 9.21.00.4899
+Link: intel/dsp_fw_release.bin -> intel/avs/skl/dsp_basefw.bin
+Link: intel/dsp_fw_kbl.bin -> intel/avs/skl/dsp_basefw.bin
+File: intel/avs/apl/dsp_basefw.bin
+Version: 9.22.01.4908
+Link: intel/dsp_fw_bxtn.bin -> intel/avs/apl/dsp_basefw.bin
+Link: intel/dsp_fw_glk.bin -> intel/avs/apl/dsp_basefw.bin
+File: intel/avs/cnl/dsp_basefw.bin
+Version: 10.23.00.8551
+Link: intel/dsp_fw_cnl.bin -> intel/avs/cnl/dsp_basefw.bin
+
+License: Redistributable. See LICENCE.adsp_sst for details
 
 --------------------------------------------------------------------------
 
@@ -4076,7 +4119,6 @@ File: intel/dsp_fw_release_v969.bin
 Version: 8.20.00.969
 File: intel/dsp_fw_release_v3402.bin
 Version: 9.21.00.3402_161
-Link: intel/dsp_fw_release.bin -> dsp_fw_release_v3402.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -4084,7 +4126,6 @@ File: intel/dsp_fw_bxtn_v2219.bin
 Version: 9.22.01.2219_64
 File: intel/dsp_fw_bxtn_v3366.bin
 Version: 9.22.01.3366_157
-Link: intel/dsp_fw_bxtn.bin -> dsp_fw_bxtn_v3366.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -4102,7 +4143,6 @@ File: intel/dsp_fw_kbl_v3420.bin
 Version: 9.21.00.3420_163
 File: intel/dsp_fw_kbl_v3402.bin
 Version: 9.21.00.3402_161
-Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v3402.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -4114,13 +4154,11 @@ File: intel/dsp_fw_glk_v2768.bin
 Version: 9.22.01.2768
 File: intel/dsp_fw_glk_v3366.bin
 Version: 9.22.01.3366_157
-Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v3366.bin
 
 File: intel/dsp_fw_cnl_v1191.bin
 Version: 10.00.00.1191
 File: intel/dsp_fw_cnl_v1858.bin
 Version: 10.23.00.1858
-Link: intel/dsp_fw_cnl.bin -> dsp_fw_cnl_v1858.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
