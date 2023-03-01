@@ -28,6 +28,14 @@ def list_whence():
                         yield match.group(2)
                         continue
 
+def list_whence_files():
+    with open('WHENCE', encoding='utf-8') as whence:
+        for line in whence:
+            match = re.match(r'File:\s*(.*)', line)
+            if match:
+                yield match.group(1).replace("\ ", " ")
+                continue
+
 def list_git():
     with os.popen('git ls-files') as git_files:
         for line in git_files:
@@ -36,11 +44,16 @@ def list_git():
 def main():
     ret = 0
     whence_list = list(list_whence())
+    whence_files = list(list_whence_files())
     known_files = set(name for name in whence_list if not name.endswith('/')) | \
                   set(['check_whence.py', 'configure', 'Makefile',
                        'README', 'copy-firmware.sh', 'WHENCE'])
     known_prefixes = set(name for name in whence_list if name.endswith('/'))
     git_files = set(list_git())
+
+    for name in set(fw for fw in whence_files if whence_files.count(fw) > 1):
+        sys.stderr.write('E: %s listed in WHENCE twice\n' % name)
+        ret = 1
 
     for name in sorted(list(known_files - git_files)):
         sys.stderr.write('E: %s listed in WHENCE does not exist\n' % name)
