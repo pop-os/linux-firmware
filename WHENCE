@@ -1073,10 +1073,6 @@ Version: 75.27f1c37b.0
 File: iwlwifi-so-a0-jf-b0-77.ucode
 Version: 74.f92b5fed.0
 
-File: iwlwifi-so-a0-gf-a0.pnvm
-
-File: iwlwifi-so-a0-gf4-a0.pnvm
-
 File: iwlwifi-ty-a0-gf-a0.pnvm
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
@@ -2977,19 +2973,6 @@ Driver: rtl8723de - Realtek 802.11ac WLAN driver for RTL8723DE
 
 Info: Supplied by Vendor at https://github.com/pkshih/rtlwifi_rtl8723de
 File: rtlwifi/rtl8723defw.bin
-
-Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
-
---------------------------------------------------------------------------
-
-Driver: r8723au - Realtek 802.11n WLAN driver for RTL8723AU
-
-Info: Taken from Realtek driver rtl8723A_WiFi_linux_v4.1.3_6044.20121224
-      Firmware is embedded in the driver as data statements. This info
-      has been extracted into a binary file.
-File: rtlwifi/rtl8723aufw_A.bin
-File: rtlwifi/rtl8723aufw_B.bin
-File: rtlwifi/rtl8723aufw_B_NoBT.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -5951,8 +5934,6 @@ Link: cirrus/cs35l41-dsp1-spk-prot-103c8995.wmfw -> cs35l41/v6.61.1/halo_cspl_RA
 Link: cirrus/cs35l41-dsp1-spk-cali-103c8995.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-103c89c6.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 Link: cirrus/cs35l41-dsp1-spk-cali-103c89c6.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
-File: cirrus/cs35l41-dsp1-spk-cali-103c8971.bin
-File: cirrus/cs35l41-dsp1-spk-prot-103c8971.bin
 File: cirrus/cs35l41-dsp1-spk-prot-103c8971.bin
 File: cirrus/cs35l41-dsp1-spk-cali-103c8971.bin
 File: cirrus/cs35l41-dsp1-spk-prot-103c8972.bin
