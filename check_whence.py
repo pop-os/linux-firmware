@@ -51,6 +51,11 @@ def main():
     known_prefixes = set(name for name in whence_list if name.endswith('/'))
     git_files = set(list_git())
 
+    for name in set(name for name in whence_files if name.endswith('/')):
+        sys.stderr.write('E: %s listed in WHENCE as File, but is directory\n' %
+                         name)
+        ret = 1
+
     for name in set(fw for fw in whence_files if whence_files.count(fw) > 1):
         sys.stderr.write('E: %s listed in WHENCE twice\n' % name)
         ret = 1
