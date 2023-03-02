@@ -3792,6 +3792,8 @@ File: rtl_bt/rtl8723d_fw.bin
 File: rtl_bt/rtl8723d_config.bin
 File: rtl_bt/rtl8821c_fw.bin
 File: rtl_bt/rtl8821c_config.bin
+File: rtl_bt/rtl8821cs_fw.bin
+File: rtl_bt/rtl8821cs_config.bin
 File: rtl_bt/rtl8822cu_fw.bin
 File: rtl_bt/rtl8822cu_config.bin
 File: rtl_bt/rtl8822cs_fw.bin
@@ -4314,9 +4316,6 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 Driver: liquidio -- Cavium LiquidIO driver
 
 File: liquidio/lio_23xx_nic.bin
-Version: v1.7.2
-
-File: liquidio/lio_23xx_vsw.bin
 Version: v1.7.2
 
 File: liquidio/lio_210nv_nic.bin
