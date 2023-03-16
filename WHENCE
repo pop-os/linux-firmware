@@ -6105,3 +6105,23 @@ Version: 35.00.03
 Licence: Redistributable. See LICENSE.nxp for details
 Originates from https://github.com/NXP/uwb-NXPUWB-FW.git
 --------------------------------------------------------------------------
+
+Driver: btnxpuart - NXP BT UART driver
+
+File: nxp/uartuart8997_bt_v4.bin
+File: nxp/uartiw416_bt_v0.bin
+File: nxp/helper_uart_3000000.bin
+Version: 16.92.21.p81
+
+File: nxp/uartuart8987_bt.bin
+Version: 16.92.21.p76.5
+
+File: nxp/uartuart9098_bt_v1.bin
+Version: 17.92.1.p136.24
+
+File: nxp/uartspi_n61x_v1.bin.se
+Version: 18.99.1.p154.40
+
+Licence: Redistributable. See LICENSE.nxp for details
+
+--------------------------------------------------------------------------
