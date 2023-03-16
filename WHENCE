@@ -395,7 +395,7 @@ Version: 8.07.00 MIDQ
 
 Licence: Redistributable. See LICENCE.qla2xxx for details
 
-Available from http://ldriver.qlogic.com/firmware/ 
+Available from http://ldriver.qlogic.com/firmware/
 
 --------------------------------------------------------------------------
 
@@ -930,13 +930,13 @@ File: iwlwifi-QuZ-a0-jf-b0-72.ucode
 Version: 72.daa05125.0
 
 File: iwlwifi-ty-a0-gf-a0-72.ucode
-Version: 72.daa05125.0
+Version: 72.a764baac.0
 
 File: iwlwifi-so-a0-gf4-a0-72.ucode
-Version: 72.daa05125.0
+Version: 72.a764baac.0
 
 File: iwlwifi-so-a0-gf-a0-72.ucode
-Version: 72.daa05125.0
+Version: 72.a764baac.0
 
 File: iwlwifi-so-a0-hr-b0-72.ucode
 Version: 72.daa05125.0
@@ -1002,13 +1002,13 @@ File: iwlwifi-QuZ-a0-jf-b0-74.ucode
 Version: 74.a5e9588b.0
 
 File: iwlwifi-ty-a0-gf-a0-74.ucode
-Version: 74.a5e9588b.0
+Version: 74.fe17486e.0
 
 File: iwlwifi-so-a0-gf4-a0-74.ucode
-Version: 74.a5e9588b.0
+Version: 74.fe17486e.0
 
 File: iwlwifi-so-a0-gf-a0-74.ucode
-Version: 74.a5e9588b.0
+Version: 74.fe17486e.0
 
 File: iwlwifi-so-a0-hr-b0-74.ucode
 Version: 74.a5e9588b.0
@@ -1072,10 +1072,6 @@ Version: 75.27f1c37b.0
 
 File: iwlwifi-so-a0-jf-b0-77.ucode
 Version: 74.f92b5fed.0
-
-File: iwlwifi-so-a0-gf-a0.pnvm
-
-File: iwlwifi-so-a0-gf4-a0.pnvm
 
 File: iwlwifi-ty-a0-gf-a0.pnvm
 
@@ -2563,29 +2559,29 @@ Licence: Redistributable. See LICENCE.ueagle-atm4-firmware for details
 Driver: ueagle-atm - Driver for USB ADSL Modems based on Eagle I,II,III
 
 File: ueagle-atm/930-fpga.bin
-File: ueagle-atm/CMVeiWO.bin    
-File: ueagle-atm/CMVepFR10.bin  
-File: ueagle-atm/DSP9p.bin	
+File: ueagle-atm/CMVeiWO.bin
+File: ueagle-atm/CMVepFR10.bin
+File: ueagle-atm/DSP9p.bin
 File: ueagle-atm/eagleIII.fw
-File: ueagle-atm/adi930.fw     
-File: ueagle-atm/CMVep.bin      
-File: ueagle-atm/CMVepFR.bin    
+File: ueagle-atm/adi930.fw
+File: ueagle-atm/CMVep.bin
+File: ueagle-atm/CMVepFR.bin
 File: ueagle-atm/DSPei.bin
-File: ueagle-atm/CMV9i.bin     
-File: ueagle-atm/CMVepES03.bin  
-File: ueagle-atm/CMVepIT.bin    
+File: ueagle-atm/CMV9i.bin
+File: ueagle-atm/CMVepES03.bin
+File: ueagle-atm/CMVepIT.bin
 File: ueagle-atm/DSPep.bin
-File: ueagle-atm/CMV9p.bin     
-File: ueagle-atm/CMVepES.bin    
-File: ueagle-atm/CMVepWO.bin    
+File: ueagle-atm/CMV9p.bin
+File: ueagle-atm/CMVepES.bin
+File: ueagle-atm/CMVepWO.bin
 File: ueagle-atm/eagleI.fw
-File: ueagle-atm/CMVei.bin     
-File: ueagle-atm/CMVepFR04.bin  
-File: ueagle-atm/DSP9i.bin	    
+File: ueagle-atm/CMVei.bin
+File: ueagle-atm/CMVepFR04.bin
+File: ueagle-atm/DSP9i.bin
 File: ueagle-atm/eagleII.fw
 Version: 1.1
 
-Licence: Redistributable. Based on 
+Licence: Redistributable. Based on
          https://mail.gna.org/public/eagleusb-dev/2004-11/msg00172.html
 
 --------------------------------------------------------------------------
@@ -2690,6 +2686,7 @@ Link: brcm/brcmfmac54591-pcie.clm_blob -> ../cypress/cyfmac54591-pcie.clm_blob
 
 Licence: Redistributable. See LICENCE.cypress for details.
 
+File: "brcm/brcmfmac43241b4-sdio.Advantech-MICA-071.txt"
 File: "brcm/brcmfmac43241b4-sdio.Intel Corp.-VALLEYVIEW C0 PLATFORM.txt"
 File: "brcm/brcmfmac4330-sdio.Prowise-PT301.txt"
 File: "brcm/brcmfmac43340-sdio.ASUSTeK COMPUTER INC.-TF103CE.txt"
@@ -2726,6 +2723,7 @@ Link: brcm/brcmfmac43455-sdio.Raspberry\ Pi\ Foundation-Raspberry\ Pi\ 4\ Model\
 Link: brcm/brcmfmac43455-sdio.Raspberry\ Pi\ Foundation-Raspberry\ Pi\ Compute\ Module\ 4.txt -> brcmfmac43455-sdio.raspberrypi,4-model-b.txt
 File: "brcm/brcmfmac43455-sdio.MINIX-NEO Z83-4.txt"
 File: "brcm/brcmfmac4356-pcie.gpd-win-pocket.txt"
+File: "brcm/brcmfmac4356-pcie.Intel Corporation-CHERRYVIEW D1 PLATFORM.txt"
 File: "brcm/brcmfmac4356-pcie.Xiaomi Inc-Mipad2.txt"
 File: brcm/brcmfmac4356-sdio.AP6356S.txt
 Link: brcm/brcmfmac4356-sdio.firefly,firefly-rk3399.txt -> brcmfmac4356-sdio.AP6356S.txt
@@ -2980,19 +2978,6 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
-Driver: r8723au - Realtek 802.11n WLAN driver for RTL8723AU
-
-Info: Taken from Realtek driver rtl8723A_WiFi_linux_v4.1.3_6044.20121224
-      Firmware is embedded in the driver as data statements. This info
-      has been extracted into a binary file.
-File: rtlwifi/rtl8723aufw_A.bin
-File: rtlwifi/rtl8723aufw_B.bin
-File: rtlwifi/rtl8723aufw_B_NoBT.bin
-
-Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
-
---------------------------------------------------------------------------
-
 Driver: rtl8188ee - Realtek 802.11n WLAN driver for RTL8188EE
 
 Info: Taken from Realtek version rtl_92ce_92se_92de_8723ae_88ee_linux_mac80211_0010.0109.2013
@@ -3134,6 +3119,11 @@ Info: rtl8188fu taken from Realtek driver
       Firmware was embedded in the driver as data statements. This info
       has been extracted into a binary file.
 File: rtlwifi/rtl8188fufw.bin
+
+File: rtlwifi/rtl8710bufw_SMIC.bin
+Version: 16.0
+File: rtlwifi/rtl8710bufw_UMC.bin
+Version: 16.0
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3951,7 +3941,7 @@ License:
 
   This SDD ("Static Dynamic Data") file is licensed strictly for use with
   the Sagrad WiFi modules (such as the SG901-1091/1098) that utilize the
-  cw1200 driver. There is no warranty expressed or implied about its 
+  cw1200 driver. There is no warranty expressed or implied about its
   fitness for any purpose.
 
   Permission is hereby granted for the distribution of this SDD file as
@@ -3997,6 +3987,8 @@ File: qat_c3xxx_mmp.bin
 File: qat_c62x.bin
 File: qat_c62x_mmp.bin
 Link: qat_mmp.bin -> qat_895xcc_mmp.bin
+File: qat_4xxx.bin
+File: qat_4xxx_mmp.bin
 
 Licence: Redistributable. See LICENCE.qat_firmware for details
 
@@ -4072,7 +4064,7 @@ Driver: snd_soc_catpt -- Intel AudioDSP driver for HSW/BDW platforms
 
 File: intel/catpt/bdw/dsp_basefw.bin
 Version: 44b81c4d5397a63108356f58f036953d9b288c4e
-Link: intel/IntcSST2.bin -> intel/catpt/bdw/dsp_basefw.bin
+Link: intel/IntcSST2.bin -> catpt/bdw/dsp_basefw.bin
 
 License: Redistributable. See LICENCE.IntcSST2 for details
 
@@ -4083,15 +4075,15 @@ Driver: snd_soc_avs -- Intel AudioDSP driver for cAVS platforms
 File: intel/avs/skl/dsp_basefw.bin
 File: intel/avs/skl/dsp_mod_7CAD0808-AB10-CD23-EF45-12AB34CD56EF.bin
 Version: 9.21.00.4899
-Link: intel/dsp_fw_release.bin -> intel/avs/skl/dsp_basefw.bin
-Link: intel/dsp_fw_kbl.bin -> intel/avs/skl/dsp_basefw.bin
+Link: intel/dsp_fw_release.bin -> avs/skl/dsp_basefw.bin
+Link: intel/dsp_fw_kbl.bin -> avs/skl/dsp_basefw.bin
 File: intel/avs/apl/dsp_basefw.bin
 Version: 9.22.01.4908
-Link: intel/dsp_fw_bxtn.bin -> intel/avs/apl/dsp_basefw.bin
-Link: intel/dsp_fw_glk.bin -> intel/avs/apl/dsp_basefw.bin
+Link: intel/dsp_fw_bxtn.bin -> avs/apl/dsp_basefw.bin
+Link: intel/dsp_fw_glk.bin -> avs/apl/dsp_basefw.bin
 File: intel/avs/cnl/dsp_basefw.bin
 Version: 10.23.00.8551
-Link: intel/dsp_fw_cnl.bin -> intel/avs/cnl/dsp_basefw.bin
+Link: intel/dsp_fw_cnl.bin -> avs/cnl/dsp_basefw.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -5344,9 +5336,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20230117170855a
+Version: 20230302150916a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20230117170942
+Version: 20230302150956
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5355,7 +5347,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20230117171152
+Version: 20230302151355
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5942,8 +5934,6 @@ Link: cirrus/cs35l41-dsp1-spk-prot-103c8995.wmfw -> cs35l41/v6.61.1/halo_cspl_RA
 Link: cirrus/cs35l41-dsp1-spk-cali-103c8995.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-103c89c6.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 Link: cirrus/cs35l41-dsp1-spk-cali-103c89c6.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
-File: cirrus/cs35l41-dsp1-spk-cali-103c8971.bin
-File: cirrus/cs35l41-dsp1-spk-prot-103c8971.bin
 File: cirrus/cs35l41-dsp1-spk-prot-103c8971.bin
 File: cirrus/cs35l41-dsp1-spk-cali-103c8971.bin
 File: cirrus/cs35l41-dsp1-spk-prot-103c8972.bin
