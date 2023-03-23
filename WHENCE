@@ -3053,6 +3053,7 @@ Driver: rtw89 - Realtek 802.11ax WLAN driver for RTL8852A/RTL8852B/RTL8852C
 
 File: rtw89/rtw8852a_fw.bin
 File: rtw89/rtw8852b_fw.bin
+File: rtw89/rtw8852b_fw-1.bin
 File: rtw89/rtw8852c_fw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
@@ -3691,6 +3692,10 @@ File:intel/ibt-19-0-1.sfi
 Version: BT_Quasar_REL53263
 File:intel/ibt-19-0-1.ddc
 Version: BT_Quasar_REL53263
+File:intel/ibt-19-0-3.sfi
+Version: BT_Quasar_REL53263
+File:intel/ibt-19-0-3.ddc
+Version: BT_Quasar_REL53263
 File:intel/ibt-19-0-4.sfi
 Version: BT_HarrisonPeak_REL53263
 File:intel/ibt-19-0-4.ddc
@@ -3720,44 +3725,44 @@ Version: BT_HarrisonPeak_REL53263
 File:intel/ibt-19-240-4.ddc
 Version: BT_HarrisonPeak_REL53263
 File:intel/ibt-0041-0041.sfi
-Version: BT_TyphoonPeak_REL56683
+Version: BT_TyphoonPeak_REL59564
 File:intel/ibt-0041-0041.ddc
-Version: BT_TyphoonPeak_REL56683
+Version: BT_TyphoonPeak_REL59564
 File:intel/ibt-0040-0041.sfi
-Version: BT_Solar_GfP2_REL56683
+Version: BT_Solar_GfP2_REL59564
 File:intel/ibt-0040-0041.ddc
-Version: BT_Solar_GfP2_REL56683
+Version: BT_Solar_GfP2_REL59564
 File:intel/ibt-1040-0041.sfi
-Version: BT_SolarF_GfP2_REL56683
+Version: BT_SolarF_GfP2_REL59564
 File:intel/ibt-1040-0041.ddc
-Version: BT_SolarF_GfP2_REL56683
+Version: BT_SolarF_GfP2_REL59564
 
 File:intel/ibt-0040-1020.sfi
-Version: BT_Solar_JfP1_REL52159
+Version: BT_Solar_JfP1_REL59564
 File:intel/ibt-0040-1020.ddc
-Version: BT_Solar_JfP1_REL52159
+Version: BT_Solar_JfP1_REL59564
 File:intel/ibt-1040-1020.sfi
-Version: BT_SolarF_JfP1_REL52159
+Version: BT_SolarF_JfP1_REL59564
 File:intel/ibt-1040-1020.ddc
-Version: BT_SolarF_JfP1_REL52159
+Version: BT_SolarF_JfP1_REL59564
 
 File:intel/ibt-0040-2120.sfi
 Version: BT_Solar_JfP2_REL52159
 File:intel/ibt-0040-2120.ddc
 Version: BT_Solar_JfP2_REL52159
 File:intel/ibt-1040-2120.sfi
-Version: BT_SolarF_JfP2_REL52159
+Version: BT_SolarF_JfP2_REL59564
 File:intel/ibt-1040-2120.ddc
-Version: BT_SolarF_JfP2_REL52159
+Version: BT_SolarF_JfP2_REL59564
 
 File:intel/ibt-0040-4150.sfi
-Version: BT_Solar_HrP2_REL56683
+Version: BT_Solar_JnP2_REL59564
 File:intel/ibt-0040-4150.ddc
-Version: BT_Solar_HrP2_REL56683
+Version: BT_Solar_JnP2_REL59564
 File:intel/ibt-1040-4150.sfi
-Version: BT_SolarF_HrP2_REL56683
+Version: BT_SolarF_JnP2_REL59564
 File:intel/ibt-1040-4150.ddc
-Version: BT_SolarF_HrP2_REL56683
+Version: BT_SolarF_JnP2_REL59564
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -4650,7 +4655,7 @@ File: i915/adlp_dmc_ver2_16.bin
 Version: DMC API/APB ver 2 release 16 for Alderlake P
 
 File: i915/adlp_dmc.bin
-Version: DMC API/APB ver 2 release 18 for Alderlake P
+Version: DMC API/APB ver 2 release 19 for Alderlake P
 
 File: i915/adlp_guc_62.0.3.bin
 Version: GuC API/APB ver 62.0.3 for Alderlake P
@@ -4689,7 +4694,7 @@ File: i915/mtl_dmc_ver2_10.bin
 Version: DMC API/APB ver 2 release 10 for Meteorlake
 
 File: i915/mtl_dmc.bin
-Version: DMC API/APB ver 2 release 11 for Meteorlake
+Version: DMC API/APB ver 2 release 12 for Meteorlake
 
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
@@ -5178,9 +5183,9 @@ Version: v2.0.13324
 File: mediatek/mt8186/scp.img
 Version: v0.0.9
 File: mediatek/mt8192/scp.img
-Version: v2.0.8548
+Version: v2.0.20536
 File: mediatek/mt8195/scp.img
-Version: v2.0.11956
+Version: v2.0.20536
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6103,4 +6108,24 @@ Version: 35.00.03
 
 Licence: Redistributable. See LICENSE.nxp for details
 Originates from https://github.com/NXP/uwb-NXPUWB-FW.git
+--------------------------------------------------------------------------
+
+Driver: btnxpuart - NXP BT UART driver
+
+File: nxp/uartuart8997_bt_v4.bin
+File: nxp/uartiw416_bt_v0.bin
+File: nxp/helper_uart_3000000.bin
+Version: 16.92.21.p81
+
+File: nxp/uartuart8987_bt.bin
+Version: 16.92.21.p76.5
+
+File: nxp/uartuart9098_bt_v1.bin
+Version: 17.92.1.p136.24
+
+File: nxp/uartspi_n61x_v1.bin.se
+Version: 18.99.1.p154.40
+
+Licence: Redistributable. See LICENSE.nxp for details
+
 --------------------------------------------------------------------------
