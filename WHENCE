@@ -5596,6 +5596,10 @@ https://github.com/genesi/linux-legacy/tree/master/drivers/mxc/amd-gpu
 
 Driver: qcom_q6v5_pas - Qualcomm remoteproc firmware
 
+File: qcom/apq8016/mba.mbn
+File: qcom/apq8016/modem.mbn
+File: qcom/apq8016/wcnss.mbn
+File: qcom/apq8016/WCNSS_qcom_wlan_nv_sbc.bin
 File: qcom/apq8096/adsp.mbn
 File: qcom/apq8096/adspr.jsn
 File: qcom/apq8096/adspua.jsn
@@ -5624,6 +5628,7 @@ Link: qcom/LENOVO/21BX -> ../sc8280xp/LENOVO/21BX
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
+http://releases.linaro.org/96boards/dragonboard410c/qualcomm/firmware/linux-board-support-package-r1036.1.zip
 http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v4.zip
 http://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210331-v4.zip
 
