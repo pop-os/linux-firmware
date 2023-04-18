@@ -3820,6 +3820,8 @@ File: rtl_bt/rtl8852bu_fw.bin
 File: rtl_bt/rtl8852bu_config.bin
 File: rtl_bt/rtl8852cu_fw.bin
 File: rtl_bt/rtl8852cu_config.bin
+File: rtl_bt/rtl8851bu_fw.bin
+File: rtl_bt/rtl8851bu_config.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
