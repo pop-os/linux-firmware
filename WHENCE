@@ -1454,8 +1454,9 @@ Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
 
 Driver: mt7601u - MediaTek MT7601U Wireless MACs
 
-File: mt7601u.bin
+File: mediatek/mt7601u.bin
 Version: 34
+Link: mt7601u.bin -> mediatek/mt7601u.bin
 
 Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
 
@@ -3845,7 +3846,8 @@ File rtl_bt/rtl8761bu_config.bin
 
 Driver: btmtk_usb - Bluetooth USB driver
 
-File: mt7650.bin
+File: mediatek/mt7650.bin
+Link: mt7650.bin -> mediatek/mt7650.bin
 
 Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
 
@@ -5250,11 +5252,13 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 Driver: mt76x2e - MediaTek MT76x2 Wireless MACs
 
-File: mt7662.bin
+File: mediatek/mt7662.bin
 Version: 1.9
+Link: mt7662.bin -> mediatek/mt7662.bin
 
-File: mt7662_rom_patch.bin
+File: mediatek/mt7662_rom_patch.bin
 Version: 0.0.2_P69
+Link: mt7662_rom_patch.bin -> mediatek/mt7662_rom_patch.bin
 
 Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
 
