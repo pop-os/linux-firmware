@@ -4317,6 +4317,8 @@ Driver: qca - Qualcomm Atheros Bluetooth support for WCN6750 chips
 File: qca/msbtfw11.mbn
 File: qca/msbtfw11.tlv
 File: qca/msnv11.bin
+File: qca/msnv11.b0a
+File: qca/msnv11.b09
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
