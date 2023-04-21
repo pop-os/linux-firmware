@@ -5369,6 +5369,8 @@ File: mediatek/mt7981_wa.bin
 Version: 20221208202048
 File: mediatek/mt7981_rom_patch.bin
 Version: 20221208201745a
+File: mediatek/mt7981_wo.bin
+Version: 20221208202138
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
