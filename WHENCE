@@ -5628,6 +5628,9 @@ File: qcom/sdm845/adspr.jsn
 File: qcom/sdm845/adspua.jsn
 File: qcom/sdm845/cdsp.mbn
 File: qcom/sdm845/cdspr.jsn
+File: qcom/sdm845/Thundercomm/db845c/slpi.mbn
+File: qcom/sdm845/Thundercomm/db845c/slpir.jsn
+File: qcom/sdm845/Thundercomm/db845c/slpius.jsn
 File: qcom/sm8250/adsp.mbn
 File: qcom/sm8250/adspr.jsn
 File: qcom/sm8250/adspua.jsn
