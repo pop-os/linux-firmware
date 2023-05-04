@@ -5646,8 +5646,9 @@ https://github.com/andersson/pil-squasher
 Driver: qcom_q6v5_mss - Qualcomm modem subsystem firmware
 
 File: qcom/sdm845/mba.mbn
-File: qcom/sdm845/modem.mbn
+File: qcom/sdm845/modem_nm.mbn
 File: qcom/sdm845/modemuw.jsn
+Link: qcom/sdm845/modem.mbn -> modem_nm.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
