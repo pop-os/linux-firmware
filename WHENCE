@@ -3110,6 +3110,13 @@ Info: rtl8188eu taken from Realtek driver version
 File: rtlwifi/rtl8188eufw.bin
 Version: 28.0
 
+Info: rtl8192fu taken from Realtek driver version
+      v5.8.6.2_35538.20191028_COEX20190910-0d02.
+      Firmware is embedded in the driver as data statements. This info
+      has been extracted into a binary file.
+File: rtlwifi/rtl8192fufw.bin
+Version: 6.0
+
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
