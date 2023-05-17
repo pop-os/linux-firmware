@@ -2973,15 +2973,6 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
-Driver: rtl8188eu - Realtek 802.11n WLAN driver for RTL8188EU
-
-Info: Taken from Realtek version RTL8188EUS_linux_v4.1.4_6773.20130222
-File: rtlwifi/rtl8188eufw.bin
-
-Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
-
---------------------------------------------------------------------------
-
 Driver: rtl8821ae - Realtek 802.11n WLAN driver for RTL8812AE
 
 Info: From Vendor's realtek/rtlwifi_linux_mac80211_0019.0320.2014V628 driver
@@ -3111,6 +3102,20 @@ File: rtlwifi/rtl8710bufw_SMIC.bin
 Version: 16.0
 File: rtlwifi/rtl8710bufw_UMC.bin
 Version: 16.0
+
+Info: rtl8188eu taken from Realtek driver version
+      v5.2.2.4_25483.20171222.
+      Firmware is embedded in the driver as data statements. This info
+      has been extracted into a binary file.
+File: rtlwifi/rtl8188eufw.bin
+Version: 28.0
+
+Info: rtl8192fu taken from Realtek driver version
+      v5.8.6.2_35538.20191028_COEX20190910-0d02.
+      Firmware is embedded in the driver as data statements. This info
+      has been extracted into a binary file.
+File: rtlwifi/rtl8192fufw.bin
+Version: 6.0
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
