@@ -6,6 +6,9 @@
 
 verbose=:
 prune=no
+# shellcheck disable=SC2209
+compress=cat
+compext=
 
 while test $# -gt 0; do
     case $1 in
@@ -17,6 +20,27 @@ while test $# -gt 0; do
 
         -P | --prune)
             prune=yes
+            shift
+            ;;
+
+        --xz)
+            if test "$compext" == ".zst"; then
+                echo "ERROR: cannot mix XZ and ZSTD compression"
+                exit 1
+            fi
+            compress="xz --compress --quiet --stdout --check=crc32"
+            compext=".xz"
+            shift
+            ;;
+
+        --zstd)
+            if test "$compext" == ".xz"; then
+                echo "ERROR: cannot mix XZ and ZSTD compression"
+                exit 1
+            fi
+            # shellcheck disable=SC2209
+            compress="zstd --compress --quiet --stdout"
+            compext=".zst"
             shift
             ;;
 
@@ -35,18 +59,23 @@ done
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
 grep '^File:' WHENCE | sed -e 's/^File: *//g;s/"//g' | while read f; do
     test -f "$f" || continue
-    $verbose "copying file $f"
     install -d "$destdir/$(dirname "$f")"
-    cp -d "$f" "$destdir/$f"
+    $verbose "copying/compressing file $f$compext"
+    if test "$compress" != "cat" && grep -q "^Raw: $f\$" WHENCE; then
+        $verbose "compression will be skipped for file $f"
+        cat "$f" > "$destdir/$f"
+    else
+        $compress "$f" > "$destdir/$f$compext"
+    fi
 done
 
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
 grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do
-    if test -L "$f"; then
-        test -f "$destdir/$f" && continue
-        $verbose "copying link $f"
+    if test -L "$f$compext"; then
+        test -f "$destdir/$f$compext" && continue
+        $verbose "copying link $f$compext"
         install -d "$destdir/$(dirname "$f")"
-        cp -d "$f" "$destdir/$f"
+        cp -d "$f$compext" "$destdir/$f$compext"
 
         if test "x$d" != "x"; then
             target="$(readlink "$f")"
@@ -58,16 +87,16 @@ grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do
                     $verbose "WARNING: unneeded symlink detected: $f"
                 else
                     $verbose "WARNING: pruning unneeded symlink $f"
-                    rm -f "$f"
+                    rm -f "$f$compext"
                 fi
             fi
         else
             $verbose "WARNING: missing target for symlink $f"
         fi
     else
-        $verbose "creating link $f -> $d"
         install -d "$destdir/$(dirname "$f")"
-        ln -sf "$d" "$destdir/$f"
+        $verbose "creating link $f$compext -> $d$compext"
+        ln -s "$d$compext" "$destdir/$f$compext"
     fi
 done
 
