@@ -34,16 +34,16 @@ done
 grep '^File:' WHENCE | sed -e's/^File: *//g' -e's/"//g' | while read f; do
     test -f "$f" || continue
     $verbose "copying file $f"
-    install -d $destdir/$(dirname "$f")
-    cp -d "$f" $destdir/"$f"
+    install -d "$destdir/$(dirname "$f")"
+    cp -d "$f" "$destdir/$f"
 done
 
 grep -E '^Link:' WHENCE | sed -e's/^Link: *//g' -e's/-> //g' | while read f d; do
     if test -L "$f"; then
         test -f "$destdir/$f" && continue
         $verbose "copying link $f"
-        install -d $destdir/$(dirname "$f")
-        cp -d "$f" $destdir/"$f"
+        install -d "$destdir/$(dirname "$f")"
+        cp -d "$f" "$destdir/$f"
 
         if test "x$d" != "x"; then
             target=`readlink "$f"`
@@ -63,7 +63,7 @@ grep -E '^Link:' WHENCE | sed -e's/^Link: *//g' -e's/-> //g' | while read f d; d
         fi
     else
         $verbose "creating link $f -> $d"
-        install -d $destdir/$(dirname "$f")
+        install -d "$destdir/$(dirname "$f")"
         ln -sf "$d" "$destdir/$f"
     fi
 done
