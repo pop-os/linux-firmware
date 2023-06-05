@@ -46,7 +46,7 @@ grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do
         cp -d "$f" "$destdir/$f"
 
         if test "x$d" != "x"; then
-            target=`readlink "$f"`
+            target="$(readlink "$f")"
 
             if test "x$target" != "x$d"; then
                 $verbose "WARNING: inconsistent symlink target: $target != $d"
