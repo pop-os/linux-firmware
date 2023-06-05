@@ -33,7 +33,7 @@ def list_whence_files():
         for line in whence:
             match = re.match(r'File:\s*(.*)', line)
             if match:
-                yield match.group(1).replace("\ ", " ")
+                yield match.group(1).replace("\ ", " ").replace("\"", "")
                 continue
 
 def list_git():
