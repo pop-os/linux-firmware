@@ -60,6 +60,11 @@ def main():
         sys.stderr.write('E: %s listed in WHENCE twice\n' % name)
         ret = 1
 
+    for name in set(link for link in whence_files if os.path.islink(link)):
+        sys.stderr.write('E: %s listed in WHENCE as File, but is a symlink\n' %
+                         name)
+        ret = 1
+
     for name in sorted(list(known_files - git_files)):
         sys.stderr.write('E: %s listed in WHENCE does not exist\n' % name)
         ret = 1
