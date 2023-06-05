@@ -10,6 +10,7 @@ prune=no
 while test $# -gt 0; do
     case $1 in
         -v | --verbose)
+            # shellcheck disable=SC2209
             verbose=echo
             shift
             ;;
@@ -21,7 +22,7 @@ while test $# -gt 0; do
 
         *)
             if test "x$destdir" != "x"; then
-                echo "ERROR: unknown command-line options: $@"
+                echo "ERROR: unknown command-line options: $*"
                 exit 1
             fi
 
@@ -31,6 +32,7 @@ while test $# -gt 0; do
     esac
 done
 
+# shellcheck disable=SC2162 # file/folder name can include escaped symbols
 grep '^File:' WHENCE | sed -e 's/^File: *//g;s/"//g' | while read f; do
     test -f "$f" || continue
     $verbose "copying file $f"
@@ -38,6 +40,7 @@ grep '^File:' WHENCE | sed -e 's/^File: *//g;s/"//g' | while read f; do
     cp -d "$f" "$destdir/$f"
 done
 
+# shellcheck disable=SC2162 # file/folder name can include escaped symbols
 grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do
     if test -L "$f"; then
         test -f "$destdir/$f" && continue
