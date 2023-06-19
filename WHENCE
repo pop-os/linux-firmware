@@ -6119,14 +6119,14 @@ File: cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid0-l0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid0-r0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid1-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid0-l0.bin -> cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid0-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid0-r0.bin -> cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid0-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid1-l0.bin -> cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid1-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid1-r0.bin -> cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid1-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid0-l0.bin -> cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid0-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid0-r0.bin -> cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid0-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid1-l0.bin -> cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid1-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid1-r0.bin -> cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10431b93-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10431b93-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431b93-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10431b93-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid0-l0.bin -> cs35l41-dsp1-spk-cali-10431b93-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid0-r0.bin -> cs35l41-dsp1-spk-cali-10431b93-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid1-l0.bin -> cs35l41-dsp1-spk-cali-10431b93-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid1-r0.bin -> cs35l41-dsp1-spk-cali-10431b93-spkid1-r0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid1-r0.bin
@@ -6135,14 +6135,14 @@ File: cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid0-l0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid0-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid0-r0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid0-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid0-l0.bin -> cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid0-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid0-r0.bin -> cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid0-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid1-l0.bin -> cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid1-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid1-r0.bin -> cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid1-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid0-l0.bin -> cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid0-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid0-r0.bin -> cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid0-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid1-l0.bin -> cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid1-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid1-r0.bin -> cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10433a30-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10433a30-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10433a30-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10433a30-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid0-l0.bin -> cs35l41-dsp1-spk-cali-10433a30-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid0-r0.bin -> cs35l41-dsp1-spk-cali-10433a30-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid1-l0.bin -> cs35l41-dsp1-spk-cali-10433a30-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid1-r0.bin -> cs35l41-dsp1-spk-cali-10433a30-spkid1-r0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10433a50-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-10433a50-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10433a50-spkid1-r0.bin
