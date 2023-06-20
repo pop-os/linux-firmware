@@ -5632,7 +5632,7 @@ Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
 http://releases.linaro.org/96boards/dragonboard410c/qualcomm/firmware/linux-board-support-package-r1036.1.zip
-http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v4.zip
+http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20221121000000-v5.zip
 http://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210331-v4.zip
 
 adsp.mbn has been converted from 20-adsp_split/firmware/adsp.* using
@@ -5646,13 +5646,14 @@ https://github.com/andersson/pil-squasher
 Driver: qcom_q6v5_mss - Qualcomm modem subsystem firmware
 
 File: qcom/sdm845/mba.mbn
-File: qcom/sdm845/modem.mbn
+File: qcom/sdm845/modem_nm.mbn
 File: qcom/sdm845/modemuw.jsn
+Link: qcom/sdm845/modem.mbn -> modem_nm.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
-http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v4.zip
+http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20221121000000-v5.zip
 
 modem.mbn has been converted from 28-modem/modem.* using
 https://github.com/andersson/pil-squasher
