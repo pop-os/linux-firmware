@@ -6324,3 +6324,11 @@ Version: 18.99.1.p154.40
 Licence: Redistributable. See LICENSE.nxp for details
 
 --------------------------------------------------------------------------
+
+Driver: qcom-sc8280xp - Qualcomm ASoC tplg Firmware
+File: qcom/sc8280xp/SC8280XP-LENOVO-X13S-tplg.bin
+Version: v0.1.0
+
+Licence: Redistributable. See LICENSE.linaro for details
+Originates from https://git.linaro.org/people/srinivas.kandagatla/audioreach-topology.git
+--------------------------------------------------------------------------
