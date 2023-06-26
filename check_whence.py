@@ -91,6 +91,24 @@ def main():
         sys.stderr.write('E: %s listed in WHENCE does not exist\n' % name)
         ret = 1
 
+    # A link can point to another link, or to a file...
+    valid_targets = set(link[0] for link in links_list) | git_files
+
+    # ... or to a directory
+    for target in set(valid_targets):
+        dirname = target
+        while True:
+            dirname = os.path.dirname(dirname)
+            if dirname == '':
+                break
+            valid_targets.add(dirname)
+
+    for name, target in sorted(links_list):
+        if target not in valid_targets:
+            sys.stderr.write('E: target %s of link %s in WHENCE'
+                             ' does not exist\n' % (target, name))
+            ret = 1
+
     for name in sorted(list(git_files - known_files)):
         # Ignore subdirectory changelogs and GPG detached signatures
         if (name.endswith('/ChangeLog') or
