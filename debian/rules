@@ -3,30 +3,55 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-dest_dir = $(CURDIR)/debian/linux-firmware
-firmware_dir = $(dest_dir)/lib/firmware
-license_dir = $(dest_dir)/usr/share/doc/linux-firmware/licenses
+arch ?= $(shell dpkg-architecture -q DEB_HOST_ARCH)
 
-%:
-	dh $@
-
-override_dh_install:
-	dh_install
-	# Everything is installed, so remove unwanted firmware and licences
-	# and check for any dangling symlinks
-	debian/scripts/remove-firmware $(firmware_dir)
-	debian/scripts/remove-firmware $(license_dir)
-	debian/scripts/check-symlinks $(dest_dir)
-
-override_dh_clean:
+clean:
+	dh_testdir
 	dh_clean
+
 	# Run sanity checks if in a git repo
 	if [ -d .git ] ; then \
 		$(MAKE) check ; \
 	fi
 
-override_dh_auto_build:
+export DH_OPTIONS
 
-override_dh_auto_test:
+install-linux-%: PACKAGE = linux-$*
+install-linux-%: DH_OPTIONS = -p$(PACKAGE)
+install-linux-%:
+	dh_testdir
+	dh_testroot
+	dh_prep
 
-override_dh_strip_nondeterminism:
+	# Install firmware files
+	debian/scripts/install-firmware $(PACKAGE) $(ARCH)
+
+	# Replace duplicate firmware files with symlinks
+	debian/scripts/symlink-duplicates $(PACKAGE)
+
+	dh_installchangelogs
+	dh_installdocs
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+install-arch: ARCH = $(arch)
+install-arch: install-linux-firmware
+
+install-indep:
+
+install: install-arch install-indep
+
+binary-arch: install-arch
+
+binary-indep: install-indep
+
+binary: binary-arch binary-indep
+
+# There's nothing to build
+build-indep:
+build-arch:
+build:
