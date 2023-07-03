@@ -1,5 +1,6 @@
-linux-firmware (20230629.gitee91452d-0ubuntu1) mantic; urgency=medium
+linux-firmware (20230629.gitee91452d-0ubuntu1+system76) mantic; urgency=medium
 
+  [ Juerg Haefliger ]
   * Miscellaneous Ubuntu changes
     - SAUCE: Remove RTL8192E from WHENCE.ubuntu
     - [Packaging] build-package: Add --clean commandline option
@@ -150,7 +151,7 @@ linux-firmware (20230629.gitee91452d-0ubuntu1) mantic; urgency=medium
   * Remove obsolete iwlwifi firmware (LP: #2025360)
     - [Packaging] Remove some obsolete iwlwifi firmware
 
- -- Juerg Haefliger <juerg.haefliger@canonical.com>  Thu, 29 Jun 2023 16:16:46 +0200
+ -- Michael Murphy <michael@mmurphy.dev>  Mon, 03 Jul 2023 16:04:01 +0200
 
 linux-firmware (20230323.gitbcdcfbcf-0ubuntu1) lunar; urgency=medium
 
