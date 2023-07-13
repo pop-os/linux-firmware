@@ -6447,6 +6447,48 @@ File: cirrus/cs35l41-dsp1-spk-prot-103c8b92.bin
 File: cirrus/cs35l41-dsp1-spk-cali-103c8b92.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8c26.bin -> cs35l41-dsp1-spk-prot-103c8b45.bin
 Link: cirrus/cs35l41-dsp1-spk-cali-103c8c26.bin -> cs35l41-dsp1-spk-cali-103c8b45.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cbd.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cbd.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cbe.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cbe.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cbf.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cbf.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cc1.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cc1.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cc2.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cc2.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cc3.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cc3.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cc4.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cc4.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-10280cbd-spkid0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10280cbd-spkid0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10280cbd-spkid1.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10280cbd-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cbe-spkid0.bin -> cs35l41-dsp1-spk-prot-10280cbd-spkid0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cbe-spkid0.bin -> cs35l41-dsp1-spk-cali-10280cbd-spkid0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cbe-spkid1.bin -> cs35l41-dsp1-spk-prot-10280cbd-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cbe-spkid1.bin -> cs35l41-dsp1-spk-cali-10280cbd-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cbf-spkid0.bin -> cs35l41-dsp1-spk-prot-10280cbd-spkid0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cbf-spkid0.bin -> cs35l41-dsp1-spk-cali-10280cbd-spkid0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cbf-spkid1.bin -> cs35l41-dsp1-spk-prot-10280cbd-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cbf-spkid1.bin -> cs35l41-dsp1-spk-cali-10280cbd-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cc1-spkid0.bin -> cs35l41-dsp1-spk-prot-10280cbd-spkid0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cc1-spkid0.bin -> cs35l41-dsp1-spk-cali-10280cbd-spkid0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cc1-spkid1.bin -> cs35l41-dsp1-spk-prot-10280cbd-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cc1-spkid1.bin -> cs35l41-dsp1-spk-cali-10280cbd-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cc2-spkid0.bin -> cs35l41-dsp1-spk-prot-10280cbd-spkid0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cc2-spkid0.bin -> cs35l41-dsp1-spk-cali-10280cbd-spkid0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cc2-spkid1.bin -> cs35l41-dsp1-spk-prot-10280cbd-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cc2-spkid1.bin -> cs35l41-dsp1-spk-cali-10280cbd-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cc3-spkid0.bin -> cs35l41-dsp1-spk-prot-10280cbd-spkid0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cc3-spkid0.bin -> cs35l41-dsp1-spk-cali-10280cbd-spkid0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cc3-spkid1.bin -> cs35l41-dsp1-spk-prot-10280cbd-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cc3-spkid1.bin -> cs35l41-dsp1-spk-cali-10280cbd-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cc4-spkid0.bin -> cs35l41-dsp1-spk-prot-10280cbd-spkid0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cc4-spkid0.bin -> cs35l41-dsp1-spk-cali-10280cbd-spkid0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10280cc4-spkid1.bin -> cs35l41-dsp1-spk-prot-10280cbd-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10280cc4-spkid1.bin -> cs35l41-dsp1-spk-cali-10280cbd-spkid1.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
 
