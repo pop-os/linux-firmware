@@ -3912,7 +3912,7 @@ Raw: amd-ucode/microcode_amd_fam17h.bin
 Version: 2023-04-13
 File: amd-ucode/microcode_amd_fam19h.bin
 Raw: amd-ucode/microcode_amd_fam19h.bin
-Version: 2023-01-31
+Version: 2023-07-18
 File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
