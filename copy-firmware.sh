@@ -94,9 +94,16 @@ grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do
             $verbose "WARNING: missing target for symlink $f"
         fi
     else
-        install -d "$destdir/$(dirname "$f")"
-        $verbose "creating link $f$compext -> $d$compext"
-        ln -s "$d$compext" "$destdir/$f$compext"
+        directory="$destdir/$(dirname "$f")"
+        install -d "$directory"
+        target="$(cd "$directory" && realpath -m -s "$d")"
+        if test -d "$target"; then
+            $verbose "creating link $f -> $d"
+            ln -s "$d" "$destdir/$f"
+        else
+            $verbose "creating link $f$compext -> $d$compext"
+            ln -s "$d$compext" "$destdir/$f$compext"
+        fi
     fi
 done
 
