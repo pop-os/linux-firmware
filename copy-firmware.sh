@@ -24,7 +24,7 @@ while test $# -gt 0; do
             ;;
 
         --xz)
-            if test "$compext" == ".zst"; then
+            if test "$compext" = ".zst"; then
                 echo "ERROR: cannot mix XZ and ZSTD compression"
                 exit 1
             fi
@@ -34,7 +34,7 @@ while test $# -gt 0; do
             ;;
 
         --zstd)
-            if test "$compext" == ".xz"; then
+            if test "$compext" = ".xz"; then
                 echo "ERROR: cannot mix XZ and ZSTD compression"
                 exit 1
             fi
