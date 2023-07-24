@@ -6114,6 +6114,175 @@ File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid0-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid0-r0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid1-r0.bin
+File: cirrus/cs35l41/v6.78.0/halo_cspl_RAM_revB2_29.80.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431573.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431573.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431463.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431463.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431483.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431483.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431663.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431663.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431473.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431473.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431493.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431493.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431533.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431533.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431433.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431433.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431caf.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431caf.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431cef.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431cef.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-104314d3.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-104314d3.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431c9f.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431c9f.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431cdf.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431cdf.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431ccf.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431ccf.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431503.wmfw -> cs35l41/v6.78.0/halo_cspl_RAM_revB2_29.80.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431503.wmfw -> cs35l41/v6.78.0/halo_cspl_RAM_revB2_29.80.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-104314e3.wmfw -> cs35l41/v6.78.0/halo_cspl_RAM_revB2_29.80.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-104314e3.wmfw -> cs35l41/v6.78.0/halo_cspl_RAM_revB2_29.80.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431d1f.wmfw -> cs35l41/v6.78.0/halo_cspl_RAM_revB2_29.80.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431d1f.wmfw -> cs35l41/v6.78.0/halo_cspl_RAM_revB2_29.80.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-104317f3.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-104317f3.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-10431c9f-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431c9f-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431c9f-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431c9f-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431c9f-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431c9f-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431c9f-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431c9f-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431caf-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431caf-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431caf-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431caf-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431caf-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431caf-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431caf-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431caf-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431503-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431503-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431503-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431503-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431503-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431503-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431503-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431503-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431ccf-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431ccf-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431ccf-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431ccf-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431ccf-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431ccf-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431ccf-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431ccf-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431cef-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431cef-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431cef-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431cef-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431cef-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431cef-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431cef-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431cef-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431463-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431463-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431463-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431463-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431463-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431463-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431463-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431463-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431483-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431483-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431483-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431483-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431473-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431473-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431473-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431473-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431533-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431533-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431533-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431533-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431533-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431533-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431533-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431533-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431433-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431433-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431433-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431433-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431433-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431433-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431433-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431433-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431573-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431573-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431573-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431573-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431573-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431573-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431573-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431573-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-104317f3-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-104317f3-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-104317f3-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-104317f3-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-104317f3-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-104317f3-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-104317f3-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-104317f3-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431493-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431493-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431493-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431493-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431493-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431493-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431493-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431493-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431663-l0.bin -> cs35l41-dsp1-spk-prot-10431483-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10431663-l0.bin -> cs35l41-dsp1-spk-cali-10431483-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431663-r0.bin -> cs35l41-dsp1-spk-prot-10431483-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10431663-r0.bin -> cs35l41-dsp1-spk-cali-10431483-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-104314d3-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10431c9f-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-104314d3-spkid0-l0.bin -> cs35l41-dsp1-spk-cali-10431c9f-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-104314d3-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10431c9f-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-104314d3-spkid0-r0.bin -> cs35l41-dsp1-spk-cali-10431c9f-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-104314d3-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431c9f-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-104314d3-spkid1-l0.bin -> cs35l41-dsp1-spk-cali-10431c9f-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-104314d3-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10431c9f-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-104314d3-spkid1-r0.bin -> cs35l41-dsp1-spk-cali-10431c9f-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431cdf-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10431ccf-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10431cdf-spkid0-l0.bin -> cs35l41-dsp1-spk-cali-10431ccf-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431cdf-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10431ccf-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10431cdf-spkid0-r0.bin -> cs35l41-dsp1-spk-cali-10431ccf-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431cdf-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431ccf-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10431cdf-spkid1-l0.bin -> cs35l41-dsp1-spk-cali-10431ccf-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431cdf-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10431ccf-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10431cdf-spkid1-r0.bin -> cs35l41-dsp1-spk-cali-10431ccf-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-104314e3-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10431503-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-104314e3-spkid0-l0.bin -> cs35l41-dsp1-spk-cali-10431503-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-104314e3-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10431503-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-104314e3-spkid0-r0.bin -> cs35l41-dsp1-spk-cali-10431503-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-104314e3-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431503-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-104314e3-spkid1-l0.bin -> cs35l41-dsp1-spk-cali-10431503-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-104314e3-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10431503-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-104314e3-spkid1-r0.bin -> cs35l41-dsp1-spk-cali-10431503-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431d1f-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10431503-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10431d1f-spkid0-l0.bin -> cs35l41-dsp1-spk-cali-10431503-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431d1f-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10431503-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10431d1f-spkid0-r0.bin -> cs35l41-dsp1-spk-cali-10431503-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431d1f-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431503-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10431d1f-spkid1-l0.bin -> cs35l41-dsp1-spk-cali-10431503-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431d1f-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10431503-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10431d1f-spkid1-r0.bin -> cs35l41-dsp1-spk-cali-10431503-spkid1-r0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-10431b93.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 Link: cirrus/cs35l41-dsp1-spk-cali-10431b93.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-10431a20.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
