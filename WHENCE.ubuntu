@@ -171,6 +171,8 @@ File: vsc/soc_a1_prod/ivsc_pkg_himx11b1_0.bin
 Link: vsc/soc_a1_prod/ivsc_pkg_himx11b1_0_a1_prod.bin -> ivsc_pkg_himx11b1_0.bin
 File: vsc/soc_a1_prod/ivsc_pkg_himx2170_0.bin
 Link: vsc/soc_a1_prod/ivsc_pkg_himx2170_0_a1_prod.bin -> ivsc_pkg_himx2170_0.bin
+File: vsc/soc_a1_prod/ivsc_pkg_himx2172_0.bin
+Link: vsc/soc_a1_prod/ivsc_pkg_himx2172_0_a1_prod.bin -> ivsc_pkg_himx2172_0.bin
 File: vsc/soc_a1_prod/ivsc_pkg_int3537_0.bin
 Link: vsc/soc_a1_prod/ivsc_pkg_int3537_0_a1_prod.bin -> ivsc_pkg_int3537_0.bin
 File: vsc/soc_a1_prod/ivsc_pkg_ovti01a0_0.bin
@@ -181,6 +183,8 @@ File: vsc/soc_a1_prod/ivsc_pkg_ovti01as_0.bin
 Link: vsc/soc_a1_prod/ivsc_pkg_ovti01as_0_a1_prod.bin -> ivsc_pkg_ovti01as_0.bin
 File: vsc/soc_a1_prod/ivsc_pkg_ovti02c1_0.bin
 Link: vsc/soc_a1_prod/ivsc_pkg_ovti02c1_0_a1_prod.bin -> ivsc_pkg_ovti02c1_0.bin
+File: vsc/soc_a1_prod/ivsc_pkg_ovti02e1_0.bin
+Link: vsc/soc_a1_prod/ivsc_pkg_ovti02e1_0_a1_prod.bin -> ivsc_pkg_ovti02e1_0.bin
 File: vsc/soc_a1_prod/ivsc_pkg_ovti2740_0.bin
 Link: vsc/soc_a1_prod/ivsc_pkg_ovti2740_0_a1_prod.bin -> ivsc_pkg_ovti2740_0.bin
 File: vsc/soc_a1_prod/ivsc_pkg_ovti5678_0.bin
@@ -195,6 +199,8 @@ File: vsc/soc_a1_prod/ivsc_skucfg_himx11b1_0_1.bin
 Link: vsc/soc_a1_prod/ivsc_skucfg_himx11b1_0_1_a1_prod.bin -> ivsc_skucfg_himx11b1_0_1.bin
 File: vsc/soc_a1_prod/ivsc_skucfg_himx2170_0_1.bin
 Link: vsc/soc_a1_prod/ivsc_skucfg_himx2170_0_1_a1_prod.bin -> ivsc_skucfg_himx2170_0_1.bin
+File: vsc/soc_a1_prod/ivsc_skucfg_himx2172_0_1.bin
+Link: vsc/soc_a1_prod/ivsc_skucfg_himx2172_0_1_a1_prod.bin -> ivsc_skucfg_himx2172_0_1.bin
 File: vsc/soc_a1_prod/ivsc_skucfg_int3537_0_1.bin
 Link: vsc/soc_a1_prod/ivsc_skucfg_int3537_0_1_a1_prod.bin -> ivsc_skucfg_int3537_0_1.bin
 File: vsc/soc_a1_prod/ivsc_skucfg_ovti01a0_0_1.bin
@@ -205,6 +211,8 @@ File: vsc/soc_a1_prod/ivsc_skucfg_ovti01as_0_1.bin
 Link: vsc/soc_a1_prod/ivsc_skucfg_ovti01as_0_1_a1_prod.bin -> ivsc_skucfg_ovti01as_0_1.bin
 File: vsc/soc_a1_prod/ivsc_skucfg_ovti02c1_0_1.bin
 Link: vsc/soc_a1_prod/ivsc_skucfg_ovti02c1_0_1_a1_prod.bin -> ivsc_skucfg_ovti02c1_0_1.bin
+File: vsc/soc_a1_prod/ivsc_skucfg_ovti02e1_0_1.bin
+Link: vsc/soc_a1_prod/ivsc_skucfg_ovti02e1_0_1_a1_prod.bin -> ivsc_skucfg_ovti02e1_0_1.bin
 File: vsc/soc_a1_prod/ivsc_skucfg_ovti2740_0_1.bin
 Link: vsc/soc_a1_prod/ivsc_skucfg_ovti2740_0_1_a1_prod.bin -> ivsc_skucfg_ovti2740_0_1.bin
 File: vsc/soc_a1_prod/ivsc_skucfg_ovti5678_0_1.bin
