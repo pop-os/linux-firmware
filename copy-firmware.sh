@@ -61,7 +61,7 @@ grep -h '^File:' WHENCE WHENCE.ubuntu | sed -e 's/^File: *//g;s/"//g' | while re
     test -f "$f" || continue
     install -d "$destdir/$(dirname "$f")"
     $verbose "copying/compressing file $f$compext"
-    if test "$compress" != "cat" && grep -q "^Raw: $f\$" WHENCE; then
+    if test "$compress" != "cat" && grep -q "^Raw: $f\$" WHENCE WHENCE.ubuntu; then
         $verbose "compression will be skipped for file $f"
         cat "$f" > "$destdir/$f"
     else
