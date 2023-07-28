@@ -4682,7 +4682,7 @@ File: i915/adlp_dmc_ver2_16.bin
 Version: DMC API/APB ver 2 release 16 for Alderlake P
 
 File: i915/adlp_dmc.bin
-Version: DMC API/APB ver 2 release 19 for Alderlake P
+Version: DMC API/APB ver 2 release 20 for Alderlake P
 
 File: i915/adlp_guc_62.0.3.bin
 Version: GuC API/APB ver 62.0.3 for Alderlake P
@@ -4721,7 +4721,7 @@ File: i915/mtl_dmc_ver2_10.bin
 Version: DMC API/APB ver 2 release 10 for Meteorlake
 
 File: i915/mtl_dmc.bin
-Version: DMC API/APB ver 2 release 12 for Meteorlake
+Version: DMC API/APB ver 2 release 13 for Meteorlake
 
 File: i915/mtl_guc_70.bin
 Version: GuC API/APB ver 70.8.0 for Meteorlake
