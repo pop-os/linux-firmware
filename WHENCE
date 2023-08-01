@@ -5549,6 +5549,10 @@ Link: qcom/venus-5.4/venus.mdt -> venus.mbn
 
 Version: 5.4-00053
 
+File: qcom/venus-6.0/venus.mbn
+
+Version: VIDEO.VE.6.0-00049-PROD-1
+
 File: qcom/vpu-1.0/venus.mbn
 Link: qcom/vpu-1.0/venus.mdt -> venus.mbn
 
