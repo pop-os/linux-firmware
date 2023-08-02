@@ -24,7 +24,7 @@ while test $# -gt 0; do
             ;;
 
         --xz)
-            if test "$compext" == ".zst"; then
+            if test "$compext" = ".zst"; then
                 echo "ERROR: cannot mix XZ and ZSTD compression"
                 exit 1
             fi
@@ -34,7 +34,7 @@ while test $# -gt 0; do
             ;;
 
         --zstd)
-            if test "$compext" == ".xz"; then
+            if test "$compext" = ".xz"; then
                 echo "ERROR: cannot mix XZ and ZSTD compression"
                 exit 1
             fi
@@ -94,9 +94,16 @@ grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do
             $verbose "WARNING: missing target for symlink $f"
         fi
     else
-        install -d "$destdir/$(dirname "$f")"
-        $verbose "creating link $f$compext -> $d$compext"
-        ln -s "$d$compext" "$destdir/$f$compext"
+        directory="$destdir/$(dirname "$f")"
+        install -d "$directory"
+        target="$(cd "$directory" && realpath -m -s "$d")"
+        if test -d "$target"; then
+            $verbose "creating link $f -> $d"
+            ln -s "$d" "$destdir/$f"
+        else
+            $verbose "creating link $f$compext -> $d$compext"
+            ln -s "$d$compext" "$destdir/$f$compext"
+        fi
     fi
 done
 

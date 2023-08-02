@@ -1177,7 +1177,7 @@ index 000000000000..5bc34d249ce6
 +
 +--------------------------------------------------------------------------
 diff --git a/check_whence.py b/check_whence.py
-index 2e6950a85e1d..4a1000816960 100755
+index d45d90f8d720..1802675e282a 100755
 --- a/check_whence.py
 +++ b/check_whence.py
 @@ -3,8 +3,8 @@
@@ -1237,8 +1237,8 @@ index 2e6950a85e1d..4a1000816960 100755
 +        sys.stderr.write('E: %s listed in WHENCE or WHENCE.ubuntu does not exist\n' % name)
          ret = 1
  
-     for name in sorted(list(git_files - known_files)):
-@@ -102,7 +102,7 @@ def main():
+     # A link can point to another link, or to a file...
+@@ -120,7 +120,7 @@ def main():
              if name.startswith(prefix):
                  break
          else:
@@ -1248,10 +1248,25 @@ index 2e6950a85e1d..4a1000816960 100755
      return ret
  
 diff --git a/copy-firmware.sh b/copy-firmware.sh
-index 58eb7e39ffb7..7977b93b4b25 100755
+index 148f0f199e5f..2d14ae2b704c 100755
 --- a/copy-firmware.sh
 +++ b/copy-firmware.sh
-@@ -57,7 +57,7 @@ while test $# -gt 0; do
+@@ -44,6 +44,14 @@ while test $# -gt 0; do
+             shift
+             ;;
+ 
++        -*)
++            if test "$compress" = "cat"; then
++                echo "ERROR: unknown command-line option: $1"
++                exit 1
++            fi
++            compress="$compress $1"
++            shift
++            ;;
+         *)
+             if test "x$destdir" != "x"; then
+                 echo "ERROR: unknown command-line options: $*"
+@@ -57,11 +65,11 @@ while test $# -gt 0; do
  done
  
  # shellcheck disable=SC2162 # file/folder name can include escaped symbols
@@ -1260,7 +1275,12 @@ index 58eb7e39ffb7..7977b93b4b25 100755
      test -f "$f" || continue
      install -d "$destdir/$(dirname "$f")"
      $verbose "copying/compressing file $f$compext"
-@@ -70,7 +70,7 @@ grep '^File:' WHENCE | sed -e 's/^File: *//g;s/"//g' | while read f; do
+-    if test "$compress" != "cat" && grep -q "^Raw: $f\$" WHENCE; then
++    if test "$compress" != "cat" && grep -q "^Raw: $f\$" WHENCE WHENCE.ubuntu; then
+         $verbose "compression will be skipped for file $f"
+         cat "$f" > "$destdir/$f"
+     else
+@@ -70,7 +78,7 @@ grep '^File:' WHENCE | sed -e 's/^File: *//g;s/"//g' | while read f; do
  done
  
  # shellcheck disable=SC2162 # file/folder name can include escaped symbols

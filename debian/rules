@@ -10,7 +10,7 @@ clean:
 	dh_clean
 
 	# Run sanity checks if in a git repo
-	if [ -d .git ] ; then \
+	if [ -d .git ] && [ -x /usr/bin/python3 ] ; then \
 		$(MAKE) check ; \
 	fi
 
@@ -31,6 +31,11 @@ install-linux-%:
 
 	dh_installchangelogs
 	dh_installdocs
+
+	# Some license files are not ASCII encoded and are therefore ignored
+	# by dh_compress so compress them all explicitly
+	gzip -9n debian/$(PACKAGE)/usr/share/doc/$(PACKAGE)/licenses/*
+
 	dh_compress
 	dh_fixperms
 	dh_installdeb
