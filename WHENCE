@@ -5644,6 +5644,16 @@ RawFile: qcom/qcm2290/adspua.jsn
 File: qcom/qcm2290/modem.mbn
 RawFile: qcom/qcm2290/modemr.jsn
 RawFile: qcom/qcm2290/modemuw.jsn
+File: qcom/qrb4210/a610_zap.mbn
+File: qcom/qrb4210/adsp.mbn
+RawFile: qcom/qrb4210/adspr.jsn
+RawFile: qcom/qrb4210/adsps.jsn
+RawFile: qcom/qrb4210/adspua.jsn
+File: qcom/qrb4210/cdsp.mbn
+RawFile: qcom/qrb4210/cdspr.jsn
+File: qcom/qrb4210/modem.mbn
+RawFile: qcom/qrb4210/modemr.jsn
+RawFile: qcom/qrb4210/modemuw.jsn
 File: qcom/sdm845/adsp.mbn
 RawFile: qcom/sdm845/adspr.jsn
 RawFile: qcom/sdm845/adspua.jsn
@@ -5671,6 +5681,7 @@ Binary files supplied originally from
 http://releases.linaro.org/96boards/dragonboard410c/qualcomm/firmware/linux-board-support-package-r1036.1.zip
 http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20221121000000-v5.zip
 https://releases.linaro.org/96boards/rb1/qualcomm/firmware/RB1_firmware_20230823-v2.zip
+https://releases.linaro.org/96boards/rb2/qualcomm/firmware/RB2_firmware_20230823-v2.zip
 http://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210331-v4.zip
 
 adsp.mbn has been converted from 20-adsp_split/firmware/adsp.* using
