@@ -5631,27 +5631,42 @@ File: qcom/apq8016/wcnss.mbn
 File: qcom/apq8016/WCNSS_qcom_wlan_nv_sbc.bin
 File: qcom/apq8096/adsp.mbn
 File: qcom/apq8096/adspr.jsn
+Raw: qcom/apq8096/adspr.jsn
 File: qcom/apq8096/adspua.jsn
+Raw: qcom/apq8096/adspua.jsn
 File: qcom/apq8096/mba.mbn
 File: qcom/apq8096/modem.mbn
 File: qcom/apq8096/modemr.jsn
+Raw: qcom/apq8096/modemr.jsn
 File: qcom/sdm845/adsp.mbn
 File: qcom/sdm845/adspr.jsn
+Raw: qcom/sdm845/adspr.jsn
 File: qcom/sdm845/adspua.jsn
+Raw: qcom/sdm845/adspua.jsn
 File: qcom/sdm845/cdsp.mbn
 File: qcom/sdm845/cdspr.jsn
+Raw: qcom/sdm845/cdspr.jsn
 File: qcom/sdm845/Thundercomm/db845c/slpi.mbn
 File: qcom/sdm845/Thundercomm/db845c/slpir.jsn
+Raw: qcom/sdm845/Thundercomm/db845c/slpir.jsn
 File: qcom/sdm845/Thundercomm/db845c/slpius.jsn
+Raw: qcom/sdm845/Thundercomm/db845c/slpius.jsn
 File: qcom/sm8250/adsp.mbn
 File: qcom/sm8250/adspr.jsn
+Raw: qcom/sm8250/adspr.jsn
 File: qcom/sm8250/adspua.jsn
+Raw: qcom/sm8250/adspua.jsn
 File: qcom/sm8250/cdsp.mbn
 File: qcom/sm8250/cdspr.jsn
+Raw: qcom/sm8250/cdspr.jsn
 File: qcom/sc8280xp/LENOVO/21BX/adspr.jsn
+Raw: qcom/sc8280xp/LENOVO/21BX/adspr.jsn
 File: qcom/sc8280xp/LENOVO/21BX/adspua.jsn
+Raw: qcom/sc8280xp/LENOVO/21BX/adspua.jsn
 File: qcom/sc8280xp/LENOVO/21BX/battmgr.jsn
+Raw: qcom/sc8280xp/LENOVO/21BX/battmgr.jsn
 File: qcom/sc8280xp/LENOVO/21BX/cdspr.jsn
+Raw: qcom/sc8280xp/LENOVO/21BX/cdspr.jsn
 File: qcom/sc8280xp/LENOVO/21BX/qcadsp8280.mbn
 File: qcom/sc8280xp/LENOVO/21BX/qccdsp8280.mbn
 File: qcom/sc8280xp/LENOVO/21BX/qcslpi8280.mbn
@@ -5676,6 +5691,7 @@ Driver: qcom_q6v5_mss - Qualcomm modem subsystem firmware
 File: qcom/sdm845/mba.mbn
 File: qcom/sdm845/modem_nm.mbn
 File: qcom/sdm845/modemuw.jsn
+Raw: qcom/sdm845/modemuw.jsn
 Link: qcom/sdm845/modem.mbn -> modem_nm.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
