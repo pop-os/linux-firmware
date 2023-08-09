@@ -1,5 +1,6 @@
-linux-firmware (20230731.git07f05b0c-0ubuntu1) mantic; urgency=medium
+linux-firmware (20230731.git07f05b0c-0ubuntu1+system76) mantic; urgency=medium
 
+  [ Juerg Haefliger ]
   * Miscellaneous Ubuntu changes
     - [Packaging] Compress all firmware license files
     - [Packaging] Check for /usr/bin/python3 in clean rule
@@ -55,7 +56,7 @@ linux-firmware (20230731.git07f05b0c-0ubuntu1) mantic; urgency=medium
   * upgrading does not defer initramfs updates (LP: #1926608)
     - [Packaging] Use dpkg-trigger for updating the initramfs
 
- -- Juerg Haefliger <juerg.haefliger@canonical.com>  Wed, 02 Aug 2023 15:26:20 +0200
+ -- Michael Aaron Murphy <michael@mmurphy.dev>  Wed, 09 Aug 2023 20:09:53 +0200
 
 linux-firmware (20230629.gitee91452d-0ubuntu1) mantic; urgency=medium
 
