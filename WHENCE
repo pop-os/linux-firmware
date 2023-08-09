@@ -536,14 +536,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.27.3.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.27.3.0.bin
+File: cxgb4/t4fw-1.27.4.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.27.4.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.27.3.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.27.3.0.bin
-File: cxgb4/t6fw-1.27.3.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.27.3.0.bin
+File: cxgb4/t5fw-1.27.4.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.27.4.0.bin
+File: cxgb4/t6fw-1.27.4.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.27.4.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 File: cxgb4/configs/t4-config-default.txt
@@ -3822,6 +3822,7 @@ File: rtl_bt/rtl8852au_config.bin
 File: rtl_bt/rtl8852bu_fw.bin
 File: rtl_bt/rtl8852bu_config.bin
 File: rtl_bt/rtl8852cu_fw.bin
+File: rtl_bt/rtl8852cu_fw_v2.bin
 File: rtl_bt/rtl8852cu_config.bin
 File: rtl_bt/rtl8851bu_fw.bin
 File: rtl_bt/rtl8851bu_config.bin
@@ -3923,7 +3924,7 @@ Raw: amd-ucode/microcode_amd_fam17h.bin
 Version: 2023-07-19
 File: amd-ucode/microcode_amd_fam19h.bin
 Raw: amd-ucode/microcode_amd_fam19h.bin
-Version: 2023-07-18
+Version: 2023-08-08
 File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
@@ -5644,7 +5645,9 @@ File: qcom/sdm845/adspua.jsn
 Raw: qcom/sdm845/adspua.jsn
 File: qcom/sdm845/cdsp.mbn
 File: qcom/sdm845/cdspr.jsn
-Raw: qcom/sdm845/cdspr.jsn
+File: qcom/sdm845/Thundercomm/db845c/slpi.mbn
+File: qcom/sdm845/Thundercomm/db845c/slpir.jsn
+File: qcom/sdm845/Thundercomm/db845c/slpius.jsn
 File: qcom/sm8250/adsp.mbn
 File: qcom/sm8250/adspr.jsn
 Raw: qcom/sm8250/adspr.jsn
@@ -5764,6 +5767,10 @@ File: mellanox/mlxsw_spectrum-13.2010.3146.mfa2
 File: mellanox/mlxsw_spectrum2-29.2010.3146.mfa2
 File: mellanox/mlxsw_spectrum3-30.2010.3146.mfa2
 File: mellanox/lc_ini_bundle_2010_3146.bin
+File: mellanox/mlxsw_spectrum-13.2012.1012.mfa2
+File: mellanox/mlxsw_spectrum2-29.2012.1012.mfa2
+File: mellanox/mlxsw_spectrum3-30.2012.1012.mfa2
+File: mellanox/mlxsw_spectrum4-34.2012.1012.mfa2
 
 Licence:
  Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
@@ -6567,6 +6574,8 @@ File: nxp/uartspi_n61x_v1.bin.se
 Version: 18.99.1.p154.40
 
 Licence: Redistributable. See LICENSE.nxp for details
+
+Originates from https://github.com/nxp-imx/imx-firmware/tree/lf-6.1.22_2.0.0/nxp
 
 --------------------------------------------------------------------------
 
