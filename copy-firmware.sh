@@ -65,11 +65,11 @@ while test $# -gt 0; do
 done
 
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
-grep '^File:' WHENCE | sed -e 's/^File: *//g;s/"//g' | while read f; do
+grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g' | while read k f; do
     test -f "$f" || continue
     install -d "$destdir/$(dirname "$f")"
     $verbose "copying/compressing file $f$compext"
-    if test "$compress" != "cat" && grep -q "^Raw: $f\$" WHENCE; then
+    if test "$compress" != "cat" && test "$k" = "RawFile"; then
         $verbose "compression will be skipped for file $f"
         cat "$f" > "$destdir/$f"
     else
