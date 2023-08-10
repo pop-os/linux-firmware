@@ -10,12 +10,6 @@ function move_item()
 
 	src=${src_dir}/${item}
 	dst=${dst_dir}/${item}
-
-	if [ -e "${src}".zst ] ; then
-		src=${src}.zst
-		dst=${dst}.zst
-	fi
-
 	mkdir -p "${dst%/*}"
 	mv "${src}" "${dst}"
 }
@@ -45,7 +39,7 @@ install -d "${staging_dir}" "${firmware_dir}" "${licenses_dir}"
 
 echo "  - Copy firmware files to ${staging_dir}"
 
-ZSTD_CLEVEL=19 ./copy-firmware.sh --zstd "${staging_dir}"
+./copy-firmware.sh "${staging_dir}"
 debian/scripts/check-symlinks "${staging_dir}"
 
 # ----------------------------------------------------------------------------
@@ -58,13 +52,13 @@ for f in debian/config/"${package}"/include.* \
 	fi
 	echo "  - Include files from ${f}"
 	while IFS= read -r items ; do
-		# Don't quote 'items' to allow for globs
-		# shellcheck disable=SC2086
-		for item in "${staging_dir}"/${items} ; do
-			# Move the item from the staging to the package directory
-			item=${item#"${staging_dir}"/}
+		while IFS= read -r item ; do
 			move_item "${item}" "${staging_dir}" "${firmware_dir}"
-		done
+		done < <(
+			# Don't quote 'items' to allow for globs
+			# shellcheck disable=SC2086
+			cd "${staging_dir}" && find ${items} \( -type f -o -type l \)
+		)
 	done < <(sed -E '/^#|^$/d' "${f}")
 done
 
@@ -96,13 +90,14 @@ for f in debian/config/"${package}"/exclude.* \
 	fi
 	echo "  - Exclude files from ${f}"
 	while IFS= read -r items ; do
-		# Don't quote 'items' to allow for globs
-		# shellcheck disable=SC2086
-		for item in "${firmware_dir}"/${items} ; do
-			# Remove the item and any link target from the package directory
-			rm -rf "$(realpath "${item}")" "${item}"
-			rm -rf "$(realpath "${item}".zst)" "${item}".zst
-		done
+		while IFS= read -r item ; do
+			# Remove the item and any link target it might point at
+			rm -f "$(realpath "${item}")" "${item}"
+		done < <(
+			# Don't quote 'items' to allow for globs
+			# shellcheck disable=SC2086
+			find "${firmware_dir}"/${items} \( -type f -o -type l \)
+		)
 	done < <(sed -E '/^#|^$/d' "${f}")
 done
 
