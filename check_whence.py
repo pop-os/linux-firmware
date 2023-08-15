@@ -78,7 +78,7 @@ def main():
             "check_whence.py",
             "configure",
             "Makefile",
-            "README",
+            "README.md",
             "copy-firmware.sh",
             "WHENCE",
         ]
