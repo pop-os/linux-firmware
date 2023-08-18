@@ -217,3 +217,13 @@ Licence: Redistributable. See LICENSE.ivsc_firmware for details.
 Also available from https://github.com/intel/ivsc-firmware/blob/main/LICENSE
 
 --------------------------------------------------------------------------
+
+Driver: intel-vpu - Driver for Intel Versatile Processing Unit (VPU)
+
+Link: intel/vpu/mtl_vpu_v0.0.bin -> vpu_37xx_v0.0.bin
+File: intel/vpu/vpu_37xx_v0.0.bin
+
+Licence: Limited patent license. See LICENSE.ivpu_firmware for details.
+Also available from https://raw.githubusercontent.com/intel/linux-vpu-driver/main/firmware/bin/COPYRIGHT
+
+--------------------------------------------------------------------------
