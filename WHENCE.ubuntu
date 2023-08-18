@@ -154,6 +154,7 @@ Driver: intel-ipu6 - Intel IPU6 driver
 
 File: intel/ipu6_fw.bin
 File: intel/ipu6ep_fw.bin
+File: intel/ipu6epmtl_fw.bin
 
 Licence: Redistributable. See LICENSE.ipu6_firmware for details.
 Also available from https://github.com/intel/ipu6-camera-bins/blob/main/LICENSE
