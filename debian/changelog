@@ -1,5 +1,6 @@
-linux-firmware (20230815.git0e048b06-0ubuntu1) mantic; urgency=medium
+linux-firmware (20230815.git0e048b06-0ubuntu1+system76) mantic; urgency=medium
 
+  [ Juerg Haefliger ]
   * compress firmware in /lib/firmware (LP: #1942260)
     - [Packaging] Add Breaks: initramfs-tools (<< 0.142ubuntu8~)
   * Miscellaneous Ubuntu changes
@@ -22,7 +23,7 @@ linux-firmware (20230815.git0e048b06-0ubuntu1) mantic; urgency=medium
       - Revert "amdgpu: partially revert firmware for GC 11.0.0 and GC 11.0.2"
       - amdgpu: DMCUB updates for various AMDGPU asics
 
- -- Juerg Haefliger <juerg.haefliger@canonical.com>  Tue, 15 Aug 2023 11:48:52 +0200
+ -- Michael Aaron Murphy <michael@mmurphy.dev>  Tue, 22 Aug 2023 16:57:06 +0200
 
 linux-firmware (20230731.git07f05b0c-0ubuntu1) mantic; urgency=medium
 
