@@ -5648,6 +5648,7 @@ RawFile: qcom/qcm2290/adspua.jsn
 File: qcom/qcm2290/modem.mbn
 RawFile: qcom/qcm2290/modemr.jsn
 RawFile: qcom/qcm2290/modemuw.jsn
+File: qcom/qcm2290/wlanmdsp.mbn
 File: qcom/qrb4210/a610_zap.mbn
 File: qcom/qrb4210/adsp.mbn
 RawFile: qcom/qrb4210/adspr.jsn
@@ -5658,6 +5659,7 @@ RawFile: qcom/qrb4210/cdspr.jsn
 File: qcom/qrb4210/modem.mbn
 RawFile: qcom/qrb4210/modemr.jsn
 RawFile: qcom/qrb4210/modemuw.jsn
+Link: qcom/qrb4210/wlanmdsp.mbn -> ../qcm2290/wlanmdsp.mbn
 File: qcom/sdm845/adsp.mbn
 RawFile: qcom/sdm845/adspr.jsn
 RawFile: qcom/sdm845/adspua.jsn
