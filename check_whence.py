@@ -72,6 +72,9 @@ def main():
     links_list = list(list_links_list())
     known_files = set(name for name in whence_list if not name.endswith("/")) | set(
         [
+            ".gitignore",
+            ".codespell.cfg",
+            ".pre-commit-config.yaml",
             "check_whence.py",
             "configure",
             "Makefile",
