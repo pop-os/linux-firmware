@@ -1,0 +1,11 @@
+
+check-commits:
+  image: registry.gitlab.com/kernel-firmware/linux-firmware
+  script:
+    - ci-fairy check-commits --signed-off-by
+
+pre-commit:
+  image: registry.gitlab.com/kernel-firmware/linux-firmware
+  script:
+    - pre-commit run --all-files
+

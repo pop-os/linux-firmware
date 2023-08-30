@@ -74,6 +74,7 @@ def main():
         [
             ".gitignore",
             ".codespell.cfg",
+            ".gitlab-ci.yml",
             ".pre-commit-config.yaml",
             "check_whence.py",
             "configure",
