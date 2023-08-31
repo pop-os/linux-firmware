@@ -81,6 +81,7 @@ def main():
             "README.md",
             "copy-firmware.sh",
             "WHENCE",
+            "Dockerfile",
         ]
     )
     known_prefixes = set(name for name in whence_list if name.endswith("/"))
