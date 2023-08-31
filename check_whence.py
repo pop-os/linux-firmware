@@ -74,6 +74,7 @@ def main():
         [
             ".gitignore",
             ".codespell.cfg",
+            ".gitlab-ci.yml",
             ".pre-commit-config.yaml",
             "check_whence.py",
             "configure",
@@ -81,6 +82,7 @@ def main():
             "README.md",
             "copy-firmware.sh",
             "WHENCE",
+            "Dockerfile",
         ]
     )
     known_prefixes = set(name for name in whence_list if name.endswith("/"))
