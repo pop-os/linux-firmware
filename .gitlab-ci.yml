@@ -1,6 +1,8 @@
 check-commits:
   stage: test
   image: registry.gitlab.com/kernel-firmware/linux-firmware
+  rules:
+   - if: $CI_MERGE_REQUEST_ID
   script:
     - ci-fairy check-commits --signed-off-by
 
