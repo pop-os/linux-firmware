@@ -1,11 +1,23 @@
-
 check-commits:
+  stage: test
   image: registry.gitlab.com/kernel-firmware/linux-firmware
   script:
     - ci-fairy check-commits --signed-off-by
 
 pre-commit:
+  stage: test
   image: registry.gitlab.com/kernel-firmware/linux-firmware
   script:
     - pre-commit run --all-files
 
+release:
+  stage: deploy
+  rules:
+    - if: $CI_MERGE_REQUEST_SOURCE_BRANCH_NAME
+      when: never
+    - if: $RELEASE_TOKEN
+  script:
+    - CI_PUSH_REPO=`echo "$CI_REPOSITORY_URL" | sed 's/^.*@/@/g'`
+    - git remote set-url --push origin "https://gitlab-ci-token:${RELEASE_TOKEN}$CI_PUSH_REPO"
+    - git tag `date "+%Y%m%d"`
+    - git push --tags
