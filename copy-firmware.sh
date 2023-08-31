@@ -9,12 +9,16 @@ prune=no
 # shellcheck disable=SC2209
 compress=cat
 compext=
+quiet=">/dev/null"
+rdfind_results=/dev/null
 
 while test $# -gt 0; do
     case $1 in
         -v | --verbose)
             # shellcheck disable=SC2209
             verbose=echo
+            quiet=
+            rdfind_results=results.txt
             shift
             ;;
 
@@ -113,6 +117,12 @@ grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do
             ln -s "$d$compext" "$destdir/$f$compext"
         fi
     fi
+done
+
+$verbose rdfind -makesymlinks true "$destdir" -outputname $rdfind_results "$quiet"
+find "$destdir" -type l | while read -r l; do
+    target="$(realpath "$l")"
+    ln -fs "$(realpath --relative-to="$(dirname "$(realpath -s "$l")")" "$target")" "$l"
 done
 
 exit 0
