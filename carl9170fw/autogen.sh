@@ -23,6 +23,7 @@ case "$1" in
 			exit 1
 		fi
 
+		# shellcheck source=/dev/null
 		. ./.config
 		make
 
@@ -34,7 +35,7 @@ case "$1" in
 		fi
 
 		install -m 644 carlfw/carl9170.fw \
-			../carl9170-$CONFIG_CARL9170FW_RELEASE_VERSION.fw
+			../carl9170-"$CONFIG_CARL9170FW_RELEASE_VERSION".fw
 		echo "done."
 	;;
 
