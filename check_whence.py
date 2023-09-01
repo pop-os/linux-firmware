@@ -7,11 +7,11 @@ from io import open
 def list_whence():
     with open("WHENCE", encoding="utf-8") as whence:
         for line in whence:
-            match = re.match(r'(?:File|Source):\s*"(.*)"', line)
+            match = re.match(r'(?:RawFile|File|Source):\s*"(.*)"', line)
             if match:
                 yield match.group(1)
                 continue
-            match = re.match(r"(?:File|Source):\s*(\S*)", line)
+            match = re.match(r"(?:RawFile|File|Source):\s*(\S*)", line)
             if match:
                 yield match.group(1)
                 continue
@@ -35,7 +35,7 @@ def list_whence():
 def list_whence_files():
     with open("WHENCE", encoding="utf-8") as whence:
         for line in whence:
-            match = re.match(r"File:\s*(.*)", line)
+            match = re.match(r"(?:RawFile|File):\s*(.*)", line)
             if match:
                 yield match.group(1).replace("\ ", " ").replace('"', "")
                 continue
