@@ -3912,20 +3912,15 @@ License: Redistributable. See LICENSE.amd-sev for details
 
 Driver: microcode_amd - AMD CPU Microcode Update Driver for Linux
 
-File: amd-ucode/microcode_amd.bin
-Raw: amd-ucode/microcode_amd.bin
+RawFile: amd-ucode/microcode_amd.bin
 Version: 2013-07-10
-File: amd-ucode/microcode_amd_fam15h.bin
-Raw: amd-ucode/microcode_amd_fam15h.bin
+RawFile: amd-ucode/microcode_amd_fam15h.bin
 Version: 2018-05-24
-File: amd-ucode/microcode_amd_fam16h.bin
-Raw: amd-ucode/microcode_amd_fam16h.bin
+RawFile: amd-ucode/microcode_amd_fam16h.bin
 Version: 2014-10-28
-File: amd-ucode/microcode_amd_fam17h.bin
-Raw: amd-ucode/microcode_amd_fam17h.bin
+RawFile: amd-ucode/microcode_amd_fam17h.bin
 Version: 2023-07-19
-File: amd-ucode/microcode_amd_fam19h.bin
-Raw: amd-ucode/microcode_amd_fam19h.bin
+RawFile: amd-ucode/microcode_amd_fam19h.bin
 Version: 2023-08-08
 File: amd-ucode/README
 
@@ -5635,28 +5630,28 @@ File: qcom/apq8016/modem.mbn
 File: qcom/apq8016/wcnss.mbn
 File: qcom/apq8016/WCNSS_qcom_wlan_nv_sbc.bin
 File: qcom/apq8096/adsp.mbn
-File: qcom/apq8096/adspr.jsn
-File: qcom/apq8096/adspua.jsn
+RawFile: qcom/apq8096/adspr.jsn
+RawFile: qcom/apq8096/adspua.jsn
 File: qcom/apq8096/mba.mbn
 File: qcom/apq8096/modem.mbn
-File: qcom/apq8096/modemr.jsn
+RawFile: qcom/apq8096/modemr.jsn
 File: qcom/sdm845/adsp.mbn
-File: qcom/sdm845/adspr.jsn
-File: qcom/sdm845/adspua.jsn
+RawFile: qcom/sdm845/adspr.jsn
+RawFile: qcom/sdm845/adspua.jsn
 File: qcom/sdm845/cdsp.mbn
-File: qcom/sdm845/cdspr.jsn
+RawFile: qcom/sdm845/cdspr.jsn
 File: qcom/sdm845/Thundercomm/db845c/slpi.mbn
-File: qcom/sdm845/Thundercomm/db845c/slpir.jsn
-File: qcom/sdm845/Thundercomm/db845c/slpius.jsn
+RawFile: qcom/sdm845/Thundercomm/db845c/slpir.jsn
+RawFile: qcom/sdm845/Thundercomm/db845c/slpius.jsn
 File: qcom/sm8250/adsp.mbn
-File: qcom/sm8250/adspr.jsn
-File: qcom/sm8250/adspua.jsn
+RawFile: qcom/sm8250/adspr.jsn
+RawFile: qcom/sm8250/adspua.jsn
 File: qcom/sm8250/cdsp.mbn
-File: qcom/sm8250/cdspr.jsn
-File: qcom/sc8280xp/LENOVO/21BX/adspr.jsn
-File: qcom/sc8280xp/LENOVO/21BX/adspua.jsn
-File: qcom/sc8280xp/LENOVO/21BX/battmgr.jsn
-File: qcom/sc8280xp/LENOVO/21BX/cdspr.jsn
+RawFile: qcom/sm8250/cdspr.jsn
+RawFile: qcom/sc8280xp/LENOVO/21BX/adspr.jsn
+RawFile: qcom/sc8280xp/LENOVO/21BX/adspua.jsn
+RawFile: qcom/sc8280xp/LENOVO/21BX/battmgr.jsn
+RawFile: qcom/sc8280xp/LENOVO/21BX/cdspr.jsn
 File: qcom/sc8280xp/LENOVO/21BX/qcadsp8280.mbn
 File: qcom/sc8280xp/LENOVO/21BX/qccdsp8280.mbn
 File: qcom/sc8280xp/LENOVO/21BX/qcslpi8280.mbn
@@ -5680,7 +5675,7 @@ Driver: qcom_q6v5_mss - Qualcomm modem subsystem firmware
 
 File: qcom/sdm845/mba.mbn
 File: qcom/sdm845/modem_nm.mbn
-File: qcom/sdm845/modemuw.jsn
+RawFile: qcom/sdm845/modemuw.jsn
 Link: qcom/sdm845/modem.mbn -> modem_nm.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
