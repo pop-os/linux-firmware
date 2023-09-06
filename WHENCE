@@ -5673,6 +5673,9 @@ RawFile: qcom/sm8250/adspr.jsn
 RawFile: qcom/sm8250/adspua.jsn
 File: qcom/sm8250/cdsp.mbn
 RawFile: qcom/sm8250/cdspr.jsn
+File: qcom/sm8250/Thundercomm/RB5/slpi.mbn
+RawFile: qcom/sm8250/Thundercomm/RB5/slpir.jsn
+RawFile: qcom/sm8250/Thundercomm/RB5/slpius.jsn
 RawFile: qcom/sc8280xp/LENOVO/21BX/adspr.jsn
 RawFile: qcom/sc8280xp/LENOVO/21BX/adspua.jsn
 RawFile: qcom/sc8280xp/LENOVO/21BX/battmgr.jsn
