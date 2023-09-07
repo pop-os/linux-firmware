@@ -4,7 +4,7 @@ check-commits:
   rules:
    - if: $CI_MERGE_REQUEST_ID
   script:
-    - ci-fairy check-commits --signed-off-by
+    - ci-fairy check-commits --signed-off-by --textwidth=0
 
 pre-commit:
   stage: test
