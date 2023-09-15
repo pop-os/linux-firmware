@@ -9,12 +9,16 @@ prune=no
 # shellcheck disable=SC2209
 compress=cat
 compext=
+quiet=">/dev/null"
+rdfind_results=/dev/null
 
 while test $# -gt 0; do
     case $1 in
         -v | --verbose)
             # shellcheck disable=SC2209
             verbose=echo
+            quiet=
+            rdfind_results=results.txt
             shift
             ;;
 
@@ -44,6 +48,14 @@ while test $# -gt 0; do
             shift
             ;;
 
+        -*)
+            if test "$compress" = "cat"; then
+                echo "ERROR: unknown command-line option: $1"
+                exit 1
+            fi
+            compress="$compress $1"
+            shift
+            ;;
         *)
             if test "x$destdir" != "x"; then
                 echo "ERROR: unknown command-line options: $*"
@@ -57,11 +69,11 @@ while test $# -gt 0; do
 done
 
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
-grep '^File:' WHENCE | sed -e 's/^File: *//g;s/"//g' | while read f; do
+grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g' | while read k f; do
     test -f "$f" || continue
     install -d "$destdir/$(dirname "$f")"
     $verbose "copying/compressing file $f$compext"
-    if test "$compress" != "cat" && grep -q "^Raw: $f\$" WHENCE; then
+    if test "$compress" != "cat" && test "$k" = "RawFile"; then
         $verbose "compression will be skipped for file $f"
         cat "$f" > "$destdir/$f"
     else
@@ -105,6 +117,12 @@ grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do
             ln -s "$d$compext" "$destdir/$f$compext"
         fi
     fi
+done
+
+$verbose rdfind -makesymlinks true "$destdir" -outputname $rdfind_results "$quiet"
+find "$destdir" -type l | while read -r l; do
+    target="$(realpath "$l")"
+    ln -fs "$(realpath --relative-to="$(dirname "$(realpath -s "$l")")" "$target")" "$l"
 done
 
 exit 0

@@ -1,0 +1,30 @@
+default_stages: [commit]
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1
+    hooks:
+    -   id: check-executables-have-shebangs
+    -   id: forbid-new-submodules
+    -   id: check-yaml
+    -   id: check-symlinks
+    -   id: destroyed-symlinks
+-   repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.9.0.5
+    hooks:
+    -   id: shellcheck
+-   repo: https://github.com/ambv/black
+    rev: 22.6.0
+    hooks:
+    - id: black
+-   repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.33.0
+    hooks:
+    - id: markdownlint
+      args: ['--fix']
+-   repo: local
+    hooks:
+    - id: check-whence
+      name: Check whence
+      files: 'WHENCE'
+      language: script
+      entry: ./check_whence.py
