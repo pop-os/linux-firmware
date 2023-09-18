@@ -4725,7 +4725,7 @@ File: i915/mtl_guc_70.bin
 Version: GuC API/APB ver 70.8.0 for Meteorlake
 
 File: i915/mtl_huc_gsc.bin
-Version: HuC API/APB ver 8.5.1 for Meteorlake
+Version: HuC API/APB ver 8.5.4 for Meteorlake
 
 File: i915/mtl_gsc_1.bin
 Version: GSC API/APB v1.0, release 102.0.0.1655, SVN 1 for Meteorlake
