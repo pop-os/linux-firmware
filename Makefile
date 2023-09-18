@@ -20,6 +20,12 @@ dist:
 	echo "Created dist/$${TARGET}"
 	@rm -rf release
 
+deb:
+	./build_packages.py --deb
+
+rpm:
+	./build_packages.py --rpm
+
 install:
 	install -d $(DESTDIR)$(FIRMWAREDIR)
 	./copy-firmware.sh $(DESTDIR)$(FIRMWAREDIR)
