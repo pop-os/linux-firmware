@@ -1,3 +1,10 @@
+linux-firmware (20230919.git3672ccab-0ubuntu2) mantic; urgency=medium
+
+  * Support mipi camera on Intel Meteor Lake platform (LP: #2031412)
+    - SAUCE: Update Intel IPU6 firmware
+
+ -- Juerg Haefliger <juerg.haefliger@canonical.com>  Fri, 22 Sep 2023 15:21:03 +0200
+
 linux-firmware (20230919.git3672ccab-0ubuntu1) mantic; urgency=medium
 
   * Intel AX201 Bluetooth not available with 20230915.gitdfa11466-0ubuntu1
