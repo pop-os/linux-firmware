@@ -2457,6 +2457,17 @@ Licence: Redistributable. See LICENSE.amdgpu for details.
 
 --------------------------------------------------------------------------
 
+--------------------------------------------------------------------------
+
+Driver: amd_pmf - AMD Platform Management Framework TA
+
+File: amdtee/773bd96f-b83f-4d52-b12dc529b13d8543.bin
+Link: amdtee/amd_pmf_v3.bin -> 773bd96f-b83f-4d52-b12dc529b13d8543.bin
+
+Licence: Redistributable. See LICENSE.amd_pmf for details.
+
+--------------------------------------------------------------------------
+
 Driver: s2255drv
 
 File: f2255usb.bin
