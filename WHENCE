@@ -3801,6 +3801,10 @@ File:intel/ibt-1040-0041.sfi
 Version: BT_SolarF_GfP2_REL70976
 File:intel/ibt-1040-0041.ddc
 Version: BT_SolarF_GfP2_REL70976
+File:intel/ibt-0080-0041.sfi
+Version: BT_Magnetar_REL88938
+File:intel/ibt-0080-0041.ddc
+Version: BT_Magnetar_REL88938
 
 File:intel/ibt-0040-1020.sfi
 Version: BT_Solar_JfP1_REL59564
