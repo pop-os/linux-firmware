@@ -1,3 +1,9 @@
+linux-firmware (20230919.git3672ccab-0ubuntu2.0) mantic; urgency=medium
+
+  * Initial dummy SRU release.
+
+ -- Juerg Haefliger <juerg.haefliger@canonical.com>  Tue, 03 Oct 2023 10:44:43 +0200
+
 linux-firmware (20230919.git3672ccab-0ubuntu2) mantic; urgency=medium
 
   * Support mipi camera on Intel Meteor Lake platform (LP: #2031412)
