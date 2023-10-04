@@ -1108,6 +1108,24 @@ Version: 74.f92b5fed.0
 
 File: iwlwifi-ty-a0-gf-a0.pnvm
 
+File: iwlwifi-gl-c0-fm-c0-83.ucode
+Version: 80.d24e06ed.0
+
+File: iwlwifi-gl-c0-fm-c0.pnvm
+
+File: iwlwifi-ma-b0-gf-a0-83.ucode
+Version: 80.d24e06ed.0
+
+File: iwlwifi-ma-b0-gf-a0.pnvm
+
+File: iwlwifi-ma-b0-gf4-a0-83.ucode
+Version: 80.d24e06ed.0
+
+File: iwlwifi-ma-b0-gf4-a0.pnvm
+
+File: iwlwifi-ma-b0-hr-b0-83.ucode
+Version: 80.d24e06ed.0
+
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
 Also available from http://wireless.kernel.org/en/users/Drivers/iwlwifi#Firmware
