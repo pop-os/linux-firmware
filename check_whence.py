@@ -88,6 +88,7 @@ def main():
             "contrib/templates/debian.control",
             "contrib/templates/debian.copyright",
             "contrib/templates/rpm.spec",
+            "contrib/process_linux_firmware.py",
         ]
     )
     known_prefixes = set(name for name in whence_list if name.endswith("/"))
