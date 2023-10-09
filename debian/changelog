@@ -1,3 +1,10 @@
+linux-firmware (20230919.git3672ccab-0ubuntu2.1) mantic; urgency=medium
+
+  * /lib/firmware/brcm/brcmfmac43430-sdio.bin missing on riscv64 (LP: #2038546)
+    - [Packaging] config: Don't exclude cypress fw link targets
+
+ -- Juerg Haefliger <juerg.haefliger@canonical.com>  Mon, 09 Oct 2023 16:16:20 +0200
+
 linux-firmware (20230919.git3672ccab-0ubuntu2.0) mantic; urgency=medium
 
   * Initial dummy SRU release.
