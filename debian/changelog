@@ -1,3 +1,10 @@
+linux-firmware (20230919.git3672ccab-0ubuntu2.2) mantic; urgency=medium
+
+  * Multiple RTL8851BE BT stability issues (LP: #2037224)
+    - rtl_bt: Update RTL8851B BT USB firmware to 0x048A_D230
+
+ -- Juerg Haefliger <juerg.haefliger@canonical.com>  Tue, 10 Oct 2023 11:48:12 +0200
+
 linux-firmware (20230919.git3672ccab-0ubuntu2.1) mantic; urgency=medium
 
   * /lib/firmware/brcm/brcmfmac43430-sdio.bin missing on riscv64 (LP: #2038546)
