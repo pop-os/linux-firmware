@@ -6682,3 +6682,11 @@ Version: v0.1.0
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://git.linaro.org/people/srinivas.kandagatla/audioreach-topology.git
 --------------------------------------------------------------------------
+
+Driver: amlogic - Amlogic SoC Firmware
+File: amlogic/bluetooth/w2_bt_fw_uart.bin
+Version: date = 38.01, number = 0xa914
+
+Licence: Redistributable. See LICENSE.amlogic for details
+
+--------------------------------------------------------------------------
