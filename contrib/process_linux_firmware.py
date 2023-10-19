@@ -7,11 +7,12 @@ import feedparser
 import argparse
 import logging
 import email
+import email.utils
+import smtplib
 import subprocess
 import sys
-from datetime import datetime, timedelta, date
+from datetime import date
 from enum import Enum
-import b4
 
 URL = "https://lore.kernel.org/linux-firmware/new.atom"
 
@@ -62,6 +63,51 @@ def quiet_cmd(cmd):
     logging.debug(output)
 
 
+def reply_email(content, branch):
+    if "SMTP_USER" in os.environ:
+        user = os.environ["SMTP_USER"]
+    if "SMTP_PASS" in os.environ:
+        password = os.environ["SMTP_PASS"]
+    if "SMTP_SERVER" in os.environ:
+        server = os.environ["SMTP_SERVER"]
+    if "SMTP_PORT" in os.environ:
+        port = os.environ["SMTP_PORT"]
+    if not user or not password or not server or not port:
+        logging.debug("Missing SMTP configuration, not sending email")
+        return
+
+    reply = email.message.EmailMessage()
+
+    orig = email.message_from_string(content)
+    targets = email.utils.getaddresses(
+        orig.get_all("to", []) + orig.get_all("cc", []) + orig.get_all("from", [])
+    )
+    for target in targets:
+        reply["To"] += email.utils.formataddr(target)
+
+    reply["From"] = "linux-firmware@kernel.org"
+    reply["Subject"] = "Re: {}".format(orig["Subject"])
+    reply["In-Reply-To"] = orig["Message-Id"]
+    reply["References"] = orig["Message-Id"]
+    reply["Thread-Topic"] = orig["Thread-Topic"]
+    reply["Thread-Index"] = orig["Thread-Index"]
+
+    content = (
+        "Your request has been forwarded by the Linux Firmware Kernel robot.\n"
+        "Please follow up at https://gitlab.com/kernel-firmware/linux-firmware/-/merge_requests to ensure it gets merged\n"
+        "Your request is '{}'".format(branch)
+    )
+    reply.set_content(content)
+
+    mailserver = smtplib.SMTP(server, port)
+    mailserver.ehlo()
+    mailserver.starttls()
+    mailserver.ehlo()
+    mailserver.login(user, password)
+    mailserver.sendmail(reply["From"], reply["To"], reply.as_string())
+    mailserver.quit()
+
+
 def create_pr(remote, branch):
     cmd = [
         "git",
@@ -98,7 +144,7 @@ def process_pr(url, num, remote):
         quiet_cmd(cmd)
     except subprocess.CalledProcessError:
         logging.warning("Failed to apply PR")
-        return
+        return None
 
     # determine if it worked (we can't tell unfortunately by return code)
     cmd = ["git", "branch", "--list", branch]
@@ -110,6 +156,8 @@ def process_pr(url, num, remote):
         if remote:
             create_pr(remote, branch)
         delete_branch(branch)
+        return branch
+    return None
 
 
 def process_patch(mbox, num, remote):
@@ -137,6 +185,9 @@ def process_patch(mbox, num, remote):
             create_pr(remote, branch)
 
     delete_branch(branch)
+    if p.returncode == 0:
+        return branch
+    return None
 
 
 def update_database(conn, url):
@@ -189,6 +240,7 @@ def process_database(conn, remote):
     # loop over all unprocessed urls
     for row in rows:
 
+        branch = None
         msg = "Processing ({}%)".format(round(num / len(rows) * 100))
         print(msg, end="\r", flush=True)
 
@@ -199,11 +251,11 @@ def process_database(conn, remote):
 
         if classification == ContentType.PATCH:
             logging.debug("Processing patch ({})".format(row[0]))
-            process_patch(mbox, num, remote)
+            branch = process_patch(mbox, num, remote)
 
         if classification == ContentType.PULL_REQUEST:
             logging.debug("Processing PR ({})".format(row[0]))
-            process_pr(row[0], num, remote)
+            branch = process_pr(row[0], num, remote)
 
         if classification == ContentType.SPAM:
             logging.debug("Marking spam ({})".format(row[0]))
@@ -218,6 +270,11 @@ def process_database(conn, remote):
 
         # commit changes
         conn.commit()
+
+        # send any emails
+        if branch:
+            reply_email(mbox, branch)
+
     logging.info("Finished processing {} new entries".format(len(rows)))
 
 
