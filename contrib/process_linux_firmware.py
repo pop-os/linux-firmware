@@ -79,11 +79,12 @@ def reply_email(content, branch):
     reply = email.message.EmailMessage()
 
     orig = email.message_from_string(content)
-    targets = email.utils.getaddresses(
-        orig.get_all("to", []) + orig.get_all("cc", []) + orig.get_all("from", [])
+    reply["To"] = ", ".join(
+        email.utils.formataddr(t)
+        for t in email.utils.getaddresses(
+            orig.get_all("from", []) + orig.get_all("to", []) + orig.get_all("cc", [])
+        )
     )
-    for target in targets:
-        reply["To"] += email.utils.formataddr(target)
 
     reply["From"] = "linux-firmware@kernel.org"
     reply["Subject"] = "Re: {}".format(orig["Subject"])
