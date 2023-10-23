@@ -44,11 +44,15 @@ def classify_content(content):
 
     for part in msg.walk():
         if part.get_content_type() == "text/plain":
-            body = part.get_payload(decode=True).decode("utf-8")
-            for key in content_types.keys():
-                if key in body:
-                    return content_types[key]
-            break
+            try:
+                body = part.get_payload(decode=True).decode("utf-8")
+                for key in content_types.keys():
+                    if key in body:
+                        return content_types[key]
+                break
+            except UnicodeDecodeError as e:
+                logging.warning("Failed to decode email: %s, treating as SPAM" % e)
+                break
     return ContentType.SPAM
 
 
