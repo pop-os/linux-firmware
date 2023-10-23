@@ -168,7 +168,7 @@ def process_patch(mbox, num, remote):
     quiet_cmd(cmd)
 
     # apply the patch
-    cmd = ["b4", "shazam", "-m", "-"]
+    cmd = ["git", "am"]
     logging.debug("Running {}".format(cmd))
     p = subprocess.Popen(
         cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE
