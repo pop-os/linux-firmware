@@ -25,26 +25,6 @@ pre-commit:
   script:
     - pre-commit run --all-files
 
-rpm:
-  stage: test
-  image: fedora
-  rules:
-    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
-    - if: $CI_COMMIT_TAG
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-  script:
-    - *rpmcommon
-
-deb:
-  stage: test
-  image: debian
-  rules:
-    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
-    - if: $CI_COMMIT_TAG
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-  script:
-    - *debcommon
-
 deb-release:
   stage: deploy
   image: debian
