@@ -1146,6 +1146,16 @@ Licence: Redistributable. See LICENSE.ipu3_firmware for details
 
 --------------------------------------------------------------------------
 
+Driver: ixp4xx-npe - Intel IXP4xx XScale Network Processing Engine (NPE) Firmware
+File: ixp4xx/NPE-A
+File: ixp4xx/NPE-A-HSS
+File: ixp4xx/NPE-B
+File: ixp4xx/NPE-C
+Version: date = February 26, 2007
+License: Redistributable. See LICENSE.ixp4xx for details
+
+--------------------------------------------------------------------------
+
 Driver: tehuti - Tehuti Networks 10G Ethernet
 
 File: tehuti/bdx.bin
