@@ -3848,6 +3848,11 @@ Version: BT_Magnetar_HrP2_REL82221
 File:intel/ibt-0180-4150.ddc
 Version: BT_Magnetar_HrP2_REL82221
 
+File:intel/ibt-0180-1050.sfi
+Version: BT_Magnetar_HrP1_REL82221
+File:intel/ibt-0180-1050.ddc
+Version: BT_Magnetar_HrP1_REL82221
+
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
 File: rtl_bt/rtl8192ee_fw.bin
