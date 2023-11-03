@@ -4377,6 +4377,17 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 
 --------------------------------------------------------------------------
 
+Driver: qca - Qualcomm Atheros Bluetooth support for WCN3988 chips
+
+File: qca/apbtfw10.tlv
+File: qca/apbtfw11.tlv
+File: qca/apnv10.bin
+File: qca/apnv11.bin
+
+Licence: Redistributable. See LICENSE.qcom and qca/NOTICE.txt for details
+
+--------------------------------------------------------------------------
+
 Driver: qca - Qualcomm Atheros Bluetooth support for WCN399x chips
 
 File: qca/crbtfw21.tlv
