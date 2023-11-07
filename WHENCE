@@ -3804,17 +3804,17 @@ Version: BT_HarrisonPeak_REL53497
 File:intel/ibt-19-240-4.ddc
 Version: BT_HarrisonPeak_REL53497
 File:intel/ibt-0041-0041.sfi
-Version: BT_TyphoonPeak_REL66410
+Version: BT_TyphoonPeak_REL70976
 File:intel/ibt-0041-0041.ddc
-Version: BT_TyphoonPeak_REL66410
+Version: BT_TyphoonPeak_REL70976
 File:intel/ibt-0040-0041.sfi
-Version: BT_Solar_GfP2_REL66410
+Version: BT_Solar_GfP2_REL70976
 File:intel/ibt-0040-0041.ddc
-Version: BT_Solar_GfP2_REL66410
+Version: BT_Solar_GfP2_REL70976
 File:intel/ibt-1040-0041.sfi
-Version: BT_SolarF_GfP2_REL66410
+Version: BT_SolarF_GfP2_REL70976
 File:intel/ibt-1040-0041.ddc
-Version: BT_SolarF_GfP2_REL66410
+Version: BT_SolarF_GfP2_REL70976
 
 File:intel/ibt-0040-1020.sfi
 Version: BT_Solar_JfP1_REL59564
@@ -3835,33 +3835,33 @@ File:intel/ibt-1040-2120.ddc
 Version: BT_SolarF_JfP2_REL59564
 
 File:intel/ibt-0040-4150.sfi
-Version: BT_Solar_JnP2_REL66410
+Version: BT_Solar_JnP2_REL70976
 File:intel/ibt-0040-4150.ddc
-Version: BT_Solar_JnP2_REL66410
+Version: BT_Solar_JnP2_REL70976
 File:intel/ibt-1040-4150.sfi
-Version: BT_SolarF_JnP2_REL66410
+Version: BT_SolarF_JnP2_REL70976
 File:intel/ibt-1040-4150.ddc
-Version: BT_SolarF_JnP2_REL66410
+Version: BT_SolarF_JnP2_REL70976
 
 File:intel/ibt-0291-0291.sfi
-Version: BT_GalePeak_REL39025
+Version: BT_GalePeak_REL43914
 File:intel/ibt-0291-0291.ddc
-Version: BT_GalePeak_REL39025
+Version: BT_GalePeak_REL43914
 
 File:intel/ibt-0180-0041.sfi
-Version: BT_Magnetar_GfP2_REL82221
+Version: BT_Magnetar_GfP2_REL90033
 File:intel/ibt-0180-0041.ddc
-Version: BT_Magnetar_GfP2_REL82221
+Version: BT_Magnetar_GfP2_REL90033
 
 File:intel/ibt-0180-4150.sfi
-Version: BT_Magnetar_HrP2_REL82221
+Version: BT_Magnetar_JnP2_REL90033
 File:intel/ibt-0180-4150.ddc
-Version: BT_Magnetar_HrP2_REL82221
+Version: BT_Magnetar_JnP2_REL90033
 
 File:intel/ibt-0180-1050.sfi
-Version: BT_Magnetar_HrP1_REL82221
+Version: BT_Magnetar_HrP1_REL90033
 File:intel/ibt-0180-1050.ddc
-Version: BT_Magnetar_HrP1_REL82221
+Version: BT_Magnetar_HrP1_REL90033
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
