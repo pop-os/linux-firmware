@@ -69,6 +69,11 @@ if [ -z "$destdir" ]; then
 	exit 1
 fi
 
+if ! which rdfind 2>/dev/null >/dev/null; then
+	echo "ERROR: rdfind is not installed"
+	exit 1
+fi
+
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
 grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g' | while read k f; do
     test -f "$f" || continue
