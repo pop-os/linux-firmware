@@ -5233,6 +5233,48 @@ File: nvidia/tu10x/typec/ccg_primary.cyacd
 File: nvidia/tu10x/typec/ccg_secondary.cyacd
 File: nvidia/tu10x/typec/ccg_boot.cyacd
 
+Firmware images needed for GSP-RM:
+
+File: nvidia/tu102/gsp/bootloader-535.113.01.bin
+File: nvidia/tu102/gsp/booter_load-535.113.01.bin
+File: nvidia/tu102/gsp/booter_unload-535.113.01.bin
+Link: nvidia/tu104/gsp -> ../tu102/gsp
+Link: nvidia/tu106/gsp -> ../tu102/gsp
+
+File: nvidia/tu116/gsp/booter_load-535.113.01.bin
+File: nvidia/tu116/gsp/booter_unload-535.113.01.bin
+Link: nvidia/tu116/gsp/bootloader-535.113.01.bin -> ../../tu102/gsp/bootloader-535.113.01.bin
+Link: nvidia/tu117/gsp -> ../tu116/gsp
+
+File: nvidia/ga100/gsp/bootloader-535.113.01.bin
+File: nvidia/ga100/gsp/booter_load-535.113.01.bin
+File: nvidia/ga100/gsp/booter_unload-535.113.01.bin
+
+File: nvidia/ad102/gsp/bootloader-535.113.01.bin
+File: nvidia/ad102/gsp/booter_load-535.113.01.bin
+File: nvidia/ad102/gsp/booter_unload-535.113.01.bin
+Link: nvidia/ad103/gsp -> ../ad102/gsp
+Link: nvidia/ad104/gsp -> ../ad102/gsp
+Link: nvidia/ad106/gsp -> ../ad102/gsp
+Link: nvidia/ad107/gsp -> ../ad102/gsp
+
+File: nvidia/ga102/gsp/bootloader-535.113.01.bin
+File: nvidia/ga102/gsp/booter_load-535.113.01.bin
+File: nvidia/ga102/gsp/booter_unload-535.113.01.bin
+Link: nvidia/ga103/gsp -> ../ga102/gsp
+Link: nvidia/ga104/gsp -> ../ga102/gsp
+Link: nvidia/ga106/gsp -> ../ga102/gsp
+Link: nvidia/ga107/gsp -> ../ga102/gsp
+
+File: nvidia/tu102/gsp/gsp-535.113.01.bin
+Origin: gsp_tu10x.bin from NVIDIA-Linux-x86_64-535.113.01.run
+Link: nvidia/tu116/gsp/gsp-535.113.01.bin -> ../../tu102/gsp/gsp-535.113.01.bin
+Link: nvidia/ga100/gsp/gsp-535.113.01.bin -> ../../tu102/gsp/gsp-535.113.01.bin
+
+File: nvidia/ga102/gsp/gsp-535.113.01.bin
+Origin: gsp_ga10x.bin from NVIDIA-Linux-x86_64-535.113.01.run
+Link: nvidia/ad102/gsp/gsp-535.113.01.bin -> ../../ga102/gsp/gsp-535.113.01.bin
+
 Licence: Redistributable. See LICENCE.nvidia for details
 
 --------------------------------------------------------------------------
