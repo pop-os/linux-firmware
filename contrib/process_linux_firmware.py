@@ -25,9 +25,9 @@ class ContentType(Enum):
 
 
 content_types = {
+    "are available in the Git repository at": ContentType.PULL_REQUEST,
     "diff --git": ContentType.PATCH,
     "Signed-off-by:": ContentType.PATCH,
-    "are available in the Git repository at": ContentType.PULL_REQUEST,
 }
 
 
