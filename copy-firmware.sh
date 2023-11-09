@@ -9,16 +9,12 @@ prune=no
 # shellcheck disable=SC2209
 compress=cat
 compext=
-quiet=">/dev/null"
-rdfind_results=/dev/null
 
 while test $# -gt 0; do
     case $1 in
         -v | --verbose)
             # shellcheck disable=SC2209
             verbose=echo
-            quiet=
-            rdfind_results=results.txt
             shift
             ;;
 
@@ -68,6 +64,16 @@ while test $# -gt 0; do
     esac
 done
 
+if [ -z "$destdir" ]; then
+	echo "ERROR: destination directory was not specified"
+	exit 1
+fi
+
+if ! which rdfind 2>/dev/null >/dev/null; then
+	echo "ERROR: rdfind is not installed"
+	exit 1
+fi
+
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
 grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g' | while read k f; do
     test -f "$f" || continue
@@ -79,6 +85,14 @@ grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g'
     else
         $compress "$f" > "$destdir/$f$compext"
     fi
+done
+
+$verbose "Finding duplicate files"
+rdfind -makesymlinks true -makeresultsfile false "$destdir" >/dev/null
+find "$destdir" -type l | while read -r l; do
+	target="$(realpath "$l")"
+	$verbose "Correcting path for $l"
+	ln -fs "$(realpath --relative-to="$(dirname "$(realpath -s "$l")")" "$target")" "$l"
 done
 
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
@@ -117,12 +131,6 @@ grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do
             ln -s "$d$compext" "$destdir/$f$compext"
         fi
     fi
-done
-
-$verbose rdfind -makesymlinks true "$destdir" -outputname $rdfind_results "$quiet"
-find "$destdir" -type l | while read -r l; do
-    target="$(realpath "$l")"
-    ln -fs "$(realpath --relative-to="$(dirname "$(realpath -s "$l")")" "$target")" "$l"
 done
 
 exit 0
