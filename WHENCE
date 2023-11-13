@@ -5551,6 +5551,15 @@ Version: 20230627144220
 Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
+
+Driver: mt7988 - MediaTek MT7988 Internal 2.5G Ethernet Phy
+
+File: mediatek/mt7988/i2p5ge-phy-pmb.bin
+Version: 20230728
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
 Driver: nfp - Netronome Flow Processor
 
 Link: netronome/nic_AMDA0081-0001_1x40.nffw -> nic/nic_AMDA0081-0001_1x40.nffw
