@@ -142,14 +142,15 @@ def delete_branch(branch):
     quiet_cmd(["git", "branch", "-D", branch])
 
 
-def process_pr(url, num, remote):
+def process_pr(mbox, num, remote):
     branch = "robot/pr-{}-{}".format(num, int(time.time()))
-    cmd = ["b4", "pr", "-b", branch, url]
-    try:
-        quiet_cmd(cmd)
-    except subprocess.CalledProcessError:
-        logging.warning("Failed to apply PR")
-        return None
+
+    cmd = ["b4", "--debug", "pr", "-b", branch, "-"]
+    logging.debug("Running {}".format(cmd))
+    p = subprocess.Popen(
+        cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE
+    )
+    stdout, stderr = p.communicate(mbox.encode("utf-8"))
 
     # determine if it worked (we can't tell unfortunately by return code)
     cmd = ["git", "branch", "--list", branch]
@@ -244,7 +245,6 @@ def process_database(conn, remote):
 
     # loop over all unprocessed urls
     for row in rows:
-
         branch = None
         msg = "Processing ({}%)".format(round(num / len(rows) * 100))
         print(msg, end="\r", flush=True)
@@ -260,7 +260,7 @@ def process_database(conn, remote):
 
         if classification == ContentType.PULL_REQUEST:
             logging.debug("Processing PR ({})".format(row[0]))
-            branch = process_pr(row[0], num, remote)
+            branch = process_pr(mbox, num, remote)
 
         if classification == ContentType.SPAM:
             logging.debug("Marking spam ({})".format(row[0]))
