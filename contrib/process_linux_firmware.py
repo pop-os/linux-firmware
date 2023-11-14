@@ -145,6 +145,13 @@ def delete_branch(branch):
 def process_pr(mbox, num, remote):
     branch = "robot/pr-{}-{}".format(num, int(time.time()))
 
+    # manual fixup for PRs from drm firmware repo
+    if "git@gitlab.freedesktop.org:drm/firmware.git" in mbox:
+        mbox = mbox.replace(
+            "git@gitlab.freedesktop.org:drm/firmware.git",
+            "https://gitlab.freedesktop.org/drm/firmware.git",
+        )
+
     cmd = ["b4", "--debug", "pr", "-b", branch, "-"]
     logging.debug("Running {}".format(cmd))
     p = subprocess.Popen(
