@@ -151,6 +151,10 @@ def process_pr(mbox, num, remote):
         cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE
     )
     stdout, stderr = p.communicate(mbox.encode("utf-8"))
+    for line in stdout.splitlines():
+        logging.debug(line.decode("utf-8"))
+    for line in stderr.splitlines():
+        logging.debug(line.decode("utf-8"))
 
     # determine if it worked (we can't tell unfortunately by return code)
     cmd = ["git", "branch", "--list", branch]
@@ -158,6 +162,8 @@ def process_pr(mbox, num, remote):
     result = subprocess.check_output(cmd)
 
     if result:
+        for line in result.splitlines():
+            logging.debug(line.decode("utf-8"))
         logging.info("Forwarding PR for {}".format(branch))
         if remote:
             create_pr(remote, branch)
