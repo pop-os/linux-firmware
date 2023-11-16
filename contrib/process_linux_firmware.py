@@ -34,6 +34,8 @@ content_types = {
 def classify_content(content):
     # load content into the email library
     msg = email.message_from_string(content)
+    decoded = None
+    body = None
 
     # check the subject
     subject = msg["Subject"]
@@ -42,17 +44,28 @@ def classify_content(content):
     if "PATCH" in subject:
         return ContentType.PATCH
 
-    for part in msg.walk():
-        if part.get_content_type() == "text/plain":
+    if msg.is_multipart():
+        for part in msg.walk():
+            if part.get_content_type() == "text/plain":
+                body = part.get_payload(decode=True)
+    else:
+        body = msg.get_payload(decode=True)
+
+    if body:
+        for encoding in ["utf-8", "windows-1252"]:
             try:
-                body = part.get_payload(decode=True).decode("utf-8")
-                for key in content_types.keys():
-                    if key in body:
-                        return content_types[key]
+                decoded = body.decode(encoding)
                 break
-            except UnicodeDecodeError as e:
-                logging.warning("Failed to decode email: %s, treating as SPAM" % e)
-                break
+            except UnicodeDecodeError:
+                pass
+
+    if decoded:
+        for key in content_types.keys():
+            if key in decoded:
+                return content_types[key]
+    else:
+        logging.warning("Failed to decode email: %s, treating as SPAM", body)
+
     return ContentType.SPAM
 
 
