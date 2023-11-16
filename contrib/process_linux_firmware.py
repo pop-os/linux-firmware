@@ -81,6 +81,11 @@ def quiet_cmd(cmd):
 
 
 def reply_email(content, branch):
+    user = None
+    password = None
+    server = None
+    port = None
+
     if "SMTP_USER" in os.environ:
         user = os.environ["SMTP_USER"]
     if "SMTP_PASS" in os.environ:
@@ -96,15 +101,26 @@ def reply_email(content, branch):
     reply = email.message.EmailMessage()
 
     orig = email.message_from_string(content)
-    reply["To"] = ", ".join(
-        email.utils.formataddr(t)
-        for t in email.utils.getaddresses(
-            orig.get_all("from", []) + orig.get_all("to", []) + orig.get_all("cc", [])
+    try:
+        reply["To"] = ", ".join(
+            email.utils.formataddr(t)
+            for t in email.utils.getaddresses(
+                orig.get_all("from", [])
+                + orig.get_all("to", [])
+                + orig.get_all("cc", [])
+            )
         )
-    )
+    except ValueError:
+        logging.warning("Failed to parse email addresses, not sending email")
+        return
 
     reply["From"] = "linux-firmware@kernel.org"
-    reply["Subject"] = "Re: {}".format(orig["Subject"])
+    try:
+        reply["Subject"] = "Re: {}".format(orig["Subject"])
+    except ValueError:
+        logging.warning("Failed to parse subject, not sending email")
+        return
+
     reply["In-Reply-To"] = orig["Message-Id"]
     reply["References"] = orig["Message-Id"]
     reply["Thread-Topic"] = orig["Thread-Topic"]
