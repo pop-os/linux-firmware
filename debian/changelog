@@ -1,9 +1,10 @@
-linux-firmware (20230919.git3672ccab-0ubuntu2.4) mantic; urgency=medium
+linux-firmware (20230919.git3672ccab-0ubuntu2.4+system76) mantic; urgency=medium
 
+  [ Juerg Haefliger ]
   * New Intel MIPI IPU6 firmware available for MTL-P platform (LP: #2043580)
     - SAUCE: Update IPU6EPMTL 20230925 firmware
 
- -- Juerg Haefliger <juerg.haefliger@canonical.com>  Thu, 16 Nov 2023 10:35:50 +0100
+ -- Michael Murphy <michael@mmurphy.dev>  Tue, 21 Nov 2023 16:49:16 +0100
 
 linux-firmware (20230919.git3672ccab-0ubuntu2.3) mantic; urgency=medium
 
