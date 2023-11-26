@@ -69,7 +69,7 @@ if [ -z "$destdir" ]; then
 	exit 1
 fi
 
-if ! which rdfind 2>/dev/null >/dev/null; then
+if ! command -v rdfind >/dev/null; then
 	echo "ERROR: rdfind is not installed"
 	exit 1
 fi

@@ -6,7 +6,7 @@ FIRMWAREDIR = /lib/firmware
 all:
 
 check:
-	@if ! which pre-commit >/dev/null; then \
+	@if ! command -v pre-commit >/dev/null; then \
 		echo "Install pre-commit to check files"; \
 		exit 1; \
 	fi
