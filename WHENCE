@@ -5568,9 +5568,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 Wireless MACs
 
 File: mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
-Version: 20230627143702a
+Version: 20231120183400a
 File: mediatek/WIFI_RAM_CODE_MT7922_1.bin
-Version: 20230627143946
+Version: 20231120183441
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
