@@ -30,6 +30,10 @@ install:
 	install -d $(DESTDIR)$(FIRMWAREDIR)
 	./copy-firmware.sh $(DESTDIR)$(FIRMWAREDIR)
 
+install-nodedup:
+	install -d $(DESTDIR)$(FIRMWAREDIR)
+	./copy-firmware.sh --ignore-duplicates $(DESTDIR)$(FIRMWAREDIR)
+
 install-xz:
 	install -d $(DESTDIR)$(FIRMWAREDIR)
 	./copy-firmware.sh --xz $(DESTDIR)$(FIRMWAREDIR)
