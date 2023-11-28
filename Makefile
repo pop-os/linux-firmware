@@ -28,7 +28,7 @@ rpm:
 
 install:
 	install -d $(DESTDIR)$(FIRMWAREDIR)
-	./copy-firmware.sh $(DESTDIR)$(FIRMWAREDIR)
+	./copy-firmware.sh $(COPYOPTS) $(DESTDIR)$(FIRMWAREDIR)
 
 install-nodedup:
 	install -d $(DESTDIR)$(FIRMWAREDIR)
