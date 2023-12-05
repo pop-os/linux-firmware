@@ -4037,7 +4037,7 @@ Version: 2018-05-24
 RawFile: amd-ucode/microcode_amd_fam16h.bin
 Version: 2014-10-28
 RawFile: amd-ucode/microcode_amd_fam17h.bin
-Version: 2023-07-19
+Version: 2023-12-05
 RawFile: amd-ucode/microcode_amd_fam19h.bin
 Version: 2023-10-19
 File: amd-ucode/README
