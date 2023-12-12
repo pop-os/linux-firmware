@@ -1,10 +1,10 @@
 .debcommon: &debcommon
   - apt update
-  - apt install build-essential debhelper git python3-jinja2 -y
+  - apt install build-essential debhelper git python3-jinja2 rdfind -y
   - make deb
 
 .rpmcommon: &rpmcommon
-  - dnf install make git python3-jinja2 rpmdevtools -y
+  - dnf install make git python3-jinja2 rpmdevtools rdfind -y
   - make rpm
 
 check-commits:
