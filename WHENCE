@@ -6886,3 +6886,12 @@ File: powervr/rogue_33.15.11.3_v1.fw
 Version: 1.0.OS@6503725
 
 License: Redistributable. See LICENSE.powervr for details
+
+--------------------------------------------------------------------------
+
+Driver: qcom-sm8550 - Qualcomm ASoC tplg Firmware
+File: qcom/sm8550/SM8550-QRD-tplg.bin
+Version: v0.1.0
+
+Licence: Redistributable. See LICENCE.linaro for details
+Originates from https://git.codelinaro.org/linaro/qcomlt/audioreach-topology.git
