@@ -1170,6 +1170,42 @@ Licence: Redistributable. See LICENSE.ipu3_firmware for details
 
 --------------------------------------------------------------------------
 
+Driver: mei-vsc-hw - Intel Visual Sensing Controller
+
+File: intel/vsc/ivsc_fw.bin
+File: intel/vsc/ivsc_pkg_hi556_0.bin
+File: intel/vsc/ivsc_pkg_himx11b1_0.bin
+File: intel/vsc/ivsc_pkg_himx2170_0.bin
+File: intel/vsc/ivsc_pkg_himx2172_0.bin
+File: intel/vsc/ivsc_pkg_int3537_0.bin
+File: intel/vsc/ivsc_pkg_ovti01a0_0.bin
+File: intel/vsc/ivsc_pkg_ovti01af_0.bin
+File: intel/vsc/ivsc_pkg_ovti01as_0.bin
+File: intel/vsc/ivsc_pkg_ovti02c1_0.bin
+File: intel/vsc/ivsc_pkg_ovti02e1_0.bin
+File: intel/vsc/ivsc_pkg_ovti2740_0.bin
+File: intel/vsc/ivsc_pkg_ovti5678_0.bin
+File: intel/vsc/ivsc_pkg_ovti9734_0.bin
+File: intel/vsc/ivsc_pkg_ovti9738_0.bin
+File: intel/vsc/ivsc_skucfg_hi556_0_1.bin
+File: intel/vsc/ivsc_skucfg_himx11b1_0_1.bin
+File: intel/vsc/ivsc_skucfg_himx2170_0_1.bin
+File: intel/vsc/ivsc_skucfg_himx2172_0_1.bin
+File: intel/vsc/ivsc_skucfg_int3537_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti01a0_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti01af_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti01as_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti02c1_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti02e1_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti2740_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti5678_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti9734_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti9738_0_1.bin
+
+Licence: Redistributable. See LICENSE.ivsc for details
+
+--------------------------------------------------------------------------
+
 Driver: ixp4xx-npe - Intel IXP4xx XScale Network Processing Engine (NPE) Firmware
 File: ixp4xx/NPE-A
 File: ixp4xx/NPE-A-HSS
