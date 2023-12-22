@@ -3445,7 +3445,7 @@ File: ath10k/QCA6174/hw3.0/firmware-4.bin
 Version: WLAN.RM.2.0-00180-QCARMSWPZ-1
 File: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA6174/hw3.0/firmware-6.bin
-Version: WLAN.RM.4.4.1-00288-QCARMSWPZ-1
+Version: WLAN.RM.4.4.1-00309-
 File: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
 File: ath10k/QCA6174/hw3.0/firmware-sdio-6.bin
 Version: WLAN.RMH.4.4.1-00174
@@ -3539,7 +3539,7 @@ File: ath11k/WCN6855/hw2.0/regdb.bin
 File: ath11k/WCN6855/hw2.0/board-2.bin
 File: ath11k/WCN6855/hw2.0/amss.bin
 File: ath11k/WCN6855/hw2.0/m3.bin
-Version: WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.23
+Version: WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.36
 File: ath11k/WCN6855/hw2.0/Notice.txt
 Link: ath11k/WCN6855/hw2.1/regdb.bin -> ../hw2.0/regdb.bin
 Link: ath11k/WCN6855/hw2.1/board-2.bin -> ../hw2.0/board-2.bin
@@ -3586,6 +3586,18 @@ File: ath11k/IPQ5018/hw1.0/q6_fw.flist
 File: ath11k/IPQ5018/hw1.0/q6_fw.mdt
 Version: WLAN.HK.2.6.0.1-00861-QCAHKSWPL_SILICONZ-1
 File: ath11k/IPQ5018/hw1.0/Notice.txt
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
+
+--------------------------------------------------------------------------
+
+Driver: ath12k - Qualcomm Technologies Wi-Fi 7 chipset support
+
+File: ath12k/WCN7850/hw2.0/board-2.bin
+File: ath12k/WCN7850/hw2.0/amss.bin
+File: ath12k/WCN7850/hw2.0/m3.bin
+Version: WLAN.HMT.1.0.c5-00481-QCAHMTSWPL_V1.0_V2.0_SILICONZ-3
+File: ath12k/WCN7850/hw2.0/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
