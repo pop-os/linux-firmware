@@ -7024,3 +7024,68 @@ Version: v0.1.0
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://git.codelinaro.org/linaro/qcomlt/audioreach-topology.git
+
+--------------------------------------------------------------------------
+
+Driver: ti-tas2781 - tas2781 firmware
+File: ti/tas2781/TAS2XXX387D.bin
+File: ti/tas2781/TAS2XXX387E.bin
+File: ti/tas2781/TAS2XXX387F.bin
+File: ti/tas2781/TAS2XXX3880.bin
+File: ti/tas2781/TAS2XXX3881.bin
+File: ti/tas2781/TAS2XXX3882.bin
+File: ti/tas2781/TAS2XXX3884.bin
+File: ti/tas2781/TAS2XXX3886.bin
+File: ti/tas2781/TAS2XXX38A5.bin
+File: ti/tas2781/TAS2XXX38A7.bin
+File: ti/tas2781/TAS2XXX38A8.bin
+File: ti/tas2781/TAS2XXX38B8.bin
+File: ti/tas2781/TAS2XXX38B9.bin
+File: ti/tas2781/TAS2XXX38BA.bin
+File: ti/tas2781/TAS2XXX38BB.bin
+File: ti/tas2781/TAS2XXX38BE.bin
+File: ti/tas2781/TAS2XXX38BF.bin
+File: ti/tas2781/TAS2XXX38C3.bin
+File: ti/tas2781/TAS2XXX38CB.bin
+File: ti/tas2781/TAS2XXX38CD.bin
+File: ti/tas2781/TAS2XXX38D3.bin
+File: ti/tas2781/TAS2XXX38D4.bin
+File: ti/tas2781/TAS2XXX38D5.bin
+File: ti/tas2781/TAS2XXX38D6.bin
+File: ti/tas2781/TAS2XXX38DF.bin
+File: ti/tas2781/TAS2XXX38E0.bin
+File: ti/tas2781/TIAS2781RCA2.bin
+File: ti/tas2781/TIAS2781RCA4.bin
+Link: TAS2XXX387D.bin -> ti/tas2781/TAS2XXX387D.bin
+Link: TAS2XXX387E.bin -> ti/tas2781/TAS2XXX387E.bin
+Link: TAS2XXX387F.bin -> ti/tas2781/TAS2XXX387F.bin
+Link: TAS2XXX3880.bin -> ti/tas2781/TAS2XXX3880.bin
+Link: TAS2XXX3881.bin -> ti/tas2781/TAS2XXX3881.bin
+Link: TAS2XXX3882.bin -> ti/tas2781/TAS2XXX3882.bin
+Link: TAS2XXX3884.bin -> ti/tas2781/TAS2XXX3884.bin
+Link: TAS2XXX3886.bin -> ti/tas2781/TAS2XXX3886.bin
+Link: TAS2XXX38A5.bin -> ti/tas2781/TAS2XXX38A5.bin
+Link: TAS2XXX38A7.bin -> ti/tas2781/TAS2XXX38A7.bin
+Link: TAS2XXX38A8.bin -> ti/tas2781/TAS2XXX38A8.bin
+Link: TAS2XXX38B8.bin -> ti/tas2781/TAS2XXX38B8.bin
+Link: TAS2XXX38B9.bin -> ti/tas2781/TAS2XXX38B9.bin
+Link: TAS2XXX38BA.bin -> ti/tas2781/TAS2XXX38BA.bin
+Link: TAS2XXX38BB.bin -> ti/tas2781/TAS2XXX38BB.bin
+Link: TAS2XXX38BE.bin -> ti/tas2781/TAS2XXX38BE.bin
+Link: TAS2XXX38BF.bin -> ti/tas2781/TAS2XXX38BF.bin
+Link: TAS2XXX38C3.bin -> ti/tas2781/TAS2XXX38C3.bin
+Link: TAS2XXX38CB.bin -> ti/tas2781/TAS2XXX38CB.bin
+Link: TAS2XXX38CD.bin -> ti/tas2781/TAS2XXX38CD.bin
+Link: TAS2XXX38D3.bin -> ti/tas2781/TAS2XXX38D3.bin
+Link: TAS2XXX38D4.bin -> ti/tas2781/TAS2XXX38D4.bin
+Link: TAS2XXX38D5.bin -> ti/tas2781/TAS2XXX38D5.bin
+Link: TAS2XXX38D6.bin -> ti/tas2781/TAS2XXX38D6.bin
+Link: TAS2XXX38DF.bin -> ti/tas2781/TAS2XXX38DF.bin
+Link: TAS2XXX38E0.bin -> ti/tas2781/TAS2XXX38E0.bin
+Link: TIAS2781RCA2.bin -> ti/tas2781/TIAS2781RCA2.bin
+Link: TIAS2781RCA4.bin -> ti/tas2781/TIAS2781RCA4.bin
+
+Licence: Allegedly GPLv2+, but no source visible. Marked:
+	 Copyright (C) 2023 Texas Instruments
+
+Found in hex form in kernel source.
