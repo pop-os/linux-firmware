@@ -7018,7 +7018,12 @@ Originates from https://git.linaro.org/people/srinivas.kandagatla/audioreach-top
 
 Driver: amlogic - Amlogic SoC Firmware
 File: amlogic/bluetooth/w2_bt_fw_uart.bin
-Version: date = 38.01, number = 0xa914
+Version: 38.01
+Info: 0xa914
+
+File: amlogic/bluetooth/w1u_bt_fw_uart.bin
+Version: 2023.04.11
+Info: 0x9b81
 
 Licence: Redistributable. See LICENSE.amlogic for details
 
