@@ -7022,8 +7022,8 @@ Version: 38.01
 Info: 0xa914
 
 File: amlogic/bluetooth/w1u_bt_fw_uart.bin
-Version: 2023.04.11
-Info: 0x9b81
+Version: 41.05
+Info: 0xb024
 
 Licence: Redistributable. See LICENSE.amlogic for details
 
