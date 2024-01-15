@@ -7041,6 +7041,20 @@ Semiconductor Ltd. All Rights Reserved.
 
 ---------------------------------------------------------------------------
 
+Driver: cs42l43 - CS42L43 ALSA audio driver
+
+File: cs42l43.bin
+
+License: Redistributable. See LICENSE.cirrus for details.
+
+Use of Cirrus Logic drivers, firmware and other materials is permitted
+only in connection with Cirrus Logic hardware products.
+
+Copyright © 2023 Cirrus Logic, Inc. and Cirrus Logic International
+Semiconductor Ltd. All Rights Reserved.
+
+---------------------------------------------------------------------------
+
 Driver: mtk-sof - MediaTek Sound Open Firmware driver
 
 File: mediatek/sof/sof-mt8186.ri
