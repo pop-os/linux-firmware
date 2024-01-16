@@ -2585,17 +2585,6 @@ Licence: Redistributable.
 
 --------------------------------------------------------------------------
 
-Driver: rtl8192e - Realtek 8192 PCI wireless driver
-
-File: RTL8192E/boot.img
-File: RTL8192E/data.img
-File: RTL8192E/main.img
-
-Licence: Redistributable, provided by Realtek in their driver
-         source download.
-
---------------------------------------------------------------------------
-
 Driver: lgs8gxx - Legend Silicon GB20600 demodulator driver
 
 File: lgs8g75.fw
