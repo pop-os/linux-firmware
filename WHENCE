@@ -2445,6 +2445,7 @@ File: amdgpu/smu_13_0_10.bin
 File: amdgpu/vcn_3_1_2.bin
 File: amdgpu/vcn_4_0_0.bin
 File: amdgpu/vcn_4_0_2.bin
+File: amdgpu/vcn_4_0_3.bin
 File: amdgpu/vcn_4_0_4.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
