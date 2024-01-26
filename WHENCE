@@ -7547,6 +7547,50 @@ Semiconductor Ltd. All Rights Reserved.
 
 --------------------------------------------------------------------------
 
+Driver: cs35l56 - CS35L56 ALSA audio driver
+
+File: cirrus/cs35l56/CS35L56_Rev3.11.11.wmfw
+Link: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp2.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp3.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp4.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid1-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid1-amp2.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid1-amp3.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid1-amp4.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280c63-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280c63-spkid0-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c63-spkid0-amp2.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c63-spkid0-amp3.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c63-spkid0-amp4.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280c63-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280c63-spkid1-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c63-spkid1-amp2.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c63-spkid1-amp3.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c63-spkid1-amp4.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid0-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid0-amp2.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid0-amp3.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid0-amp4.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid1-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid1-amp2.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid1-amp3.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid1-amp4.bin
+
+License: Redistributable. See LICENSE.cirrus for details.
+
+Use of Cirrus Logic drivers, firmware and other materials is permitted
+only in connection with Cirrus Logic hardware products.
+
+Copyright © 2024 Cirrus Logic, Inc. and Cirrus Logic International
+Semiconductor Ltd. All Rights Reserved.
+
+---------------------------------------------------------------------------
+
 Driver: cs42l43 - CS42L43 ALSA audio driver
 
 File: cs42l43.bin
