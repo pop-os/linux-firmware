@@ -7546,6 +7546,7 @@ License: Redistributable. See LICENSE.powervr for details
 --------------------------------------------------------------------------
 
 Driver: qcom-sm8550 - Qualcomm ASoC tplg Firmware
+File: qcom/sm8550/SM8550-HDK-tplg.bin
 File: qcom/sm8550/SM8550-QRD-tplg.bin
 Version: v0.1.0
 
