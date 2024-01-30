@@ -6768,26 +6768,6 @@ Link: cirrus/cs35l41-dsp1-spk-prot-103c8ad8.wmfw -> cs35l41/v6.61.1/halo_cspl_RA
 Link: cirrus/cs35l41-dsp1-spk-cali-103c8ad8.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8ad8.bin -> cs35l41-dsp1-spk-prot-103c8972.bin
 Link: cirrus/cs35l41-dsp1-spk-cali-103c8ad8.bin -> cs35l41-dsp1-spk-cali-103c8972.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8d01.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8d01.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
-File: cirrus/cs35l41-dsp1-spk-prot-103c8d01-l0.bin
-File: cirrus/cs35l41-dsp1-spk-cali-103c8d01-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8d01-r0.bin -> cs35l41-dsp1-spk-prot-103c8d01-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8d01-r0.bin -> cs35l41-dsp1-spk-cali-103c8d01-l0.bin
-File: cirrus/cs35l41-dsp1-spk-prot-103c8d01-l1.bin
-File: cirrus/cs35l41-dsp1-spk-cali-103c8d01-l1.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8d01-r1.bin -> cs35l41-dsp1-spk-prot-103c8d01-l1.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8d01-r1.bin -> cs35l41-dsp1-spk-cali-103c8d01-l1.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8d08.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8d08.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8d08-l0.bin -> cs35l41-dsp1-spk-prot-103c8d01-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8d08-l0.bin -> cs35l41-dsp1-spk-cali-103c8d01-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8d08-r0.bin -> cs35l41-dsp1-spk-prot-103c8d01-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8d08-r0.bin -> cs35l41-dsp1-spk-cali-103c8d01-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8d08-l1.bin -> cs35l41-dsp1-spk-prot-103c8d01-l1.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8d08-l1.bin -> cs35l41-dsp1-spk-cali-103c8d01-l1.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8d08-r1.bin -> cs35l41-dsp1-spk-prot-103c8d01-l1.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8d08-r1.bin -> cs35l41-dsp1-spk-cali-103c8d01-l1.bin
 File: cirrus/cs35l41/v6.68.0/halo_cspl_RAM_revB2_29.70.0.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8a6e.wmfw -> cs35l41/v6.68.0/halo_cspl_RAM_revB2_29.70.0.wmfw
 Link: cirrus/cs35l41-dsp1-spk-cali-103c8a6e.wmfw -> cs35l41/v6.68.0/halo_cspl_RAM_revB2_29.70.0.wmfw
