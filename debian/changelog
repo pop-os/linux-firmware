@@ -1,5 +1,6 @@
-linux-firmware (20240202.git36777504-0ubuntu1) noble; urgency=medium
+linux-firmware (20240202.git36777504-0ubuntu1+system76) noble; urgency=medium
 
+  [ Juerg Haefliger ]
   * /lib/firmware/brcm/brcmfmac43430-sdio.bin missing on riscv64 (LP: #2038546)
     - [Packaging] config: Don't exclude cypress fw link targets
   * Miscellaneous Ubuntu changes
@@ -275,7 +276,7 @@ linux-firmware (20240202.git36777504-0ubuntu1) noble; urgency=medium
     - [Packaging] control: Add rdfind to Build-Depends
     - [Packaging] scripts/install-firmware: Fix installation of license files
 
- -- Juerg Haefliger <juerg.haefliger@canonical.com>  Fri, 02 Feb 2024 15:42:49 +0100
+ -- Michael Murphy <michael@mmurphy.dev>  Fri, 02 Feb 2024 17:38:02 +0100
 
 linux-firmware (20230919.git3672ccab-0ubuntu1) mantic; urgency=medium
 
