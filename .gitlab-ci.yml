@@ -1,3 +1,12 @@
+.debcommon: &debcommon
+  - apt update
+  - apt install build-essential debhelper git python3-jinja2 rdfind -y
+  - make deb
+
+.rpmcommon: &rpmcommon
+  - dnf install make git python3-jinja2 rpmdevtools rdfind -y
+  - make rpm
+
 check-commits:
   stage: test
   image: registry.gitlab.com/kernel-firmware/linux-firmware
@@ -15,6 +24,34 @@ pre-commit:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   script:
     - pre-commit run --all-files
+
+deb-release:
+  stage: deploy
+  image: debian
+  rules:
+    - if: $CI_MERGE_REQUEST_SOURCE_BRANCH_NAME
+      when: never
+    - if: $RELEASE_TOKEN
+    - if: $CI_COMMIT_TAG
+  artifacts:
+    paths:
+      - dist/*
+  script:
+    - *debcommon
+
+rpm-release:
+  stage: deploy
+  image: fedora
+  rules:
+    - if: $CI_MERGE_REQUEST_SOURCE_BRANCH_NAME
+      when: never
+    - if: $RELEASE_TOKEN
+    - if: $CI_COMMIT_TAG
+  artifacts:
+    paths:
+      - dist/*
+  script:
+    - *rpmcommon
 
 release:
   stage: deploy

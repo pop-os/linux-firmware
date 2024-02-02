@@ -1,12 +1,78 @@
+diff --git a/.gitea/workflows/pr_check.yaml b/.gitea/workflows/pr_check.yaml
+new file mode 100644
+index 000000000000..164269394f45
+--- /dev/null
++++ b/.gitea/workflows/pr_check.yaml
+@@ -0,0 +1,38 @@
++---
++name: PR checks
++
++on:
++  pull_request_target:
++    types:
++      - edited
++      - opened
++      - synchronize
++
++jobs:
++  pr_checks:
++    runs-on: ubuntu-latest
++    steps:
++      - step:
++        name: Show versions
++        run: |
++          cat /etc/os-release
++          python3 --version
++          pip3 list
++      - step:
++        name: Clone repo
++        uses: actions/checkout@v4
++        with:
++          ref: ${{ github.event.pull_request.head.sha }}
++          repository: ${{ github.event.pull_request.head.repo.full_name }}
++          fetch-depth: 0
++      - step:
++        name: Run pre-commit hooks
++        run: |
++          pre-commit install
++          pre-commit run --all-files
++      - step:
++        name: Run ubuntu-check-commit
++        uses: juergh/ubuntu-check-commit@main
++        with:
++          start_rev: ${{ github.event.pull_request.base.sha }}
++          end_rev: ${{ github.event.pull_request.head.sha }}
 diff --git a/.gitignore b/.gitignore
-index a3876403aa7c..ac516ec423e7 100644
+index ea771274e2e7..befe598bf8df 100644
 --- a/.gitignore
 +++ b/.gitignore
-@@ -1,3 +1,3 @@
+@@ -1,4 +1,4 @@
 -debian/
 +#debian/
  dist/
  release/
+ contrib/*.db
+diff --git a/.pre-commit-config.yaml b/.pre-commit-config.yaml
+index 7a49d063250e..90dbb91a6557 100644
+--- a/.pre-commit-config.yaml
++++ b/.pre-commit-config.yaml
+@@ -16,11 +16,11 @@ repos:
+     rev: 22.6.0
+     hooks:
+     - id: black
+--   repo: https://github.com/igorshubovych/markdownlint-cli
+-    rev: v0.33.0
+-    hooks:
+-    - id: markdownlint
+-      args: ['--fix']
++#-   repo: https://github.com/igorshubovych/markdownlint-cli
++#    rev: v0.33.0
++#    hooks:
++#    - id: markdownlint
++#      args: ['--fix']
+ -   repo: local
+     hooks:
+     - id: check-whence
 diff --git a/LICENCE.asihpi b/LICENCE.asihpi
 new file mode 100644
 index 000000000000..3df637e8f767
@@ -872,50 +938,6 @@ index 000000000000..04bad2f9806f
 +Copyright (c) 2016 Intel Corporation.
 +
 +License: Redistributable. See LICENCE.fw_sst_0f28 for details.
-diff --git a/LICENSE.ipu6_firmware b/LICENSE.ipu6_firmware
-new file mode 100644
-index 000000000000..9296d82e8305
---- /dev/null
-+++ b/LICENSE.ipu6_firmware
-@@ -0,0 +1,38 @@
-+Copyright (c) Intel Corporation.
-+
-+Redistribution.  Redistribution and use in binary form, without
-+modification, are permitted provided that the following conditions are
-+met:
-+
-+* Redistributions must reproduce the above copyright notice and the
-+  following disclaimer in the documentation and/or other materials
-+  provided with the distribution.
-+* Neither the name of Intel Corporation nor the names of its suppliers
-+  may be used to endorse or promote products derived from this software
-+  without specific prior written permission.
-+* No reverse engineering, decompilation, or disassembly of this software
-+  is permitted.
-+
-+Limited patent license.  Intel Corporation grants a world-wide,
-+royalty-free, non-exclusive license under patents it now or hereafter
-+owns or controls to make, have made, use, import, offer to sell and
-+sell ("Utilize") this software, but solely to the extent that any
-+such patent is necessary to Utilize the software alone, or in
-+combination with an operating system licensed under an approved Open
-+Source license as listed by the Open Source Initiative at
-+http://opensource.org/licenses.  The patent license shall not apply to
-+any other combinations which include this software.  No hardware per
-+se is licensed hereunder.
-+
-+DISCLAIMER.  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
-+CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,
-+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
-+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
-+COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
-+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
-+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
-+OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
-+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
-+USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
-+DAMAGE.
 diff --git a/LICENSE.ivpu_firmware b/LICENSE.ivpu_firmware
 new file mode 100644
 index 000000000000..f43c01075d0e
@@ -959,56 +981,12 @@ index 000000000000..f43c01075d0e
 +USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
 +DAMAGE.
 +
-diff --git a/LICENSE.ivsc_firmware b/LICENSE.ivsc_firmware
-new file mode 100644
-index 000000000000..9296d82e8305
---- /dev/null
-+++ b/LICENSE.ivsc_firmware
-@@ -0,0 +1,38 @@
-+Copyright (c) Intel Corporation.
-+
-+Redistribution.  Redistribution and use in binary form, without
-+modification, are permitted provided that the following conditions are
-+met:
-+
-+* Redistributions must reproduce the above copyright notice and the
-+  following disclaimer in the documentation and/or other materials
-+  provided with the distribution.
-+* Neither the name of Intel Corporation nor the names of its suppliers
-+  may be used to endorse or promote products derived from this software
-+  without specific prior written permission.
-+* No reverse engineering, decompilation, or disassembly of this software
-+  is permitted.
-+
-+Limited patent license.  Intel Corporation grants a world-wide,
-+royalty-free, non-exclusive license under patents it now or hereafter
-+owns or controls to make, have made, use, import, offer to sell and
-+sell ("Utilize") this software, but solely to the extent that any
-+such patent is necessary to Utilize the software alone, or in
-+combination with an operating system licensed under an approved Open
-+Source license as listed by the Open Source Initiative at
-+http://opensource.org/licenses.  The patent license shall not apply to
-+any other combinations which include this software.  No hardware per
-+se is licensed hereunder.
-+
-+DISCLAIMER.  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
-+CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,
-+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
-+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
-+COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
-+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
-+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
-+OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
-+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
-+USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
-+DAMAGE.
 diff --git a/WHENCE.ubuntu b/WHENCE.ubuntu
 new file mode 100644
-index 000000000000..17f8777625a5
+index 000000000000..b0966c468b6c
 --- /dev/null
 +++ b/WHENCE.ubuntu
-@@ -0,0 +1,229 @@
+@@ -0,0 +1,161 @@
 +             **********
 +             * WHENCE *
 +             **********
@@ -1161,74 +1139,6 @@ index 000000000000..17f8777625a5
 +
 +--------------------------------------------------------------------------
 +
-+Driver: intel-ipu6 - Intel IPU6 driver
-+
-+File: intel/ipu6_fw.bin
-+File: intel/ipu6ep_fw.bin
-+
-+Licence: Redistributable. See LICENSE.ipu6_firmware for details.
-+Also available from https://github.com/intel/ipu6-camera-bins/blob/main/LICENSE
-+
-+--------------------------------------------------------------------------
-+
-+Driver: mei-vsc - Intel Vision Sensing Controller device with ME interface
-+
-+File: vsc/soc_a1_prod/ivsc_fw.bin
-+Link: vsc/soc_a1_prod/ivsc_fw_a1_prod.bin -> ivsc_fw.bin
-+File: vsc/soc_a1_prod/ivsc_pkg_hi556_0.bin
-+Link: vsc/soc_a1_prod/ivsc_pkg_hi556_0_a1_prod.bin -> ivsc_pkg_hi556_0.bin
-+File: vsc/soc_a1_prod/ivsc_pkg_himx11b1_0.bin
-+Link: vsc/soc_a1_prod/ivsc_pkg_himx11b1_0_a1_prod.bin -> ivsc_pkg_himx11b1_0.bin
-+File: vsc/soc_a1_prod/ivsc_pkg_himx2170_0.bin
-+Link: vsc/soc_a1_prod/ivsc_pkg_himx2170_0_a1_prod.bin -> ivsc_pkg_himx2170_0.bin
-+File: vsc/soc_a1_prod/ivsc_pkg_int3537_0.bin
-+Link: vsc/soc_a1_prod/ivsc_pkg_int3537_0_a1_prod.bin -> ivsc_pkg_int3537_0.bin
-+File: vsc/soc_a1_prod/ivsc_pkg_ovti01a0_0.bin
-+Link: vsc/soc_a1_prod/ivsc_pkg_ovti01a0_0_a1_prod.bin -> ivsc_pkg_ovti01a0_0.bin
-+File: vsc/soc_a1_prod/ivsc_pkg_ovti01af_0.bin
-+Link: vsc/soc_a1_prod/ivsc_pkg_ovti01af_0_a1_prod.bin -> ivsc_pkg_ovti01af_0.bin
-+File: vsc/soc_a1_prod/ivsc_pkg_ovti01as_0.bin
-+Link: vsc/soc_a1_prod/ivsc_pkg_ovti01as_0_a1_prod.bin -> ivsc_pkg_ovti01as_0.bin
-+File: vsc/soc_a1_prod/ivsc_pkg_ovti02c1_0.bin
-+Link: vsc/soc_a1_prod/ivsc_pkg_ovti02c1_0_a1_prod.bin -> ivsc_pkg_ovti02c1_0.bin
-+File: vsc/soc_a1_prod/ivsc_pkg_ovti2740_0.bin
-+Link: vsc/soc_a1_prod/ivsc_pkg_ovti2740_0_a1_prod.bin -> ivsc_pkg_ovti2740_0.bin
-+File: vsc/soc_a1_prod/ivsc_pkg_ovti5678_0.bin
-+Link: vsc/soc_a1_prod/ivsc_pkg_ovti5678_0_a1_prod.bin -> ivsc_pkg_ovti5678_0.bin
-+File: vsc/soc_a1_prod/ivsc_pkg_ovti9734_0.bin
-+Link: vsc/soc_a1_prod/ivsc_pkg_ovti9734_0_a1_prod.bin -> ivsc_pkg_ovti9734_0.bin
-+File: vsc/soc_a1_prod/ivsc_pkg_ovti9738_0.bin
-+Link: vsc/soc_a1_prod/ivsc_pkg_ovti9738_0_a1_prod.bin -> ivsc_pkg_ovti9738_0.bin
-+File: vsc/soc_a1_prod/ivsc_skucfg_hi556_0_1.bin
-+Link: vsc/soc_a1_prod/ivsc_skucfg_hi556_0_1_a1_prod.bin -> ivsc_skucfg_hi556_0_1.bin
-+File: vsc/soc_a1_prod/ivsc_skucfg_himx11b1_0_1.bin
-+Link: vsc/soc_a1_prod/ivsc_skucfg_himx11b1_0_1_a1_prod.bin -> ivsc_skucfg_himx11b1_0_1.bin
-+File: vsc/soc_a1_prod/ivsc_skucfg_himx2170_0_1.bin
-+Link: vsc/soc_a1_prod/ivsc_skucfg_himx2170_0_1_a1_prod.bin -> ivsc_skucfg_himx2170_0_1.bin
-+File: vsc/soc_a1_prod/ivsc_skucfg_int3537_0_1.bin
-+Link: vsc/soc_a1_prod/ivsc_skucfg_int3537_0_1_a1_prod.bin -> ivsc_skucfg_int3537_0_1.bin
-+File: vsc/soc_a1_prod/ivsc_skucfg_ovti01a0_0_1.bin
-+Link: vsc/soc_a1_prod/ivsc_skucfg_ovti01a0_0_1_a1_prod.bin -> ivsc_skucfg_ovti01a0_0_1.bin
-+File: vsc/soc_a1_prod/ivsc_skucfg_ovti01af_0_1.bin
-+Link: vsc/soc_a1_prod/ivsc_skucfg_ovti01af_0_1_a1_prod.bin -> ivsc_skucfg_ovti01af_0_1.bin
-+File: vsc/soc_a1_prod/ivsc_skucfg_ovti01as_0_1.bin
-+Link: vsc/soc_a1_prod/ivsc_skucfg_ovti01as_0_1_a1_prod.bin -> ivsc_skucfg_ovti01as_0_1.bin
-+File: vsc/soc_a1_prod/ivsc_skucfg_ovti02c1_0_1.bin
-+Link: vsc/soc_a1_prod/ivsc_skucfg_ovti02c1_0_1_a1_prod.bin -> ivsc_skucfg_ovti02c1_0_1.bin
-+File: vsc/soc_a1_prod/ivsc_skucfg_ovti2740_0_1.bin
-+Link: vsc/soc_a1_prod/ivsc_skucfg_ovti2740_0_1_a1_prod.bin -> ivsc_skucfg_ovti2740_0_1.bin
-+File: vsc/soc_a1_prod/ivsc_skucfg_ovti5678_0_1.bin
-+Link: vsc/soc_a1_prod/ivsc_skucfg_ovti5678_0_1_a1_prod.bin -> ivsc_skucfg_ovti5678_0_1.bin
-+File: vsc/soc_a1_prod/ivsc_skucfg_ovti9734_0_1.bin
-+Link: vsc/soc_a1_prod/ivsc_skucfg_ovti9734_0_1_a1_prod.bin -> ivsc_skucfg_ovti9734_0_1.bin
-+File: vsc/soc_a1_prod/ivsc_skucfg_ovti9738_0_1.bin
-+Link: vsc/soc_a1_prod/ivsc_skucfg_ovti9738_0_1_a1_prod.bin -> ivsc_skucfg_ovti9738_0_1.bin
-+
-+Licence: Redistributable. See LICENSE.ivsc_firmware for details.
-+Also available from https://github.com/intel/ivsc-firmware/blob/main/LICENSE
-+
-+--------------------------------------------------------------------------
-+
 +Driver: intel-vpu - Driver for Intel Versatile Processing Unit (VPU)
 +
 +Link: intel/vpu/mtl_vpu_v0.0.bin -> vpu_37xx_v0.0.bin
@@ -1239,7 +1149,7 @@ index 000000000000..17f8777625a5
 +
 +--------------------------------------------------------------------------
 diff --git a/check_whence.py b/check_whence.py
-index 7e0a04f964da..a2f7e99ea686 100755
+index 4b5471e04a6f..a140d24a7bb0 100755
 --- a/check_whence.py
 +++ b/check_whence.py
 @@ -4,8 +4,8 @@ import os, re, sys
@@ -1275,7 +1185,7 @@ index 7e0a04f964da..a2f7e99ea686 100755
          for line in whence:
              match = re.match(r"Link:\s*(.*)", line)
              if match:
-@@ -67,9 +67,13 @@ def list_git():
+@@ -67,11 +67,16 @@ def list_git():
  
  def main():
      ret = 0
@@ -1291,21 +1201,24 @@ index 7e0a04f964da..a2f7e99ea686 100755
 +    )
      known_files = set(name for name in whence_list if not name.endswith("/")) | set(
          [
++            ".gitea/workflows/pr_check.yaml",
              ".gitignore",
-@@ -82,6 +86,7 @@ def main():
+             ".codespell.cfg",
+             ".gitlab-ci.yml",
+@@ -83,6 +88,7 @@ def main():
              "README.md",
              "copy-firmware.sh",
              "WHENCE",
 +            "WHENCE.ubuntu",
              "Dockerfile",
-         ]
-     )
+             "contrib/templates/debian.changelog",
+             "contrib/templates/debian.control",
 diff --git a/copy-firmware.sh b/copy-firmware.sh
-index 59ff976e1a53..3182fe1bff63 100755
+index 6757c6ce03a3..37f034858a3f 100755
 --- a/copy-firmware.sh
 +++ b/copy-firmware.sh
-@@ -69,7 +69,7 @@ while test $# -gt 0; do
- done
+@@ -83,7 +83,7 @@ if ! command -v rdfind >/dev/null; then
+ fi
  
  # shellcheck disable=SC2162 # file/folder name can include escaped symbols
 -grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g' | while read k f; do
@@ -1313,8 +1226,8 @@ index 59ff976e1a53..3182fe1bff63 100755
      test -f "$f" || continue
      install -d "$destdir/$(dirname "$f")"
      $verbose "copying/compressing file $f$compext"
-@@ -82,7 +82,7 @@ grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g'
- done
+@@ -106,7 +106,7 @@ if [ "$skip_dedup" != 1 ] ; then
+ fi
  
  # shellcheck disable=SC2162 # file/folder name can include escaped symbols
 -grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do

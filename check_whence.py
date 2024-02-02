@@ -76,6 +76,7 @@ def main():
             ".codespell.cfg",
             ".gitlab-ci.yml",
             ".pre-commit-config.yaml",
+            "build_packages.py",
             "check_whence.py",
             "configure",
             "Makefile",
@@ -83,6 +84,11 @@ def main():
             "copy-firmware.sh",
             "WHENCE",
             "Dockerfile",
+            "contrib/templates/debian.changelog",
+            "contrib/templates/debian.control",
+            "contrib/templates/debian.copyright",
+            "contrib/templates/rpm.spec",
+            "contrib/process_linux_firmware.py",
         ]
     )
     known_prefixes = set(name for name in whence_list if name.endswith("/"))

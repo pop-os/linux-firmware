@@ -6,7 +6,7 @@ FIRMWAREDIR = /lib/firmware
 all:
 
 check:
-	@if ! which pre-commit >/dev/null; then \
+	@if ! command -v pre-commit >/dev/null; then \
 		echo "Install pre-commit to check files"; \
 		exit 1; \
 	fi
@@ -20,9 +20,19 @@ dist:
 	echo "Created dist/$${TARGET}"
 	@rm -rf release
 
+deb:
+	./build_packages.py --deb
+
+rpm:
+	./build_packages.py --rpm
+
 install:
 	install -d $(DESTDIR)$(FIRMWAREDIR)
-	./copy-firmware.sh $(DESTDIR)$(FIRMWAREDIR)
+	./copy-firmware.sh $(COPYOPTS) $(DESTDIR)$(FIRMWAREDIR)
+
+install-nodedup:
+	install -d $(DESTDIR)$(FIRMWAREDIR)
+	./copy-firmware.sh --ignore-duplicates $(DESTDIR)$(FIRMWAREDIR)
 
 install-xz:
 	install -d $(DESTDIR)$(FIRMWAREDIR)
