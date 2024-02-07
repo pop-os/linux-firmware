@@ -7658,3 +7658,11 @@ Licence: Allegedly GPLv2+, but no source visible. Marked:
 	 Copyright (C) 2023 Texas Instruments
 
 Found in hex form in kernel source.
+
+--------------------------------------------------------------------------
+
+Driver: Mont-TSSE - Mont-TSSE(TM) Crypto Algorithm Accelerator Driver
+File: tsse_firmware.bin
+Version: 1.0.0
+
+Licence: Redistributable. See LICENSE.montage for details
