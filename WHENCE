@@ -7666,3 +7666,11 @@ File: tsse_firmware.bin
 Version: 1.0.0
 
 Licence: Redistributable. See LICENSE.montage for details
+
+--------------------------------------------------------------------------
+
+Driver: panthor - Arm Mali CSF firmware
+File: arm/mali/arch10.8/mali_csffw.bin
+Version: arch10.8
+
+License: Redistributable. See LICENCE.mali_csffw for details
