@@ -1172,13 +1172,13 @@ Licence: Redistributable. See LICENSE.ipu3_firmware for details
 
 Driver: intel-ipu6-isys - Intel IPU6 (Image Processing Unit 6) driver
 
-File: intel/ipu6epadln_fw.bin
-File: intel/ipu6ep_fw.bin
-File: intel/ipu6epmtl_fw.bin
-File: intel/ipu6_fw.bin
+File: intel/ipu/ipu6epadln_fw.bin
+File: intel/ipu/ipu6ep_fw.bin
+File: intel/ipu/ipu6epmtl_fw.bin
+File: intel/ipu/ipu6_fw.bin
 Version: scci_master_20230926_0007
 
-File: intel/ipu6se_fw.bin
+File: intel/ipu/ipu6se_fw.bin
 Version: scci_master_20210502_1459
 
 Licence: Redistributable. See LICENSE.ivsc for details
