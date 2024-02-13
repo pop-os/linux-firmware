@@ -1541,7 +1541,7 @@ Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
 Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: mt7601u - MediaTek MT7601U Wireless MACs
 
@@ -2577,8 +2577,6 @@ File: amdgpu/vcn_4_0_3.bin
 File: amdgpu/vcn_4_0_4.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
-
---------------------------------------------------------------------------
 
 --------------------------------------------------------------------------
 
@@ -5497,7 +5495,7 @@ Version: 1.0.07-b370
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: mt76x2e - MediaTek MT76x2 Wireless MACs
 
@@ -5511,7 +5509,7 @@ Link: mt7662_rom_patch.bin -> mediatek/mt7662_rom_patch.bin
 
 Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: mt76x2u - MediaTek MT76x2u Wireless MACs
 
@@ -6180,7 +6178,7 @@ Permission is hereby granted for the distribution of this firmware
 as part of Linux or other Open Source operating system kernel,
 provided this copyright notice is accompanying it.
 
-------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: prestera - Marvell driver for Prestera family ASIC devices
 
@@ -6192,7 +6190,7 @@ File: mrvl/prestera/mvsw_prestera_fw_arm64-v4.1.img
 
 Licence: Redistributable. See LICENCE.Marvell for details.
 
-------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: lt9611uxc - Lontium DSI to HDMI bridge
 
@@ -6228,7 +6226,7 @@ File: cnm/wave521c_k3_codec_fw.bin
 
 Licence: Redistributable. See LICENCE.cnm for details.
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: rvu_cptpf - Marvell CPT driver
 
@@ -6248,7 +6246,7 @@ Version: v1.21
 
 Licence: Redistributable. See LICENCE.Marvell for details.
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: amphion - Amphion VPU(Video Processing Unit) Codec IP driver
 
@@ -6259,7 +6257,7 @@ Version: 1.3.4
 
 Licence: Redistributable. See LICENSE.amphion_vpu for details
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: cs35l41_hda - CS35l41 ALSA HDA audio driver
 
@@ -7499,7 +7497,7 @@ only in connection with Cirrus Logic hardware products.
 Copyright © 2022 Cirrus Logic, Inc. and Cirrus Logic International
 Semiconductor Ltd. All Rights Reserved.
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: cs42l43 - CS42L43 ALSA audio driver
 
@@ -7513,7 +7511,7 @@ only in connection with Cirrus Logic hardware products.
 Copyright © 2023 Cirrus Logic, Inc. and Cirrus Logic International
 Semiconductor Ltd. All Rights Reserved.
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: mtk-sof - MediaTek Sound Open Firmware driver
 
