@@ -1161,10 +1161,11 @@ Also available from http://wireless.kernel.org/en/users/Drivers/iwlwifi#Firmware
 
 Driver: ipu3-imgu - Intel IPU3 (3rd Gen Image Processing Unit) driver
 
-File: intel/irci_irci_ecr-master_20161208_0213_20170112_1500.bin
+File: intel/ipu/irci_irci_ecr-master_20161208_0213_20170112_1500.bin
 Version: irci_irci_ecr-master_20161208_0213_20170112_1500
 md5sum: 59abc311fce49c5a180b5a8a3917912d
-Link: intel/ipu3-fw.bin -> irci_irci_ecr-master_20161208_0213_20170112_1500.bin
+Link: intel/ipu3-fw.bin -> ipu/irci_irci_ecr-master_20161208_0213_20170112_1500.bin
+Link: intel/irci_irci_ecr-master_20161208_0213_20170112_1500.bin -> ipu/irci_irci_ecr-master_20161208_0213_20170112_1500.bin
 
 Licence: Redistributable. See LICENSE.ipu3_firmware for details
 
@@ -1172,13 +1173,13 @@ Licence: Redistributable. See LICENSE.ipu3_firmware for details
 
 Driver: intel-ipu6-isys - Intel IPU6 (Image Processing Unit 6) driver
 
-File: intel/ipu6epadln_fw.bin
-File: intel/ipu6ep_fw.bin
-File: intel/ipu6epmtl_fw.bin
-File: intel/ipu6_fw.bin
+File: intel/ipu/ipu6epadln_fw.bin
+File: intel/ipu/ipu6ep_fw.bin
+File: intel/ipu/ipu6epmtl_fw.bin
+File: intel/ipu/ipu6_fw.bin
 Version: scci_master_20230926_0007
 
-File: intel/ipu6se_fw.bin
+File: intel/ipu/ipu6se_fw.bin
 Version: scci_master_20210502_1459
 
 Licence: Redistributable. See LICENSE.ivsc for details
