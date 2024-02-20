@@ -5699,6 +5699,21 @@ Version: 20230728
 Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
+
+Driver: mt7996e - MediaTek Wireless MACs for MT7996
+
+File: mediatek/mt7996/mt7996_wm.bin
+Version: 20240104161608
+File: mediatek/mt7996/mt7996_wa.bin
+Version: 20240104161505
+File: mediatek/mt7996/mt7996_rom_patch.bin
+Version: 20240104161614a
+File: mediatek/mt7996/mt7996_dsp.bin
+Version: 20231113135337
+File: mediatek/mt7996/mt7996_eeprom.bin
+Version: 20230518
+
+--------------------------------------------------------------------------
 Driver: nfp - Netronome Flow Processor
 
 Link: netronome/nic_AMDA0081-0001_1x40.nffw -> nic/nic_AMDA0081-0001_1x40.nffw
