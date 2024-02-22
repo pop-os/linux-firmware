@@ -4927,6 +4927,9 @@ Version: HuC API/APB ver 8.5.4 for Meteorlake
 File: i915/mtl_gsc_1.bin
 Version: GSC API/APB v1.0, release 102.0.0.1655, SVN 1 for Meteorlake
 
+File: i915/xe2lpd_dmc.bin
+Version: DMC API/APB ver 2 release 18 for Xe2LPD
+
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
 
