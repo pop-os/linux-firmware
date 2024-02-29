@@ -1159,6 +1159,18 @@ Also available from http://wireless.kernel.org/en/users/Drivers/iwlwifi#Firmware
 
 --------------------------------------------------------------------------
 
+Driver: atomisp - Intel IPU2 (Image Processing Unit 2) driver
+
+File: intel/ipu/shisp_2400b0_v21.bin
+Version: irci_stable_candrpv_0415_20150423_1753
+
+File: intel/ipu/shisp_2401a0_v21.bin
+Version: irci_stable_candrpv_0415_20150521_0458
+
+License: Redistributable. See LICENSE.ivsc for details
+
+--------------------------------------------------------------------------
+
 Driver: ipu3-imgu - Intel IPU3 (3rd Gen Image Processing Unit) driver
 
 File: intel/ipu/irci_irci_ecr-master_20161208_0213_20170112_1500.bin
