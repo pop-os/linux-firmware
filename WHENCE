@@ -3562,6 +3562,8 @@ Version: WLAN.HL.3.3.7.c2-00931-QCAHLSWMTPLZ-1
 Link: ath10k/WCN3990/hw1.0/qrb4210/wlanmdsp.mbn -> ../qcm2290/wlanmdsp.mbn
 Link: qcom/qcm2290/wlanmdsp.mbn -> ../../ath10k/WCN3990/hw1.0/qcm2290/wlanmdsp.mbn
 Link: qcom/qrb4210/wlanmdsp.mbn -> ../../ath10k/WCN3990/hw1.0/qrb4210/wlanmdsp.mbn
+File: ath10k/WCN3990/hw1.0/qcm2290/firmware-5.bin
+Link: ath10k/WCN3990/hw1.0/qrb4210/firmware-5.bin -> ../qcm2290/firmware-5.bin
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
