@@ -5681,7 +5681,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin
-Version: 20231120183620
+Version: 20240219103618
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
