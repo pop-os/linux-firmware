@@ -7739,7 +7739,7 @@ Found in hex form in kernel source.
 
 Driver: Mont-TSSE - Mont-TSSE(TM) Crypto Algorithm Accelerator Driver
 File: tsse_firmware.bin
-Version: 1.0.0
+Version: 1.0.1
 
 Licence: Redistributable. See LICENSE.montage for details
 
