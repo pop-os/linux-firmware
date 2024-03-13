@@ -3215,6 +3215,16 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
+Driver: rtl8192du - Realtek 802.11an WLAN driver for RTL8192DU
+
+Info: Extracted from Realtek driver version v4.0.10_25039.20171107.
+File: rtlwifi/rtl8192dufw.bin
+Version: 39.0
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
 Driver: rtl8723e - Realtek 802.11n WLAN driver for RTL8723E
 
 Info: Taken from Realtek version rtl_92ce_92se_92de_8723ae_linux_mac80211_0007.0809.2012
