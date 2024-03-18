@@ -70,6 +70,7 @@ def main():
     whence_list = list(list_whence())
     whence_files = list(list_whence_files())
     links_list = list(list_links_list())
+    whence_links = list(zip(*links_list))[0]
     known_files = set(name for name in whence_list if not name.endswith("/")) | set(
         [
             ".gitignore",
@@ -99,6 +100,10 @@ def main():
         ret = 1
 
     for name in set(fw for fw in whence_files if whence_files.count(fw) > 1):
+        sys.stderr.write("E: %s listed in WHENCE twice\n" % name)
+        ret = 1
+
+    for name in set(link for link in whence_links if whence_links.count(link) > 1):
         sys.stderr.write("E: %s listed in WHENCE twice\n" % name)
         ret = 1
 

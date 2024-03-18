@@ -1,6 +1,6 @@
 diff --git a/.gitea/workflows/pr_check.yaml b/.gitea/workflows/pr_check.yaml
 new file mode 100644
-index 000000000000..164269394f45
+index 000000000000..c2c1a7208d12
 --- /dev/null
 +++ b/.gitea/workflows/pr_check.yaml
 @@ -0,0 +1,38 @@
@@ -38,7 +38,7 @@ index 000000000000..164269394f45
 +          pre-commit run --all-files
 +      - step:
 +        name: Run ubuntu-check-commit
-+        uses: juergh/ubuntu-check-commit@main
++        uses: actions/ubuntu-check-commit@main
 +        with:
 +          start_rev: ${{ github.event.pull_request.base.sha }}
 +          end_rev: ${{ github.event.pull_request.head.sha }}
@@ -1149,7 +1149,7 @@ index 000000000000..b0966c468b6c
 +
 +--------------------------------------------------------------------------
 diff --git a/check_whence.py b/check_whence.py
-index 4b5471e04a6f..a140d24a7bb0 100755
+index fd74a56a5c5a..bd91a0084d26 100755
 --- a/check_whence.py
 +++ b/check_whence.py
 @@ -4,8 +4,8 @@ import os, re, sys
@@ -1185,7 +1185,7 @@ index 4b5471e04a6f..a140d24a7bb0 100755
          for line in whence:
              match = re.match(r"Link:\s*(.*)", line)
              if match:
-@@ -67,11 +67,16 @@ def list_git():
+@@ -67,12 +67,17 @@ def list_git():
  
  def main():
      ret = 0
@@ -1199,13 +1199,14 @@ index 4b5471e04a6f..a140d24a7bb0 100755
 +    links_list = list(list_links_list("WHENCE")) + list(
 +        list_links_list("WHENCE.ubuntu")
 +    )
+     whence_links = list(zip(*links_list))[0]
      known_files = set(name for name in whence_list if not name.endswith("/")) | set(
          [
 +            ".gitea/workflows/pr_check.yaml",
              ".gitignore",
              ".codespell.cfg",
              ".gitlab-ci.yml",
-@@ -83,6 +88,7 @@ def main():
+@@ -84,6 +89,7 @@ def main():
              "README.md",
              "copy-firmware.sh",
              "WHENCE",
