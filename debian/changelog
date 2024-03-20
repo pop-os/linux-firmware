@@ -1,5 +1,6 @@
-linux-firmware (20240318.git3b128b60-0ubuntu1) noble; urgency=medium
+linux-firmware (20240318.git3b128b60-0ubuntu1+system76) noble; urgency=medium
 
+  [ Juerg Haefliger ]
   * Miscellaneous Ubuntu changes
     - [Workflow] Swich to actions/ubuntu-check-commit
     - Rebase to upstream commit 3b128b6069267b60a46a4074c383183177ee6e6d
@@ -37,7 +38,7 @@ linux-firmware (20240318.git3b128b60-0ubuntu1) noble; urgency=medium
       - iwlwifi: update 9000-family firmwares to core85-89
       - linux-firmware: update firmware for mediatek bluetooth chip (MT7921)
 
- -- Juerg Haefliger <juerg.haefliger@canonical.com>  Mon, 18 Mar 2024 08:36:53 +0100
+ -- Michael Aaron Murphy <michael@mmurphy.dev>  Wed, 20 Mar 2024 19:14:06 +0100
 
 linux-firmware (20240202.git36777504-0ubuntu1) noble; urgency=medium
 
