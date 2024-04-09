@@ -3550,12 +3550,22 @@ Version: WLAN.TF.2.1-00021-QCARMSWP-1
 File: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-6.txt
 File: ath10k/WCN3990/hw1.0/board-2.bin
 File: ath10k/WCN3990/hw1.0/firmware-5.bin
-File: qcom/sdm845/wlanmdsp.mbn
-Link: ath10k/WCN3990/hw1.0/wlanmdsp.mbn -> ../../../qcom/sdm845/wlanmdsp.mbn
+File: ath10k/WCN3990/hw1.0/wlanmdsp.mbn
+Link: qcom/sdm845/wlanmdsp.mbn -> ../../ath10k/WCN3990/hw1.0/wlanmdsp.mbn
 Version: WLAN.HL.2.0-01387-QCAHLSWMTPLZ-1
-File: qcom/sdm845/notice.txt_wlanmdsp
+File: ath10k/WCN3990/hw1.0/notice.txt_wlanmdsp
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
+
+File: ath10k/WCN3990/hw1.0/qcm2290/wlanmdsp.mbn
+Version: WLAN.HL.3.3.7.c2-00931-QCAHLSWMTPLZ-1
+Link: ath10k/WCN3990/hw1.0/qrb4210/wlanmdsp.mbn -> ../qcm2290/wlanmdsp.mbn
+Link: qcom/qcm2290/wlanmdsp.mbn -> ../../ath10k/WCN3990/hw1.0/qcm2290/wlanmdsp.mbn
+Link: qcom/qrb4210/wlanmdsp.mbn -> ../../ath10k/WCN3990/hw1.0/qrb4210/wlanmdsp.mbn
+File: ath10k/WCN3990/hw1.0/qcm2290/firmware-5.bin
+Link: ath10k/WCN3990/hw1.0/qrb4210/firmware-5.bin -> ../qcm2290/firmware-5.bin
+
+Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 --------------------------------------------------------------------------
 
@@ -5957,7 +5967,6 @@ RawFile: qcom/qcm2290/adspua.jsn
 File: qcom/qcm2290/modem.mbn
 RawFile: qcom/qcm2290/modemr.jsn
 RawFile: qcom/qcm2290/modemuw.jsn
-File: qcom/qcm2290/wlanmdsp.mbn
 File: qcom/qrb4210/a610_zap.mbn
 File: qcom/qrb4210/adsp.mbn
 RawFile: qcom/qrb4210/adspr.jsn
@@ -5968,7 +5977,6 @@ RawFile: qcom/qrb4210/cdspr.jsn
 File: qcom/qrb4210/modem.mbn
 RawFile: qcom/qrb4210/modemr.jsn
 RawFile: qcom/qrb4210/modemuw.jsn
-Link: qcom/qrb4210/wlanmdsp.mbn -> ../qcm2290/wlanmdsp.mbn
 File: qcom/sdm845/adsp.mbn
 RawFile: qcom/sdm845/adspr.jsn
 RawFile: qcom/sdm845/adspua.jsn
