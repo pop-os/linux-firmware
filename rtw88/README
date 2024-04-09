@@ -32,3 +32,6 @@ RTL8822CE
 RTL8723DE
     rtw8723d_fw.bin
 
+RTL8723CS/RTL8703B
+    rtw8703b_fw.bin
+    rtw8703b_wow_fw.bin
