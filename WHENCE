@@ -7696,6 +7696,7 @@ Originates from https://git.codelinaro.org/linaro/qcomlt/audioreach-topology.git
 --------------------------------------------------------------------------
 
 Driver: ti-tas2781 - tas2781 firmware
+File: ti/tas2781/TAS2XXX2234.bin
 File: ti/tas2781/TAS2XXX387D.bin
 File: ti/tas2781/TAS2XXX387E.bin
 File: ti/tas2781/TAS2XXX387F.bin
@@ -7724,6 +7725,7 @@ File: ti/tas2781/TAS2XXX38DF.bin
 File: ti/tas2781/TAS2XXX38E0.bin
 File: ti/tas2781/TIAS2781RCA2.bin
 File: ti/tas2781/TIAS2781RCA4.bin
+Link: TAS2XXX2234.bin -> ti/tas2781/TAS2XXX2234.bin
 Link: TAS2XXX387D.bin -> ti/tas2781/TAS2XXX387D.bin
 Link: TAS2XXX387E.bin -> ti/tas2781/TAS2XXX387E.bin
 Link: TAS2XXX387F.bin -> ti/tas2781/TAS2XXX387F.bin
