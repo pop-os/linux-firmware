@@ -6693,6 +6693,11 @@ File: cirrus/cs35l41-dsp1-spk-prot-17aa3877-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-17aa3877-r0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-17aa3878-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-17aa3878-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa386e.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-17aa386e-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa386e-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa386e-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa386e-spkid1-r0.bin
 File: cirrus/cs35l41/v6.63.0/halo_cspl_RAM_revB2_29.65.0.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-104312af.wmfw -> cs35l41/v6.63.0/halo_cspl_RAM_revB2_29.65.0.wmfw
 File: cirrus/cs35l41-dsp1-spk-prot-104312af-spkid0-l0.bin
@@ -7096,6 +7101,35 @@ File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp2.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp3.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp4.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10431b13-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10431b13-spkid0-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10431b13-spkid0-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10431b13-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10431b13-spkid1-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10431b13-spkid1-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid0-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid0-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid1-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid1-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10431df3.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10431df3-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10431df3-amp2.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10431df3-amp3.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10431df3-amp4.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10431e63-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10431e63-spkid0-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10431e63-spkid0-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10431e63-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10431e63-spkid1-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10431e63-spkid1-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10431e83-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10431e83-spkid0-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10431e83-spkid0-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10431e83-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10431e83-spkid1-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10431e83-spkid1-amp2.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
 
