@@ -7559,6 +7559,30 @@ Semiconductor Ltd. All Rights Reserved.
 
 --------------------------------------------------------------------------
 
+Driver: cs35l56 - CS35L56 ALSA audio driver
+
+File: cirrus/cs35l56/CS35L56_Rev3.11.16.wmfw
+Link: cirrus/cs35l56-b0-dsp1-misc-103c8c52.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp2.bin
+File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp3.bin
+File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp4.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-103c8c53.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp2.bin
+File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp3.bin
+File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp4.bin
+
+License: Redistributable. See LICENSE.cirrus for details.
+
+Use of Cirrus Logic drivers, firmware and other materials is permitted
+only in connection with Cirrus Logic hardware products.
+
+Copyright © 2024 Cirrus Logic, Inc. and Cirrus Logic International
+Semiconductor Ltd. All Rights Reserved.
+
+---------------------------------------------------------------------------
+
 Driver: cs42l43 - CS42L43 ALSA audio driver
 
 File: cs42l43.bin
