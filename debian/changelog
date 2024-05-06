@@ -1,3 +1,31 @@
+linux-firmware (20240318.git3b128b60-0ubuntu2.1) noble; urgency=medium
+
+  * Fix the RTL8852CE BT FW Crash based on SER false alarm (LP: #2060904)
+    - rtw89: 8852c: update fw to v0.27.56.14
+  * Add support for DCN 3.5 (LP: #2063002)
+    - amdgpu: add GC 11.5.0 firmware
+    - amdgpu: add PSP 14.0.0  firmware
+    - amdgpu: add SDMA 6.1.0 firmware
+    - amdgpu: add UMSCH 4.0.0 firmware
+    - amdgpu: add VCN 4.0.5 firmware
+    - amdgpu: add VPE 6.1.0 firmware
+    - amdgpu: add DMCUB 3.5 firmware
+  * Add Cirrus Logic CS35L56 amplifier support (LP: #2062135)
+    - linux-firmware: Add firmware for Cirrus CS35L56 for various HP laptops
+  * Fix system hang while entering suspend with AMD Navi3x graphics (LP: #2063417)
+    - amdgpu: DMCUB updates for various AMDGPU ASICs
+    - amdgpu: DMCUB updates for various AMDGPU ASICs
+  * Add support of TAS2781 amp of audio (LP: #2064064)
+    - ASoC: tas2781: Add dsp firmware for Thinkpad ICE-1 laptop
+
+ -- Juerg Haefliger <juerg.haefliger@canonical.com>  Mon, 06 May 2024 10:17:13 +0200
+
+linux-firmware (20240318.git3b128b60-0ubuntu2) noble; urgency=medium
+
+  * No-change rebuild for CVE-2024-3094
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Tue, 09 Apr 2024 22:14:13 +0000
+
 linux-firmware (20240318.git3b128b60-0ubuntu1) noble; urgency=medium
 
   * Miscellaneous Ubuntu changes
