@@ -3967,74 +3967,44 @@ File: intel/ibt-19-240-4.sfi
 Version: BT_HarrisonPeak_REL53636
 File: intel/ibt-19-240-4.ddc
 Version: BT_HarrisonPeak_REL53636
+
 File: intel/ibt-0041-0041.sfi
-Version: BT_TyphoonPeak_REL79483
 File: intel/ibt-0041-0041.ddc
-Version: BT_TyphoonPeak_REL79483
 File: intel/ibt-0040-0041.sfi
-Version: BT_Solar_GfP2_REL79483
 File: intel/ibt-0040-0041.ddc
-Version: BT_Solar_GfP2_REL79483
+File: intel/ibt-0040-4150.sfi
+File: intel/ibt-0040-4150.ddc
 File: intel/ibt-1040-0041.sfi
-Version: BT_SolarF_GfP2_REL79483
 File: intel/ibt-1040-0041.ddc
-Version: BT_SolarF_GfP2_REL79483
+File: intel/ibt-1040-4150.sfi
+File: intel/ibt-1040-4150.ddc
+File: intel/ibt-0040-1050.sfi
+File: intel/ibt-0040-1050.ddc
+File: intel/ibt-1040-1050.sfi
+File: intel/ibt-1040-1050.ddc
+Version: BT_Solar_REL81454_23.50.24144.81454
 
 File: intel/ibt-0040-1020.sfi
-Version: BT_Solar_JfP1_REL59564
 File: intel/ibt-0040-1020.ddc
-Version: BT_Solar_JfP1_REL59564
 File: intel/ibt-1040-1020.sfi
-Version: BT_SolarF_JfP1_REL59564
 File: intel/ibt-1040-1020.ddc
-Version: BT_SolarF_JfP1_REL59564
-
 File: intel/ibt-0040-2120.sfi
-Version: BT_Solar_JfP2_REL52159
 File: intel/ibt-0040-2120.ddc
-Version: BT_Solar_JfP2_REL52159
 File: intel/ibt-1040-2120.sfi
-Version: BT_SolarF_JfP2_REL59564
 File: intel/ibt-1040-2120.ddc
-Version: BT_SolarF_JfP2_REL59564
-
-File: intel/ibt-0040-1050.sfi
-Version: BT_Solar_HrP1_REL79483
-File: intel/ibt-0040-1050.ddc
-Version: BT_Solar_HrP1_REL79483
-File: intel/ibt-1040-1050.sfi
-Version: BT_SolarF_HrP1_REL79483
-File: intel/ibt-1040-1050.ddc
-Version: BT_SolarF_HrP1_REL79483
-
-File: intel/ibt-0040-4150.sfi
-Version: BT_Solar_JnP2_REL79484
-File: intel/ibt-0040-4150.ddc
-Version: BT_Solar_JnP2_REL79484
-File: intel/ibt-1040-4150.sfi
-Version: BT_SolarF_JnP2_REL75234
-File: intel/ibt-1040-4150.ddc
-Version: BT_SolarF_JnP2_REL75234
+Version: BT_SolarJfp_REL151_22.180.2405.151
 
 File: intel/ibt-0291-0291.sfi
-Version: BT_GalePeak_REL53617
 File: intel/ibt-0291-0291.ddc
-Version: BT_GalePeak_REL53617
+Version: BT_BlazarU_S_REL56888_23.50.24144.56888
 
 File: intel/ibt-0180-0041.sfi
-Version: BT_Magnetar_GfP2_REL100644
 File: intel/ibt-0180-0041.ddc
-Version: BT_Magnetar_GfP2_REL100644
-
 File: intel/ibt-0180-4150.sfi
-Version: BT_Magnetar_JnP2_REL100644
 File: intel/ibt-0180-4150.ddc
-Version: BT_Magnetar_JnP2_REL100644
-
 File: intel/ibt-0180-1050.sfi
-Version: BT_Magnetar_HrP1_REL100644
 File: intel/ibt-0180-1050.ddc
-Version: BT_Magnetar_HrP1_REL100644
+Version: BT_Magnetar_REL103171_23.50.24144.103171
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
