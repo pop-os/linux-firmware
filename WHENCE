@@ -4000,19 +4000,12 @@ File: intel/ibt-0291-0291.ddc
 Version: BT_GalePeak_REL53617
 
 File: intel/ibt-0180-0041.sfi
-Version: BT_Magnetar_GfP2_REL100644
 File: intel/ibt-0180-0041.ddc
-Version: BT_Magnetar_GfP2_REL100644
-
 File: intel/ibt-0180-4150.sfi
-Version: BT_Magnetar_JnP2_REL100644
 File: intel/ibt-0180-4150.ddc
-Version: BT_Magnetar_JnP2_REL100644
-
 File: intel/ibt-0180-1050.sfi
-Version: BT_Magnetar_HrP1_REL100644
 File: intel/ibt-0180-1050.ddc
-Version: BT_Magnetar_HrP1_REL100644
+Version: BT_Magnetar_REL103171_23.50.24144.103171
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
