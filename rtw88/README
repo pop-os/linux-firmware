@@ -19,6 +19,9 @@ except that the device cannot be waken from the wireless NICs.
 
 Currently supported devices with corresponding firmwares:
 
+RTL8821AU
+    rtw8821a_fw.bin
+
 RTL8822BE
     rtw8822b_fw.bin
 
