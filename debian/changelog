@@ -1,3 +1,9 @@
+linux-firmware (20240610.git1d67e66d-0pop1+system76) jammy; urgency=medium
+
+  * 
+
+ -- Michael Aaron Murphy <michael@mmurphy.dev>  Tue, 11 Jun 2024 10:40:19 +0200
+
 linux-firmware (20240318.git3b128b60-0ubuntu2.1) noble; urgency=medium
 
   * Fix the RTL8852CE BT FW Crash based on SER false alarm (LP: #2060904)
