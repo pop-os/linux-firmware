@@ -3078,6 +3078,30 @@ the firmwares for wl18xx chips must be located in
 
 --------------------------------------------------------------------------
 
+Driver: cc33xx - Texas Instruments 802.11 WLAN driver for CC33xx chips
+
+File: ti-connectivity/cc33xx_2nd_loader.bin
+Version: 1.0.0.23
+File: ti-connectivity/cc33xx_fw.bin
+Version: 1.7.0.120
+File: ti-connectivity/cc33xx-conf.bin
+Version: 1.7.0.120
+
+Licence: Redistributable. See LICENCE.ti-connectivity for details.
+
+The cc33xx-conf.bin is a binary containing two parts: radio calibration
+and hardware configuration. The binary can be modified using the tool
+cc33conf which can be found in the CC33XX Linux SDK here: 
+
+https://www.ti.com/tool/CC33XX-SOFTWARE 
+
+The driver expects to find the firmwares under a ti-connectivity
+subdirectory.  So if your system looks for firmwares in /lib/firmware,
+the firmwares for cc33xx chips must be located in
+/lib/firmware/ti-connectivity/.
+
+--------------------------------------------------------------------------
+
 Driver: TI_ST - Texas Instruments bluetooth driver
 
 File: ti-connectivity/TIInit_6.2.31.bts
