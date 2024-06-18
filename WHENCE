@@ -3925,14 +3925,17 @@ File: intel/ibt-12-16.ddc
 Version: BT_WindStormPeak_REL1299
 File: intel/ibt-12-16.sfi
 Version: BT_WindStormPeak_REL1299
+
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20397
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20397
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20397
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20397
+File: intel/ibt-18-16-1.sfi
+File: intel/ibt-18-16-1.ddc
+File: intel/ibt-18-2.sfi
+File: intel/ibt-18-2.ddc
+Version: BT_Pulsar_REL20425_22.20.2412.20425
+
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3941,14 +3944,7 @@ File: intel/ibt-17-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
-File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL20397
-File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL20397
-File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL20397
-File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL20397
+
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -4024,7 +4020,7 @@ File: intel/ibt-0040-1050.sfi
 File: intel/ibt-0040-1050.ddc
 File: intel/ibt-1040-1050.sfi
 File: intel/ibt-1040-1050.ddc
-Version: BT_Solar_REL81454_23.50.24144.81454
+Version: BT_Solar_REL81528_23.50.24183.81528
 
 File: intel/ibt-0040-1020.sfi
 File: intel/ibt-0040-1020.ddc
@@ -4038,7 +4034,7 @@ Version: BT_SolarJfp_REL151_22.180.2405.151
 
 File: intel/ibt-0291-0291.sfi
 File: intel/ibt-0291-0291.ddc
-Version: BT_BlazarU_S_REL56888_23.50.24144.56888
+Version: BT_BlazarU_S_REL58211_23.60.24183.58211
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
@@ -4046,7 +4042,7 @@ File: intel/ibt-0180-4150.sfi
 File: intel/ibt-0180-4150.ddc
 File: intel/ibt-0180-1050.sfi
 File: intel/ibt-0180-1050.ddc
-Version: BT_Magnetar_REL103171_23.50.24144.103171
+Version: BT_Magnetar_REL103243_23.50.24183.103243
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
