@@ -7244,13 +7244,17 @@ Originates from https://git.linaro.org/people/srinivas.kandagatla/audioreach-top
 --------------------------------------------------------------------------
 
 Driver: amlogic - Amlogic SoC Firmware
-File: amlogic/bluetooth/w2_bt_fw_uart.bin
-Version: 38.01
-Info: 0xa914
+File: amlogic/aml_w155s2_bt_uart.bin
+Version: 42.23
+Info: 0x2de8
 
-File: amlogic/bluetooth/w1u_bt_fw_uart.bin
-Version: 41.05
-Info: 0xb024
+File: amlogic/aml_w265s1_bt_uart.bin
+Version: 43.13
+Info: 0xc1c2
+
+File: amlogic/aml_w265s2_bt_uart.bin
+Version: 42.28
+Info: 0xb2fd
 
 Licence: Redistributable. See LICENSE.amlogic for details
 
