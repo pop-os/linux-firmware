@@ -7388,3 +7388,15 @@ Driver: isp - Image Signal Processor (ISP) device
 File: amdgpu/isp_4_1_1.bin
 
 License: Redistributable. See LICENSE.amdisp for details
+
+--------------------------------------------------------------------------
+
+Driver: qaic - Qualcomm Cloud AI accelerators
+File: qcom/aic100/fw1.bin
+File: qcom/aic100/fw10.bin
+File: qcom/aic100/fw2.bin
+File: qcom/aic100/fw5.bin
+File: qcom/aic100/fw9.bin
+File: qcom/aic100/sbl.bin
+
+License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
