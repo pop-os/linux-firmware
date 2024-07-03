@@ -7400,3 +7400,11 @@ File: qcom/aic100/fw9.bin
 File: qcom/aic100/sbl.bin
 
 License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+
+--------------------------------------------------------------------------
+
+Driver: ish - Intel Integrated Sensor Hub
+File: intel/ish/ish_lnlm.bin
+Version: 5.8.0.7716
+
+License: Redistributable. See LICENCE.ish for details
