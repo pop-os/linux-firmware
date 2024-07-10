@@ -4381,6 +4381,7 @@ Link: intel/avs/hda-generic-tplg.bin -> hda-generic-1ep-tplg.bin
 File: intel/avs/rt274-tplg.bin
 File: intel/avs/rt286-tplg.bin
 File: intel/avs/rt298-tplg.bin
+File: intel/avs/rt5514-tplg.bin
 
 License: Apache-2.0. See Apache-2 for details.
 
