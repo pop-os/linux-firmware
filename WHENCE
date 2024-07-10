@@ -4373,6 +4373,11 @@ Link: intel/dsp_fw_cnl.bin -> avs/cnl/dsp_basefw.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
+File: intel/avs/hda-generic-1ep-tplg.bin
+Link: intel/avs/hda-generic-tplg.bin -> hda-generic-1ep-tplg.bin
+
+License: Apache-2.0. See Apache-2 for details.
+
 --------------------------------------------------------------------------
 
 Driver: snd_intel_sst_core
