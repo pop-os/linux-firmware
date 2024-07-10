@@ -4381,6 +4381,7 @@ File: intel/avs/hda-generic-1ep-tplg.bin
 Link: intel/avs/hda-generic-tplg.bin -> hda-generic-1ep-tplg.bin
 File: intel/avs/max98357a-tplg.bin
 File: intel/avs/max98373-tplg.bin
+File: intel/avs/max98927-tplg.bin
 File: intel/avs/rt274-tplg.bin
 File: intel/avs/rt286-tplg.bin
 File: intel/avs/rt298-tplg.bin
