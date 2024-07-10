@@ -4364,7 +4364,7 @@ Version: 9.21.00.4899
 Link: intel/dsp_fw_release.bin -> avs/skl/dsp_basefw.bin
 Link: intel/dsp_fw_kbl.bin -> avs/skl/dsp_basefw.bin
 File: intel/avs/apl/dsp_basefw.bin
-Version: 9.22.01.4908
+Version: 9.22.01.4917
 Link: intel/dsp_fw_bxtn.bin -> avs/apl/dsp_basefw.bin
 Link: intel/dsp_fw_glk.bin -> avs/apl/dsp_basefw.bin
 File: intel/avs/cnl/dsp_basefw.bin
