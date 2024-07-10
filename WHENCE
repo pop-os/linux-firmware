@@ -4373,6 +4373,7 @@ Link: intel/dsp_fw_cnl.bin -> avs/cnl/dsp_basefw.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
+File: intel/avs/da7219-tplg.bin
 File: intel/avs/dmic-tplg.bin
 File: intel/avs/hda-808628xx-3ep-tplg.bin
 Link: intel/avs/hda-8086-generic-tplg.bin -> hda-808628xx-3ep-tplg.bin
