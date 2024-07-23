@@ -5037,6 +5037,9 @@ License: Redistributable. See LICENSE.i915 for details
 
 Driver: xe -- Intel Graphics driver
 
+File: xe/lnl_gsc_1.bin
+Version: GSC API/APB v1.0, release 104.0.0.1161, SVN 1 for Lunarlake
+
 File: xe/lnl_guc_70.bin
 Version: GuC API/APB ver 70.20.0 for Lunarlake
 
