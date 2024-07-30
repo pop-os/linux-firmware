@@ -43,7 +43,7 @@ index 000000000000..c2c1a7208d12
 +          start_rev: ${{ github.event.pull_request.base.sha }}
 +          end_rev: ${{ github.event.pull_request.head.sha }}
 diff --git a/.gitignore b/.gitignore
-index ea771274e2e7..befe598bf8df 100644
+index c4b0bcb49771..7cca058e0d6d 100644
 --- a/.gitignore
 +++ b/.gitignore
 @@ -1,4 +1,4 @@
@@ -983,10 +983,10 @@ index 000000000000..f43c01075d0e
 +
 diff --git a/WHENCE.ubuntu b/WHENCE.ubuntu
 new file mode 100644
-index 000000000000..b0966c468b6c
+index 000000000000..40fdde04d3be
 --- /dev/null
 +++ b/WHENCE.ubuntu
-@@ -0,0 +1,161 @@
+@@ -0,0 +1,162 @@
 +             **********
 +             * WHENCE *
 +             **********
@@ -1143,6 +1143,7 @@ index 000000000000..b0966c468b6c
 +
 +Link: intel/vpu/mtl_vpu_v0.0.bin -> vpu_37xx_v0.0.bin
 +File: intel/vpu/vpu_37xx_v0.0.bin
++File: intel/vpu/vpu_40xx_v0.0.bin
 +
 +Licence: Limited patent license. See LICENSE.ivpu_firmware for details.
 +Also available from https://raw.githubusercontent.com/intel/linux-vpu-driver/main/firmware/bin/COPYRIGHT
