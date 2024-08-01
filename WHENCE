@@ -5046,6 +5046,9 @@ Version: GuC API/APB ver 70.29.2 for Lunarlake
 File: xe/lnl_huc.bin
 Version: HuC API/APB ver 9.4.13 for Lunarlake
 
+File: xe/bmg_guc_70.bin
+Version: GuC API/APB ver 70.29.2 for Battlemage
+
 File: xe/bmg_huc.bin
 Version: HuC API/APB ver 8.2.10 for Battlemage
 
