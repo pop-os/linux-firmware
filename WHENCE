@@ -3298,13 +3298,15 @@ File: rtw89/rtw8851b_fw.bin
 File: rtw89/rtw8852a_fw.bin
 File: rtw89/rtw8852b_fw.bin
 File: rtw89/rtw8852b_fw-1.bin
+File: rtw89/rtw8852bt_fw.bin
 File: rtw89/rtw8852c_fw.bin
+File: rtw89/rtw8852c_fw-1.bin
 File: rtw89/rtw8922a_fw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
    These firmware support 802.11ax chips including RTL8851B, RTL8852A,
-   RTL8852B and RTL8852C and 802.11be chip including RTL8922A.
+   RTL8852B, RTL8852BT and RTL8852C and 802.11be chip including RTL8922A.
 
 --------------------------------------------------------------------------
 
