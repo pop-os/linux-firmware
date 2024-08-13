@@ -3704,7 +3704,7 @@ File: ath11k/WCN6855/hw2.0/regdb.bin
 File: ath11k/WCN6855/hw2.0/board-2.bin
 File: ath11k/WCN6855/hw2.0/amss.bin
 File: ath11k/WCN6855/hw2.0/m3.bin
-Version: WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.37
+Version: WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.41
 File: ath11k/WCN6855/hw2.0/Notice.txt
 Link: ath11k/WCN6855/hw2.1/regdb.bin -> ../hw2.0/regdb.bin
 Link: ath11k/WCN6855/hw2.1/board-2.bin -> ../hw2.0/board-2.bin
