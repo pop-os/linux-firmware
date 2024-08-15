@@ -5986,6 +5986,10 @@ File: qcom/vpu/vpu30_p4.mbn
 
 Version: VIDEO.VPU.3.1-0076
 
+File: qcom/vpu/vpu30_p4_s6.mbn
+
+Version: VIDEO.VPU.3.1-0074
+
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 --------------------------------------------------------------------------
