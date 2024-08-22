@@ -4061,8 +4061,11 @@ File: rtl_bt/rtl8192eu_fw.bin
 File: rtl_bt/rtl8723a_fw.bin
 File: rtl_bt/rtl8723b_fw.bin
 File: rtl_bt/rtl8723bs_fw.bin
-File: rtl_bt/rtl8723bs_config-OBDA8723.bin
-Link: rtl_bt/rtl8723bs_config-OBDA0623.bin -> rtl8723bs_config-OBDA8723.bin
+File: rtl_bt/rtl8723bs_config.bin
+Link: rtl_bt/rtl8723bs_config-OBDA8723.bin -> rtl8723bs_config.bin
+Link: rtl_bt/rtl8723bs_config-OBDA0623.bin -> rtl8723bs_config.bin
+File: rtl_bt/rtl8723cs_xx_fw.bin
+Link: rtl_bt/rtl8723cs_xx_config.bin -> rtl8723bs_config.bin
 File: rtl_bt/rtl8761a_fw.bin
 File: rtl_bt/rtl8761b_fw.bin
 File: rtl_bt/rtl8761b_config.bin
@@ -4074,26 +4077,26 @@ Link: rtl_bt/rtl8821a_config.bin -> rtl8821c_config.bin
 File: rtl_bt/rtl8822b_fw.bin
 File: rtl_bt/rtl8822b_config.bin
 File: rtl_bt/rtl8723d_fw.bin
-File: rtl_bt/rtl8723d_config.bin
+Link: rtl_bt/rtl8723d_config.bin -> rtl8821c_config.bin
 File: rtl_bt/rtl8821c_fw.bin
 File: rtl_bt/rtl8821c_config.bin
 File: rtl_bt/rtl8821cs_fw.bin
-File: rtl_bt/rtl8821cs_config.bin
+Link: rtl_bt/rtl8821cs_config.bin -> rtl8761b_config.bin
 File: rtl_bt/rtl8822cu_fw.bin
-File: rtl_bt/rtl8822cu_config.bin
+Link: rtl_bt/rtl8822cu_config.bin -> rtl8761bu_config.bin
 File: rtl_bt/rtl8822cs_fw.bin
 File: rtl_bt/rtl8822cs_config.bin
 File: rtl_bt/rtl8852au_fw.bin
-File: rtl_bt/rtl8852au_config.bin
+Link: rtl_bt/rtl8852au_config.bin -> rtl8761bu_config.bin
 File: rtl_bt/rtl8852bu_fw.bin
-File: rtl_bt/rtl8852bu_config.bin
+Link: rtl_bt/rtl8852bu_config.bin -> rtl8761bu_config.bin
 File: rtl_bt/rtl8852cu_fw.bin
 File: rtl_bt/rtl8852cu_fw_v2.bin
-File: rtl_bt/rtl8852cu_config.bin
+Link: rtl_bt/rtl8852cu_config.bin -> rtl8761bu_config.bin
 File: rtl_bt/rtl8851bu_fw.bin
-File: rtl_bt/rtl8851bu_config.bin
+Link: rtl_bt/rtl8851bu_config.bin -> rtl8761bu_config.bin
 File: rtl_bt/rtl8852btu_fw.bin
-File: rtl_bt/rtl8852btu_config.bin
+Link: rtl_bt/rtl8852btu_config.bin -> rtl8761bu_config.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -4101,10 +4104,6 @@ Found in vendor driver, linux_bt_usb_2.11.20140423_8723be.rar
 From https://github.com/troy-tan/driver_store
 Files rtl_bt/rtl8822b_* came directly from Realtek. These files are
 updated on April 14, 2017.
-
-Found in vendor driver, 20200806_LINUX_BT_DRIVER_RTL8761B_COEX_v0202.zip
-File rtl_bt/rtl8761b_config.bin
-File rtl_bt/rtl8761bu_config.bin
 
 --------------------------------------------------------------------------
 
