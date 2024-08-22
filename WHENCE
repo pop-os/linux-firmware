@@ -4097,6 +4097,8 @@ File: rtl_bt/rtl8851bu_fw.bin
 Link: rtl_bt/rtl8851bu_config.bin -> rtl8761bu_config.bin
 File: rtl_bt/rtl8852btu_fw.bin
 Link: rtl_bt/rtl8852btu_config.bin -> rtl8761bu_config.bin
+File: rtl_bt/rtl8922au_fw.bin
+File: rtl_bt/rtl8922au_config.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
