@@ -29,6 +29,7 @@ ea/loader_dsp.fw
 ea/mia_dsp.fw
 ea/mona_301_dsp.fw
 ea/mona_361_dsp.fw
+intel/ipu/ipu7_fw.bin
 intel/vpu/vpu_37xx_v0.0.bin
 intel/vpu/vpu_40xx_v0.0.bin
 ipw2100-1.3-i.fw

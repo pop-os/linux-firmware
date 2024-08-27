@@ -983,10 +983,10 @@ index 000000000000..f43c01075d0e
 +
 diff --git a/WHENCE.ubuntu b/WHENCE.ubuntu
 new file mode 100644
-index 000000000000..40fdde04d3be
+index 000000000000..09ab335f5ff7
 --- /dev/null
 +++ b/WHENCE.ubuntu
-@@ -0,0 +1,162 @@
+@@ -0,0 +1,170 @@
 +             **********
 +             * WHENCE *
 +             **********
@@ -1147,6 +1147,14 @@ index 000000000000..40fdde04d3be
 +
 +Licence: Limited patent license. See LICENSE.ivpu_firmware for details.
 +Also available from https://raw.githubusercontent.com/intel/linux-vpu-driver/main/firmware/bin/COPYRIGHT
++
++--------------------------------------------------------------------------
++
++Driver: intel-ipu7 - Intel IPU7 (Image Processing Unit 7) driver
++
++File: intel/ipu/ipu7_fw.bin
++
++Licence: Redistributable. See LICENSE.ivsc for details
 +
 +--------------------------------------------------------------------------
 diff --git a/check_whence.py b/check_whence.py
