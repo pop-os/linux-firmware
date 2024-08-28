@@ -5974,6 +5974,7 @@ Version: VIDEO.VE.6.0-00049-PROD-1
 
 File: qcom/vpu/vpu20_p4.mbn
 Link: qcom/vpu-1.0/venus.mbn -> ../vpu/vpu20_p4.mbn
+Link: qcom/vpu-1.0/venus.mdt -> ../vpu/vpu20_p4.mbn
 
 Version: VIDEO.VPU.1.0-00087-PROD-1
 
