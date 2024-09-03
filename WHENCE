@@ -1149,6 +1149,11 @@ Version: 89.67ce4588.0
 
 File: iwlwifi-gl-c0-fm-c0.pnvm
 
+File: iwlwifi-bz-b0-fm-c0-92.ucode
+Version: 89.67ce4588.0
+
+File: iwlwifi-bz-b0-fm-c0.pnvm
+
 File: iwlwifi-ma-b0-gf-a0-83.ucode
 Version: 80.d24e06ed.0
 
