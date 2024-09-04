@@ -78,7 +78,7 @@ def main():
     known_files = set(name for name in whence_list if not name.endswith("/")) | set(
         [
             ".gitattributes",
-            ".gitea/workflows/pr_check.yaml",
+            ".gitea/workflows/pr_checks.yaml",
             ".gitignore",
             ".codespell.cfg",
             ".gitlab-ci.yml",
