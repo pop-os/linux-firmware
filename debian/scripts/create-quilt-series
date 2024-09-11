@@ -19,11 +19,6 @@ function add_file()
 {
 	local added=${1} name=${2}
 
-	if [ "${name#debian/}" != "${name}" ] ; then
-		# Ignore debian/* files
-		return
-	fi
-
 	if [ -h "${name}" ] ; then
 		# Symlink
 		BINARIES+=("${name}")
@@ -74,7 +69,7 @@ while IFS=$'\t' read -r added _ name ; do
 			add_file "${added}" "${name}"
 			;;
 	esac
-done < <(git diff --numstat "${upstream}")
+done < <(git diff --numstat "${upstream}" -- . ':!debian/' ':!.*')
 
 if [ ${#BINARIES[@]} -gt 0 ] ; then
 	echo "Create debian/source/include-binaries ..."
