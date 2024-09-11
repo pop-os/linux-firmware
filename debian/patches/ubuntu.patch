@@ -1,8 +1,16 @@
-diff --git a/.gitea/workflows/pr_check.yaml b/.gitea/workflows/pr_check.yaml
+diff --git a/.gitattributes b/.gitattributes
+new file mode 100644
+index 000000000000..e36da5b8269d
+--- /dev/null
++++ b/.gitattributes
+@@ -0,0 +1,2 @@
++# Ignore all .* files and directories when running 'git archive'
++.* export-ignore
+diff --git a/.gitea/workflows/pr_checks.yaml b/.gitea/workflows/pr_checks.yaml
 new file mode 100644
 index 000000000000..c2c1a7208d12
 --- /dev/null
-+++ b/.gitea/workflows/pr_check.yaml
++++ b/.gitea/workflows/pr_checks.yaml
 @@ -0,0 +1,38 @@
 +---
 +name: PR checks
@@ -1158,7 +1166,7 @@ index 000000000000..09ab335f5ff7
 +
 +--------------------------------------------------------------------------
 diff --git a/check_whence.py b/check_whence.py
-index fd74a56a5c5a..bd91a0084d26 100755
+index fd74a56a5c5a..eb25f44afaa1 100755
 --- a/check_whence.py
 +++ b/check_whence.py
 @@ -4,8 +4,8 @@ import os, re, sys
@@ -1194,7 +1202,7 @@ index fd74a56a5c5a..bd91a0084d26 100755
          for line in whence:
              match = re.match(r"Link:\s*(.*)", line)
              if match:
-@@ -67,12 +67,17 @@ def list_git():
+@@ -67,12 +67,18 @@ def list_git():
  
  def main():
      ret = 0
@@ -1211,11 +1219,12 @@ index fd74a56a5c5a..bd91a0084d26 100755
      whence_links = list(zip(*links_list))[0]
      known_files = set(name for name in whence_list if not name.endswith("/")) | set(
          [
-+            ".gitea/workflows/pr_check.yaml",
++            ".gitattributes",
++            ".gitea/workflows/pr_checks.yaml",
              ".gitignore",
              ".codespell.cfg",
              ".gitlab-ci.yml",
-@@ -84,6 +89,7 @@ def main():
+@@ -84,6 +90,7 @@ def main():
              "README.md",
              "copy-firmware.sh",
              "WHENCE",

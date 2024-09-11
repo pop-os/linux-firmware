@@ -1149,6 +1149,11 @@ Version: 89.67ce4588.0
 
 File: iwlwifi-gl-c0-fm-c0.pnvm
 
+File: iwlwifi-bz-b0-fm-c0-92.ucode
+Version: 89.67ce4588.0
+
+File: iwlwifi-bz-b0-fm-c0.pnvm
+
 File: iwlwifi-ma-b0-gf-a0-83.ucode
 Version: 80.d24e06ed.0
 
@@ -3302,6 +3307,7 @@ File: rtw89/rtw8852bt_fw.bin
 File: rtw89/rtw8852c_fw.bin
 File: rtw89/rtw8852c_fw-1.bin
 File: rtw89/rtw8922a_fw.bin
+File: rtw89/rtw8922a_fw-1.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3462,6 +3468,9 @@ Version: 0.0.2
 File: rtl_nic/rtl8126a-2.fw
 Version: 0.0.2
 
+File: rtl_nic/rtl8126a-3.fw
+Version: 0.0.5
+
 Licence:
  * Copyright © 2011-2013, Realtek Semiconductor Corporation
  *
@@ -3482,6 +3491,23 @@ File: rtl_nic/rtl8156a-2.fw
 File: rtl_nic/rtl8156b-2.fw
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
+Driver: rt1320 - Realtek rt1320 ASoC audio driver.
+
+File: realtek/rt1320/rt1320-patch-code-vab.bin
+Version: 0.0.1
+
+File: realtek/rt1320/rt1320-patch-code-vc.bin
+Version: 1.0.0
+
+Licence:
+ * Copyright © 2024, Realtek Semiconductor Corporation
+ *
+ * Permission is hereby granted for the distribution of this firmware
+ * data in hexadecimal or equivalent format, provided this copyright
+ * notice is accompanying it.
 
 --------------------------------------------------------------------------
 
@@ -5025,7 +5051,7 @@ File: i915/mtl_dmc_ver2_10.bin
 Version: DMC API/APB ver 2 release 10 for Meteorlake
 
 File: i915/mtl_dmc.bin
-Version: DMC API/APB ver 2 release 21 for Meteorlake
+Version: DMC API/APB ver 2 release 23 for Meteorlake
 
 File: i915/mtl_guc_70.bin
 Version: GuC API/APB ver 70.29.2 for Meteorlake
@@ -5761,9 +5787,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20240716150944a
+Version: 20240826150948a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20240716151027
+Version: 20240826151030
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5772,7 +5798,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20240716150858
+Version: 20240826151221
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5973,6 +5999,7 @@ Version: VIDEO.VE.6.0-00049-PROD-1
 
 File: qcom/vpu/vpu20_p4.mbn
 Link: qcom/vpu-1.0/venus.mbn -> ../vpu/vpu20_p4.mbn
+Link: qcom/vpu-1.0/venus.mdt -> ../vpu/vpu20_p4.mbn
 
 Version: VIDEO.VPU.1.0-00087-PROD-1
 
@@ -7154,10 +7181,21 @@ Semiconductor Ltd. All Rights Reserved.
 
 --------------------------------------------------------------------------
 
-Driver: cs35l56 - CS35L56 ALSA audio driver
+Driver: cs35l56 - CS35L56 ALSA audio driver family (includes cs35l54)
 
 File: cirrus/cs35l56/CS35L56_Rev3.11.11.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.16.wmfw
+File: cirrus/cs35l56/CS35L56_Rev3.11.18.wmfw
+Link: cirrus/cs35l54-b0-dsp1-misc-103c8d01.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
+File: cirrus/cs35l54-b0-dsp1-misc-103c8d01-amp1.bin
+File: cirrus/cs35l54-b0-dsp1-misc-103c8d01-amp2.bin
+File: cirrus/cs35l54-b0-dsp1-misc-103c8d01-amp3.bin
+File: cirrus/cs35l54-b0-dsp1-misc-103c8d01-amp4.bin
+Link: cirrus/cs35l54-b0-dsp1-misc-103c8d08.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
+Link: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp1.bin -> cs35l54-b0-dsp1-misc-103c8d01-amp1.bin
+Link: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp2.bin -> cs35l54-b0-dsp1-misc-103c8d01-amp2.bin
+Link: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp3.bin -> cs35l54-b0-dsp1-misc-103c8d01-amp3.bin
+Link: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp4.bin -> cs35l54-b0-dsp1-misc-103c8d01-amp4.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp2.bin
