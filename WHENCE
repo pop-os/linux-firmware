@@ -2595,6 +2595,13 @@ File: amdgpu/gc_11_5_1_mes1.bin
 File: amdgpu/gc_11_5_1_mes_2.bin
 File: amdgpu/gc_11_5_1_pfp.bin
 File: amdgpu/gc_11_5_1_rlc.bin
+File: amdgpu/gc_11_5_2_imu.bin
+File: amdgpu/gc_11_5_2_me.bin
+File: amdgpu/gc_11_5_2_mec.bin
+File: amdgpu/gc_11_5_2_mes1.bin
+File: amdgpu/gc_11_5_2_mes_2.bin
+File: amdgpu/gc_11_5_2_pfp.bin
+File: amdgpu/gc_11_5_2_rlc.bin
 File: amdgpu/dcn_3_1_4_dmcub.bin
 File: amdgpu/dcn_3_1_5_dmcub.bin
 File: amdgpu/dcn_3_1_6_dmcub.bin
@@ -2624,6 +2631,8 @@ File: amdgpu/psp_14_0_0_ta.bin
 File: amdgpu/psp_14_0_0_toc.bin
 File: amdgpu/psp_14_0_1_ta.bin
 File: amdgpu/psp_14_0_1_toc.bin
+File: amdgpu/psp_14_0_4_ta.bin
+File: amdgpu/psp_14_0_4_toc.bin
 File: amdgpu/sdma_4_4_2.bin
 File: amdgpu/sdma_5_2_6.bin
 File: amdgpu/sdma_5_2_7.bin
@@ -2633,6 +2642,7 @@ File: amdgpu/sdma_6_0_2.bin
 File: amdgpu/sdma_6_0_3.bin
 File: amdgpu/sdma_6_1_0.bin
 File: amdgpu/sdma_6_1_1.bin
+File: amdgpu/sdma_6_1_2.bin
 File: amdgpu/smu_13_0_0.bin
 File: amdgpu/smu_13_0_6.bin
 File: amdgpu/smu_13_0_7.bin
@@ -2648,6 +2658,7 @@ File: amdgpu/vcn_4_0_6.bin
 File: amdgpu/vcn_4_0_6_1.bin
 File: amdgpu/vpe_6_1_0.bin
 File: amdgpu/vpe_6_1_1.bin
+File: amdgpu/vpe_6_1_3.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
