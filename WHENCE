@@ -4056,7 +4056,7 @@ File: intel/ibt-0040-1050.sfi
 File: intel/ibt-0040-1050.ddc
 File: intel/ibt-1040-1050.sfi
 File: intel/ibt-1040-1050.ddc
-Version: BT_Solar_REL81528_23.50.24183.81528
+Version: BT_Solar_REL81755_23.50.24332.81755
 
 File: intel/ibt-0040-1020.sfi
 File: intel/ibt-0040-1020.ddc
@@ -4070,7 +4070,7 @@ Version: BT_SolarJfp_REL151_22.180.2405.151
 
 File: intel/ibt-0291-0291.sfi
 File: intel/ibt-0291-0291.ddc
-Version: BT_BlazarU_S_REL58211_23.60.24183.58211
+Version: BT_BlazarU_S_REL64815_23.80.24332.64815
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
@@ -4078,7 +4078,7 @@ File: intel/ibt-0180-4150.sfi
 File: intel/ibt-0180-4150.ddc
 File: intel/ibt-0180-1050.sfi
 File: intel/ibt-0180-1050.ddc
-Version: BT_Magnetar_REL103243_23.50.24183.103243
+Version: BT_Magnetar_REL103427_23.50.24332.103427
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
