@@ -1,2 +1,0 @@
-# Ignore all .* files and directories when running 'git archive'
-.* export-ignore
