@@ -6127,7 +6127,7 @@ Version: ADSP.HT.5.5.c8-00149-KODIAK-1
 RawFile: qcom/qcm6490/adspr.jsn
 RawFile: qcom/qcm6490/adsps.jsn
 RawFile: qcom/qcm6490/adspua.jsn
-File: qcom/qcm6490/battmgr.jsn
+RawFile: qcom/qcm6490/battmgr.jsn
 File: qcom/qcm6490/cdsp.mbn
 Version: CDSP.HT.2.5.c3-00077-KODIAK-1
 RawFile: qcom/qcm6490/cdspr.jsn

@@ -133,7 +133,7 @@ grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do
         directory="$destdir/$(dirname "$f")"
         install -d "$directory"
         target="$(cd "$directory" && realpath -m -s "$d")"
-        if test -d "$target"; then
+        if test -e "$target"; then
             $verbose "creating link $f -> $d"
             ln -s "$d" "$destdir/$f"
         else
@@ -142,6 +142,13 @@ grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do
         fi
     fi
 done
+
+# Verify no broken symlinks
+if test "$(find "$destdir" -xtype l | wc -l)" -ne 0 ; then
+        echo "ERROR: Broken symlinks found:"
+        find "$destdir" -xtype l
+        exit 1
+fi
 
 exit 0
 
