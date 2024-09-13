@@ -1,86 +1,3 @@
-diff --git a/.gitattributes b/.gitattributes
-new file mode 100644
-index 000000000000..e36da5b8269d
---- /dev/null
-+++ b/.gitattributes
-@@ -0,0 +1,2 @@
-+# Ignore all .* files and directories when running 'git archive'
-+.* export-ignore
-diff --git a/.gitea/workflows/pr_checks.yaml b/.gitea/workflows/pr_checks.yaml
-new file mode 100644
-index 000000000000..c2c1a7208d12
---- /dev/null
-+++ b/.gitea/workflows/pr_checks.yaml
-@@ -0,0 +1,38 @@
-+---
-+name: PR checks
-+
-+on:
-+  pull_request_target:
-+    types:
-+      - edited
-+      - opened
-+      - synchronize
-+
-+jobs:
-+  pr_checks:
-+    runs-on: ubuntu-latest
-+    steps:
-+      - step:
-+        name: Show versions
-+        run: |
-+          cat /etc/os-release
-+          python3 --version
-+          pip3 list
-+      - step:
-+        name: Clone repo
-+        uses: actions/checkout@v4
-+        with:
-+          ref: ${{ github.event.pull_request.head.sha }}
-+          repository: ${{ github.event.pull_request.head.repo.full_name }}
-+          fetch-depth: 0
-+      - step:
-+        name: Run pre-commit hooks
-+        run: |
-+          pre-commit install
-+          pre-commit run --all-files
-+      - step:
-+        name: Run ubuntu-check-commit
-+        uses: actions/ubuntu-check-commit@main
-+        with:
-+          start_rev: ${{ github.event.pull_request.base.sha }}
-+          end_rev: ${{ github.event.pull_request.head.sha }}
-diff --git a/.gitignore b/.gitignore
-index c4b0bcb49771..7cca058e0d6d 100644
---- a/.gitignore
-+++ b/.gitignore
-@@ -1,4 +1,4 @@
--debian/
-+#debian/
- dist/
- release/
- contrib/*.db
-diff --git a/.pre-commit-config.yaml b/.pre-commit-config.yaml
-index 7a49d063250e..90dbb91a6557 100644
---- a/.pre-commit-config.yaml
-+++ b/.pre-commit-config.yaml
-@@ -16,11 +16,11 @@ repos:
-     rev: 22.6.0
-     hooks:
-     - id: black
---   repo: https://github.com/igorshubovych/markdownlint-cli
--    rev: v0.33.0
--    hooks:
--    - id: markdownlint
--      args: ['--fix']
-+#-   repo: https://github.com/igorshubovych/markdownlint-cli
-+#    rev: v0.33.0
-+#    hooks:
-+#    - id: markdownlint
-+#      args: ['--fix']
- -   repo: local
-     hooks:
-     - id: check-whence
 diff --git a/LICENCE.asihpi b/LICENCE.asihpi
 new file mode 100644
 index 000000000000..3df637e8f767
@@ -1233,7 +1150,7 @@ index fd74a56a5c5a..eb25f44afaa1 100755
              "contrib/templates/debian.changelog",
              "contrib/templates/debian.control",
 diff --git a/copy-firmware.sh b/copy-firmware.sh
-index 6757c6ce03a3..37f034858a3f 100755
+index 6c557f234dd2..d51be5d51252 100755
 --- a/copy-firmware.sh
 +++ b/copy-firmware.sh
 @@ -83,7 +83,7 @@ if ! command -v rdfind >/dev/null; then
