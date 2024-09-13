@@ -1,3 +1,78 @@
+diff --git a/.gitea/workflows/pr_checks.yaml b/.gitea/workflows/pr_checks.yaml
+new file mode 100644
+index 000000000000..c2c1a7208d12
+--- /dev/null
++++ b/.gitea/workflows/pr_checks.yaml
+@@ -0,0 +1,38 @@
++---
++name: PR checks
++
++on:
++  pull_request_target:
++    types:
++      - edited
++      - opened
++      - synchronize
++
++jobs:
++  pr_checks:
++    runs-on: ubuntu-latest
++    steps:
++      - step:
++        name: Show versions
++        run: |
++          cat /etc/os-release
++          python3 --version
++          pip3 list
++      - step:
++        name: Clone repo
++        uses: actions/checkout@v4
++        with:
++          ref: ${{ github.event.pull_request.head.sha }}
++          repository: ${{ github.event.pull_request.head.repo.full_name }}
++          fetch-depth: 0
++      - step:
++        name: Run pre-commit hooks
++        run: |
++          pre-commit install
++          pre-commit run --all-files
++      - step:
++        name: Run ubuntu-check-commit
++        uses: actions/ubuntu-check-commit@main
++        with:
++          start_rev: ${{ github.event.pull_request.base.sha }}
++          end_rev: ${{ github.event.pull_request.head.sha }}
+diff --git a/.gitignore b/.gitignore
+index c4b0bcb49771..7cca058e0d6d 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -1,4 +1,4 @@
+-debian/
++#debian/
+ dist/
+ release/
+ contrib/*.db
+diff --git a/.pre-commit-config.yaml b/.pre-commit-config.yaml
+index 7a49d063250e..90dbb91a6557 100644
+--- a/.pre-commit-config.yaml
++++ b/.pre-commit-config.yaml
+@@ -16,11 +16,11 @@ repos:
+     rev: 22.6.0
+     hooks:
+     - id: black
+--   repo: https://github.com/igorshubovych/markdownlint-cli
+-    rev: v0.33.0
+-    hooks:
+-    - id: markdownlint
+-      args: ['--fix']
++#-   repo: https://github.com/igorshubovych/markdownlint-cli
++#    rev: v0.33.0
++#    hooks:
++#    - id: markdownlint
++#      args: ['--fix']
+ -   repo: local
+     hooks:
+     - id: check-whence
 diff --git a/LICENCE.asihpi b/LICENCE.asihpi
 new file mode 100644
 index 000000000000..3df637e8f767
@@ -1083,7 +1158,7 @@ index 000000000000..09ab335f5ff7
 +
 +--------------------------------------------------------------------------
 diff --git a/check_whence.py b/check_whence.py
-index fd74a56a5c5a..eb25f44afaa1 100755
+index fd74a56a5c5a..fe58585b7df8 100755
 --- a/check_whence.py
 +++ b/check_whence.py
 @@ -4,8 +4,8 @@ import os, re, sys
@@ -1119,7 +1194,7 @@ index fd74a56a5c5a..eb25f44afaa1 100755
          for line in whence:
              match = re.match(r"Link:\s*(.*)", line)
              if match:
-@@ -67,12 +67,18 @@ def list_git():
+@@ -67,12 +67,17 @@ def list_git():
  
  def main():
      ret = 0
@@ -1136,12 +1211,11 @@ index fd74a56a5c5a..eb25f44afaa1 100755
      whence_links = list(zip(*links_list))[0]
      known_files = set(name for name in whence_list if not name.endswith("/")) | set(
          [
-+            ".gitattributes",
 +            ".gitea/workflows/pr_checks.yaml",
              ".gitignore",
              ".codespell.cfg",
              ".gitlab-ci.yml",
-@@ -84,6 +90,7 @@ def main():
+@@ -84,6 +89,7 @@ def main():
              "README.md",
              "copy-firmware.sh",
              "WHENCE",
