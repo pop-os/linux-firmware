@@ -44,14 +44,6 @@ while test $# -gt 0; do
             shift
             ;;
 
-        -*)
-            if test "$compress" = "cat"; then
-                echo "ERROR: unknown command-line option: $1"
-                exit 1
-            fi
-            compress="$compress $1"
-            shift
-            ;;
         *)
             if test "x$destdir" != "x"; then
                 echo "ERROR: unknown command-line options: $*"
