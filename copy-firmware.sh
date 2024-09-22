@@ -9,7 +9,6 @@ prune=no
 # shellcheck disable=SC2209
 compress=cat
 compext=
-skip_dedup=0
 
 while test $# -gt 0; do
     case $1 in
@@ -45,11 +44,6 @@ while test $# -gt 0; do
             shift
             ;;
 
-        --ignore-duplicates)
-            skip_dedup=1
-            shift
-            ;;
-
         -*)
             if test "$compress" = "cat"; then
                 echo "ERROR: unknown command-line option: $1"
@@ -75,13 +69,6 @@ if [ -z "$destdir" ]; then
 	exit 1
 fi
 
-if ! command -v rdfind >/dev/null; then
-	if [ "$skip_dedup" != 1 ]; then
-    		echo "ERROR: rdfind is not installed.  Pass --ignore-duplicates to skip deduplication"
-		exit 1
-	fi
-fi
-
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
 grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g' | while read k f; do
     test -f "$f" || continue
@@ -94,16 +81,6 @@ grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g'
         $compress "$f" > "$destdir/$f$compext"
     fi
 done
-
-if [ "$skip_dedup" != 1 ] ; then
-	$verbose "Finding duplicate files"
-	rdfind -makesymlinks true -makeresultsfile false "$destdir" >/dev/null
-	find "$destdir" -type l | while read -r l; do
-		target="$(realpath "$l")"
-		$verbose "Correcting path for $l"
-		ln -fs "$(realpath --relative-to="$(dirname "$(realpath -s "$l")")" "$target")" "$l"
-	done
-fi
 
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
 grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do

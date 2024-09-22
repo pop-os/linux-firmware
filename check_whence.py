@@ -91,6 +91,7 @@ def main():
             "contrib/templates/debian.copyright",
             "contrib/templates/rpm.spec",
             "copy-firmware.sh",
+            "dedup-firmware.sh",
         ]
     )
     known_prefixes = set(name for name in whence_list if name.endswith("/"))
