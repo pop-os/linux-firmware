@@ -73,23 +73,23 @@ def main():
     whence_links = list(zip(*links_list))[0]
     known_files = set(name for name in whence_list if not name.endswith("/")) | set(
         [
-            ".gitignore",
             ".codespell.cfg",
+            ".gitignore",
             ".gitlab-ci.yml",
             ".pre-commit-config.yaml",
+            "Dockerfile",
+            "Makefile",
+            "README.md",
+            "WHENCE",
             "build_packages.py",
             "check_whence.py",
             "configure",
-            "Makefile",
-            "README.md",
-            "copy-firmware.sh",
-            "WHENCE",
-            "Dockerfile",
+            "contrib/process_linux_firmware.py",
             "contrib/templates/debian.changelog",
             "contrib/templates/debian.control",
             "contrib/templates/debian.copyright",
             "contrib/templates/rpm.spec",
-            "contrib/process_linux_firmware.py",
+            "copy-firmware.sh",
         ]
     )
     known_prefixes = set(name for name in whence_list if name.endswith("/"))
