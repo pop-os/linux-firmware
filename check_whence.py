@@ -74,6 +74,7 @@ def main():
     known_files = set(name for name in whence_list if not name.endswith("/")) | set(
         [
             ".codespell.cfg",
+            ".editorconfig",
             ".gitignore",
             ".gitlab-ci.yml",
             ".pre-commit-config.yaml",
