@@ -71,6 +71,9 @@ if test -d "$destdir"; then
     find "$destdir" -type d -empty >/dev/null || warn "destination folder is not empty."
 fi
 
+$verbose "Checking that WHENCE file is formatted properly"
+./check_whence.py || err "check_whence.py has detected errors."
+
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
 grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g' | while read k f; do
     test -f "$f" || continue
