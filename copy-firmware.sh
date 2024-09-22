@@ -58,8 +58,8 @@ while test $# -gt 0; do
 done
 
 if test -z "$destdir"; then
-	echo "ERROR: destination directory was not specified"
-	exit 1
+    echo "ERROR: destination directory was not specified"
+    exit 1
 fi
 
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
@@ -115,9 +115,9 @@ done
 
 # Verify no broken symlinks
 if test "$(find "$destdir" -xtype l | wc -l)" -ne 0 ; then
-        echo "ERROR: Broken symlinks found:"
-        find "$destdir" -xtype l
-        exit 1
+    echo "ERROR: Broken symlinks found:"
+    find "$destdir" -xtype l
+    exit 1
 fi
 
 exit 0
