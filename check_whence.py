@@ -115,12 +115,20 @@ def main():
         sys.stderr.write("E: %s listed in WHENCE as Link, is in tree\n" % name)
         ret = 1
 
+    invalid_targets = set(link[0] for link in links_list)
+    for link, target in sorted(links_list):
+        if target in invalid_targets:
+            sys.stderr.write(
+                "E: target %s of link %s is also a link\n" % (target, link)
+            )
+            ret = 1
+
     for name in sorted(list(known_files - git_files)):
         sys.stderr.write("E: %s listed in WHENCE does not exist\n" % name)
         ret = 1
 
-    # A link can point to another link, or to a file...
-    valid_targets = set(link[0] for link in links_list) | git_files
+    # A link can point to a file...
+    valid_targets = set(git_files)
 
     # ... or to a directory
     for target in set(valid_targets):
