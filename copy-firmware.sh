@@ -16,6 +16,10 @@ err() {
     exit 1
 }
 
+warn() {
+    printf "WARNING: %s\n" "$*"
+}
+
 while test $# -gt 0; do
     case $1 in
         -v | --verbose)
@@ -61,6 +65,10 @@ done
 
 if test -z "$destdir"; then
     err "destination directory was not specified"
+fi
+
+if test -d "$destdir"; then
+    find "$destdir" -type d -empty >/dev/null || warn "destination folder is not empty."
 fi
 
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
