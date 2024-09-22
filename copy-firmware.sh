@@ -81,16 +81,16 @@ grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g'
 done
 
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
-grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do
-    directory="$destdir/$(dirname "$f")"
+grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read l t; do
+    directory="$destdir/$(dirname "$l")"
     install -d "$directory"
-    target="$(cd "$directory" && realpath -m -s "$d")"
+    target="$(cd "$directory" && realpath -m -s "$t")"
     if test -e "$target"; then
-        $verbose "creating link $f -> $d"
-        ln -s "$d" "$destdir/$f"
+        $verbose "creating link $l -> $t"
+        ln -s "$t" "$destdir/$l"
     else
-        $verbose "creating link $f$compext -> $d$compext"
-        ln -s "$d$compext" "$destdir/$f$compext"
+        $verbose "creating link $l$compext -> $t$compext"
+        ln -s "$t$compext" "$destdir/$l$compext"
     fi
 done
 
