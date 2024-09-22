@@ -99,7 +99,7 @@ def main():
         sys.stderr.write("E: %s listed in WHENCE as File, but is directory\n" % name)
         ret = 1
 
-    for name in set(fw for fw in whence_files if whence_files.count(fw) > 1):
+    for name in set(name for name in whence_files if whence_files.count(name) > 1):
         sys.stderr.write("E: %s listed in WHENCE twice\n" % name)
         ret = 1
 
@@ -107,7 +107,7 @@ def main():
         sys.stderr.write("E: %s listed in WHENCE twice\n" % name)
         ret = 1
 
-    for name in set(link for link in whence_files if os.path.islink(link)):
+    for name in set(file for file in whence_files if os.path.islink(file)):
         sys.stderr.write("E: %s listed in WHENCE as File, but is a symlink\n" % name)
         ret = 1
 
@@ -131,10 +131,10 @@ def main():
                 break
             valid_targets.add(dirname)
 
-    for name, target in sorted(links_list):
+    for link, target in sorted(links_list):
         if target not in valid_targets:
             sys.stderr.write(
-                "E: target %s of link %s in WHENCE" " does not exist\n" % (target, name)
+                "E: target %s of link %s in WHENCE" " does not exist\n" % (target, link)
             )
             ret = 1
 
