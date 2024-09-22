@@ -11,6 +11,11 @@ compress=cat
 compext=
 destdir=
 
+err() {
+    printf "ERROR: %s\n" "$*"
+    exit 1
+}
+
 while test $# -gt 0; do
     case $1 in
         -v | --verbose)
@@ -26,8 +31,7 @@ while test $# -gt 0; do
 
         --xz)
             if test "$compext" = ".zst"; then
-                echo "ERROR: cannot mix XZ and ZSTD compression"
-                exit 1
+                err "cannot mix XZ and ZSTD compression"
             fi
             compress="xz --compress --quiet --stdout --check=crc32"
             compext=".xz"
@@ -36,8 +40,7 @@ while test $# -gt 0; do
 
         --zstd)
             if test "$compext" = ".xz"; then
-                echo "ERROR: cannot mix XZ and ZSTD compression"
-                exit 1
+                err "cannot mix XZ and ZSTD compression"
             fi
             # shellcheck disable=SC2209
             compress="zstd --compress --quiet --stdout"
@@ -47,8 +50,7 @@ while test $# -gt 0; do
 
         *)
             if test -n "$destdir"; then
-                echo "ERROR: unknown command-line options: $*"
-                exit 1
+                err "unknown command-line options: $*"
             fi
 
             destdir="$1"
@@ -58,8 +60,7 @@ while test $# -gt 0; do
 done
 
 if test -z "$destdir"; then
-    echo "ERROR: destination directory was not specified"
-    exit 1
+    err "destination directory was not specified"
 fi
 
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
@@ -115,9 +116,7 @@ done
 
 # Verify no broken symlinks
 if test "$(find "$destdir" -xtype l | wc -l)" -ne 0 ; then
-    echo "ERROR: Broken symlinks found:"
-    find "$destdir" -xtype l
-    exit 1
+    err "Broken symlinks found:\\n$(find "$destdir" -xtype l)"
 fi
 
 exit 0
