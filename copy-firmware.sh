@@ -9,6 +9,7 @@ prune=no
 # shellcheck disable=SC2209
 compress=cat
 compext=
+destdir=
 
 while test $# -gt 0; do
     case $1 in
@@ -45,7 +46,7 @@ while test $# -gt 0; do
             ;;
 
         *)
-            if test "x$destdir" != "x"; then
+            if test -n "$destdir"; then
                 echo "ERROR: unknown command-line options: $*"
                 exit 1
             fi
@@ -56,7 +57,7 @@ while test $# -gt 0; do
     esac
 done
 
-if [ -z "$destdir" ]; then
+if test -z "$destdir"; then
 	echo "ERROR: destination directory was not specified"
 	exit 1
 fi
