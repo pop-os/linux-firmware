@@ -6081,6 +6081,8 @@ File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
 File: qcom/gen70500_gmu.bin
 File: qcom/gen70500_sqe.fw
 File: qcom/x1e80100/gen70500_zap.mbn
+File: qcom/a663_gmu.bin
+File: qcom/sa8775p/a663_zap.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
