@@ -648,8 +648,11 @@ Link: libertas/sd8688.bin -> ../mrvl/sd8688.bin
 File: mrvl/sd8688_helper.bin
 Link: libertas/sd8688_helper.bin -> ../mrvl/sd8688_helper.bin
 
-Licence: Redistributable. See LICENCE.Marvell for details.  Extracted from
-Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
+Licence: Redistributable. See LICENCE.Marvell for details.
+
+Info:
+Extracted from Linux driver tarballs downloaded from Marvell's
+"Extranet" with permission.
 
 --------------------------------------------------------------------------
 
@@ -684,9 +687,11 @@ File: mwl8k/helper_8366.fw
 File: mwl8k/fmimage_8764_ap-1.fw
 Version: 7.4.0.9
 
-Licence: Redistributable. See LICENCE.Marvell for details.  8687 images
-downloaded from Marvell's "Extranet" with permission.  8366 images contributed
-directly by Marvell.
+Licence: Redistributable. See LICENCE.Marvell for details.
+
+Info:
+8687 images downloaded from Marvell's "Extranet" with permission.
+8366 images contributed directly by Marvell.
 
 --------------------------------------------------------------------------
 
@@ -1656,7 +1661,7 @@ File: rt3071.bin
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
-rt3071.bin is a copy of bytes 4096-8191 of rt2870.bin for compatibility.
+Info: rt3071.bin is a copy of bytes 4096-8191 of rt2870.bin for compatibility.
 
 --------------------------------------------------------------------------
 
@@ -3062,6 +3067,7 @@ File: ti-connectivity/wl1251-nvs.bin
 
 Licence: Redistributable. See LICENCE.wl1251 for details.
 
+Info:
 The published NVS files are for testing only.  Every device needs to
 have a unique NVS which is properly calibrated for best results.
 
@@ -3124,6 +3130,7 @@ Link: ti-connectivity/wl1271-nvs.bin -> wl127x-nvs.bin
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
 
+Info:
 The NVS file includes two parts:
 	 - radio calibration
 	 - HW configuration parameters (aka. INI values)
@@ -3158,6 +3165,7 @@ Version: 8.9.0.0.79
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
 
+Info:
 The driver expects to find the firmwares under a ti-connectivity
 subdirectory.  So if your system looks for firmwares in /lib/firmware,
 the firmwares for wl18xx chips must be located in
@@ -3199,6 +3207,7 @@ File: ti-connectivity/TIInit_7.2.31.bts
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
 
+Info:
 	TIInit_7.2.31.bts version 7.2.31
 
 	In order to use that file copy it to /lib/firmware/ti-connectivity.
@@ -3374,6 +3383,7 @@ File: rtw88/rtw8812a_fw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
+Info:
     These firmware should be put under /lib/firmware/rtw88/
     And note that the rtw88 driver is able to support wake-on-wireless LAN
     for RTL8822C devices, after kernel v5.6+. So, make sure the firmware
@@ -4022,7 +4032,7 @@ File: ctspeq.bin
 
 Licence: Redistributable. See LICENCE.ca0132 for details
 
-Found also in alsa-firmware package.
+Info: Found also in alsa-firmware package.
 
 --------------------------------------------------------------------------
 
@@ -4237,6 +4247,7 @@ File: rtl_bt/rtl8922au_config.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
+Info:
 Found in vendor driver, linux_bt_usb_2.11.20140423_8723be.rar
 From https://github.com/troy-tan/driver_store
 Files rtl_bt/rtl8822b_* came directly from Realtek. These files are
@@ -6314,6 +6325,7 @@ File: qcom/yamato_pm4.fw
 
 Licence: Redistributable, BSD-3-Clause licence, See LICENSE.qcom_yamato for details
 
+Info:
 Binary files generated from header files in EfikaMX kernel sources. A prefix of
 four zero bytes was prepended to make them work with the DRM MSM driver. See
 https://github.com/genesi/linux-legacy/tree/master/drivers/mxc/amd-gpu
@@ -6400,6 +6412,7 @@ RawFile: qcom/x1e80100/battmgr.jsn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
+Info:
 Binary files supplied originally from
 http://releases.linaro.org/96boards/dragonboard410c/qualcomm/firmware/linux-board-support-package-r1036.1.zip
 http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20221121000000-v5.zip
@@ -6424,6 +6437,7 @@ Link: qcom/sdm845/modem.mbn -> modem_nm.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
+Info:
 Binary files supplied originally from
 http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20221121000000-v5.zip
 
@@ -6659,6 +6673,7 @@ File: wfx/brd8023a.pds
 
 Licence: Redistributable. See wfx/LICENCE.wf200 for details.
 
+Info:
 The firmware itself originates from https://github.com/SiliconLabs/wfx-firmware
 
 The *.pds files come from https://github.com/SiliconLabs/wfx-pds
