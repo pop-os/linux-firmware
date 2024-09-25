@@ -5865,7 +5865,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
-Driver: mt7996e - MediaTek Wireless MACs for MT7996
+Driver: mt7996e - MediaTek Wireless MACs for MT7996/MT7992
 
 File: mediatek/mt7996/mt7996_wm.bin
 Version: 20240809121753
@@ -5889,6 +5889,33 @@ File: mediatek/mt7996/mt7996_eeprom_233.bin
 Version: 20240710
 File: mediatek/mt7996/mt7996_eeprom_233_2i5i6i.bin
 Version: 20231129
+
+File: mediatek/mt7996/mt7992_wm.bin
+Version: 20240809131242
+File: mediatek/mt7996/mt7992_wm_23.bin
+Version: 20240809124856
+File: mediatek/mt7996/mt7992_wa.bin
+Version: 20240809131202
+File: mediatek/mt7996/mt7992_wa_23.bin
+Version: 20240809124757
+File: mediatek/mt7996/mt7992_rom_patch.bin
+Version: 20240809131205a
+File: mediatek/mt7996/mt7992_rom_patch_23.bin
+Version: 20240809124802a
+File: mediatek/mt7996/mt7992_dsp.bin
+Version: 20240809131139
+File: mediatek/mt7996/mt7992_dsp_23.bin
+Version: 20240809124734
+File: mediatek/mt7996/mt7992_eeprom.bin
+Version: 20230928
+File: mediatek/mt7996/mt7992_eeprom_2i5i.bin
+Version: 20231018
+File: mediatek/mt7996/mt7992_eeprom_2i5e.bin
+Version: 20230912
+File: mediatek/mt7996/mt7992_eeprom_23.bin
+Version: 20231006
+File: mediatek/mt7996/mt7992_eeprom_23_2i5i.bin
+Version: 20230811
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
