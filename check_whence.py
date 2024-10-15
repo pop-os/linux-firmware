@@ -84,7 +84,6 @@ def main():
             "WHENCE",
             "build_packages.py",
             "check_whence.py",
-            "configure",
             "contrib/process_linux_firmware.py",
             "contrib/templates/debian.changelog",
             "contrib/templates/debian.control",
