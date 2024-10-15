@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import os, re, sys
+import os, re, stat, sys
 from io import open
 
 
@@ -95,6 +95,17 @@ def main():
     )
     known_prefixes = set(name for name in whence_list if name.endswith("/"))
     git_files = set(list_git())
+    executable_files = set(
+        [
+            "build_packages.py",
+            "carl9170fw/genapi.sh",
+            "carl9170fw/autogen.sh",
+            "check_whence.py",
+            "contrib/process_linux_firmware.py",
+            "copy-firmware.sh",
+            "dedup-firmware.sh",
+        ]
+    )
 
     for name in set(name for name in whence_files if name.endswith("/")):
         sys.stderr.write("E: %s listed in WHENCE as File, but is directory\n" % name)
@@ -161,6 +172,29 @@ def main():
         else:
             sys.stderr.write("E: %s not listed in WHENCE\n" % name)
             ret = 1
+
+    for name in sorted(list(executable_files)):
+        mode = os.stat(name).st_mode
+        if not (mode & stat.S_IXUSR and mode & stat.S_IXGRP and mode & stat.S_IXOTH):
+            sys.stderr.write("E: %s is missing execute bit\n" % name)
+            ret = 1
+
+    for name in sorted(list(git_files - executable_files)):
+        mode = os.stat(name).st_mode
+        if stat.S_ISDIR(mode):
+            if not (
+                mode & stat.S_IXUSR and mode & stat.S_IXGRP and mode & stat.S_IXOTH
+            ):
+                sys.stderr.write("E: %s is missing execute bit\n" % name)
+                ret = 1
+        elif stat.S_ISREG(mode):
+            if mode & stat.S_IXUSR or mode & stat.S_IXGRP or mode & stat.S_IXOTH:
+                sys.stderr.write("E: %s incorrectly has execute bit\n" % name)
+                ret = 1
+        else:
+            sys.stderr.write("E: %s is neither a directory nor regular file\n" % name)
+            ret = 1
+
     return ret
 
 
