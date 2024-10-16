@@ -3495,6 +3495,9 @@ Version: 0.0.2
 File: rtl_nic/rtl8125b-2.fw
 Version: 0.0.2
 
+File: rtl_nic/rtl8125d-1.fw
+Version: 0.0.7
+
 File: rtl_nic/rtl8126a-2.fw
 Version: 0.0.2
 
