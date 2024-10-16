@@ -26,22 +26,23 @@ deb:
 rpm:
 	./build_packages.py --rpm
 
-install: install-nodedup
+dedup:
 	./dedup-firmware.sh $(DESTDIR)$(FIRMWAREDIR)
 
-install-nodedup:
+install:
 	install -d $(DESTDIR)$(FIRMWAREDIR)
 	./copy-firmware.sh $(DESTDIR)$(FIRMWAREDIR)
+	@echo "Now run \"make dedup\" to de-duplicate any firmware files"
 
 install-xz:
 	install -d $(DESTDIR)$(FIRMWAREDIR)
 	./copy-firmware.sh --xz $(DESTDIR)$(FIRMWAREDIR)
-	./dedup-firmware.sh $(DESTDIR)$(FIRMWAREDIR)
+	@echo "Now run \"make dedup\" to de-duplicate any firmware files"
 
 install-zst:
 	install -d $(DESTDIR)$(FIRMWAREDIR)
 	./copy-firmware.sh --zstd $(DESTDIR)$(FIRMWAREDIR)
-	./dedup-firmware.sh $(DESTDIR)$(FIRMWAREDIR)
+	@echo "Now run \"make dedup\" to de-duplicate any firmware files"
 
 clean:
 	rm -rf release dist
