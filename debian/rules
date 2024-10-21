@@ -44,7 +44,10 @@ install-linux-%:
 	dh_installdeb
 	dh_gencontrol
 	dh_md5sums
-	dh_builddeb
+	dh_builddeb -- -Zzstd -z3
+
+override_dh_builddeb:
+	dh_builddeb -- -Zzstd -z3
 
 install-arch: ARCH = $(arch)
 install-arch: install-linux-firmware
