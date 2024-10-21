@@ -1,10 +1,11 @@
-linux-firmware (20240913.gita34e7a5f-0ubuntu2) oracular; urgency=medium
+linux-firmware (20240913.gita34e7a5f-0ubuntu2+system76) oracular; urgency=medium
 
+  [ Juerg Haefliger ]
   * Miscellaneous Ubuntu changes
     - Revert "UBUNTU: [Workflow] Add .gitattribute"
     - Revert "UBUNTU: [Packaging]: Ignore .* files and directories"
 
- -- Juerg Haefliger <juerg.haefliger@canonical.com>  Fri, 13 Sep 2024 18:02:49 +0200
+ -- Michael Aaron Murphy <michael@mmurphy.dev>  Mon, 21 Oct 2024 16:13:08 +0200
 
 linux-firmware (20240913.gita34e7a5f-0ubuntu1) oracular; urgency=medium
 
