@@ -4105,9 +4105,13 @@ File: intel/ibt-1040-2120.sfi
 File: intel/ibt-1040-2120.ddc
 Version: BT_SolarJfp_REL151_22.180.2405.151
 
+File: intel/ibt-0093-0291.sfi
+File: intel/ibt-0093-0291.ddc
+File: intel/ibt-0093-0041.sfi
+File: intel/ibt-0093-0041.ddc
 File: intel/ibt-0291-0291.sfi
 File: intel/ibt-0291-0291.ddc
-Version: BT_BlazarU_S_REL64815_23.80.24332.64815
+Version: BT_BlazarU_S_REL67159_23.90.24382.67159
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
