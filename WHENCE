@@ -3775,16 +3775,8 @@ File: ath11k/QCN9074/hw1.0/m3.bin
 Version: WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
 File: ath11k/QCN9074/hw1.0/Notice.txt
 File: ath11k/WCN6750/hw1.0/board-2.bin
-File: ath11k/WCN6750/hw1.0/wpss.b00
-File: ath11k/WCN6750/hw1.0/wpss.b01
-File: ath11k/WCN6750/hw1.0/wpss.b02
-File: ath11k/WCN6750/hw1.0/wpss.b03
-File: ath11k/WCN6750/hw1.0/wpss.b04
-File: ath11k/WCN6750/hw1.0/wpss.b05
-File: ath11k/WCN6750/hw1.0/wpss.b06
-File: ath11k/WCN6750/hw1.0/wpss.b07
-File: ath11k/WCN6750/hw1.0/wpss.b08
-File: ath11k/WCN6750/hw1.0/wpss.mdt
+File: ath11k/WCN6750/hw1.0/sc7280/wpss.mbn
+Link: ath11k/WCN6750/hw1.0/wpss.mdt -> sc7280/wpss.mbn
 Version: WLAN.MSL.1.0.1-01160-QCAMSLSWPLZ-1
 File: ath11k/WCN6750/hw1.0/Notice.txt
 File: ath11k/IPQ5018/hw1.0/board-2.bin
