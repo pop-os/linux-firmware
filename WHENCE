@@ -6188,6 +6188,7 @@ File: qcom/sm8250/a650_zap.mbn
 File: qcom/a660_gmu.bin
 File: qcom/a660_sqe.fw
 File: qcom/qcm6490/a660_zap.mbn
+Link: qcom/qcs6490/a660_zap.mbn -> ../qcm6490/a660_zap.mbn
 File: qcom/a702_sqe.fw
 File: qcom/leia_pfp_470.fw
 File: qcom/leia_pm4_470.fw
