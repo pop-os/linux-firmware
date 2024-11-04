@@ -4113,6 +4113,14 @@ File: intel/ibt-0180-1050.sfi
 File: intel/ibt-0180-1050.ddc
 Version: BT_Magnetar_REL103427_23.50.24332.103427
 
+File: intel/ibt-0190-0291.sfi
+File: intel/ibt-0190-0291-iml.sfi
+File: intel/ibt-0190-0291.ddc
+File: intel/ibt-0190-0041.sfi
+File: intel/ibt-0190-0041-iml.sfi
+File: intel/ibt-0190-0041.ddc
+Version: BT_BlazarI_S_REL64160_23.70.24233.64160
+
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
 File: rtl_bt/rtl8192ee_fw.bin
