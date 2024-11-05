@@ -7529,6 +7529,9 @@ File: mediatek/sof/sof-mt8195.ldc
 File: mediatek/sof-tplg/sof-mt8195-mt6359-rt1019-rt5682.tplg
 Version: v0.4.2
 
+File: mediatek/sof-tplg/sof-mt8195-mt6359-max98390-rt5682.tplg
+Version: v0.4.3
+
 Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
