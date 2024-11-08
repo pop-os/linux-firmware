@@ -1,8 +1,8 @@
-diff --git a/.gitea/workflows/pr_checks.yaml b/.gitea/workflows/pr_checks.yaml
+diff --git a/.gitea/workflows/pr_check.yaml b/.gitea/workflows/pr_check.yaml
 new file mode 100644
 index 000000000000..c2c1a7208d12
 --- /dev/null
-+++ b/.gitea/workflows/pr_checks.yaml
++++ b/.gitea/workflows/pr_check.yaml
 @@ -0,0 +1,38 @@
 +---
 +name: PR checks
@@ -53,26 +53,26 @@ index c4b0bcb49771..7cca058e0d6d 100644
  release/
  contrib/*.db
 diff --git a/.pre-commit-config.yaml b/.pre-commit-config.yaml
-index 7a49d063250e..90dbb91a6557 100644
+index 370a2970616b..63d777467cb0 100644
 --- a/.pre-commit-config.yaml
 +++ b/.pre-commit-config.yaml
 @@ -16,11 +16,11 @@ repos:
      rev: 22.6.0
      hooks:
-     - id: black
---   repo: https://github.com/igorshubovych/markdownlint-cli
+       - id: black
+-  - repo: https://github.com/igorshubovych/markdownlint-cli
 -    rev: v0.33.0
 -    hooks:
--    - id: markdownlint
--      args: ['--fix']
-+#-   repo: https://github.com/igorshubovych/markdownlint-cli
+-      - id: markdownlint
+-        args: ['--fix']
++#  - repo: https://github.com/igorshubovych/markdownlint-cli
 +#    rev: v0.33.0
 +#    hooks:
-+#    - id: markdownlint
-+#      args: ['--fix']
- -   repo: local
++#      - id: markdownlint
++#        args: ['--fix']
+   - repo: local
      hooks:
-     - id: check-whence
+       - id: check-whence
 diff --git a/LICENCE.asihpi b/LICENCE.asihpi
 new file mode 100644
 index 000000000000..3df637e8f767
@@ -1158,10 +1158,10 @@ index 000000000000..09ab335f5ff7
 +
 +--------------------------------------------------------------------------
 diff --git a/check_whence.py b/check_whence.py
-index fd74a56a5c5a..fe58585b7df8 100755
+index 1fece4f4920a..62a7d18f07ff 100755
 --- a/check_whence.py
 +++ b/check_whence.py
-@@ -4,8 +4,8 @@ import os, re, sys
+@@ -4,8 +4,8 @@ import os, re, stat, sys
  from io import open
  
  
@@ -1194,7 +1194,7 @@ index fd74a56a5c5a..fe58585b7df8 100755
          for line in whence:
              match = re.match(r"Link:\s*(.*)", line)
              if match:
-@@ -67,12 +67,17 @@ def list_git():
+@@ -70,14 +70,19 @@ def list_git():
  
  def main():
      ret = 0
@@ -1211,40 +1211,51 @@ index fd74a56a5c5a..fe58585b7df8 100755
      whence_links = list(zip(*links_list))[0]
      known_files = set(name for name in whence_list if not name.endswith("/")) | set(
          [
-+            ".gitea/workflows/pr_checks.yaml",
-             ".gitignore",
              ".codespell.cfg",
+             ".editorconfig",
++            ".gitea/workflows/pr_check.yaml",
+             ".gitignore",
              ".gitlab-ci.yml",
-@@ -84,6 +89,7 @@ def main():
+             ".pre-commit-config.yaml",
+@@ -85,6 +90,7 @@ def main():
+             "Makefile",
              "README.md",
-             "copy-firmware.sh",
              "WHENCE",
 +            "WHENCE.ubuntu",
-             "Dockerfile",
-             "contrib/templates/debian.changelog",
-             "contrib/templates/debian.control",
+             "build_packages.py",
+             "check_whence.py",
+             "contrib/process_linux_firmware.py",
+@@ -183,6 +189,8 @@ def main():
+             ret = 1
+ 
+     for name in sorted(list(git_files - executable_files)):
++        if name.startswith("debian/"):
++            continue
+         mode = os.stat(name).st_mode
+         if stat.S_ISDIR(mode):
+             if not (
 diff --git a/copy-firmware.sh b/copy-firmware.sh
-index 6c557f234dd2..d51be5d51252 100755
+index dcb3b92c7229..980d3b2fb7a2 100755
 --- a/copy-firmware.sh
 +++ b/copy-firmware.sh
-@@ -83,7 +83,7 @@ if ! command -v rdfind >/dev/null; then
- fi
+@@ -69,7 +69,7 @@ $verbose "Checking that WHENCE file is formatted properly"
+ ./check_whence.py || err "check_whence.py has detected errors."
  
  # shellcheck disable=SC2162 # file/folder name can include escaped symbols
 -grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g' | while read k f; do
 +grep -h -E '^(RawFile|File):' WHENCE WHENCE.ubuntu | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g' | while read k f; do
-     test -f "$f" || continue
      install -d "$destdir/$(dirname "$f")"
      $verbose "copying/compressing file $f$compext"
-@@ -106,7 +106,7 @@ if [ "$skip_dedup" != 1 ] ; then
- fi
+     if test "$compress" != "cat" && test "$k" = "RawFile"; then
+@@ -81,7 +81,7 @@ grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g'
+ done
  
  # shellcheck disable=SC2162 # file/folder name can include escaped symbols
--grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do
-+grep -h -E '^Link:' WHENCE WHENCE.ubuntu | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do
-     if test -L "$f$compext"; then
-         test -f "$destdir/$f$compext" && continue
-         $verbose "copying link $f$compext"
+-grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read l t; do
++grep -h -E '^Link:' WHENCE WHENCE.ubuntu | sed -e 's/^Link: *//g;s/-> //g' | while read l t; do
+     directory="$destdir/$(dirname "$l")"
+     install -d "$directory"
+     target="$(cd "$directory" && realpath -m -s "$t")"
 diff --git a/ea/gina24_301_asic.fw b/ea/gina24_301_asic.fw
 new file mode 100644
 index 000000000000..443b7263cc55

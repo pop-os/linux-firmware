@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import os, re, sys
+import os, re, stat, sys
 from io import open
 
 
@@ -37,7 +37,7 @@ def list_whence_files():
         for line in whence:
             match = re.match(r"(?:RawFile|File):\s*(.*)", line)
             if match:
-                yield match.group(1).replace("\ ", " ").replace('"', "")
+                yield match.group(1).replace(r"\ ", " ").replace('"', "")
                 continue
 
 
@@ -48,8 +48,8 @@ def list_links_list():
             if match:
                 linkname, target = match.group(1).split("->")
 
-                linkname = linkname.strip().replace("\ ", " ").replace('"', "")
-                target = target.strip().replace("\ ", " ").replace('"', "")
+                linkname = linkname.strip().replace(r"\ ", " ").replace('"', "")
+                target = target.strip().replace(r"\ ", " ").replace('"', "")
 
                 # Link target is relative to the link
                 target = os.path.join(os.path.dirname(linkname), target)
@@ -60,9 +60,12 @@ def list_links_list():
 
 
 def list_git():
-    with os.popen("git ls-files") as git_files:
-        for line in git_files:
-            yield line.rstrip("\n")
+    git_files = os.popen("git ls-files")
+    for line in git_files:
+        yield line.rstrip("\n")
+
+    if git_files.close():
+        sys.stderr.write("W: git file listing failed, skipping some validation\n")
 
 
 def main():
@@ -73,33 +76,45 @@ def main():
     whence_links = list(zip(*links_list))[0]
     known_files = set(name for name in whence_list if not name.endswith("/")) | set(
         [
-            ".gitignore",
             ".codespell.cfg",
+            ".editorconfig",
+            ".gitignore",
             ".gitlab-ci.yml",
             ".pre-commit-config.yaml",
-            "build_packages.py",
-            "check_whence.py",
-            "configure",
+            "Dockerfile",
             "Makefile",
             "README.md",
-            "copy-firmware.sh",
             "WHENCE",
-            "Dockerfile",
+            "build_packages.py",
+            "check_whence.py",
+            "contrib/process_linux_firmware.py",
             "contrib/templates/debian.changelog",
             "contrib/templates/debian.control",
             "contrib/templates/debian.copyright",
             "contrib/templates/rpm.spec",
-            "contrib/process_linux_firmware.py",
+            "copy-firmware.sh",
+            "dedup-firmware.sh",
         ]
     )
     known_prefixes = set(name for name in whence_list if name.endswith("/"))
     git_files = set(list_git())
+    executable_files = set(
+        [
+            "build_packages.py",
+            "carl9170fw/genapi.sh",
+            "carl9170fw/autogen.sh",
+            "check_whence.py",
+            "contrib/process_linux_firmware.py",
+            "copy-firmware.sh",
+            "dedup-firmware.sh",
+        ]
+    )
 
     for name in set(name for name in whence_files if name.endswith("/")):
         sys.stderr.write("E: %s listed in WHENCE as File, but is directory\n" % name)
         ret = 1
 
-    for name in set(fw for fw in whence_files if whence_files.count(fw) > 1):
+    for name in set(name for name in whence_files if whence_files.count(name) > 1):
         sys.stderr.write("E: %s listed in WHENCE twice\n" % name)
         ret = 1
 
@@ -107,7 +122,7 @@ def main():
         sys.stderr.write("E: %s listed in WHENCE twice\n" % name)
         ret = 1
 
-    for name in set(link for link in whence_files if os.path.islink(link)):
+    for name in set(file for file in whence_files if os.path.islink(file)):
         sys.stderr.write("E: %s listed in WHENCE as File, but is a symlink\n" % name)
         ret = 1
 
@@ -115,12 +130,20 @@ def main():
         sys.stderr.write("E: %s listed in WHENCE as Link, is in tree\n" % name)
         ret = 1
 
-    for name in sorted(list(known_files - git_files)):
+    invalid_targets = set(link[0] for link in links_list)
+    for link, target in sorted(links_list):
+        if target in invalid_targets:
+            sys.stderr.write(
+                "E: target %s of link %s is also a link\n" % (target, link)
+            )
+            ret = 1
+
+    for name in sorted(list(known_files - git_files) if len(git_files) else list()):
         sys.stderr.write("E: %s listed in WHENCE does not exist\n" % name)
         ret = 1
 
-    # A link can point to another link, or to a file...
-    valid_targets = set(link[0] for link in links_list) | git_files
+    # A link can point to a file...
+    valid_targets = set(git_files)
 
     # ... or to a directory
     for target in set(valid_targets):
@@ -131,10 +154,10 @@ def main():
                 break
             valid_targets.add(dirname)
 
-    for name, target in sorted(links_list):
+    for link, target in sorted(links_list if len(git_files) else list()):
         if target not in valid_targets:
             sys.stderr.write(
-                "E: target %s of link %s in WHENCE" " does not exist\n" % (target, name)
+                "E: target %s of link %s in WHENCE does not exist\n" % (target, link)
             )
             ret = 1
 
@@ -152,6 +175,29 @@ def main():
         else:
             sys.stderr.write("E: %s not listed in WHENCE\n" % name)
             ret = 1
+
+    for name in sorted(list(executable_files)):
+        mode = os.stat(name).st_mode
+        if not (mode & stat.S_IXUSR and mode & stat.S_IXGRP and mode & stat.S_IXOTH):
+            sys.stderr.write("E: %s is missing execute bit\n" % name)
+            ret = 1
+
+    for name in sorted(list(git_files - executable_files)):
+        mode = os.stat(name).st_mode
+        if stat.S_ISDIR(mode):
+            if not (
+                mode & stat.S_IXUSR and mode & stat.S_IXGRP and mode & stat.S_IXOTH
+            ):
+                sys.stderr.write("E: %s is missing execute bit\n" % name)
+                ret = 1
+        elif stat.S_ISREG(mode):
+            if mode & stat.S_IXUSR or mode & stat.S_IXGRP or mode & stat.S_IXOTH:
+                sys.stderr.write("E: %s incorrectly has execute bit\n" % name)
+                ret = 1
+        else:
+            sys.stderr.write("E: %s is neither a directory nor regular file\n" % name)
+            ret = 1
+
     return ret
 
 

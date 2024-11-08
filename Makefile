@@ -26,21 +26,28 @@ deb:
 rpm:
 	./build_packages.py --rpm
 
-install:
-	install -d $(DESTDIR)$(FIRMWAREDIR)
-	./copy-firmware.sh $(COPYOPTS) $(DESTDIR)$(FIRMWAREDIR)
+dedup:
+	./dedup-firmware.sh $(DESTDIR)$(FIRMWAREDIR)
 
-install-nodedup:
+install:
+	@if [ -n "${COPYOPTS}" ]; then \
+		echo "COPYOPTS is not used since linux-firmware-20241017!"; \
+		echo "You may want to use install{-xz,-zst} and dedup targets instead"; \
+		false; \
+	fi
 	install -d $(DESTDIR)$(FIRMWAREDIR)
-	./copy-firmware.sh --ignore-duplicates $(DESTDIR)$(FIRMWAREDIR)
+	./copy-firmware.sh $(DESTDIR)$(FIRMWAREDIR)
+	@echo "Now run \"make dedup\" to de-duplicate any firmware files"
 
 install-xz:
 	install -d $(DESTDIR)$(FIRMWAREDIR)
 	./copy-firmware.sh --xz $(DESTDIR)$(FIRMWAREDIR)
+	@echo "Now run \"make dedup\" to de-duplicate any firmware files"
 
 install-zst:
 	install -d $(DESTDIR)$(FIRMWAREDIR)
 	./copy-firmware.sh --zstd $(DESTDIR)$(FIRMWAREDIR)
+	@echo "Now run \"make dedup\" to de-duplicate any firmware files"
 
 clean:
 	rm -rf release dist
