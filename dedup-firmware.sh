@@ -16,6 +16,7 @@ while test $# -gt 0; do
         -v | --verbose)
             # shellcheck disable=SC2209
             verbose=echo
+            shift
             ;;
         *)
             if test -n "$destdir"; then
