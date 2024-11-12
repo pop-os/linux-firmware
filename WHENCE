@@ -7793,3 +7793,10 @@ File: intel/ish/ish_lnlm.bin
 Version: 5.8.0.7716
 
 License: Redistributable. See LICENCE.ish for details
+
+--------------------------------------------------------------------------
+
+Driver: qdu100 - Qualcomm DU firmware image files
+File: qcom/qdu100/xbl_s.melf
+
+License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
