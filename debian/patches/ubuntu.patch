@@ -983,10 +983,10 @@ index 000000000000..f43c01075d0e
 +
 diff --git a/WHENCE.ubuntu b/WHENCE.ubuntu
 new file mode 100644
-index 000000000000..88ccffafbf8b
+index 000000000000..09ab335f5ff7
 --- /dev/null
 +++ b/WHENCE.ubuntu
-@@ -0,0 +1,208 @@
+@@ -0,0 +1,170 @@
 +             **********
 +             * WHENCE *
 +             **********
@@ -1157,44 +1157,6 @@ index 000000000000..88ccffafbf8b
 +Licence: Redistributable. See LICENSE.ivsc for details
 +
 +--------------------------------------------------------------------------
-+
-+Driver: cs35l56 - CS35L56 ALSA audio driver family (includes cs35l54)
-+
-+File: cirrus/cs35l56/CS35L56_Rev3.11.25.wmfw
-+Link: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
-+File: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid0-ampl.bin
-+File: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid0-ampr.bin
-+Link: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
-+File: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid1-ampl.bin
-+File: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid1-ampr.bin
-+Link: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid2.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
-+File: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid2-ampl.bin
-+File: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid2-ampr.bin
-+Link: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid3.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
-+File: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid3-ampl.bin
-+File: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid3-ampr.bin
-+Link: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
-+File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid0-ampl.bin
-+File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid0-ampr.bin
-+Link: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
-+File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid1-ampl.bin
-+File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid1-ampr.bin
-+Link: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid2.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
-+File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid2-ampl.bin
-+File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid2-ampr.bin
-+Link: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid3.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
-+File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid3-ampl.bin
-+File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid3-ampr.bin
-+
-+License: Redistributable. See LICENSE.cirrus for details.
-+
-+Use of Cirrus Logic drivers, firmware and other materials is permitted
-+only in connection with Cirrus Logic hardware products.
-+
-+Copyright © 2024 Cirrus Logic, Inc. and Cirrus Logic International
-+Semiconductor Ltd. All Rights Reserved.
-+
-+--------------------------------------------------------------------------
 diff --git a/check_whence.py b/check_whence.py
 index 1fece4f4920a..62a7d18f07ff 100755
 --- a/check_whence.py
@@ -1273,19 +1235,11 @@ index 1fece4f4920a..62a7d18f07ff 100755
          if stat.S_ISDIR(mode):
              if not (
 diff --git a/copy-firmware.sh b/copy-firmware.sh
-index dcb3b92c7229..4cc45fcec330 100755
+index 1a1094ae7411..4cc45fcec330 100755
 --- a/copy-firmware.sh
 +++ b/copy-firmware.sh
-@@ -65,11 +65,13 @@ if test -d "$destdir"; then
-     find "$destdir" -type d -empty >/dev/null || warn "destination folder is not empty."
+@@ -71,7 +71,7 @@ if test -e .git/config; then
  fi
- 
--$verbose "Checking that WHENCE file is formatted properly"
--./check_whence.py || err "check_whence.py has detected errors."
-+if test -e .git/config; then
-+    $verbose "Checking that WHENCE file is formatted properly"
-+    ./check_whence.py || err "check_whence.py has detected errors."
-+fi
  
  # shellcheck disable=SC2162 # file/folder name can include escaped symbols
 -grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g' | while read k f; do
@@ -1293,7 +1247,7 @@ index dcb3b92c7229..4cc45fcec330 100755
      install -d "$destdir/$(dirname "$f")"
      $verbose "copying/compressing file $f$compext"
      if test "$compress" != "cat" && test "$k" = "RawFile"; then
-@@ -81,7 +83,7 @@ grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g'
+@@ -83,7 +83,7 @@ grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g'
  done
  
  # shellcheck disable=SC2162 # file/folder name can include escaped symbols

@@ -4703,6 +4703,28 @@ File: qca/hpnv21g.301
 File: qca/hpnv21g.302
 File: qca/hpnv21.309
 File: qca/hpnv21g.309
+File: qca/hpnv21.b8c
+File: qca/hpnv21.b9f
+File: qca/hpnv21.ba0
+File: qca/hpnv21.ba1
+File: qca/hpnv21.ba2
+File: qca/hpnv21.ba3
+File: qca/hpnv21.ba4
+File: qca/hpnv21.baa
+File: qca/hpnv21.bb8
+File: qca/hpnv21.b10c
+File: qca/hpnv21.b111
+File: qca/hpnv21g.b8c
+File: qca/hpnv21g.b9f
+File: qca/hpnv21g.ba0
+File: qca/hpnv21g.ba1
+File: qca/hpnv21g.ba2
+File: qca/hpnv21g.ba3
+File: qca/hpnv21g.ba4
+File: qca/hpnv21g.baa
+File: qca/hpnv21g.bb8
+File: qca/hpnv21g.b10c
+File: qca/hpnv21g.b111
 
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
@@ -5837,9 +5859,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7920 - MediaTek MT7920 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1a_2_hdr.bin
-Version: 20240930111002a
+Version: 20241104091014a
 File: mediatek/WIFI_RAM_CODE_MT7961_1a.bin
-Version: 20240930111041
+Version: 20241104090857
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5848,7 +5870,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7920 - MediaTek MT7920 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1a_2_hdr.bin
-Version: 20240930111457
+Version: 20241104091246
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5857,9 +5879,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20240826150948a
+Version: 20241106151007a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20240826151030
+Version: 20241106150855
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5868,7 +5890,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20240826151221
+Version: 20241106151414
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5877,9 +5899,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 Wireless MACs
 
 File: mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
-Version: 20240716163242a
+Version: 20241106163228a
 File: mediatek/WIFI_RAM_CODE_MT7922_1.bin
-Version: 20240716163327
+Version: 20241106163156
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5888,7 +5910,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin
-Version: 20240716163157
+Version: 20241106163512
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6123,6 +6145,7 @@ Version: 5.2-00023
 
 File: qcom/venus-5.4/venus.mbn
 Link: qcom/venus-5.4/venus.mdt -> venus.mbn
+File: qcom/venus-5.4/venus_s6.mbn
 
 Version: VIDEO.VE.5.4-00058-PROD-4
 
@@ -6139,7 +6162,7 @@ Version: VIDEO.VPU.1.0-00087-PROD-1
 File: qcom/vpu/vpu20_p1.mbn
 Link: qcom/vpu-2.0/venus.mbn -> ../vpu/vpu20_p1.mbn
 
-Version: VIDEO.VPU.2.0-00049-PROD-1
+Version: VIDEO.VPU.2.0-00055-PROD-1
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -7360,6 +7383,7 @@ File: cirrus/cs35l56/CS35L56_Rev3.11.11.1.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.16.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.18.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.20.wmfw
+File: cirrus/cs35l56/CS35L56_Rev3.11.25.wmfw
 Link: cirrus/cs35l54-b0-dsp1-misc-103c8d01.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d01-amp1.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d01-amp2.bin
@@ -7400,6 +7424,30 @@ File: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid1-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid1-amp2.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid1-amp3.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid1-amp4.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid0-ampl.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid0-ampr.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid1-ampl.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid1-ampr.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid2.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid2-ampl.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid2-ampr.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid3.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid3-ampl.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280ce3-spkid3-ampr.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid0-ampl.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid0-ampr.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid1-ampl.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid1-ampr.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid2.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid2-ampl.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid2-ampr.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid3.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid3-ampl.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid3-ampr.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-103c8c52.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp2.bin
@@ -7768,3 +7816,10 @@ File: intel/ish/ish_lnlm.bin
 Version: 5.8.0.7716
 
 License: Redistributable. See LICENCE.ish for details
+
+--------------------------------------------------------------------------
+
+Driver: qdu100 - Qualcomm DU firmware image files
+File: qcom/qdu100/xbl_s.melf
+
+License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
