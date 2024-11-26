@@ -2540,6 +2540,7 @@ File: amdgpu/aldebaran_ta.bin
 File: amdgpu/aldebaran_vcn.bin
 File: amdgpu/gc_9_4_3_mec.bin
 File: amdgpu/gc_9_4_3_rlc.bin
+File: amdgpu/gc_9_4_3_sjt_mec.bin
 File: amdgpu/gc_10_3_6_ce.bin
 File: amdgpu/gc_10_3_6_me.bin
 File: amdgpu/gc_10_3_6_mec.bin
