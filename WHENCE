@@ -2686,6 +2686,19 @@ Licence: Redistributable. See LICENSE.amdgpu for details.
 
 --------------------------------------------------------------------------
 
+Driver: amdxdna - AMD Inference processor
+
+File: amdnpu/1502_00/npu.sbin.1.5.2.380
+Link: amdnpu/1502_00/npu.sbin -> npu.sbin.1.5.2.380
+File: amdnpu/17f0_10/npu.sbin.1.0.0.63
+Link: amdnpu/17f0_10/npu.sbin -> npu.sbin.1.0.0.63
+File: amdnpu/17f0_11/npu.sbin.1.0.0.166
+Link: amdnpu/17f0_11/npu.sbin -> npu.sbin.1.0.0.166
+
+Licence: Redistributable. See LICENSE.amdnpu for details.
+
+--------------------------------------------------------------------------
+
 Driver: amd_pmf - AMD Platform Management Framework TA
 
 File: amdtee/773bd96f-b83f-4d52-b12dc529b13d8543.bin
