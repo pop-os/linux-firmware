@@ -83,6 +83,7 @@ def main():
             ".pre-commit-config.yaml",
             "Dockerfile",
             "Makefile",
+            "LICENSE",
             "README.md",
             "WHENCE",
             "build_packages.py",
