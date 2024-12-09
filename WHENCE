@@ -7610,7 +7610,6 @@ File: cirrus/cs35l56/CS35L56_Rev3.11.18.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.20.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.25.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.26.wmfw
-File: cirrus/cs35l56/CS35L56_Rev3.11.27.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.28.wmfw
 Link: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp1.bin
@@ -7666,16 +7665,16 @@ File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid2-ampr.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid3.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid3-ampl.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid3-ampr.bin
-Link: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.27.wmfw
+Link: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.28.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid0-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid0-amp2.bin
-Link: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.27.wmfw
+Link: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.28.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid1-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid1-amp2.bin
-Link: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.27.wmfw
+Link: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.28.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid0-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid0-amp2.bin
-Link: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.27.wmfw
+Link: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.28.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid1-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid1-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-103c8c52.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
