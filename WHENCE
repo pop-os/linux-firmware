@@ -6211,9 +6211,8 @@ Version: 5.2-00023
 
 File: qcom/venus-5.4/venus.mbn
 Link: qcom/venus-5.4/venus.mdt -> venus.mbn
-File: qcom/venus-5.4/venus_s6.mbn
 
-Version: VIDEO.VE.5.4-00058-PROD-4
+Version: VIDEO.VE.5.4-00059-PROD-1
 
 File: qcom/venus-6.0/venus.mbn
 
