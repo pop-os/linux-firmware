@@ -1135,6 +1135,14 @@ Version: 74.f92b5fed.0
 
 File: iwlwifi-ty-a0-gf-a0.pnvm
 
+File: iwlwifi-bz-b0-gf-a0-92.ucode
+Version: 89.7541f516.0
+
+File: iwlwifi-bz-b0-gf-a0-94.ucode
+Version: 91.62990553.0
+
+File: iwlwifi-bz-b0-gf-a0.pnvm
+
 File: iwlwifi-gl-c0-fm-c0-83.ucode
 Version: 80.ec13314b.0
 
@@ -2535,6 +2543,10 @@ File: amdgpu/aldebaran_ta.bin
 File: amdgpu/aldebaran_vcn.bin
 File: amdgpu/gc_9_4_3_mec.bin
 File: amdgpu/gc_9_4_3_rlc.bin
+File: amdgpu/gc_9_4_3_sjt_mec.bin
+File: amdgpu/gc_9_4_4_mec.bin
+File: amdgpu/gc_9_4_4_rlc.bin
+File: amdgpu/gc_9_4_4_sjt_mec.bin
 File: amdgpu/gc_10_3_6_ce.bin
 File: amdgpu/gc_10_3_6_me.bin
 File: amdgpu/gc_10_3_6_mec.bin
@@ -2608,6 +2620,24 @@ File: amdgpu/gc_11_5_2_mes1.bin
 File: amdgpu/gc_11_5_2_mes_2.bin
 File: amdgpu/gc_11_5_2_pfp.bin
 File: amdgpu/gc_11_5_2_rlc.bin
+File: amdgpu/gc_12_0_0_imu.bin
+File: amdgpu/gc_12_0_0_me.bin
+File: amdgpu/gc_12_0_0_mec.bin
+File: amdgpu/gc_12_0_0_mes1.bin
+File: amdgpu/gc_12_0_0_mes.bin
+File: amdgpu/gc_12_0_0_pfp.bin
+File: amdgpu/gc_12_0_0_rlc.bin
+File: amdgpu/gc_12_0_0_toc.bin
+File: amdgpu/gc_12_0_0_uni_mes.bin
+File: amdgpu/gc_12_0_1_imu.bin
+File: amdgpu/gc_12_0_1_me.bin
+File: amdgpu/gc_12_0_1_mec.bin
+File: amdgpu/gc_12_0_1_mes1.bin
+File: amdgpu/gc_12_0_1_mes.bin
+File: amdgpu/gc_12_0_1_pfp.bin
+File: amdgpu/gc_12_0_1_rlc.bin
+File: amdgpu/gc_12_0_1_toc.bin
+File: amdgpu/gc_12_0_1_uni_mes.bin
 File: amdgpu/dcn_3_1_4_dmcub.bin
 File: amdgpu/dcn_3_1_5_dmcub.bin
 File: amdgpu/dcn_3_1_6_dmcub.bin
@@ -2615,6 +2645,7 @@ File: amdgpu/dcn_3_2_0_dmcub.bin
 File: amdgpu/dcn_3_2_1_dmcub.bin
 File: amdgpu/dcn_3_5_dmcub.bin
 File: amdgpu/dcn_3_5_1_dmcub.bin
+File: amdgpu/dcn_4_0_1_dmcub.bin
 File: amdgpu/psp_13_0_0_sos.bin
 File: amdgpu/psp_13_0_0_ta.bin
 File: amdgpu/psp_13_0_4_ta.bin
@@ -2633,13 +2664,20 @@ File: amdgpu/psp_13_0_10_sos.bin
 File: amdgpu/psp_13_0_10_ta.bin
 File: amdgpu/psp_13_0_11_ta.bin
 File: amdgpu/psp_13_0_11_toc.bin
+File: amdgpu/psp_13_0_14_sos.bin
+File: amdgpu/psp_13_0_14_ta.bin
 File: amdgpu/psp_14_0_0_ta.bin
 File: amdgpu/psp_14_0_0_toc.bin
 File: amdgpu/psp_14_0_1_ta.bin
 File: amdgpu/psp_14_0_1_toc.bin
+File: amdgpu/psp_14_0_2_sos.bin
+File: amdgpu/psp_14_0_2_ta.bin
+File: amdgpu/psp_14_0_3_sos.bin
+File: amdgpu/psp_14_0_3_ta.bin
 File: amdgpu/psp_14_0_4_ta.bin
 File: amdgpu/psp_14_0_4_toc.bin
 File: amdgpu/sdma_4_4_2.bin
+File: amdgpu/sdma_4_4_5.bin
 File: amdgpu/sdma_5_2_6.bin
 File: amdgpu/sdma_5_2_7.bin
 File: amdgpu/sdma_6_0_0.bin
@@ -2649,10 +2687,15 @@ File: amdgpu/sdma_6_0_3.bin
 File: amdgpu/sdma_6_1_0.bin
 File: amdgpu/sdma_6_1_1.bin
 File: amdgpu/sdma_6_1_2.bin
+File: amdgpu/sdma_7_0_0.bin
+File: amdgpu/sdma_7_0_1.bin
 File: amdgpu/smu_13_0_0.bin
 File: amdgpu/smu_13_0_6.bin
 File: amdgpu/smu_13_0_7.bin
 File: amdgpu/smu_13_0_10.bin
+File: amdgpu/smu_13_0_14.bin
+File: amdgpu/smu_14_0_2.bin
+File: amdgpu/smu_14_0_3.bin
 File: amdgpu/umsch_mm_4_0_0.bin
 File: amdgpu/vcn_3_1_2.bin
 File: amdgpu/vcn_4_0_0.bin
@@ -2662,11 +2705,25 @@ File: amdgpu/vcn_4_0_4.bin
 File: amdgpu/vcn_4_0_5.bin
 File: amdgpu/vcn_4_0_6.bin
 File: amdgpu/vcn_4_0_6_1.bin
+File: amdgpu/vcn_5_0_0.bin
 File: amdgpu/vpe_6_1_0.bin
 File: amdgpu/vpe_6_1_1.bin
 File: amdgpu/vpe_6_1_3.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
+
+--------------------------------------------------------------------------
+
+Driver: amdxdna - AMD Inference processor
+
+File: amdnpu/1502_00/npu.sbin.1.5.2.380
+Link: amdnpu/1502_00/npu.sbin -> npu.sbin.1.5.2.380
+File: amdnpu/17f0_10/npu.sbin.1.0.0.63
+Link: amdnpu/17f0_10/npu.sbin -> npu.sbin.1.0.0.63
+File: amdnpu/17f0_11/npu.sbin.1.0.0.166
+Link: amdnpu/17f0_11/npu.sbin -> npu.sbin.1.0.0.166
+
+Licence: Redistributable. See LICENSE.amdnpu for details.
 
 --------------------------------------------------------------------------
 
@@ -3499,6 +3556,9 @@ Version: 0.0.2
 File: rtl_nic/rtl8125d-1.fw
 Version: 0.0.7
 
+File: rtl_nic/rtl8125d-2.fw
+Version: 0.0.4
+
 File: rtl_nic/rtl8126a-2.fw
 Version: 0.0.2
 
@@ -4104,6 +4164,10 @@ File: intel/ibt-0093-0041.sfi
 File: intel/ibt-0093-0041.ddc
 File: intel/ibt-0291-0291.sfi
 File: intel/ibt-0291-0291.ddc
+File: intel/ibt-0093-4150.sfi
+File: intel/ibt-0093-4150.ddc
+File: intel/ibt-0093-1050.sfi
+File: intel/ibt-0093-1050.ddc
 Version: BT_BlazarU_S_REL67159_23.90.24382.67159
 
 File: intel/ibt-0180-0041.sfi
@@ -4258,9 +4322,9 @@ Version: 2018-05-24
 RawFile: amd-ucode/microcode_amd_fam16h.bin
 Version: 2014-10-28
 RawFile: amd-ucode/microcode_amd_fam17h.bin
-Version: 2024-07-10
+Version: 2024-11-21
 RawFile: amd-ucode/microcode_amd_fam19h.bin
-Version: 2024-07-10
+Version: 2024-11-21
 File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
@@ -4658,6 +4722,8 @@ File: qca/nvm_usb_00130201_gf_010b.bin
 File: qca/nvm_usb_00130201_gf_0303.bin
 File: qca/rampatch_usb_00190200.bin
 File: qca/nvm_usb_00190200.bin
+File: qca/nvm_usb_00190200_010e.bin
+File: qca/nvm_usb_00190200_0112.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
@@ -5018,7 +5084,7 @@ File: i915/tgl_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for Tigerlake
 
 File: i915/tgl_guc_70.bin
-Version: GuC API/APB ver 70.29.2 for Tigerlake
+Version: GuC API/APB ver 70.36.0 for Tigerlake
 
 File: i915/tgl_huc_7.0.3.bin
 Version: Huc API/APB ver 7 release 0 for Tigerlake
@@ -5057,7 +5123,7 @@ File: i915/dg1_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for DG1
 
 File: i915/dg1_guc_70.bin
-Version: GuC API/APB ver 70.29.2 for DG1
+Version: GuC API/APB ver 70.36.0 for DG1
 
 File: i915/dg1_huc_7.7.1.bin
 Version: Huc API/APB ver 7 release 1 for DG1
@@ -5099,7 +5165,7 @@ File: i915/adlp_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for Alderlake P
 
 File: i915/adlp_guc_70.bin
-Version: GuC API/APB ver 70.29.2 for Alderlake P
+Version: GuC API/APB ver 70.36.0 for Alderlake P
 
 File: i915/dg2_guc_70.1.2.bin
 Version: GuC API/APB ver 70.1.2 for DG2
@@ -5108,7 +5174,7 @@ File: i915/dg2_guc_70.4.1.bin
 Version: GuC API/APB ver 70.4.1 for DG2
 
 File: i915/dg2_guc_70.bin
-Version: GuC API/APB ver 70.29.2 for DG2
+Version: GuC API/APB ver 70.36.0 for DG2
 
 File: i915/dg2_huc_gsc.bin
 Version: HuC API/APB ver 7.10.16 for DG2
@@ -5129,7 +5195,7 @@ File: i915/mtl_dmc.bin
 Version: DMC API/APB ver 2 release 23 for Meteorlake
 
 File: i915/mtl_guc_70.bin
-Version: GuC API/APB ver 70.29.2 for Meteorlake
+Version: GuC API/APB ver 70.36.0 for Meteorlake
 
 File: i915/mtl_huc_gsc.bin
 Version: HuC API/APB ver 8.5.4 for Meteorlake
@@ -5141,7 +5207,7 @@ File: i915/bmg_dmc.bin
 Version: DMC API/APB ver 2 release 6 for Battlemage
 
 File: i915/xe2lpd_dmc.bin
-Version: DMC API/APB ver 2 release 23 for Xe2LPD
+Version: DMC API/APB ver 2 release 24 for Xe2LPD
 
 File: i915/xe3lpd_dmc.bin
 Version: DMC API/APB ver 2 release 13 for Xe3LPD
@@ -5155,13 +5221,13 @@ File: xe/lnl_gsc_1.bin
 Version: GSC API/APB v1.0, release 104.0.0.1263, SVN 1 for Lunarlake
 
 File: xe/lnl_guc_70.bin
-Version: GuC API/APB ver 70.29.2 for Lunarlake
+Version: GuC API/APB ver 70.36.0 for Lunarlake
 
 File: xe/lnl_huc.bin
 Version: HuC API/APB ver 9.4.13 for Lunarlake
 
 File: xe/bmg_guc_70.bin
-Version: GuC API/APB ver 70.29.2 for Battlemage
+Version: GuC API/APB ver 70.36.0 for Battlemage
 
 File: xe/bmg_huc.bin
 Version: HuC API/APB ver 8.2.10 for Battlemage
@@ -6145,9 +6211,8 @@ Version: 5.2-00023
 
 File: qcom/venus-5.4/venus.mbn
 Link: qcom/venus-5.4/venus.mdt -> venus.mbn
-File: qcom/venus-5.4/venus_s6.mbn
 
-Version: VIDEO.VE.5.4-00058-PROD-4
+Version: VIDEO.VE.5.4-00059-PROD-1
 
 File: qcom/venus-6.0/venus.mbn
 
@@ -6532,14 +6597,14 @@ Licence: Redistributable. See LICENSE.amlogic_vdec for details.
 
 Driver: ice - Intel(R) Ethernet Connection E800 Series
 
-File: intel/ice/ddp/ice-1.3.36.0.pkg
-Link: intel/ice/ddp/ice.pkg -> ice-1.3.36.0.pkg
+File: intel/ice/ddp/ice-1.3.41.0.pkg
+Link: intel/ice/ddp/ice.pkg -> ice-1.3.41.0.pkg
 File: intel/ice/ddp-lag/ice_lag-1.3.1.0.pkg
 
 License: Redistributable. See LICENSE.ice for details
 
-File: intel/ice/ddp-comms/ice_comms-1.3.45.0.pkg
-File: intel/ice/ddp-wireless_edge/ice_wireless_edge-1.3.13.0.pkg
+File: intel/ice/ddp-comms/ice_comms-1.3.52.0.pkg
+File: intel/ice/ddp-wireless_edge/ice_wireless_edge-1.3.20.0.pkg
 
 License: Redistributable. See LICENSE.ice_enhanced for details
 
@@ -7384,16 +7449,9 @@ File: cirrus/cs35l56/CS35L56_Rev3.11.16.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.18.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.20.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.25.wmfw
-Link: cirrus/cs35l54-b0-dsp1-misc-103c8d01.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
-File: cirrus/cs35l54-b0-dsp1-misc-103c8d01-amp1.bin
-File: cirrus/cs35l54-b0-dsp1-misc-103c8d01-amp2.bin
-File: cirrus/cs35l54-b0-dsp1-misc-103c8d01-amp3.bin
-File: cirrus/cs35l54-b0-dsp1-misc-103c8d01-amp4.bin
-Link: cirrus/cs35l54-b0-dsp1-misc-103c8d08.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
-Link: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp1.bin -> cs35l54-b0-dsp1-misc-103c8d01-amp1.bin
-Link: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp2.bin -> cs35l54-b0-dsp1-misc-103c8d01-amp2.bin
-Link: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp3.bin -> cs35l54-b0-dsp1-misc-103c8d01-amp3.bin
-Link: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp4.bin -> cs35l54-b0-dsp1-misc-103c8d01-amp4.bin
+File: cirrus/cs35l56/CS35L56_Rev3.11.26.wmfw
+File: cirrus/cs35l56/CS35L56_Rev3.11.27.wmfw
+File: cirrus/cs35l56/CS35L56_Rev3.11.28.wmfw
 Link: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp2.bin
@@ -7448,6 +7506,18 @@ File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid2-ampr.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid3.wmfw -> cs35l56/CS35L56_Rev3.11.25.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid3-ampl.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280ce4-spkid3-ampr.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.27.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid0-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid0-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.27.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid1-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid1-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.27.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid0-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid0-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.27.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid1-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid1-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-103c8c52.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp2.bin
@@ -7458,6 +7528,16 @@ File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp2.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp3.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp4.bin
+Link: cirrus/cs35l54-b0-dsp1-misc-103c8d01.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
+File: cirrus/cs35l54-b0-dsp1-misc-103c8d01-amp1.bin
+File: cirrus/cs35l54-b0-dsp1-misc-103c8d01-amp2.bin
+File: cirrus/cs35l54-b0-dsp1-misc-103c8d01-amp3.bin
+File: cirrus/cs35l54-b0-dsp1-misc-103c8d01-amp4.bin
+Link: cirrus/cs35l54-b0-dsp1-misc-103c8d08.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
+Link: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp1.bin -> cs35l54-b0-dsp1-misc-103c8d01-amp1.bin
+Link: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp2.bin -> cs35l54-b0-dsp1-misc-103c8d01-amp2.bin
+Link: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp3.bin -> cs35l54-b0-dsp1-misc-103c8d01-amp3.bin
+Link: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp4.bin -> cs35l54-b0-dsp1-misc-103c8d01-amp4.bin
 Link: cirrus/cs35l54-b0-dsp1-misc-103c8d85.wmfw -> cs35l56/CS35L56_Rev3.11.11.1.wmfw
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d85-amp1.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d85-amp2.bin
@@ -7522,6 +7602,9 @@ Link: cirrus/cs35l54-b0-dsp1-misc-103c8e1c-amp2.bin -> cs35l54-b0-dsp1-misc-103c
 Link: cirrus/cs35l56-b0-dsp1-misc-103c8e2c.wmfw -> cs35l56/CS35L56_Rev3.11.11.1.wmfw
 Link: cirrus/cs35l56-b0-dsp1-misc-103c8e2c-amp1.bin -> cs35l56-b0-dsp1-misc-103c8d90-amp1.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-103c8e2c-amp2.bin -> cs35l56-b0-dsp1-misc-103c8d90-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10431264.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
+Link: cirrus/cs35l56-b0-dsp1-misc-10431264-amp1.bin -> cs35l56-b0-dsp1-misc-10431df3-amp1.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10431264-amp2.bin -> cs35l56-b0-dsp1-misc-10431df3-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-10431b13-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10431b13-spkid0-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10431b13-spkid0-amp2.bin
@@ -7544,11 +7627,6 @@ File: cirrus/cs35l56-b0-dsp1-misc-10431e13-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10431e13-amp2.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10431e13-amp4.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10431e13-amp3.bin
-Link: cirrus/cs35l56-b0-dsp1-misc-10431f43.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
-File: cirrus/cs35l56-b0-dsp1-misc-10431f43-amp1.bin
-File: cirrus/cs35l56-b0-dsp1-misc-10431f43-amp2.bin
-File: cirrus/cs35l56-b0-dsp1-misc-10431f43-amp4.bin
-File: cirrus/cs35l56-b0-dsp1-misc-10431f43-amp3.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-10431e63-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10431e63-spkid0-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10431e63-spkid0-amp2.bin
@@ -7561,12 +7639,35 @@ File: cirrus/cs35l56-b0-dsp1-misc-10431e83-spkid0-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-10431e83-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10431e83-spkid1-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10431e83-spkid1-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10431f43.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10431f43-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10431f43-amp2.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10431f43-amp4.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10431f43-amp3.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.20.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid0-ampl.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid0-ampr.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.20.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid1-ampl.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid1-ampr.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa233c.wmfw -> cs35l56/CS35L56_Rev3.11.28.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa233c-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa233c-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa380e-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.20.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa380e-spkid0-ampl.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa380e-spkid0-ampr.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa380e-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.20.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa380e-spkid1-ampl.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa380e-spkid1-ampr.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa3832-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.26.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa3832-spkid0-ampl.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa3832-spkid0-ampr.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa3832-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.26.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa3832-spkid1-ampl.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa3832-spkid1-ampr.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa3905.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa3905-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa3905-amp2.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
 
