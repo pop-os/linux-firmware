@@ -1,4 +1,6 @@
 FIRMWAREDIR = /lib/firmware
+NUM_JOBS := $(or $(patsubst -j%,%,$(filter -j%,$(MAKEFLAGS))),\
+		 1)
 
 all:
 
@@ -33,17 +35,17 @@ install:
 		false; \
 	fi
 	install -d $(DESTDIR)$(FIRMWAREDIR)
-	./copy-firmware.sh $(DESTDIR)$(FIRMWAREDIR)
+	./copy-firmware.sh -j$(NUM_JOBS) $(DESTDIR)$(FIRMWAREDIR)
 	@echo "Now run \"make dedup\" to de-duplicate any firmware files"
 
 install-xz:
 	install -d $(DESTDIR)$(FIRMWAREDIR)
-	./copy-firmware.sh --xz $(DESTDIR)$(FIRMWAREDIR)
+	./copy-firmware.sh -j$(NUM_JOBS) --xz $(DESTDIR)$(FIRMWAREDIR)
 	@echo "Now run \"make dedup\" to de-duplicate any firmware files"
 
 install-zst:
 	install -d $(DESTDIR)$(FIRMWAREDIR)
-	./copy-firmware.sh --zstd $(DESTDIR)$(FIRMWAREDIR)
+	./copy-firmware.sh -j$(NUM_JOBS) --zstd $(DESTDIR)$(FIRMWAREDIR)
 	@echo "Now run \"make dedup\" to de-duplicate any firmware files"
 
 clean:
