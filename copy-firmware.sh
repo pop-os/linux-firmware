@@ -141,7 +141,7 @@ fi
 
 # Verify no broken symlinks
 if test "$(find "$destdir" -xtype l | wc -l)" -ne 0 ; then
-    err "Broken symlinks found:\\n$(find "$destdir" -xtype l)"
+    err "Broken symlinks found:\n$(find "$destdir" -xtype l)"
 fi
 
 exit 0
