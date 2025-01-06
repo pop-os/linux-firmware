@@ -4212,7 +4212,7 @@ File: rtl_bt/rtl8723bs_config.bin
 Link: rtl_bt/rtl8723bs_config-OBDA8723.bin -> rtl8723bs_config.bin
 Link: rtl_bt/rtl8723bs_config-OBDA0623.bin -> rtl8723bs_config.bin
 File: rtl_bt/rtl8723cs_xx_fw.bin
-Link: rtl_bt/rtl8723cs_xx_config.bin -> rtl8723bs_config.bin
+File: rtl_bt/rtl8723cs_xx_config.bin
 File: rtl_bt/rtl8761a_fw.bin
 File: rtl_bt/rtl8761b_fw.bin
 File: rtl_bt/rtl8761b_config.bin
