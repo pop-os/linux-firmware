@@ -9,6 +9,7 @@ verbose=:
 compress=cat
 compext=
 destdir=
+num_jobs=1
 
 err() {
     printf "ERROR: %s\n" "$*"
@@ -19,11 +20,30 @@ warn() {
     printf "WARNING: %s\n" "$*"
 }
 
+has_gnu_parallel() {
+    if command -v parallel > /dev/null; then
+        if parallel --version | grep -Fq 'GNU Parallel'; then
+           return 0
+        fi
+    fi
+    return 1
+}
+
 while test $# -gt 0; do
     case $1 in
         -v | --verbose)
             # shellcheck disable=SC2209
             verbose=echo
+            shift
+            ;;
+
+        -j*)
+            num_jobs=$(echo "$1" | sed 's/-j//')
+            if [ "$num_jobs" -gt 1 ] && ! has_gnu_parallel; then
+                    err "the GNU parallel command is required to use -j"
+            fi
+            parallel_args_file=$(mktemp)
+            trap 'rm -f $parallel_args_file' EXIT INT QUIT TERM
             shift
             ;;
 
@@ -76,12 +96,24 @@ grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g'
     $verbose "copying/compressing file $f$compext"
     if test "$compress" != "cat" && test "$k" = "RawFile"; then
         $verbose "compression will be skipped for file $f"
-        cat "$f" > "$destdir/$f"
+        if [ "$num_jobs" -gt 1 ]; then
+            echo "cat \"$f\" > \"$destdir/$f\"" >> "$parallel_args_file"
+        else
+            cat "$f" > "$destdir/$f"
+        fi
     else
-        $compress "$f" > "$destdir/$f$compext"
+        if [ "$num_jobs" -gt 1 ]; then
+            echo "$compress \"$f\" > \"$destdir/$f$compext\"" >> "$parallel_args_file"
+        else
+            $compress "$f" > "$destdir/$f$compext"
+        fi
     fi
 done
+if [ "$num_jobs" -gt 1 ]; then
+    parallel -j"$num_jobs" -a "$parallel_args_file"
+fi
 
+echo > "$parallel_args_file"
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
 grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read l t; do
     directory="$destdir/$(dirname "$l")"
@@ -89,16 +121,27 @@ grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read l t; do
     target="$(cd "$directory" && realpath -m -s "$t")"
     if test -e "$target"; then
         $verbose "creating link $l -> $t"
-        ln -s "$t" "$destdir/$l"
+        if [ "$num_jobs" -gt 1 ]; then
+            echo "ln -s \"$t\" \"$destdir/$l\"" >> "$parallel_args_file"
+        else
+            ln -s "$t" "$destdir/$l"
+        fi
     else
         $verbose "creating link $l$compext -> $t$compext"
-        ln -s "$t$compext" "$destdir/$l$compext"
+        if [ "$num_jobs" -gt 1 ]; then
+            echo "ln -s \"$t$compext\" \"$destdir/$l$compext\"" >> "$parallel_args_file"
+        else
+            ln -s "$t$compext" "$destdir/$l$compext"
+        fi
     fi
 done
+if [ "$num_jobs" -gt 1 ]; then
+    parallel -j"$num_jobs" -a "$parallel_args_file"
+fi
 
 # Verify no broken symlinks
 if test "$(find "$destdir" -xtype l | wc -l)" -ne 0 ; then
-    err "Broken symlinks found:\\n$(find "$destdir" -xtype l)"
+    err "Broken symlinks found:\n$(find "$destdir" -xtype l)"
 fi
 
 exit 0
