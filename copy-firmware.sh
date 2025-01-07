@@ -22,7 +22,7 @@ warn() {
 
 has_gnu_parallel() {
     if command -v parallel > /dev/null; then
-        if parallel --version | grep -Fq 'GNU Parallel'; then
+        if parallel --version | grep -Fqi 'gnu parallel'; then
            return 0
         fi
     fi
