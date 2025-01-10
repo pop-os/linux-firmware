@@ -4161,7 +4161,7 @@ File: intel/ibt-0040-1050.sfi
 File: intel/ibt-0040-1050.ddc
 File: intel/ibt-1040-1050.sfi
 File: intel/ibt-1040-1050.ddc
-Version: BT_Solar_REL81755_23.50.24332.81755
+Version: BT_Solar_REL81864_23.50.24483.81864
 
 File: intel/ibt-0040-1020.sfi
 File: intel/ibt-0040-1020.ddc
@@ -4183,7 +4183,7 @@ File: intel/ibt-0093-4150.sfi
 File: intel/ibt-0093-4150.ddc
 File: intel/ibt-0093-1050.sfi
 File: intel/ibt-0093-1050.ddc
-Version: BT_BlazarU_S_REL67159_23.90.24382.67159
+Version: BT_BlazarU_S_REL72721_23.100.24491.72721
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
@@ -4191,7 +4191,7 @@ File: intel/ibt-0180-4150.sfi
 File: intel/ibt-0180-4150.ddc
 File: intel/ibt-0180-1050.sfi
 File: intel/ibt-0180-1050.ddc
-Version: BT_Magnetar_REL103427_23.50.24332.103427
+Version: BT_Magnetar_REL103604_23.50.24483.103604
 
 File: intel/ibt-0190-0291.sfi
 File: intel/ibt-0190-0291-iml.sfi
