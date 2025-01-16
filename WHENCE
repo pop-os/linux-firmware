@@ -6218,17 +6218,17 @@ Driver: venus - Qualcomm Venus video codec accelerator
 File: qcom/venus-1.8/venus.mbn
 Link: qcom/venus-1.8/venus.mdt -> venus.mbn
 
-Version: 1.8-00109
+Version: VIDEO.VE.1.8-00109
 
 File: qcom/venus-4.2/venus.mbn
 Link: qcom/venus-4.2/venus.mdt -> venus.mbn
 
-Version: 4.2
+Version: VIDEO.VE.4.0-00119
 
 File: qcom/venus-5.2/venus.mbn
 Link: qcom/venus-5.2/venus.mdt -> venus.mbn
 
-Version: 5.2-00023
+Version: VIDEO.VE.5.2-00023-PROD-2
 
 File: qcom/venus-5.4/venus.mbn
 Link: qcom/venus-5.4/venus.mdt -> venus.mbn
@@ -6243,7 +6243,7 @@ File: qcom/vpu/vpu20_p4.mbn
 Link: qcom/vpu-1.0/venus.mbn -> ../vpu/vpu20_p4.mbn
 Link: qcom/vpu-1.0/venus.mdt -> ../vpu/vpu20_p4.mbn
 
-Version: VIDEO.VPU.1.0-00087-PROD-1
+Version: VIDEO.VPU.1.0-00097-PROD-1
 
 File: qcom/vpu/vpu20_p1.mbn
 Link: qcom/vpu-2.0/venus.mbn -> ../vpu/vpu20_p1.mbn
@@ -6343,20 +6343,26 @@ Driver: qcom_q6v5_pas - Qualcomm remoteproc firmware
 
 File: qcom/apq8016/mba.mbn
 File: qcom/apq8016/modem.mbn
+Version: MPSS.DPM.2.0.2.C1.23-00008
 File: qcom/apq8016/wcnss.mbn
+Version: CNSS.PR.2.0.1.2.C1-00074
 File: qcom/apq8016/WCNSS_qcom_wlan_nv_sbc.bin
 File: qcom/apq8096/adsp.mbn
+Version: ADSP.8996.2.7.1-00138
 RawFile: qcom/apq8096/adspr.jsn
 RawFile: qcom/apq8096/adspua.jsn
 File: qcom/apq8096/mba.mbn
 File: qcom/apq8096/modem.mbn
+Version: MPSS.TH.2.0.1-00481
 RawFile: qcom/apq8096/modemr.jsn
 File: qcom/qcm2290/a702_zap.mbn
 File: qcom/qcm2290/adsp.mbn
+Version: ADSP.VT.5.4.1.c4-00013-KAMORTA-1
 RawFile: qcom/qcm2290/adspr.jsn
 RawFile: qcom/qcm2290/adsps.jsn
 RawFile: qcom/qcm2290/adspua.jsn
 File: qcom/qcm2290/modem.mbn
+Version: MPSS.HA.1.1-00435-KD_ALL_PACK-1
 RawFile: qcom/qcm2290/modemr.jsn
 RawFile: qcom/qcm2290/modemuw.jsn
 File: qcom/qcm6490/adsp.mbn
@@ -6378,28 +6384,52 @@ Link: qcom/qcs6490/cdsp.mbn -> ../qcm6490/cdsp.mbn
 Link: qcom/qcs6490/cdspr.jsn -> ../qcm6490/cdspr.jsn
 File: qcom/qrb4210/a610_zap.mbn
 File: qcom/qrb4210/adsp.mbn
+Version: ADSP.VT.5.4.1.c4-00013-KAMORTA-1
 RawFile: qcom/qrb4210/adspr.jsn
 RawFile: qcom/qrb4210/adsps.jsn
 RawFile: qcom/qrb4210/adspua.jsn
 File: qcom/qrb4210/cdsp.mbn
+Version: CDSP.VT.2.4.1-00269-KAMORTA-1
 RawFile: qcom/qrb4210/cdspr.jsn
 File: qcom/qrb4210/modem.mbn
+Version: MPSS.HA.1.1-00435-KD_ALL_PACK-1
 RawFile: qcom/qrb4210/modemr.jsn
 RawFile: qcom/qrb4210/modemuw.jsn
+File: qcom/sa8775p/adsp.mbn
+Version: DSP.AT.1.0.1-00079.2-LEMANS-1
+RawFile: qcom/sa8775p/adspr.jsn
+RawFile: qcom/sa8775p/adspua.jsn
+File: qcom/sa8775p/cdsp0.mbn
+Version: DSP.AT.1.0.1-00079.2-LEMANS-1
+File: qcom/sa8775p/cdsp1.mbn
+Version: DSP.AT.1.0.1-00079.2-LEMANS-1
+RawFile: qcom/sa8775p/cdspr.jsn
+File: qcom/sa8775p/gpdsp0.mbn
+Version: DSP.AT.1.0.1-00079.2-LEMANS-1
+File: qcom/sa8775p/gpdsp1.mbn
+Version: DSP.AT.1.0.1-00079.2-LEMANS-1
+RawFile: qcom/sa8775p/gpdsp1r.jsn
+RawFile: qcom/sa8775p/gpdspr.jsn
 File: qcom/sdm845/adsp.mbn
+Version: ADSP.HT.4.0-00593-SDM845-1
 RawFile: qcom/sdm845/adspr.jsn
 RawFile: qcom/sdm845/adspua.jsn
 File: qcom/sdm845/cdsp.mbn
+Version: CDSP.HT.1.0-00559-SDM845-1
 RawFile: qcom/sdm845/cdspr.jsn
 File: qcom/sdm845/Thundercomm/db845c/slpi.mbn
+Version: SLPI.HY.1.0-00365-SDM845AZL-1
 RawFile: qcom/sdm845/Thundercomm/db845c/slpir.jsn
 RawFile: qcom/sdm845/Thundercomm/db845c/slpius.jsn
 File: qcom/sm8250/adsp.mbn
+Version: ADSP.HT.5.3.c2-00082-SM8250-1
 RawFile: qcom/sm8250/adspr.jsn
 RawFile: qcom/sm8250/adspua.jsn
 File: qcom/sm8250/cdsp.mbn
+Version: CDSP.HT.2.3.c1-00076-SM8250-1
 RawFile: qcom/sm8250/cdspr.jsn
 File: qcom/sm8250/Thundercomm/RB5/slpi.mbn
+Version: SLPI.HY.3.1-00032-SM8250AZL-1
 RawFile: qcom/sm8250/Thundercomm/RB5/slpir.jsn
 RawFile: qcom/sm8250/Thundercomm/RB5/slpius.jsn
 RawFile: qcom/sc8280xp/LENOVO/21BX/adspr.jsn
@@ -6407,8 +6437,11 @@ RawFile: qcom/sc8280xp/LENOVO/21BX/adspua.jsn
 RawFile: qcom/sc8280xp/LENOVO/21BX/battmgr.jsn
 RawFile: qcom/sc8280xp/LENOVO/21BX/cdspr.jsn
 File: qcom/sc8280xp/LENOVO/21BX/qcadsp8280.mbn
+Version: ADSP.HT.5.6-00729-MAKENA-1
 File: qcom/sc8280xp/LENOVO/21BX/qccdsp8280.mbn
+Version: CDSP.HT.2.6-00698-MAKENA-1
 File: qcom/sc8280xp/LENOVO/21BX/qcslpi8280.mbn
+Version: SLPI.HY.4.1-00048-MAKENA-1
 File: qcom/x1e80100/adsp.mbn
 File: qcom/x1e80100/adsp_dtb.mbn
 Version: ADSP.HT.5.9-00796-HAMOA-1
