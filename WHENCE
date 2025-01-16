@@ -6218,17 +6218,17 @@ Driver: venus - Qualcomm Venus video codec accelerator
 File: qcom/venus-1.8/venus.mbn
 Link: qcom/venus-1.8/venus.mdt -> venus.mbn
 
-Version: 1.8-00109
+Version: VIDEO.VE.1.8-00109
 
 File: qcom/venus-4.2/venus.mbn
 Link: qcom/venus-4.2/venus.mdt -> venus.mbn
 
-Version: 4.2
+Version: VIDEO.VE.4.0-00119
 
 File: qcom/venus-5.2/venus.mbn
 Link: qcom/venus-5.2/venus.mdt -> venus.mbn
 
-Version: 5.2-00023
+Version: VIDEO.VE.5.2-00023-PROD-2
 
 File: qcom/venus-5.4/venus.mbn
 Link: qcom/venus-5.4/venus.mdt -> venus.mbn
@@ -6243,7 +6243,7 @@ File: qcom/vpu/vpu20_p4.mbn
 Link: qcom/vpu-1.0/venus.mbn -> ../vpu/vpu20_p4.mbn
 Link: qcom/vpu-1.0/venus.mdt -> ../vpu/vpu20_p4.mbn
 
-Version: VIDEO.VPU.1.0-00087-PROD-1
+Version: VIDEO.VPU.1.0-00097-PROD-1
 
 File: qcom/vpu/vpu20_p1.mbn
 Link: qcom/vpu-2.0/venus.mbn -> ../vpu/vpu20_p1.mbn
