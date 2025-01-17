@@ -6429,7 +6429,7 @@ File: qcom/sm8250/cdsp.mbn
 Version: CDSP.HT.2.3.c1-00076-SM8250-1
 RawFile: qcom/sm8250/cdspr.jsn
 File: qcom/sm8250/Thundercomm/RB5/slpi.mbn
-Version: SLPI.HY.3.1-00032-SM8250AZL-1
+Version: SLPI.HY.3.1-00049-SM8250AZL-2
 RawFile: qcom/sm8250/Thundercomm/RB5/slpir.jsn
 RawFile: qcom/sm8250/Thundercomm/RB5/slpius.jsn
 RawFile: qcom/sc8280xp/LENOVO/21BX/adspr.jsn
