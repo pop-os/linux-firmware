@@ -6395,21 +6395,6 @@ File: qcom/qrb4210/modem.mbn
 Version: MPSS.HA.1.1-00435-KD_ALL_PACK-1
 RawFile: qcom/qrb4210/modemr.jsn
 RawFile: qcom/qrb4210/modemuw.jsn
-File: qcom/sa8775p/adsp.mbn
-Version: DSP.AT.1.0.1-00079.2-LEMANS-1
-RawFile: qcom/sa8775p/adspr.jsn
-RawFile: qcom/sa8775p/adspua.jsn
-File: qcom/sa8775p/cdsp0.mbn
-Version: DSP.AT.1.0.1-00079.2-LEMANS-1
-File: qcom/sa8775p/cdsp1.mbn
-Version: DSP.AT.1.0.1-00079.2-LEMANS-1
-RawFile: qcom/sa8775p/cdspr.jsn
-File: qcom/sa8775p/gpdsp0.mbn
-Version: DSP.AT.1.0.1-00079.2-LEMANS-1
-File: qcom/sa8775p/gpdsp1.mbn
-Version: DSP.AT.1.0.1-00079.2-LEMANS-1
-RawFile: qcom/sa8775p/gpdsp1r.jsn
-RawFile: qcom/sa8775p/gpdspr.jsn
 File: qcom/sdm845/adsp.mbn
 Version: ADSP.HT.4.0-00593-SDM845-1
 RawFile: qcom/sdm845/adspr.jsn
@@ -6465,6 +6450,24 @@ https://github.com/andersson/pil-squasher
 
 cdsp.mbn has been converted from 21-cdsp_split/firmware/cdsp.* using
 https://github.com/andersson/pil-squasher
+
+File: qcom/sa8775p/adsp.mbn
+Version: DSP.AT.1.0.1-00079.2-LEMANS-1
+RawFile: qcom/sa8775p/adspr.jsn
+RawFile: qcom/sa8775p/adspua.jsn
+File: qcom/sa8775p/cdsp0.mbn
+Version: DSP.AT.1.0.1-00079.2-LEMANS-1
+File: qcom/sa8775p/cdsp1.mbn
+Version: DSP.AT.1.0.1-00079.2-LEMANS-1
+RawFile: qcom/sa8775p/cdspr.jsn
+File: qcom/sa8775p/gpdsp0.mbn
+Version: DSP.AT.1.0.1-00079.2-LEMANS-1
+File: qcom/sa8775p/gpdsp1.mbn
+Version: DSP.AT.1.0.1-00079.2-LEMANS-1
+RawFile: qcom/sa8775p/gpdsp1r.jsn
+RawFile: qcom/sa8775p/gpdspr.jsn
+
+Licence: Redistributable. See LICENSE.qcom-2 and qcom/NOTICE.txt for details
 
 --------------------------------------------------------------------------
 
