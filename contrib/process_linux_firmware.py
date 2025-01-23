@@ -11,6 +11,7 @@ import email.utils
 import smtplib
 import subprocess
 import sys
+import magic  # https://pypi.python.org/pypi/python-magic
 from datetime import date
 from enum import Enum
 
@@ -52,12 +53,11 @@ def classify_content(content):
         body = msg.get_payload(decode=True)
 
     if body:
-        for encoding in ["utf-8", "windows-1252"]:
-            try:
-                decoded = body.decode(encoding)
-                break
-            except UnicodeDecodeError:
-                pass
+        m = magic.Magic(mime_encoding=True)
+        try:
+            decoded = body.decode(m.from_buffer(body))
+        except UnicodeDecodeError:
+            pass
 
     if decoded:
         for key in content_types.keys():
@@ -70,8 +70,11 @@ def classify_content(content):
 
 
 def fetch_url(url):
+    blob = None
     with urllib.request.urlopen(url) as response:
-        return response.read().decode("utf-8")
+        blob = response.read()
+    m = magic.Magic(mime_encoding=True)
+    return blob.decode(m.from_buffer(blob))
 
 
 def quiet_cmd(cmd):
