@@ -4826,7 +4826,18 @@ File: qca/hmtnv20.bin
 
 Licence: Redistributable. See LICENSE.qcom and qca/NOTICE.txt for details
 
---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Driver: qca - Qualcomm Atheros Bluetooth support for QCA6698AQ chips
+
+File: qca/QCA6698/hpbtfw21.tlv
+File: qca/QCA6698/hpnv21.b206
+File: qca/QCA6698/hpnv21.b207
+File: qca/QCA6698/hpnv21.bin
+
+Licence: Redistributable. See LICENSE.qcom and qca/NOTICE.txt for details
+
+-------------------------------------------------------------------------
 
 Driver: liquidio -- Cavium LiquidIO driver
 
