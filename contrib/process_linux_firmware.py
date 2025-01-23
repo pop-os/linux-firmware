@@ -376,19 +376,23 @@ if __name__ == "__main__":
     logging.getLogger("").addHandler(console)
 
     while True:
-        conn = sqlite3.connect(args.database)
-        # update the database
-        update_database(conn, args.url)
-
         if args.dry:
             remote = ""
         else:
             remote = args.remote
 
-        # process the database
-        process_database(conn, remote)
+        try:
+            conn = sqlite3.connect(args.database)
 
-        conn.close()
+            # update the database
+            update_database(conn, args.url)
+            # process the database
+            process_database(conn, remote)
+
+        except urllib.error.HTTPError as e:
+            logging.error("Failed to fetch URL: {}".format(e))
+        finally:
+            conn.close()
 
         if args.refresh_cycle:
             logging.info("Sleeping for {} minutes".format(args.refresh_cycle))
