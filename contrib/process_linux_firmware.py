@@ -11,6 +11,7 @@ import email.utils
 import smtplib
 import subprocess
 import sys
+import magic  # https://pypi.python.org/pypi/python-magic
 from datetime import date
 from enum import Enum
 
@@ -52,12 +53,11 @@ def classify_content(content):
         body = msg.get_payload(decode=True)
 
     if body:
-        for encoding in ["utf-8", "windows-1252"]:
-            try:
-                decoded = body.decode(encoding)
-                break
-            except UnicodeDecodeError:
-                pass
+        m = magic.Magic(mime_encoding=True)
+        try:
+            decoded = body.decode(m.from_buffer(body))
+        except UnicodeDecodeError:
+            pass
 
     if decoded:
         for key in content_types.keys():
@@ -70,8 +70,11 @@ def classify_content(content):
 
 
 def fetch_url(url):
+    blob = None
     with urllib.request.urlopen(url) as response:
-        return response.read().decode("utf-8")
+        blob = response.read()
+    m = magic.Magic(mime_encoding=True)
+    return blob.decode(m.from_buffer(blob))
 
 
 def quiet_cmd(cmd):
@@ -373,19 +376,23 @@ if __name__ == "__main__":
     logging.getLogger("").addHandler(console)
 
     while True:
-        conn = sqlite3.connect(args.database)
-        # update the database
-        update_database(conn, args.url)
-
         if args.dry:
             remote = ""
         else:
             remote = args.remote
 
-        # process the database
-        process_database(conn, remote)
+        try:
+            conn = sqlite3.connect(args.database)
 
-        conn.close()
+            # update the database
+            update_database(conn, args.url)
+            # process the database
+            process_database(conn, remote)
+
+        except urllib.error.HTTPError as e:
+            logging.error("Failed to fetch URL: {}".format(e))
+        finally:
+            conn.close()
 
         if args.refresh_cycle:
             logging.info("Sleeping for {} minutes".format(args.refresh_cycle))

@@ -1158,7 +1158,7 @@ index 000000000000..09ab335f5ff7
 +
 +--------------------------------------------------------------------------
 diff --git a/check_whence.py b/check_whence.py
-index 42480892aab5..fb4a4c290361 100755
+index 357c1311cf5a..bdb3aa14b8a1 100755
 --- a/check_whence.py
 +++ b/check_whence.py
 @@ -4,8 +4,8 @@ import os, re, stat, sys
@@ -1235,10 +1235,10 @@ index 42480892aab5..fb4a4c290361 100755
          if stat.S_ISDIR(mode):
              if not (
 diff --git a/copy-firmware.sh b/copy-firmware.sh
-index 1a1094ae7411..4cc45fcec330 100755
+index e64b5677ab73..187e3184019f 100755
 --- a/copy-firmware.sh
 +++ b/copy-firmware.sh
-@@ -71,7 +71,7 @@ if test -e .git/config; then
+@@ -91,7 +91,7 @@ if test -e .git/config; then
  fi
  
  # shellcheck disable=SC2162 # file/folder name can include escaped symbols
@@ -1247,9 +1247,9 @@ index 1a1094ae7411..4cc45fcec330 100755
      install -d "$destdir/$(dirname "$f")"
      $verbose "copying/compressing file $f$compext"
      if test "$compress" != "cat" && test "$k" = "RawFile"; then
-@@ -83,7 +83,7 @@ grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g'
- done
+@@ -115,7 +115,7 @@ fi
  
+ echo > "$parallel_args_file"
  # shellcheck disable=SC2162 # file/folder name can include escaped symbols
 -grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read l t; do
 +grep -h -E '^Link:' WHENCE WHENCE.ubuntu | sed -e 's/^Link: *//g;s/-> //g' | while read l t; do
