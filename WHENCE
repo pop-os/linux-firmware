@@ -6445,6 +6445,18 @@ RawFile: qcom/x1e80100/adspr.jsn
 RawFile: qcom/x1e80100/adsps.jsn
 RawFile: qcom/x1e80100/adspua.jsn
 RawFile: qcom/x1e80100/battmgr.jsn
+RawFile: qcom/x1e80100/LENOVO/21N1/adspua.jsn
+File: qcom/x1e80100/LENOVO/21N1/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00787.2-HAMOA-1
+File: qcom/x1e80100/LENOVO/21N1/adsp_dtbs.elf
+RawFile: qcom/x1e80100/LENOVO/21N1/adspr.jsn
+File: qcom/x1e80100/LENOVO/21N1/cdsp_dtbs.elf
+RawFile: qcom/x1e80100/LENOVO/21N1/adsps.jsn
+File: qcom/x1e80100/LENOVO/21N1/qccdsp8380.mbn
+Version: CDSP.HT.2.9-00447-HAMOA-2
+RawFile: qcom/x1e80100/LENOVO/21N1/cdspr.jsn
+File: qcom/x1e80100/LENOVO/21N1/qcdxkmsuc8380.mbn
+RawFile: qcom/x1e80100/LENOVO/21N1/battmgr.jsn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
