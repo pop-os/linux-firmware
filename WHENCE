@@ -4755,6 +4755,8 @@ File: qca/cmbtfw13.tlv
 Version: BTFM.CMC.1.3.0-00108-QCACHROMZ-1
 File: qca/cmnv12.bin
 File: qca/cmnv13.bin
+File: qca/cmnv13s.bin
+File: qca/cmnv13t.bin
 
 Licence: Redistributable. See LICENSE.qcom and qca/NOTICE.txt for details
 
