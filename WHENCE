@@ -3890,6 +3890,13 @@ File: ath11k/QCA2066/hw2.1/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
+File: ath11k/WCN6750/hw1.0/qcm6490/wpss.mbn
+Version: WLAN.MSL.2.0.c2-00204-QCAMSLSWPLZ-1
+Link: qcom/qcm6490/wpss.mbn -> ../../ath11k/WCN6750/hw1.0/qcm6490/wpss.mbn
+Link: qcom/qcs6490/wpss.mbn -> ../../ath11k/WCN6750/hw1.0/qcm6490/wpss.mbn
+
+Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+
 --------------------------------------------------------------------------
 
 Driver: ath12k - Qualcomm Technologies Wi-Fi 7 chipset support
