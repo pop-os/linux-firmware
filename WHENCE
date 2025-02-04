@@ -740,7 +740,7 @@ File: mrvl/usbusb8997_combo_v4.bin
 Version: W16.68.1.p183
 
 File: mrvl/sdsd8997_combo_v4.bin
-Version: W16.68.1.p179
+Version: W16.68.1.p197.1
 
 File: mrvl/sdsd8977_combo_v2.bin
 Version: W16.68.1.p195
@@ -3890,6 +3890,13 @@ File: ath11k/QCA2066/hw2.1/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
+File: ath11k/WCN6750/hw1.0/qcm6490/wpss.mbn
+Version: WLAN.MSL.2.0.c2-00204-QCAMSLSWPLZ-1
+Link: qcom/qcm6490/wpss.mbn -> ../../ath11k/WCN6750/hw1.0/qcm6490/wpss.mbn
+Link: qcom/qcs6490/wpss.mbn -> ../../ath11k/WCN6750/hw1.0/qcm6490/wpss.mbn
+
+Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+
 --------------------------------------------------------------------------
 
 Driver: ath12k - Qualcomm Technologies Wi-Fi 7 chipset support
@@ -4721,8 +4728,6 @@ File: qca/rampatch_00440302.bin
 File: qca/nvm_00440302_eu.bin
 File: qca/nvm_00440302_i2s_eu.bin
 File: qca/nvm_usb_00000302_eu.bin
-File: qca/htbtfw20.tlv
-File: qca/htnv20.bin
 File: qca/rampatch_usb_00130200.bin
 File: qca/nvm_usb_00130200.bin
 File: qca/nvm_usb_00130200_0104.bin
@@ -4749,6 +4754,21 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 
 --------------------------------------------------------------------------
 
+Driver: qca - Qualcomm Atheros Bluetooth support for WCN3950 chips
+
+File: qca/cmbtfw12.tlv
+Version: BTFM.CMC.1.2.0-00218-QCACHROMZ-2
+File: qca/cmbtfw13.tlv
+Version: BTFM.CMC.1.3.0-00108-QCACHROMZ-1
+File: qca/cmnv12.bin
+File: qca/cmnv13.bin
+File: qca/cmnv13s.bin
+File: qca/cmnv13t.bin
+
+Licence: Redistributable. See LICENSE.qcom and qca/NOTICE.txt for details
+
+--------------------------------------------------------------------------
+
 Driver: qca - Qualcomm Atheros Bluetooth support for WCN3988 chips
 
 File: qca/apbtfw10.tlv
@@ -4768,6 +4788,10 @@ File: qca/crbtfw32.tlv
 File: qca/crnv32.bin
 File: qca/crnv32u.bin
 
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
+
+--------------------------------------------------------------------------
+
 Driver: qca - Qualcomm Atheros Bluetooth support for WCN6750 chips
 
 File: qca/msbtfw11.mbn
@@ -4777,6 +4801,8 @@ File: qca/msnv11.b0a
 File: qca/msnv11.b09
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
+
+--------------------------------------------------------------------------
 
 Driver: qca - Qualcomm Atheros Bluetooth support for QCA2066 chips
 
@@ -4812,8 +4838,16 @@ File: qca/hpnv21g.bb8
 File: qca/hpnv21g.b10c
 File: qca/hpnv21g.b111
 
-
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
+
+--------------------------------------------------------------------------
+
+Driver: qca - Qualcomm Atheros Bluetooth support for QCA6390 chips
+
+File: qca/htbtfw20.tlv
+File: qca/htnv20.bin
+
+Licence: Redistributable. See LICENSE.qcom and qca/NOTICE.txt for details
 
 --------------------------------------------------------------------------
 
@@ -5238,7 +5272,7 @@ File: i915/bmg_dmc.bin
 Version: DMC API/APB ver 2 release 6 for Battlemage
 
 File: i915/xe2lpd_dmc.bin
-Version: DMC API/APB ver 2 release 24 for Xe2LPD
+Version: DMC API/APB ver 2 release 27 for Xe2LPD
 
 File: i915/xe3lpd_dmc.bin
 Version: DMC API/APB ver 2 release 13 for Xe3LPD
@@ -6445,6 +6479,18 @@ RawFile: qcom/x1e80100/adspr.jsn
 RawFile: qcom/x1e80100/adsps.jsn
 RawFile: qcom/x1e80100/adspua.jsn
 RawFile: qcom/x1e80100/battmgr.jsn
+RawFile: qcom/x1e80100/LENOVO/21N1/adspua.jsn
+File: qcom/x1e80100/LENOVO/21N1/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00787.2-HAMOA-1
+File: qcom/x1e80100/LENOVO/21N1/adsp_dtbs.elf
+RawFile: qcom/x1e80100/LENOVO/21N1/adspr.jsn
+File: qcom/x1e80100/LENOVO/21N1/cdsp_dtbs.elf
+RawFile: qcom/x1e80100/LENOVO/21N1/adsps.jsn
+File: qcom/x1e80100/LENOVO/21N1/qccdsp8380.mbn
+Version: CDSP.HT.2.9-00447-HAMOA-2
+RawFile: qcom/x1e80100/LENOVO/21N1/cdspr.jsn
+File: qcom/x1e80100/LENOVO/21N1/qcdxkmsuc8380.mbn
+RawFile: qcom/x1e80100/LENOVO/21N1/battmgr.jsn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
