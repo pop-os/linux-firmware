@@ -3852,7 +3852,7 @@ Link: ath11k/WCN6855/hw2.1/m3.bin -> ../hw2.0/m3.bin
 File: ath11k/QCN9074/hw1.0/board-2.bin
 File: ath11k/QCN9074/hw1.0/amss.bin
 File: ath11k/QCN9074/hw1.0/m3.bin
-Version: WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+Version: WLAN.HK.2.9.0.1-02146-QCAHKSWPL_SILICONZ-1
 File: ath11k/QCN9074/hw1.0/Notice.txt
 File: ath11k/WCN6750/hw1.0/board-2.bin
 File: ath11k/WCN6750/hw1.0/sc7280/wpss.mbn
