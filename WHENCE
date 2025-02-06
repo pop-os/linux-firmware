@@ -7923,9 +7923,22 @@ Originates from https://git.codelinaro.org/linaro/qcomlt/audioreach-topology.git
 --------------------------------------------------------------------------
 
 Driver: ti-tas2781 - tas2781 firmware
+File: ti/tas2781/TAS2XXX0C94.bin
+File: ti/tas2781/TAS2XXX0C95.bin
+File: ti/tas2781/TAS2XXX0C96.bin
+File: ti/tas2781/TAS2XXX0C97.bin
+File: ti/tas2781/TAS2XXX10A40.bin
+File: ti/tas2781/TAS2XXX10A41.bin
+File: ti/tas2781/TAS2XXX11540.bin
+File: ti/tas2781/TAS2XXX11541.bin
+File: ti/tas2781/TAS2XXX12040.bin
+File: ti/tas2781/TAS2XXX12041.bin
+File: ti/tas2781/TAS2XXX12140.bin
+File: ti/tas2781/TAS2XXX12141.bin
 File: ti/tas2781/TAS2XXX1EB30.bin
 File: ti/tas2781/TAS2XXX1EB31.bin
 File: ti/tas2781/TAS2XXX2234.bin
+File: ti/tas2781/TAS2XXX2326.bin
 File: ti/tas2781/TAS2XXX387D.bin
 File: ti/tas2781/TAS2XXX387E.bin
 File: ti/tas2781/TAS2XXX387F.bin
@@ -7952,12 +7965,44 @@ File: ti/tas2781/TAS2XXX38D5.bin
 File: ti/tas2781/TAS2XXX38D6.bin
 File: ti/tas2781/TAS2XXX38DF.bin
 File: ti/tas2781/TAS2XXX38E0.bin
+File: ti/tas2781/TAS2XXX38FD.bin
+File: ti/tas2781/TAS2XXX391F.bin
+File: ti/tas2781/TAS2XXX3920.bin
+File: ti/tas2781/TAS2XXX3E300.bin
+File: ti/tas2781/TAS2XXX3E301.bin
+File: ti/tas2781/TAS2XXX3EE00.bin
+File: ti/tas2781/TAS2XXX3EE01.bin
+File: ti/tas2781/TAS2XXX3EF00.bin
+File: ti/tas2781/TAS2XXX3EF01.bin
+File: ti/tas2781/TAS2XXX3F000.bin
+File: ti/tas2781/TAS2XXX3F001.bin
+File: ti/tas2781/TAS2XXX3F100.bin
+File: ti/tas2781/TAS2XXX3F101.bin
+File: ti/tas2781/TAS2XXX3F200.bin
+File: ti/tas2781/TAS2XXX3F201.bin
+File: ti/tas2781/TAS2XXX3F300.bin
+File: ti/tas2781/TAS2XXX3F301.bin
+File: ti/tas2781/TAS2XXX8DE8.bin
+File: ti/tas2781/TAS2XXX8DE9.bin
 File: ti/tas2781/TIAS2781RCA2.bin
 File: ti/tas2781/TIAS2781RCA4.bin
+Link: TAS2XXX0C94.bin -> ti/tas2781/TAS2XXX0C94.bin
+Link: TAS2XXX0C95.bin -> ti/tas2781/TAS2XXX0C95.bin
+Link: TAS2XXX0C96.bin -> ti/tas2781/TAS2XXX0C96.bin
+Link: TAS2XXX0C97.bin -> ti/tas2781/TAS2XXX0C97.bin
+Link: TAS2XXX10A40.bin -> ti/tas2781/TAS2XXX10A40.bin
+Link: TAS2XXX10A41.bin -> ti/tas2781/TAS2XXX10A41.bin
+Link: TAS2XXX11540.bin -> ti/tas2781/TAS2XXX11540.bin
+Link: TAS2XXX11541.bin -> ti/tas2781/TAS2XXX11541.bin
+Link: TAS2XXX12040.bin -> ti/tas2781/TAS2XXX12040.bin
+Link: TAS2XXX12041.bin -> ti/tas2781/TAS2XXX12041.bin
+Link: TAS2XXX12140.bin -> ti/tas2781/TAS2XXX12140.bin
+Link: TAS2XXX12141.bin -> ti/tas2781/TAS2XXX12141.bin
 Link: TAS2XXX1EB3.bin -> ti/tas2781/TAS2XXX1EB30.bin
 Link: TAS2XXX1EB30.bin -> ti/tas2781/TAS2XXX1EB30.bin
 Link: TAS2XXX1EB31.bin -> ti/tas2781/TAS2XXX1EB31.bin
 Link: TAS2XXX2234.bin -> ti/tas2781/TAS2XXX2234.bin
+Link: TAS2XXX2326.bin -> ti/tas2781/TAS2XXX2326.bin
 Link: TAS2XXX387D.bin -> ti/tas2781/TAS2XXX387D.bin
 Link: TAS2XXX387E.bin -> ti/tas2781/TAS2XXX387E.bin
 Link: TAS2XXX387F.bin -> ti/tas2781/TAS2XXX387F.bin
@@ -7984,6 +8029,25 @@ Link: TAS2XXX38D5.bin -> ti/tas2781/TAS2XXX38D5.bin
 Link: TAS2XXX38D6.bin -> ti/tas2781/TAS2XXX38D6.bin
 Link: TAS2XXX38DF.bin -> ti/tas2781/TAS2XXX38DF.bin
 Link: TAS2XXX38E0.bin -> ti/tas2781/TAS2XXX38E0.bin
+Link: TAS2XXX38FD.bin -> ti/tas2781/TAS2XXX38FD.bin
+Link: TAS2XXX391F.bin -> ti/tas2781/TAS2XXX391F.bin
+Link: TAS2XXX3920.bin -> ti/tas2781/TAS2XXX3920.bin
+Link: TAS2XXX3E300.bin -> ti/tas2781/TAS2XXX3E300.bin
+Link: TAS2XXX3E301.bin -> ti/tas2781/TAS2XXX3E301.bin
+Link: TAS2XXX3EE00.bin -> ti/tas2781/TAS2XXX3EE00.bin
+Link: TAS2XXX3EE01.bin -> ti/tas2781/TAS2XXX3EE01.bin
+Link: TAS2XXX3EF00.bin -> ti/tas2781/TAS2XXX3EF00.bin
+Link: TAS2XXX3EF01.bin -> ti/tas2781/TAS2XXX3EF01.bin
+Link: TAS2XXX3F000.bin -> ti/tas2781/TAS2XXX3F000.bin
+Link: TAS2XXX3F001.bin -> ti/tas2781/TAS2XXX3F001.bin
+Link: TAS2XXX3F100.bin -> ti/tas2781/TAS2XXX3F100.bin
+Link: TAS2XXX3F101.bin -> ti/tas2781/TAS2XXX3F101.bin
+Link: TAS2XXX3F200.bin -> ti/tas2781/TAS2XXX3F200.bin
+Link: TAS2XXX3F201.bin -> ti/tas2781/TAS2XXX3F201.bin
+Link: TAS2XXX3F300.bin -> ti/tas2781/TAS2XXX3F300.bin
+Link: TAS2XXX3F301.bin -> ti/tas2781/TAS2XXX3F301.bin
+Link: TAS2XXX8DE8.bin -> ti/tas2781/TAS2XXX8DE8.bin
+Link: TAS2XXX8DE9.bin -> ti/tas2781/TAS2XXX8DE9.bin
 Link: TIAS2781RCA2.bin -> ti/tas2781/TIAS2781RCA2.bin
 Link: TIAS2781RCA4.bin -> ti/tas2781/TIAS2781RCA4.bin
 
