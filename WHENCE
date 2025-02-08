@@ -4793,7 +4793,9 @@ Licence: Redistributable. See LICENSE.qcom and qca/NOTICE.txt for details
 Driver: qca - Qualcomm Atheros Bluetooth support for WCN3988 chips
 
 File: qca/apbtfw10.tlv
+Version: BTFM.CHE.2.0.0-00082-QCACHROMZ-1
 File: qca/apbtfw11.tlv
+Version: BTFM.CHE.2.1.3-00357-QCACHROMZ-1
 File: qca/apnv10.bin
 File: qca/apnv11.bin
 
@@ -4804,8 +4806,10 @@ Licence: Redistributable. See LICENSE.qcom and qca/NOTICE.txt for details
 Driver: qca - Qualcomm Atheros Bluetooth support for WCN399x chips
 
 File: qca/crbtfw21.tlv
+Version: BTFM.CHE.2.1.3.c7-00024-QCACHROM-1
 File: qca/crnv21.bin
 File: qca/crbtfw32.tlv
+Version: BTFM.CHE.3.2.0.c2-00044-QCACHROMZ-1
 File: qca/crnv32.bin
 File: qca/crnv32u.bin
 
@@ -4816,7 +4820,9 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 Driver: qca - Qualcomm Atheros Bluetooth support for WCN6750 chips
 
 File: qca/msbtfw11.mbn
+Version: BTFW.MOSELLE.1.1.3-00069-MSL_PATCHZ-1
 File: qca/msbtfw11.tlv
+Version: BTFW.MOSELLE.1.1.3-00069-MSL_PATCHZ-1
 File: qca/msnv11.bin
 File: qca/msnv11.b0a
 File: qca/msnv11.b09
@@ -4828,6 +4834,7 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 Driver: qca - Qualcomm Atheros Bluetooth support for QCA2066 chips
 
 File: qca/hpbtfw21.tlv
+Version: BTFW.HSP.2.1.0-00641-VER_PATCHZ-1
 File: qca/hpnv21.bin
 File: qca/hpnv21g.bin
 File: qca/hpnv21.301
@@ -4866,6 +4873,7 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 Driver: qca - Qualcomm Atheros Bluetooth support for QCA6390 chips
 
 File: qca/htbtfw20.tlv
+Version: BTFM.HST.2.0.0-00943-QCACHROM-1
 File: qca/htnv20.bin
 
 Licence: Redistributable. See LICENSE.qcom and qca/NOTICE.txt for details
@@ -4875,6 +4883,7 @@ Licence: Redistributable. See LICENSE.qcom and qca/NOTICE.txt for details
 Driver: qca - Qualcomm Atheros Bluetooth support for WCN7850 chips
 
 File: qca/hmtbtfw20.tlv
+Version: BTFW.HAMILTON.2.0.1-00349-WOS_PATCHZ-2
 File: qca/hmtnv20.b10f
 File: qca/hmtnv20.b112
 File: qca/hmtnv20.bin
@@ -4886,6 +4895,7 @@ Licence: Redistributable. See LICENSE.qcom and qca/NOTICE.txt for details
 Driver: qca - Qualcomm Atheros Bluetooth support for QCA6698AQ chips
 
 File: qca/QCA6698/hpbtfw21.tlv
+Version: BTFW.HSP.2.1.2-00035-PATCHZ-1
 File: qca/QCA6698/hpnv21.b206
 File: qca/QCA6698/hpnv21.b207
 File: qca/QCA6698/hpnv21.bin
