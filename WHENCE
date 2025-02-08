@@ -4730,9 +4730,12 @@ File: qca/nvm_usb_00000302.bin
 File: qca/rampatch_usb_00000200.bin
 File: qca/rampatch_usb_00000201.bin
 File: qca/rampatch_usb_00000300.bin
+Version: BTFM.RM.2.2.c3-00031-QCABTFMSWP-1
 File: qca/rampatch_usb_00000302.bin
+Version: BTFM.RM.4.4.1-00028-QCABTFMSWP-1
 File: qca/nvm_usb_00000302_eu.bin
 File: qca/rampatch_usb_00130200.bin
+Version: BTFW.HSP.2.0.0-00609-USB_PATCHZ-1
 File: qca/nvm_usb_00130200.bin
 File: qca/nvm_usb_00130200_0104.bin
 File: qca/nvm_usb_00130200_0105.bin
@@ -4741,6 +4744,7 @@ File: qca/nvm_usb_00130200_0107.bin
 File: qca/nvm_usb_00130200_0109.bin
 File: qca/nvm_usb_00130200_0110.bin
 File: qca/rampatch_usb_00130201.bin
+Version: BTFW.HSP.2.1.0-00650-USB_PATCHZ-1
 File: qca/nvm_usb_00130201.bin
 File: qca/nvm_usb_00130201_010a.bin
 File: qca/nvm_usb_00130201_010b.bin
@@ -4750,6 +4754,7 @@ File: qca/nvm_usb_00130201_gf_010a.bin
 File: qca/nvm_usb_00130201_gf_010b.bin
 File: qca/nvm_usb_00130201_gf_0303.bin
 File: qca/rampatch_usb_00190200.bin
+Version: BTFW.HAMILTON.2.0.0-00515-USB_PATCHZ-2
 File: qca/nvm_usb_00190200.bin
 File: qca/nvm_usb_00190200_010e.bin
 File: qca/nvm_usb_00190200_0112.bin
@@ -4761,12 +4766,16 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 Driver: btqca - Qualcomm Atheros Bluetooth support for QCA61x4 serial chips
 
 File: qca/rampatch_00130300.bin
+Version: BTFM.RM.2.2.c3-00031-QCABTFMSWP-1
 File: qca/rampatch_00130302.bin
+Version: BTFM.RM.2.2.c3-00031-QCABTFMSWP-1
 File: qca/rampatch_00230302.bin
+Version: QCA6174_DEV.BLD.0111
 File: qca/nvm_00130300.bin
 File: qca/nvm_00130302.bin
 File: qca/nvm_00230302.bin
 File: qca/rampatch_00440302.bin
+Version: BTFM.RM.4.4.1-00028-QCABTFMSWP-1
 File: qca/nvm_00440302.bin
 File: qca/nvm_00440302_eu.bin
 File: qca/nvm_00440302_i2s_eu.bin
