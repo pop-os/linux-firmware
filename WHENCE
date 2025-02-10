@@ -8019,12 +8019,18 @@ File: ti/tas2781/TAS2XXX3F300.bin
 File: ti/tas2781/TAS2XXX3F301.bin
 File: ti/tas2781/TAS2XXX8DE8.bin
 File: ti/tas2781/TAS2XXX8DE9.bin
+File: ti/tas2781/TXNW2781RCA0.bin
+File: ti/tas2781/TXNW2781RCA1.bin
 File: ti/tas2781/TIAS2781RCA2.bin
 File: ti/tas2781/TIAS2781RCA4.bin
 Link: TAS2XXX0C94.bin -> ti/tas2781/TAS2XXX0C94.bin
 Link: TAS2XXX0C95.bin -> ti/tas2781/TAS2XXX0C95.bin
 Link: TAS2XXX0C96.bin -> ti/tas2781/TAS2XXX0C96.bin
 Link: TAS2XXX0C97.bin -> ti/tas2781/TAS2XXX0C97.bin
+Link: TAS2XXX103C8DE80.bin -> ti/tas2781/TAS2XXX8DE8.bin
+Link: TAS2XXX103C8DE81.bin -> ti/tas2781/TAS2XXX8DE8.bin
+Link: TAS2XXX103C8DE90.bin -> ti/tas2781/TAS2XXX8DE9.bin
+Link: TAS2XXX103C8DE91.bin -> ti/tas2781/TAS2XXX8DE9.bin
 Link: TAS2XXX10A40.bin -> ti/tas2781/TAS2XXX10A40.bin
 Link: TAS2XXX10A41.bin -> ti/tas2781/TAS2XXX10A41.bin
 Link: TAS2XXX11540.bin -> ti/tas2781/TAS2XXX11540.bin
@@ -8083,8 +8089,16 @@ Link: TAS2XXX3F300.bin -> ti/tas2781/TAS2XXX3F300.bin
 Link: TAS2XXX3F301.bin -> ti/tas2781/TAS2XXX3F301.bin
 Link: TAS2XXX8DE8.bin -> ti/tas2781/TAS2XXX8DE8.bin
 Link: TAS2XXX8DE9.bin -> ti/tas2781/TAS2XXX8DE9.bin
+Link: TAS2XXX8DE80.bin -> ti/tas2781/TAS2XXX8DE8.bin
+Link: TAS2XXX8DE81.bin -> ti/tas2781/TAS2XXX8DE8.bin
+Link: TAS2XXX8DE90.bin -> ti/tas2781/TAS2XXX8DE9.bin
+Link: TAS2XXX8DE91.bin -> ti/tas2781/TAS2XXX8DE9.bin
 Link: TIAS2781RCA2.bin -> ti/tas2781/TIAS2781RCA2.bin
 Link: TIAS2781RCA4.bin -> ti/tas2781/TIAS2781RCA4.bin
+Link: TXNW2781RCA0.bin -> ti/tas2781/TXNW2781RCA0.bin
+Link: TXNW2781RCA1.bin -> ti/tas2781/TXNW2781RCA1.bin
+Link: TXNW2781RCA2.bin -> ti/tas2781/TIAS2781RCA2.bin
+Link: TXNW2781RCA4.bin -> ti/tas2781/TIAS2781RCA4.bin
 
 Licence: Redistributable. See LICENCE.ti-tspa for details. Marked:
 	 Copyright (C) 2023 - 2024 Texas Instruments
