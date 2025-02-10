@@ -5312,7 +5312,7 @@ File: i915/bmg_dmc.bin
 Version: DMC API/APB ver 2 release 6 for Battlemage
 
 File: i915/xe2lpd_dmc.bin
-Version: DMC API/APB ver 2 release 27 for Xe2LPD
+Version: DMC API/APB ver 2 release 28 for Xe2LPD
 
 File: i915/xe3lpd_dmc.bin
 Version: DMC API/APB ver 2 release 13 for Xe3LPD
