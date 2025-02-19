@@ -6369,6 +6369,8 @@ Licence: Redistributable. See LICENSE.sdma_firmware for details
 
 Driver: adreno - Qualcomm Adreno GPU firmware
 
+File: qcom/a225_pfp.fw
+File: qcom/a225_pm4.fw
 File: qcom/a300_pfp.fw
 Link: a300_pfp.fw -> qcom/a300_pfp.fw
 File: qcom/a300_pm4.fw
