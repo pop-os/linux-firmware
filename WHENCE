@@ -6867,7 +6867,7 @@ Licence: Redistributable. See LICENSE.amphion_vpu for details
 
 --------------------------------------------------------------------------
 
-Driver: cs35l41_hda - CS35l41 ALSA HDA audio driver
+Driver: cs35l41 - CS35L41 ALSA audio driver (includes cs35l41_hda)
 
 File: cirrus/cs35l41-dsp1-spk-prot.wmfw
 File: cirrus/cs35l41-dsp1-spk-prot.bin
@@ -7595,6 +7595,9 @@ Link: cirrus/cs35l41-dsp1-spk-prot-103c8ce0-spkid1-l0.bin -> cs35l41-dsp1-spk-pr
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8ce0-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-103c8cdf-spkid1-l0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-1f660105.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
 File: cirrus/cs35l41-dsp1-spk-prot-1f660105.bin
+File: cirrus/cs35l41/v6.51.0/halo_cspl_RAM_revB2_29.53.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-vlv1776.wmfw -> cs35l41/v6.51.0/halo_cspl_RAM_revB2_29.53.0.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-vlv1776.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
 
