@@ -8327,3 +8327,17 @@ Driver: qdu100 - Qualcomm DU firmware image files
 File: qcom/qdu100/xbl_s.melf
 
 License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+
+--------------------------------------------------------------------------
+
+Driver: intel_vpu -- Intel NPU driver
+
+File: intel/vpu/vpu_37xx_v1.bin
+Version: ci_tag_ud202504_vpu_rc_20250115_1905
+Link: intel/vpu/vpu_37xx_v0.0.bin -> vpu_37xx_v1.bin
+
+File: intel/vpu/vpu_40xx_v1.bin
+Version: ci_tag_ud202504_vpu_rc_20250115_1905
+Link: intel/vpu/vpu_40xx_v0.0.bin -> vpu_40xx_v1.bin
+
+License: Redistributable. See LICENSE.intel_vpu for details
