@@ -111,9 +111,9 @@ grep -E '^(RawFile|File):' WHENCE | sed -E -e 's/^(RawFile|File): */\1 /;s/"//g'
 done
 if [ "$num_jobs" -gt 1 ]; then
     parallel -j"$num_jobs" -a "$parallel_args_file"
+    echo > "$parallel_args_file" # prepare for next run
 fi
 
-echo > "$parallel_args_file"
 # shellcheck disable=SC2162 # file/folder name can include escaped symbols
 grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read l t; do
     directory="$destdir/$(dirname "$l")"

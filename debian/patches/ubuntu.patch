@@ -938,55 +938,12 @@ index 000000000000..04bad2f9806f
 +Copyright (c) 2016 Intel Corporation.
 +
 +License: Redistributable. See LICENCE.fw_sst_0f28 for details.
-diff --git a/LICENSE.ivpu_firmware b/LICENSE.ivpu_firmware
-new file mode 100644
-index 000000000000..f43c01075d0e
---- /dev/null
-+++ b/LICENSE.ivpu_firmware
-@@ -0,0 +1,37 @@
-+Copyright (c) 2023, Intel Corporation.
-+All rights reserved.
-+
-+Redistribution.  Redistribution and use in binary form, without
-+modification, are permitted provided that the following conditions are
-+met:
-+
-+* Redistributions must reproduce the above copyright notice and the
-+  following disclaimer in the documentation and/or other materials
-+  provided with the distribution.
-+* Neither the name of Intel Corporation nor the names of its suppliers
-+  may be used to endorse or promote products derived from this software
-+  without specific prior written permission.
-+* No reverse engineering, decompilation, or disassembly of this software
-+  is permitted.
-+
-+Limited patent license.  Intel Corporation grants a world-wide,
-+royalty-free, non-exclusive license under patents it now or hereafter
-+owns or controls to make, have made, use, import, offer to sell and 
-+sell ("Utilize") this software, but solely to the extent that any 
-+such patent is necessary to Utilize the software alone. The patent 
-+license shall not apply to any other combinations which include this 
-+software.  No hardware per se is licensed hereunder.
-+
-+DISCLAIMER.  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
-+CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,
-+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
-+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
-+COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
-+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
-+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
-+OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
-+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
-+USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
-+DAMAGE.
-+
 diff --git a/WHENCE.ubuntu b/WHENCE.ubuntu
 new file mode 100644
-index 000000000000..09ab335f5ff7
+index 000000000000..336a1d7622f5
 --- /dev/null
 +++ b/WHENCE.ubuntu
-@@ -0,0 +1,170 @@
+@@ -0,0 +1,159 @@
 +             **********
 +             * WHENCE *
 +             **********
@@ -1139,17 +1096,6 @@ index 000000000000..09ab335f5ff7
 +
 +--------------------------------------------------------------------------
 +
-+Driver: intel-vpu - Driver for Intel Versatile Processing Unit (VPU)
-+
-+Link: intel/vpu/mtl_vpu_v0.0.bin -> vpu_37xx_v0.0.bin
-+File: intel/vpu/vpu_37xx_v0.0.bin
-+File: intel/vpu/vpu_40xx_v0.0.bin
-+
-+Licence: Limited patent license. See LICENSE.ivpu_firmware for details.
-+Also available from https://raw.githubusercontent.com/intel/linux-vpu-driver/main/firmware/bin/COPYRIGHT
-+
-+--------------------------------------------------------------------------
-+
 +Driver: intel-ipu7 - Intel IPU7 (Image Processing Unit 7) driver
 +
 +File: intel/ipu/ipu7_fw.bin
@@ -1235,7 +1181,7 @@ index 357c1311cf5a..bdb3aa14b8a1 100755
          if stat.S_ISDIR(mode):
              if not (
 diff --git a/copy-firmware.sh b/copy-firmware.sh
-index e64b5677ab73..187e3184019f 100755
+index dd4b9b6f9d6a..5106aea23dc0 100755
 --- a/copy-firmware.sh
 +++ b/copy-firmware.sh
 @@ -91,7 +91,7 @@ if test -e .git/config; then
@@ -1247,9 +1193,9 @@ index e64b5677ab73..187e3184019f 100755
      install -d "$destdir/$(dirname "$f")"
      $verbose "copying/compressing file $f$compext"
      if test "$compress" != "cat" && test "$k" = "RawFile"; then
-@@ -115,7 +115,7 @@ fi
+@@ -115,7 +115,7 @@ if [ "$num_jobs" -gt 1 ]; then
+ fi
  
- echo > "$parallel_args_file"
  # shellcheck disable=SC2162 # file/folder name can include escaped symbols
 -grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read l t; do
 +grep -h -E '^Link:' WHENCE WHENCE.ubuntu | sed -e 's/^Link: *//g;s/-> //g' | while read l t; do
