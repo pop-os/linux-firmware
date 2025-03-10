@@ -4466,6 +4466,8 @@ File: qat_4xxx.bin
 File: qat_4xxx_mmp.bin
 File: qat_402xx.bin
 File: qat_402xx_mmp.bin
+File: qat_420xx.bin
+File: qat_420xx_mmp.bin
 
 Licence: Redistributable. See LICENCE.qat_firmware for details
 
