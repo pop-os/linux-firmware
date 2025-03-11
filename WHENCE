@@ -6415,6 +6415,8 @@ File: qcom/x1e80100/gen70500_zap.mbn
 File: qcom/a663_gmu.bin
 File: qcom/sa8775p/a663_zap.mbn
 File: qcom/qcs615/a612_zap.mbn
+File: qcom/a623_gmu.bin
+File: qcom/qcs8300/a623_zap.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
