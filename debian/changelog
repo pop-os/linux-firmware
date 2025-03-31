@@ -1,5 +1,6 @@
-linux-firmware (20250317.git1d4c88ee-0ubuntu1) plucky; urgency=medium
+linux-firmware (20250317.git1d4c88ee-0ubuntu1+system76) plucky; urgency=medium
 
+  [ Juerg Haefliger ]
   * Miscellaneous Ubuntu changes
     - Rebase to upstream commit 1d4c88ee96ec0176fa6e239ffe3d3a4278a8e418
       Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
@@ -61,7 +62,7 @@ linux-firmware (20250317.git1d4c88ee-0ubuntu1) plucky; urgency=medium
       - rtw89: 8922a: update fw to v0.35.64.0
       - rtw88: Add firmware v33.6.0 for RTL8814AE/RTL8814AU
 
- -- Juerg Haefliger <juerg.haefliger@canonical.com>  Mon, 17 Mar 2025 13:59:14 +0100
+ -- Jeremy Soller <jeremy@system76.com>  Mon, 31 Mar 2025 17:04:18 -0600
 
 linux-firmware (20250310.git9e1370d3-0ubuntu1) plucky; urgency=medium
 
