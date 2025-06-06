@@ -157,3 +157,20 @@ iwlwifi-QuZ-a0-hr-b0-5?.ucode
 iwlwifi-QuZ-a0-jf-b0-5?.ucode
 iwlwifi-cc-a0-5?.ucode
 iwlwifi-ty-a0-gf-a0-5?.ucode
+
+# Remove obsolete Marvell Prestera firmware
+# Kernel 6.15 wants v4.1
+mrvl/prestera/mvsw_prestera_fw-v2.0.img
+mrvl/prestera/mvsw_prestera_fw-v3.0.img
+mrvl/prestera/mvsw_prestera_fw-v4.0.img
+
+# Remove obsolete Mellanox Spectrum firmware
+# Kernel 6.15 wants xx.2010.1006
+mellanox/mlxsw_spectrum-13.1*.mfa2
+mellanox/mlxsw_spectrum-13.200*.mfa2
+mellanox/mlxsw_spectrum2-29.200*.mfa2
+mellanox/mlxsw_spectrum3-30.200*.mfa2
+
+# LP: #2112488
+# Remove AMD TEE firmware which is provided by amd64-microcode
+amdtee

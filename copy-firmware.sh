@@ -11,8 +11,13 @@ compext=
 destdir=
 num_jobs=1
 
+usage() {
+    echo "Usage: $0 [-v] [-jN] [--xz|--zstd] <destination directory>"
+}
+
 err() {
     printf "ERROR: %s\n" "$*"
+    usage
     exit 1
 }
 
@@ -22,6 +27,13 @@ warn() {
 
 has_gnu_parallel() {
     if command -v parallel > /dev/null; then
+        # The moreutils package comes with a simpler version of "parallel"
+        # that does not support the --version or -a options.  Check for
+        # that first.  In some distros, installing the "parallel" package
+        # will replace the moreutils version with the GNU version.
+        if ! parallel --version > /dev/null 2>&1; then
+            return 1
+        fi
         if parallel --version | grep -Fqi 'gnu parallel'; then
            return 0
         fi
@@ -39,6 +51,7 @@ while test $# -gt 0; do
 
         -j*)
             num_jobs=$(echo "$1" | sed 's/-j//')
+            num_jobs=${num_jobs:-1}
             if [ "$num_jobs" -gt 1 ] && ! has_gnu_parallel; then
                     err "the GNU parallel command is required to use -j"
             fi
@@ -63,6 +76,18 @@ while test $# -gt 0; do
             # shellcheck disable=SC2209
             compress="zstd --compress --quiet --stdout"
             compext=".zst"
+            shift
+            ;;
+
+        -h|--help)
+            usage
+            exit 1
+            ;;
+
+        -*)
+            # Ignore anything else that begins with - because that confuses
+            # the "test" command below
+            warn "ignoring option $1"
             shift
             ;;
 

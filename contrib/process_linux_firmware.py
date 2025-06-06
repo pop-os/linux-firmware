@@ -71,7 +71,16 @@ def classify_content(content):
 
 def fetch_url(url):
     blob = None
-    with urllib.request.urlopen(url) as response:
+    req = urllib.request.Request(
+        url,
+        data=None,
+        headers={
+            "User-Agent": "linux-firmware-ci/1.x ({email})".format(
+                email=os.getenv("EMAIL")
+            )
+        },
+    )
+    with urllib.request.urlopen(req) as response:
         blob = response.read()
     m = magic.Magic(mime_encoding=True)
     return blob.decode(m.from_buffer(blob))

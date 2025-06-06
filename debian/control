@@ -3,12 +3,14 @@ Section: misc
 Priority: optional
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 XSBC-Original-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Standards-Version: 4.5.0
+Standards-Version: 4.7.2
+Rules-Requires-Root: no
 Build-Depends: debhelper-compat (= 13), zstd, rdfind
 Vcs-Git: git://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux-firmware
 
 Package: linux-firmware
-Architecture: any
+Architecture: all
+Multi-Arch: foreign
 Priority: optional
 Depends: ${misc:Depends}
 Recommends: firmware-sof-signed

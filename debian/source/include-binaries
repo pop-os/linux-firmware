@@ -29,7 +29,6 @@ ea/loader_dsp.fw
 ea/mia_dsp.fw
 ea/mona_301_dsp.fw
 ea/mona_361_dsp.fw
-intel/ipu/ipu7_fw.bin
 ipw2100-1.3-i.fw
 ipw2100-1.3-p.fw
 ipw2100-1.3.fw

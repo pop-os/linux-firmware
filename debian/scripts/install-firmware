@@ -3,37 +3,19 @@
 # Install firmware and license files into a package directory
 #
 
-function move_item()
-{
-	local item=${1} src_dir=${2} dst_dir=${3}
-	local src dst
-
-	src=${src_dir}/${item}
-	dst=${dst_dir}/${item}
-
-	if [ -e "${src}".zst ] ; then
-		src=${src}.zst
-		dst=${dst}.zst
-	fi
-
-	mkdir -p "${dst%/*}"
-	mv "${src}" "${dst}"
-}
-
-if [ $# -lt 1 ] || [ $# -gt 2 ] ; then
-	echo "Usage: install-firmware <package> [<arch>]" >&2
+if [ $# -ne 1 ] ; then
+	echo "Usage: install-firmware <package>" >&2
 	exit 2
 fi
 
 package=${1}
-arch=${2:-none}
 
-echo "Install firmware files for ${package} (arch=${arch}) ..."
+echo "Install firmware files for ${package} ..."
 
 staging_dir=debian/build/${package}
 
 package_dir=debian/${package}
-firmware_dir=${package_dir}/lib/firmware
+firmware_dir=${package_dir}/usr/lib/firmware
 doc_dir=${package_dir}/usr/share/doc/${package}
 licenses_dir=${doc_dir}/licenses
 
@@ -43,7 +25,7 @@ install -d "${staging_dir}" "${firmware_dir}" "${licenses_dir}"
 # ----------------------------------------------------------------------------
 # Copy firmware files and links to a staging directory
 
-echo "  - Copy firmware files to ${staging_dir}"
+echo "Copy firmware files to ${staging_dir}"
 
 ZSTD_CLEVEL=19 ./copy-firmware.sh --zstd "${staging_dir}"
 debian/scripts/check-symlinks "${staging_dir}"
@@ -51,36 +33,26 @@ debian/scripts/check-symlinks "${staging_dir}"
 # ----------------------------------------------------------------------------
 # Install included files
 
-for f in debian/config/"${package}"/include.* \
-         debian/config/"${package}"/"${arch}"/include.* ; do
+for f in debian/config/"${package}"/include.* ; do
 	if ! [ -e "${f}" ] ; then
 		continue
 	fi
-	echo "  - Include files from ${f}"
+	echo "Include files from ${f}"
 	while IFS= read -r items ; do
 		# Don't quote 'items' to allow for globs
 		# shellcheck disable=SC2086
-		for item in "${staging_dir}"/${items} ; do
-			# Move the item from the staging to the package directory
-			item=${item#"${staging_dir}"/}
-			move_item "${item}" "${staging_dir}" "${firmware_dir}"
+		for item in "${staging_dir}"/${items}{,.zst} ; do
+			if [ -e "${item}" ] || [ -L "${item}" ] ; then
+				# Move the item from the staging to the package directory
+				item_base=${item#"${staging_dir}"/}
+				dest=${firmware_dir}/${item_base}
+				echo "  ${item_base}"
+				mkdir -p "${dest%/*}"
+				mv "${item}" "${dest}"
+			fi
 		done
 	done < <(sed -E '/^#|^$/d' "${f}")
 done
-
-# ----------------------------------------------------------------------------
-# Resolve dangling symlinks
-
-# Install missing link targets
-while IFS= read -r item ; do
-	item=$(realpath --relative-to="${firmware_dir}" "${item}")
-	move_item "${item}" "${staging_dir}" "${firmware_dir}"
-done < <(find "${firmware_dir}" -xtype l)
-
-# Install missing links
-while IFS= read -r item ; do
-	move_item "${item}" "${staging_dir}" "${firmware_dir}"
-done < <(cd "${staging_dir}" && find . -xtype l)
 
 # Sanity checks
 debian/scripts/check-symlinks "${firmware_dir}"
@@ -89,19 +61,21 @@ debian/scripts/check-symlinks "${staging_dir}"
 # ----------------------------------------------------------------------------
 # Remove excluded files
 
-for f in debian/config/"${package}"/exclude.* \
-         debian/config/"${package}"/"${arch}"/exclude.* ; do
+for f in debian/config/"${package}"/exclude.* ; do
 	if ! [ -e "${f}" ] ; then
 		continue
 	fi
-	echo "  - Exclude files from ${f}"
+	echo "Exclude files from ${f}"
 	while IFS= read -r items ; do
 		# Don't quote 'items' to allow for globs
 		# shellcheck disable=SC2086
-		for item in "${firmware_dir}"/${items} ; do
-			# Remove the item and any link target from the package directory
-			rm -rf "$(realpath "${item}")" "${item}"
-			rm -rf "$(realpath "${item}".zst)" "${item}".zst
+		for item in "${firmware_dir}"/${items}{,.zst} ; do
+			if [ -e "${item}" ] || [ -L "${item}" ] ; then
+				# Remove the item and any link target from the package directory
+				item_base=${item#"${firmware_dir}"/}
+				echo "  ${item_base}"
+				rm -rf "${item}" "$(realpath "${item}")"
+			fi
 		done
 	done < <(sed -E '/^#|^$/d' "${f}")
 done
@@ -113,7 +87,7 @@ find "${firmware_dir}" -type d -empty -delete
 # ----------------------------------------------------------------------------
 # Install relevant licenses
 
-echo "  - Install licenses"
+echo "Install licenses"
 
 install -m 0644 GPL-* "${licenses_dir}"
 
@@ -132,7 +106,7 @@ done < <(cd "${firmware_dir}" && find . -type f)
 # ----------------------------------------------------------------------------
 # Install WHENCE files
 
-echo "  - Install WHENCE files"
+echo "Install WHENCE files"
 
 install -m 0644 WHENCE "${doc_dir}"/README
 install -m 0644 WHENCE.ubuntu "${doc_dir}"/README.ubuntu

@@ -940,10 +940,10 @@ index 000000000000..04bad2f9806f
 +License: Redistributable. See LICENCE.fw_sst_0f28 for details.
 diff --git a/WHENCE.ubuntu b/WHENCE.ubuntu
 new file mode 100644
-index 000000000000..336a1d7622f5
+index 000000000000..e5466b642e87
 --- /dev/null
 +++ b/WHENCE.ubuntu
-@@ -0,0 +1,159 @@
+@@ -0,0 +1,151 @@
 +             **********
 +             * WHENCE *
 +             **********
@@ -1095,14 +1095,6 @@ index 000000000000..336a1d7622f5
 +License: Redistributable. See LICENSE.1a98-INTEL-EDK2-2-tplg for details.
 +
 +--------------------------------------------------------------------------
-+
-+Driver: intel-ipu7 - Intel IPU7 (Image Processing Unit 7) driver
-+
-+File: intel/ipu/ipu7_fw.bin
-+
-+Licence: Redistributable. See LICENSE.ivsc for details
-+
-+--------------------------------------------------------------------------
 diff --git a/check_whence.py b/check_whence.py
 index 357c1311cf5a..bdb3aa14b8a1 100755
 --- a/check_whence.py
@@ -1181,10 +1173,10 @@ index 357c1311cf5a..bdb3aa14b8a1 100755
          if stat.S_ISDIR(mode):
              if not (
 diff --git a/copy-firmware.sh b/copy-firmware.sh
-index dd4b9b6f9d6a..5106aea23dc0 100755
+index 6a32127e77cc..0bb82ded11ad 100755
 --- a/copy-firmware.sh
 +++ b/copy-firmware.sh
-@@ -91,7 +91,7 @@ if test -e .git/config; then
+@@ -116,7 +116,7 @@ if test -e .git/config; then
  fi
  
  # shellcheck disable=SC2162 # file/folder name can include escaped symbols
@@ -1193,7 +1185,7 @@ index dd4b9b6f9d6a..5106aea23dc0 100755
      install -d "$destdir/$(dirname "$f")"
      $verbose "copying/compressing file $f$compext"
      if test "$compress" != "cat" && test "$k" = "RawFile"; then
-@@ -115,7 +115,7 @@ if [ "$num_jobs" -gt 1 ]; then
+@@ -140,7 +140,7 @@ if [ "$num_jobs" -gt 1 ]; then
  fi
  
  # shellcheck disable=SC2162 # file/folder name can include escaped symbols
