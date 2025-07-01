@@ -1,43 +1,33 @@
 diff --git a/.gitea/workflows/pr_check.yaml b/.gitea/workflows/pr_check.yaml
 new file mode 100644
-index 000000000000..c2c1a7208d12
+index 000000000000..7b733a30566b
 --- /dev/null
 +++ b/.gitea/workflows/pr_check.yaml
-@@ -0,0 +1,38 @@
+@@ -0,0 +1,28 @@
 +---
 +name: PR checks
 +
 +on:
-+  pull_request_target:
-+    types:
-+      - edited
-+      - opened
-+      - synchronize
++  pull_request:
 +
 +jobs:
 +  pr_checks:
 +    runs-on: ubuntu-latest
 +    steps:
-+      - step:
-+        name: Show versions
++      - name: Show versions
 +        run: |
 +          cat /etc/os-release
 +          python3 --version
 +          pip3 list
-+      - step:
-+        name: Clone repo
++      - name: Clone repo
 +        uses: actions/checkout@v4
 +        with:
-+          ref: ${{ github.event.pull_request.head.sha }}
-+          repository: ${{ github.event.pull_request.head.repo.full_name }}
-+          fetch-depth: 0
-+      - step:
-+        name: Run pre-commit hooks
++          fetch-depth: 100
++      - name: Run pre-commit hooks
 +        run: |
 +          pre-commit install
 +          pre-commit run --all-files
-+      - step:
-+        name: Run ubuntu-check-commit
++      - name: Run ubuntu-check-commit
 +        uses: actions/ubuntu-check-commit@main
 +        with:
 +          start_rev: ${{ github.event.pull_request.base.sha }}

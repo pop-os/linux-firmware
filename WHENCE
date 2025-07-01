@@ -8,7 +8,7 @@ kernel.
 
 --------------------------------------------------------------------------
 
-Driver: BCM-0bb4-0306 Cypress Bluetooth firmware for HTC Vive
+Driver: BCM-0bb4-0306 - Cypress Bluetooth firmware for HTC Vive
 
 File: brcm/BCM-0bb4-0306.hcd
 Link: brcm/BCM-0a5c-6410.hcd -> BCM-0bb4-0306.hcd
@@ -17,7 +17,7 @@ Licence: Redistributable. See LICENCE.cypress for details.
 
 --------------------------------------------------------------------------
 
-Driver: snd-korg1212 -- Korg 1212 IO audio device
+Driver: snd-korg1212 - Korg 1212 IO audio device
 
 File: korg/k1212.dsp
 
@@ -27,7 +27,7 @@ Found in alsa-firmware package in hex form; no licensing information.
 
 --------------------------------------------------------------------------
 
-Driver: snd-maestro3 -- ESS Allegro Maestro3 audio device
+Driver: snd-maestro3 - ESS Allegro Maestro3 audio device
 
 File: ess/maestro3_assp_kernel.fw
 File: ess/maestro3_assp_minisrc.fw
@@ -35,13 +35,13 @@ File: ess/maestro3_assp_minisrc.fw
 Licence: Unknown
 
 Found in alsa-firmware package in hex form with a comment claiming to
-be GPLv2+, but without source -- and with another comment saying "ESS
+be GPLv2+, but without source - and with another comment saying "ESS
 drops binary dsp code images on our heads, but we don't get to see
 specs on the dsp."
 
 --------------------------------------------------------------------------
 
-Driver: snd-ymfpci -- Yamaha YMF724/740/744/754 audio devices
+Driver: snd-ymfpci - Yamaha YMF724/740/744/754 audio devices
 
 File: yamaha/ds1_ctrl.fw
 File: yamaha/ds1_dsp.fw
@@ -61,7 +61,7 @@ File: advansys/3550.bin
 File: advansys/38C0800.bin
 File: advansys/38C1600.bin
 
-Licence: BSD, no source available.
+Licence: Redistributable. See LICENCE.advansys for details
 
 Found in hex form in kernel source.
 
@@ -77,7 +77,7 @@ Licence: Redistributable. See LICENCE.qla1280 for details
 
 --------------------------------------------------------------------------
 
-Driver: kaweth -- USB KLSI KL5USB101-based Ethernet device
+Driver: kaweth - USB KLSI KL5USB101-based Ethernet device
 
 File: kaweth/new_code.bin
 File: kaweth/new_code_fix.bin
@@ -90,7 +90,7 @@ Found in hex form in the kernel source.
 
 --------------------------------------------------------------------------
 
-Driver: dvb-ttusb-budget -- Technotrend/Hauppauge Nova-USB devices
+Driver: dvb-ttusb-budget - Technotrend/Hauppauge Nova-USB devices
 
 File: ttusb-budget/dspbootcode.bin
 
@@ -100,7 +100,7 @@ Found in hex form in the kernel source.
 
 --------------------------------------------------------------------------
 
-Driver: keyspan -- USB Keyspan USA-xxx serial device
+Driver: keyspan - USB Keyspan USA-xxx serial device
 
 File: keyspan/mpr.fw
 File: keyspan/usa18x.fw
@@ -117,29 +117,11 @@ File: keyspan/usa49wlc.fw
 
 Converted from Intel HEX files, used in our binary representation of ihex.
 
-Original licence information:
-
-		Copyright (C) 1999-2001
-		Keyspan, A division of InnoSys Incorporated ("Keyspan")
-
-	as an unpublished work. This notice does not imply unrestricted or
-	public access to the source code from which this firmware image is
-	derived.  Except as noted below this firmware image may not be
-	reproduced, used, sold or transferred to any third party without
-	Keyspan's prior written consent.  All Rights Reserved.
-
-	Permission is hereby granted for the distribution of this firmware
-	image as part of a Linux or other Open Source operating system kernel
-	in text or binary form as required.
-
-	This firmware may not be modified and may only be used with
-	Keyspan hardware.  Distribution and/or Modification of the
-	keyspan.c driver which includes this firmware, in whole or in
-	part, requires the inclusion of this statement."
+Licence: Redistributable. See LICENCE.keyspan for details
 
 --------------------------------------------------------------------------
 
-Driver: keyspan_pda -- USB Keyspan PDA single-port serial device
+Driver: keyspan_pda - USB Keyspan PDA single-port serial device
 
 File: keyspan_pda/keyspan_pda.fw
 Source: keyspan_pda/keyspan_pda.S
@@ -155,7 +137,7 @@ Compiled from original 8051 source into Intel HEX, used in our binary ihex form.
 
 --------------------------------------------------------------------------
 
-Driver: emi26 -- EMI 2|6 USB Audio interface
+Driver: emi26 - EMI 2|6 USB Audio interface
 
 File: emi26/bitstream.fw
 Version: 1.1.1.131
@@ -169,29 +151,11 @@ File: emi26/loader.fw
 
 Converted from Intel HEX files, used in our binary representation of ihex.
 
-Original licence information:
-/*
- * This firmware is for the Emagic EMI 2|6 Audio Interface
- *
- * The firmware contained herein is Copyright (c) 1999-2002 Emagic
- * as an unpublished work. This notice does not imply unrestricted
- * or public access to this firmware which is a trade secret of Emagic,
- * and which may not be reproduced, used, sold or transferred to
- * any third party without Emagic's written consent. All Rights Reserved.
- *
- * Permission is hereby granted for the distribution of this firmware
- * image as part of a Linux or other Open Source operating system kernel
- * in text or binary form as required.
- *
- * This firmware may not be modified and may only be used with the
- * Emagic EMI 2|6 Audio Interface. Distribution and/or Modification of
- * any driver which includes this firmware, in whole or in part,
- * requires the inclusion of this statement.
- */
+Licence: Redistributable. See LICENCE.emi26 for details
 
 --------------------------------------------------------------------------
 
-Driver: emi62 -- EMI 6|2m USB Audio interface
+Driver: emi62 - EMI 6|2m USB Audio interface
 
 File: emi62/bitstream.fw
 Version: 1.0.0.191
@@ -215,7 +179,7 @@ Original licence information: None
 
 --------------------------------------------------------------------------
 
-Driver: ti_usb_3410_5052 -- USB TI 3410/5052 serial device
+Driver: ti_usb_3410_5052 - USB TI 3410/5052 serial device
 
 File: ti_3410.fw
 Info: firmware 9/10/04 FW3410_Special_StartWdogOnStartPort
@@ -230,7 +194,7 @@ Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
-Driver: ti_usb_3410_5052 -- Multi-Tech USB cell modems
+Driver: ti_usb_3410_5052 - Multi-Tech USB cell modems
 
 File: mts_cdma.fw
 File: mts_gsm.fw
@@ -244,7 +208,7 @@ Found in hex form in ftp://ftp.multitech.com/wireless/wireless_linux.zip
 
 --------------------------------------------------------------------------
 
-Driver: ti_usb_3410_5052 -- Multi-Tech USB fax modems
+Driver: ti_usb_3410_5052 - Multi-Tech USB fax modems
 
 File: mts_mt9234mu.fw
 File: mts_mt9234zba.fw
@@ -253,7 +217,7 @@ Licence: Unknown
 
 --------------------------------------------------------------------------
 
-Driver: whiteheat -- USB ConnectTech WhiteHEAT serial device
+Driver: whiteheat - USB ConnectTech WhiteHEAT serial device
 
 File: whiteheat.fw
 Version: 4.06
@@ -273,7 +237,7 @@ Converted from Intel HEX files, used in our binary representation of ihex.
 
 --------------------------------------------------------------------------
 
-Driver: cpia2 -- cameras based on Vision's CPiA2
+Driver: cpia2 - cameras based on Vision's CPiA2
 
 File: cpia2/stv0672_vp4.bin
 
@@ -286,23 +250,16 @@ Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
-Driver: dabusb -- Digital Audio Broadcasting (DAB) Receiver for USB and Linux
+Driver: dabusb - Digital Audio Broadcasting (DAB) Receiver for USB and Linux
 
 File: dabusb/firmware.fw
 File: dabusb/bitstream.bin
 
-Licence: Distributable
-
- * Copyright (C) 1999 BayCom GmbH
- *
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that redistributions of source
- * code retain the above copyright notice and this comment without
- * modification.
+Licence: Redistributable. See LICENCE.dabusb for details
 
 --------------------------------------------------------------------------
 
-Driver: vicam -- USB 3com HomeConnect (aka vicam)
+Driver: vicam - USB 3com HomeConnect (aka vicam)
 
 File: vicam/firmware.fw
 
@@ -458,20 +415,7 @@ File: slicoss/oasisdbgdownload.sys
 File: slicoss/oasisdownload.sys
 File: slicoss/oasisrcvucode.sys
 
-Licence:
-		Copyright (C) 1999-2009 Alacritech, Inc.
-
-	as an unpublished work. This notice does not imply unrestricted or
-	public access to the source code from which this firmware image is
-	derived.  Except as noted below this firmware image may not be
-	reproduced, used, sold or transferred to any third party without
-	Alacritech's prior written consent.  All Rights Reserved.
-
-	Permission is hereby granted for the distribution of this firmware
-	image as part of a Linux or other Open Source operating system kernel
-	in text or binary form as required.
-
-	This firmware may not be modified.
+Licence: Redistributable. See LICENCE.alacritech for details
 
 Found in hex form in kernel source.
 
@@ -482,20 +426,7 @@ Driver: sxg - Alacritech IS-NIC products
 File: sxg/saharadownloadB.sys
 File: sxg/saharadbgdownloadB.sys
 
-Licence:
-		Copyright (C) 1999-2009 Alacritech, Inc.
-
-	as an unpublished work. This notice does not imply unrestricted or
-	public access to the source code from which this firmware image is
-	derived.  Except as noted below this firmware image may not be
-	reproduced, used, sold or transferred to any third party without
-	Alacritech's prior written consent.  All Rights Reserved.
-
-	Permission is hereby granted for the distribution of this firmware
-	image as part of a Linux or other Open Source operating system kernel
-	in text or binary form as required.
-
-	This firmware may not be modified.
+Licence: Redistributable. See LICENCE.alacritech for details
 
 Found in hex form in kernel source.
 
@@ -521,12 +452,7 @@ File: cxgb3/ael2005_opt_edc.bin
 File: cxgb3/ael2005_twx_edc.bin
 File: cxgb3/ael2020_twx_edc.bin
 
-Licence:
- *	Copyright (c) 2007-2009 NetLogic Microsystems, Inc.
- *
- *	Permission is hereby granted for the distribution of this firmware
- *	data in hexadecimal or equivalent format, provided this copyright
- *	notice is accompanying it.
+Licence: Redistributable. See LICENCE.cxgb3 for details
 
 Found in hex form in kernel source.
 
@@ -559,7 +485,7 @@ Licence: Redistributable. See LICENCE.chelsio_firmware for details
 
 --------------------------------------------------------------------------
 
-Driver: e100 -- Intel PRO/100 Ethernet NIC
+Driver: e100 - Intel PRO/100 Ethernet NIC
 
 File: e100/d101m_ucode.bin
 File: e100/d101s_ucode.bin
@@ -569,7 +495,7 @@ Licence: Redistributable. See LICENCE.e100 for details
 
 --------------------------------------------------------------------------
 
-Driver: acenic -- Alteon AceNIC Gigabit Ethernet card
+Driver: acenic - Alteon AceNIC Gigabit Ethernet card
 
 File: acenic/tg1.bin
 File: acenic/tg2.bin
@@ -581,21 +507,14 @@ http://alteon.shareable.org/
 
 --------------------------------------------------------------------------
 
-Driver: tg3 -- Broadcom Tigon3 based gigabit Ethernet cards
+Driver: tg3 - Broadcom Tigon3 based gigabit Ethernet cards
 
 File: tigon/tg3.bin
 File: tigon/tg3_tso.bin
 File: tigon/tg3_tso5.bin
 File: tigon/tg357766.bin
 
-Licence:
- * Firmware is:
- *	Derived from proprietary unpublished source code,
- *	Copyright (C) 2000-2013 Broadcom Corporation.
- *
- *	Permission is hereby granted for the distribution of this firmware
- *	data in hexadecimal or equivalent format, provided this copyright
- *	notice is accompanying it.
+Licence: Redistributable. See LICENCE.tigon for details
 
 Found in hex form in kernel source.
 
@@ -1146,9 +1065,6 @@ Version: 93.44729d4e.0
 File: iwlwifi-bz-b0-hr-b0-98.ucode
 Version: 95.d661c37c.0
 
-File: iwlwifi-bz-b0-hr-b0-99.ucode
-Version: 96.e673484a.0
-
 File: iwlwifi-bz-b0-hr-b0.pnvm
 
 File: iwlwifi-bz-b0-gf-a0-92.ucode
@@ -1165,9 +1081,6 @@ Version: 94.8049d69b.0
 
 File: iwlwifi-bz-b0-gf-a0-98.ucode
 Version: 95.d661c37c.0
-
-File: iwlwifi-bz-b0-gf-a0-99.ucode
-Version: 96.e673484a.0
 
 File: iwlwifi-bz-b0-gf-a0.pnvm
 
@@ -1195,9 +1108,6 @@ Version: 94.8049d69b.0
 File: iwlwifi-gl-c0-fm-c0-98.ucode
 Version: 95.d661c37c.0
 
-File: iwlwifi-gl-c0-fm-c0-99.ucode
-Version: 96.e673484a.0
-
 File: iwlwifi-gl-c0-fm-c0.pnvm
 
 File: iwlwifi-bz-b0-fm-c0-92.ucode
@@ -1217,9 +1127,6 @@ Version: 94.8049d69b.0
 
 File: iwlwifi-bz-b0-fm-c0-98.ucode
 Version: 95.d661c37c.0
-
-File: iwlwifi-bz-b0-fm-c0-99.ucode
-Version: 96.e673484a.0
 
 File: iwlwifi-bz-b0-fm-c0.pnvm
 
@@ -1376,39 +1283,7 @@ Driver: typhoon - 3cr990 series Typhoon
 
 File: 3com/typhoon.bin
 
-Licence:
-/*
- * Copyright 1999-2004 3Com Corporation.  All Rights Reserved.
- *
- * Redistribution and use in source and binary forms of the 3c990img.h
- * microcode software are permitted provided that the following conditions
- * are met:
- * 1. Redistribution of source code must retain the above copyright
- *    notice, this list of conditions and the following disclaimer.
- * 2. Redistribution in binary form must reproduce the above copyright
- *    notice, this list of conditions and the following disclaimer in the
- *    documentation and/or other materials provided with the distribution.
- * 3. The name of 3Com may not be used to endorse or promote products
- *    derived from this software without specific prior written permission
- *
- * THIS SOFTWARE IS PROVIDED BY 3COM ``AS IS'' AND ANY EXPRESS OR
- * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
- * IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
- * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
- * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- *
- * USER ACKNOWLEDGES AND AGREES THAT PURCHASE OR USE OF THE 3c990img.h
- * MICROCODE SOFTWARE WILL NOT CREATE OR GIVE GROUNDS FOR A LICENSE BY
- * IMPLICATION, ESTOPPEL, OR OTHERWISE IN ANY INTELLECTUAL PROPERTY RIGHTS
- * (PATENT, COPYRIGHT, TRADE SECRET, MASK WORK, OR OTHER PROPRIETARY RIGHT)
- * EMBODIED IN ANY OTHER 3COM HARDWARE OR SOFTWARE EITHER SOLELY OR IN
- * COMBINATION WITH THE 3c990img.h MICROCODE SOFTWARE
- */
+Licence: Redistributable. See LICENCE.typhoon for details
 
 Found in hex form in kernel source.
 
@@ -1560,7 +1435,7 @@ Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
-Driver: bnx2x: Broadcom Everest
+Driver: bnx2x - Broadcom Everest
 
 File: bnx2x/bnx2x-e1-7.13.1.0.fw
 File: bnx2x/bnx2x-e1-7.13.11.0.fw
@@ -1575,17 +1450,7 @@ File: bnx2x/bnx2x-e2-7.13.11.0.fw
 File: bnx2x/bnx2x-e2-7.13.15.0.fw
 File: bnx2x/bnx2x-e2-7.13.21.0.fw
 
-
-License:
-  Copyright (c) 2007-2011 Broadcom Corporation
-
-  This file contains firmware data derived from proprietary unpublished
-  source code, Copyright (c) 2007-2011 Broadcom Corporation.
-
-  Permission is hereby granted for the distribution of this firmware data
-  in hexadecimal or equivalent format, provided this copyright notice is
-  accompanying it.
-
+License: Redistributable. See LICENCE.bnx2x for details.
 
 Found in hex form in kernel source.
 
@@ -1599,14 +1464,7 @@ File: bnx2/bnx2-rv2p-06-6.0.15.fw
 File: bnx2/bnx2-rv2p-09-6.0.17.fw
 File: bnx2/bnx2-rv2p-09ax-6.0.17.fw
 
-Licence:
-
- This file contains firmware data derived from proprietary unpublished
- source code, Copyright (c) 2004 - 2010 Broadcom Corporation.
-
- Permission is hereby granted for the distribution of this firmware data
- in hexadecimal or equivalent format, provided this copyright notice is
- accompanying it.
+License: Redistributable. See LICENCE.bnx2 for details.
 
 Found in hex form in kernel source.
 
@@ -1623,7 +1481,7 @@ Available from http://ldriver.qlogic.com/firmware/netxen_nic/new/
 
 --------------------------------------------------------------------------
 
-Driver: dvb-ttpci -- AV7110 cards
+Driver: dvb-ttpci - AV7110 cards
 
 File: av7110/bootcode.bin
 Source: av7110/Boot.S
@@ -1733,8 +1591,7 @@ File: usbduxfast_firmware.bin
 File: usbduxsigma_firmware.bin
 Source: usbdux/
 
-Licence: GPLv2. See GPL-2 for details.
-
+Licence: GPLv2 or later. See GPL-2 for details.
 Provided from the author, Bernd Porr <BerndPorr@f2s.com>
 
 --------------------------------------------------------------------------
@@ -1815,28 +1672,9 @@ Driver: r128 - ATI Rage 128
 
 File: r128/r128_cce.bin
 
-Licence:
+Licence: MIT
 
 Copyright 2000 Advanced Micro Devices, Inc.
-
- * Permission is hereby granted, free of charge, to any person obtaining a
- * copy of this software and associated documentation files (the "Software"),
- * to deal in the Software without restriction, including without limitation
- * the rights to use, copy, modify, merge, publish, distribute, sublicense,
- * and/or sell copies of the Software, and to permit persons to whom the
- * Software is furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice (including the next
- * paragraph) shall be included in all copies or substantial portions of the
- * Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
- * PRECISION INSIGHT AND/OR ITS SUPPLIERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
- * OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
- * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- * DEALINGS IN THE SOFTWARE.
 
 Found in decimal form in kernel source.
 
@@ -1872,29 +1710,9 @@ File: radeon/RV730_me.bin
 File: radeon/RV710_pfp.bin
 File: radeon/RV710_me.bin
 
-Licence:
+Licence: MIT
 
- * Copyright 2007-2009 Advanced Micro Devices, Inc.
- * All Rights Reserved.
- *
- * Permission is hereby granted, free of charge, to any person obtaining a
- * copy of this software and associated documentation files (the "Software"),
- * to deal in the Software without restriction, including without limitation
- * the rights to use, copy, modify, merge, publish, distribute, sublicense,
- * and/or sell copies of the Software, and to permit persons to whom the
- * Software is furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice (including the next
- * paragraph) shall be included in all copies or substantial portions of the
- * Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
- * IN NO EVENT SHALL THE COPYRIGHT OWNER(S) AND/OR ITS SUPPLIERS BE
- * LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
- * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
- * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Copyright 2007-2009 Advanced Micro Devices, Inc.
 
 Found in hex form in kernel source.
 
@@ -2370,6 +2188,7 @@ File: amdgpu/vega10_acg_smc.bin
 File: amdgpu/vega10_asd.bin
 File: amdgpu/vega10_ce.bin
 File: amdgpu/vega10_gpu_info.bin
+File: amdgpu/vega10_ip_discovery.bin
 File: amdgpu/vega10_me.bin
 File: amdgpu/vega10_mec.bin
 File: amdgpu/vega10_mec2.bin
@@ -2384,6 +2203,7 @@ File: amdgpu/vega10_vce.bin
 File: amdgpu/vega12_asd.bin
 File: amdgpu/vega12_ce.bin
 File: amdgpu/vega12_gpu_info.bin
+File: amdgpu/vega12_ip_discovery.bin
 File: amdgpu/vega12_me.bin
 File: amdgpu/vega12_mec.bin
 File: amdgpu/vega12_mec2.bin
@@ -2397,6 +2217,7 @@ File: amdgpu/vega12_uvd.bin
 File: amdgpu/vega12_vce.bin
 File: amdgpu/vega20_asd.bin
 File: amdgpu/vega20_ce.bin
+File: amdgpu/vega20_ip_discovery.bin
 File: amdgpu/vega20_me.bin
 File: amdgpu/vega20_mec.bin
 File: amdgpu/vega20_mec2.bin
@@ -2412,6 +2233,7 @@ File: amdgpu/vega20_ta.bin
 File: amdgpu/raven_asd.bin
 File: amdgpu/raven_ce.bin
 File: amdgpu/raven_gpu_info.bin
+File: amdgpu/raven_ip_discovery.bin
 File: amdgpu/raven_me.bin
 File: amdgpu/raven_mec.bin
 File: amdgpu/raven_mec2.bin
@@ -2425,6 +2247,7 @@ File: amdgpu/raven_ta.bin
 File: amdgpu/picasso_asd.bin
 File: amdgpu/picasso_ce.bin
 File: amdgpu/picasso_gpu_info.bin
+File: amdgpu/picasso_ip_discovery.bin
 File: amdgpu/picasso_me.bin
 File: amdgpu/picasso_mec.bin
 File: amdgpu/picasso_mec2.bin
@@ -2437,6 +2260,7 @@ File: amdgpu/picasso_ta.bin
 File: amdgpu/raven2_asd.bin
 File: amdgpu/raven2_ce.bin
 File: amdgpu/raven2_gpu_info.bin
+File: amdgpu/raven2_ip_discovery.bin
 File: amdgpu/raven2_me.bin
 File: amdgpu/raven2_mec.bin
 File: amdgpu/raven2_mec2.bin
@@ -2542,6 +2366,7 @@ File: amdgpu/navy_flounder_ta.bin
 File: amdgpu/navy_flounder_vcn.bin
 File: amdgpu/arcturus_asd.bin
 File: amdgpu/arcturus_gpu_info.bin
+File: amdgpu/arcturus_ip_discovery.bin
 File: amdgpu/arcturus_mec2.bin
 File: amdgpu/arcturus_mec.bin
 File: amdgpu/arcturus_rlc.bin
@@ -2605,6 +2430,7 @@ File: amdgpu/cyan_skillfish2_pfp.bin
 File: amdgpu/cyan_skillfish2_rlc.bin
 File: amdgpu/cyan_skillfish2_sdma.bin
 File: amdgpu/cyan_skillfish2_sdma1.bin
+File: amdgpu/aldebaran_ip_discovery.bin
 File: amdgpu/aldebaran_mec2.bin
 File: amdgpu/aldebaran_mec.bin
 File: amdgpu/aldebaran_rlc.bin
@@ -2621,6 +2447,9 @@ File: amdgpu/gc_9_4_3_sjt_mec.bin
 File: amdgpu/gc_9_4_4_mec.bin
 File: amdgpu/gc_9_4_4_rlc.bin
 File: amdgpu/gc_9_4_4_sjt_mec.bin
+File: amdgpu/gc_9_5_0_mec.bin
+File: amdgpu/gc_9_5_0_rlc.bin
+File: amdgpu/gc_9_5_0_sjt_mec.bin
 File: amdgpu/gc_10_3_6_ce.bin
 File: amdgpu/gc_10_3_6_me.bin
 File: amdgpu/gc_10_3_6_mec.bin
@@ -2634,6 +2463,7 @@ File: amdgpu/gc_10_3_7_mec2.bin
 File: amdgpu/gc_10_3_7_pfp.bin
 File: amdgpu/gc_10_3_7_rlc.bin
 File: amdgpu/gc_11_0_0_imu.bin
+File: amdgpu/gc_11_0_0_imu_kicker.bin
 File: amdgpu/gc_11_0_0_me.bin
 File: amdgpu/gc_11_0_0_mec.bin
 File: amdgpu/gc_11_0_0_mes1.bin
@@ -2641,6 +2471,7 @@ File: amdgpu/gc_11_0_0_mes.bin
 File: amdgpu/gc_11_0_0_mes_2.bin
 File: amdgpu/gc_11_0_0_pfp.bin
 File: amdgpu/gc_11_0_0_rlc.bin
+File: amdgpu/gc_11_0_0_rlc_kicker.bin
 File: amdgpu/gc_11_0_0_rlc_1.bin
 File: amdgpu/gc_11_0_1_imu.bin
 File: amdgpu/gc_11_0_1_me.bin
@@ -2721,7 +2552,9 @@ File: amdgpu/dcn_3_5_dmcub.bin
 File: amdgpu/dcn_3_5_1_dmcub.bin
 File: amdgpu/dcn_4_0_1_dmcub.bin
 File: amdgpu/psp_13_0_0_sos.bin
+File: amdgpu/psp_13_0_0_sos_kicker.bin
 File: amdgpu/psp_13_0_0_ta.bin
+File: amdgpu/psp_13_0_0_ta_kicker.bin
 File: amdgpu/psp_13_0_4_ta.bin
 File: amdgpu/psp_13_0_4_toc.bin
 File: amdgpu/psp_13_0_5_asd.bin
@@ -2738,6 +2571,8 @@ File: amdgpu/psp_13_0_10_sos.bin
 File: amdgpu/psp_13_0_10_ta.bin
 File: amdgpu/psp_13_0_11_ta.bin
 File: amdgpu/psp_13_0_11_toc.bin
+File: amdgpu/psp_13_0_12_sos.bin
+File: amdgpu/psp_13_0_12_ta.bin
 File: amdgpu/psp_13_0_14_sos.bin
 File: amdgpu/psp_13_0_14_ta.bin
 File: amdgpu/psp_14_0_0_ta.bin
@@ -2751,6 +2586,7 @@ File: amdgpu/psp_14_0_3_ta.bin
 File: amdgpu/psp_14_0_4_ta.bin
 File: amdgpu/psp_14_0_4_toc.bin
 File: amdgpu/sdma_4_4_2.bin
+File: amdgpu/sdma_4_4_4.bin
 File: amdgpu/sdma_4_4_5.bin
 File: amdgpu/sdma_5_2_6.bin
 File: amdgpu/sdma_5_2_7.bin
@@ -2764,6 +2600,7 @@ File: amdgpu/sdma_6_1_2.bin
 File: amdgpu/sdma_7_0_0.bin
 File: amdgpu/sdma_7_0_1.bin
 File: amdgpu/smu_13_0_0.bin
+File: amdgpu/smu_13_0_0_kicker.bin
 File: amdgpu/smu_13_0_6.bin
 File: amdgpu/smu_13_0_7.bin
 File: amdgpu/smu_13_0_10.bin
@@ -2780,6 +2617,7 @@ File: amdgpu/vcn_4_0_5.bin
 File: amdgpu/vcn_4_0_6.bin
 File: amdgpu/vcn_4_0_6_1.bin
 File: amdgpu/vcn_5_0_0.bin
+File: amdgpu/vcn_5_0_1.bin
 File: amdgpu/vpe_6_1_0.bin
 File: amdgpu/vpe_6_1_1.bin
 File: amdgpu/vpe_6_1_3.bin
@@ -3110,7 +2948,7 @@ Link: brcm/brcmfmac4356-sdio.khadas,vim2.txt -> brcmfmac4356-sdio.AP6356S.txt
 Link: brcm/brcmfmac4356-sdio.vamrs,rock960.txt -> brcmfmac4356-sdio.AP6356S.txt
 File: brcm/brcmfmac43455-sdio.AW-CM256SM.txt
 Link: brcm/brcmfmac43455-sdio.beagle,am5729-beagleboneai.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
-Link: brcm/brcmfmac43455-sdio.brcmfmac43455-sdio.khadas,vim.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.khadas,vim.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
 Link: brcm/brcmfmac43455-sdio.pine64,pinebook-pro.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
 Link: brcm/brcmfmac43455-sdio.pine64,pinenote-v1.1.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
 Link: brcm/brcmfmac43455-sdio.pine64,pinenote-v1.2.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
@@ -3486,6 +3324,7 @@ File: rtw89/rtw8922a_fw.bin
 File: rtw89/rtw8922a_fw-1.bin
 File: rtw89/rtw8922a_fw-2.bin
 File: rtw89/rtw8922a_fw-3.bin
+File: rtw89/rtw8922a_fw-4.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3742,7 +3581,7 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ar3k for details
 
 --------------------------------------------------------------------------
 
-Driver:Atheros AR300x UART HCI Bluetooth Chip driver
+Driver: Atheros AR300x UART HCI Bluetooth Chip driver
 
 File: ar3k/1020201/PS_ASIC.pst
 File: ar3k/1020201/RamPatch.txt
@@ -4057,7 +3896,7 @@ of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 --------------------------------------------------------------------------
 
-Driver: ene-ub6250 -- ENE UB6250 SD card reader driver
+Driver: ene-ub6250 - ENE UB6250 SD card reader driver
 
 File: ene-ub6250/sd_init1.bin
 File: ene-ub6250/sd_init2.bin
@@ -4070,7 +3909,7 @@ Licence: Redistributable. See LICENCE.ene_firmware for details.
 
 --------------------------------------------------------------------------
 
-Driver: isci -- Intel C600 SAS controller driver
+Driver: isci - Intel C600 SAS controller driver
 
 File: isci/isci_firmware.bin
 Source: isci/
@@ -4079,7 +3918,7 @@ Licence: GPLv2. See GPL-2 for details.
 
 --------------------------------------------------------------------------
 
-Driver: ar5523 -- Atheros AR5523 based USB Wifi dongles
+Driver: ar5523 - Atheros AR5523 based USB Wifi dongles
 
 File: ar5523.bin
 
@@ -4109,7 +3948,7 @@ of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 --------------------------------------------------------------------------
 
-Driver: carl9170 -- Atheros AR9170 802.11 draft-n USB driver
+Driver: carl9170 - Atheros AR9170 802.11 draft-n USB driver
 
 File: carl9170-1.fw
 Version: 1.9.6
@@ -4117,7 +3956,7 @@ Source: carl9170fw/
 
 Downloaded from http://linuxwireless.org/en/users/Drivers/carl9170
 
-Licence: GPLv2. Some build scripts use the New BSD (3-clause) licence.. See GPL-2 for details.
+Licence: GPLv2 or later. Some build scripts use the New BSD (3-clause) licence. See GPL-2 for details.
 
 --------------------------------------------------------------------------
 
@@ -4368,7 +4207,7 @@ Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for det
 
 --------------------------------------------------------------------------
 
-Driver: rp2 -- Comtrol RocketPort 2 serial driver
+Driver: rp2 - Comtrol RocketPort 2 serial driver
 
 File: rp2.fw
 
@@ -4487,19 +4326,7 @@ Licence: Redistributable. See LICENCE.cw1200 for details.
 
 File: sdd_sagrad_1091_1098.bin
 
-License:
-  Copyright (c) 2011-2013 Sagrad, Inc.
-
-  This SDD ("Static Dynamic Data") file is licensed strictly for use with
-  the Sagrad WiFi modules (such as the SG901-1091/1098) that utilize the
-  cw1200 driver. There is no warranty expressed or implied about its
-  fitness for any purpose.
-
-  Permission is hereby granted for the distribution of this SDD file as
-  part of Linux or other Open Source operating system kernel in text or
-  binary form as required.
-
-  (Please note that the actual device firmware is separately licensed)
+License: Redistributable. See LICENCE.cw1200-sdd for details
 
 --------------------------------------------------------------------------
 
@@ -4549,7 +4376,7 @@ Licence: Redistributable. See LICENCE.qat_firmware for details
 
 --------------------------------------------------------------------------
 
-Driver: rsi -- Redpine Signals Inc 91x driver
+Driver: rsi - Redpine Signals Inc 91x driver
 
 File: rsi_91x.fw
 
@@ -4579,7 +4406,7 @@ Licence:
 
 --------------------------------------------------------------------------
 
-Driver: xhci-rcar -- Renesas R-Car Gen2/3 USB 3.0 host controller driver
+Driver: xhci-rcar - Renesas R-Car Gen2/3 USB 3.0 host controller driver
 
 File: r8a779x_usb3_v1.dlmem
 File: r8a779x_usb3_v2.dlmem
@@ -4606,7 +4433,7 @@ License: Redistributable. See LICENCE.Abilis for details
 
 --------------------------------------------------------------------------
 
-Driver: it9135 -- ITEtech IT913x DVB-T USB driver
+Driver: it9135 - ITEtech IT913x DVB-T USB driver
 
 File: dvb-usb-it9135-01.fw
 File: dvb-usb-it9135-02.fw
@@ -4615,7 +4442,7 @@ Licence: Redistributable. See LICENCE.it913x for details
 
 --------------------------------------------------------------------------
 
-Driver: snd_soc_catpt -- Intel AudioDSP driver for HSW/BDW platforms
+Driver: snd_soc_catpt - Intel AudioDSP driver for HSW/BDW platforms
 
 File: intel/catpt/bdw/dsp_basefw.bin
 Version: 44b81c4d5397a63108356f58f036953d9b288c4e
@@ -4625,7 +4452,7 @@ License: Redistributable. See LICENCE.IntcSST2 for details
 
 --------------------------------------------------------------------------
 
-Driver: snd_soc_avs -- Intel AudioDSP driver for cAVS platforms
+Driver: snd_soc_avs - Intel AudioDSP driver for cAVS platforms
 
 File: intel/avs/skl/dsp_basefw.bin
 File: intel/avs/skl/dsp_mod_7CAD0808-AB10-CD23-EF45-12AB34CD56EF.bin
@@ -4753,7 +4580,7 @@ Licence: Redistributable. See LICENCE.siano for details
 
 --------------------------------------------------------------------------
 
-Driver: xhci-tegra -- NVIDIA Tegra XHCI driver
+Driver: xhci-tegra - NVIDIA Tegra XHCI driver
 
 File: nvidia/tegra124/xusb.bin
 Version: v45.46
@@ -4771,7 +4598,7 @@ Licence: Redistributable. See LICENCE.nvidia for details
 
 --------------------------------------------------------------------------
 
-Driver: tegra-vic -- NVIDIA Tegra VIC driver
+Driver: tegra-vic - NVIDIA Tegra VIC driver
 
 File: nvidia/tegra124/vic03_ucode.bin
 Link: nvidia/tegra124/vic.bin -> vic03_ucode.bin
@@ -4839,7 +4666,7 @@ File: qca/QCA2066/rampatch_usb_00130201.bin
 Version: BTFW.HSP.2.1.0-00653-VER_PATCHZ-3
 File: qca/QCA2066/nvm_usb_00130201_030a.bin
 File: qca/QCA2066/nvm_usb_00130201_gf_030a.bin
-Version: BTFW.HAMILTON.2.0.0-00790-USB_PATCHZ-3
+Version: BTFW.HAMILTON.2.0.0-00799-USB_PATCHZ-5
 File: qca/nvm_usb_00190200.bin
 File: qca/nvm_usb_00190200_0104.bin
 File: qca/nvm_usb_00190200_0106.bin
@@ -5008,7 +4835,7 @@ Licence: Redistributable. See LICENSE.qcom and qca/NOTICE.txt for details
 
 -------------------------------------------------------------------------
 
-Driver: liquidio -- Cavium LiquidIO driver
+Driver: liquidio - Cavium LiquidIO driver
 
 File: liquidio/lio_23xx_nic.bin
 Version: v1.7.2
@@ -5026,7 +4853,7 @@ Licence: Redistributable. See LICENCE.cavium_liquidio for details
 
 --------------------------------------------------------------------------
 
-Driver: nitrox -- Cavium CNN55XX crypto driver
+Driver: nitrox - Cavium CNN55XX crypto driver
 
 File: cavium/cnn55xx_ae.fw
 Version: v01
@@ -5038,7 +4865,7 @@ Licence: Redistributable. See LICENCE.cavium for details
 
 --------------------------------------------------------------------------
 
-Driver: i915 -- Intel Graphics driver
+Driver: i915 - Intel Graphics driver
 
 File: i915/skl_dmc_ver1_23.bin
 File: i915/skl_dmc_ver1_26.bin
@@ -5415,7 +5242,7 @@ Version: DMC API/APB ver 2 release 23 for Xe3LPD
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
 
-Driver: xe -- Intel Graphics driver
+Driver: xe - Intel Graphics driver
 
 File: xe/lnl_gsc_1.bin
 Version: GSC API/APB v1.0, release 104.0.5.1429, SVN 1 for Lunarlake
@@ -6198,9 +6025,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20241106151007a
+Version: 20250523110946a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20241106150855
+Version: 20250523110807
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6209,7 +6036,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20241106151414
+Version: 20250523111333
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6218,9 +6045,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 Wireless MACs
 
 File: mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
-Version: 20241106163228a
+Version: 20250523103150a
 File: mediatek/WIFI_RAM_CODE_MT7922_1.bin
-Version: 20241106163156
+Version: 20250523103106
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6229,7 +6056,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin
-Version: 20241106163512
+Version: 20250523103438
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6467,6 +6294,10 @@ Link: qcom/venus-5.4/venus.mdt -> venus.mbn
 
 Version: VIDEO.VE.5.4-00059-PROD-1
 
+File: qcom/venus-5.4/venus_s2.mbn
+
+Version: VIDEO.VE.5.4-00060-PROD-1
+
 File: qcom/venus-6.0/venus.mbn
 
 Version: VIDEO.VE.6.0-00049-PROD-1
@@ -6493,7 +6324,7 @@ Driver: iris - Qualcomm Iris video codec accelerator
 
 File: qcom/vpu/vpu30_p4.mbn
 
-Version: VIDEO.VPU.3.1-0076
+Version: VIDEO.VPU.3.1-0092
 
 File: qcom/vpu/vpu30_p4_s6.mbn
 
@@ -6562,6 +6393,9 @@ File: qcom/sa8775p/a663_zap.mbn
 File: qcom/qcs615/a612_zap.mbn
 File: qcom/a623_gmu.bin
 File: qcom/qcs8300/a623_zap.mbn
+File: qcom/gen71500_gmu.bin
+File: qcom/gen71500_sqe.fw
+File: qcom/x1p42100/gen71500_zap.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -6959,7 +6793,7 @@ License: Redistributable. See LICENSE.ice_enhanced for details
 
 --------------------------------------------------------------------------
 
-Driver: inside-secure -- Inside Secure EIP197 crypto driver
+Driver: inside-secure - Inside Secure EIP197 crypto driver
 
 File: inside-secure/eip197_minifw/ipue.bin
 File: inside-secure/eip197_minifw/ifpp.bin
@@ -7756,6 +7590,9 @@ Link: cirrus/cs35l41-dsp1-spk-prot-10433d88-spkid0-l0.bincfg -> cs35l41/bincfgs/
 Link: cirrus/cs35l41-dsp1-spk-prot-10433d88-spkid0-r0.bincfg -> cs35l41/bincfgs/cs35l41-dsp1-14_5dB.bincfg
 Link: cirrus/cs35l41-dsp1-spk-prot-10433d88-spkid1-l0.bincfg -> cs35l41/bincfgs/cs35l41-dsp1-14_5dB.bincfg
 Link: cirrus/cs35l41-dsp1-spk-prot-10433d88-spkid1-r0.bincfg -> cs35l41/bincfgs/cs35l41-dsp1-14_5dB.bincfg
+Link: cirrus/cs35l41-dsp1-spk-prot-104388f4.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-104388f4-spkid0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-104388f4-spkid1.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-17aa2316.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-17aa2317.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 File: cirrus/cs35l41-dsp1-spk-prot-17aa2316-spkid0-l0.bin
@@ -8647,7 +8484,7 @@ License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 --------------------------------------------------------------------------
 
-Driver: intel_vpu -- Intel NPU driver
+Driver: intel_vpu - Intel NPU driver
 
 File: intel/vpu/vpu_37xx_v1.bin
 Version: ci_tag_ud202518_vpu_rc_20250415_1900
