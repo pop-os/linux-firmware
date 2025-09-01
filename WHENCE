@@ -672,494 +672,676 @@ Originates from https://github.com/NXP/mwifiex-firmware.git
 
 Driver: iwlwifi - Intel Wireless Wifi
 
-File: iwlwifi-3945-2.ucode
+File: intel/iwlwifi/iwlwifi-3945-2.ucode
+Link: iwlwifi-3945-2.ucode -> intel/iwlwifi/iwlwifi-3945-2.ucode
 Version: 15.32.2.9
 
-File: iwlwifi-4965-2.ucode
+File: intel/iwlwifi/iwlwifi-4965-2.ucode
+Link: iwlwifi-4965-2.ucode -> intel/iwlwifi/iwlwifi-4965-2.ucode
 Version: 228.61.2.24
 
-File: iwlwifi-5000-5.ucode
+File: intel/iwlwifi/iwlwifi-5000-5.ucode
+Link: iwlwifi-5000-5.ucode -> intel/iwlwifi/iwlwifi-5000-5.ucode
 Version: 8.83.5.1
 
-File: iwlwifi-5150-2.ucode
+File: intel/iwlwifi/iwlwifi-5150-2.ucode
+Link: iwlwifi-5150-2.ucode -> intel/iwlwifi/iwlwifi-5150-2.ucode
 Version: 8.24.2.2
 
-File: iwlwifi-1000-5.ucode
+File: intel/iwlwifi/iwlwifi-1000-5.ucode
+Link: iwlwifi-1000-5.ucode -> intel/iwlwifi/iwlwifi-1000-5.ucode
 Version: 39.31.5.1
 
-File: iwlwifi-6000-4.ucode
+File: intel/iwlwifi/iwlwifi-6000-4.ucode
+Link: iwlwifi-6000-4.ucode -> intel/iwlwifi/iwlwifi-6000-4.ucode
 Version: 9.221.4.1
 
-File: iwlwifi-6050-5.ucode
+File: intel/iwlwifi/iwlwifi-6050-5.ucode
+Link: iwlwifi-6050-5.ucode -> intel/iwlwifi/iwlwifi-6050-5.ucode
 Version: 41.28.5.1
 
-File: iwlwifi-6000g2a-6.ucode
+File: intel/iwlwifi/iwlwifi-6000g2a-6.ucode
+Link: iwlwifi-6000g2a-6.ucode -> intel/iwlwifi/iwlwifi-6000g2a-6.ucode
 Version: 18.168.6.1
 
-File: iwlwifi-6000g2b-6.ucode
+File: intel/iwlwifi/iwlwifi-6000g2b-6.ucode
+Link: iwlwifi-6000g2b-6.ucode -> intel/iwlwifi/iwlwifi-6000g2b-6.ucode
 Version: 18.168.6.1
 
-File: iwlwifi-135-6.ucode
+File: intel/iwlwifi/iwlwifi-135-6.ucode
+Link: iwlwifi-135-6.ucode -> intel/iwlwifi/iwlwifi-135-6.ucode
 Version: 18.168.6.1
 
-File: iwlwifi-100-5.ucode
+File: intel/iwlwifi/iwlwifi-100-5.ucode
+Link: iwlwifi-100-5.ucode -> intel/iwlwifi/iwlwifi-100-5.ucode
 Version: 39.31.5.1
 
-File: iwlwifi-105-6.ucode
+File: intel/iwlwifi/iwlwifi-105-6.ucode
+Link: iwlwifi-105-6.ucode -> intel/iwlwifi/iwlwifi-105-6.ucode
 Version: 18.168.6.1
 
-File: iwlwifi-2030-6.ucode
+File: intel/iwlwifi/iwlwifi-2030-6.ucode
+Link: iwlwifi-2030-6.ucode -> intel/iwlwifi/iwlwifi-2030-6.ucode
 Version: 18.168.6.1
 
-File: iwlwifi-2000-6.ucode
+File: intel/iwlwifi/iwlwifi-2000-6.ucode
+Link: iwlwifi-2000-6.ucode -> intel/iwlwifi/iwlwifi-2000-6.ucode
 Version: 18.168.6.1
 
-File: iwlwifi-7260-17.ucode
+File: intel/iwlwifi/iwlwifi-7260-17.ucode
+Link: iwlwifi-7260-17.ucode -> intel/iwlwifi/iwlwifi-7260-17.ucode
 Version: 17.bfb58538.0
 
-File: iwlwifi-3160-17.ucode
+File: intel/iwlwifi/iwlwifi-3160-17.ucode
+Link: iwlwifi-3160-17.ucode -> intel/iwlwifi/iwlwifi-3160-17.ucode
 Version: 17.bfb58538.0
 
-File: iwlwifi-7265-17.ucode
+File: intel/iwlwifi/iwlwifi-7265-17.ucode
+Link: iwlwifi-7265-17.ucode -> intel/iwlwifi/iwlwifi-7265-17.ucode
 Version: 17.bfb58538.0
 
-File: iwlwifi-7265D-29.ucode
+File: intel/iwlwifi/iwlwifi-7265D-29.ucode
+Link: iwlwifi-7265D-29.ucode -> intel/iwlwifi/iwlwifi-7265D-29.ucode
 Version: 29.9ef079ed.0
 
-File: iwlwifi-3168-29.ucode
+File: intel/iwlwifi/iwlwifi-3168-29.ucode
+Link: iwlwifi-3168-29.ucode -> intel/iwlwifi/iwlwifi-3168-29.ucode
 Version: 29.0bd893f3.0
 
-File: iwlwifi-8000C-34.ucode
+File: intel/iwlwifi/iwlwifi-8000C-34.ucode
+Link: iwlwifi-8000C-34.ucode -> intel/iwlwifi/iwlwifi-8000C-34.ucode
 Version: 34.610288.0
 
-File: iwlwifi-8000C-36.ucode
+File: intel/iwlwifi/iwlwifi-8000C-36.ucode
+Link: iwlwifi-8000C-36.ucode -> intel/iwlwifi/iwlwifi-8000C-36.ucode
 Version: 36.c8e8e144.0
 
-File: iwlwifi-8265-34.ucode
+File: intel/iwlwifi/iwlwifi-8265-34.ucode
+Link: iwlwifi-8265-34.ucode -> intel/iwlwifi/iwlwifi-8265-34.ucode
 Version: 34.610288.0
 
-File: iwlwifi-8265-36.ucode
+File: intel/iwlwifi/iwlwifi-8265-36.ucode
+Link: iwlwifi-8265-36.ucode -> intel/iwlwifi/iwlwifi-8265-36.ucode
 Version: 36.c8e8e144.0
 
-File: iwlwifi-9000-pu-b0-jf-b0-34.ucode
+File: intel/iwlwifi/iwlwifi-9000-pu-b0-jf-b0-34.ucode
+Link: iwlwifi-9000-pu-b0-jf-b0-34.ucode -> intel/iwlwifi/iwlwifi-9000-pu-b0-jf-b0-34.ucode
 Version: 34.ba501b11.0
 
-File: iwlwifi-9000-pu-b0-jf-b0-38.ucode
+File: intel/iwlwifi/iwlwifi-9000-pu-b0-jf-b0-38.ucode
+Link: iwlwifi-9000-pu-b0-jf-b0-38.ucode -> intel/iwlwifi/iwlwifi-9000-pu-b0-jf-b0-38.ucode
 Version: 38.755cfdd8.0
 
-File: iwlwifi-9000-pu-b0-jf-b0-46.ucode
+File: intel/iwlwifi/iwlwifi-9000-pu-b0-jf-b0-46.ucode
+Link: iwlwifi-9000-pu-b0-jf-b0-46.ucode -> intel/iwlwifi/iwlwifi-9000-pu-b0-jf-b0-46.ucode
 Version: 46.7e3e4b69.0
 
-File: iwlwifi-9260-th-b0-jf-b0-34.ucode
+File: intel/iwlwifi/iwlwifi-9260-th-b0-jf-b0-34.ucode
+Link: iwlwifi-9260-th-b0-jf-b0-34.ucode -> intel/iwlwifi/iwlwifi-9260-th-b0-jf-b0-34.ucode
 Version: 34.ba501b11.0
 
-File: iwlwifi-9260-th-b0-jf-b0-38.ucode
+File: intel/iwlwifi/iwlwifi-9260-th-b0-jf-b0-38.ucode
+Link: iwlwifi-9260-th-b0-jf-b0-38.ucode -> intel/iwlwifi/iwlwifi-9260-th-b0-jf-b0-38.ucode
 Version: 38.755cfdd8.0
 
-File: iwlwifi-9260-th-b0-jf-b0-46.ucode
+File: intel/iwlwifi/iwlwifi-9260-th-b0-jf-b0-46.ucode
+Link: iwlwifi-9260-th-b0-jf-b0-46.ucode -> intel/iwlwifi/iwlwifi-9260-th-b0-jf-b0-46.ucode
 Version: 46.7e3e4b69.0
 
-File: iwlwifi-cc-a0-50.ucode
+File: intel/iwlwifi/iwlwifi-cc-a0-50.ucode
+Link: iwlwifi-cc-a0-50.ucode -> intel/iwlwifi/iwlwifi-cc-a0-50.ucode
 Version: 50.3e391d3e.0
 
-File: iwlwifi-Qu-b0-hr-b0-50.ucode
+File: intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-50.ucode
+Link: iwlwifi-Qu-b0-hr-b0-50.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-50.ucode
 Version: 50.3e391d3e.0
 
-File: iwlwifi-Qu-b0-jf-b0-50.ucode
+File: intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-50.ucode
+Link: iwlwifi-Qu-b0-jf-b0-50.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-50.ucode
 Version: 50.3e391d3e.0
 
-File: iwlwifi-Qu-c0-hr-b0-50.ucode
+File: intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-50.ucode
+Link: iwlwifi-Qu-c0-hr-b0-50.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-50.ucode
 Version: 50.3e391d3e.0
 
-File: iwlwifi-Qu-c0-jf-b0-50.ucode
+File: intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-50.ucode
+Link: iwlwifi-Qu-c0-jf-b0-50.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-50.ucode
 Version: 50.3e391d3e.0
 
-File: iwlwifi-QuZ-a0-hr-b0-50.ucode
+File: intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-50.ucode
+Link: iwlwifi-QuZ-a0-hr-b0-50.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-50.ucode
 Version: 50.3e391d3e.0
 
-File: iwlwifi-QuZ-a0-jf-b0-50.ucode
+File: intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-50.ucode
+Link: iwlwifi-QuZ-a0-jf-b0-50.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-50.ucode
 Version: 50.3e391d3e.0
 
-File: iwlwifi-cc-a0-59.ucode
+File: intel/iwlwifi/iwlwifi-cc-a0-59.ucode
+Link: iwlwifi-cc-a0-59.ucode -> intel/iwlwifi/iwlwifi-cc-a0-59.ucode
 Version: 59.601f3a66.0
 
-File: iwlwifi-Qu-b0-hr-b0-59.ucode
+File: intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-59.ucode
+Link: iwlwifi-Qu-b0-hr-b0-59.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-59.ucode
 Version: 59.601f3a66.0
 
-File: iwlwifi-Qu-b0-jf-b0-59.ucode
+File: intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-59.ucode
+Link: iwlwifi-Qu-b0-jf-b0-59.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-59.ucode
 Version: 59.601f3a66.0
 
-File: iwlwifi-Qu-c0-hr-b0-59.ucode
+File: intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-59.ucode
+Link: iwlwifi-Qu-c0-hr-b0-59.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-59.ucode
 Version: 59.601f3a66.0
 
-File: iwlwifi-Qu-c0-jf-b0-59.ucode
+File: intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-59.ucode
+Link: iwlwifi-Qu-c0-jf-b0-59.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-59.ucode
 Version: 59.601f3a66.0
 
-File: iwlwifi-QuZ-a0-hr-b0-59.ucode
+File: intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-59.ucode
+Link: iwlwifi-QuZ-a0-hr-b0-59.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-59.ucode
 Version: 59.601f3a66.0
 
-File: iwlwifi-QuZ-a0-jf-b0-59.ucode
+File: intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-59.ucode
+Link: iwlwifi-QuZ-a0-jf-b0-59.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-59.ucode
 Version: 59.601f3a66.0
 
-File: iwlwifi-so-a0-gf-a0.pnvm
+File: intel/iwlwifi/iwlwifi-so-a0-gf-a0.pnvm
+Link: iwlwifi-so-a0-gf-a0.pnvm -> intel/iwlwifi/iwlwifi-so-a0-gf-a0.pnvm
 
-File: iwlwifi-so-a0-gf4-a0.pnvm
+File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0.pnvm
+Link: iwlwifi-so-a0-gf4-a0.pnvm -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0.pnvm
 
-File: iwlwifi-ty-a0-gf-a0-59.ucode
+File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-59.ucode
+Link: iwlwifi-ty-a0-gf-a0-59.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-59.ucode
 Version: 59.601f3a66.0
 
-File: iwlwifi-cc-a0-66.ucode
+File: intel/iwlwifi/iwlwifi-cc-a0-66.ucode
+Link: iwlwifi-cc-a0-66.ucode -> intel/iwlwifi/iwlwifi-cc-a0-66.ucode
 Version: 66.f1c864e0.0
 
-File: iwlwifi-Qu-b0-hr-b0-66.ucode
+File: intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-66.ucode
+Link: iwlwifi-Qu-b0-hr-b0-66.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-66.ucode
 Version: 66.f1c864e0.0
 
-File: iwlwifi-Qu-b0-jf-b0-66.ucode
+File: intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-66.ucode
+Link: iwlwifi-Qu-b0-jf-b0-66.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-66.ucode
 Version: 66.f1c864e0.0
 
-File: iwlwifi-Qu-c0-hr-b0-66.ucode
+File: intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-66.ucode
+Link: iwlwifi-Qu-c0-hr-b0-66.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-66.ucode
 Version: 66.f1c864e0.0
 
-File: iwlwifi-Qu-c0-jf-b0-66.ucode
+File: intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-66.ucode
+Link: iwlwifi-Qu-c0-jf-b0-66.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-66.ucode
 Version: 66.f1c864e0.0
 
-File: iwlwifi-QuZ-a0-hr-b0-66.ucode
+File: intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-66.ucode
+Link: iwlwifi-QuZ-a0-hr-b0-66.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-66.ucode
 Version: 66.f1c864e0.0
 
-File: iwlwifi-QuZ-a0-jf-b0-66.ucode
+File: intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-66.ucode
+Link: iwlwifi-QuZ-a0-jf-b0-66.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-66.ucode
 Version: 66.f1c864e0.0
 
-File: iwlwifi-ty-a0-gf-a0-66.ucode
+File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-66.ucode
+Link: iwlwifi-ty-a0-gf-a0-66.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-66.ucode
 Version: 66.f1c864e0.0
 
-File: iwlwifi-cc-a0-72.ucode
+File: intel/iwlwifi/iwlwifi-cc-a0-72.ucode
+Link: iwlwifi-cc-a0-72.ucode -> intel/iwlwifi/iwlwifi-cc-a0-72.ucode
 Version: 72.daa05125.0
 
-File: iwlwifi-Qu-b0-hr-b0-72.ucode
+File: intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-72.ucode
+Link: iwlwifi-Qu-b0-hr-b0-72.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-72.ucode
 Version: 72.daa05125.0
 
-File: iwlwifi-Qu-b0-jf-b0-72.ucode
+File: intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-72.ucode
+Link: iwlwifi-Qu-b0-jf-b0-72.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-72.ucode
 Version: 72.daa05125.0
 
-File: iwlwifi-Qu-c0-hr-b0-72.ucode
+File: intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-72.ucode
+Link: iwlwifi-Qu-c0-hr-b0-72.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-72.ucode
 Version: 72.daa05125.0
 
-File: iwlwifi-Qu-c0-jf-b0-72.ucode
+File: intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-72.ucode
+Link: iwlwifi-Qu-c0-jf-b0-72.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-72.ucode
 Version: 72.daa05125.0
 
-File: iwlwifi-QuZ-a0-hr-b0-72.ucode
+File: intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-72.ucode
+Link: iwlwifi-QuZ-a0-hr-b0-72.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-72.ucode
 Version: 72.daa05125.0
 
-File: iwlwifi-QuZ-a0-jf-b0-72.ucode
+File: intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-72.ucode
+Link: iwlwifi-QuZ-a0-jf-b0-72.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-72.ucode
 Version: 72.daa05125.0
 
-File: iwlwifi-ty-a0-gf-a0-72.ucode
+File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-72.ucode
+Link: iwlwifi-ty-a0-gf-a0-72.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-72.ucode
 Version: 72.a764baac.0
 
-File: iwlwifi-so-a0-gf4-a0-72.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0-72.ucode
+Link: iwlwifi-so-a0-gf4-a0-72.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0-72.ucode
 Version: 72.a764baac.0
 
-File: iwlwifi-so-a0-gf-a0-72.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf-a0-72.ucode
+Link: iwlwifi-so-a0-gf-a0-72.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf-a0-72.ucode
 Version: 72.a764baac.0
 
-File: iwlwifi-so-a0-hr-b0-72.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-hr-b0-72.ucode
+Link: iwlwifi-so-a0-hr-b0-72.ucode -> intel/iwlwifi/iwlwifi-so-a0-hr-b0-72.ucode
 Version: 72.daa05125.0
 
-File: iwlwifi-so-a0-jf-b0-72.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-jf-b0-72.ucode
+Link: iwlwifi-so-a0-jf-b0-72.ucode -> intel/iwlwifi/iwlwifi-so-a0-jf-b0-72.ucode
 Version: 72.daa05125.0
 
-File: iwlwifi-cc-a0-73.ucode
+File: intel/iwlwifi/iwlwifi-cc-a0-73.ucode
+Link: iwlwifi-cc-a0-73.ucode -> intel/iwlwifi/iwlwifi-cc-a0-73.ucode
 Version: 73.35c0a2c6.0
 
-File: iwlwifi-Qu-b0-hr-b0-73.ucode
+File: intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-73.ucode
+Link: iwlwifi-Qu-b0-hr-b0-73.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-73.ucode
 Version: 73.35c0a2c6.0
 
-File: iwlwifi-Qu-b0-jf-b0-73.ucode
+File: intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-73.ucode
+Link: iwlwifi-Qu-b0-jf-b0-73.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-73.ucode
 Version: 73.35c0a2c6.0
 
-File: iwlwifi-Qu-c0-hr-b0-73.ucode
+File: intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-73.ucode
+Link: iwlwifi-Qu-c0-hr-b0-73.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-73.ucode
 Version: 73.35c0a2c6.0
 
-File: iwlwifi-Qu-c0-jf-b0-73.ucode
+File: intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-73.ucode
+Link: iwlwifi-Qu-c0-jf-b0-73.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-73.ucode
 Version: 73.35c0a2c6.0
 
-File: iwlwifi-QuZ-a0-hr-b0-73.ucode
+File: intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-73.ucode
+Link: iwlwifi-QuZ-a0-hr-b0-73.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-73.ucode
 Version: 73.35c0a2c6.0
 
-File: iwlwifi-QuZ-a0-jf-b0-73.ucode
+File: intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-73.ucode
+Link: iwlwifi-QuZ-a0-jf-b0-73.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-73.ucode
 Version: 73.35c0a2c6.0
 
-File: iwlwifi-ty-a0-gf-a0-73.ucode
+File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-73.ucode
+Link: iwlwifi-ty-a0-gf-a0-73.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-73.ucode
 Version: 73.35c0a2c6.0
 
-File: iwlwifi-so-a0-gf4-a0-73.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0-73.ucode
+Link: iwlwifi-so-a0-gf4-a0-73.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0-73.ucode
 Version: 73.35c0a2c6.0
 
-File: iwlwifi-so-a0-gf-a0-73.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf-a0-73.ucode
+Link: iwlwifi-so-a0-gf-a0-73.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf-a0-73.ucode
 Version: 73.35c0a2c6.0
 
-File: iwlwifi-so-a0-hr-b0-73.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-hr-b0-73.ucode
+Link: iwlwifi-so-a0-hr-b0-73.ucode -> intel/iwlwifi/iwlwifi-so-a0-hr-b0-73.ucode
 Version: 73.35c0a2c6.0
 
-File: iwlwifi-so-a0-jf-b0-73.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-jf-b0-73.ucode
+Link: iwlwifi-so-a0-jf-b0-73.ucode -> intel/iwlwifi/iwlwifi-so-a0-jf-b0-73.ucode
 Version: 73.35c0a2c6.0
 
-File: iwlwifi-cc-a0-74.ucode
+File: intel/iwlwifi/iwlwifi-cc-a0-74.ucode
+Link: iwlwifi-cc-a0-74.ucode -> intel/iwlwifi/iwlwifi-cc-a0-74.ucode
 Version: 74.a5e9588b.0
 
-File: iwlwifi-Qu-b0-hr-b0-74.ucode
+File: intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-74.ucode
+Link: iwlwifi-Qu-b0-hr-b0-74.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-74.ucode
 Version: 74.a5e9588b.0
 
-File: iwlwifi-Qu-b0-jf-b0-74.ucode
+File: intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-74.ucode
+Link: iwlwifi-Qu-b0-jf-b0-74.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-74.ucode
 Version: 74.a5e9588b.0
 
-File: iwlwifi-Qu-c0-hr-b0-74.ucode
+File: intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-74.ucode
+Link: iwlwifi-Qu-c0-hr-b0-74.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-74.ucode
 Version: 74.a5e9588b.0
 
-File: iwlwifi-Qu-c0-jf-b0-74.ucode
+File: intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-74.ucode
+Link: iwlwifi-Qu-c0-jf-b0-74.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-74.ucode
 Version: 74.a5e9588b.0
 
-File: iwlwifi-QuZ-a0-hr-b0-74.ucode
+File: intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-74.ucode
+Link: iwlwifi-QuZ-a0-hr-b0-74.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-74.ucode
 Version: 74.a5e9588b.0
 
-File: iwlwifi-QuZ-a0-jf-b0-74.ucode
+File: intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-74.ucode
+Link: iwlwifi-QuZ-a0-jf-b0-74.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-74.ucode
 Version: 74.a5e9588b.0
 
-File: iwlwifi-ty-a0-gf-a0-74.ucode
+File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-74.ucode
+Link: iwlwifi-ty-a0-gf-a0-74.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-74.ucode
 Version: 74.fe17486e.0
 
-File: iwlwifi-so-a0-gf4-a0-74.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0-74.ucode
+Link: iwlwifi-so-a0-gf4-a0-74.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0-74.ucode
 Version: 74.fe17486e.0
 
-File: iwlwifi-so-a0-gf-a0-74.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf-a0-74.ucode
+Link: iwlwifi-so-a0-gf-a0-74.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf-a0-74.ucode
 Version: 74.fe17486e.0
 
-File: iwlwifi-so-a0-hr-b0-74.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-hr-b0-74.ucode
+Link: iwlwifi-so-a0-hr-b0-74.ucode -> intel/iwlwifi/iwlwifi-so-a0-hr-b0-74.ucode
 Version: 74.a5e9588b.0
 
-File: iwlwifi-so-a0-jf-b0-74.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-jf-b0-74.ucode
+Link: iwlwifi-so-a0-jf-b0-74.ucode -> intel/iwlwifi/iwlwifi-so-a0-jf-b0-74.ucode
 Version: 74.a5e9588b.0
 
-File: iwlwifi-cc-a0-77.ucode
-Version: 74.864baa2e.0
+File: intel/iwlwifi/iwlwifi-cc-a0-77.ucode
+Link: iwlwifi-cc-a0-77.ucode -> intel/iwlwifi/iwlwifi-cc-a0-77.ucode
+Version: 74.6eaf654b.0
 
-File: iwlwifi-Qu-b0-hr-b0-77.ucode
-Version: 74.864baa2e.0
+File: intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-77.ucode
+Link: iwlwifi-Qu-b0-hr-b0-77.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-77.ucode
+Version: 74.6eaf654b.0
 
-File: iwlwifi-Qu-b0-jf-b0-77.ucode
-Version: 74.864baa2e.0
+File: intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-77.ucode
+Link: iwlwifi-Qu-b0-jf-b0-77.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-77.ucode
+Version: 74.6eaf654b.0
 
-File: iwlwifi-Qu-c0-hr-b0-77.ucode
-Version: 74.864baa2e.0
+File: intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-77.ucode
+Link: iwlwifi-Qu-c0-hr-b0-77.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-77.ucode
+Version: 74.6eaf654b.0
 
-File: iwlwifi-Qu-c0-jf-b0-77.ucode
-Version: 74.864baa2e.0
+File: intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-77.ucode
+Link: iwlwifi-Qu-c0-jf-b0-77.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-77.ucode
+Version: 74.6eaf654b.0
 
-File: iwlwifi-QuZ-a0-hr-b0-77.ucode
-Version: 74.864baa2e.0
+File: intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-77.ucode
+Link: iwlwifi-QuZ-a0-hr-b0-77.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-77.ucode
+Version: 74.6eaf654b.0
 
-File: iwlwifi-QuZ-a0-jf-b0-77.ucode
-Version: 74.864baa2e.0
+File: intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-77.ucode
+Link: iwlwifi-QuZ-a0-jf-b0-77.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-77.ucode
+Version: 74.6eaf654b.0
 
-File: iwlwifi-ty-a0-gf-a0-77.ucode
+File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-77.ucode
+Link: iwlwifi-ty-a0-gf-a0-77.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-77.ucode
 Version: 74.f92b5fed.0
 
-File: iwlwifi-ty-a0-gf-a0-78.ucode
+File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-78.ucode
+Link: iwlwifi-ty-a0-gf-a0-78.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-78.ucode
 Version: 75.3bfdc55f.0
 
-File: iwlwifi-ty-a0-gf-a0-79.ucode
+File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-79.ucode
+Link: iwlwifi-ty-a0-gf-a0-79.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-79.ucode
 Version: 76.27f1c37b.0
 
-File: iwlwifi-ty-a0-gf-a0-81.ucode
+File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-81.ucode
+Link: iwlwifi-ty-a0-gf-a0-81.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-81.ucode
 Version: 78.31fc9ae6.0
 
-File: iwlwifi-ty-a0-gf-a0-83.ucode
+File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-83.ucode
+Link: iwlwifi-ty-a0-gf-a0-83.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-83.ucode
 Version: 80.e8f84e98.0
 
-File: iwlwifi-ty-a0-gf-a0-84.ucode
+File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-84.ucode
+Link: iwlwifi-ty-a0-gf-a0-84.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-84.ucode
 Version: 81.8e5c544c.0
 
-File: iwlwifi-ty-a0-gf-a0-86.ucode
+File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-86.ucode
+Link: iwlwifi-ty-a0-gf-a0-86.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
-File: iwlwifi-ty-a0-gf-a0-89.ucode
-Version: 86.af655058.0
+File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-89.ucode
+Link: iwlwifi-ty-a0-gf-a0-89.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-89.ucode
+Version: 86.2e78fa67.0
 
-File: iwlwifi-so-a0-gf4-a0-77.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0-77.ucode
+Link: iwlwifi-so-a0-gf4-a0-77.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0-77.ucode
 Version: 74.f92b5fed.0
 
-File: iwlwifi-so-a0-gf4-a0-78.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0-78.ucode
+Link: iwlwifi-so-a0-gf4-a0-78.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0-78.ucode
 Version: 75.3bfdc55f.0
 
-File: iwlwifi-so-a0-gf4-a0-79.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0-79.ucode
+Link: iwlwifi-so-a0-gf4-a0-79.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0-79.ucode
 Version: 76.27f1c37b.0
 
-File: iwlwifi-so-a0-gf4-a0-81.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0-81.ucode
+Link: iwlwifi-so-a0-gf4-a0-81.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0-81.ucode
 Version: 78.31fc9ae6.0
 
-File: iwlwifi-so-a0-gf4-a0-83.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0-83.ucode
+Link: iwlwifi-so-a0-gf4-a0-83.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0-83.ucode
 Version: 80.e8f84e98.0
 
-File: iwlwifi-so-a0-gf4-a0-84.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0-84.ucode
+Link: iwlwifi-so-a0-gf4-a0-84.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0-84.ucode
 Version: 81.8e5c544c.0
 
-File: iwlwifi-so-a0-gf4-a0-86.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0-86.ucode
+Link: iwlwifi-so-a0-gf4-a0-86.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
-File: iwlwifi-so-a0-gf4-a0-89.ucode
-Version: 86.af655058.0
+File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0-89.ucode
+Link: iwlwifi-so-a0-gf4-a0-89.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0-89.ucode
+Version: 86.2e78fa67.0
 
-File: iwlwifi-so-a0-gf-a0-77.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf-a0-77.ucode
+Link: iwlwifi-so-a0-gf-a0-77.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf-a0-77.ucode
 Version: 74.f92b5fed.0
 
-File: iwlwifi-so-a0-gf-a0-78.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf-a0-78.ucode
+Link: iwlwifi-so-a0-gf-a0-78.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf-a0-78.ucode
 Version: 74.3bfdc55f.0
 
-File: iwlwifi-so-a0-gf-a0-79.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf-a0-79.ucode
+Link: iwlwifi-so-a0-gf-a0-79.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf-a0-79.ucode
 Version: 75.27f1c37b.0
 
-File: iwlwifi-so-a0-gf-a0-81.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf-a0-81.ucode
+Link: iwlwifi-so-a0-gf-a0-81.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf-a0-81.ucode
 Version: 78.31fc9ae6.0
 
-File: iwlwifi-so-a0-gf-a0-83.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf-a0-83.ucode
+Link: iwlwifi-so-a0-gf-a0-83.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf-a0-83.ucode
 Version: 80.e8f84e98.0
 
-File: iwlwifi-so-a0-gf-a0-84.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf-a0-84.ucode
+Link: iwlwifi-so-a0-gf-a0-84.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf-a0-84.ucode
 Version: 81.8e5c544c.0
 
-File: iwlwifi-so-a0-gf-a0-86.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-gf-a0-86.ucode
+Link: iwlwifi-so-a0-gf-a0-86.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
-File: iwlwifi-so-a0-gf-a0-89.ucode
-Version: 86.af655058.0
+File: intel/iwlwifi/iwlwifi-so-a0-gf-a0-89.ucode
+Link: iwlwifi-so-a0-gf-a0-89.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf-a0-89.ucode
+Version: 86.2e78fa67.0
 
-File: iwlwifi-so-a0-hr-b0-77.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-hr-b0-77.ucode
+Link: iwlwifi-so-a0-hr-b0-77.ucode -> intel/iwlwifi/iwlwifi-so-a0-hr-b0-77.ucode
 Version: 74.f92b5fed.0
 
-File: iwlwifi-so-a0-hr-b0-79.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-hr-b0-79.ucode
+Link: iwlwifi-so-a0-hr-b0-79.ucode -> intel/iwlwifi/iwlwifi-so-a0-hr-b0-79.ucode
 Version: 75.27f1c37b.0
 
-File: iwlwifi-so-a0-hr-b0-81.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-hr-b0-81.ucode
+Link: iwlwifi-so-a0-hr-b0-81.ucode -> intel/iwlwifi/iwlwifi-so-a0-hr-b0-81.ucode
 Version: 78.31fc9ae6.0
 
-File: iwlwifi-so-a0-hr-b0-83.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-hr-b0-83.ucode
+Link: iwlwifi-so-a0-hr-b0-83.ucode -> intel/iwlwifi/iwlwifi-so-a0-hr-b0-83.ucode
 Version: 80.e8f84e98.0
 
-File: iwlwifi-so-a0-hr-b0-84.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-hr-b0-84.ucode
+Link: iwlwifi-so-a0-hr-b0-84.ucode -> intel/iwlwifi/iwlwifi-so-a0-hr-b0-84.ucode
 Version: 81.8e5c544c.0
 
-File: iwlwifi-so-a0-hr-b0-86.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-hr-b0-86.ucode
+Link: iwlwifi-so-a0-hr-b0-86.ucode -> intel/iwlwifi/iwlwifi-so-a0-hr-b0-86.ucode
 Version: 83.fb5c9aeb.0
 
-File: iwlwifi-so-a0-hr-b0-89.ucode
-Version: 86.af655058.0
+File: intel/iwlwifi/iwlwifi-so-a0-hr-b0-89.ucode
+Link: iwlwifi-so-a0-hr-b0-89.ucode -> intel/iwlwifi/iwlwifi-so-a0-hr-b0-89.ucode
+Version: 86.2e78fa67.0
 
-File: iwlwifi-so-a0-jf-b0-77.ucode
+File: intel/iwlwifi/iwlwifi-so-a0-jf-b0-77.ucode
+Link: iwlwifi-so-a0-jf-b0-77.ucode -> intel/iwlwifi/iwlwifi-so-a0-jf-b0-77.ucode
 Version: 74.f92b5fed.0
 
-File: iwlwifi-ty-a0-gf-a0.pnvm
+File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0.pnvm
+Link: iwlwifi-ty-a0-gf-a0.pnvm -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0.pnvm
 
-File: iwlwifi-bz-b0-hr-b0-96.ucode
+File: intel/iwlwifi/iwlwifi-bz-b0-hr-b0-96.ucode
+Link: iwlwifi-bz-b0-hr-b0-96.ucode -> intel/iwlwifi/iwlwifi-bz-b0-hr-b0-96.ucode
 Version: 93.44729d4e.0
 
-File: iwlwifi-bz-b0-hr-b0-98.ucode
+File: intel/iwlwifi/iwlwifi-bz-b0-hr-b0-98.ucode
+Link: iwlwifi-bz-b0-hr-b0-98.ucode -> intel/iwlwifi/iwlwifi-bz-b0-hr-b0-98.ucode
 Version: 95.d661c37c.0
 
-File: iwlwifi-bz-b0-hr-b0.pnvm
+File: intel/iwlwifi/iwlwifi-bz-b0-hr-b0-100.ucode
+Link: iwlwifi-bz-b0-hr-b0-100.ucode -> intel/iwlwifi/iwlwifi-bz-b0-hr-b0-100.ucode
+Version: 97.09e46595.0
 
-File: iwlwifi-bz-b0-gf-a0-92.ucode
+File: intel/iwlwifi/iwlwifi-bz-b0-hr-b0.pnvm
+Link: iwlwifi-bz-b0-hr-b0.pnvm -> intel/iwlwifi/iwlwifi-bz-b0-hr-b0.pnvm
+
+File: intel/iwlwifi/iwlwifi-bz-b0-gf-a0-92.ucode
+Link: iwlwifi-bz-b0-gf-a0-92.ucode -> intel/iwlwifi/iwlwifi-bz-b0-gf-a0-92.ucode
 Version: 89.7541f516.0
 
-File: iwlwifi-bz-b0-gf-a0-94.ucode
+File: intel/iwlwifi/iwlwifi-bz-b0-gf-a0-94.ucode
+Link: iwlwifi-bz-b0-gf-a0-94.ucode -> intel/iwlwifi/iwlwifi-bz-b0-gf-a0-94.ucode
 Version: 91.62990553.0
 
-File: iwlwifi-bz-b0-gf-a0-96.ucode
+File: intel/iwlwifi/iwlwifi-bz-b0-gf-a0-96.ucode
+Link: iwlwifi-bz-b0-gf-a0-96.ucode -> intel/iwlwifi/iwlwifi-bz-b0-gf-a0-96.ucode
 Version: 93.44729d4e.0
 
-File: iwlwifi-bz-b0-gf-a0-97.ucode
+File: intel/iwlwifi/iwlwifi-bz-b0-gf-a0-97.ucode
+Link: iwlwifi-bz-b0-gf-a0-97.ucode -> intel/iwlwifi/iwlwifi-bz-b0-gf-a0-97.ucode
 Version: 94.8049d69b.0
 
-File: iwlwifi-bz-b0-gf-a0-98.ucode
+File: intel/iwlwifi/iwlwifi-bz-b0-gf-a0-98.ucode
+Link: iwlwifi-bz-b0-gf-a0-98.ucode -> intel/iwlwifi/iwlwifi-bz-b0-gf-a0-98.ucode
 Version: 95.d661c37c.0
 
-File: iwlwifi-bz-b0-gf-a0.pnvm
+File: intel/iwlwifi/iwlwifi-bz-b0-gf-a0-100.ucode
+Link: iwlwifi-bz-b0-gf-a0-100.ucode -> intel/iwlwifi/iwlwifi-bz-b0-gf-a0-100.ucode
+Version: 97.09e46595.0
 
-File: iwlwifi-gl-c0-fm-c0-83.ucode
+File: intel/iwlwifi/iwlwifi-bz-b0-gf-a0.pnvm
+Link: iwlwifi-bz-b0-gf-a0.pnvm -> intel/iwlwifi/iwlwifi-bz-b0-gf-a0.pnvm
+
+File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-83.ucode
+Link: iwlwifi-gl-c0-fm-c0-83.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-83.ucode
 Version: 80.ec13314b.0
 
-File: iwlwifi-gl-c0-fm-c0-86.ucode
+File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-86.ucode
+Link: iwlwifi-gl-c0-fm-c0-86.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-86.ucode
 Version: 83.fb5c9aeb.0
 
-File: iwlwifi-gl-c0-fm-c0-90.ucode
+File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-90.ucode
+Link: iwlwifi-gl-c0-fm-c0-90.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-90.ucode
 Version: 87.38c93dbc.0
 
-File: iwlwifi-gl-c0-fm-c0-92.ucode
+File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-92.ucode
+Link: iwlwifi-gl-c0-fm-c0-92.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-92.ucode
 Version: 89.67ce4588.0
 
-File: iwlwifi-gl-c0-fm-c0-94.ucode
+File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-94.ucode
+Link: iwlwifi-gl-c0-fm-c0-94.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-94.ucode
 Version: 91.62990553.0
 
-File: iwlwifi-gl-c0-fm-c0-96.ucode
+File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-96.ucode
+Link: iwlwifi-gl-c0-fm-c0-96.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-96.ucode
 Version: 93.44729d4e.0
 
-File: iwlwifi-gl-c0-fm-c0-97.ucode
+File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-97.ucode
+Link: iwlwifi-gl-c0-fm-c0-97.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-97.ucode
 Version: 94.8049d69b.0
 
-File: iwlwifi-gl-c0-fm-c0-98.ucode
+File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-98.ucode
+Link: iwlwifi-gl-c0-fm-c0-98.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-98.ucode
 Version: 95.d661c37c.0
 
-File: iwlwifi-gl-c0-fm-c0.pnvm
+File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-100.ucode
+Link: iwlwifi-gl-c0-fm-c0-100.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-100.ucode
+Version: 97.3f3ef548.0
 
-File: iwlwifi-bz-b0-fm-c0-92.ucode
+File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0.pnvm
+Link: iwlwifi-gl-c0-fm-c0.pnvm -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0.pnvm
+
+File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-92.ucode
+Link: iwlwifi-bz-b0-fm-c0-92.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-92.ucode
 Version: 89.67ce4588.0
 
-File: iwlwifi-bz-b0-fm-c0-93.ucode
+File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-93.ucode
+Link: iwlwifi-bz-b0-fm-c0-93.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-93.ucode
 Version: 90.26a2cb89.0
 
-File: iwlwifi-bz-b0-fm-c0-94.ucode
+File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-94.ucode
+Link: iwlwifi-bz-b0-fm-c0-94.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-94.ucode
 Version: 91.62990553.0
 
-File: iwlwifi-bz-b0-fm-c0-96.ucode
+File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-96.ucode
+Link: iwlwifi-bz-b0-fm-c0-96.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-96.ucode
 Version: 93.44729d4e.0
 
-File: iwlwifi-bz-b0-fm-c0-97.ucode
+File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-97.ucode
+Link: iwlwifi-bz-b0-fm-c0-97.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-97.ucode
 Version: 94.8049d69b.0
 
-File: iwlwifi-bz-b0-fm-c0-98.ucode
+File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-98.ucode
+Link: iwlwifi-bz-b0-fm-c0-98.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-98.ucode
 Version: 95.d661c37c.0
 
-File: iwlwifi-bz-b0-fm-c0.pnvm
+File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-100.ucode
+Link: iwlwifi-bz-b0-fm-c0-100.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-100.ucode
+Version: 97.3f3ef548.0
 
-File: iwlwifi-ma-b0-gf-a0-83.ucode
+File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0.pnvm
+Link: iwlwifi-bz-b0-fm-c0.pnvm -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0.pnvm
+
+File: intel/iwlwifi/iwlwifi-ma-b0-gf-a0-83.ucode
+Link: iwlwifi-ma-b0-gf-a0-83.ucode -> intel/iwlwifi/iwlwifi-ma-b0-gf-a0-83.ucode
 Version: 80.d24e06ed.0
 
-File: iwlwifi-ma-b0-gf-a0-86.ucode
+File: intel/iwlwifi/iwlwifi-ma-b0-gf-a0-86.ucode
+Link: iwlwifi-ma-b0-gf-a0-86.ucode -> intel/iwlwifi/iwlwifi-ma-b0-gf-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
-File: iwlwifi-ma-b0-gf-a0-89.ucode
-Version: 86.af655058.0
+File: intel/iwlwifi/iwlwifi-ma-b0-gf-a0-89.ucode
+Link: iwlwifi-ma-b0-gf-a0-89.ucode -> intel/iwlwifi/iwlwifi-ma-b0-gf-a0-89.ucode
+Version: 86.2e78fa67.0
 
-File: iwlwifi-ma-b0-gf-a0.pnvm
+File: intel/iwlwifi/iwlwifi-ma-b0-gf-a0.pnvm
+Link: iwlwifi-ma-b0-gf-a0.pnvm -> intel/iwlwifi/iwlwifi-ma-b0-gf-a0.pnvm
 
-File: iwlwifi-ma-b0-gf4-a0-83.ucode
+File: intel/iwlwifi/iwlwifi-ma-b0-gf4-a0-83.ucode
+Link: iwlwifi-ma-b0-gf4-a0-83.ucode -> intel/iwlwifi/iwlwifi-ma-b0-gf4-a0-83.ucode
 Version: 80.d24e06ed.0
 
-File: iwlwifi-ma-b0-gf4-a0-86.ucode
+File: intel/iwlwifi/iwlwifi-ma-b0-gf4-a0-86.ucode
+Link: iwlwifi-ma-b0-gf4-a0-86.ucode -> intel/iwlwifi/iwlwifi-ma-b0-gf4-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
-File: iwlwifi-ma-b0-gf4-a0-89.ucode
-Version: 86.af655058.0
+File: intel/iwlwifi/iwlwifi-ma-b0-gf4-a0-89.ucode
+Link: iwlwifi-ma-b0-gf4-a0-89.ucode -> intel/iwlwifi/iwlwifi-ma-b0-gf4-a0-89.ucode
+Version: 86.2e78fa67.0
 
-File: iwlwifi-ma-b0-gf4-a0.pnvm
+File: intel/iwlwifi/iwlwifi-ma-b0-gf4-a0.pnvm
+Link: iwlwifi-ma-b0-gf4-a0.pnvm -> intel/iwlwifi/iwlwifi-ma-b0-gf4-a0.pnvm
 
-File: iwlwifi-ma-b0-hr-b0-83.ucode
+File: intel/iwlwifi/iwlwifi-ma-b0-hr-b0-83.ucode
+Link: iwlwifi-ma-b0-hr-b0-83.ucode -> intel/iwlwifi/iwlwifi-ma-b0-hr-b0-83.ucode
 Version: 80.d24e06ed.0
 
-File: iwlwifi-ma-b0-hr-b0-86.ucode
+File: intel/iwlwifi/iwlwifi-ma-b0-hr-b0-86.ucode
+Link: iwlwifi-ma-b0-hr-b0-86.ucode -> intel/iwlwifi/iwlwifi-ma-b0-hr-b0-86.ucode
 Version: 83.fb5c9aeb.0
 
-File: iwlwifi-ma-b0-hr-b0-89.ucode
-Version: 86.af655058.0
+File: intel/iwlwifi/iwlwifi-ma-b0-hr-b0-89.ucode
+Link: iwlwifi-ma-b0-hr-b0-89.ucode -> intel/iwlwifi/iwlwifi-ma-b0-hr-b0-89.ucode
+Version: 86.2e78fa67.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -3691,10 +3873,16 @@ File: ath11k/WCN6855/hw2.0/amss.bin
 File: ath11k/WCN6855/hw2.0/m3.bin
 Version: WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.41
 File: ath11k/WCN6855/hw2.0/Notice.txt
+File: ath11k/WCN6855/hw2.0/nfa765/amss.bin
+File: ath11k/WCN6855/hw2.0/nfa765/m3.bin
+Version: WLAN.HSP.1.1-04685-QCAHSPSWPL_V1_V2_SILICONZ_IOE-1
+File: ath11k/WCN6855/hw2.0/nfa765/Notice.txt
 Link: ath11k/WCN6855/hw2.1/regdb.bin -> ../hw2.0/regdb.bin
 Link: ath11k/WCN6855/hw2.1/board-2.bin -> ../hw2.0/board-2.bin
 Link: ath11k/WCN6855/hw2.1/amss.bin -> ../hw2.0/amss.bin
 Link: ath11k/WCN6855/hw2.1/m3.bin -> ../hw2.0/m3.bin
+Link: ath11k/WCN6855/hw2.1/nfa765/amss.bin -> ../../hw2.0/nfa765/amss.bin
+Link: ath11k/WCN6855/hw2.1/nfa765/m3.bin -> ../../hw2.0/nfa765/m3.bin
 File: ath11k/QCN9074/hw1.0/board-2.bin
 File: ath11k/QCN9074/hw1.0/.notice
 File: ath11k/QCN9074/hw1.0/amss.bin
@@ -4062,6 +4250,7 @@ File: rtl_bt/rtl8723a_fw.bin
 File: rtl_bt/rtl8723b_fw.bin
 File: rtl_bt/rtl8723bs_fw.bin
 File: rtl_bt/rtl8723bs_config.bin
+Link: rtl_bt/rtl8723b_config.bin -> rtl8723bs_config.bin
 Link: rtl_bt/rtl8723bs_config-OBDA8723.bin -> rtl8723bs_config.bin
 Link: rtl_bt/rtl8723bs_config-OBDA0623.bin -> rtl8723bs_config.bin
 File: rtl_bt/rtl8723cs_xx_fw.bin
@@ -4237,19 +4426,31 @@ Licence: Redistributable. See LICENSE.bfa for details.
 --------------------------------------------------------------------------
 Driver: qat - Intel(R) QAT crypto accelerator
 
-File: qat_895xcc.bin
-File: qat_895xcc_mmp.bin
-File: qat_c3xxx.bin
-File: qat_c3xxx_mmp.bin
-File: qat_c62x.bin
-File: qat_c62x_mmp.bin
-Link: qat_mmp.bin -> qat_895xcc_mmp.bin
-File: qat_4xxx.bin
-File: qat_4xxx_mmp.bin
-File: qat_402xx.bin
-File: qat_402xx_mmp.bin
-File: qat_420xx.bin
-File: qat_420xx_mmp.bin
+File: intel/qat/qat_895xcc.bin
+Link: qat_895xcc.bin -> intel/qat/qat_895xcc.bin
+File: intel/qat/qat_895xcc_mmp.bin
+Link: qat_895xcc_mmp.bin -> intel/qat/qat_895xcc_mmp.bin
+File: intel/qat/qat_c3xxx.bin
+Link: qat_c3xxx.bin -> intel/qat/qat_c3xxx.bin
+File: intel/qat/qat_c3xxx_mmp.bin
+Link: qat_c3xxx_mmp.bin -> intel/qat/qat_c3xxx_mmp.bin
+File: intel/qat/qat_c62x.bin
+Link: qat_c62x.bin -> intel/qat/qat_c62x.bin
+File: intel/qat/qat_c62x_mmp.bin
+Link: qat_c62x_mmp.bin -> intel/qat/qat_c62x_mmp.bin
+Link: qat_mmp.bin -> intel/qat/qat_895xcc_mmp.bin
+File: intel/qat/qat_4xxx.bin
+Link: qat_4xxx.bin -> intel/qat/qat_4xxx.bin
+File: intel/qat/qat_4xxx_mmp.bin
+Link: qat_4xxx_mmp.bin -> intel/qat/qat_4xxx_mmp.bin
+File: intel/qat/qat_402xx.bin
+Link: qat_402xx.bin -> intel/qat/qat_402xx.bin
+File: intel/qat/qat_402xx_mmp.bin
+Link: qat_402xx_mmp.bin -> intel/qat/qat_402xx_mmp.bin
+File: intel/qat/qat_420xx.bin
+Link: qat_420xx.bin -> intel/qat/qat_420xx.bin
+File: intel/qat/qat_420xx_mmp.bin
+Link: qat_420xx_mmp.bin -> intel/qat/qat_420xx_mmp.bin
 
 Licence: Redistributable. See LICENCE.qat_firmware for details
 
@@ -6186,16 +6387,16 @@ File: qcom/venus-6.0/venus.mbn
 
 Version: VIDEO.VE.6.0-00055-PROD-1
 
+File: qcom/vpu/vpu20_p1.mbn
+Link: qcom/vpu-2.0/venus.mbn -> ../vpu/vpu20_p1.mbn
+
+Version: VIDEO.VPU.2.0-00055-PROD-1
+
 File: qcom/vpu/vpu20_p4.mbn
 Link: qcom/vpu-1.0/venus.mbn -> ../vpu/vpu20_p4.mbn
 Link: qcom/vpu-1.0/venus.mdt -> ../vpu/vpu20_p4.mbn
 
 Version: VIDEO.VPU.1.0-00119-PROD-1
-
-File: qcom/vpu/vpu20_p1.mbn
-Link: qcom/vpu-2.0/venus.mbn -> ../vpu/vpu20_p1.mbn
-
-Version: VIDEO.VPU.2.0-00055-PROD-1
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -6205,6 +6406,10 @@ https://developer.qualcomm.com/hardware/dragonboard-410c/tools
 --------------------------------------------------------------------------
 
 Driver: iris - Qualcomm Iris video codec accelerator
+
+File: qcom/vpu/vpu20_p1_gen2.mbn
+
+Version: VIDEO.VPU.2.4.2-00025
 
 File: qcom/vpu/vpu30_p4.mbn
 
@@ -6218,9 +6423,9 @@ File: qcom/vpu/vpu30_p4_s6_16mb.mbn
 
 Version: VIDEO.VPU.3.1-0090
 
-File: qcom/vpu/vpu20_p1_gen2.mbn
+File: qcom/vpu/vpu33_p4.mbn
 
-Version: VIDEO.VPU.2.4.2-00025
+Version: VIDEO.VPU.3.4-0054
 
 File: qcom/vpu/vpu35_p4.mbn
 
@@ -6426,6 +6631,10 @@ RawFile: qcom/x1e80100/adsps.jsn
 RawFile: qcom/x1e80100/adspua.jsn
 RawFile: qcom/x1e80100/battmgr.jsn
 RawFile: qcom/x1e80100/LENOVO/21N1/adspua.jsn
+File: qcom/x1e80100/cdsp.mbn
+File: qcom/x1e80100/cdsp_dtb.mbn
+Version: CDSP.HT.2.9.c1-00069-HAMOA-1
+RawFile: qcom/x1e80100/cdspr.jsn
 File: qcom/x1e80100/LENOVO/21N1/qcadsp8380.mbn
 Version: ADSP.HT.5.9-00787.2-HAMOA-1
 File: qcom/x1e80100/LENOVO/21N1/adsp_dtbs.elf
@@ -7468,6 +7677,16 @@ Link: cirrus/cs35l41-dsp1-spk-prot-10433d88-spkid1-r0.bincfg -> cs35l41/bincfgs/
 Link: cirrus/cs35l41-dsp1-spk-prot-104388f4.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
 File: cirrus/cs35l41-dsp1-spk-prot-104388f4-spkid0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-104388f4-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431454.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10433391.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-10431454-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431454-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431454-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431454-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid1-r0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-17aa2316.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-17aa2317.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 File: cirrus/cs35l41-dsp1-spk-prot-17aa2316-spkid0-l0.bin
@@ -7747,6 +7966,7 @@ File: cirrus/cs35l56/CS35L56_Rev3.11.25.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.26.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.28.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.28B.wmfw
+File: cirrus/cs35l56/CS35L56_Rev3.13.3R.wmfw
 Link: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp2.bin
@@ -8015,16 +8235,6 @@ File: cirrus/cs35l56-b0-dsp1-misc-10431f43-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10431f43-amp2.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10431f43-amp4.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10431f43-amp3.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10431454.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
-Link: cirrus/cs35l41-dsp1-spk-prot-10433391.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
-File: cirrus/cs35l41-dsp1-spk-prot-10431454-spkid0-l0.bin
-File: cirrus/cs35l41-dsp1-spk-prot-10431454-spkid0-r0.bin
-File: cirrus/cs35l41-dsp1-spk-prot-10431454-spkid1-l0.bin
-File: cirrus/cs35l41-dsp1-spk-prot-10431454-spkid1-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid0-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid0-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid1-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid1-r0.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.20.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid0-ampl.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid0-ampr.bin
@@ -8034,6 +8244,15 @@ File: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid1-ampr.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa233c.wmfw -> cs35l56/CS35L56_Rev3.11.28.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa233c-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa233c-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa2347.wmfw -> cs35l56/CS35L56_Rev3.13.3R.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa2347-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa2347-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa2348.wmfw -> cs35l56/CS35L56_Rev3.13.3R.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa2348-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa2348-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa2349.wmfw -> cs35l56/CS35L56_Rev3.13.3R.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa2349-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa2349-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa380e-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.20.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa380e-spkid0-ampl.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa380e-spkid0-ampr.bin
@@ -8506,11 +8725,11 @@ License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 Driver: intel_vpu - Intel NPU driver
 
 File: intel/vpu/vpu_37xx_v1.bin
-Version: 20250611*MTL_CLIENT_SILICON-NVR+NN-deployment*5437076a64c995fd1fbe21c3019f522b56db98f9*5437076a64c995fd1fbe21c3019f522b56db98f9*5437076a64c
+Version: 20250627*MTL_CLIENT_SILICON-NVR+NN-deployment*2fc7252521edea4e75ec14e475a72ba6f0f92685*2fc7252521edea4e75ec14e475a72ba6f0f92685*2fc7252521e
 Link: intel/vpu/vpu_37xx_v0.0.bin -> vpu_37xx_v1.bin
 
 File: intel/vpu/vpu_40xx_v1.bin
-Version: Jun 11 2025*NPU40xx*build/ci/npu-fw-ci-ci_branch_UD202524_npu_release_25ww22-20250603_183038-26415-8-g5437076a64c*5437076a64c995fd1fbe21c3019f522b56db98f9
+Version: Jun 27 2025*NPU40xx*ci_tag_ud202528_vpu_rc_20250626_1901*2fc7252521edea4e75ec14e475a72ba6f0f92685
 Link: intel/vpu/vpu_40xx_v0.0.bin -> vpu_40xx_v1.bin
 
 License: Redistributable. See LICENSE.intel_vpu for details

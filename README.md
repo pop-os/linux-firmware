@@ -16,6 +16,21 @@ To submit firmware to this repository, please do one of the following:
 * send a git binary diff to `linux-firmware@kernel.org`
 * send a git pull request to: `linux-firmware@kernel.org`
 
+### Signed-off-by requirement
+
+All commits must include a `Signed-off-by` line to track the provenance of the
+firmware. This signature must be from someone with authority over the licensing
+of the firmware, typically someone from within the company that owns or
+controls the firmware. The `Signed-off-by` line serves as an attestation that
+the contributor has the right to submit the firmware under the specified
+license terms and that it can be redistributed according to those terms.
+
+At times, a contributor may work at a location that makes it difficult to
+submit patches or MRs from their offical company accounts.  In this case,
+the `Signed-off-by` line in the commit should still be via the company
+address, but the submitter can use a personal address with the company address
+on CC for the MR or patch contribution.
+
 ## Quality
 
 If your commit adds new firmware, it must update the `WHENCE` file to
