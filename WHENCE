@@ -175,7 +175,7 @@ Info: DATE=16.10.2002
 
 Converted from Intel HEX files, used in our binary representation of ihex.
 
-Original licence information: None
+Licence: Unknown
 
 --------------------------------------------------------------------------
 
@@ -200,9 +200,9 @@ File: mts_cdma.fw
 File: mts_gsm.fw
 File: mts_edge.fw
 
-Licence: "all firmware components are redistributable in binary form"
-         per support@multitech.com
-	 Copyright (C) 2005 Multi-Tech Systems, Inc.
+Licence: Redistributable. See LICENCE.multitech for details
+
+Copyright (C) 2005 Multi-Tech Systems, Inc.
 
 Found in hex form in ftp://ftp.multitech.com/wireless/wireless_linux.zip
 
@@ -348,7 +348,7 @@ Version: 3.03.28 IPX
 File: ql2400_fw.bin
 Version: 8.07.00 MID
 File: ql2500_fw.bin
-Version: 8.07.00 MIDQ
+Version: 8.08.207 MIDQ
 
 Licence: Redistributable. See LICENCE.qla2xxx for details
 
@@ -1189,6 +1189,10 @@ Version: 74.f92b5fed.0
 File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0.pnvm
 Link: iwlwifi-ty-a0-gf-a0.pnvm -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0.pnvm
 
+File: intel/iwlwifi/iwlwifi-bz-b0-hr-b0-93.ucode
+Link: iwlwifi-bz-b0-hr-b0-93.ucode -> intel/iwlwifi/iwlwifi-bz-b0-hr-b0-93.ucode
+Version: 90.26a2cb89.0
+
 File: intel/iwlwifi/iwlwifi-bz-b0-hr-b0-96.ucode
 Link: iwlwifi-bz-b0-hr-b0-96.ucode -> intel/iwlwifi/iwlwifi-bz-b0-hr-b0-96.ucode
 Version: 93.44729d4e.0
@@ -1470,8 +1474,8 @@ Driver: yam - YAM driver for AX.25
 File: yam/1200.bin
 File: yam/9600.bin
 
-Licence:
- * (C) F6FBB 1998
+Licence: Unknown
+(C) F6FBB 1998
 
 Found in hex form in kernel source.
 
@@ -2827,15 +2831,7 @@ Driver: s2255drv
 File: f2255usb.bin
 Version: 1.2.8
 
-Licence: Redistributable.
-
-  Sensoray grants permission to use and redistribute these firmware
-  files for use with Sensoray devices, but not as a part of the Linux
-  kernel or in any other form which would require these files themselves
-  to be covered by the terms of the GNU General Public License.
-  These firmware files are distributed in the hope that they will be
-  useful, but WITHOUT ANY WARRANTY; without even the implied warranty
-  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Licence: Redistributable. See LICENCE.sensoray for details.
 
 --------------------------------------------------------------------------
 
@@ -2920,8 +2916,7 @@ File: ueagle-atm/DSP9i.bin
 File: ueagle-atm/eagleII.fw
 Version: 1.1
 
-Licence: Redistributable. Based on
-         https://mail.gna.org/public/eagleusb-dev/2004-11/msg00172.html
+Licence: Redistributable. See LICENCE.ueagle for details
 
 --------------------------------------------------------------------------
 
@@ -3946,6 +3941,10 @@ File: ath12k/WCN7850/hw2.0/amss.bin
 File: ath12k/WCN7850/hw2.0/m3.bin
 Version: WLAN.HMT.1.1.c5-00302-QCAHMTSWPL_V1.0_V2.0_SILICONZ-1.115823.3
 File: ath12k/WCN7850/hw2.0/Notice.txt
+File: ath12k/WCN7850/hw2.0/ncm865/amss.bin
+File: ath12k/WCN7850/hw2.0/ncm865/m3.bin
+Version: WLAN.IOE_HMT.1.1-00018-QCAHMTSWPL_V1.0_V2.0_SILICONZ-1
+File: ath12k/WCN7850/hw2.0/ncm865/Notice.txt
 File: ath12k/QCN9274/hw2.0/board-2.bin
 File: ath12k/QCN9274/hw2.0/firmware-2.bin
 Version: WLAN.WBE.1.5-01651-QCAHKSWPL_SILICONZ-1
@@ -4323,7 +4322,7 @@ File: go7007/s2250-2.fw
 Link: s2250.fw -> go7007/s2250-2.fw
 Link: s2250_loader.fw -> go7007/s2250-1.fw
 
-Licence: Redistributable. See LICENCE.go7007-s2250 for details
+Licence: Redistributable. See LICENCE.sensoray for details
 
 File: go7007/go7007fw.bin
 File: go7007/go7007tv.bin
@@ -5185,7 +5184,7 @@ File: i915/tgl_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for Tigerlake
 
 File: i915/tgl_guc_70.bin
-Version: GuC API/APB ver 70.44.1 for Tigerlake
+Version: GuC API/APB ver 70.49.4 for Tigerlake
 
 File: i915/tgl_huc_7.0.3.bin
 Version: Huc API/APB ver 7 release 0 for Tigerlake
@@ -5224,7 +5223,7 @@ File: i915/dg1_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for DG1
 
 File: i915/dg1_guc_70.bin
-Version: GuC API/APB ver 70.44.1 for DG1
+Version: GuC API/APB ver 70.49.4 for DG1
 
 File: i915/dg1_huc_7.7.1.bin
 Version: Huc API/APB ver 7 release 1 for DG1
@@ -5266,7 +5265,7 @@ File: i915/adlp_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for Alderlake P
 
 File: i915/adlp_guc_70.bin
-Version: GuC API/APB ver 70.44.1 for Alderlake P
+Version: GuC API/APB ver 70.49.4 for Alderlake P
 
 File: i915/dg2_guc_70.1.2.bin
 Version: GuC API/APB ver 70.1.2 for DG2
@@ -5275,7 +5274,7 @@ File: i915/dg2_guc_70.4.1.bin
 Version: GuC API/APB ver 70.4.1 for DG2
 
 File: i915/dg2_guc_70.bin
-Version: GuC API/APB ver 70.45.2 for DG2
+Version: GuC API/APB ver 70.49.4 for DG2
 
 File: i915/dg2_huc_gsc.bin
 Version: HuC API/APB ver 7.10.16 for DG2
@@ -5296,7 +5295,7 @@ File: i915/mtl_dmc.bin
 Version: DMC API/APB ver 2 release 23 for Meteorlake
 
 File: i915/mtl_guc_70.bin
-Version: GuC API/APB ver 70.44.1 for Meteorlake
+Version: GuC API/APB ver 70.49.4 for Meteorlake
 
 File: i915/mtl_huc_gsc.bin
 Version: HuC API/APB ver 8.5.4 for Meteorlake
@@ -5322,13 +5321,13 @@ File: xe/lnl_gsc_1.bin
 Version: GSC API/APB v1.0, release 104.0.5.1429, SVN 1 for Lunarlake
 
 File: xe/lnl_guc_70.bin
-Version: GuC API/APB ver 70.45.2 for Lunarlake
+Version: GuC API/APB ver 70.49.4 for Lunarlake
 
 File: xe/lnl_huc.bin
 Version: HuC API/APB ver 9.4.13 for Lunarlake
 
 File: xe/bmg_guc_70.bin
-Version: GuC API/APB ver 70.45.2 for Battlemage
+Version: GuC API/APB ver 70.49.4 for Battlemage
 
 File: xe/bmg_huc.bin
 Version: HuC API/APB ver 8.2.10 for Battlemage
@@ -5337,7 +5336,7 @@ File: xe/fan_control_8086_e20b_8086_1100.bin
 Version: fan_control ver 203.0.0.0 for Battlemage
 
 File: xe/ptl_guc_70.bin
-Version: GuC API/APB ver 70.47.0 for Pantherlake
+Version: GuC API/APB ver 70.49.4 for Pantherlake
 
 File: xe/ptl_huc.bin
 Version: HuC API/APB ver 10.3.3 for Pantherlake
@@ -6049,24 +6048,24 @@ File: mediatek/mt7915_eeprom_dbdc.bin
 Version: 20200821
 
 File: mediatek/mt7916_wm.bin
-Version: 20230202145005
+Version: 20240823
 File: mediatek/mt7916_wa.bin
-Version: 20230202143332
+Version: 20240823
 File: mediatek/mt7916_rom_patch.bin
-Version: 20230202144915a
+Version: 20240823
 File: mediatek/mt7916_eeprom.bin
 Version: 20211130
 
 File: mediatek/mt7986_wm.bin
-Version: 20221012174725
+Version: 20240823
 File: mediatek/mt7986_wm_mt7975.bin
-Version: 20221012174805
+Version: 20240823
 File: mediatek/mt7986_wa.bin
-Version: 20221012174937
+Version: 20240823
 File: mediatek/mt7986_rom_patch.bin
-Version: 20221012174648a
+Version: 20240823
 File: mediatek/mt7986_rom_patch_mt7975.bin
-Version: 20221012174743a
+Version: 20240823
 File: mediatek/mt7986_eeprom_mt7976.bin
 Version: 20211105
 File: mediatek/mt7986_eeprom_mt7976_dbdc.bin
@@ -6077,11 +6076,11 @@ File: mediatek/mt7986_eeprom_mt7975_dual.bin
 Version: 20220208
 
 File: mediatek/mt7981_wm.bin
-Version: 20221208201806
+Version: 20240823
 File: mediatek/mt7981_wa.bin
-Version: 20221208202048
+Version: 20240823
 File: mediatek/mt7981_rom_patch.bin
-Version: 20221208201745a
+Version: 20240823
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6130,9 +6129,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 Wireless MACs
 
 File: mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
-Version: 20250523103150a
+Version: 20250903123148a
 File: mediatek/WIFI_RAM_CODE_MT7922_1.bin
-Version: 20250523103106
+Version: 20250903123103
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6141,7 +6140,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin
-Version: 20250523103438
+Version: 20250903123504
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6150,9 +6149,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 Wireless MACs
 
 File: mediatek/mt7925/WIFI_MT7925_PATCH_MCU_1_1_hdr.bin
-Version: 20250721232852a
+Version: 20250825215832a
 File: mediatek/mt7925/WIFI_RAM_CODE_MT7925_1_1.bin
-Version: 20250721232943
+Version: 20250825215728
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6161,7 +6160,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 bluetooth chipset
 
 File: mediatek/mt7925/BT_RAM_CODE_MT7925_1_1_hdr.bin
-Version: 20250721233113
+Version: 20250825220109
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6235,20 +6234,18 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mtk_wed - MediaTek Wireless Ethernet Dispatcher
 
 File: mediatek/mt7986_wo_0.bin
-Version: 20221012175005
+Version: 20240823
 File: mediatek/mt7986_wo_1.bin
-Version: 20221012175032
+Version: 20240823
 
 File: mediatek/mt7981_wo.bin
-Version: 20221208202138
+Version: 20240823
 
 File: mediatek/mt7988/mt7988_wo_0.bin
 Version: 20230218204509
-Link: mediatek/mt7988_wo_0.bin -> mt7988/mt7988_wo_0.bin
 
 File: mediatek/mt7988/mt7988_wo_1.bin
 Version: 20230218204316
-Link: mediatek/mt7988_wo_1.bin -> mt7988/mt7988_wo_1.bin
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6413,15 +6410,15 @@ Version: VIDEO.VPU.2.4.2-00025
 
 File: qcom/vpu/vpu30_p4.mbn
 
-Version: VIDEO.VPU.3.1-0092
+Version: VIDEO.VPU.3.1-0096
 
 File: qcom/vpu/vpu30_p4_s6.mbn
 
-Version: VIDEO.VPU.3.1-0074
+Version: VIDEO.VPU.3.1-0093
 
 File: qcom/vpu/vpu30_p4_s6_16mb.mbn
 
-Version: VIDEO.VPU.3.1-0090
+Version: VIDEO.VPU.3.1-0093
 
 File: qcom/vpu/vpu33_p4.mbn
 
@@ -6430,6 +6427,10 @@ Version: VIDEO.VPU.3.4-0054
 File: qcom/vpu/vpu35_p4.mbn
 
 Version: VIDEO.VPU.3.5-0040
+
+File: qcom/vpu/vpu40_p2_s7.mbn
+
+Version: VIDEO.VPU.4.0-0045
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -6575,6 +6576,19 @@ Link: qcom/qcs6490/adspua.jsn -> ../qcm6490/adspua.jsn
 Link: qcom/qcs6490/battmgr.jsn -> ../qcm6490/battmgr.jsn
 Link: qcom/qcs6490/cdsp.mbn -> ../qcm6490/cdsp.mbn
 Link: qcom/qcs6490/cdspr.jsn -> ../qcm6490/cdspr.jsn
+File: qcom/qcs6490/radxa/dragon-q6a/adsp.mbn
+Version: ADSP.HT.5.5.c8-00217-KODIAK-1
+RawFile: qcom/qcs6490/radxa/dragon-q6a/adspr.jsn
+RawFile: qcom/qcs6490/radxa/dragon-q6a/adsps.jsn
+RawFile: qcom/qcs6490/radxa/dragon-q6a/adspua.jsn
+File: qcom/qcs615/adsp.mbn
+Version: ADSP.VT.5.2.c6-00059-SM6150-1
+RawFile: qcom/qcs615/adspr.jsn
+RawFile: qcom/qcs615/adsps.jsn
+RawFile: qcom/qcs615/adspua.jsn
+File: qcom/qcs615/cdsp.mbn
+Version: CDSP.VT.2.2.c4-00019-SM6150-1
+RawFile: qcom/qcs615/cdspr.jsn
 File: qcom/qrb4210/adsp.mbn
 Version: ADSP.VT.5.4.1.c4-00013-KAMORTA-1
 RawFile: qcom/qrb4210/adspr.jsn
@@ -6679,29 +6693,29 @@ cdsp.mbn has been converted from 21-cdsp_split/firmware/cdsp.* using
 https://github.com/andersson/pil-squasher
 
 File: qcom/sa8775p/adsp.mbn
-Version: DSP.AT.1.0.1-00079.2-LEMANS-1
+Version: DSP.AT.1.0.1-00163-LEMANS-1
 RawFile: qcom/sa8775p/adspr.jsn
 RawFile: qcom/sa8775p/adspua.jsn
 File: qcom/sa8775p/cdsp0.mbn
-Version: DSP.AT.1.0.1-00079.2-LEMANS-1
+Version: DSP.AT.1.0.1-00163-LEMANS-1
 File: qcom/sa8775p/cdsp1.mbn
-Version: DSP.AT.1.0.1-00079.2-LEMANS-1
+Version: DSP.AT.1.0.1-00163-LEMANS-1
 RawFile: qcom/sa8775p/cdspr.jsn
 File: qcom/sa8775p/gpdsp0.mbn
-Version: DSP.AT.1.0.1-00079.2-LEMANS-1
+Version: DSP.AT.1.0.1-00163-LEMANS-1
 File: qcom/sa8775p/gpdsp1.mbn
-Version: DSP.AT.1.0.1-00079.2-LEMANS-1
+Version: DSP.AT.1.0.1-00163-LEMANS-1
 RawFile: qcom/sa8775p/gpdsp1r.jsn
 RawFile: qcom/sa8775p/gpdspr.jsn
 File: qcom/qcs8300/adsp.mbn
-Version: DSP.AT.1.0.1-00096-LEMANS-1
+Version: DSP.AT.1.0.1-00163-LEMANS-1
 RawFile: qcom/qcs8300/adspr.jsn
 RawFile: qcom/qcs8300/adspua.jsn
 File: qcom/qcs8300/cdsp0.mbn
-Version: DSP.AT.1.0.1-00096-LEMANS-1
+Version: DSP.AT.1.0.1-00163-LEMANS-1
 RawFile: qcom/qcs8300/cdspr.jsn
 File: qcom/qcs8300/gpdsp0.mbn
-Version: DSP.AT.1.0.1-00096-LEMANS-1
+Version: DSP.AT.1.0.1-00163-LEMANS-1
 
 Licence: Redistributable. See LICENSE.qcom-2 and qcom/NOTICE.txt for details
 
@@ -8428,14 +8442,34 @@ File: powervr/rogue_33.15.11.3_v1.fw
 Version: 1.0.OS@6503725
 
 File: powervr/rogue_36.53.104.796_v1.fw
-Version: 1.0.OS@6734358
+Version: 1.0.OS@6852738
 
 License: Redistributable. See LICENSE.powervr for details
 
 --------------------------------------------------------------------------
 
 Driver: qcom-qcs6490 - Qualcomm ASoC topology
+File: qcom/qcs6490/QCS6490-Radxa-Dragon-Q6A-tplg.bin
 File: qcom/qcs6490/QCS6490-RB3Gen2-tplg.bin
+Version: v0.1.0
+
+Licence: Redistributable. See LICENCE.linaro for details
+Originates from https://github.com/linux-msm/audioreach-topology.git
+
+--------------------------------------------------------------------------
+
+Driver: qcom-qcs8300 - Qualcomm ASoC topology
+File: qcom/qcs8300/MONACO-EVK-tplg.bin
+Version: v0.1.0
+
+Licence: Redistributable. See LICENCE.linaro for details
+Originates from https://github.com/linux-msm/audioreach-topology.git
+
+--------------------------------------------------------------------------
+
+Driver: qcom-qcs9100 - Qualcomm ASoC topology
+File: qcom/sa8775p/LEMANS-EVK-tplg.bin
+Link: qcom/qcs9100/LEMANS-EVK-tplg.bin -> ../sa8775p/LEMANS-EVK-tplg.bin
 Version: v0.1.0
 
 Licence: Redistributable. See LICENCE.linaro for details
@@ -8473,6 +8507,9 @@ File: qcom/x1e80100/LENOVO/83ED/X1E80100-LENOVO-Yoga-Slim7x-tplg.bin
 Link: qcom/x1e80100/X1E80100-LENOVO-Yoga-Slim7x-tplg.bin -> LENOVO/83ED/X1E80100-LENOVO-Yoga-Slim7x-tplg.bin
 Version: v0.1.0
 Info: DATE=17.03.2025
+
+File: qcom/x1e80100/X1E80100-EVK-tplg.bin
+Version: v0.1.0
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://github.com/linux-msm/audioreach-topology.git
@@ -8691,6 +8728,23 @@ Version: 5.8.0.7716
 
 License: Redistributable. See LICENSE.intel for details
 
+File: LENOVO/ish/ish_lnlm_53c4ffad_2a17559f.bin
+Link: intel/ish/ish_lnlm_53c4ffad_2a17559f.bin -> ../../LENOVO/ish/ish_lnlm_53c4ffad_2a17559f.bin
+Version: 5.8.4.7720
+
+License: Redistributable. See LICENCE.lenovo for details
+
+File: HP/ish/ish_lnlm_dba6b120_152c3222.bin
+Link: intel/ish/ish_lnlm_dba6b120_152c3222.bin -> ../../HP/ish/ish_lnlm_dba6b120_152c3222.bin
+Version: 5.8.200.7720_1029
+
+License: Redistributable. See LICENCE.HP for details
+
+File: dell/ish/ish_lnlm_39ceeaf8_58.7727.0.bin
+Link: intel/ish/ish_lnlm_39ceeaf8.bin -> ../../dell/ish/ish_lnlm_39ceeaf8_58.7727.0.bin
+
+License: Redistributable. See LICENSE.dell for details
+
 --------------------------------------------------------------------------
 
 Driver: qdu100 - Qualcomm DU firmware image files
@@ -8725,11 +8779,11 @@ License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 Driver: intel_vpu - Intel NPU driver
 
 File: intel/vpu/vpu_37xx_v1.bin
-Version: 20250627*MTL_CLIENT_SILICON-NVR+NN-deployment*2fc7252521edea4e75ec14e475a72ba6f0f92685*2fc7252521edea4e75ec14e475a72ba6f0f92685*2fc7252521e
+Version: 20250723*MTL_CLIENT_SILICON-NVR+NN-deployment*52e7ebee50a93a07d14a1f162226cd55ad3999f0*52e7ebee50a93a07d14a1f162226cd55ad3999f0*52e7ebee50a
 Link: intel/vpu/vpu_37xx_v0.0.bin -> vpu_37xx_v1.bin
 
 File: intel/vpu/vpu_40xx_v1.bin
-Version: Jun 27 2025*NPU40xx*ci_tag_ud202528_vpu_rc_20250626_1901*2fc7252521edea4e75ec14e475a72ba6f0f92685
+Version: Jul 23 2025*NPU40xx*build/ci/npu-fw-ci-main-20250721_233537-27032-2-g52e7ebee50a*52e7ebee50a93a07d14a1f162226cd55ad3999f0
 Link: intel/vpu/vpu_40xx_v0.0.bin -> vpu_40xx_v1.bin
 
 License: Redistributable. See LICENSE.intel_vpu for details

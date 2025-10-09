@@ -1,6 +1,6 @@
 diff --git a/.gitea/workflows/pr_check.yaml b/.gitea/workflows/pr_check.yaml
 new file mode 100644
-index 000000000000..7b733a30566b
+index 000000000..7b733a305
 --- /dev/null
 +++ b/.gitea/workflows/pr_check.yaml
 @@ -0,0 +1,28 @@
@@ -33,7 +33,7 @@ index 000000000000..7b733a30566b
 +          start_rev: ${{ github.event.pull_request.base.sha }}
 +          end_rev: ${{ github.event.pull_request.head.sha }}
 diff --git a/.gitignore b/.gitignore
-index c4b0bcb49771..7cca058e0d6d 100644
+index c4b0bcb49..7cca058e0 100644
 --- a/.gitignore
 +++ b/.gitignore
 @@ -1,4 +1,4 @@
@@ -43,7 +43,7 @@ index c4b0bcb49771..7cca058e0d6d 100644
  release/
  contrib/*.db
 diff --git a/.pre-commit-config.yaml b/.pre-commit-config.yaml
-index 370a2970616b..63d777467cb0 100644
+index 370a29706..63d777467 100644
 --- a/.pre-commit-config.yaml
 +++ b/.pre-commit-config.yaml
 @@ -16,11 +16,11 @@ repos:
@@ -65,7 +65,7 @@ index 370a2970616b..63d777467cb0 100644
        - id: check-whence
 diff --git a/LICENCE.asihpi b/LICENCE.asihpi
 new file mode 100644
-index 000000000000..3df637e8f767
+index 000000000..3df637e8f
 --- /dev/null
 +++ b/LICENCE.asihpi
 @@ -0,0 +1,5 @@
@@ -76,7 +76,7 @@ index 000000000000..3df637e8f767
 +preserved.
 diff --git a/LICENCE.atmel b/LICENCE.atmel
 new file mode 100644
-index 000000000000..676e247ec15a
+index 000000000..676e247ec
 --- /dev/null
 +++ b/LICENCE.atmel
 @@ -0,0 +1,74 @@
@@ -156,7 +156,7 @@ index 000000000000..676e247ec15a
 +THE FIRMWARE.
 diff --git a/LICENCE.cx2341x b/LICENCE.cx2341x
 new file mode 100644
-index 000000000000..ab9808fd2ed6
+index 000000000..ab9808fd2
 --- /dev/null
 +++ b/LICENCE.cx2341x
 @@ -0,0 +1,277 @@
@@ -439,7 +439,7 @@ index 000000000000..ab9808fd2ed6
 +to Hauppauge.
 diff --git a/LICENCE.echoaudio b/LICENCE.echoaudio
 new file mode 100644
-index 000000000000..e3d63ce8055f
+index 000000000..e3d63ce80
 --- /dev/null
 +++ b/LICENCE.echoaudio
 @@ -0,0 +1,25 @@
@@ -470,7 +470,7 @@ index 000000000000..e3d63ce8055f
 +Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 diff --git a/LICENCE.ipw2100 b/LICENCE.ipw2100
 new file mode 100644
-index 000000000000..a3e83f562d37
+index 000000000..a3e83f562
 --- /dev/null
 +++ b/LICENCE.ipw2100
 @@ -0,0 +1,207 @@
@@ -683,7 +683,7 @@ index 000000000000..a3e83f562d37
 +
 diff --git a/LICENCE.ipw2200 b/LICENCE.ipw2200
 new file mode 100644
-index 000000000000..fa26c671a306
+index 000000000..fa26c671a
 --- /dev/null
 +++ b/LICENCE.ipw2200
 @@ -0,0 +1,210 @@
@@ -899,7 +899,7 @@ index 000000000000..fa26c671a306
 +
 diff --git a/LICENCE.zd1201 b/LICENCE.zd1201
 new file mode 100644
-index 000000000000..e0fde756fd89
+index 000000000..e0fde756f
 --- /dev/null
 +++ b/LICENCE.zd1201
 @@ -0,0 +1,5 @@
@@ -910,7 +910,7 @@ index 000000000000..e0fde756fd89
 +The firmware was in it in the form of a large array in a header file.
 diff --git a/LICENCE.zd1211 b/LICENCE.zd1211
 new file mode 100644
-index 000000000000..e0fde756fd89
+index 000000000..e0fde756f
 --- /dev/null
 +++ b/LICENCE.zd1211
 @@ -0,0 +1,5 @@
@@ -921,7 +921,7 @@ index 000000000000..e0fde756fd89
 +The firmware was in it in the form of a large array in a header file.
 diff --git a/LICENSE.1a98-INTEL-EDK2-2-tplg b/LICENSE.1a98-INTEL-EDK2-2-tplg
 new file mode 100644
-index 000000000000..04bad2f9806f
+index 000000000..04bad2f98
 --- /dev/null
 +++ b/LICENSE.1a98-INTEL-EDK2-2-tplg
 @@ -0,0 +1,3 @@
@@ -930,7 +930,7 @@ index 000000000000..04bad2f9806f
 +License: Redistributable. See LICENCE.fw_sst_0f28 for details.
 diff --git a/WHENCE.ubuntu b/WHENCE.ubuntu
 new file mode 100644
-index 000000000000..e5466b642e87
+index 000000000..e5466b642
 --- /dev/null
 +++ b/WHENCE.ubuntu
 @@ -0,0 +1,151 @@
@@ -1086,7 +1086,7 @@ index 000000000000..e5466b642e87
 +
 +--------------------------------------------------------------------------
 diff --git a/check_whence.py b/check_whence.py
-index 357c1311cf5a..bdb3aa14b8a1 100755
+index 357c1311c..bdb3aa14b 100755
 --- a/check_whence.py
 +++ b/check_whence.py
 @@ -4,8 +4,8 @@ import os, re, stat, sys
@@ -1163,7 +1163,7 @@ index 357c1311cf5a..bdb3aa14b8a1 100755
          if stat.S_ISDIR(mode):
              if not (
 diff --git a/copy-firmware.sh b/copy-firmware.sh
-index 6a32127e77cc..0bb82ded11ad 100755
+index 6a32127e7..0bb82ded1 100755
 --- a/copy-firmware.sh
 +++ b/copy-firmware.sh
 @@ -116,7 +116,7 @@ if test -e .git/config; then
@@ -1186,7 +1186,7 @@ index 6a32127e77cc..0bb82ded11ad 100755
      target="$(cd "$directory" && realpath -m -s "$t")"
 diff --git a/ea/gina24_301_asic.fw b/ea/gina24_301_asic.fw
 new file mode 100644
-index 000000000000..443b7263cc55
+index 000000000..443b7263c
 --- /dev/null
 +++ b/ea/gina24_301_asic.fw
 @@ -0,0 +1 @@
@@ -1194,7 +1194,7 @@ index 000000000000..443b7263cc55
 \ No newline at end of file
 diff --git a/ea/gina24_361_asic.fw b/ea/gina24_361_asic.fw
 new file mode 100644
-index 000000000000..b571a51ed47a
+index 000000000..b571a51ed
 --- /dev/null
 +++ b/ea/gina24_361_asic.fw
 @@ -0,0 +1 @@
@@ -1202,7 +1202,7 @@ index 000000000000..b571a51ed47a
 \ No newline at end of file
 diff --git a/ea/layla24_1_asic.fw b/ea/layla24_1_asic.fw
 new file mode 100644
-index 000000000000..343725f43a1d
+index 000000000..343725f43
 --- /dev/null
 +++ b/ea/layla24_1_asic.fw
 @@ -0,0 +1,2 @@
@@ -1211,7 +1211,7 @@ index 000000000000..343725f43a1d
 \ No newline at end of file
 diff --git a/ea/layla24_2A_asic.fw b/ea/layla24_2A_asic.fw
 new file mode 100644
-index 000000000000..6f1d98a25b23
+index 000000000..6f1d98a25
 --- /dev/null
 +++ b/ea/layla24_2A_asic.fw
 @@ -0,0 +1 @@
@@ -1219,7 +1219,7 @@ index 000000000000..6f1d98a25b23
 \ No newline at end of file
 diff --git a/ea/layla24_2S_asic.fw b/ea/layla24_2S_asic.fw
 new file mode 100644
-index 000000000000..d7cc93d80a2d
+index 000000000..d7cc93d80
 --- /dev/null
 +++ b/ea/layla24_2S_asic.fw
 @@ -0,0 +1 @@
@@ -1227,7 +1227,7 @@ index 000000000000..d7cc93d80a2d
 \ No newline at end of file
 diff --git a/ea/mona_2_asic.fw b/ea/mona_2_asic.fw
 new file mode 100644
-index 000000000000..e19c6e75e72e
+index 000000000..e19c6e75e
 --- /dev/null
 +++ b/ea/mona_2_asic.fw
 @@ -0,0 +1 @@
@@ -1235,7 +1235,7 @@ index 000000000000..e19c6e75e72e
 \ No newline at end of file
 diff --git a/ea/mona_301_1_asic_48.fw b/ea/mona_301_1_asic_48.fw
 new file mode 100644
-index 000000000000..515db15ee322
+index 000000000..515db15ee
 --- /dev/null
 +++ b/ea/mona_301_1_asic_48.fw
 @@ -0,0 +1,2 @@
@@ -1244,7 +1244,7 @@ index 000000000000..515db15ee322
 \ No newline at end of file
 diff --git a/ea/mona_301_1_asic_96.fw b/ea/mona_301_1_asic_96.fw
 new file mode 100644
-index 000000000000..03a7f2fb5d2b
+index 000000000..03a7f2fb5
 --- /dev/null
 +++ b/ea/mona_301_1_asic_96.fw
 @@ -0,0 +1,2 @@
@@ -1253,7 +1253,7 @@ index 000000000000..03a7f2fb5d2b
 \ No newline at end of file
 diff --git a/ea/mona_361_1_asic_48.fw b/ea/mona_361_1_asic_48.fw
 new file mode 100644
-index 000000000000..6c5ede5322de
+index 000000000..6c5ede532
 --- /dev/null
 +++ b/ea/mona_361_1_asic_48.fw
 @@ -0,0 +1 @@
@@ -1261,7 +1261,7 @@ index 000000000000..6c5ede5322de
 \ No newline at end of file
 diff --git a/ea/mona_361_1_asic_96.fw b/ea/mona_361_1_asic_96.fw
 new file mode 100644
-index 000000000000..55c1d6b660e9
+index 000000000..55c1d6b66
 --- /dev/null
 +++ b/ea/mona_361_1_asic_96.fw
 @@ -0,0 +1,2 @@
@@ -1270,7 +1270,7 @@ index 000000000000..55c1d6b660e9
 \ No newline at end of file
 diff --git a/fw_source/Makefile b/fw_source/Makefile
 new file mode 100644
-index 000000000000..77ad927696cb
+index 000000000..77ad92769
 --- /dev/null
 +++ b/fw_source/Makefile
 @@ -0,0 +1,14 @@
@@ -1290,7 +1290,7 @@ index 000000000000..77ad927696cb
 +update: build install clean
 diff --git a/fw_source/echoaudio/ASIC/3G_ASIC.c b/fw_source/echoaudio/ASIC/3G_ASIC.c
 new file mode 100644
-index 000000000000..39063c4cb861
+index 000000000..39063c4cb
 --- /dev/null
 +++ b/fw_source/echoaudio/ASIC/3G_ASIC.c
 @@ -0,0 +1,9885 @@
@@ -11181,7 +11181,7 @@ index 000000000000..39063c4cb861
 +//
 diff --git a/fw_source/echoaudio/ASIC/Gina24ASIC.c b/fw_source/echoaudio/ASIC/Gina24ASIC.c
 new file mode 100644
-index 000000000000..304257e0a7bd
+index 000000000..304257e0a
 --- /dev/null
 +++ b/fw_source/echoaudio/ASIC/Gina24ASIC.c
 @@ -0,0 +1,3936 @@
@@ -15123,7 +15123,7 @@ index 000000000000..304257e0a7bd
 +//
 diff --git a/fw_source/echoaudio/ASIC/Gina24ASIC_361.c b/fw_source/echoaudio/ASIC/Gina24ASIC_361.c
 new file mode 100644
-index 000000000000..342bfb430855
+index 000000000..342bfb430
 --- /dev/null
 +++ b/fw_source/echoaudio/ASIC/Gina24ASIC_361.c
 @@ -0,0 +1,3936 @@
@@ -19065,7 +19065,7 @@ index 000000000000..342bfb430855
 +//
 diff --git a/fw_source/echoaudio/ASIC/Layla24_1ASIC.c b/fw_source/echoaudio/ASIC/Layla24_1ASIC.c
 new file mode 100644
-index 000000000000..9f4d9907e28f
+index 000000000..9f4d9907e
 --- /dev/null
 +++ b/fw_source/echoaudio/ASIC/Layla24_1ASIC.c
 @@ -0,0 +1,3936 @@
@@ -23007,7 +23007,7 @@ index 000000000000..9f4d9907e28f
 +//
 diff --git a/fw_source/echoaudio/ASIC/Layla24_2A_ASIC.c b/fw_source/echoaudio/ASIC/Layla24_2A_ASIC.c
 new file mode 100644
-index 000000000000..755d5303b42d
+index 000000000..755d5303b
 --- /dev/null
 +++ b/fw_source/echoaudio/ASIC/Layla24_2A_ASIC.c
 @@ -0,0 +1,3936 @@
@@ -26949,7 +26949,7 @@ index 000000000000..755d5303b42d
 +//
 diff --git a/fw_source/echoaudio/ASIC/Layla24_2S_ASIC.c b/fw_source/echoaudio/ASIC/Layla24_2S_ASIC.c
 new file mode 100644
-index 000000000000..4cd3939a5ccc
+index 000000000..4cd3939a5
 --- /dev/null
 +++ b/fw_source/echoaudio/ASIC/Layla24_2S_ASIC.c
 @@ -0,0 +1,3936 @@
@@ -30891,7 +30891,7 @@ index 000000000000..4cd3939a5ccc
 +//
 diff --git a/fw_source/echoaudio/ASIC/LaylaASIC.c b/fw_source/echoaudio/ASIC/LaylaASIC.c
 new file mode 100644
-index 000000000000..2c0d363efd13
+index 000000000..2c0d363ef
 --- /dev/null
 +++ b/fw_source/echoaudio/ASIC/LaylaASIC.c
 @@ -0,0 +1,4082 @@
@@ -34979,7 +34979,7 @@ index 000000000000..2c0d363efd13
 +};
 diff --git a/fw_source/echoaudio/ASIC/Mona1ASIC48.c b/fw_source/echoaudio/ASIC/Mona1ASIC48.c
 new file mode 100644
-index 000000000000..0ead5700aae0
+index 000000000..0ead5700a
 --- /dev/null
 +++ b/fw_source/echoaudio/ASIC/Mona1ASIC48.c
 @@ -0,0 +1,3933 @@
@@ -38918,7 +38918,7 @@ index 000000000000..0ead5700aae0
 +};
 diff --git a/fw_source/echoaudio/ASIC/Mona1ASIC48_361.c b/fw_source/echoaudio/ASIC/Mona1ASIC48_361.c
 new file mode 100644
-index 000000000000..095604e013a9
+index 000000000..095604e01
 --- /dev/null
 +++ b/fw_source/echoaudio/ASIC/Mona1ASIC48_361.c
 @@ -0,0 +1,3936 @@
@@ -42860,7 +42860,7 @@ index 000000000000..095604e013a9
 +//
 diff --git a/fw_source/echoaudio/ASIC/Mona1ASIC96.c b/fw_source/echoaudio/ASIC/Mona1ASIC96.c
 new file mode 100644
-index 000000000000..e199191a6772
+index 000000000..e199191a6
 --- /dev/null
 +++ b/fw_source/echoaudio/ASIC/Mona1ASIC96.c
 @@ -0,0 +1,3933 @@
@@ -46799,7 +46799,7 @@ index 000000000000..e199191a6772
 +};
 diff --git a/fw_source/echoaudio/ASIC/Mona1ASIC96_361.c b/fw_source/echoaudio/ASIC/Mona1ASIC96_361.c
 new file mode 100644
-index 000000000000..fd43b1477e66
+index 000000000..fd43b1477
 --- /dev/null
 +++ b/fw_source/echoaudio/ASIC/Mona1ASIC96_361.c
 @@ -0,0 +1,3936 @@
@@ -50741,7 +50741,7 @@ index 000000000000..fd43b1477e66
 +//
 diff --git a/fw_source/echoaudio/ASIC/Mona2ASIC.c b/fw_source/echoaudio/ASIC/Mona2ASIC.c
 new file mode 100644
-index 000000000000..40fdea52faa4
+index 000000000..40fdea52f
 --- /dev/null
 +++ b/fw_source/echoaudio/ASIC/Mona2ASIC.c
 @@ -0,0 +1,3933 @@
@@ -54680,7 +54680,7 @@ index 000000000000..40fdea52faa4
 +};
 diff --git a/fw_source/echoaudio/DSP/Darla20DSP.c b/fw_source/echoaudio/DSP/Darla20DSP.c
 new file mode 100644
-index 000000000000..20832687607b
+index 000000000..208326876
 --- /dev/null
 +++ b/fw_source/echoaudio/DSP/Darla20DSP.c
 @@ -0,0 +1,1110 @@
@@ -55796,7 +55796,7 @@ index 000000000000..20832687607b
 +// **** End of file ****
 diff --git a/fw_source/echoaudio/DSP/Darla24DSP.c b/fw_source/echoaudio/DSP/Darla24DSP.c
 new file mode 100644
-index 000000000000..f27851510844
+index 000000000..f27851510
 --- /dev/null
 +++ b/fw_source/echoaudio/DSP/Darla24DSP.c
 @@ -0,0 +1,975 @@
@@ -56777,7 +56777,7 @@ index 000000000000..f27851510844
 +// **** End of file ****
 diff --git a/fw_source/echoaudio/DSP/Echo3gDSP.c b/fw_source/echoaudio/DSP/Echo3gDSP.c
 new file mode 100644
-index 000000000000..9a505c80f95d
+index 000000000..9a505c80f
 --- /dev/null
 +++ b/fw_source/echoaudio/DSP/Echo3gDSP.c
 @@ -0,0 +1,2276 @@
@@ -59059,7 +59059,7 @@ index 000000000000..9a505c80f95d
 +// **** End of file ****
 diff --git a/fw_source/echoaudio/DSP/Gina20DSP.c b/fw_source/echoaudio/DSP/Gina20DSP.c
 new file mode 100644
-index 000000000000..2470ff30e83a
+index 000000000..2470ff30e
 --- /dev/null
 +++ b/fw_source/echoaudio/DSP/Gina20DSP.c
 @@ -0,0 +1,1226 @@
@@ -60291,7 +60291,7 @@ index 000000000000..2470ff30e83a
 +// **** End of file ****
 diff --git a/fw_source/echoaudio/DSP/Gina24DSP.c b/fw_source/echoaudio/DSP/Gina24DSP.c
 new file mode 100644
-index 000000000000..d395c593374f
+index 000000000..d395c5933
 --- /dev/null
 +++ b/fw_source/echoaudio/DSP/Gina24DSP.c
 @@ -0,0 +1,1434 @@
@@ -61731,7 +61731,7 @@ index 000000000000..d395c593374f
 +// **** End of file ****
 diff --git a/fw_source/echoaudio/DSP/Gina24_361DSP.c b/fw_source/echoaudio/DSP/Gina24_361DSP.c
 new file mode 100644
-index 000000000000..c3ac5bcefb87
+index 000000000..c3ac5bcef
 --- /dev/null
 +++ b/fw_source/echoaudio/DSP/Gina24_361DSP.c
 @@ -0,0 +1,1441 @@
@@ -63178,7 +63178,7 @@ index 000000000000..c3ac5bcefb87
 +// **** End of file ****
 diff --git a/fw_source/echoaudio/DSP/IndigoDJDSP.c b/fw_source/echoaudio/DSP/IndigoDJDSP.c
 new file mode 100644
-index 000000000000..0caa9afc25e2
+index 000000000..0caa9afc2
 --- /dev/null
 +++ b/fw_source/echoaudio/DSP/IndigoDJDSP.c
 @@ -0,0 +1,1053 @@
@@ -64237,7 +64237,7 @@ index 000000000000..0caa9afc25e2
 +// **** End of file ****
 diff --git a/fw_source/echoaudio/DSP/IndigoDJxDSP.c b/fw_source/echoaudio/DSP/IndigoDJxDSP.c
 new file mode 100644
-index 000000000000..8296166cad7b
+index 000000000..8296166ca
 --- /dev/null
 +++ b/fw_source/echoaudio/DSP/IndigoDJxDSP.c
 @@ -0,0 +1,1012 @@
@@ -65255,7 +65255,7 @@ index 000000000000..8296166cad7b
 +// **** End of file ****
 diff --git a/fw_source/echoaudio/DSP/IndigoDSP.c b/fw_source/echoaudio/DSP/IndigoDSP.c
 new file mode 100644
-index 000000000000..0c8d73f6559c
+index 000000000..0c8d73f65
 --- /dev/null
 +++ b/fw_source/echoaudio/DSP/IndigoDSP.c
 @@ -0,0 +1,997 @@
@@ -66258,7 +66258,7 @@ index 000000000000..0c8d73f6559c
 +// **** End of file ****
 diff --git a/fw_source/echoaudio/DSP/IndigoIODSP.c b/fw_source/echoaudio/DSP/IndigoIODSP.c
 new file mode 100644
-index 000000000000..0097a40d200f
+index 000000000..0097a40d2
 --- /dev/null
 +++ b/fw_source/echoaudio/DSP/IndigoIODSP.c
 @@ -0,0 +1,1086 @@
@@ -67350,7 +67350,7 @@ index 000000000000..0097a40d200f
 +// **** End of file ****
 diff --git a/fw_source/echoaudio/DSP/IndigoIOxDSP.c b/fw_source/echoaudio/DSP/IndigoIOxDSP.c
 new file mode 100644
-index 000000000000..a407fa06a84d
+index 000000000..a407fa06a
 --- /dev/null
 +++ b/fw_source/echoaudio/DSP/IndigoIOxDSP.c
 @@ -0,0 +1,1009 @@
@@ -68365,7 +68365,7 @@ index 000000000000..a407fa06a84d
 +// **** End of file ****
 diff --git a/fw_source/echoaudio/DSP/Layla20DSP.c b/fw_source/echoaudio/DSP/Layla20DSP.c
 new file mode 100644
-index 000000000000..4b3266f5a144
+index 000000000..4b3266f5a
 --- /dev/null
 +++ b/fw_source/echoaudio/DSP/Layla20DSP.c
 @@ -0,0 +1,1582 @@
@@ -69953,7 +69953,7 @@ index 000000000000..4b3266f5a144
 +// **** End of file ****
 diff --git a/fw_source/echoaudio/DSP/Layla24DSP.c b/fw_source/echoaudio/DSP/Layla24DSP.c
 new file mode 100644
-index 000000000000..c0d34bd31b32
+index 000000000..c0d34bd31
 --- /dev/null
 +++ b/fw_source/echoaudio/DSP/Layla24DSP.c
 @@ -0,0 +1,1783 @@
@@ -71742,7 +71742,7 @@ index 000000000000..c0d34bd31b32
 +// **** End of file ****
 diff --git a/fw_source/echoaudio/DSP/LoaderDSP.c b/fw_source/echoaudio/DSP/LoaderDSP.c
 new file mode 100644
-index 000000000000..0040e55662aa
+index 000000000..0040e5566
 --- /dev/null
 +++ b/fw_source/echoaudio/DSP/LoaderDSP.c
 @@ -0,0 +1,77 @@
@@ -71825,7 +71825,7 @@ index 000000000000..0040e55662aa
 +// **** End of file ****
 diff --git a/fw_source/echoaudio/DSP/MiaDSP.c b/fw_source/echoaudio/DSP/MiaDSP.c
 new file mode 100644
-index 000000000000..6fc01c425a28
+index 000000000..6fc01c425
 --- /dev/null
 +++ b/fw_source/echoaudio/DSP/MiaDSP.c
 @@ -0,0 +1,1310 @@
@@ -73141,7 +73141,7 @@ index 000000000000..6fc01c425a28
 +// **** End of file ****
 diff --git a/fw_source/echoaudio/DSP/Mona361DSP.c b/fw_source/echoaudio/DSP/Mona361DSP.c
 new file mode 100644
-index 000000000000..1192fb70711e
+index 000000000..1192fb707
 --- /dev/null
 +++ b/fw_source/echoaudio/DSP/Mona361DSP.c
 @@ -0,0 +1,1554 @@
@@ -74701,7 +74701,7 @@ index 000000000000..1192fb70711e
 +// **** End of file ****
 diff --git a/fw_source/echoaudio/DSP/MonaDSP.c b/fw_source/echoaudio/DSP/MonaDSP.c
 new file mode 100644
-index 000000000000..77ce1fdcdce9
+index 000000000..77ce1fdcd
 --- /dev/null
 +++ b/fw_source/echoaudio/DSP/MonaDSP.c
 @@ -0,0 +1,1546 @@
@@ -76253,7 +76253,7 @@ index 000000000000..77ce1fdcdce9
 +// **** End of file ****
 diff --git a/fw_source/echoaudio/Makefile b/fw_source/echoaudio/Makefile
 new file mode 100644
-index 000000000000..8b5b877084e3
+index 000000000..8b5b87708
 --- /dev/null
 +++ b/fw_source/echoaudio/Makefile
 @@ -0,0 +1,70 @@
@@ -76329,7 +76329,7 @@ index 000000000000..8b5b877084e3
 +	./fw_writer DSP/IndigoDJxDSP.c indigo_djx_dsp.fw
 diff --git a/fw_source/echoaudio/fw_writer.c b/fw_source/echoaudio/fw_writer.c
 new file mode 100644
-index 000000000000..bd712c705ea2
+index 000000000..bd712c705
 --- /dev/null
 +++ b/fw_source/echoaudio/fw_writer.c
 @@ -0,0 +1,109 @@
