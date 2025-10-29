@@ -9,7 +9,7 @@ Build-Depends: debhelper-compat (= 12), dh-exec, zstd, rdfind
 Vcs-Git: git://git.launchpad.net/ubuntu/+source/linux-firmware
 
 Package: linux-firmware
-Architecture: all
+Architecture: linux-any
 Multi-Arch: foreign
 Priority: optional
 Depends: ${misc:Depends}
