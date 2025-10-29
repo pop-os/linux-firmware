@@ -1,5 +1,6 @@
-linux-firmware (20251029.git4f72031f-0ubuntu1) resolute; urgency=medium
+linux-firmware (20251029.git4f72031f-0ubuntu1+system76) resolute; urgency=medium
 
+  [ Juerg Haefliger ]
   * Miscellaneous Ubuntu changes
     - Rebase to upstream commit 4f72031fc195b612d4d4a694383e0ef3e20cb562
       Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
@@ -40,7 +41,7 @@ linux-firmware (20251029.git4f72031f-0ubuntu1) resolute; urgency=medium
       - qcom: add ADSP firmware for kaanapali platform
       - linux-firmware: Update AMD cpu microcode
 
- -- Juerg Haefliger <juerg.haefliger@canonical.com>  Wed, 29 Oct 2025 08:30:32 +0100
+ -- Michael Murphy <michael@mmurphy.dev>  Wed, 29 Oct 2025 22:23:57 +0100
 
 linux-firmware (20251009.git46a6999a-0ubuntu1) resolute; urgency=medium
 
