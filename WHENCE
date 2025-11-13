@@ -1195,6 +1195,10 @@ Version: 93.44729d4e.0
 File: iwlwifi-bz-b0-fm-c0-97.ucode
 Version: 94.8049d69b.0
 
+File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-101.ucode
+Link: iwlwifi-bz-b0-fm-c0-101.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-101.ucode
+Version: 98.6ef20b19.0
+
 File: iwlwifi-bz-b0-fm-c0.pnvm
 
 File: iwlwifi-ma-b0-gf-a0-83.ucode
