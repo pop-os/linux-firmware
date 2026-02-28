@@ -1,0 +1,94 @@
+#!/bin/bash -eu
+#
+# Wrapper around dpkg-buildpackage
+#
+
+function out()
+{
+    local rc=${?}
+
+    trap - EXIT INT TERM HUP
+    if [ ${rc} -ne 0 ] ; then
+        echo "Error: Script failed" >&2
+    fi
+
+    exit "${rc}"
+}
+
+function usage()
+{
+	cat <<EOF
+Usage: $(basename "${0}") [-c] [-h] [-s] [option...]
+
+Build a Debian package.
+
+Optional arguments:
+  -c, --clean       Clean the git repo before the build.
+  -h, --help        Show this help text and exit.
+  -s, --skip-check  Skip branch name check.
+  option...         Additional options for dpkg-buildpackage.
+EOF
+}
+
+clean=0
+skip_check=0
+
+while [ ${#} -gt 0 ] ; do
+	case "${1}" in
+		-c|--clean)
+			clean=1
+			;;
+		-h|--help)
+			usage
+			exit
+			;;
+		-s|--skip-check)
+			skip_check=1
+			;;
+		*)
+			break
+			;;
+	esac
+	shift
+done
+
+
+if [ ${clean} -eq 1 ] && [ -n "$(git status --porcelain)" ] ; then
+	git reset --hard HEAD
+	git clean -dxf
+fi
+
+if [ -n "$(git status --porcelain)" ] ; then
+    echo "Repo is unclean" >&2
+    exit 1
+fi
+
+# Check that the release and branch names match
+release=$(dpkg-parsechangelog -SDistribution)
+branch=$(git rev-parse --abbrev-ref HEAD)
+if [ "${release}" != "${branch}" ] ; then
+	echo "Release and branch name mismatch (${release} != ${branch})" >&2
+	if [ ${skip_check} -eq 0 ] ; then
+		exit 1
+	fi
+fi
+
+trap out EXIT INT TERM HUP
+
+debian/scripts/create-quilt-series
+debian/scripts/apply-quilt-series
+
+# Default dpkg-builpackage options
+opts=(
+    "-i"  # Exclude revision control files and directories (diff)
+    "-I"  # Exclude revision control files and directories (tarball)
+)
+
+# Check if the orig tarball should be included
+version=$(dpkg-parsechangelog -SVersion)
+prev_version=$(dpkg-parsechangelog -SVersion -o1 -c1)
+if [ "${version%-*}" != "${prev_version%-*}" ] ; then
+    opts+=("-sa")  # Include the original source tarball
+fi
+
+dpkg-buildpackage "${opts[@]}" "${@}"

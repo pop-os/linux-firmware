@@ -1,0 +1,65 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+arch ?= $(shell dpkg-architecture -q DEB_HOST_ARCH)
+
+clean:
+	dh_testdir
+	dh_clean
+
+	# Run git-build-recipe scripts (only used in conjunction with
+	# Launchpad build recipes for special/unofficial builds)
+	for f in debian/git-build-recipe/* ; do \
+		if [ -f "$${f}" ] && [ -x "$${f}" ] ; then \
+			"$${f}" ; \
+		fi ; \
+	done
+
+export DH_OPTIONS
+
+install-linux-%: PACKAGE = linux-$*
+install-linux-%: DH_OPTIONS = -p$(PACKAGE)
+install-linux-%:
+	dh_testdir
+	dh_testroot
+	dh_prep
+
+	# Install firmware files
+	debian/scripts/install-firmware $(PACKAGE) $(ARCH)
+
+	# Replace duplicate firmware files with symlinks
+	debian/scripts/symlink-duplicates $(PACKAGE)
+
+	dh_installchangelogs
+	dh_installdocs
+
+	# Some license files are not ASCII encoded and are therefore ignored
+	# by dh_compress so compress them all explicitly
+	gzip -9n debian/$(PACKAGE)/usr/share/doc/$(PACKAGE)/licenses/*
+
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb -- -Znone
+
+install-arch: ARCH = $(arch)
+install-arch: install-linux-firmware
+
+install-indep:
+
+install: install-arch install-indep
+
+binary-arch: install-arch
+
+binary-indep: install-indep
+
+binary: binary-arch binary-indep
+
+# There's nothing to build
+build-indep:
+build-arch:
+build:
