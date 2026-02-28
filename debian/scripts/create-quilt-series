@@ -1,0 +1,93 @@
+#!/bin/bash -eu
+#
+# Create quilt patch series and include-binaries file
+#
+
+function out()
+{
+	local rc=${?}
+
+	trap - EXIT INT TERM HUP
+	if [ ${rc} -ne 0 ] ; then
+		echo "Error: Script failed" >&2
+	fi
+
+	exit "${rc}"
+}
+
+function add_file()
+{
+	local added=${1} name=${2}
+
+	if [ "${name#debian/}" != "${name}" ] ; then
+		# Ignore debian/* files
+		return
+	fi
+
+	if [ -h "${name}" ] ; then
+		# Symlink
+		BINARIES+=("${name}")
+		PATCHABLES+=("${name}")
+	elif [ "${added}" = "-" ] ; then
+		# Binary file
+		BINARIES+=("${name}")
+	else
+		# Patchable file
+		PATCHABLES+=("${name}")
+	fi
+}
+
+trap out EXIT INT TERM HUP
+
+# Current upstream commit
+version=$(dpkg-parsechangelog -Sversion)
+upstream=${version#*.git}
+upstream=${upstream%%-*}
+
+BINARIES=()
+PATCHABLES=()
+
+# Walk through all touched files and separate them into binaries that need to
+# be included and patchable files
+while IFS=$'\t' read -r added _ name ; do
+	case "${name}" in
+		*"{"*" => "*"}"*)
+			# Rename with path suffix/prefix:
+			# prefix/{old => new}/suffix
+			old=${name% => *}
+			new=${name#* => }
+			IFS="{" read -r prefix old_name <<<"${old}"
+			IFS="}" read -r new_name suffix <<<"${new}"
+			add_file "${added}" "${prefix}${old_name}${suffix}"
+			add_file "${added}" "${prefix}${new_name}${suffix}"
+			;;
+		*" => "*)
+			# Simple rename:
+			# old => new
+			old_name=${name% => *}
+			new_name=${name#* => }
+			add_file "${added}" "${old_name}"
+			add_file "${added}" "${new_name}"
+			;;
+		*)
+			# New file
+			add_file "${added}" "${name}"
+			;;
+	esac
+done < <(git diff --numstat "${upstream}")
+
+if [ ${#BINARIES[@]} -gt 0 ] ; then
+	echo "Create debian/source/include-binaries ..."
+	printf "%s\n" "${BINARIES[@]}" > debian/source/include-binaries
+fi
+
+rm -rf debian/patches
+install -d debian/patches
+
+if [ ${#PATCHABLES[@]} -gt 0 ] ; then
+	echo "Create debian/patches/ubuntu.patch ..."
+	for patchable in "${PATCHABLES[@]}" ; do
+		git diff "${upstream}" -- "${patchable}"
+	done > debian/patches/ubuntu.patch
+	echo ubuntu.patch > debian/patches/series
+fi

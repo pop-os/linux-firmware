@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 
-import os, re, stat, sys
+import os
+import re
+import stat
+import sys
 from io import open
 
 
-def list_whence():
-    with open("WHENCE", encoding="utf-8") as whence:
+def list_whence(whence_file):
+    with open(whence_file, encoding="utf-8") as whence:
         for line in whence:
             match = re.match(r'(?:RawFile|File|Source):\s*"(.*)"', line)
             if match:
@@ -32,8 +35,8 @@ def list_whence():
                         continue
 
 
-def list_whence_files():
-    with open("WHENCE", encoding="utf-8") as whence:
+def list_whence_files(whence_file):
+    with open(whence_file, encoding="utf-8") as whence:
         for line in whence:
             match = re.match(r"(?:RawFile|File):\s*(.*)", line)
             if match:
@@ -41,8 +44,8 @@ def list_whence_files():
                 continue
 
 
-def list_links_list():
-    with open("WHENCE", encoding="utf-8") as whence:
+def list_links_list(whence_file):
+    with open(whence_file, encoding="utf-8") as whence:
         for line in whence:
             match = re.match(r"Link:\s*(.*)", line)
             if match:
@@ -70,9 +73,13 @@ def list_git():
 
 def main():
     ret = 0
-    whence_list = list(list_whence())
-    whence_files = list(list_whence_files())
-    links_list = list(list_links_list())
+    whence_list = list(list_whence("WHENCE")) + list(list_whence("WHENCE.ubuntu"))
+    whence_files = list(list_whence_files("WHENCE")) + list(
+        list_whence_files("WHENCE.ubuntu")
+    )
+    links_list = list(list_links_list("WHENCE")) + list(
+        list_links_list("WHENCE.ubuntu")
+    )
     whence_links = list(zip(*links_list))[0]
     known_files = set(name for name in whence_list if not name.endswith("/")) | set(
         [
@@ -86,6 +93,7 @@ def main():
             "LICENSE",
             "README.md",
             "WHENCE",
+            "WHENCE.ubuntu",
             "build_packages.py",
             "check_whence.py",
             "contrib/process_linux_firmware.py",
@@ -184,6 +192,8 @@ def main():
             ret = 1
 
     for name in sorted(list(git_files - executable_files)):
+        if name.startswith("debian/"):
+            continue
         mode = os.stat(name).st_mode
         if stat.S_ISDIR(mode):
             if not (

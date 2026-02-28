@@ -1,0 +1,5 @@
+linux-firmware (20260221+system76) noble; urgency=medium
+
+  * Rebase on upstream tag 20260221
+
+ -- Jeremy Soller <jeremy@system76.com>  Sat, 28 Feb 2026 14:04:01 -0700

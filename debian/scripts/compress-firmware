@@ -1,0 +1,34 @@
+#!/bin/bash -eu
+#
+# Compress firmware blobs
+#
+
+if [ $# -ne 1 ] ; then
+	echo "Usage: compress-firmware <dirname>" >&2
+	exit 2
+fi
+
+if ! [ -d "${1}" ] ; then
+	echo "No such directory: ${1}" >&2
+	exit 1
+fi
+
+echo "Compress firmware files in ${1} ..."
+
+while IFS= read -r f ; do
+	if [ "${f%.xz}" = "${f}" ] ; then
+		xz -F xz -C crc32 "${f}"
+	fi
+done < <(find "${1}" -type f)
+
+echo "Recreate symlinks in ${1} ..."
+
+while IFS= read -r l ; do
+	if [ "${l%.xz}" = "${l}" ] ; then
+		t=$(readlink "${l}")
+		if ( cd "${l%/*}" && ! [ -d "${t}" ] ) ; then
+			ln -s "${t}".xz "${l}".xz
+			rm "${l}"
+		fi
+	fi
+done < <(find "${1}" -type l)

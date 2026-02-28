@@ -1,0 +1,126 @@
+#!/bin/bash -eu
+#
+# Close a release
+#
+
+function usage()
+{
+	cat <<EOF
+Usage: $(basename "${0}") [-h] [-r RELEASE] [-s SUFFIX]
+
+Close a release, i.e., create a release commit.
+
+Optional arguments:
+  -h, --help             Show this help text and exit.
+  -r, --release RELEASE  The package release name. Defaults to the current release
+                         if not provided.
+  --skip-check           Skip branch name check.
+  -s, --suffix SUFFIX    Generate the new package version by appending SUFFIX to
+                         the current version rather than incrementing the upload
+                         number by one.
+EOF
+}
+
+release=
+skip_check=0
+suffix=
+
+while [ ${#} -gt 0 ] ; do
+	case "${1}" in
+		-h|--help)
+			usage
+			exit
+			;;
+		-r|--release)
+			shift
+			release=${1}
+			;;
+		--skip-check)
+			skip_check=1
+			;;
+		-s|--suffix)
+			shift
+			suffix=${1}
+			;;
+		*)
+			echo "Invalid argument: ${1}" >&2
+			exit 2
+			;;
+	esac
+	shift
+done
+
+# Current upstream commit and version
+# shellcheck disable=SC1091
+. debian/upstream
+
+# Current package release and version
+if [ -z "${release}" ] ; then
+	release=$(dpkg-parsechangelog -SDistribution)
+fi
+version=$(dpkg-parsechangelog -SVersion)
+
+# Check that the release and branch names match
+branch=$(git rev-parse --abbrev-ref HEAD)
+if [ "${release}" != "${branch}" ] ; then
+	echo "Release and branch name mismatch (${release} != ${branch})" >&2
+	if [ ${skip_check} -eq 0 ] ; then
+		exit 1
+	fi
+fi
+
+# New release version and tag
+# shellcheck disable=SC2153
+if [ "${version%-*}" = "${VERSION}" ] ; then
+	if [ -n "${suffix}" ] ; then
+		# Append the provided suffix
+		new_version=${version}${suffix}
+	else
+		# Bump the upload number
+		upload=$(echo "${version}" | grep -o '[0-9]*$')
+		new_version=${version%"${upload}"}$((upload + 1))
+	fi
+else
+	# New upstream version
+	new_version="${VERSION}-0ubuntu1"
+
+	if [ -n "${suffix}" ] ; then
+		# Append the provided suffix
+		new_version=${version}${suffix}
+	fi
+fi
+new_tag="Ubuntu-${new_version}"
+new_tag=${new_tag//\~/_}
+
+# Check if the tag exists already
+if git rev-parse "${new_tag}" >/dev/null 2>&1 ; then
+	echo "Tag exists already: ${new_tag}" >&2
+	exit 1
+fi
+
+# Find the previous release commit (skip dummy versions ending in .0)
+prev_subject="UBUNTU: Ubuntu-${version%.0}"
+prev_commit=$(git log --format='%H %s' | \
+				  grep -m1 -P "^[0-9a-f]{40} ${prev_subject}$" || true)
+prev_commit=${prev_commit%% *}
+if [ -z "${prev_commit}" ] ; then
+	echo "Unable to find previous release commit: ${prev_subject}" >&2
+	exit 1
+fi
+
+# Add a new changelog section with all the new commit subjects since the
+# previous release
+{
+	echo "linux-firmware (${new_version}) ${release}; urgency=medium"
+	echo
+	debian/scripts/generate-changelog "${prev_commit}"..
+	echo
+	echo " -- ${DEBFULLNAME} <${DEBEMAIL}>  $(date -R)"
+	echo
+	cat debian/changelog
+} > debian/changelog.new
+mv debian/changelog.new debian/changelog
+
+# Commit the new release
+git commit -s -m "UBUNTU: Ubuntu-${new_version}" -- debian/changelog
+debian/scripts/tag-release
