@@ -1,4 +1,4 @@
-#!/bin/bash -eu
+#!/bin/bash -xeu
 #
 # Install firmware and license files into a package directory
 #
@@ -110,7 +110,7 @@ find "${firmware_dir}" -type d -empty -delete
 
 echo "  - Install licenses"
 
-install -m 0644 GPL-* "${licenses_dir}"
+install -m 0644 LICENSES/* "${licenses_dir}"
 
 while IFS= read -r item ; do
 	item=${item#./}
